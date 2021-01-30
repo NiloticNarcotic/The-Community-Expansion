@@ -1,0 +1,17 @@
+WCH_a_quiet_dinner_category = {
+	icon = GFX_decision_category_border_war
+	picture = GFX_VTY_political_fighting
+
+	allowed = {
+		original_tag = WCH
+	}
+	visible = {
+		has_country_flag = WCH_a_quiet_dinner_preparations
+	}
+
+	visible_when_empty = yes
+
+	priority = {
+		base = 15
+	}
+}

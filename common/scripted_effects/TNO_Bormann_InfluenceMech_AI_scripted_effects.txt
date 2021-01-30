@@ -1,0 +1,163 @@
+########################################################################
+##  ██████╗  ██████╗ ██████╗ ███╗   ███╗ █████╗ ███╗   ██╗███╗   ██╗  ##
+##  ██╔══██╗██╔═══██╗██╔══██╗████╗ ████║██╔══██╗████╗  ██║████╗  ██║  ##
+##  ██████╔╝██║   ██║██████╔╝██╔████╔██║███████║██╔██╗ ██║██╔██╗ ██║  ##
+##  ██╔══██╗██║   ██║██╔══██╗██║╚██╔╝██║██╔══██║██║╚██╗██║██║╚██╗██║  ##
+##  ██████╔╝╚██████╔╝██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║██║ ╚████║  ##
+##  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝  ##
+########################################################################
+
+
+###################################
+# BORMANN SIG AI DETERMINE TARGET #
+###################################
+
+##Cleaning Command; Used in BOR_SIG_AI_DetermineTarget to clear variables once unneeded
+#Args: n/a
+BOR_SIG_AI_DT_Clear = {
+	log = "[GetDateText]: [Root.GetName]: BOR_SIG_AI_DT_Clear; Executing."
+
+	clear_variable = BOR_SIG_AIWeights_sum_rdm
+	clear_array = BOR_SIG_AIWeights
+
+	log = "[GetDateText]: [Root.GetName]: BOR_SIG_AI_DT_Clear; Completed execution."
+
+}
+
+##Basic Command; Determines Target for SIG AI action
+#Args: BOR_SIG_AI_fi (faction index)
+BOR_SIG_AI_DetermineTarget = {
+	log = "[GetDateText]: [Root.GetName]: BOR_SIG_AI_DetermineTarget; Executing."
+	log = "[GetDateText]: [Root.GetName]: BOR_SIG_AI_DetermineTarget; Given BOR_SIG_AI_fi: [?BOR_SIG_AI_fi]"
+	
+	##Err Checks
+	#Handed invalid index
+	if = {
+		limit = {
+			NOT = { check_variable = { BOR_SIG_AI_fi = 0 } }
+			NOT = { check_variable = { BOR_SIG_AI_fi = 2 } }
+		}
+		log = "[ERROR]: [GetDateText]: [Root.GetName]: BOR_SIG_AI_DetermineTarget; Handed invalid index. Breaking."
+		BOR_SIG_AI_DT_Clear = yes
+		#break = yes	
+	}
+
+	##Array Instantiation
+	resize_array = {
+		array = BOR_SIG_AIWeights
+		value = 10
+		size = BOR_SIGType^n
+	}
+
+	##Weight Calculation
+	
+
+	##Weight Summing
+	set_variable = { BOR_SIG_AIWeights_sum = 0 }
+	
+	for_each_loop = {
+		array = BOR_SIG_AIWeights
+		value = val
+
+		add_to_variable = { BOR_SIG_AIWeights_sum = val }
+	}
+	
+	set_variable = { BOR_SIG_AIWeights_sum_rdm = random }
+	multiply_variable = { BOR_SIG_AIWeights_sum_rdm = BOR_SIG_AIWeights_sum }
+
+	##Target Determination
+	
+	set_variable = { BOR_SIG_AI_target = 0 }
+		
+	for_each_loop = {
+		array = BOR_SIG_AIWeights
+		value = val
+		index = i
+		break = break
+
+		if = {
+			limit = { check_variable = { BOR_SIG_AIWeights_sum_rdm > val } }
+			set_temp_variable = { break = 1 }
+		}
+		else = {
+			set_variable = { BOR_SIG_AI_target = i }
+		}
+	}
+
+	## Action
+	set_variable = { BOR_SIG_AIAction = random }
+	multiply_variable = { BOR_SIG_AIAction = 3 }
+	round_variable = BOR_SIG_AIAction
+
+	# For Logging
+	set_variable = { BOR_SIG_Log_Actor^0 = BOR_SIG_AI_fi	 }
+
+	# Action: AddPower to Target
+	if = {
+		limit = { check_variable = { BOR_SIG_AIAction = 0 } }
+
+		set_variable = { BOR_SIG_AP_i = BOR_SIG_AI_target }
+		set_variable = { BOR_SIG_AP_v = 5 }
+		BOR_SIG_AP_AddToFactionPower = yes
+	}
+	# Action: SubPower from Target
+	else_if = {
+		limit = { check_variable = { BOR_SIG_AIAction = 1 } }
+
+		set_variable = { BOR_SIG_AP_i = BOR_SIG_AI_target }
+		set_variable = { BOR_SIG_AP_v = -5 }
+		BOR_SIG_AP_AddToFactionPower = yes
+	}
+	# Action: AddLoyalty to Target against Self
+	else_if = {
+		limit = { check_variable = { BOR_SIG_AIAction = 2 } }
+
+		set_variable = { BOR_SIG_AL_i = BOR_SIG_AI_target }
+		set_variable = { BOR_SIG_AL_v = 3 }
+		set_variable = { BOR_SIG_AL_fi = BOR_SIG_AI_target }
+		BOR_SIG_AddLoyalty = yes
+	}
+	# Action: SubLoyalty from Target against Enemy (Con or Other Faction)
+	else_if = {
+		limit = { check_variable = { BOR_SIG_AIAction = 3 } }
+
+		set_variable = { BOR_SIG_AL_i = BOR_SIG_AI_target }
+		set_variable = { BOR_SIG_AL_v = 3 }
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						check_variable = { BOR_SIG_AI_target = 0 }
+						check_variable = { BOR_ReformistSupport > 50 }
+					}
+					AND = {
+						check_variable = { BOR_SIG_AI_target = 2 }
+						check_variable = { BOR_ReformistSupport > 50 }
+					}
+				}
+			}
+			set_variable = { BOR_SIG_AL_fi = BOR_SIG_AI_target }
+		}
+		else_if = {
+			limit = {
+				OR = {
+					AND = {
+						check_variable = { BOR_SIG_AI_target = 0 }
+						check_variable = { BOR_ReformistSupport < 50 }
+					}
+					AND = {
+						check_variable = { BOR_SIG_AI_target = 2 }
+						check_variable = { BOR_ReformistSupport < 50 }
+					}
+				}
+			}
+			set_variable = { BOR_SIG_AL_fi = 1 }
+		}
+		BOR_SIG_AddLoyalty = yes
+	}
+
+	##Cleaning
+	BOR_SIG_AI_DT_Clear = yes
+
+	log = "[GetDateText]: [Root.GetName]: BOR_SIG_AI_DetermineTarget; Completed execution."
+}

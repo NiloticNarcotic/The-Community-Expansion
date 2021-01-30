@@ -1,0 +1,103 @@
+RUS_strat_warlord_phase = {
+	enable = {
+		is_russian_nation = yes
+		NOT = {
+			OR = {
+				has_country_flag = RUS_superregional_stage
+				has_country_flag = RUS_regional_stage
+			}
+		}
+	}
+
+	abort = {
+		OR = {
+			has_country_flag = RUS_superregional_stage
+			has_country_flag = RUS_regional_stage
+		}
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = 500
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mobile
+		value = 500
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = elite_infantry
+		value = 150
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 250
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 300
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = light_infantry
+		value = 225
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mobile
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 20
+	}
+}
+
+RUS_strat_kill_onega = {
+	enable = {
+	is_russian_nation = yes
+	has_decision = WSR_invade_onega
+	NOT = {
+		has_country_flag = RUS_superregional_stage
+			}
+		}
+
+	abort = {
+		has_country_flag = RUS_superregional_stage
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = VTY
+		value = 100
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = VTY
+		value = 100
+	}

@@ -1,0 +1,189 @@
+defined_text = {
+	name = getAdWil_App
+	text = {
+		trigger = {
+			check_variable = { IRE.AdWilGerTrust > 0.59}
+		}
+		localization_key = AdWil_App_High
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { IRE.AdWilGerTrust < 0.60}
+				check_variable = { IRE.AdWilGerTrust > 0.39 }
+			}
+		}
+		localization_key = AdWil_App_Med
+	}
+	text = {
+		trigger = {
+			check_variable = { IRE.AdWilGerTrust < 0.40}
+		}
+		localization_key = AdWil_App_Low
+	}
+}
+
+defined_text = {
+	name = get_IRE_AdWil_desc
+	text = {
+		trigger = {
+			has_country_flag = AdWil_Ger
+		}
+		localization_key = IRE_AdWil_desc_Ger
+	}
+	text = {
+		trigger = {
+			has_country_flag = AdWil_OFN
+		}
+		localization_key = IRE_AdWil_desc_OFN
+	}
+	text = {
+		trigger = {
+			has_country_flag = AdWil_Celts
+		}
+		localization_key = IRE_AdWil_desc_Celts
+	}
+	text = {
+		trigger = {
+			has_country_flag = AdWil_Gov
+		}
+		localization_key = IRE_AdWil_desc_Gov
+	}
+}
+
+defined_text = {
+	name = get_IRE_AdWil_title
+	text = {
+		trigger = {
+			has_country_flag = AdWil_Ger
+		}
+		localization_key = IRE_AdWil_title_Ger
+	}
+	text = {
+		trigger = {
+			has_country_flag = AdWil_OFN
+		}
+		localization_key = IRE_AdWil_title_OFN
+	}
+	text = {
+		trigger = {
+			has_country_flag = AdWil_Celts
+		}
+		localization_key = IRE_AdWil_title_Celts
+	}
+	text = {
+		trigger = {
+			has_country_flag = AdWil_Gov
+		}
+		localization_key = IRE_AdWil_title_Gov
+	}
+}
+
+defined_text = {
+	name = get_AdWilState
+	text = {
+		trigger = {
+			113 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Dublin
+	}
+	text = {
+		trigger = {
+			1374 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Leinster
+	}
+	text = {
+		trigger = {
+			1357 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Louth
+	}
+	text = {
+		trigger = {
+			135 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Cork
+	}
+	text = {
+		trigger = {
+			1353 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Limerick
+	}
+	text = {
+		trigger = {
+			1354 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Kerry
+	}
+	text = {
+		trigger = {
+			134 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Gallaway
+	}
+	text = {
+		trigger = {
+			1352 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Claire
+	}
+	text = {
+		trigger = {
+			1358 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Westmeath
+	}
+	text = {
+		trigger = {
+			1315 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Derry
+	}
+	text = {
+		trigger = {
+			1356 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Sligo
+	}
+	text = {
+		trigger = {
+			1355 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Donegal
+	}
+	text = {
+		trigger = {
+			119 = {
+				has_state_flag = AdWilGoal
+			}
+		}
+		localization_key = get_AdWilState_Ulster
+	}
+
+}

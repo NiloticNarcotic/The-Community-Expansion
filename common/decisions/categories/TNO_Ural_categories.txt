@@ -1,0 +1,91 @@
+URL_militia_system = {
+	icon = GFX_decision_category_military_operation
+
+	picture = GFX_URL_decision_initiates
+
+	allowed = {
+		original_tag = URL
+	}
+
+	visible = {
+	}
+}
+
+URL_initiation_system = {
+	icon = GFX_decision_category_military_operation
+
+	picture = GFX_URL_decision_initiates
+
+	allowed = {
+		original_tag = URL
+	}
+
+	visible = {
+	}
+}
+
+URL_guard_system = {
+	icon = GFX_decision_category_military_operation
+
+	picture = GFX_URL_decision_initiates
+
+	allowed = {
+		original_tag = URL
+	}
+
+	visible = {
+		has_country_flag = URL_guards_accept_no_substitutes_flag
+	}
+}
+
+URL_orenburg_system = {
+	icon = GFX_decision_category_generic_political_actions
+
+	picture = GFX_decision_RUS_decision_political_situation
+
+	allowed = {
+		original_tag = URL
+	}
+
+	visible = {
+		has_country_flag = URL_orenburg_an_arrangement_for_our_survival_flag
+	}
+}
+
+URL_category_battle_of_the_urals = {
+	icon = GFX_decision_category_border_conflicts
+
+	picture = GFX_URL_decision_Ural_Guard
+
+	allowed  = {
+		tag = URL
+	}
+	visible = {
+	}
+}
+
+URL_counter_raids = {
+	icon = GFX_decision_category_border_conflicts
+
+	picture = GFX_URL_decision_initiates
+
+	allowed  = {
+		original_tag = URL
+	}
+	visible = {
+		has_country_flag = URL_counter_raids
+	}
+}
+
+URL_category_refugees = {
+	icon = GFX_decision_category_generic_crisis
+
+	picture = GFX_decision_DON_new_homeland
+
+	allowed  = {
+		tag = URL
+	}
+	visible = {
+		has_completed_focus = URL_the_refugees
+	}
+}

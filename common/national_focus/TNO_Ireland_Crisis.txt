@@ -1,0 +1,980 @@
+
+focus_tree = {
+    id = IRE_FT_Operation_Banner
+    country = {
+        factor = 0
+        modifier = {
+            add = 0
+            tag = IRE
+        }
+    }
+    default = no
+    shared_focus = IRE_FT_orange_devil
+}
+
+focus_tree = {
+    id = IRE_FT_Military_Government
+    country = {
+        factor = 0
+        modifier = {
+            add = 0
+            tag = IRE
+        }
+    }
+    default = no
+    shared_focus = IRE_FT_general_staffs_plan
+}
+
+focus_tree = {
+    id = IRE_FT_Investigation_Failed
+    country = {
+        factor = 0
+        modifier = {
+            add = 0
+            tag = IRE
+        }
+    }
+    default = no
+    shared_focus = IRE_FT_puppetmaster
+}
+
+focus_tree = {
+    id = IRE_Peaceful_Resolution
+    country = {
+        factor = 0
+        modifier = {
+            add = 0
+            tag = IRE
+        }
+    }
+    default = no
+    shared_focus = IRE_The_Minefield
+}
+
+focus_tree = {
+    id = IRE_blank_focus
+    country = {
+        factor = 0
+        modifier = {
+            add = 0
+            tag = IRE
+        }
+    }
+    default = no
+}
+
+### Operation Banner Chosen ###
+
+shared_focus = {
+	id = IRE_FT_orange_devil
+	icon = GFX_IRE_orange_devil
+	cost = 1
+	available = {
+	}	
+	x = 4
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_orange_devil"
+		custom_effect_tooltip = IRE_operation_banner.tt
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_calm_down
+	icon = GFX_IRE_just_calm_down
+	cost = 1.45
+	available = {
+	}	
+	x = -2
+	y = 1
+	relative_position_id = IRE_FT_orange_devil
+	
+	prerequisite = {
+		focus = IRE_FT_orange_devil
+	}
+	
+	mutually_exclusive = {
+		focus = IRE_FT_or_not
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_calm_down"
+		add_stability = -0.05
+		country_event = {
+			id = IRE_crisis.1
+		}
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_or_not
+	icon = GFX_generic_revolutionary_movement
+	cost = 1.45
+	available = {
+	}	
+	x = 2
+	y = 1
+	relative_position_id = IRE_FT_orange_devil
+	
+	prerequisite = {
+		focus = IRE_FT_orange_devil
+	}
+	
+	mutually_exclusive = {
+		focus = IRE_FT_calm_down
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_or_not"
+		add_war_support = 0.07
+		add_ideas = IRE_irish_defense_forces
+		## Not sure if should be added as timed or if will be removed post-war
+		country_event = { id = IRE_crisis.2 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_integrate_the_garda
+	icon = GFX_INS_deploy_the_police
+	cost = 1.45
+	available = {
+	}	
+	x = -1
+	y = 1
+	relative_position_id = IRE_FT_or_not
+	
+	prerequisite = {
+		focus = IRE_FT_or_not
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_integrate_the_garda"
+		hidden_effect = {
+			load_oob = IRE_garda_units
+		}
+		add_manpower = 13000
+		country_event = { id = IRE_crisis.3 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_ask_germany_for_help
+	icon = GFX_COG_Our_Friends_in_the_Homeland
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_integrate_the_garda
+	
+	prerequisite = {
+		focus = IRE_FT_integrate_the_garda
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_ask_germany_for_help"
+		if = {
+			limit = {
+				NOT = {
+					GER = { has_country_flag = heydrich_for_germany }
+				}
+			}
+			GER = { country_event = { id = IRE_crisis.4 } }
+		}
+		else_if = {
+			custom_effect_tooltip = IRE_get_german_guns.tt
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2400
+					producer = GER
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 500
+					producer = GER
+				}
+				add_equipment_to_stockpile = {
+					type = IFV_equipment
+					amount = 150
+					producer = GER
+				}
+				add_equipment_to_stockpile = {
+					type = MBT_equipment
+					amount = 50
+					producer = GER
+				}
+				add_equipment_to_stockpile = {
+					type = fighter_equipment
+					amount = 24
+					producer = GER
+				}
+				add_equipment_to_stockpile = {
+					type = attack_helicopter_equipment
+					amount = 60
+					producer = GER
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_belfast_blitz
+	icon = GFX_ANG_bomber_buildup
+	cost = 1.45
+	available = {
+	}	
+	x = 1
+	y = 1
+	relative_position_id = IRE_FT_or_not
+	
+	prerequisite = {
+		focus = IRE_FT_or_not
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_belfast_blitz"
+		add_ideas = IRE_irish_air_force_operations
+		country_event = { id = IRE_crisis.9 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_blockade_ulster
+	icon = GFX_SAF_air_and_naval_support
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_belfast_blitz
+	
+	prerequisite = {
+		focus = IRE_FT_belfast_blitz
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_blockade_ulster"
+		119 = {
+			damage_building = {
+				type = infrastructure
+				damage = 3
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_operation_casemate
+	icon = GFX_IRE_operation_casemate
+	cost = 1.45
+	available = {
+	}	
+	x = 1
+	y = 1
+	relative_position_id = IRE_FT_ask_germany_for_help
+	
+	prerequisite = {
+		focus = IRE_FT_ask_germany_for_help
+	}
+	prerequisite = {
+		focus = IRE_FT_blockade_ulster
+	}
+	
+	will_lead_to_war_with = ULS
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_operation_casemate"
+		add_war_support = 0.2
+		hidden_effect = {
+			leave_faction = yes
+			ULS = { leave_faction = yes }
+			end_puppet = ULS
+			#Incase ULS is still a puppet of IRE and both are in Pakt
+		}
+		set_country_flag = IRE_UVF_uprising
+		declare_war_on = {
+			target = ULS
+			type = annex_everything
+		}
+		activate_mission = IRE_crush_the_UVF
+	}
+}
+
+### Military Government ###
+
+shared_focus = {
+	id = IRE_FT_general_staffs_plan
+	icon = GFX_generic_writing
+	cost = 1.45
+	available = {
+	}	
+	x = 4
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_general_staffs_plan"
+		country_event = { id = IRE_crisis.8 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_new_emergency
+	icon = GFX_GER_Pakt_Wargames
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_general_staffs_plan
+	
+	prerequisite = {
+		focus = IRE_FT_general_staffs_plan
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_new_emergency"
+		add_stability = 0.15
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = -0.15
+		}
+		country_event = { id = IRE_crisis.10 }
+		hidden_effect = {
+			country_event = {
+				id = IRE_brigadiers.1
+				days = 35
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_dismantle_the_nic
+	icon = GFX_generic_suspend_constitution
+	cost = 1.45
+	available = {
+	}	
+	x = -1
+	y = 1
+	relative_position_id = IRE_FT_new_emergency
+	
+	prerequisite = {
+		focus = IRE_FT_new_emergency
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_dismantle_the_nic"
+		add_stability = -0.05
+		country_event = { id = IRE_crisis.11 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_purge_the_infiltrators
+	icon = GFX_CAU_The_Government_Purge
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_dismantle_the_nic
+	
+	prerequisite = {
+		focus = IRE_FT_dismantle_the_nic
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_purge_the_infiltrators"
+		add_war_support = 0.07
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_german_methods
+	icon = GFX_TNO_generic_prison
+	cost = 1.45
+	available = {
+	}	
+	x = 1
+	y = 1
+	relative_position_id = IRE_FT_new_emergency
+	
+	prerequisite = {
+		focus = IRE_FT_new_emergency
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_german_methods"
+		add_stability = 0.05
+		add_ideas = IRE_german_methods
+		country_event = { id = IRE_crisis.12 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_irish_gestapo
+	icon = GFX_TNO_generic_investigation
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_german_methods
+	
+	prerequisite = {
+		focus = IRE_FT_german_methods
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_irish_gestapo"
+		add_manpower = -250
+		country_event = { id = IRE_crisis.13 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_armageddon
+	icon = GFX_IRE_armageddon
+	cost = 1.45
+	available = {
+	}	
+	x = 1
+	y = 1
+	relative_position_id = IRE_FT_purge_the_infiltrators
+	
+	prerequisite = {
+		focus = IRE_FT_purge_the_infiltrators
+	}
+	prerequisite = {
+		focus = IRE_FT_irish_gestapo
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_armageddon"
+		country_event = { id = IRE_crisis.14 }
+		hidden_effect = {
+			ULS = { country_event = { id = IRE_crisis.15 } }
+
+		}
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_put_blaney_on_trial
+	icon = GFX_generic_trials
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_armageddon
+	allow_branch = {
+		has_completed_focus = IRE_FT_armageddon
+	}
+	prerequisite = {
+		focus = IRE_FT_armageddon
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_put_blaney_on_trial"
+		country_event = { id = IRE_crisis.16 }
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_regime_of_the_brigadiers
+	icon = GFX_IRE_regime_of_the_brigadiers
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_put_blaney_on_trial
+	allow_branch = {
+		has_completed_focus = IRE_FT_put_blaney_on_trial
+	}
+	prerequisite = {
+		focus = IRE_FT_put_blaney_on_trial
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_regime_of_the_brigadiers"
+		country_event = { id = IRE_crisis.17 }
+	}
+}
+
+### Investigation Failed Saor Eire ###
+
+
+shared_focus = {
+	id = IRE_FT_puppetmaster
+	icon = GFX_IRE_puppetmaster
+	cost = 1
+	available = {
+	}	
+	x = 4
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_puppetmaster"
+		custom_effect_tooltip = IRE_puppetmaster.tt
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_revolution
+	icon = GFX_IRE_revolution
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_puppetmaster
+	
+	prerequisite = {
+		focus = IRE_FT_puppetmaster
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_revolution"
+		country_event = { id = IRE_crisis.18 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_negotiations
+	icon = GFX_generic_diplomacy_political
+	cost = 1.45
+	available = {
+	}	
+	x = -1
+	y = 1
+	relative_position_id = IRE_FT_revolution
+	
+	prerequisite = {
+		focus = IRE_FT_revolution
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_negotiations"
+		country_event = { id = IRE_crisis.19 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_expel_german_advisors
+	icon = GFX_german_advisors
+	cost = 1.45
+	available = {
+		has_country_flag = IRE_CF_NegotiationsT1
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_negotiations
+	
+	prerequisite = {
+		focus = IRE_FT_negotiations
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_expel_german_advisors"
+		country_event = { id = IRE_crisis.20 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_withdraw_from_the_pakt
+	icon = GFX_NOR_tear_down_the_nazi_codes
+	cost = 1.45
+	available = {
+		has_country_flag = IRE_CF_NegotiationsT1
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_expel_german_advisors
+	
+	prerequisite = {
+		focus = IRE_FT_expel_german_advisors
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_withdraw_from_the_pakt"
+		leave_faction = yes
+		custom_effect_tooltip = IRE_withdraw_from_the_pakt_tooltip
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = -0.13
+		}
+		add_popularity = {
+			ideology = despotism
+			popularity = -0.08
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.04
+		}
+		hidden_effect = {
+			set_country_flag = IRE_CF_AdWill_disabled
+			IRE = { multiply_variable = { GDP = 0.80 } } #20% GDP reduction, adjust as needed
+			remove_ideas = Pakt_Bundnispartner
+			remove_ideas = Pakt_Observer
+			country_event = { id = IRE_crisis.58 days = 1 }
+			GER = {
+				country_event = { id = IRE_crisis.57 days = 1 }
+			}
+		}
+		add_to_variable = { mog_app = -12.5 }
+		custom_effect_tooltip = IRE_lose_app_devastating.tt
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_preparations
+	icon = GFX_TNO_Generic_Combined_Arms
+	cost = 1.45
+	available = {
+		NOT = { has_country_flag = IRE_Negotiations_Fail }
+	}	
+	x = 1
+	y = 1
+	relative_position_id = IRE_FT_revolution
+	
+	prerequisite = {
+		focus = IRE_FT_revolution
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_preparations"
+		add_war_support = 0.1
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_call_up_the_reserves
+	icon = GFX_TNO_generic_civilian_auxillaries
+	cost = 1.45
+	available = {
+		NOT = { has_country_flag = IRE_Negotiations_Fail }
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_preparations
+	
+	prerequisite = {
+		focus = IRE_FT_preparations
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_call_up_the_reserves"
+		add_manpower = 20000
+		country_event = { id = IRE_crisis.21 }
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_law_and_order
+	icon = GFX_generic_change_law_enforcement
+	cost = 1.45
+	available = {
+		NOT = { has_country_flag = IRE_Negotiations_Fail }
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_FT_call_up_the_reserves
+	
+	prerequisite = {
+		focus = IRE_FT_call_up_the_reserves
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_law_and_order"
+		country_event = { id = IRE_crisis.22 }
+		IRE = {
+			transfer_state = 135
+			transfer_state = 1353
+			transfer_state = 1315
+		}
+		hidden_effect = {
+			ULS = {
+				delete_unit = {
+        			state = 1353
+            		disband = no
+				}
+				delete_unit = {
+        			state = 135
+            		disband = no
+				}
+				delete_unit = {
+        			state = 1315
+            		disband = no
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = IRE_FT_enough_is_enough
+	icon = GFX_IRE_enough_is_enough
+	cost = 1.45
+	available = {
+		NOT = { has_country_flag = IRE_Negotiations_Fail }
+	}	
+	x = 1
+	y = 2
+	relative_position_id = IRE_FT_withdraw_from_the_pakt
+	
+	prerequisite = {
+		focus = IRE_FT_withdraw_from_the_pakt
+	}
+
+	prerequisite = {
+		focus = IRE_FT_law_and_order
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_enough_is_enough"
+		country_event = { id = IRE_crisis.23 }
+		add_stability = 0.2
+		add_war_support = 0.1
+		clr_country_flag = IRE_SE_uprising
+	}
+}
+
+shared_focus = {
+	id = IRE_The_Minefield
+	icon = GFX_IRE_the_minefield
+	cost = 1.45
+	available = {
+	}	
+	x = 4
+	y = 0
+	
+	prerequisite = {
+	}
+	
+	completion_reward = {
+		country_event = { id = IRE_crisis.50 }
+	}
+}
+
+shared_focus = {
+	id = IRE_Stormont_Emergency_Meeting
+	icon = GFX_Generic_Political_Crisis
+	cost = 1.45
+	available = {
+	}	
+	x = -2
+	y = 1
+	relative_position_id = IRE_The_Minefield
+
+	prerequisite = {
+		focus = IRE_The_Minefield
+	}
+
+	completion_reward = {
+		country_event = { id = IRE_crisis.24 }
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = IRE_Appease_The_Moderates
+	icon = GFX_generic_conservative_constitution
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_Stormont_Emergency_Meeting
+
+	prerequisite = {
+		focus = IRE_Stormont_Emergency_Meeting
+	}
+
+	completion_reward = {
+		add_stability = 0.025
+	}
+}
+
+shared_focus = {
+	id = IRE_Control_The_NIC
+	icon = GFX_generic_political_oppression
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_The_Minefield
+
+	prerequisite = {
+		focus = IRE_The_Minefield
+	}
+
+	completion_reward = {
+		add_stability = 0.1
+	}
+}
+
+shared_focus = {
+	id = IRE_Arrest_Troublemakers
+	icon = GFX_TNO_generic_riot_police
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_Control_The_NIC
+
+	prerequisite = {
+		focus = IRE_Control_The_NIC
+	}
+
+	completion_reward = {
+		country_event = { id = IRE_crisis.25 }
+		add_stability = -0.07
+	}
+}
+
+shared_focus = {
+	id = IRE_Prevent_Leaks
+	icon = GFX_generic_silencing_people
+	cost = 1.45
+	available = {
+	}	
+	x = 2
+	y = 1
+	relative_position_id = IRE_The_Minefield
+
+	prerequisite = {
+		focus = IRE_The_Minefield
+	}
+
+	completion_reward = {
+		if = {
+			limit = {
+				OR = {
+					has_idea = tno_press_rights_free_press
+					has_idea = tno_press_rights_censored_press
+				}
+			}
+			tno_press_rights_worsen = yes
+		}
+		if = {
+			limit = { has_idea = tno_press_rights_state_press_only }
+			tno_security_improve = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = IRE_Burn_Evidence
+	icon = GFX_IBR_burning_paperwork
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_Prevent_Leaks
+
+	prerequisite = {
+		focus = IRE_Prevent_Leaks
+	}
+
+	completion_reward = {
+		country_event = { id = IRE_crisis.26 }
+	}
+}
+
+shared_focus = {
+	id = IRE_Negotiating_is_Non_Negotiable
+	icon = GFX_BRT_Negotiate_With_Clique
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_Arrest_Troublemakers
+
+	prerequisite = {
+		focus = IRE_Arrest_Troublemakers
+	}
+	prerequisite = {
+		focus = IRE_Burn_Evidence
+	}
+	prerequisite = {
+		focus = IRE_Appease_The_Moderates
+	}
+
+	completion_reward = {
+		country_event = { id = IRE_crisis.27 }
+	}
+}
+
+shared_focus = {
+	id = IRE_German_Question
+	icon = GFX_TNO_generic_germany
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_Negotiating_is_Non_Negotiable
+
+	prerequisite = {
+		focus = IRE_Negotiating_is_Non_Negotiable
+		}
+
+	completion_reward = {
+		country_event = { id = IRE_crisis.60 }
+		custom_effect_tooltip = IRE_withdraw_from_the_pakt_tooltip
+		IRE = { leave_faction = yes }
+		hidden_effect = {
+			GER = {
+				country_event = { id = IRE_crisis.59 }
+			}
+			set_country_flag = IRE_CF_AdWill_disabled
+			IRE = { multiply_variable = { GDP = 0.80 } } #20% GDP reduction, adjust as needed
+			remove_ideas = Pakt_Bundnispartner
+			remove_ideas = Pakt_Observer
+		}
+	}
+}
+
+shared_focus = {
+	id = IRE_Peace_In_Our_Time
+	icon = GFX_IRE_Peace_In_Our_Time
+	cost = 1.45
+	available = {
+	}	
+	x = 0
+	y = 1
+	relative_position_id = IRE_German_Question
+
+	prerequisite = {
+		focus = IRE_German_Question
+		}
+
+	completion_reward = {
+		country_event = { id = IRE_crisis.31 }
+		add_stability = 0.25
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.1
+		}
+		ULS = {
+			drop_cosmetic_tag = yes
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.7
+			}
+		}
+	}
+}
