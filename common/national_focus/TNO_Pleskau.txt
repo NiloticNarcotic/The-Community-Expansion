@@ -1,0 +1,268 @@
+focus_tree = {
+	id = pleskau_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PSK
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = PSK_the_blackest_night
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		#relative_position_id = AST_empower_the_workers#
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_political_power = 5
+		}
+        ai_will_do = {
+		}
+    }
+    focus = {
+		id = PSK_our_eternal_struggle
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = PSK_the_blackest_night }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_stability = 0.07
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = PSK_fill_the_reserves
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = PSK_our_eternal_struggle }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 
+			add_stability 
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = PSK_using_the_undesirables
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = PSK_fill_the_reserves }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 10000
+			army_attack_factor = 0.1
+            army_defence_factor  = 0.1
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = PSK_remembering_the_beginning
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = PSK_our_eternal_struggle }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        add_equipment_to_stockpile = {
+
+        type = infantry_equipment
+
+        amount = 1000
+	}	
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = PSK_to_the_bitter_end
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = PSK_remembering_the_beginning }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        add_equipment_to_stockpile = {
+
+        type = infantry_equipment
+
+        amount = 1000
+	}	
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = PSK_using_the_camps
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = PSK_our_eternal_struggle }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        add_equipment_to_stockpile = {
+
+        type = infantry_equipment
+
+        amount = 1000
+	}	
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = PSK_fill_the_factories
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = PSK_using_the_camps }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 2000
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = PSK_from_dust_to_dust
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = PSK_using_the_undesirables }
+		prerequisite = { focus = PSK_to_the_bitter_end }
+		prerequisite = { focus = PSK_fill_the_factories }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        create_unit = { division = "name = \"2. Garrison\" division_template = \"Garrison\" start_experience_factor = 0.5"  owner = PSK } = 2
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+}
