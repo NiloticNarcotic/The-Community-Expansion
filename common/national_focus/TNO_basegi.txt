@@ -1,0 +1,322 @@
+focus_tree = {
+	id = basegi_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BBB
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = BBB_the_black_brigades
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		#relative_position_id = AST_empower_the_workers#
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_political_power = 5
+		}
+        ai_will_do = {
+		}
+    }
+    focus = {
+		id = BBB_fodder_for_our_weapons
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_the_black_brigades }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = -1000
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = BBB_no_room_for_opposition
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_fodder_for_our_weapons }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_political_power = 10
+			add_stability = 0.10
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = BBB_our_labor_pool
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_no_room_for_opposition }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 1000
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = BBB_take_what's_theirs
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_the_black_brigades }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        add_equipment_to_stockpile = {
+
+        type = infantry_equipment
+
+        amount = 1000
+	}	
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = BBB_steal_from_the_armories
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_take_what's_theirs }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        add_equipment_to_stockpile = {
+
+        type = infantry_equipment
+
+        amount = 1000
+	}	
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = BBB_send_out_collection_squads
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_steal_from_the_armories }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        add_equipment_to_stockpile = {
+
+        type = infantry_equipment
+
+        amount = 1000
+	}	
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = BBB_conscript_the_outliers
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_the_black_brigades }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 2000
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = BBB_make_them_into_soldiers
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_conscript_the_outliers }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        create_unit = { division = "name = \"2. Garrison\" division_template = \"Garrison\" start_experience_factor = 0.5"  owner = BBB } = 2
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	    focus = {
+		id = BBB_begin_the_raids
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_make_them_into_soldiers }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        add_equipment_to_stockpile = {
+
+        type = infantry_equipment
+
+        amount = 1000
+	}	
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+		    focus = {
+		id = BBB_begin_the_black_terror
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		#relative_position_id = AST_empower_the_workers#
+		
+
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_our_labor_pool }
+		prerequisite = { focus = BBB_send_out_collection_squads }
+		prerequisite = { focus = BBB_begin_the_raids }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_stability = 0.10
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+}
