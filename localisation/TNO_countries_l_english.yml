@@ -2261,12 +2261,17 @@
  RSB_socialism_DEF:0 "Red Star United Army"
  RSB_socialism_ADJ:0 "Russian"
 
+ 
  BBB_despotism:0 "Basegi Black Brigades"
  BBB_despotism_DEF:0 "The Basegi Black Brigades"
  BBB_despotism_ADJ:0 "Basegi"
  BBB_fascism:0 "Basegi Black Brigades"
  BBB_fascism_DEF:0 "The Basegi Black Brigades"
  BBB_fascism_ADJ:0 "Basegi"
+ BBB_ultranational_socialism:0 "Basegi Black Brigades"
+ BBB_ultranational_socialism_DEF:0 "The Basegi Black Brigades"
+ BBB_ultranational_socialism_ADJ:0 "Basegi"
+
 
  BSB_national_socialism:0 "Bogi Smerti"
  BSB_national_socialism_DEF:0 "The Bogi Smerti"
