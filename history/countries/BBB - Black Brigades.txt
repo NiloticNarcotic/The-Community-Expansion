@@ -1,4 +1,4 @@
-﻿capital = 401
+capital = 401
 
 oob = "MOS_1962"
 
@@ -92,7 +92,7 @@ set_research_slots = 3
 set_stability = 0.74
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = ultranational_socialism
 	last_election = "1941.4.17"
 	election_frequency = 48
 	elections_allowed = no
@@ -104,7 +104,7 @@ create_country_leader = {
 	desc = "POLITICS_VASILY_MORDAKOV_DESC"
 	picture = "Portrait_Black_Brigades_Vasily_Mordakov.dds"
 	expire = "1983.4.24"
-	ideology = fascism_subtype
+	ideology = ultranational_socialism_subtype
 	traits = {
 
 	}
@@ -125,14 +125,14 @@ create_corps_commander = {
 
 set_popularities = {
 	communist = 0
-	ultranational_socialism = 0
+	ultranational_socialism = 70
 	socialist = 0
 	social_democrat = 0
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 0
 	authoritarian_democrat = 0
-	despotism = 0
-	fascism = 100
+	despotism = 25
+	fascism = 5
 	burgundian_system = 0
 }
