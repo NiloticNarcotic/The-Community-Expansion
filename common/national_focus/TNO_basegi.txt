@@ -38,7 +38,7 @@ focus_tree = {
 		}
     }
     focus = {
-		id = BBB_fodder_for_our_weapons
+		id = BBB_learn_by_experience
 		icon = GFX_goal_unknown
 		x = 2
 		y = 2
@@ -75,7 +75,7 @@ focus_tree = {
 		}
 
 		cost = 5
-		prerequisite = { focus = BBB_fodder_for_our_weapons }
+		prerequisite = { focus = BBB_learn_by_experience }
 		
 		
 		cancel_if_invalid = yes
@@ -91,7 +91,7 @@ focus_tree = {
 		}
 	}
     focus = {
-		id = BBB_our_labor_pool
+		id = BBB_show_the_young_how_it's_done
 		icon = GFX_goal_unknown
 		x = 2
 		y = 4
@@ -117,7 +117,7 @@ focus_tree = {
 		}
 	}
     focus = {
-		id = BBB_take_what's_theirs
+		id = BBB_weapons_for_the_struggle
 		icon = GFX_goal_unknown
 		x = 4
 		y = 2
@@ -159,7 +159,7 @@ focus_tree = {
 		}
 
 		cost = 5
-		prerequisite = { focus = BBB_take_what's_theirs }
+		prerequisite = { focus = BBB_weapons_for_the_struggle }
 		
 		
 		cancel_if_invalid = yes
@@ -236,7 +236,7 @@ focus_tree = {
 		}
 	}
 	    focus = {
-		id = BBB_make_them_into_soldiers
+		id = BBB_teach_them_to_survive
 		icon = GFX_goal_unknown
 		x = 6
 		y = 3
@@ -273,7 +273,7 @@ focus_tree = {
 		}
 
 		cost = 5
-		prerequisite = { focus = BBB_make_them_into_soldiers }
+		prerequisite = { focus = BBB_teach_them_to_survive }
 		
 		
 		cancel_if_invalid = yes
@@ -293,7 +293,7 @@ focus_tree = {
 		}
 	}
 		    focus = {
-		id = BBB_begin_the_black_terror
+		id = BBB_commence_the_black_terror
 		icon = GFX_goal_unknown
 		x = 4
 		y = 5
@@ -304,7 +304,7 @@ focus_tree = {
 		}
 
 		cost = 5
-		prerequisite = { focus = BBB_our_labor_pool }
+		prerequisite = { focus = BBB_show_the_young_how_it's_done }
 		prerequisite = { focus = BBB_send_out_collection_squads }
 		prerequisite = { focus = BBB_begin_the_raids }
 		
