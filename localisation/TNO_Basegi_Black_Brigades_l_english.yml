@@ -8,8 +8,8 @@
  ### Parties ###
  BBB_fascism_party:0 "BCB"
  BBB_fascism_party_long:0 "Basegi Chernyye Brigady"
- BBB_despotism_party:0 "BCB"
- BBB_despotism_party_long:0 "Basegi Chernyye Brigady"
+ BBB_national_socialism_party:0 "BCB"
+ BBB_national_socialism_party_long:0 "Basegi Chernyye Brigady"
  BBB_ultranational_socialism_party:0 "BCB"
  BBB_ultranational_socialism_party_long:0 "Basegi Chernyye Brigady"
  
@@ -17,9 +17,9 @@
  BBB_fascism_ADJ:0 "Basegi Black Brigades"
  BBB_fascism:0 "Basegi Black Brigades"
  BBB_fascism_DEF:0 "Basegi Black Brigades"
- BBB_despotism_ADJ:0 "Basegi Black Brigades"
- BBB_despotism:0 "Basegi Black Brigades"
- BBB_despotism_DEF:0 "Basegi Black Brigades"
+ BBB_national_socialism_ADJ:0 "Basegi Black Brigades"
+ BBB_national_socialism:0 "Basegi Black Brigades"
+ BBB_national_socialism_DEF:0 "Basegi Black Brigades"
  BBB_ultranational_socialism_ADJ:0 "Basegi Black Brigades"
  BBB_ultranational_socialism:0 "Basegi Black Brigades"
  BBB_ultranational_socialism_DEF:0 "Basegi Black Brigades"
