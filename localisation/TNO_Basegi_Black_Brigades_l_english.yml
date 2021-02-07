@@ -43,7 +43,7 @@
  
  BBB_weapons_for_the_struggle:0 "Weapons for the Struggle"
  BBB_weapons_for_the_struggle_desc: "We shall steal from the German surpressers and show them our true strength. No more shall we be considered the "untermensch," for we will be revealed to be the "ubermensch." They are the true subhumans, and we will prove that by conquering their puny race entirely and seizing their equipment and raiding their armories while we're at it."
- 
+  
  BBB_send_out_collection_squads:0 "Send Out Collection Squads"
  BBB_send_out_collection_squads_desc: "We shall... "peacefully" seize any equipment from those who put up no resistance and surrender accordingly. If they are of strength, they shall be spared and incorporated into our forces. We will give them mercy as they are truly strong and deserve to be among us. Those who don't however..."
  
@@ -58,3 +58,6 @@
  
  BBB_commence_the_black_terror:0 "Commence the Black Terror"
  BBB_commence_the_black_terror_desc: "It is time for us to begin the Black Terror. This will be our show of strength across Moskowien, and we will dominate the entire area in full. Not one warlord shall be spared from our brutal reign, and we will show that we are superior of all of them. From Astrachan to Tichwin, we shall affirm our presence over the subhumans."
+ 
+ BBB_steal_from_the_armories:0 "Steal from the Armories"
+ BBB_steal_from_the_armories_desc:
