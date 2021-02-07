@@ -1,3 +1,5 @@
+##Based Black Brigades moment
+
 focus_tree = {
 	id = basegi_focus
 	
