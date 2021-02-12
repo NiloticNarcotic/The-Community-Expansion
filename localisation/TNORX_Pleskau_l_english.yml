@@ -1,0 +1,201 @@
+﻿l_english:
+ #Ideas#
+ PSK_Bitter:0 "To the Bitter End!"
+ PSK_Bitter_desc:0 "[placeholder]"
+ ### Ministers ###
+ PSK_Franz_Stangl_hog:0 "Franz Stangl"
+ PSK_Hermann_Hofle_for:0 "Hermann Höfle"
+ PSK_Erwin_Lambert_eco:0 "Erwin Lambert"
+ PSK_Richard_Thomalla_sec:0 "Richard Thomalla"
+ 
+ ### Parties ###
+ PSK_burgundian_system_party:0 "NSDAP - SS"
+ PSK_burgundian_system_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Schutzstaffel"
+
+ PSK_national_socialism_party:0 "NSDAP - SS Reformist Bureaucrats"
+ PSK_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Schutzstaffel Bürokraten Reformisten"
+
+ PSK_ultranational_socialism_party:0 "NSDAP - SS Russian Collaborators"
+ PSK_ultranational_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Schutzstaffel Russische Mitarbeiter"
+
+ PSK_socialist_party:0 "NOD"
+ PSK_socialist_party_long:0 "People's Liberation Movement"
+
+ PSK_communist_party:0 "BS(P)"
+ PSK_communist_party_long:0 "Bukharinskiy Soyuz Pleskova"
+
+ PSK_despotism_party:0 "(R)ARL"
+ PSK_despotism_party_long:0 "Assotsiatsiya Russkiy Legion"
+
+ PSK_fascism_party:0 "RLA(RA)"
+ PSK_fascism_party_long:0 "Rossiyskiy Legion Assotsiatsii Radikalov"
+ 
+ ### Country Names ###   
+ # Shutzstaffel Factions #
+
+ PSK_burgundian_system:0 "SS-Großkommando Pleskau"
+ PSK_burgundian_system_DEF:0 "SS-Großkommando Pleskau"
+ PSK_burgundian_system_ADJ:0 "Pleskaun"
+
+ PSK_national_socialism:0 "SS-Großkommando Pleskau"
+ PSK_national_socialism_DEF:0 "SS-Großkommando Pleskau"
+ PSK_national_socialism_ADJ:0 "Pleskaun"
+
+ PSK_ultranational_socialism:0 "SS-Großkommando Pleskau"
+ PSK_ultranational_socialism_DEF:0 "SS-Großkommando Pleskau"
+ PSK_ultranational_socialism_ADJ:0 "Pleskaun"
+
+ # Socialist Russia #
+
+ PSK_communist:0 "United Soviet Association"
+ PSK_communist_DEF:0 "United Soviet Association of Bukharinists in Russia"
+ PSK_communist_ADJ:0 "Soviet"
+
+ PSK_socialist:0 "United Partisan Movements"
+ PSK_socialism_DEF:0 "United Partisan Movements"
+ PSK_socialism_ADJ:0 "Russian"
+
+ # Democratic Russia
+
+ PSK_social_democrat:0 "Russian Republic"
+ PSK_social_democrat_DEF:0 "United Russian Republic"
+ PSK_social_democrat_ADJ:0 "Russian"
+
+ PSK_social_liberal:0 "Russian Republic"
+ PSK_social_liberal_DEF:0 "United Russian Republic"
+ PSK_social_liberal_ADJ:0 "Russian"
+
+ PSK_social_conservative:0 "Russian Republic"
+ PSK_social_conservative_DEF:0 "United Russian Republic"
+ PSK_social_conservative_ADJ:0 "Russian"
+
+ PSK_market_liberal:0 "Russian Republic"
+ PSK_market_liberal_DEF:0 "United Russian Republic"
+ PSK_market_liberal_ADJ:0 "Russian"
+
+ PSK_authoritarian_democrat:0 "Russian Republic"
+ PSK_authoritarian_democrat_DEF:0 "United Russian Republic"
+ PSK_authoritarian_democrat_ADJ:0 "Russian"
+
+ # Legionary Russia #
+ 
+ PSK_despotism:0 "Legionary Russia"
+ PSK_despotism_DEF:0 "Russian Legionary Union"
+ PSK_despotism_ADJ:0 "Legionary"
+
+ PSK_fascism:0 "Legionary Russia"
+ PSK_fascism_DEF:0 "Russian Legionary Union"
+ PSK_fascism_ADJ:0 "Legionary"
+
+ ### Focus Descriptions + Names ###
+ PSK_the_blackest_night:0 "The Blackest Night"
+ PSK_the_blackest_night_desc:0 "placeholder"
+ 
+ 
+ PSK_our_eternal_struggle:0 "Our Eternal Struggle"
+ PSK_our_eternal_struggle_desc:0 "placeholder"
+ 
+ PSK_fill_the_reserves:0 "Fill the Reserves"
+ PSK_fill_the_reserves_desc:0 "placeholder"
+ 
+ PSK_using_the_undesirables:0 "Using the Undesirables"
+ PSK_using_the_undesirables_desc:0 "placeholder"
+ 
+ PSK_remembering_the_beginning:0 "Remembering the Beginning"
+ PSK_remembering_the_beginning_desc:0 "placeholder"
+ 
+ PSK_to_the_bitter_end:0 "To the Bitter End!"
+ PSK_to_the_bitter_end_desc:0 "placeholder"
+ 
+ PSK_using_the_camps:0 "Using the Camps"
+ PSK_using_the_camps_desc:0 "placeholder"
+ 
+ PSK_fill_the_factories:0 "Fill the Factories"
+ PSK_fill_the_factories_desc:0 "placeholder"
+ 
+ PSK_from_dust_to_dust:0 "From Dust to Dust"
+ PSK_from_dust_to_dust_desc:0 "placeholder"
+
+ #Custom Tooltips#
+ tooltip_the_blackest_night:0 "§RThe Black Sun casts long shadows over Pleskau, and the earth trembles.§!"
+
+ tooltip_our_eternal_struggle:0 "§RFor time immemorial we have struggled against the foes of the new world order, now we cast off our chains.§!"
+
+ tooltip_fill_the_reserves:0 "§RAll aryan men to the final battle!§!"
+
+ tooltip_using_the_undesirables:0 "§RSubjugate the rest...§!"
+
+ tooltip_remembering_the_beginning:0 "§RRemember where we started...§!"
+
+ tooltip_to_the_bitter_end:0 "§RKnow where we are going...§!"
+
+ tooltip_using_the_camps:0 "§R Begin gathering 'dangerous slavs' into camps in preperation for future plans.§!"
+
+ tooltip_fill_the_factories:0 "§RIf they can labour, let them labour!§!"
+
+ tooltip_from_dust_to_dust:0 "§ROur domain secured, we step forwards over the ashes of old order.§!"
+
+ tooltip_event_pleskau_1:0 "§GAs focuses are completed, the country and it's subjects will be radically changed,§!§R the old order lies broken in two.§!"
+ 
+ tooltip_event_pleskau_2:0 "§GGain a minor bonus to stability.§!"
+
+ tooltip_event_pleskau_3:0 "§GWe will gain a boost to our reserves!§!"
+
+ tooltip_event_pleskau_4:0 "§GWe will gain a boost to our manpower and combat ability!§!"
+
+ tooltip_event_pleskau_5:0 "§GWe will gain a slight boost to our support for the war effort!§!"
+
+ tooltip_event_pleskau_6:0 "§GWe will gain a slight boost to our support for the war effort!§!"
+
+ tooltip_event_pleskau_7:0 "§GPartisan suppression will lead to a significant decrease in activity all across Pleskau!§!"
+
+ tooltip_event_pleskau_8:0 "§GWe will gain a boost to our industrial might!§!"
+ 
+ tooltip_event_pleskau_9:0 "§RThere is no turning back...§!"
+ #Events and shite#
+
+ #Shadows over Pleskau#
+ pleskau.1.a:0 "Shadows Over Pleskau"
+ pleskau.1.b:0 "placeholder"
+ pleskau.1.c:0 "Our work can finally begin."
+
+ #Victory Royale for the SS#
+ pleskau.2.a:0 "Victory for the Rightous"
+ pleskau.2.b:0 "placeholder"
+ pleskau.2.c:0 "The best is yet to come."
+
+ #Fill the Reserves#
+ pleskau.3.a:0 "Filling the Reserves"
+ pleskau.3.b:0 "placeholder"
+ pleskau.3.c:0 "One step closer."
+
+ #Using the Untermensch#
+ pleskau.4.a:0 "Blood and Soil"
+ pleskau.4.b:0 "[STRENG GEHEIM] \nTo SS-Führer Odilo Glonotschnigg \n\nFrom SS-Minister [ZENSIERTEN] \n\nMein Fürher, I am pleased to announce the relocation of Untermensch individuals, away from civilian and military positions and towards the agricultural sector is going as planned. Their replacement, by loyal and supe-rior individuals, which contain far greater intelligence and position management, have sworn their al-legiance to their SS, and are actively carrying out their duties. Moreover, this relocation has greatly increased our grain output, and with the process of relocation reaching the lower class, it can be said, with great confidence, that we expect a surplus of agricultural production, and a far more loyal, pure, and powerful Aryan Army. Although, there is an increase of partisan activity within the forests, it is not something the security battalions cannot handle. If we further pursue this aggressive slave agriculture policy, it can be expected that the Aryan Plan will be achieved, and a continuous grain supply will soon follow. \nHEIL GLONOTOSCHNIGG! \nREPORT CONCLUDED"
+ pleskau.4.c:0 "Splendid job!"
+
+ #Remembering 1923#
+ pleskau.5.a:0 "Remembering 1923"
+ pleskau.5.b:0 "8th of November. \nThe day the new order celebrates with immense pride and fervor. \nThe city of Pleskau itself, has exploded into lively celebrations, with hundreds of Germanophiles and SS supporters flooding the streets, to celebrate the day Hitler heroically attempted to overthrow the corrupt Judeo-Bolshevik kleptocracy, known as the Weimar Republic. Although, his attempt proved to be a complete failure, he would lay out the foundations for the glorious German Reich, and become the savior of Germany, the avenger of Versailles, the 2nd Bismarck. Even Odilo Globočnik and his cabinet, were celebrating that memorable day in his grandeur villa. \n“Gentlemen” Odilo Globočnik began, after he finished his meal. “Today is a day all of you should greatly remember. Adolf Hitler, the defender of the Germanic pride, has subdued the very Untermensch that tried to destroy him and Germany. However, his job is far from over, because… these Untermensch have infiltrated us.” As Odilo continued with his rhetoric, he approached a plain cylinder-vase, and carefully placed it in his arms. “Take a look at this vase.” he demanded, as he presented it towards the cabinet. “This, is a plain vase, right? It’s nothing but a hollow object, used for decorations, with no purpose or obligation to harm us whatsoever.” His eyes slowly drifted away from the vase, and towards the council. “If we compared it to us, it could be a useful collaborator, or even an honorary “Aryan”, right?” Odilo asked. A few murmurs of agreement followed on. \n“…” “WRONG!” Odilo interrupted abruptly, as he threw the vase to the ground, shattering it and spreading bits of glasses everywhere. All the cabinet could do, was look with horror, as he broke into an intense rant. “DON’T YOU UNDERSTAND? THIS IS THE VERY THING THAT THREATENED TO KILL OUR REICH; HELL, THIS IS THE THING THAT CAUSE THIS GODDAMN REICHKOMMISARIAT TO COLLAPSE IN THE FIRST PLACE!” he roared. “OUR IGNORANCE! THE BASTARDLY SLAVS, THE FAKE ARYANS, EVERYONE! WE WERE SO SPOILED WITH THE FRUITS OF OUR OWN LABOUR, THAT WE FORGOT WHAT OUR GOAL IS ON THE FIRST PLACE!” Odilo spurted as he turned red with fury. “ALWAYS SPENDING OUR TIME ON LAVISH STUFF, WHILE THESE PLAGUED RATS INFILTRATE OUR GREAT SOCIETY, YOU HAVE BETRAYED YOUR OWN CAUSE!” Realizing that he has gone out of control, Odilo took a few deep breaths, and calmed down. “We…Need to realize, that not only the petty Russian warlords are to be defeated, but also that honorary Aryans need to repopulate that region, from the start!” he muttered, before flumping himself onto a wooden chair. "
+ pleskau.5.c:0 "Hatred is the greatest weapon on the battlefield"
+
+ #Quotas#
+ pleskau.6.a:0 "Quotas"
+ pleskau.6.b:0 "placeholder"
+ pleskau.6.c:0 "All else is folly."
+
+ #Restarting the Camps
+ pleskau.7.a:0 "Restarting the Camps"
+ pleskau.7.b:0 "placeholder"
+ pleskau.7.c:0 "They will suffer under the weight of their crimes!"
+
+ #Fill the Factories
+ pleskau.8.a:0 "Weapons for the Struggle"
+ pleskau.8.b:0 "placeholder"
+ pleskau.8.c:0 "Our enemies will soon know fear."
+
+ #Ashes of the Fallen#
+ pleskau.9.a:0 "Ashes of the Fallen"
+ pleskau.9.b:0 "placeholder"
+ pleskau.9.c:0 "Destiny calls all true sons of the Fatherland." 
+

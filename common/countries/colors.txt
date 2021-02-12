@@ -1393,8 +1393,8 @@ SMO = {
 }
 
 PSK = {
-	color = rgb { 91 120 130 }
-	color_ui = rgb { 91 120 130 }
+	color = rgb { 47 51 85 }
+	color_ui = rgb { 47 51 85 }
 }
 
 PEN = {

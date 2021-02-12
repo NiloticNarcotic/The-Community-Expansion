@@ -1,0 +1,99 @@
+###################################
+#  PLESKAU BASED POGGERS EFFECTS  #
+###################################
+#  FOCUS EFFECTS #
+##################
+the_blackest_night = {
+    add_political_power = 30
+    add_popularity = {
+	    ideology = burgundian_system
+	    popularity = 0.05
+    }
+}
+the_eternal_struggle = {
+    add_stability = 0.07
+    add_popularity = {
+	    ideology = burgundian_system
+	    popularity = 0.02
+    }
+}
+fill_the_reserves = {
+    add_manpower = 1500
+	add_stability = 0.02
+}
+using_the_undesirables = {
+    add_manpower = 4500
+    army_attack_factor = 0.05
+    army_defence_factor = 0.05
+}
+remembering_the_beginning = {
+    add_stability = 0.05
+    add_political_power = 25
+    add_popularity = {
+	    ideology = burgundian_system
+	    popularity = 0.03
+    }
+}
+to_the_bitter_end = {
+    add_ideas = PSK_bitter
+    add_war_support = 0.05
+    add_popularity = {
+	    ideology = burgundian_system
+	    popularity = 0.015
+    }
+}
+using_the_camps = {
+    add_political_power = -25
+    add_stability = -0.05
+    add_popularity = {
+	    ideology = socialist
+	    popularity = -0.035
+    }
+    add_popularity = {
+	    ideology = communist
+	    popularity = -0.045
+    }
+    add_popularity = {
+	    ideology = fascism
+	    popularity = -0.045
+    }
+    add_popularity = {
+	    ideology = despotism
+	    popularity = -0.025
+    }
+    263 = {
+        add_building_construction = {
+		    type = industrial_complex 
+            instant_build = yes
+		    level = 1
+	    }        
+    }    
+}
+fill_the_factories = {
+    add_popularity = {
+	    ideology = burgundian_system
+	    popularity = 0.015
+    }
+    209 = {
+	    add_building_construction = {
+		    type = industrial_complex 
+            instant_build = yes
+		    level = 1
+	    }
+        add_building_construction = {
+		    type = arms_factory  
+            instant_build = yes
+		    level = 1
+	    }
+    } 
+}
+dust_to_dust = {
+    add_war_support = 0.05
+    add_popularity = {
+	    ideology = burgundian_system
+	    popularity = 0.05
+    }
+}
+###########################
+# PUT EVENT EFFECTS BELOW #
+###########################

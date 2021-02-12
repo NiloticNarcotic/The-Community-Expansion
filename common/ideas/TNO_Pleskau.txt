@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		PSK_Bitter = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Bitter" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = PSK_Bitter
+			modifier = {
+				political_power_factor = -0.1
+                surrender_limit = 0.25
+				consumer_goods_factor = 0.075
+			}
+		}

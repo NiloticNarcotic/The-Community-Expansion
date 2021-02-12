@@ -5316,4 +5316,8 @@ spriteTypes = {
 		name = "GFX_idea_FAV_collective_improvisation"
 		texturefile = "gfx/interface/ideas/ideas/idea_FAV_collective_improvisation.dds"
 	}
+	spriteType = {
+		name = "GFX_PSK_Bitter"
+		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
+	}
 }

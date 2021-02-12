@@ -1,0 +1,165 @@
+######## #    ########  ########  #   #       #      #     # 
+#      # #    #         #         #  #       # #     #     # 
+######## #    #         #         # #       #   #    #     # 
+#        #    ########  # ######  #  #     #######   #     # 
+#        #    #                #  #   #   #       #  #     #     
+#        #### ########  ########  #    # #         # #######  
+################
+#PLESKAU EVENTS#
+################ 
+
+add_namespace = pleskau
+
+##Introduction
+country_event = {
+	id = pleskau.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.1"}
+	title = pleskau.1.a
+	desc = pleskau.1.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.1.c
+        hidden_effect = {
+            the_blackest_night = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_1
+	}
+}
+##Victory for the Righteous
+country_event = {
+	id = pleskau.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.2"}
+	title = pleskau.2.a
+	desc = pleskau.2.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.2.c
+        hidden_effect = {
+            the_eternal_struggle = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_2
+	}
+}
+##Fill the Reserves
+country_event = {
+	id = pleskau.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.3"}
+	title = pleskau.3.a
+	desc = pleskau.3.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.3.c
+        hidden_effect = {
+            fill_the_reserves = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_3
+	}
+}
+##Using the Untermensch
+country_event = {
+	id = pleskau.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.4"}
+	title = pleskau.4.a
+	desc = pleskau.4.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.4.c
+        hidden_effect {
+            using_the_undesirables = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_4
+	}
+}
+##Remembering 1923
+country_event = {
+	id = pleskau.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.5"}
+	title = pleskau.5.a
+	desc = pleskau.5.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.5.c
+        hidden_effect = {
+            remembering_the_beginning = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_5
+	}
+}
+##Quotas
+country_event = {
+	id = pleskau.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.6"}
+	title = pleskau.6.a
+	desc = pleskau.6.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.6.c
+        hidden_effect = {
+            to_the_bitter_end = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_6
+	}
+}
+##Using the Camps
+country_event = {
+	id = pleskau.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.7"}
+	title = pleskau.7.a
+	desc = pleskau.7.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.7.c
+        hidden_effect = {
+            using_the_camps = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_7
+	}
+}
+#Fill the Factories
+country_event = {
+	id = pleskau.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.8"}
+	title = pleskau.8.a
+	desc = pleskau.8.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.8.c
+        hidden_effect = {
+            fill_the_factories = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_8
+	}
+}
+#Ashes ashes we all poop down#
+country_event = {
+	id = pleskau.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.9"}
+	title = pleskau.9.a
+	desc = pleskau.9.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.9.c
+        hidden_effect = {
+            dust_to_dust = yes
+        }
+        custom_effect_tooltip = tooltip_event_pleskau_9
+	}
+}

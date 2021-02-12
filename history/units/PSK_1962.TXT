@@ -1,6 +1,5 @@
 division_template = {
 	name = "Waffen-SS"					
-
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -9,8 +8,7 @@ division_template = {
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
 		MBT = { x = 2 y = 0 }
-		MBT = { x = 2 y = 1 }
-  		
+		MBT = { x = 2 y = 1 }	
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -36,30 +34,30 @@ division_template = {
 }
 
 units= {
-	division= {# 
-		name = "30. Waffen-Grenadier-Division der SS"
+	division= { 
+		name = "2. Waffen-Grenadier-Division der SS"
+		location = 6154
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division= {
+		name = "1. Waffen-Grenadier-Division der SS"
+		location = 2999
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division= { 
+		name = "3. Einsatzgruppen Polizei 'Reich'"
 		location = 11202
-		division_template = "Waffen-SS"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.8
-	}
-	division= {# 
-		name = "19. Waffen-Grenadier-Division der SS"
-		location = 11349
-		division_template = "Waffen-SS"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.8
-	}
-	division= {# 
-		name = "6. Einsatzgruppen"
-		location = 117
 		division_template = "Staatliche Polizei"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
-	division= {# 
-		name = "7. Einsatzgruppen"
-		location = 9254
+	division= { 
+		name = "7. Einsatzgruppen Polizei 'No. 07'"
+		location = 11349
 		division_template = "Staatliche Polizei"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8

@@ -1,4 +1,4 @@
- l_english:
+﻿ l_english:
  ### Ministers ###
  BBB_Vasily_Mordakov_hog:0 "Vasily Mordakov"
  BBB_Ivan_Yezhov_for:0 "Ivan Yezhov"
@@ -27,37 +27,37 @@
  
  ### Focus Descriptions + Names ###
  BBB_the_black_brigades:0 "The Black Brigades"
- BBB_the_black_brigades_desc: "The Black Brigades are the strongest forces in all of Moskowien. The Wolgastaat believes they can defeat us, but they will be proven completely wrong. We will destroy the German terrorizers with force and glory, crushing them with our superior equipment. They may outnumber us, but we will hold Kosackenstadt until all of us are dead. Brigadiers, march!"
+ BBB_the_black_brigades_desc:0 "The Black Brigades are the strongest forces in all of Moskowien. The Wolgastaat believes they can defeat us, but they will be proven completely wrong. We will destroy the German terrorizers with force and glory, crushing them with our superior equipment. They may outnumber us, but we will hold Kosackenstadt until all of us are dead. Brigadiers, march!"
  
  BBB_learn_by_experience:0 "Learn by Experience"
- BBB_learn_by_experience_desc: "The weak do not deserve to survive in a world like this. They just hinder us and the strong population. We must rely on the strongest to remain victorious in every battle. It is time to single-handedly end this hindrance with a usage of force. No more shall the weak tread on the strong's ground, for we will use our might to cut them all down. Also, a good bit of target practice for the boys."
+ BBB_learn_by_experience_desc:0 "The weak do not deserve to survive in a world like this. They just hinder us and the strong population. We must rely on the strongest to remain victorious in every battle. It is time to single-handedly end this hindrance with a usage of force. No more shall the weak tread on the strong's ground, for we will use our might to cut them all down. Also, a good bit of target practice for the boys."
  
  BBB_no_room_for_opposition:0 "No Room for Opposition"
- BBB_no_room_for_opposition_desc: "Any opposition who tries to seize power from the strong must be cut down with ruthless authority. We will not give them an ounce of mercy, as we lack it entirely. They are considered weak among with the rest of the simpletons who think they can remove us from power. Our force is among no other, and we shall cut down those who try to stand above or among us and are not of amiable strength." #is dat an amongus refernce!?!?!?#
+ BBB_no_room_for_opposition_desc:0 "Any opposition who tries to seize power from the strong must be cut down with ruthless authority. We will not give them an ounce of mercy, as we lack it entirely. They are considered weak among with the rest of the simpletons who think they can remove us from power. Our force is among no other, and we shall cut down those who try to stand above or among us and are not of amiable strength." #is dat an amongus refernce!?!?!?# #why yes it is :himmler:#
  
  BBB_show_the_young_how_it's_done:0 "Show the Young How It's Done"
- BBB_show_the_young_how_it's_done_desc: "Anyone who are of the weak but seem capable to handle our industrial factories shall be spared. We shall enforce our quotas forcefully; however, they will not be seen among the likes of the weaker peoples, they shall be our labor pool until they drop dead. We will work them until they die, and replace them with another. This is the only way for us to utilize the weak, otherwise, they shall be compared to targets."
+ BBB_show_the_young_how_it's_done_desc:0 "Anyone who are of the weak but seem capable to handle our industrial factories shall be spared. We shall enforce our quotas forcefully; however, they will not be seen among the likes of the weaker peoples, they shall be our labor pool until they drop dead. We will work them until they die, and replace them with another. This is the only way for us to utilize the weak, otherwise, they shall be compared to targets."
  
  BBB_take_what's_theirs:0 "Take What's Theirs"
- BBB_take_what's_theirs_desc: "We shall destroy and seize all things that belong to the people we conquer. For we are the superior peoples and they are simple hindrances. Hindrances will be dealt with accordingly, and while we're at it, we can gain a good amount of equipment, or perhaps loot. This shall fund the reserve quite nicely."
+ BBB_take_what's_theirs_desc:0 "We shall destroy and seize all things that belong to the people we conquer. For we are the superior peoples and they are simple hindrances. Hindrances will be dealt with accordingly, and while we're at it, we can gain a good amount of equipment, or perhaps loot. This shall fund the reserve quite nicely."
  
  BBB_weapons_for_the_struggle:0 "Weapons for the Struggle"
- BBB_weapons_for_the_struggle_desc: "We shall steal from the German surpressers and show them our true strength. No more shall we be considered the "untermensch," for we will be revealed to be the "ubermensch." They are the true subhumans, and we will prove that by conquering their puny race entirely and seizing their equipment and raiding their armories while we're at it."
+ BBB_weapons_for_the_struggle_desc:0 "We shall steal from the German surpressers and show them our true strength. No more shall we be considered the "untermensch," for we will be revealed to be the "ubermensch." They are the true subhumans, and we will prove that by conquering their puny race entirely and seizing their equipment and raiding their armories while we're at it."
   
  BBB_send_out_collection_squads:0 "Send Out Collection Squads"
- BBB_send_out_collection_squads_desc: "We shall... "peacefully" seize any equipment from those who put up no resistance and surrender accordingly. If they are of strength, they shall be spared and incorporated into our forces. We will give them mercy as they are truly strong and deserve to be among us. Those who don't however..."
+ BBB_send_out_collection_squads_desc:0 "We shall... "peacefully" seize any equipment from those who put up no resistance and surrender accordingly. If they are of strength, they shall be spared and incorporated into our forces. We will give them mercy as they are truly strong and deserve to be among us. Those who don't however..."
  
  BBB_conscript_the_outliers:0 "Conscript the Outliers"
- BBB_conscript_the_outliers_desc: "Those who prove to be strong in our true, correct opinion, will be gratefully incorporated into our forces. They will be tested effectively to make sure they are of the superiors like ourselves; therefore, we must be thorough in our testing, for if an anomaly slips through, they could deal damage to us internally."
+ BBB_conscript_the_outliers_desc:0 "Those who prove to be strong in our true, correct opinion, will be gratefully incorporated into our forces. They will be tested effectively to make sure they are of the superiors like ourselves; therefore, we must be thorough in our testing, for if an anomaly slips through, they could deal damage to us internally."
  
  BBB_teach_them_to_survive:0 "Teach Them to Survive"
- BBB_teach_them_to_survive_desc: "We shall discipline them firmly, turning them into elite brigadiers like ourselves. The Basegi Black Brigades only accept the best, and we will train them to be elite, and hardened soldiers. We will make sure not one of them lacks in training. If one were to lack in training, we would deal with them as usual."
+ BBB_teach_them_to_survive_desc:0 "We shall discipline them firmly, turning them into elite brigadiers like ourselves. The Basegi Black Brigades only accept the best, and we will train them to be elite, and hardened soldiers. We will make sure not one of them lacks in training. If one were to lack in training, we would deal with them as usual."
  
  BBB_begin_the_raids:0 "Begin the Raids"
- BBB_begin_the_raids_desc: "It is time for us to begin raiding the ulterior warlords and start proving our superiority. Those of the Wolgastaat will be our first targets as they try to be German terrorizers, but we will show them we are the true terrorizers. They will be deeply intimidated by our presence over them and we shall affirm it in full."
+ BBB_begin_the_raids_desc:0 "It is time for us to begin raiding the ulterior warlords and start proving our superiority. Those of the Wolgastaat will be our first targets as they try to be German terrorizers, but we will show them we are the true terrorizers. They will be deeply intimidated by our presence over them and we shall affirm it in full."
  
  BBB_commence_the_black_terror:0 "Commence the Black Terror"
- BBB_commence_the_black_terror_desc: "It is time for us to begin the Black Terror. This will be our show of strength across Moskowien, and we will dominate the entire area in full. Not one warlord shall be spared from our brutal reign, and we will show that we are superior of all of them. From Astrachan to Tichwin, we shall affirm our presence over the subhumans."
+ BBB_commence_the_black_terror_desc:0 "It is time for us to begin the Black Terror. This will be our show of strength across Moskowien, and we will dominate the entire area in full. Not one warlord shall be spared from our brutal reign, and we will show that we are superior of all of them. From Astrachan to Tichwin, we shall affirm our presence over the subhumans."
  
  BBB_steal_from_the_armories:0 "Steal from the Armories"
- BBB_steal_from_the_armories_desc:
+ BBB_steal_from_the_armories_desc:0

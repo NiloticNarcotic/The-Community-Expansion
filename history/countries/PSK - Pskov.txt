@@ -8,6 +8,7 @@ add_ideas = {
  	#PSK_Hermann_Hofle_for
  	#PSK_Erwin_Lambert_eco
  	#PSK_Richard_Thomalla_sec
+	### Actual ideas ###
 }
 
 set_technology = {
@@ -162,8 +163,8 @@ set_technology = {
 
 set_research_slots = 2
 
-set_stability = 0.74
-
+set_stability = 0.68
+set_war_support = 0.74
 set_politics = {
 	ruling_party = burgundian_system
 	last_election = "1941.4.17"
@@ -172,21 +173,21 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 3
-	ultranational_socialism = 0
-	national_socialism = 10
-	socialist = 0
-	social_democrat = 5
+	communist = 9
+	ultranational_socialism = 2
+	national_socialism = 22
+	socialist = 5
+	social_democrat = 0
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 0
 	authoritarian_democrat = 0
 	despotism = 6
-	fascism = 24
-	burgundian_system = 52
+	fascism = 12
+	burgundian_system = 44  
 }
-
 ### Country Leaders ###
+# SS LEADERSHIP #
 create_country_leader = {
 	name = "Odilo Globočnik"
 	desc = "POLITICS_ODILO_GLOBOCNIK_DESC"
@@ -194,10 +195,73 @@ create_country_leader = {
 	expire = "1983.4.24"
 	ideology = burgundian_system_subtype
 	traits = {
-
+		#
 	}
 }
-
+create_country_leader = {
+	name = "Odilo Globočnik"
+	desc = "POLITICS_ODILO_GLOBOCNIK_DESC"
+	picture = "Portrait_Pleskau_Odilo_Globotschnig.dds"
+	expire = "1983.4.24"
+	ideology = national_socialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Odilo Globočnik"
+	desc = "POLITICS_ODILO_GLOBOCNIK_DESC"
+	picture = "Portrait_Pleskau_Odilo_Globotschnig.dds"
+	expire = "1983.4.24"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		#
+	}
+}
+#SOCIALIST PARTISANS#
+create_country_leader = {
+	name = "Various Partisans"
+	desc = "POLITICS_ODILO_GLOBOCNIK_DESC"
+	picture = "Portrait_Pleskau_Odilo_Globotschnig.dds"
+	expire = "1983.4.24"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Various Partisans"
+	desc = "POLITICS_ODILO_GLOBOCNIK_DESC"
+	picture = "Portrait_Pleskau_Odilo_Globotschnig.dds"
+	expire = "1983.4.24"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+#RUSSIAN REPUBLIC#
+##### Nothing so see here for now 
+#RUSSIAN LEGIONARY LEADERS#
+create_country_leader = {
+	name = "Various Partisans"
+	desc = "POLITICS_ODILO_GLOBOCNIK_DESC"
+	picture = "Portrait_Pleskau_Odilo_Globotschnig.dds"
+	expire = "1983.4.24"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Various Partisans"
+	desc = "POLITICS_ODILO_GLOBOCNIK_DESC"
+	picture = "Portrait_Pleskau_Odilo_Globotschnig.dds"
+	expire = "1983.4.24"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
 ### Generals ###
 create_corps_commander = {
 	name = "Richard Thomalla"
