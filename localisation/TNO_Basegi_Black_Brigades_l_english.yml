@@ -61,3 +61,16 @@
  
  BBB_steal_from_the_armories:0 "Steal from the Armories"
  BBB_steal_from_the_armories_desc:0
+
+
+ ### Event Localization ###
+ 
+ #FOCUS CHANGE TO TERROR#
+ basegi.1.a:0 "PLACEHOLDER CHANGE"
+ basegi.1.b:0 "placeholder"
+ basegi.1.c:0 "placeholder"
+
+ #FOCUS CHANGE TO EXPANSION#
+ basegi.2.a:0 "PLACEHOLDER CHANGE 2"
+ basegi.2.b:0 "placeholder"
+ basegi.2.c:0 "placeholder"

@@ -1,0 +1,39 @@
+#########################
+## BASEGI BASED EVENTS ##
+#########################
+
+add_namespace = basegi
+
+# focus tree change to terror
+country_event = {
+	id = basegi.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.1"}
+	title = basegi.1.a
+	desc = basegi.1.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = basegi.1.c
+        hidden_effect = {
+            load_focus_tree = basegi_black_terror  
+        }
+	}
+}
+
+# focus tree change to expansion
+country_event = {
+	id = basegi.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.2"}
+	title = basegi.2.a
+	desc = basegi.2.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = basegi.2.c
+        hidden_effect = {
+            load_focus_tree = basegi_expansion
+        }
+	}
+}

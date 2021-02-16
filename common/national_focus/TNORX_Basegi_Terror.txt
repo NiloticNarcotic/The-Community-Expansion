@@ -1,0 +1,289 @@
+focus_tree = {
+	id = basegi_black_terror
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 0
+			tag = BBB
+		}
+	}
+    default = yes
+	continuous_focus_position = { x = 50 y = 1000 }
+	focus = {
+		id = BBB_the_black_terror
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = -2000
+		}
+    }
+	focus = {
+		id = BBB_restart_the_factories
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_the_black_terror }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_stability = 0.15
+			add_popularity = {
+			    ideology = national_socialism
+				popularity = 0.07
+		    }
+		}
+    }
+	focus = {
+		id = BBB_introduce_our_plans
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_restart_the_factories }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_stability = 0.15
+			add_political_power = 12
+		}
+    }
+	focus = {
+		id = BBB_use_the_slaves
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_introduce_our_plans }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_political_power = 19
+			add_stability = 0.10
+			add_war_support = 0.09
+		}
+    }
+		focus = {
+		id = BBB_radicalize_the_people
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_the_black_terror }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 2000
+			add_war_support = 0.29
+			add_stability = 0.20
+		}
+    }
+	focus = {
+		id = BBB_influence_their_young
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_radicalize_the_people }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_stability = 0.12
+			add_political_power = 21
+			add_popularity = {
+			    ideology = national_socialism
+				popularity = 0.10
+		    }
+		}
+    }
+	focus = {
+		id = BBB_a_strong_state
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_influence_their_young }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 1900
+			add_political_power = 21
+			add_stability = 0.19
+		}
+    }
+	focus = {
+		id = BBB_a_new_training_campaign
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_the_black_terror }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 4000
+			add_political_power = 24
+			add_stability = 0.21
+		}
+    }
+	focus = {
+		id = BBB_only_the_strong_will_survive
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_a_new_training_campaign }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_stability = 0.12
+			add_political_power = 32
+			add_manpower = 1700
+		}
+    }
+	focus = {
+		id = BBB_weakness_will_not_be_tolerated
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		 
+		
+		
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = BBB_only_the_strong_will_survive }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = -2000
+			add_political_power = 20
+		}
+    }
+    focus = {
+        id = BBB_show_the_warlords_our_strength
+        icon = GFX_goal_unknown
+        x = 4
+        y = 5
+         
+        
+        
+        bypass = {
+        }
+
+        cost = 5
+        prerequisite = { focus = BBB_use_the_slaves }
+        prerequisite = { focus = BBB_a_strong_state }
+        prerequisite = { focus = BBB_weakness_will_not_be_tolerated }
+        
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            add_manpower = 1700
+            country_event = {
+                id = basegi.2
+            }
+        }
+    }
+}
