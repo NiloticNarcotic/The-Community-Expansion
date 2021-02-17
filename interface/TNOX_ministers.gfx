@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_VNH_minister_Vladmir_Lukin_for"
+		texturefile = "gfx/interface/ideas/VNH/ministers/minister_VNH_Vladimir Lukin.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_minister_Viktor_Chernomyrdin_eco"
+		texturefile = "gfx/interface/ideas/VNH/ministers/minister_VNH_Viktor.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_minister_Semyon Krivoshein_sec"
+		texturefile = "gfx/interface/ideas/VNH/ministers/minister_VNH_Semyon_Krivoshein.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_minister_Iya_Savvina_hog"
+		texturefile = "gfx/interface/ideas/VNH/ministers/minister_VNH_Iya_Savvina.dds"
+	}
+}

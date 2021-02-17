@@ -1,0 +1,29 @@
+scripted_gui = {
+
+	TNO_SG_big_event_russian_unification_voronezh_gorbachev = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_russian_unification_voronezh_gorbachev"
+
+		visible = {
+			NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
+			has_country_flag = big_event_russian_unification_voronezh_gorbachev
+		}
+	}
+
+	TNO_SG_big_event_frame_russian_unification_voronezh_gorbachev = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_russian_unification_voronezh_gorbachev"
+
+		visible = {
+			NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
+			has_country_flag = big_event_russian_unification_voronezh_gorbachev
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_russian_unification_voronezh_gorbachev
+			}
+		}
+	}
+
+}

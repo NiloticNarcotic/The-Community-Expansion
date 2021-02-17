@@ -1,0 +1,656 @@
+#
+# Voronezh GUIs Made by PrussianBlu
+#
+guiTypes = {
+	containerWindowType = {
+		name = "VNH_Council_Seat_Container"
+		position = { x = 0 y = 0 }
+
+		iconType = { 
+			name = "VNH_Icon_Gui"
+			quadTextureSprite = "GFX_VNH_Council_Seat"
+			pdx_tooltip = "VNH_Council_Seat_TT"
+		}	
+	}
+
+	containerWindowType = {
+		name = "TNOX_Voronezh_GUI_Corruption" # CORRUPTION SCRIPTED GUI
+		size = { width = 482 height = 330 }
+		position = { x = 7 y = 7 }
+
+		instantTextBoxType = {
+			name = "Corruption Title"
+			position = { x = -20 y = 20 }
+			maxWidth = 538
+			font = "aldrich_36_outline"
+			text = "Corruption_Title_TT"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "Corruption_Title_1"
+			position = { x = -30 y = 65 }
+			font = "aldrich_16_outline"
+			text = "VNH_Corruption"
+			format = center
+		}
+
+		iconType = {
+			name = "VNH_Corruption_control_bar_Frame"
+			spriteType = "GFX_Voronezh_control_bar_bg"
+			position = { x = 48 y = 93 }
+		}
+		iconType = {
+			name = "VNH_Corruption_control_bar"
+			spriteType = "GFX_VNH_control_bars"
+			pdx_tooltip = "VNH_Corruption_bar"
+			pdx_tooltip_delayed = "VNH_Corruption_bar_desc"
+			position = { x = 51 y = 95 }
+		}
+		instantTextBoxType = {
+			name = "VNH_Corruption_Description"
+			position = { x = -20 y = 210 }
+			font = "aldrich_16_outline"
+			text = "getcorruptionVNH"
+			format = center
+		}
+	}
+
+	containerWindowType = {
+		name = "TNOX_Voronezh_GUI_Anger" # INDUSTRIALISTS ANGER SCRIPTED GUI
+		size = { width = 482 height = 330 }
+		position = { x = 7 y = 7 }
+
+		instantTextBoxType = {
+			name = "Anger Title"
+			position = { x = -20 y = 20 }
+			maxWidth = 538
+			font = "aldrich_36_outline"
+			text = "Anger_Title_TT"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "Anger_Title_1"
+			position = { x = -30 y = 65 }
+			font = "aldrich_16_outline"
+			text = "VNH_Anger"
+			format = center
+		}
+
+		iconType = {
+			name = "VNH_anger_control_bar_Frame"
+			spriteType = "GFX_Voronezh_control_bar_bg"
+			position = { x = 48 y = 93 }
+		}
+		iconType = {
+			name = "VNH_Anger_control_bar"
+			spriteType = "GFX_VNH_control_bars"
+			pdx_tooltip = "VNH_anger_bar"
+			pdx_tooltip_delayed = "VNH_anger_bar_desc"
+			position = { x = 51 y = 95 }
+		}
+		instantTextBoxType = {
+			name = "VNH_Anger_Description"
+			position = { x = -20 y = 210 }
+			font = "aldrich_16_outline"
+			text = "getBaronAngerVNH"
+			format = center
+		}
+	}
+	containerWindowType = {
+		name = "TNOX_Voronezh_Council_GUI_open_window"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "TNOX_Voronezh_Council_GUI_open_button"
+			quadTextureSprite = "GFX_VNH_Council_Opener"
+			position = { x = 200 y = 41 }
+			pdx_tooltip = "scripted_gui_open_VNH_gui"
+			scale = 0.65
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=175 y=-16 }
+		}
+	}
+	containerWindowType = {
+		name = "TNOX_Voronezh_council_GUI_window"
+		size = { width = 778 height = 672 }
+		position = { x = 541 y = 409 }
+	
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		
+		buttonType = {
+			name = "VNH_Council_GUI_Soc_Dem_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 590 y = 20 }
+			buttonFont = "aldrich_18_outline"
+			text = "Interactions"
+			pdx_tooltip = VNH_SocDem_Interactions_TT
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Lib_Dem_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 13 y = 20 }
+			buttonFont = "aldrich_18_outline"
+			text = "Interactions"
+			pdx_tooltip = VNH_LibDem_Interactions_TT
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Con_Dem_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 400 y = 20 }
+			buttonFont = "aldrich_18_outline"
+			text = "Interactions"
+			pdx_tooltip = VNH_ConDem_Interactions_TT
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Auth_Dem_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 205 y = 20 }
+			buttonFont = "aldrich_18_outline"
+			text = "Interactions"
+			pdx_tooltip = VNH_AuthDem_Interactions_TT
+		}
+		# LEAVE THESE COMMENTS IN SO YOU CAN REGENERATE THIS DIAGRAM
+		# IF THE SCRIPT IS IMPROVED DOWN THE LINE
+		# YOU HAVE BEEN WARNED
+		# Spread: 0.0
+		# First Row Radius: 14.01
+		# Total Delegates: 12
+		gridboxtype = {
+			name = "VNH_Council_Diagram_Container"
+			position = { x = 285 y = 200 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 100%% height = 0 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+		iconType = {
+			name = "VNH_Leader_Gorbachev"
+			spriteType = "GFX_Mikhail_Gorbachev"
+			position = { x = 30 y = 140 }
+		}
+		instantTextBoxType = {
+			name = "VNH_Speaker_Description"
+			position = { x = 9 y = 360 }
+			font = "aldrich_28_outline"
+			text = "The Current Leader of the Council: Mikhail Gorbachev"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Lib_Desc"
+			position = { x = 14 y = 50 }
+			font = "aldrich_22_outline"
+			text = "The Liberal Artisans Party"
+			format = Left
+			maxWidth = 175
+		}
+		instantTextBoxType = {
+			name = "VNH_URIA_Desc"
+			position = { x = 155 y = 50 }
+			font = "aldrich_24_outline"
+			text = "The URIA"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Con_Desc"
+			position = { x = 350 y = 50 }
+			font = "aldrich_24_outline"
+			text = "The Progressive Party"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Soc_Desc"
+			position = { x = 548 y = 50 }
+			font = "aldrich_24_outline"
+			text = "The Union Party"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Council_Desc"
+			position = { x = 450 y = 350 }
+			font = "aldrich_36_outline"
+			text = "The Council"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Lib_Council_Stats"
+			position = { x = 460 y = 435 }
+			font = "aldrich_16_outline"
+			text = "The Artisans currently have [?VNH_LIB_DEM_seats] seats."
+			format = left
+			maxWidth = 500
+		}
+		instantTextBoxType = {
+			name = "VNH_Con_Council_Stats"
+			position = { x = 460 y = 455 }
+			font = "aldrich_16_outline"
+			text = "The Progressives currently have [?VNH_CON_DEM_seats] seats."
+			format = left
+			maxWidth = 500
+		}
+		instantTextBoxType = {
+			name = "VNH_Auth_Council_Stats"
+			position = { x = 460 y = 475 }
+			font = "aldrich_16_outline"
+			text = "The URIA currently have [?VNH_AUTH_DEM_seats] seats."
+			format = left
+			maxWidth = 500
+		}
+		instantTextBoxType = {
+			name = "VNH_Soc_Council_Stats"
+			position = { x = 460 y = 495 }
+			font = "aldrich_16_outline"
+			text = "The Unionists currently have [?VNH_SOC_DEM_seats] seats."
+			format = left
+			maxWidth = 500
+		}
+		instantTextBoxType = {
+			name = "VNH_Council_Stats_T"
+			position = { x = 460 y = 400 }
+			font = "aldrich_32_outline"
+			text = "Council Seats :"
+			format = left
+			maxWidth = 500
+		}
+		instantTextBoxType = {
+			name = "VNH_Council_Desc_Main"
+			position = { x = 20 y = 578 }
+			font = "aldrich_20_outline"
+			text = "The Council, formed amidst the Moskowien collapse, is meant to provide both stability as well as some sense of democracy; however, the system is rife with corruption."
+			format = left
+			maxWidth = 500
+		}
+		iconType = {
+			name = "VNH_Council_Background"
+			spriteType = "GFX_VNH_Council_Background"
+			position = { x = 3 y = 2 }
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "TNOx_VNH_Council_Close_button"
+			position = { x = 744 y = 13 }
+			quadTextureSprite = "GFX_Close_Button_VNH"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	containerWindowType = {
+		name = "TNOX_Voronezh_GUI_Soc_Dem_Council"
+		size = { width = 778 height = 300 }
+		position = { x = 541 y = 115 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+
+		iconType = {
+			name = "Mikhail_Gorbachev"
+			spriteType = "GFX_Mikhail_Gorbachev"
+			position = { x=600 y=40 }
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Soc_Dem_Bribe_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 20 y = 19 }
+			buttonFont = "aldrich_18_outline"
+			text = "Bribe"
+		}
+		instantTextBoxType = {
+			name = "VNH_Soc_Dem_Stats"
+			position = { x = 300 y = 100 }
+			font = "aldrich_16_outline"
+			text = "The Social Democrats currently have [?VNH_Soc_Dem_power] power and [?VNH_Soc_Dem_support] support for our government"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Soc_Dem_Title"
+			position = { x = 304 y = 12 }
+			font = "aldrich_36_outline"
+			text = "The Union Party"
+			format = center
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Soc_Dem_Make_Concessions_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 175 y = 19 }
+			buttonFont = "aldrich_12_outline"
+			text = "Make Concessions"
+			pdx_tooltip = VNH_Make_Concessions
+
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Soc_Dem_Suppress_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 19 y = 100 }
+			buttonFont = "aldrich_18_outline"
+			text = "Suppress"
+			pdx_tooltip = VNH_Suppress
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Soc_Dem_Praise_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 175 y = 100 }
+			buttonFont = "aldrich_18_outline"
+			text = "Praise"
+			pdx_tooltip = VNH_Praise
+		}
+		instantTextBoxType = {
+			name = "VNH_Soc_Dem_Desc"
+			position = { x = 30 y = 175 }
+			font = "aldrich_16_outline"
+			text = "The Union Party, founded by Mikhail Gorbachev, is an organized group of many labour unions.While on the surface a very idealistic party, the encroaching power of its labor bosses has resulted in needless bureaucracy, nepotism, and blatant corruption."
+			format = Left
+			maxWidth = 500
+			maxHeight = 60
+		}
+		buttonType = {
+			name = "TNOx_VNH_Soc_Close_button"
+			position = { x = 744 y = 13 }
+			quadTextureSprite = "GFX_Close_Button_VNH"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		instantTextBoxType = {
+			name = "VNH_Soc_Dem_Leader"
+			position = { x = 572 y = 255 }
+			font = "aldrich_24_outline"
+			text = "Mikhail Gorbachev"
+			format = center
+		}
+		iconType = {
+			name = "VNH_Soc_Dem_BG"
+			spriteType = "GFX_VNH_Soc_Dem_BG"
+			position = { x=10 y=14 }
+			alwaystransparent = yes
+		}
+		
+	}
+	containerWindowType = {
+		name = "TNOX_Voronezh_GUI_Lib_Dem_Council"
+		size = { width = 778 height = 300 }
+		position = { x = 541 y = 115 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		buttonType = {
+			name = "VNH_Council_GUI_Lib_Dem_Bribe_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 20 y = 19 }
+			buttonFont = "aldrich_18_outline"
+			text = "Bribe"
+		}
+		iconType = {
+			name = "Iya_Savvina"
+			spriteType = "GFX_Iya_Savvina"
+			position = { x=600 y=40 }
+		}
+		instantTextBoxType = {
+			name = "VNH_Lib_Dem_Stats"
+			position = { x = 300 y = 100 }
+			font = "aldrich_16_outline"
+			text = "The Artisans currently have [?VNH_lib_dem_power] power and [?VNH_lib_dem_support] support for our government"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Lib_Dem_Title"
+			position = { x = 304 y = 12 }
+			font = "aldrich_36_outline"
+			text = "The Liberal Artisans"
+			format = center
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Lib_Dem_Make_Concessions_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 175 y = 19 }
+			buttonFont = "aldrich_12_outline"
+			text = "Make Concessions"
+			pdx_tooltip = VNH_Make_Concessions
+
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Lib_Dem_Suppress_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 19 y = 100 }
+			buttonFont = "aldrich_18_outline"
+			text = "Suppress"
+			pdx_tooltip = VNH_Suppress
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Lib_Dem_Praise_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 175 y = 100 }
+			buttonFont = "aldrich_18_outline"
+			text = "Praise"
+			pdx_tooltip = VNH_Praise
+		}
+		instantTextBoxType = {
+			name = "VNH_Lib_Dem_Desc"
+			position = { x = 30 y = 175 }
+			font = "aldrich_16_outline"
+			text = "The Liberal Artisans, a group led by friend-of-Gorbachev Iya Savvina, believes in progressive social ideals and mixed economic ideals. Some of the main ideas they promote are that of the liberalization of workers' unions and free markets."
+			format = Left
+			maxWidth = 500
+			maxHeight = 70
+		}
+		buttonType = {
+			name = "TNOx_VNH_Lib_Close_button"
+			position = { x = 744 y = 13 }
+			quadTextureSprite = "GFX_Close_Button_VNH"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		instantTextBoxType = {
+			name = "VNH_Lib_Dem_Leader"
+			position = { x = 572 y = 255 }
+			font = "aldrich_24_outline"
+			text = "Iya Savvina"
+			format = center
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "VNH_Lib_Dem_BG"
+			spriteType = "GFX_VNH_Lib_Dem_BG"
+			position = { x=10 y=14 }
+			alwaystransparent = yes
+		}
+		
+	}
+	containerWindowType = {
+		name = "TNOX_Voronezh_GUI_Con_Dem_Council"
+		size = { width = 778 height = 300 }
+		position = { x = 541 y = 115 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		buttonType = {
+			name = "VNH_Council_GUI_Con_Dem_Bribe_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 20 y = 19 }
+			buttonFont = "aldrich_18_outline"
+			text = "Bribe"
+		}
+		instantTextBoxType = {
+			name = "VNH_Con_Dem_Stats"
+			position = { x = 300 y = 100 }
+			font = "aldrich_16_outline"
+			text = "The Conservatives currently have [?VNH_con_dem_power] power and [?VNH_con_dem_support] support for our government"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Con_Dem_Title"
+			position = { x = 304 y = 12 }
+			font = "aldrich_30_outline"
+			text = "The Progressive Party"
+			format = center
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Con_Dem_Make_Concessions_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 175 y = 19 }
+			buttonFont = "aldrich_12_outline"
+			text = "Make Concessions"
+			pdx_tooltip = VNH_Make_Concessions
+
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Con_Dem_Suppress_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 19 y = 100 }
+			buttonFont = "aldrich_18_outline"
+			text = "Suppress"
+			pdx_tooltip = VNH_Suppress
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Con_Dem_Praise_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 175 y = 100 }
+			buttonFont = "aldrich_18_outline"
+			text = "Praise"
+			pdx_tooltip = VNH_Praise
+		}
+		instantTextBoxType = {
+			name = "VNH_Con_Dem_Desc"
+			position = { x = 30 y = 175 }
+			font = "aldrich_16_outline"
+			text = "The Progressive Party, chaired by Vladimir Lukin, believes in economically progressive yet socially conservative values. The most uncorrupt of the 4 major parties, the Progressive Party believes in increased environmentalism and anti-big-business ideals."
+			format = Left
+			maxWidth = 500
+			maxHeight = 60
+		}
+		buttonType = {
+			name = "TNOx_VNH_Con_Close_button"
+			position = { x = 744 y = 13 }
+			quadTextureSprite = "GFX_Close_Button_VNH"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		instantTextBoxType = {
+			name = "VNH_Con_Dem_Leader"
+			position = { x = 572 y = 255 }
+			font = "aldrich_24_outline"
+			text = "Vladimir Lukin"
+			format = center
+		}
+		iconType = {
+			name = "Vladmir_Lukin"
+			spriteType = "GFX_Vladmir_Lukin"
+			position = { x=600 y=40 }
+		}
+		iconType = {
+			name = "VNH_Con_Dem_BG"
+			spriteType = "GFX_VNH_Con_Dem_BG"
+			position = { x=10 y=14 }
+			alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "TNOX_Voronezh_GUI_Auth_Dem_Council"
+		size = { width = 778 height = 300 }
+		position = { x = 541 y = 115 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		iconType = {
+			name = "Viktor_Chernomyrdin"
+			spriteType = "GFX_Viktor_Chernomyrdin"
+			position = { x=600 y=40 }
+		}
+		iconType = {
+			name = "VNH_Auth_Dem_BG"
+			spriteType = "GFX_VNH_Auth_Dem_BG"
+			position = { x=10 y=14 }
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Auth_Dem_Bribe_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 20 y = 19 }
+			buttonFont = "aldrich_18_outline"
+			text = "Bribe"
+		}
+		instantTextBoxType = {
+			name = "VNH_Auth_Dem_Stats"
+			position = { x = 300 y = 100 }
+			font = "aldrich_16_outline"
+			text = "The Industrialists currently have [?VNH_Auth_Dem_power] power and [?VNH_Industrialist_support] support for our government"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Auth_Dem_Title"
+			position = { x = 303 y = 12 }
+			font = "aldrich_30_outline"
+			text = "United Russian Industrial Association"
+			format = center
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Auth_Dem_Make_Concessions_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 175 y = 19 }
+			buttonFont = "aldrich_12_outline"
+			text = "Make Concessions"
+			pdx_tooltip = VNH_Make_Concessions
+
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Auth_Dem_Suppress_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 19 y = 100 }
+			buttonFont = "aldrich_18_outline"
+			text = "Suppress"
+			pdx_tooltip = VNH_Suppress
+		}
+		buttonType = {
+			name = "VNH_Council_GUI_Auth_Dem_Praise_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 175 y = 100 }
+			buttonFont = "aldrich_18_outline"
+			text = "Praise"
+			pdx_tooltip = VNH_Praise
+		}
+		instantTextBoxType = {
+			name = "VNH_Auth_Dem_Desc"
+			position = { x = 30 y = 175 }
+			font = "aldrich_16_outline"
+			text = "The United Russian Industrial Association, founded amidst the chaos of the Moskowien Collapse, is comprised of a board of all of the prominent industrialists in Voronezh. Many members of the URIA have connections to criminal organizations."
+			format = Left
+			maxWidth = 500
+			maxHeight = 70
+		}
+		buttonType = {
+			name = "TNOx_VNH_Auth_Close_button"
+			position = { x = 744 y = 13 }
+			quadTextureSprite = "GFX_Close_Button_VNH"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		instantTextBoxType = {
+			name = "VNH_Auth_Dem_Leader"
+			position = { x = 512 y = 255 }
+			font = "aldrich_24_outline"
+			text = "Viktor Chernomyrdin"
+			format = center
+			maxWidth = 300
+		}
+	}
+}

@@ -1,0 +1,66 @@
+#
+# Le Gorby Decisions By PrussianBlu (Im shit at decision modding bro)
+#
+VNH_Corruption_category = {
+
+	VNH_Seize_Baron_Holdings = { # NEED TO ADD TOOLTIP
+		available = {
+			any_owned_state = {
+				industrial_complex > 0
+			}
+		}
+        visible = {
+            has_country_flag = VNH_Corruption_Mechanic
+        }
+		days_re_enable = 60
+		
+		cost = 50
+		
+		complete_effect = {
+			add_to_variable = {
+				var = VNH_Anger_Value
+				value = 5
+			}
+			add_to_variable = {
+				var = VNH_Corruption_Value
+				value = -10
+			}
+			random_owned_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}		
+
+}
+
+VNH_Anger_category = {
+
+	VNH_Reinforce_Labour_Laws = { ############ NEED TO ADD PLUS POPULARITY TO CORPRATISTS LATER ON AS WELL AS A TOOLTIP
+	
+		 visible = {
+            has_country_flag = VNH_Corruption_Mechanic
+        }
+		
+		days_re_enable = 60
+		
+		cost = 50
+		
+		complete_effect = {
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.02
+			}
+			add_to_variable = {
+				var = VNH_Anger_Value
+				value = -5
+			}
+			add_to_variable = {
+				var = VNH_Corruption_Value
+				value = 3
+			}
+		}
+	}	
+}

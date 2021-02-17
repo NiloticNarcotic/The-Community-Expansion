@@ -1,0 +1,20 @@
+VNH_Corruption_category = {
+	icon = decision_category_generic_political_actions
+
+	allowed = {
+		original_tag = VNH
+		has_country_flag = VNH_Corruption_Mechanic
+	}
+	visible_when_empty = yes
+	scripted_gui = TNOX_Voronezh_GUI_Corruption
+}
+VNH_Anger_category = {
+	icon = decision_category_generic_political_actions
+
+	allowed = {
+		original_tag = VNH
+		has_country_flag = VNH_Corruption_Mechanic
+	}
+	visible_when_empty = yes
+	scripted_gui = TNOX_Voronezh_GUI_Anger
+}

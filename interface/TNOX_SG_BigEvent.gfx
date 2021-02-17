@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_superevent_russian_unification_voronezh_gorbachev"
+		textureFile = "gfx/interface/TNOx_Super_Event_Pictures/Gorbachev_Super_Event.tga"
+	}
+
+}
+
+	
+
+	

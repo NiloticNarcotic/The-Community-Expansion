@@ -4,16 +4,16 @@ oob = "VNH_1962"
 
 add_ideas = {
 	## Ministers ##
-	VNH_Edmund_Gunther_hog
-	VNH_Anatoly_Chernyaev_for
-	VNH_Boris_Gostev_eco
-	VNH_Robert_Klein_sec
+	VNH_Iya_Savvina_hog
+	VNH_Vladmir_Lukin_for
+	VNH_Viktor_Chernomyrdin_eco
+	VNH_Semyon_Krivoshein_sec 
 	##POLITICAL LAWS##
-	tno_political_parties_one_party_state
-	tno_religious_rights_state_atheism
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
 	tno_trade_unions_illegal
-    tno_immigration_closed_borders
-	tno_slavery_allowed
+    tno_immigration_quota_immigration
+	tno_slavery_outlawed
 	tno_public_meetings_regulated
 	tno_press_rights_state_press_only
 	tno_vote_franchise_registered_voting
@@ -37,10 +37,10 @@ add_ideas = {
 	tno_minorities_oppression
 	tno_security_security_service
 	##ECONOMIC LAWS##
-	tno_trade_laws_export_focus
+	tno_trade_laws_free_trade
 	tno_economic_focus_early_mobilization
-	tno_tax_rate_not_applicable
-	tno_income_taxation_not_applicable
+	tno_tax_rate_low_taxation
+	tno_income_taxation_elite_tax_exemptions
 	tno_minimum_wage_trinket_minimum_wage
 	tno_max_workhours_14_hour_work_day
 	tno_child_labor_restricted
@@ -209,7 +209,7 @@ set_technology = {
 
 set_research_slots = 2
 
-set_stability = 0.74
+set_stability = 0.54
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -219,18 +219,18 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 5
+	communist = 0
 	ultranational_socialism = 0
-	socialist = 7
-	social_democrat = 9
-	social_liberal = 5
+	socialist = 0
+	social_democrat = 24
+	social_liberal = 9
 	market_liberal = 0
-	social_conservative = 18
-	authoritarian_democrat = 39
+	social_conservative = 11
+	authoritarian_democrat = 54
 	despotism = 0
 	fascism = 0
 	burgundian_system = 0
-	national_socialism = 17
+	national_socialism = 2
 }
 
 ### Country Leader ###

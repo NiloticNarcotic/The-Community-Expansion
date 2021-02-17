@@ -1,0 +1,40 @@
+VNH_Council_Setup = {
+	# Generate partial sums t1 = (P1), t2 = (P1 + P2), t3 = (P1 + P2 + P3)
+	# so that we can use resize_array to fill our array with the right number of seats for each party
+	set_temp_variable = { t1 = VNH_LIB_DEM_seats }
+	set_temp_variable = { t2 = VNH_SOC_DEM_seats }
+	set_temp_variable = { t3 = VNH_CON_DEM_seats }
+	set_temp_variable = { t4 = 12 }
+
+	add_to_temp_variable = { t2 = t1 }
+	add_to_temp_variable = { t3 = t2 }
+
+
+	clear_array = VNH_Council_Array_Frame
+
+	# Resize array to t1 seats, setting P1 frame numbers to 1 (Party 1 color)
+	resize_array = {
+		array = VNH_Council_Array_Frame
+		value = 1
+		size = t1
+	}
+	# Resize array to t2 seats, setting P2 frame numbers to 2 (Party 2 color)
+	resize_array = {
+		array = VNH_Council_Array_Frame
+		value = 2
+		size = t2
+	}
+	# Resize array to t3 seats, setting P3 frame numbers to 3 (Party 3 color)
+	resize_array = {
+		array = VNH_Council_Array_Frame
+		value = 3
+		size = t3
+	}
+	# Resize array to all 12 seats, setting remaining frame numbers to 4 (Party 4 color)
+	resize_array = {
+		array = VNH_Council_Array_Frame
+		value = 4
+		size = t4
+	}
+		
+}

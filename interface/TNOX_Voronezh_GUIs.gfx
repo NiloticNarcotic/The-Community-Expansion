@@ -1,0 +1,76 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_Voronezh_control_bar_bg"
+		texturefile = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_bg.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_VNH_control_bars"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_green.dds"
+		textureFile2 = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_red.dds"
+		size = { x = 370 y = 38 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	spriteType = {
+		name = "GFX_VNH_Council_Opener"
+		texturefile = "gfx/interface/Voronezh_assets_gui/Voronezh_Council_Open.dds"
+	}
+	spriteType = {
+		name = "GFX_tiled_window_1b_no_border"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_tiled_window_1b_border.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_Council_Box_Button"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_Council_Bribe_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Iya_Savvina"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_Iyya_Savina.dds"
+	}
+	spriteType = {
+		name = "GFX_Viktor_Chernomyrdin"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_Viktor_Chernomyrdin.dds"
+	}
+	spriteType = {
+		name = "GFX_Mikhail_Gorbachev"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_Mikhail_Gorbachev.dds"
+	}
+	spriteType = {
+		name = "GFX_Close_Button_VNH"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_closebutton_small.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Vladmir_Lukin"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_Vladmir_Lukin.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_Auth_Dem_BG"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_AuthDem_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_Soc_Dem_BG"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_SocDem_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_Con_Dem_BG"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_ConDem_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_Lib_Dem_BG"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_LibDem_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_VNH_Council_Seat"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_Council_seat.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_VNH_Council_Background"
+		texturefile = "gfx/interface/Voronezh_assets_gui/VNH_Council_Background.dds"
+	}
+}
+

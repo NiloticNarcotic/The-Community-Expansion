@@ -1,0 +1,71 @@
+ideas = {
+
+	### Voronezh ###
+	head_of_government = {
+		VNH_Iya_Savvina_hog = {
+			allowed = { original_tag = VNH }
+			picture = "GFX_VNH_minister_Iya_Savvina_hog"
+			available = {
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_naive_optimist
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+
+	foreign_minister = {
+		VNH_Vladmir_Lukin_for = {
+			allowed = { original_tag = VNH }
+			picture = "GFX_VNH_minister_Vladmir_Lukin_for"
+			available = {
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+
+	economy_minister = {
+		VNH_Viktor_Chernomyrdin_eco = {
+			allowed = { original_tag = VNH }
+			picture = "GFX_VNH_minister_Viktor_Chernomyrdin_eco"
+			available = {
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_oil_baron
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+
+	security_minister = {
+		VNH_Semyon_Krivoshein_sec = {
+			allowed = { original_tag = VNH }
+			picture = "GFX_VNH_minister_Semyon Krivoshein_sec"
+			available = {
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_retired_general
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+}

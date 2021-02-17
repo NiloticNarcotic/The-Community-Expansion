@@ -1,0 +1,59 @@
+# Made by PrussianBlu
+on_actions = {
+	on_startup = {
+		effect = {
+			VNH = {
+				add_ideas = VNH_Medium_Corruption_idea
+				add_ideas = VNH_Little_Anger_idea 
+				set_variable = { VNH_downfall_stability_factor = -0.20 }
+				set_variable = { VNH_downfall_consumer_goods_factor = 0.40 }
+				set_variable = { VNH_downfall_industrial_capacity_factory = -0.40 }
+				set_variable = { VNH_downfall_annual_gdp_growth_factor = -0.40 }
+				set_variable = { VNH_downfall_proportional_gdp_cost = 0.40 }
+				set_variable = { VNH_downfall_production_speed_buildings_factor = -0.40 }
+				set_variable = { VNH_Corruption_Value = 40 }
+				set_variable = { VNH_Anger_Value = 20 }
+				VNH_clamp_corruption_variables = yes
+				set_variable = { VNH_lib_dem_support = 60 }
+				set_variable = { VNH_con_dem_support = 50 }
+				set_variable = { VNH_industrialists_support = 40 }
+				set_variable = { VNH_soc_dem_support = 60 }
+				set_variable = { VNH_lib_dem_power = 20 }
+				set_variable = { VNH_con_dem_power = 30 }
+				set_variable = { VNH_auth_dem_power = 80 }
+				set_variable = { VNH_soc_dem_power = 40 }
+				add_dynamic_modifier = { modifier = TNOx_VNH_Downfall }
+				set_variable = { VNH_CON_DEM_seats = 2 }
+				set_variable = { VNH_LIB_DEM_seats = 1 }
+				set_variable = { VNH_AUTH_DEM_seats = 4 }
+				set_variable = { VNH_SOC_DEM_seats = 5 }
+				VNH_clamp_support_variables = yes
+				VNH_Council_Setup = yes
+				add_to_array = { X_VNH_Council = 0 }
+				add_to_array = { Y_VNH_Council = 105 }
+				add_to_array = { X_VNH_Council = 63 }
+				add_to_array = { Y_VNH_Council = 105 }
+				add_to_array = { X_VNH_Council = 14 }
+				add_to_array = { Y_VNH_Council = 59 }
+				add_to_array = { X_VNH_Council = 45 }
+				add_to_array = { Y_VNH_Council = 24 }
+				add_to_array = { X_VNH_Council = 90 }
+				add_to_array = { Y_VNH_Council = 70 }
+				add_to_array = { X_VNH_Council = 88 }
+				add_to_array = { Y_VNH_Council = 5 }
+				add_to_array = { X_VNH_Council = 136 }
+				add_to_array = { Y_VNH_Council = 5 }
+				add_to_array = { X_VNH_Council = 134 }
+				add_to_array = { Y_VNH_Council = 70 }
+				add_to_array = { X_VNH_Council = 179 }
+				add_to_array = { Y_VNH_Council = 24 }
+				add_to_array = { X_VNH_Council = 210 }
+				add_to_array = { Y_VNH_Council = 59 }
+				add_to_array = { X_VNH_Council = 161 }
+				add_to_array = { Y_VNH_Council = 105 }
+				add_to_array = { X_VNH_Council = 224 }
+				add_to_array = { Y_VNH_Council = 105 }
+			}
+		}
+	}
+}
