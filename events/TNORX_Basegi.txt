@@ -37,3 +37,30 @@ country_event = {
         }
 	}
 }
+country_event = { #war 100 moment
+	id = basegi.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.3"}
+	title = basegi.3.t
+	desc = basegi.3.desc
+	#picture = 
+
+	fire_only_once = yes
+	trigger = {
+		tag = BBB
+		BBB = {
+			owns_state = 401 #Kossackenstadt
+			has_global_flag = player_BBB
+		}
+	}
+
+	option = { #lets fucking go
+		name = basegi.3.a
+        hidden_effect = {
+			declare_war_on = {
+				target = VLG
+				type = annex_everything
+        	}
+		}
+	}
+	
+}

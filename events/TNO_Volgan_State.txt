@@ -404,3 +404,133 @@ country_event = {#Freikorps attacks
 		}
 	}
 }
+###############################
+#### Basegi Based Uprising ####
+###############################
+country_event = {#BBB demilitarization
+	id = VLG.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event VLG.6" }
+	title = VLG.6.t
+	desc = VLG.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Oh Shit Oh Fuck
+		name = VLG.6.a
+		ai_chance = { factor = 1 }
+		401 = {
+			set_demilitarized_zone = yes
+		}
+		VLG = {
+			country_event = {
+			id = VLG.7
+			days = 7
+			}
+		}
+	}
+}
+country_event = {#BBB movements
+	id = VLG.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event VLG.7" }
+	title = VLG.7.t
+	desc = VLG.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #fugg
+		name = VLG.7.a
+		ai_chance = { factor = 1 }
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1500
+			producer = VLG
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -300
+			producer = VLG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = -100
+			producer = VLG
+		}
+		add_manpower = -5000
+		VLG = {
+			country_event = {
+			id = VLG.8
+			days = 4
+			}
+		}
+	}
+}
+country_event = {#BBB hello rise up
+	id = VLG.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event VLG.8" }
+	title = VLG.8.t
+	desc = VLG.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #chungus disapproves
+		name = VLG.8.a
+		ai_chance = { factor = 1 }
+		BBB = {
+			transfer_state = 401
+			inherit_technology = VLG
+			load_oob = "BBB_Collapse"
+		}
+		VLG = {
+			country_event = {
+				id = VLG.9
+				days = 3
+			}
+		}
+		401 = {
+			set_demilitarized_zone = no
+		}
+	}
+	option = { #chungus approves
+		name = VLG.8.b
+		ai_chance = { factor = 0 }
+		BBB = {
+			transfer_state = 401
+			inherit_technology = VLG
+			load_oob = "BBB_Collapse"
+			change_tag_from = VLG
+		}
+		set_global_flag = player_BBB
+		401 = {
+			set_demilitarized_zone = no
+		}
+	}
+}
+country_event = {#BBB war
+	id = VLG.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event VLG.9" }
+	title = VLG.9.t
+	desc = VLG.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #hi
+		name = VLG.9.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			BBB = {
+				declare_war_on = {
+				target = VLG
+				type = annex_everything
+				}
+			}
+		}
+	}
+}

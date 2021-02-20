@@ -5,6 +5,7 @@ tags={
 	"Gameplay"
 }
 name="The New Redux"
+supported_version="1.10.4"
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="common/abilities"
@@ -36,5 +37,3 @@ replace_path="history/units"
 replace_path="history/countries"
 replace_path="music"
 replace_path="tests"
-supported_version="1.10.4"
-path="C:/Users/YOUR USERNAME HERE/Documents/Paradox Interactive/Hearts of Iron IV/mod/East-Aflame"

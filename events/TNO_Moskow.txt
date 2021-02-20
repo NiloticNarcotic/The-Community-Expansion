@@ -1454,7 +1454,6 @@ country_event = { # Moskowien Collapse #5
 			transfer_state = 217
 			add_state_core = 245
 			transfer_state = 245
-			add_state_core = 401
 			transfer_state = 401
 			add_state_core = 236
 			transfer_state = 236
@@ -1569,10 +1568,11 @@ country_event = { # Moskowien Collapse #8
 			set_politics = {
 				ruling_party = national_socialism
 			}
-			
+		}
+		VLG = {
 			country_event = {
-    		id = MCW.209
-    		days = 2
+				id = MCW.209
+				days = 2
 			}
 		}
 	}
@@ -1593,18 +1593,17 @@ country_event = { # Moskowien Collapse #9
 		name = MCW.209.a
 		BBB = {
 			add_state_core = 401
-			transfer_state = 401
-			inherit_technology = MCW
-			load_oob = "BBB_Collapse"
-			
-			declare_war_on = {
-    			target = VLG
-    			type = annex_everything
-			}
-			
+		}
+		VLG = {
 			country_event = {
-    		id = MCW.210
-    		days = 2
+				id = VLG.6
+				days = 7
+			}
+		}
+		PET = {
+			country_event = {
+				id = MCW.210
+				days = 2
 			}
 		}
 	}
