@@ -1,9 +1,7 @@
 focus_tree = {
 	id = pleskau_focus
-	
 	country = {
 		factor = 0
-		
 		modifier = {
 			add = 10
 			tag = PSK
@@ -37,7 +35,7 @@ focus_tree = {
 		id = PSK_our_eternal_struggle
 		icon = GFX_goal_unknown
 		x = 4
-		y = 2
+		y = 3
 		bypass = {
 		}
 		cost = 5
@@ -61,7 +59,7 @@ focus_tree = {
 		id = PSK_fill_the_reserves
 		icon = GFX_goal_unknown
 		x = 2
-		y = 3
+		y = 4
 		bypass = {
 		}
 		cost = 5
@@ -85,7 +83,7 @@ focus_tree = {
 		id = PSK_using_the_undesirables
 		icon = GFX_goal_unknown
 		x = 2
-		y = 4
+		y = 6
 		bypass = {
 		}
 		cost = 5
@@ -108,8 +106,8 @@ focus_tree = {
     focus = {
 		id = PSK_remembering_the_beginning
 		icon = GFX_goal_unknown
-		x = 4
-		y = 3
+		x = 4	
+		y = 4
 		bypass = {
 		}
 		cost = 5
@@ -133,7 +131,7 @@ focus_tree = {
 		id = PSK_to_the_bitter_end
 		icon = GFX_goal_unknown
 		x = 4
-		y = 4
+		y = 6
 		bypass = {
 		}
 		cost = 5
@@ -158,7 +156,7 @@ focus_tree = {
 		id = PSK_using_the_camps
 		icon = GFX_goal_unknown
 		x = 6
-		y = 3
+		y = 4
 		bypass = {
 		}
 		cost = 5
@@ -182,7 +180,7 @@ focus_tree = {
 		id = PSK_fill_the_factories
 		icon = GFX_goal_unknown
 		x = 6
-		y = 4
+		y = 6
 		bypass = {
 		}
 		cost = 5
@@ -206,7 +204,7 @@ focus_tree = {
 		id = PSK_from_dust_to_dust
 		icon = GFX_goal_unknown
 		x = 4
-		y = 5
+		y = 8
 		bypass = {
 		}
 		cost = 5
@@ -225,6 +223,46 @@ focus_tree = {
 			custom_effect_tooltip = tooltip_from_dust_to_dust
 		}
         ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_faith_in_state
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		bypass = {
+		}
+		cost = 35
+		prerequisite = { focus = PSK_remembering_the_beginning}
+		prerequisite = { focus = PSK_using_the_camps}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			faith_in_state = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_faith_in_party
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		bypass = {
+		}
+		cost = 35
+		prerequisite = { focus = PSK_remembering_the_beginning}
+		prerequisite = { focus = PSK_fill_the_reserves}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			faith_in_party = yes
+		}
+		ai_will_do = {
 			factor = 1
 		}
 	}
