@@ -9,6 +9,7 @@ the_blackest_night = {
 	    ideology = burgundian_system
 	    popularity = 0.05
     }
+    load_oob = PSK_1962
 }
 the_eternal_struggle = {
     add_stability = 0.07
@@ -23,8 +24,9 @@ fill_the_reserves = {
 }
 using_the_undesirables = {
     add_manpower = 4500
-    army_attack_factor = 0.05
-    army_defence_factor = 0.05
+    add_ideas = PSK_Rigid
+    add_war_support = 0.02
+    add_political_power = -10
 }
 remembering_the_beginning = {
     add_stability = 0.05
@@ -35,11 +37,11 @@ remembering_the_beginning = {
     }
 }
 to_the_bitter_end = {
-    add_ideas = PSK_bitter
+    add_ideas = PSK_Bitter
     add_war_support = 0.05
     add_popularity = {
 	    ideology = burgundian_system
-	    popularity = 0.015
+	    popularity = 0.035
     }
 }
 using_the_camps = {
@@ -47,19 +49,19 @@ using_the_camps = {
     add_stability = -0.05
     add_popularity = {
 	    ideology = socialist
-	    popularity = -0.035
+	    popularity = -0.085
     }
     add_popularity = {
 	    ideology = communist
-	    popularity = -0.045
+	    popularity = -0.085
     }
     add_popularity = {
 	    ideology = fascism
-	    popularity = -0.045
+	    popularity = -0.8
     }
     add_popularity = {
 	    ideology = despotism
-	    popularity = -0.025
+	    popularity = -0.085
     }
     263 = {
         add_building_construction = {
@@ -67,7 +69,14 @@ using_the_camps = {
             instant_build = yes
 		    level = 1
 	    }        
-    }    
+    }
+    246 = {
+        add_building_construction = {
+		    type = arms_factory
+            instant_build = yes
+		    level = 1
+	    }        
+    }        
 }
 fill_the_factories = {
     add_popularity = {
@@ -93,6 +102,29 @@ dust_to_dust = {
 	    ideology = burgundian_system
 	    popularity = 0.05
     }
+}
+faith_in_party = {
+    hidden_effect = {
+        add_popularity = {
+            ideology = burgundian_system
+            popularity = 0.025
+        }
+        add_popularity = {
+            ideology = national_socialism
+            popularity = 0.01
+        }        
+    }
+    add_timed_idea = { idea = PSK_Party  days = 75 }
+}
+faith_in_state ={
+    hidden_effect = {
+        add_popularity = {
+            ideology = burgundian_system 
+            popularity = 0.015
+        }       
+    }
+
+    add_timed_idea = { idea = PSK_State  days = 75 }
 }
 ###########################
 # PUT EVENT EFFECTS BELOW #

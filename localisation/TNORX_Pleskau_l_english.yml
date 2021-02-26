@@ -1,7 +1,25 @@
 ﻿l_english:
  #Ideas#
  PSK_Bitter:0 "To the Bitter End!"
- PSK_Bitter_desc:0 "[placeholder]"
+ PSK_Bitter_desc:0 "There will be no surrender, the ancient foe that seeks to infiltrate and turn our stronghold to ash is brutish and predictable, we won't give them the satisfaction of victory. In the bitter end, all glory will be ours, and the foes of old will be vanquished forevermore."
+
+ PSK_Rigid:0 "Rigid Combat Training"
+ PSK_Rigid_desc:0 "Due to the circumstances involving the unrest in the countryside, it is necessary to prepare our soldiers for their righteous war, they will learn to train in the worst of conditions so they can be confident in their ability to eliminate the toughest of enemies, it is up to us to ensure the legacy of National Socialism and of the Aryan race does not die in vain."
+
+ PSK_State:0 "Faith in State"
+ PSK_State_desc:0 "placeholder"
+
+ PSK_Party:0 "Faith in Party"
+ PSK_Party_desc:0 "placeholder"
+
+ PSK_Inferior:0 "Lesser-Race Industrial Production: Low"
+ PSK_Inferior_desc:0 "placeholder"
+
+ PSK_Inferior_2:0 "Lesser-Race Industrial Production: Medium"
+ PSK_Inferior_2_desc:0 "placeholder"
+
+ PSK_Inferior_3:0 "Lesser-Race Industrial Production: High"
+ PSK_Inferior_3_desc:0 "placeholder" 
  ### Ministers ###
  PSK_Franz_Stangl_hog:0 "Franz Stangl"
  PSK_Hermann_Hofle_for:0 "Hermann Höfle"
@@ -88,9 +106,9 @@
  PSK_fascism_ADJ:0 "Legionary"
 
  ### Focus Descriptions + Names ###
+ ### Starting Tree ###
  PSK_the_blackest_night:0 "The Blackest Night"
  PSK_the_blackest_night_desc:0 "placeholder"
- 
  
  PSK_our_eternal_struggle:0 "Our Eternal Struggle"
  PSK_our_eternal_struggle_desc:0 "placeholder"
@@ -103,6 +121,12 @@
  
  PSK_remembering_the_beginning:0 "Remembering the Beginning"
  PSK_remembering_the_beginning_desc:0 "placeholder"
+
+ PSK_faith_in_party:0 "Faith in Party"
+ PSK_faith_in_party_desc:0 "placeholder"
+ 
+ PSK_faith_in_state:0 "Faith in State"
+ PSK_faith_in_state_desc:0 "placeholder"
  
  PSK_to_the_bitter_end:0 "To the Bitter End!"
  PSK_to_the_bitter_end_desc:0 "placeholder"
@@ -152,6 +176,8 @@
  tooltip_event_pleskau_8:0 "§GWe will gain a boost to our industrial might!§!"
  
  tooltip_event_pleskau_9:0 "§RThere is no turning back...§!"
+
+ tooltip_decision_pleskau_1:0 "HALT! This is a test!"
  #Events and shite#
 
  #Shadows over Pleskau#
@@ -176,7 +202,7 @@
 
  #Remembering 1923#
  pleskau.5.a:0 "Remembering 1923"
- pleskau.5.b:0 "8th of November. \nThe day the new order celebrates with immense pride and fervor. \nThe city of Pleskau itself, has exploded into lively celebrations, with hundreds of Germanophiles and SS supporters flooding the streets, to celebrate the day Hitler heroically attempted to overthrow the corrupt Judeo-Bolshevik kleptocracy, known as the Weimar Republic. Although, his attempt proved to be a complete failure, he would lay out the foundations for the glorious German Reich, and become the savior of Germany, the avenger of Versailles, the 2nd Bismarck. Even Odilo Globočnik and his cabinet, were celebrating that memorable day in his grandeur villa. \n“Gentlemen” Odilo Globočnik began, after he finished his meal. “Today is a day all of you should greatly remember. Adolf Hitler, the defender of the Germanic pride, has subdued the very Untermensch that tried to destroy him and Germany. However, his job is far from over, because… these Untermensch have infiltrated us.” As Odilo continued with his rhetoric, he approached a plain cylinder-vase, and carefully placed it in his arms. “Take a look at this vase.” he demanded, as he presented it towards the cabinet. “This, is a plain vase, right? It’s nothing but a hollow object, used for decorations, with no purpose or obligation to harm us whatsoever.” His eyes slowly drifted away from the vase, and towards the council. “If we compared it to us, it could be a useful collaborator, or even an honorary “Aryan”, right?” Odilo asked. A few murmurs of agreement followed on. \n“…” “WRONG!” Odilo interrupted abruptly, as he threw the vase to the ground, shattering it and spreading bits of glasses everywhere. All the cabinet could do, was look with horror, as he broke into an intense rant. “DON’T YOU UNDERSTAND? THIS IS THE VERY THING THAT THREATENED TO KILL OUR REICH; HELL, THIS IS THE THING THAT CAUSE THIS GODDAMN REICHKOMMISARIAT TO COLLAPSE IN THE FIRST PLACE!” he roared. “OUR IGNORANCE! THE BASTARDLY SLAVS, THE FAKE ARYANS, EVERYONE! WE WERE SO SPOILED WITH THE FRUITS OF OUR OWN LABOUR, THAT WE FORGOT WHAT OUR GOAL IS ON THE FIRST PLACE!” Odilo spurted as he turned red with fury. “ALWAYS SPENDING OUR TIME ON LAVISH STUFF, WHILE THESE PLAGUED RATS INFILTRATE OUR GREAT SOCIETY, YOU HAVE BETRAYED YOUR OWN CAUSE!” Realizing that he has gone out of control, Odilo took a few deep breaths, and calmed down. “We…Need to realize, that not only the petty Russian warlords are to be defeated, but also that honorary Aryans need to repopulate that region, from the start!” he muttered, before flumping himself onto a wooden chair. "
+ pleskau.5.b:0 "8th of November. \nThe day the new order celebrates with immense pride and fervor. \nThe city of Pleskau itself, has exploded into lively celebrations with hundreds of Germanophiles and SS supporters flooding the streets, to celebrate the day Hitler heroically attempted to overthrow the corrupt Judeo-Bolshevik kleptocracy, known as the Weimar Republic. Although, his attempt proved to be a complete failure, he would lay out the foundations for the glorious German Reich, and become the savior of Germany, the avenger of Versailles, the 2nd Bismarck. Even Odilo Globočnik and his cabinet, were celebrating that memorable day in his grandeur villa. \n“Gentlemen” Odilo Globočnik began, after he finished his meal. “Today is a day all of you should greatly remember. Adolf Hitler, the defender of the Germanic pride, has subdued the very Untermensch that tried to destroy him and Germany. However, his job is far from over, because… these Untermensch have infiltrated us.” As Odilo continued with his rhetoric, he approached a plain cylinder-vase, and carefully placed it in his arms. “Take a look at this vase.” he demanded, as he presented it towards the cabinet. “This, is a plain vase, right? It’s nothing but a hollow object, used for decorations, with no purpose or obligation to harm us whatsoever.” His eyes slowly drifted away from the vase, and towards the council. “If we compared it to us, it could be a useful collaborator, or even an honorary “Aryan”, right?” Odilo asked. A few murmurs of agreement followed on. \n“…” “WRONG!” Odilo interrupted abruptly, as he threw the vase to the ground, shattering it and spreading bits of glasses everywhere. All the cabinet could do, was look with horror, as he broke into an intense rant. “DON’T YOU UNDERSTAND? THIS IS THE VERY THING THAT THREATENED TO KILL OUR REICH; HELL, THIS IS THE THING THAT CAUSE THIS GODDAMN REICHKOMMISARIAT TO COLLAPSE IN THE FIRST PLACE!” he roared. “OUR IGNORANCE! THE BASTARDLY SLAVS, THE FAKE ARYANS, EVERYONE! WE WERE SO SPOILED WITH THE FRUITS OF OUR OWN LABOUR, THAT WE FORGOT WHAT OUR GOAL IS ON THE FIRST PLACE!” Odilo spurted as he turned red with fury. “ALWAYS SPENDING OUR TIME ON LAVISH STUFF, WHILE THESE PLAGUED RATS INFILTRATE OUR GREAT SOCIETY, YOU HAVE BETRAYED YOUR OWN CAUSE!” Realizing that he has gone out of control, Odilo took a few deep breaths, and calmed down. “We…Need to realize, that not only the petty Russian warlords are to be defeated, but also that honorary Aryans need to repopulate that region, from the start!” he muttered, before flumping himself onto a wooden chair. "
  pleskau.5.c:0 "Hatred is the greatest weapon on the battlefield"
 
  #Quotas#
@@ -196,6 +222,24 @@
 
  #Ashes of the Fallen#
  pleskau.9.a:0 "Ashes of the Fallen"
- pleskau.9.b:0 "placeholder"
- pleskau.9.c:0 "Destiny calls all true sons of the Fatherland." 
+ pleskau.9.b:0 "[STRENG GEHEIM \nTo; Reichkommandant of “Yamburg” Concentration Camp \n[ZENSIERTEN] \nFrom; Geheimdienstoffizier of “Yamburg” Concentration Camp \n[ZENSIERTEN] \nTHE FOLLOWING REPORT SHOULD NOT BE REDISTRIBUTED TO ANY MEDIA PLAT-FORM. VIOLATION OF SUCH ACT WILL RESUT WITH CHARGES OF HIGH TREASON AND EXECUTION BY FIRING SQUAD MONTHLY QUOTA REPORT; \n1-XX-196X TO 3X-XX-196X Between 1-XX-196X and 3X-XX-196X, the “Yamburg” Concentration Camp has; \n.   Eradicated about 8,000-10,000 traitorous individuals with “Honorary Aryan” status \n.    Forced about 170,000 lesser race individuals in the labour sector \n.    Incinerated a total of 84,000 individuals of Gypsy, Jewish or of any other lesser ancestry \n.    Siezed valuables and other personal equipment worth nearly 25,000,000 Reichmarks \n.    Burnt an estimate of 210,000 passports, birth certificates or any form of civilian documents \nConclusion \nThe “Yamburg” Concentration Camp has successfully met it’s monthly quota, with minimal incidents. However, an import of more efficient Gas Chambers and Furnaces will be needed in the foreseeable future. \nHEIL HITLER! \nHEIL GLOBOTSCHNIGG!"
+ pleskau.9.c:0 "Report Concluded" 
 
+ #Faith in Party
+ pleskau.10.a:0 "Faith in the Party"
+ pleskau.10.b:0 "placeholder"
+ pleskau.10.c:0 "No room for anything else."
+
+ #Faith in State
+ pleskau.11.a:0 "Faith in the State"
+ pleskau.11.b:0 "placeholder"
+ pleskau.11.c:0 "Above all else."
+
+ #Decisions Localization#
+ #Political Decisions#
+ pleskau_political:0 "Pleskau Shutzstaffel Affairs"
+ #Industrial Decisions#
+ pleskau_industrial:0 "Pleskau Industrial Affairs"
+ #Construction Decisions
+ pleskau_construction:0 "Pleskau Construction Affairs"
+ map_icon_strip_localisation:0 "Erect Arms Factory"
