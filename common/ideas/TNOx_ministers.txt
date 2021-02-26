@@ -68,4 +68,69 @@ ideas = {
 			ledger = civilian
 		}
 	}
+	### Basegi Black Brigades ###
+	economy_minister = {
+		VNH_Aslan_Usoyan_eco = {
+			allowed = { original_tag = BBB }
+			picture = "GFX_BBB_minister_Aslan_Usoyan_eco"
+			available = {
+				
+			}
+			traits = {
+				economy_minister
+				fascism
+				eco_hoarder
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		VNH_Vladimir_Ankudinov_for = {
+			allowed = { original_tag = BBB }
+			picture = "GFX_BBB_minister_Vladimir_Ankudinov_for"
+			available = {
+				
+			}
+			traits = {
+				foreign_minister
+				fascism
+				for_warmonger
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		VNH_Yuri_Nefedov_for = {
+			allowed = { original_tag = BBB }
+			picture = "GFX_BBB_minister_Yuri_Nefedov_for"
+			available = {
+				
+			}
+			traits = {
+				foreign_minister
+				fascism
+				for_fierce_negotiator
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		VNH_Boris_Krasilovsky_sec = {
+			allowed = { original_tag = BBB }
+			picture = "GFX_BBB_minister_Boris_Krasilovsky_sec"
+			available = {
+				
+			}
+			traits = {
+				security_minister
+				fascism
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
 }

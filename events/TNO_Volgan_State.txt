@@ -420,13 +420,16 @@ country_event = {#BBB demilitarization
 	option = { #Oh Shit Oh Fuck
 		name = VLG.6.a
 		ai_chance = { factor = 1 }
+		BBB = {
+			add_state_core = 401
+		}
 		401 = {
 			set_demilitarized_zone = yes
 		}
 		VLG = {
 			country_event = {
 			id = VLG.7
-			days = 7
+			days = 2
 			}
 		}
 	}
@@ -446,24 +449,24 @@ country_event = {#BBB movements
 		ai_chance = { factor = 1 }
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
-			amount = -1500
+			amount = -482
 			producer = VLG
 		}
 		add_equipment_to_stockpile = {
 			type = support_equipment
-			amount = -300
+			amount = -373
 			producer = VLG
 		}
 		add_equipment_to_stockpile = {
 			type = motorized_equipment
-			amount = -100
+			amount = -137
 			producer = VLG
 		}
-		add_manpower = -5000
+		add_manpower = -2429
 		VLG = {
 			country_event = {
 			id = VLG.8
-			days = 4
+			days = 2
 			}
 		}
 	}
@@ -485,12 +488,10 @@ country_event = {#BBB hello rise up
 			transfer_state = 401
 			inherit_technology = VLG
 			load_oob = "BBB_Collapse"
-		}
-		VLG = {
-			country_event = {
-				id = VLG.9
-				days = 3
-			}
+			declare_war_on = {
+                target = VLG
+                type = annex_everything
+            }
 		}
 		401 = {
 			set_demilitarized_zone = no
@@ -503,26 +504,29 @@ country_event = {#BBB hello rise up
 			transfer_state = 401
 			inherit_technology = VLG
 			load_oob = "BBB_Collapse"
+			declare_war_on = {
+                target = VLG
+                type = annex_everything
+            }
 			change_tag_from = VLG
 		}
-		set_global_flag = player_BBB
 		401 = {
 			set_demilitarized_zone = no
 		}
 	}
 }
 country_event = {#BBB war
-	id = VLG.9
-	immediate = { log = "[GetDateText]: [Root.GetName]: event VLG.9" }
-	title = VLG.9.t
-	desc = VLG.9.desc
+	id = VLG.99
+	immediate = { log = "[GetDateText]: [Root.GetName]: event VLG.99" }
+	title = VLG.99.t
+	desc = VLG.99.desc
 	#picture = 
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = { #hi
-		name = VLG.9.a
+		name = VLG.99.a
 		ai_chance = { factor = 1 }
 		hidden_effect = {
 			BBB = {

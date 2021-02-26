@@ -15,4 +15,21 @@ spriteTypes = {
 		name = "GFX_VNH_minister_Iya_Savvina_hog"
 		texturefile = "gfx/interface/ideas/VNH/ministers/minister_VNH_Iya_Savvina.dds"
 	}
+	spriteType = {
+		name = "GFX_BBB_minister_Aslan_Usoyan_eco"
+		texturefile = "gfx/interface/ideas/BBB/ministers/minister_BBB_Aslan_Usoyan.dds"
+	}
+	spriteType = {
+		name = "GFX_BBB_minister_Vladimir_Ankudinov_for"
+		texturefile = "gfx/interface/ideas/BBB/ministers/minister_BBB_Vladimir_Ankudinov.dds"
+	}
+	spriteType = {
+		name = "GFX_BBB_minister_Yuri_Nefedov_for"
+		texturefile = "gfx/interface/ideas/BBB/ministers/minister_BBB_Yuri_Nefedov.dds"
+	}
+	spriteType = {
+		name = "GFX_BBB_minister_Boris_Krasilovsky_sec"
+		texturefile = "gfx/interface/ideas/BBB/ministers/minister_BBB_Boris_Krasilovsky.dds"
+	}
+	
 }

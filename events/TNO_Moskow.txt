@@ -1463,6 +1463,10 @@ country_event = { # Moskowien Collapse #5
 			transfer_state = 238
 			inherit_technology = MCW
 			load_oob = "VLG_Collapse"
+			country_event = {
+				id = VLG.6
+				days = 2
+			}
 		}
 		
 		country_event = {
@@ -1569,9 +1573,9 @@ country_event = { # Moskowien Collapse #8
 				ruling_party = national_socialism
 			}
 		}
-		VLG = {
+		PET = {
 			country_event = {
-				id = MCW.209
+				id = MCW.210
 				days = 2
 			}
 		}
@@ -1597,7 +1601,7 @@ country_event = { # Moskowien Collapse #9
 		VLG = {
 			country_event = {
 				id = VLG.6
-				days = 7
+				days = 2
 			}
 		}
 		PET = {

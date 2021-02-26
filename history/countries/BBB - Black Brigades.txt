@@ -1,45 +1,59 @@
+
+#██████╗░░█████╗░░██████╗███████╗░██████╗░██╗     ██████╗░░█████╗░░██████╗███████╗██████╗░    ██████╗░██████╗░██╗░██████╗░░█████╗░██████╗░███████╗░██████╗#
+#██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝░██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██║██╔════╝░██╔══██╗██╔══██╗██╔════╝██╔════╝#
+#██████╦╝███████║╚█████╗░█████╗░░██║░░██╗░██║     ██████╦╝███████║╚█████╗░█████╗░░██║░░██║    ██████╦╝██████╔╝██║██║░░██╗░███████║██║░░██║█████╗░░╚█████╗░#
+#██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░╚██╗██║     ██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░██║    ██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║██║░░██║██╔══╝░░░╚═══██╗#
+#██████╦╝██║░░██║██████╔╝███████╗╚██████╔╝██║     ██████╦╝██║░░██║██████╔╝███████╗██████╔╝    ██████╦╝██║░░██║██║╚██████╔╝██║░░██║██████╔╝███████╗██████╔╝#
+#╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝░╚═════╝░╚═╝     ╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░    ╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░#
+
 capital = 401
 
 oob = "MOS_1962"
+add_manpower = 9000
+
+load_focus_tree = basegi_initial
 
 add_ideas = {
+	### Ideas ###
+	BBB_Darwinian_Society_Hidden
+	BBB_Darwinian_Society
+	BBB_Terror_Of_The_East
+	BBB_The_State_Of_The_Brigades
+
 	### Ministers ###
-	BBB_Soslanbek_Apayev_hog
-	BBB_Ivan_Yezhov_for
+	BBB_Vasily_Mordakov_hog
 	BBB_Vasily_Buzulutsky_eco
-	BBB_Vasily_Mordakov_sec
+	BBB_Soslanbek_Apayev_sec
+	BBB_Ivan_Yezhov_for
 
 	### Political ###
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism
-	tno_trade_unions_illegal
-	tno_immigration_closed_borders
+	tno_trade_unions_all_allowed
+	tno_immigration_open_immigration
 	tno_slavery_outlawed
 	tno_public_meetings_outlawed
-	tno_press_rights_state_press_only
+	tno_press_rights_censored_press
 	tno_vote_franchise_no_voting
-	tno_refugees_banned
-
+	tno_refugees_vetted_entry
 	### Military###
 	tno_conscription_two_year_draft
-	tno_women_military_assistance
+	tno_women_noncombat_only
 	tno_military_supervision_kill_em_all
 	tno_military_spending_medium_spending
 	tno_training_minimal_training
 	tno_racial_integration_segregated_regiments
 	tno_draft_exemptions_none
-
 	### Economic ###
 	tno_trade_laws_limited_exports
 	tno_economic_focus_early_mobilization
-	tno_tax_rate_medium_taxation
+	tno_tax_rate_low_taxation
 	tno_income_taxation_elite_tax_exemptions
 	tno_minimum_wage_no_minimum_wage
 	tno_max_workhours_unlimited_work_day
 	tno_child_labor_legal
 	tno_pensions_no_pensions
 	tno_unemployment_no_subsidies
-
 	### Social ###
 	tno_safety_no_regulations
 	tno_health_care_no_health_care
@@ -50,7 +64,6 @@ add_ideas = {
 	tno_gender_rights_traditional_roles
 	tno_minorities_segregation
 	tno_security_police
-
 	##SOCIETAL DEVELOPMENT##
 	tno_nuclear_stockpile_none
 	tno_poverty_rate_50
@@ -87,23 +100,70 @@ set_technology = {
 	ww2_carrier = 1
 }
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_stability = 0.74
+set_war_support = 0.7
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = despotism
 	last_election = "1941.4.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 12
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	despotism = 86
+	fascism = 2
+	burgundian_system = 0
+}
+
 ### Country Leader ###
 create_country_leader = {
-	name = "Vasily Mordakov"
-	desc = "POLITICS_VASILY_MORDAKOV_DESC"
-	picture = "Portrait_Black_Brigades_Vasily_Mordakov.dds"
-	expire = "1983.4.24"
+    name = "Vasily Mordakov"
+    desc = "POLITICS_VASILY_MORDAKOV_DESC"
+    picture = "Portrait_Black_Brigades_Vasily_Mordakov.dds"
+    expire = "1993.4.24"
+    ideology = despotism_subtype
+    traits = {
+
+    }
+}
+
+create_country_leader = {
+    name = "Vasily Mordakov"
+    desc = "POLITICS_RADICAL_MORDAKOV_DESC"
+    picture = "Portrait_Black_Brigades_Vasily_Mordakov.dds"
+    expire = "1993.4.24"
+    ideology = ultranational_socialism_subtype
+    traits = {
+
+    }
+}
+
+create_country_leader = {
+    name = "Vasily Mordakov"
+    desc = "POLITICS_RADICAL_MORDAKOV_DESC"
+    picture = "Portrait_Black_Brigades_Vasily_Mordakov.dds"
+    expire = "1993.4.24"
+    ideology = fascism_subtype
+    traits = {
+    }
+}
+
+create_country_leader = {
+	name = "Vladimir Ankudinov"
+	desc = "POLITICS_VLADIMIR_ANKUDINOV_DESC"
+	picture = "Portrait_Black_Brigades_Vladimir_Ankudinov.dds"
+	expire = "1993.4.24"
 	ideology = fascism_subtype
 	traits = {
 
@@ -116,11 +176,50 @@ create_corps_commander = {
 	picture = "Portrait_Black_Brigades_Soslanbek_Apayev.dds"
 	traits = { commando camouflage_expert }
 	skill = 2
-	attack_skill = 2
-	defense_skill = 1
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Anatoly Volkov"
+	picture = "Portrait_Black_Brigades_Soslanbek_Apayev.dds"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 3
-	id = 15010
+}
+create_corps_commander = {
+	name = "Evgeny Dimitriev"
+	picture = "Portrait_Black_Brigades_Evgeny_Dimitriev.dds"
+	traits = { harsh_leader trait_reckless }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Igor Krivatsky"
+	picture = "Portrait_Black_Brigades_Soslanbek_Apayev.dds"
+	traits = { inflexible_strategist commando }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Alexander Rodionov"
+	picture = "Portrait_Black_Brigades_Soslanbek_Apayev.dds"
+	traits = { offensive_doctrine }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 set_popularities = {

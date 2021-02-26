@@ -50,6 +50,7 @@ country_event = { #war 100 moment
 		BBB = {
 			owns_state = 401 #Kossackenstadt
 			has_global_flag = player_BBB
+			
 		}
 	}
 
