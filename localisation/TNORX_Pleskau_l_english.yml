@@ -106,7 +106,9 @@
  PSK_fascism_ADJ:0 "Legionary"
 
  ### Focus Descriptions + Names ###
+ 
  ### Starting Tree ###
+ 
  PSK_the_blackest_night:0 "The Blackest Night"
  PSK_the_blackest_night_desc:0 "placeholder"
  
@@ -139,6 +141,79 @@
  
  PSK_from_dust_to_dust:0 "From Dust to Dust"
  PSK_from_dust_to_dust_desc:0 "placeholder"
+ 
+ ### Unification Tree ###
+ PSK_scorched_by_the_sun:0 "Scorched by the Sun"
+ PSK_scorched_by_the_sun_desc:0 "placeholder"
+ 
+ PSK_refining_our_methods:0 "Refining our Methods"
+ PSK_refining_our_methods_desc:0 "placeholder"
+ 
+ PSK_new_officer_corp:0 "A New Officer Corp"
+ PSK_new_officer_corp_desc:0 "placeholder"
+ 
+ PSK_the_black_cats:0 "The Black Cats"
+ PSK_the_black_cats_desc:0 "placeholder"
+ 
+ PSK_the_black_skies:0 "The Black Skies"
+ PSK_the_black_skies_desc:0 "placeholder"
+ 
+ PSK_a_question_of_purity:0 "A Question of Purity"
+ PSK_a_question_of_purity_desc:0 "placeholder"
+ 
+ PSK_speib_boran:0 "Spieß Voran!"
+ PSK_speib_boran_desc:0 "placeholder"
+ 
+ PSK_the_winding_road:0 "The Winding Road"
+ PSK_the_winding_road_desc:0 "placeholder"
+ 
+ PSK_a_rebellious_east:0 "A Rebellious East"
+ PSK_a_rebellious_east_desc:0 "placeholder"
+ 
+ PSK_purging_the_spectre:0 "Purging the Spectre"
+ PSK_purging_the_spectre_desc:0 "placeholder"
+ 
+ PSK_contest_brauschichstadt_leadership:0 "Contest the Brauschichstadt Leadership"
+ PSK_contest_brauschichstadt_leadership_desc:0 "placeholder"
+ 
+ PSK_dealing_with_kaminski:0 "Dealing with Kaminski"
+ PSK_dealing_with_kaminski_desc:0 "placeholder"
+ 
+ PSK_dinner_with_von_saucken:0 "Dinner with von Saucken"
+ PSK_dinner_with_von_saucken_desc:0 "placeholder"
+ 
+ PSK_end_to_wehrmacht_jewry:0 "End to Wehrmacht Jewry"
+ PSK_end_to_wehrmacht_jewry_desc:0 "placeholder"
+ 
+ PSK_put_them_to_work:0 "Put them to Work"
+ PSK_put_them_to_work_desc:0 "placeholder"
+ 
+ PSK_a_step_into_the_past:0 "A Step into the Past"
+ PSK_a_step_into_the_past_desc:0 "placeholder"
+ 
+ PSK_purge_the_rot:0 "Purge the Rot"
+ PSK_purge_the_rot_desc:0 "placeholder"
+ 
+ PSK_treytarovs_trip:0 "Treytarovs Trip"
+ PSK_treytarovs_trip_desc:0 "placeholder"
+ 
+ PSK_end_to_kaminsky_delusion:0 "An End to Kaminsky's Delusion"
+ PSK_end_to_kaminsky_delusion_desc:0 "placeholder"
+ 
+ PSK_great_expectations:0 "Great Expectations"
+ PSK_great_expectations_desc:0 "placeholder"
+ 
+ PSK_out_of_frying_pan:0 "Out of the Frying Pan"
+ PSK_out_of_frying_pan_desc:0 "placeholder"
+ 
+ PSK_traitors_different_kind:0 "Traitors of a Different Kind"
+ PSK_traitors_different_kind_desc:0 "placeholder"
+ 
+ PSK_shot_in_the_dark:0 "A Shot in the Dark"
+ PSK_shot_in_the_dark_desc:0 "placeholder"
+ 
+ PSK_drauf_und_dran:0 "Drauf und Dran"
+ PSK_drauf_und_dran_desc:0 "placeholder"
 
  #Custom Tooltips#
  tooltip_the_blackest_night:0 "§RThe Black Sun casts long shadows over Pleskau, and the earth trembles.§!"

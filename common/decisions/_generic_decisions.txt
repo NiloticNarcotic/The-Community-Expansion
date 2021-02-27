@@ -67,6 +67,31 @@ space_test_decisions = {
 		}
 	}
 	
+	debug_moskowien_breakup = {
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+		visible = {
+			NOT = { has_country_flag = hide_debug_decisions }
+		}
+		fire_only_once = yes
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: debug_moskowien_breakup"
+			MCW = {
+		    country_event = { 
+				hours = 1
+			    id = MCW_DBG.5
+		    }
+		    }
+
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	debug_start_the_DLC = {
 		icon = generic_industry
 

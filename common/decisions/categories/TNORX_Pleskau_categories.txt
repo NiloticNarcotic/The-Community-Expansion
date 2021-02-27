@@ -1,0 +1,11 @@
+PSK_Debug = {
+	icon = decision_category_generic_political_actions
+
+	allowed = {
+		original_tag = PSK
+	}
+	visible = {
+		is_debug = yes
+		is_ai = no
+	}
+}

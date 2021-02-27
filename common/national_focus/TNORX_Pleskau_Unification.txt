@@ -1,0 +1,497 @@
+focus_tree = {
+	id = pleskau_unification
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PSK
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1000 }
+	
+	focus = {
+		id = PSK_scorched_by_the_sun
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		bypass = {
+		}
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_refining_our_methods
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_scorched_by_the_sun }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_new_officer_corp
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_scorched_by_the_sun }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_the_black_cats
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_refining_our_methods }
+		prerequisite = { focus = PSK_new_officer_corp }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_the_black_skies
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_the_black_cats }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_a_question_of_purity
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_the_black_skies }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_speib_boran
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_a_question_of_purity }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_the_winding_road
+		icon = GFX_goal_unknown
+		x = 3
+		y = 7
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_speib_boran }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_a_rebellious_east
+		icon = GFX_goal_unknown
+		x = 13
+		y = 7
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_speib_boran }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_purging_the_spectre
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_speib_boran }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_contest_brauschichstadt_leadership
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_the_winding_road }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_dealing_with_kaminski
+		icon = GFX_goal_unknown
+		x = 13
+		y = 8
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_a_rebellious_east }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_dinner_with_von_saucken
+		icon = GFX_goal_unknown
+		x = 1
+		y = 9
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_contest_brauschichstadt_leadership }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_end_to_wehrmacht_jewry
+		icon = GFX_goal_unknown
+		x = 3
+		y = 9
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_contest_brauschichstadt_leadership }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_put_them_to_work
+		icon = GFX_goal_unknown
+		x = 6
+		y = 9
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_purging_the_spectre }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_a_step_into_the_past
+		icon = GFX_goal_unknown
+		x = 8
+		y = 9
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_purging_the_spectre }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_purge_the_rot
+		icon = GFX_goal_unknown
+		x = 10
+		y = 9
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_purging_the_spectre }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_treytarovs_trip
+		icon = GFX_goal_unknown
+		x = 15
+		y = 9
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_dealing_with_kaminski }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_end_to_kaminsky_delusion
+		icon = GFX_goal_unknown
+		x = 13
+		y = 9
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_dealing_with_kaminski }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_great_expectations
+		icon = GFX_goal_unknown
+		x = 1
+		y = 10
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_dinner_with_von_saucken }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_out_of_frying_pan
+		icon = GFX_goal_unknown
+		x = 3
+		y = 10
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_great_expectations }
+		prerequisite = { focus = PSK_end_to_wehrmacht_jewry }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_traitors_different_kind
+		icon = GFX_goal_unknown
+		x = 15
+		y = 10
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_treytarovs_trip }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_shot_in_the_dark
+		icon = GFX_goal_unknown
+		x = 13
+		y = 10
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_traitors_different_kind }
+		prerequisite = { focus = PSK_end_to_kaminsky_delusion }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_drauf_und_dran
+		icon = GFX_goal_unknown
+		x = 8
+		y = 12
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_out_of_frying_pan }
+		prerequisite = { focus = PSK_shot_in_the_dark }
+		prerequisite = { focus = PSK_put_them_to_work }
+		prerequisite = { focus = PSK_purge_the_rot }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+}
