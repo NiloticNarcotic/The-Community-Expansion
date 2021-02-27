@@ -221,18 +221,3 @@ create_field_marshal = {
 	planning_skill = 1
 	logistics_skill = 1
 }
-
-set_popularities = {
-	communist = 0
-	ultranational_socialism = 8
-	socialist = 0
-	social_democrat = 0
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 0
-	despotism = 0
-	fascism = 72
-	burgundian_system = 0
-	national_socialism = 20
-}
