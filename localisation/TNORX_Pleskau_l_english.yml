@@ -214,6 +214,45 @@
  
  PSK_drauf_und_dran:0 "Drauf und Dran"
  PSK_drauf_und_dran_desc:0 "placeholder"
+ 
+ PSK_the_best_laid_plans:0 "The Best Laid Plans"
+ PSK_the_best_laid_plans_desc:0 "placeholder"
+ 
+ PSK_memories_of_forty_one:0 "Memories of 41"
+ PSK_memories_of_forty_one_desc:0 "placeholder"
+ 
+ PSK_lichter_aus:0 "Licther Aus"
+ PSK_lichter_aus_desc:0 "placeholder"
+ 
+ PSK_deal_with_devil:0 "Deal with the Devil"
+ PSK_deal_with_devil_desc:0 "placeholder"
+ 
+ PSK_through_cold_lenses:0 "Through Cold Lenses"
+ PSK_through_cold_lenses_desc:0 "placeholder"
+ 
+ PSK_to_their_dying_breath:0 "To Their Dying Breath"
+ PSK_to_their_dying_breath_desc:0 "placeholder"
+ 
+ PSK_no_where_left_to_flee:0 "Nowhere Left to Flee"
+ PSK_no_where_left_to_flee_desc:0 "placeholder"
+ 
+ PSK_all_bandits_share_same_fate:0 "All Bandits Share the Same Fate"
+ PSK_all_bandits_share_same_fate_desc:0 "placeholder"
+ 
+ PSK_a_useful_puppet:0 "A Useful Puppet"
+ PSK_a_useful_puppet_desc:0 "placeholder"
+ 
+ PSK_the_only_use_traitors:0 "The Only Use for Traitors"
+ PSK_the_only_use_traitors_desc:0 "placeholder"
+ 
+ PSK_volksdeutsch_vereinigt:0 "Volksdeutsch Vereinigt"
+ PSK_volksdeutsch_vereinigt_desc:0 "placeholder"
+ 
+ PSK_fall_schwarz:0 "Fall Schwarz"
+ PSK_fall_schwarz_desc:0 "placeholder"
+ 
+ PSK_es_ist_aus:0 "Es Ist Aus"
+ PSK_es_ist_aus_desc:0 "placeholder"
 
  #Custom Tooltips#
  tooltip_the_blackest_night:0 "§RThe Black Sun casts long shadows over Pleskau, and the earth trembles.§!"
