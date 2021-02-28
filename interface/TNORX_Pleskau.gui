@@ -1,0 +1,218 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TNO_Pleskau_GUI_open"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "psk_germanization_menu_open"
+			spriteType = "GFX_psk_germanization_open_button"
+			position = { x = 238 y = 41 }
+			pdx_tooltip = "scripted_gui_open_tt_ger_mil"
+			scale = 0.65
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=185 y=-16 }
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Pleskau_germanization_window_main"
+		size = { width = 600 height = 550 }
+		position = { x = 538 y = 77 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		
+		instantTextboxType = {
+			name = "Leader_Name"
+			position = { x = 150 y = 10 }
+			font = "aldrich_36_outline"
+			text = "Progress of Germanization"
+			format = center
+			maxWidth = 350
+			maxHeight = 300
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "PSK_NaziEagle"
+			spriteType = "GFX_PSK_NaziEagle"
+			position = { x = 15 y = 15 }
+			scale = .2
+		}
+
+		buttonType = {
+			name = "PSK_Info_button"
+			quadTextureSprite = "GFX_SGR_RND_GUI_info_button"
+			position = { x = 540 y = 20 }
+			}
+
+		iconType = {
+			name = "PSK_germanization_map"
+			spriteType = "GFX_PSK_Map"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State1_NonGermanised"
+			spriteType = "GFX_PSK_State1_NonGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State1_PartiallyGermanised"
+			spriteType = "GFX_PSK_State1_PartiallyGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State1_FullyGermanised"
+			spriteType = "GFX_PSK_State1_FullyGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State2_NonGermanised"
+			spriteType = "GFX_PSK_State2_NonGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State2_PartiallyGermanised"
+			spriteType = "GFX_PSK_State2_PartiallyGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State2_FullyGermanised"
+			spriteType = "GFX_PSK_State2_FullyGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State3_NonGermanised"
+			spriteType = "GFX_PSK_State3_NonGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State3_PartiallyGermanised"
+			spriteType = "GFX_PSK_State3_PartiallyGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State3_FullyGermanised"
+			spriteType = "GFX_PSK_State3_FullyGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State4_NonGermanised"
+			spriteType = "GFX_PSK_State4_NonGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State4_PartiallyGermanised"
+			spriteType = "GFX_PSK_State4_PartiallyGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_State4_FullyGermanised"
+			spriteType = "GFX_PSK_State4_FullyGermanised"
+			position = { x = 100 y = 115 }
+			scale = 0.3
+		}
+		
+		iconType = {
+			name = "PSK_ColorKey_Yellow"
+			spriteType = "GFX_PSK_ColorKey_Yellow"
+			position = { x = 100 y = 400 }
+			scale = 1.5
+		}
+		
+		instantTextboxType = {
+			name = "PSK_ColorKey_Yellow_TXT"
+			position = { x = 140 y = 400 }
+			font = "aldrich_16_outline"
+			text = "Non-Germanized"
+			format = left
+			maxWidth = 525
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "PSK_ColorKey_YellowGreen"
+			spriteType = "GFX_PSK_ColorKey_YellowGreen"
+			position = { x = 100 y = 430 }
+			scale = 1.5
+		}
+		
+		instantTextboxType = {
+			name = "PSK_ColorKey_YellowGreen_TXT"
+			position = { x = 140 y = 430 }
+			font = "aldrich_16_outline"
+			text = "Partially Germanized"
+			format = left
+			maxWidth = 525
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "PSK_ColorKey_Green"
+			spriteType = "GFX_PSK_ColorKey_Green"
+			position = { x = 100 y = 460 }
+			scale = 1.5
+		}
+		
+		instantTextboxType = {
+			name = "PSK_ColorKey_Green_TXT"
+			position = { x = 140 y = 460 }
+			font = "aldrich_16_outline"
+			text = "Fully Germanized"
+			format = left
+			maxWidth = 525
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "PSK_Germanization_Colonization_GUI_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 150 y = 500 }
+			buttonFont = "aldrich_18_outline"
+			text = "Colonization"
+			pdx_tooltip = VNH_SocDem_Interactions_TT
+		}
+	
+		buttonType = {
+			name = "PSK_Germanization_Decrees_GUI_Button"
+			quadTextureSprite = "GFX_VNH_Council_Box_Button"
+			position = { x = 350 y = 500 }
+			buttonFont = "aldrich_18_outline"
+			text = "Decrees"
+			pdx_tooltip = VNH_SocDem_Interactions_TT
+		}
+	}
+}

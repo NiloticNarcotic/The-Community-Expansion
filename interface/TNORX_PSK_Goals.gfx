@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	### PSK Initial Tree ###
+	SpriteType = {
+		name = "GFX_fill_the_factories"
+		texturefile = "gfx/interface/goals/PSK_Fill_the_Factories.dds"
+	}
+}

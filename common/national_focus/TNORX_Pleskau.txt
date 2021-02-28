@@ -178,7 +178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PSK_fill_the_factories
-		icon = GFX_goal_unknown
+		icon = GFX_fill_the_factories
 		x = 6
 		y = 6
 		bypass = {

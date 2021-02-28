@@ -1,0 +1,88 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_PSK_Map"
+		texturefile = "gfx/interface/pleskau_germanization_gui/Pleskau_Map.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State1_NonGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State1_NonGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State1_PartiallyGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State1_PartiallyGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State1_FullyGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State1_FullyGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State2_NonGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State2_NonGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State2_PartiallyGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State2_PartiallyGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State2_FullyGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State2_FullyGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State3_NonGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State3_NonGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State3_PartiallyGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State3_PartiallyGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State3_FullyGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State3_FullyGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State4_NonGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State4_NonGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State4_PartiallyGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State4_PartiallyGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_State4_FullyGermanised"
+		texturefile = "gfx/interface/pleskau_germanization_gui/State4_FullyGermanised.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_ColorKey_Green"
+		texturefile = "gfx/interface/pleskau_germanization_gui/ColorKeyGreen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_ColorKey_YellowGreen"
+		texturefile = "gfx/interface/pleskau_germanization_gui/ColorKeyGreenYellow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_ColorKey_Yellow"
+		texturefile = "gfx/interface/pleskau_germanization_gui/ColorKeyYellow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PSK_NaziEagle"
+		texturefile = "gfx/interface/pleskau_germanization_gui/naziEagle.dds"
+	}
+
+}
