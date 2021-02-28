@@ -766,4 +766,267 @@ focus_tree = {
         ai_will_do = {
 		}
     }
+	
+	### Economy ###
+	focus = {
+		id = PSK_aktion_odilo
+		icon = GFX_goal_unknown
+		x = 18
+		y = 1
+		bypass = {
+		}
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_the_blank_check
+		icon = GFX_goal_unknown
+		x = 18
+		y = 2
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_aktion_odilo }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_make_use_our_lands
+		icon = GFX_goal_unknown
+		x = 16
+		y = 2
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_the_blank_check }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_make_use_our_labor
+		icon = GFX_goal_unknown
+		x = 20
+		y = 2
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_the_blank_check }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_scour_the_countryside
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_the_blank_check }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_reopen_scrapyards
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_make_use_our_lands }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_no_stone_unturned
+		icon = GFX_goal_unknown
+		x = 20
+		y = 3
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_make_use_our_labor }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_inviting_advisors
+		icon = GFX_goal_unknown
+		x = 18
+		y = 4
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_scour_the_countryside }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_pure_administration
+		icon = GFX_goal_unknown
+		x = 16
+		y = 4
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_reopen_scrapyards }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_officers_the_camps
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_no_stone_unturned }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_dark_clouds
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_pure_administration }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_black_state_of_east
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_officers_the_camps }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
+	focus = {
+		id = PSK_best_yet_come
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		bypass = {
+		}
+		cost = 5
+		prerequisite = { focus = PSK_inviting_advisors }
+		prerequisite = { focus = PSK_dark_clouds }
+		prerequisite = { focus = PSK_black_state_of_east }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {		
+			}
+		}
+        ai_will_do = {
+		}
+    }
+	
 }

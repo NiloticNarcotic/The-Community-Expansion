@@ -253,6 +253,45 @@
  
  PSK_es_ist_aus:0 "Es Ist Aus"
  PSK_es_ist_aus_desc:0 "placeholder"
+ 
+ PSK_aktion_odilo:0 "Aktion Odilo"
+ PSK_aktion_odilo_desc:0 "placeholder"
+ 
+ PSK_the_blank_check:0 "The Blank Check"
+ PSK_the_blank_check_desc:0 "placeholder"
+ 
+ PSK_make_use_our_lands:0 "Make Use of Our Lands"
+ PSK_make_use_our_lands_desc:0 "placeholder"
+ 
+ PSK_make_use_our_labor:0 "Make Use of Our Labor"
+ PSK_make_use_our_labor_desc:0 "placeholder"
+ 
+ PSK_scour_the_countryside:0 "Scour the Countryside"
+ PSK_scour_the_countryside_desc:0 "placeholder"
+ 
+ PSK_reopen_scrapyards:0 "Re-open the Scrapyards"
+ PSK_reopen_scrapyards_desc:0 "placeholder"
+ 
+ PSK_no_stone_unturned:0 "No Stone Unturned"
+ PSK_no_stone_unturned_desc:0 "placeholder"
+ 
+ PSK_inviting_advisors:0 "Inviting Advisors"
+ PSK_inviting_advisors_desc:0 "placeholder"
+ 
+ PSK_pure_administration:0 "A Pure Administration"
+ PSK_pure_administration_desc:0 "placeholder"
+ 
+ PSK_officers_the_camps:0 "Officers for the Camps"
+ PSK_officers_the_camps_desc:0 "placeholder"
+ 
+ PSK_dark_clouds:0 "Dark Clouds"
+ PSK_dark_clouds_desc:0 "placeholder"
+ 
+ PSK_black_state_of_east:0 "The Black State of the East"
+ PSK_black_state_of_east_desc:0 "placeholder"
+ 
+ PSK_best_yet_come:0 "The Best is Yet to Come"
+ PSK_best_yet_come_desc:0 "placeholder"
 
  #Custom Tooltips#
  tooltip_the_blackest_night:0 "§RThe Black Sun casts long shadows over Pleskau, and the earth trembles.§!"
