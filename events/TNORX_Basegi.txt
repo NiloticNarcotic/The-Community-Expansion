@@ -9,6 +9,9 @@
 
 add_namespace = blackbrigades
 
+
+
+
 country_event = { #war 100 moment
 	id = blackbrigades.0
 	immediate = {log = "[GetDateText]: [Root.GetName]: event blackbrigades.3"}
@@ -37,7 +40,6 @@ country_event = { #war 100 moment
         	}
 		}
 	}
-	
 }
 
 country_event = {
