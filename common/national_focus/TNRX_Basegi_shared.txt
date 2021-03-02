@@ -1,0 +1,1391 @@
+
+
+#██████╗░░█████╗░░██████╗███████╗░██████╗░██╗     ██████╗░░█████╗░░██████╗███████╗██████╗░    ██████╗░██████╗░██╗░██████╗░░█████╗░██████╗░███████╗░██████╗#
+#██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝░██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██║██╔════╝░██╔══██╗██╔══██╗██╔════╝██╔════╝#
+#██████╦╝███████║╚█████╗░█████╗░░██║░░██╗░██║     ██████╦╝███████║╚█████╗░█████╗░░██║░░██║    ██████╦╝██████╔╝██║██║░░██╗░███████║██║░░██║█████╗░░╚█████╗░#
+#██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░╚██╗██║     ██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░██║    ██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║██║░░██║██╔══╝░░░╚═══██╗#
+#██████╦╝██║░░██║██████╔╝███████╗╚██████╔╝██║     ██████╦╝██║░░██║██████╔╝███████╗██████╔╝    ██████╦╝██║░░██║██║╚██████╔╝██║░░██║██████╔╝███████╗██████╔╝#
+#╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝░╚═════╝░╚═╝     ╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░    ╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░#
+
+
+### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ### 
+### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ### 
+### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ### ### BASEGI STARTER TREE ###
+
+
+shared_focus = {
+	id = BBB_the_black_brigades
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	
+	x = 7
+	y = 0
+
+	completion_reward = {
+		add_command_power = 65
+		load_focus_tree = { tree = BBB_radicals keep_completed = yes }		
+		hidden_effect = {
+			country_event = { id = blackbrigades.1 days = 4 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_learn_by_experience
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_the_black_brigades }
+
+	x = 5
+	y = 1
+
+	completion_reward = {
+		add_ideas = BBB_Against_Wolgastaat_1
+		add_manpower = -453
+		hidden_effect = {
+			country_event = { id = blackbrigades.2 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_twist_the_knife
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_learn_by_experience }
+
+	x = 4
+	y = 3
+	
+	completion_reward = {
+		custom_effect_tooltip = BBB_Against_Wolgastaat_tt
+		hidden_effect = {
+			swap_ideas = {
+				remove_idea = BBB_Against_Wolgastaat_1
+				add_idea = BBB_Against_Wolgastaat_2
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_salt_the_wound
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_twist_the_knife }
+	
+	x = 5
+	y = 5
+
+	completion_reward = {
+		custom_effect_tooltip = BBB_Against_Wolgastaat_tt
+		hidden_effect = {
+			swap_ideas = {
+				remove_idea = BBB_Against_Wolgastaat_2
+				add_idea = BBB_Against_Wolgastaat_3
+			}
+			country_event = { id = blackbrigades.5 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_take_whats_ours
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_recruits_in_pokrovsk }
+	prerequisite = { focus = BBB_learn_by_experience }
+
+	x = 7
+	y = 2
+	
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1148
+		}	
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 319
+		}	
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_2
+			amount = 114
+		}	
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_0
+			amount = 322
+		}	
+	}
+}
+
+shared_focus = {
+	id = BBB_all_is_ours
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_take_whats_ours }
+	prerequisite = {
+		focus = BBB_teach_them_to_survive
+		focus = BBB_twist_the_knife
+	}
+	
+	x = 7
+	y = 4
+	
+	completion_reward = {
+		add_manpower = -191
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 671
+		}	
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 219
+		}	
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_0
+			amount = 375
+		}
+		hidden_effect = {
+			country_event = { id = blackbrigades.4 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_recruits_in_pokrovsk
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_the_black_brigades }
+	
+	x = 9
+	y = 1
+	
+	completion_reward = {
+		add_manpower = 2300
+		hidden_effect = {
+			country_event = { id = blackbrigades.3 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_teach_them_to_survive
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_recruits_in_pokrovsk }
+	
+	x = 10
+	y = 3
+	
+	completion_reward = {
+		custom_effect_tooltip = BBB_Teach_Them_To_Survive_tt
+		hidden_effect {
+			load_oob = "BBB_foc"
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_show_our_strength
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_teach_them_to_survive }
+
+	x = 9
+	y = 5
+	
+	completion_reward = {
+		add_political_power = 50
+		add_offsite_building = { type = industrial_complex level = 1 }
+		hidden_effect = {
+			country_event = { id = blackbrigades.6 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_commence_the_black_terror
+	icon = GFX_goal_unknown
+	cost = 0.5
+	available_if_capitulated = no
+	prerequisite = { focus = BBB_salt_the_wound }
+	prerequisite = { focus = BBB_all_is_ours }
+	prerequisite = { focus = BBB_show_our_strength }
+	
+	available = {
+		VLG = {
+			exists = no
+		}
+	}
+	
+	x = 7
+	y = 6
+	
+	completion_reward = {
+		custom_effect_tooltip = BBB_Commence_The_Black_Terror_tt
+		hidden_effect = {
+			add_war_support = 0.15			
+			country_event = { id = blackbrigades.7 }
+		}
+	}
+}
+
+### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ###
+### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ###
+### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ### ### BASEGI BLACK TERROR ###
+
+shared_focus = {
+	id = BBB_introduce_our_plans
+	icon = GFX_goal_unknown
+	cost = 0.5
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	
+	x = 7
+	y = 7
+	completion_reward = {
+		country_event = { id = blackbrigades.8 }
+	}
+}
+
+shared_focus = {
+	id = BBB_the_predators
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_introduce_our_plans }
+	
+	x = 5
+	y = 8
+	
+	completion_reward = {
+		country_event = { id = blackbrigades.9 }
+	}
+}
+
+shared_focus = {
+	id = BBB_approach_the_veterans
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_the_predators }
+	
+	x = 4
+	y = 9
+	
+	completion_reward = {
+		add_manpower = 4700
+		#lower resistance in all wolgastaat states check in Southern Victory mod
+	}
+}
+
+shared_focus = {
+	id = BBB_normalize_street_violence
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_approach_the_veterans }
+	
+	x = 3
+	y = 10
+	
+	completion_reward = {
+		#unlocks new Darwinian Society actions
+	}
+}
+
+shared_focus = {
+	id = BBB_restart_the_factories
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_normalize_street_violence }
+	
+	x = 2
+	y = 11
+	
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_the_prey
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_introduce_our_plans }
+	
+	x = 9
+	y = 8
+	
+	completion_reward = {
+		country_event = { id = blackbrigades.10 }
+	}
+}
+
+shared_focus = {
+	id = BBB_those_left_behind
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_the_prey }
+	
+	x = 10
+	y = 9
+	
+	completion_reward = {
+		add_timed_idea = { idea = BBB_Appropriating_Assets days = 30 }
+		country_event = { id = blackbrigades.11 }
+	}
+}
+
+shared_focus = {
+	id = BBB_dismantle_the_wolgabund
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_those_left_behind }
+	
+	x = 11
+	y = 10
+	
+	completion_reward = {
+		add_popularity = {
+			ideology = national_socialism
+			popularity = -0.25
+		}
+		#lowers resistance in wolgastaat states
+	}
+}
+
+shared_focus = {
+	id = BBB_fear_through_radicalization
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_dismantle_the_wolgabund }
+	
+	x = 12
+	y = 11
+	
+	completion_reward = {
+		#unlocks new darwinian society actions
+	}
+}
+
+shared_focus = {
+	id = BBB_dangerous_days
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 0.5
+	prerequisite = { focus = BBB_fear_through_radicalization }
+	prerequisite = { focus = BBB_restart_the_factories }
+	
+	x = 7
+	y = 12
+	
+	completion_reward = {
+		country_event = { id = blackbrigades.12 }
+	}
+}
+
+### BASEGI EXPANSION ### ### BASEGI EXPANSION ### ### BASEGI EXPANSION ### ### BASEGI EXPANSION ### 
+### BASEGI EXPANSION ### ### BASEGI EXPANSION ### ### BASEGI EXPANSION ### ### BASEGI EXPANSION ### 
+### BASEGI EXPANSION ### ### BASEGI EXPANSION ### ### BASEGI EXPANSION ### ### BASEGI EXPANSION ### 
+
+shared_focus = {
+	id = BBB_dominate_muscovy
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	x = 20
+	y = 0
+	
+	completion_reward = {
+		country_event = { id = blackbrigades.13 }
+	}
+}
+
+shared_focus = {
+	id = BBB_our_need_for_industry
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no		
+	cost = 2
+	prerequisite = { focus = BBB_dominate_muscovy }
+	bypass = {
+		VNH = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 18
+	y = 1
+	
+	completion_reward = {
+		declare_war_on = {
+			target = VNH
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_no_mercy_given
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 3
+	prerequisite = { focus = BBB_our_need_for_industry }
+	available = {
+		owns_state = 260
+	}
+	bypass = {
+		252= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = VNH
+					}
+				}
+			}
+		}
+	}
+	
+	x = 18
+	y = 2
+	
+	completion_reward = {
+		add_manpower = -894
+		add_ideas = BBB_Work_To_The_Bone
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		hidden_effect = {
+			country_event = { id = blackbrigades.14 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_our_need_for_men
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	prerequisite = { focus = BBB_dominate_muscovy }
+	bypass = {
+		PEN = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 22
+	y = 1
+	
+	completion_reward = {
+		declare_war_on = {
+			target = PEN
+			type = annex_everything
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_the_german_war_machine
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 3
+	prerequisite = { focus = BBB_our_need_for_men }
+	available = {
+		owns_state = 255
+	}
+	bypass = {
+		255= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = PEN
+					}
+				}
+			}
+		}
+	}
+	
+	x = 22
+	y = 2
+	
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = IFV_equipment
+			amount = 313
+			producer = GER
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 604
+			producer = GER
+		}
+		hidden_effect = {
+			country_event = { id = blackbrigades.15 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_attack_oryol_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	prerequisite = { 
+		focus = BBB_no_mercy_given
+		focus = BBB_the_german_war_machine 
+	}
+	bypass = {
+		ORL = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 20
+	y = 3
+	
+	completion_reward = {
+		declare_war_on = {
+			target = ORL
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_dismantle_oryol_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 3
+	prerequisite = { focus = BBB_attack_oryol_placeholder }
+	bypass = {
+		222= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = ORL
+					}
+				}
+			}
+		}
+	}
+	available = {
+		owns_state = 222
+	}
+	
+	x = 20
+	y = 4
+	
+	completion_reward = {
+
+		hidden_effect = {
+			country_event = { id = blackbrigades.16 }
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_attack_smolensk_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	prerequisite = { focus = BBB_dismantle_oryol_placeholder }
+	bypass = {
+		SMO = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 18
+	y = 5
+	
+	completion_reward = {
+		declare_war_on = {
+			target = SMO
+			type = annex_everything
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_dismantle_smolensk_placeholder
+	icon = GFX_goal_unknown
+	cost = 3
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	prerequisite = { focus = BBB_attack_smolensk_placeholder }
+	bypass = {
+		242= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = SMO
+					}
+				}
+			}
+		}
+	}
+	available = {
+		owns_state = 242
+	}
+	
+	x = 17
+	y = 6
+	
+	completion_reward = {
+	
+		hidden_effect = {
+			country_event = { id = blackbrigades.17 }
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_attack_bogi_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	prerequisite = { focus = BBB_dismantle_oryol_placeholder }
+	bypass = {
+		BSB = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 20
+	y = 5
+	
+	completion_reward = {
+		declare_war_on = {
+			target = BSB
+			type = annex_everything
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_one_excuse
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 3
+	prerequisite = { focus = BBB_attack_bogi_placeholder }
+	bypass = {
+		253= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = BSB
+					}
+				}
+			}
+		}
+	}
+	available = {
+		owns_state = 253
+	}
+	mutually_exclusive = {
+		focus = BBB_integrate_the_bands
+	}
+	
+	x = 19
+	y = 6
+	
+	completion_reward = {
+	
+		hidden_effect = {
+			country_event = { id = blackbrigades.18 }
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_integrate_the_bands
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 4
+	prerequisite = { focus = BBB_attack_bogi_placeholder }
+	bypass = {
+		253= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = BSB
+					}
+				}
+			}
+		}
+	}
+	available = {
+		owns_state = 253
+	}
+	mutually_exclusive = {
+		focus = BBB_one_excuse
+	}
+	
+	x = 21
+	y = 6
+	
+	completion_reward = {
+		hidden_effect = {
+			country_event = { id = blackbrigades.19 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_attack_muscovy_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	prerequisite = { focus = BBB_dismantle_oryol_placeholder }
+	bypass = {
+		MOS = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 22
+	y = 5
+	
+	completion_reward = {
+		declare_war_on = {
+			target = MOS
+			type = annex_everything
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_dismantle_muscovy_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 3
+	prerequisite = { focus = BBB_attack_muscovy_placeholder }
+	bypass = {
+		219= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = MOS
+					}
+				}
+			}
+		}
+	}
+	available = {
+		owns_state = 219
+	}
+	
+	x = 23
+	y = 6
+	
+	completion_reward = {
+	
+		hidden_effect = {
+			country_event = { id = blackbrigades.20 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_attack_pleskau_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	prerequisite = { focus = BBB_dismantle_smolensk_placeholder }
+	bypass = {
+		PSK = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 18
+	y = 7
+	
+	completion_reward = {
+		declare_war_on = {
+			target = PSK
+			type = annex_everything
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_dismantle_pleskau_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 3
+	prerequisite = { focus = BBB_attack_pleskau_placeholder }
+	bypass = {
+		209= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = PSK
+					}
+				}
+			}
+		}
+	}
+	available = {
+		owns_state = 209
+	}
+	
+	x = 17
+	y = 8
+	
+	completion_reward = {
+	
+		hidden_effect = {
+			country_event = { id = blackbrigades.21 }
+		}
+	}
+}	
+
+shared_focus = {
+	id = BBB_attack_rsua_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	prerequisite = { focus = BBB_dismantle_muscovy_placeholder }
+	prerequisite = {
+		focus = BBB_one_excuse
+		focus = BBB_integrate_the_bands
+	}
+	bypass = {
+		RSB = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 20
+	y = 7
+	
+	completion_reward = {
+		declare_war_on = {
+			target = RSB
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_dismantle_rsua_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 3
+	prerequisite = { focus = BBB_attack_rsua_placeholder }
+	bypass = {
+		195= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = RSB
+					}
+				}
+			}
+		}
+	}
+	available = {
+		owns_state = 264
+	}
+	
+	x = 20
+	y = 8
+	
+	completion_reward = {
+	
+		hidden_effect = {
+			country_event = { id = blackbrigades.22 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_attack_oberkommando_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	prerequisite = { focus = BBB_dismantle_muscovy_placeholder }
+	prerequisite = {
+		focus = BBB_one_excuse
+		focus = BBB_integrate_the_bands
+	}
+	bypass = {
+		PET = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 22
+	y = 7
+	
+	completion_reward = {
+		declare_war_on = {
+			target = PET
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_dismantle_oberkommando_placeholder
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 3
+	prerequisite = { focus = BBB_attack_oberkommando_placeholder }
+	bypass = {
+		195	= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = BBB
+						tag = PET
+					}
+				}
+			}
+		}
+	}
+	available = {
+		owns_state = 195
+	}
+	
+	x = 23
+	y = 8
+	
+	completion_reward = {
+	
+		hidden_effect = {
+			country_event = { id = blackbrigades.23 }
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_the_neanderthal_is_extinct
+	icon = GFX_goal_unknown
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 5
+	prerequisite = { focus = BBB_dismantle_pleskau_placeholder }
+	prerequisite = {
+		focus = BBB_dismantle_oberkommando_placeholder
+		focus = BBB_dismantle_rsua_placeholder
+	}
+	available = {
+		owns_state = 195
+		has_war = no
+	}
+	
+	x = 20
+	y = 9
+	
+	completion_reward = {
+	
+		hidden_effect = {
+			country_event = { id = blackbrigades.24 }
+		}
+	}
+}
+
+### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
+### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
+### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ###
+
+#The vision of the Radicals is borderline anarchist where society is structured completely by the violence of human nature. 
+#People are taught that nothing is off-the-table and are encouraged to go against morality like stealing from the disabled and vulnerable.
+#Essentially, this is as close to egoism as you can probably get, however for the Black Brigades this is less about principles of freedom
+#(like under egoism) but about reintroducing natural selection into human society to further improve the species.
+
+shared_focus = {
+	id = BBB_Black_Brigades_Eternal
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+
+	x = 6
+	y = 0
+
+	completion_reward = {
+		add_ideas = BBB_Reformists_Congress
+		add_political_power = 25
+		country_event = { id = blackbrigades.1 days = 1 }
+		hidden_effect = {
+			set_politics = {
+				ruling_party = ultranational_socialism #TESTING PUPROSES ONLY - DELETE BEFORE RELEASE
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_Cut_Off_The_Reformers
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Black_Brigades_Eternal }
+
+	x = 4
+	y = 1
+
+	completion_reward = {
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.50
+		}
+		add_stability = -0.05
+	}
+}
+
+shared_focus = {
+	id = BBB_Wrangle_The_Generals
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Black_Brigades_Eternal }
+
+	x = 6
+	y = 1
+
+	completion_reward = {
+		add_popularity = {
+			ideology = despotism
+			popularity = -0.20
+		}
+		add_war_support = -0.05
+		army_experience = -15
+		#######gets rid of two generals and upgrades the rest
+	}
+}
+
+shared_focus = {
+	id = BBB_Purge_The_Sycophants
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Black_Brigades_Eternal }
+
+	x = 8
+	y = 1
+
+	completion_reward = {
+		add_popularity = {
+			ideology = ultranational_socialism
+			popularity = 0.15
+		}
+		add_political_power = -50
+		########Replaces 2 or 3 advisors
+	}
+}
+
+shared_focus = {
+	id = BBB_Abolish_Germanism
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Purge_The_Sycophants }
+
+	x = 9
+	y = 2
+
+	completion_reward = {
+		country_event = { id = blackbrigades.2 days = 1 }	
+	}
+}
+
+shared_focus = {
+	id = BBB_Good_Is_No_Longer_Enough
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Purge_The_Sycophants }
+	prerequisite = { focus = BBB_Wrangle_The_Generals }
+	
+	x = 7
+	y = 3
+
+	completion_reward = {
+		add_ideas = BBB_Wheat_From_The_Chaff
+		TNO_improve_army_professionalism_med = yes
+		TNO_improve_industrial_expertise_med = yes
+	}
+}
+
+shared_focus = {
+	id = BBB_Will_To_Power
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Cut_Off_The_Reformers }
+	prerequisite = { focus = BBB_Wrangle_The_Generals }
+	
+	x = 5
+	y = 3
+
+	completion_reward = {
+		country_event = { id = blackbrigades.3 days = 1 }
+	}
+}
+
+shared_focus = {
+	id = BBB_Close_The_Congress
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Cut_Off_The_Reformers }
+
+	x = 3
+	y = 2
+
+	completion_reward = {
+		custom_effect_tooltip = BBB_Close_The_Congress_tt
+		tno_Political_Parties_worsen = yes
+		hidden_effect = {
+			remove_ideas = BBB_Reformists_Congress
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_Directed_Anarchy
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Close_The_Congress }
+	prerequisite = { focus = BBB_Will_To_Power }
+
+	x = 4
+	y = 4
+
+	completion_reward = {
+		###### fuck knows
+	}
+}
+
+shared_focus = {
+	id = BBB_Terror_Groups
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Will_To_Power }
+	prerequisite = { focus = BBB_Good_Is_No_Longer_Enough }
+
+	x = 6
+	y = 5
+
+	completion_reward = {
+		custom_effect_tooltip = BBB_Terror_Groups_tt
+		hidden_effect = {
+			country_event = { id = blackbrigades.4 days = 1 }
+			}
+	}
+}
+
+shared_focus = {
+	id = BBB_Brotherhood_In_Strength
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Good_Is_No_Longer_Enough }
+	prerequisite = { focus = BBB_Abolish_Germanism }
+
+	x = 8
+	y = 4
+
+	completion_reward = {
+		add_stability = 0.1
+		country_event = { id = blackbrigades.5 days = 1 }
+	}
+}
+
+shared_focus = {
+	id = BBB_Enforced_No_Longer
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Directed_Anarchy }
+
+	x = 4
+	y = 6
+
+	completion_reward = {
+		add_stability = 0.2
+		add_war_support = 0.15
+		tno_security_worsen = yes
+	}
+}
+
+shared_focus = {
+	id = BBB_Wolves_Among_Sheep
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Brotherhood_In_Strength }
+
+	x = 8
+	y = 6
+
+	completion_reward = {
+		TNO_improve_army_professionalism_med = yes
+		add_popularity = {
+			ideology = ultranational_socialism
+			popularity = 0.1
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_The_Only_Law
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Wolves_Among_Sheep }
+	prerequisite = { focus = BBB_Enforced_No_Longer }
+
+	x = 6
+	y = 7
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_Darwinian_Society
+			add_idea = BBB_Law_Of_Nature
+		}
+	}
+}
+
+shared_focus = {
+	id = BBB_Survival_Of_The_Fittest
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_The_Only_Law }
+
+	x = 6
+	y = 8
+
+	completion_reward = {
+		country_event = { id = blackbrigades.6 days = 1 }
+	}
+}
+

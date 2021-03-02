@@ -1,0 +1,94 @@
+
+
+#██████╗░░█████╗░░██████╗███████╗░██████╗░██╗     ██████╗░░█████╗░░██████╗███████╗██████╗░    ██████╗░██████╗░██╗░██████╗░░█████╗░██████╗░███████╗░██████╗#
+#██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝░██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██║██╔════╝░██╔══██╗██╔══██╗██╔════╝██╔════╝#
+#██████╦╝███████║╚█████╗░█████╗░░██║░░██╗░██║     ██████╦╝███████║╚█████╗░█████╗░░██║░░██║    ██████╦╝██████╔╝██║██║░░██╗░███████║██║░░██║█████╗░░╚█████╗░#
+#██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░╚██╗██║     ██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░██║    ██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║██║░░██║██╔══╝░░░╚═══██╗#
+#██████╦╝██║░░██║██████╔╝███████╗╚██████╔╝██║     ██████╦╝██║░░██║██████╔╝███████╗██████╔╝    ██████╦╝██║░░██║██║╚██████╔╝██║░░██║██████╔╝███████╗██████╔╝#
+#╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝░╚═════╝░╚═╝     ╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░    ╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░#
+
+focus_tree = {
+	id = basegi_initial
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BBB
+		}
+	}
+	default = no
+	shared_focus = BBB_the_black_brigades
+}
+
+focus_tree = {
+	id = basegi_black_terror
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BBB
+		}
+	}
+    default = no
+	shared_focus = BBB_the_black_brigades
+	shared_focus = BBB_introduce_our_plans
+}
+
+focus_tree = {
+	id = basegi_expansion
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BBB
+		}
+	}
+	default = no
+	shared_focus = BBB_the_black_brigades
+	shared_focus = BBB_introduce_our_plans
+	shared_focus = BBB_dominate_muscovy
+}
+
+focus_tree = {
+    id = BBB_radicals
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = BBB
+        }
+    }
+    default = no
+	shared_focus = BBB_Black_Brigades_Eternal
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
