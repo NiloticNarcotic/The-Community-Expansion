@@ -1,76 +1,266 @@
-﻿ l_english:
+﻿l_english:
+ ###Patries###
+ BBB_communist_party:0 "VKP(b)"
+ BBB_communist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya (bolshevikov)"
+ BBB_socialist_party:0 "VKP"
+ BBB_socialist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya"
+ BBB_social_democrat_party:0 "Mensheviki"
+ BBB_social_democrat_party_long:0 "Svobodnyye Men'sheviki"
+ BBB_social_liberal_party:0 "RDP"
+ BBB_social_liberal_party_long:0 "Rossiyskaya Demokraticheskaya Partiya"
+ BBB_market_liberal_party:0 "RLP"
+ BBB_market_liberal_party_long:0 "Rossiyskaya Liberal'naya Partiya"
+ BBB_social_conservative_party:0 "DNR"
+ BBB_social_conservative_party_long:0 "Dvizheniye Novoy Rossii"
+ BBB_authoritarian_democrat_party:0 "NRP"
+ BBB_authoritarian_democrat_party_long:0 "Nepobedimaya Rossiya Partiya"
+ BBB_despotism_party:0 "ChB"
+ BBB_despotism_party_long:0 "Chernyye Brigady"
+ BBB_fascism_party:0 "ChB"
+ BBB_fascism_party_long:0 "Chernyye Brigady"
+ BBB_national_socialism_party:0 "AOdNSDAP"
+ BBB_national_socialism_party_long:0 "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei"
+ BBB_ultranational_socialism_party:0 "ChB-R"
+ BBB_ultranational_socialism_party_long:0 "Chernyye Brigady - Radikaln'yy"
+ BBB_burgundian_system_party:0 "SS"
+ BBB_burgundian_system_party_long:0 "Schutzstaffel im Osten"
+ 
+ ###Leader Desc###
+ POLITICS_VASILY_MORDAKOV_DESC:0 "Pretty based guy"
+ POLITICS_RADICAL_MORDAKOV_DESC:0 "Even more based guy"
+ 
  ### Ministers ###
  BBB_Vasily_Mordakov_hog:0 "Vasily Mordakov"
- BBB_Ivan_Yezhov_for:0 "Ivan Yezhov"
  BBB_Vasily_Buzulutsky_eco:0 "Vasily Buzulutsky"
  BBB_Soslanbek_Apayev_sec:0 "Soslanbek Apayev"
+ BBB_Ivan_Yezhov_for:0 "Ivan Yezhov"
  
- ### Parties ###
- BBB_fascism_party:0 "BCB"
- BBB_fascism_party_long:0 "Basegi Chernyye Brigady"
- BBB_national_socialism_party:0 "BCB"
- BBB_national_socialism_party_long:0 "Basegi Chernyye Brigady"
- BBB_ultranational_socialism_party:0 "BCB"
- BBB_ultranational_socialism_party_long:0 "Basegi Chernyye Brigady"
+ ### FOCUS TREES ###
  
- ### Country Names ###
- BBB_fascism_ADJ:0 "Basegi Black Brigades"
- BBB_fascism:0 "Basegi Black Brigades"
- BBB_fascism_DEF:0 "Basegi Black Brigades"
- BBB_national_socialism_ADJ:0 "Basegi Black Brigades"
- BBB_national_socialism:0 "Basegi Black Brigades"
- BBB_national_socialism_DEF:0 "Basegi Black Brigades"
- BBB_ultranational_socialism_ADJ:0 "Basegi Black Brigades"
- BBB_ultranational_socialism:0 "Basegi Black Brigades"
- BBB_ultranational_socialism_DEF:0 "Basegi Black Brigades"
- 
- 
- ### Focus Descriptions + Names ###
+ ### Basegi Initial ###
  BBB_the_black_brigades:0 "The Black Brigades"
- BBB_the_black_brigades_desc:0 "The Black Brigades are the strongest forces in all of Moskowien. The Wolgastaat believes they can defeat us, but they will be proven completely wrong. We will destroy the German terrorizers with force and glory, crushing them with our superior equipment. They may outnumber us, but we will hold Kosackenstadt until all of us are dead. Brigadiers, march!"
+ BBB_the_black_brigades_desc:0 "In our accursed days in the Ural League, the men of the Brigades had learned the truth - truth which cost us our once comrades within the Ural League and their hospitality.\nThis world does not belong to the weak. Humanity has seemingly ignored this law since the formation of the modern state and it has shown time and time again to be a mistake for each civilization, no matter how great had fallen to the stronger.\nPhrygia, Rome, Byzantium, Britain. Even Germany is now tearing itself at the seams, reaping the weakness that they sown through their 'National Socialism'.\n\nThe league itself has grown crooked as of late, feasting on the spoils while raiding the Volga Region, but our new headsman, Vasily Mordakov has taken a much different approach. The time of our bandit days are over. This it our opportunity to teach the people of Moskowien the inevitable measures we have to take to stop the stagnation of the human race."
  
  BBB_learn_by_experience:0 "Learn by Experience"
- BBB_learn_by_experience_desc:0 "The weak do not deserve to survive in a world like this. They just hinder us and the strong population. We must rely on the strongest to remain victorious in every battle. It is time to single-handedly end this hindrance with a usage of force. No more shall the weak tread on the strong's ground, for we will use our might to cut them all down. Also, a good bit of target practice for the boys."
+ BBB_learn_by_experience_desc:0 "The overstreched administration of the Reichskommisariat never had a chance to stop or even hinder our activities in the Volga region. The Brigades have been living off of raiding the surrounding region for a good five years and therefore we have accustomed ourselves to the terrain, landmarks and intricacies that our enemies are unlikely to know about, even going as far to have several caches of ammunition and provisions scattered around the area.\n\nThe war against the Wolgastaat, however, is different to our usual raids. They manage a much smaller region and know the area a lot better than the oafs of Moskowien. They also have the motivation to protect their little statelet too. This doesn't mean we cannot use our advantages against them. The war in the plains will go on, and let the Germans know that we know every mound they hide behind, every turn and ambush point will become ineffective against us."
  
- BBB_no_room_for_opposition:0 "No Room for Opposition"
- BBB_no_room_for_opposition_desc:0 "Any opposition who tries to seize power from the strong must be cut down with ruthless authority. We will not give them an ounce of mercy, as we lack it entirely. They are considered weak among with the rest of the simpletons who think they can remove us from power. Our force is among no other, and we shall cut down those who try to stand above or among us and are not of amiable strength." #is dat an amongus refernce!?!?!?# #why yes it is :himmler:#
+ BBB_twist_the_knife:0 "Twist the Knife"
+ BBB_twist_the_knife_desc:0 "The momentum we have gained on our conquest against the Wolgastaat should not be thrown to waste. The more battles we fight, the more we learn of their strategies; their numbers and forces. Our greatest advantage against our enemies in this war is the skill of our troops and the knowledge of the environment in which we fight in.\nWe have to secure our victory by striking while the iron of war is hot, with no remorse and extreme prejudice.\n\nNothing is to be left to chance and no safety measures are to be taken. If we are to stay true to the principles of the Brigades, we cannot allow for cowards and the inadequate to even take a glimpse at the society which we are building.\nHitting the enemy's morale is going to be the top priority in every battle, and all underhanded tactics shall be encouraged to ensure this."
  
- BBB_show_the_young_how_it's_done:0 "Show the Young How It's Done"
- BBB_show_the_young_how_it's_done_desc:0 "Anyone who are of the weak but seem capable to handle our industrial factories shall be spared. We shall enforce our quotas forcefully; however, they will not be seen among the likes of the weaker peoples, they shall be our labor pool until they drop dead. We will work them until they die, and replace them with another. This is the only way for us to utilize the weak, otherwise, they shall be compared to targets."
+ BBB_salt_the_wound:0 "Salt the Wound"
+ BBB_salt_the_wound_desc:0 "To add more fuel to the already blazing war machine that we have developed in this struggle of dominance over the Volga, we still must reinforce the tactics of brutality that have served us so well and allowed for the survival of the Brigades and their ideals.\n\nReinforce the idea that this conflict is more than a power struggle, because it is. The victory of the Brigades philosophy lies entirely upon the shoulders of our victory over Wolgastaat. Take no prisoners, hesitate at no shot, completely obliterate the concept of a non-combatant because there is no such thing. Even if the Brigades lose this, the hardships that the Germans of the Volga will have to face may perhaps teach them a lesson about who the future belongs to and our fight may have not been in vain."
  
- BBB_take_what's_theirs:0 "Take What's Theirs"
- BBB_take_what's_theirs_desc:0 "We shall destroy and seize all things that belong to the people we conquer. For we are the superior peoples and they are simple hindrances. Hindrances will be dealt with accordingly, and while we're at it, we can gain a good amount of equipment, or perhaps loot. This shall fund the reserve quite nicely."
+ BBB_take_whats_ours:0 "Take What's Ours..."
+ BBB_take_whats_ours_desc:0 "No matter how skilled and trained, soldiers cannot win a war when all they have in hand are sticks and stones, and that is what some of our equipment may as well be.\nEven though the raids during our time as the Bandits of the Volga have brought us a fair amount of wealth and a stock of old weapons and ammo, their reliability and lifespan leaves much to be desired. They are simply not in a good shape.\nOne of the ways which can counteract deficits and replace the faulty equipment will be by introducing a finders-keepers policy after a battle is won so that our men can take all that they want from the dead Germans. It will not only help us keep up with the enemies in terms of weaponry but it will also put our men deeper into the minset of the Brigades. Their only right to belongings is their ability to defend them."
  
- BBB_weapons_for_the_struggle:0 "Weapons for the Struggle"
- BBB_weapons_for_the_struggle_desc:0 "We shall steal from the German surpressers and show them our true strength. No more shall we be considered the "untermensch," for we will be revealed to be the "ubermensch." They are the true subhumans, and we will prove that by conquering their puny race entirely and seizing their equipment and raiding their armories while we're at it."
-  
- BBB_send_out_collection_squads:0 "Send Out Collection Squads"
- BBB_send_out_collection_squads_desc:0 "We shall... "peacefully" seize any equipment from those who put up no resistance and surrender accordingly. If they are of strength, they shall be spared and incorporated into our forces. We will give them mercy as they are truly strong and deserve to be among us. Those who don't however..."
+ BBB_all_is_ours:0 "...ALL is ours"
+ BBB_all_is_ours_desc:0 "It is not just the enemy soldiers which have things we need in our fight. The towns and villages dotting the Volga region are rife with anything from medical supplies, cars, trucks, fuel, even rifles and ammunition. All useful in the hands of men who deserve it more and can actually put it to good use. Anything 'found' in and outside of the battlefields can be taken with no repercussions from our officers. It will also teach the denizens of the former Reichskommisariat that their possessions are no longer safe, and they will slowly learn to protect themselves and their property tooth and nail. To some like the Americans or the Germans it is a 'drastic' war measure, but to us it is nothing more than the new, everyday reality of life. Everyone will soon adapt to this way of life and it shall only make us stronger."
  
- BBB_conscript_the_outliers:0 "Conscript the Outliers"
- BBB_conscript_the_outliers_desc:0 "Those who prove to be strong in our true, correct opinion, will be gratefully incorporated into our forces. They will be tested effectively to make sure they are of the superiors like ourselves; therefore, we must be thorough in our testing, for if an anomaly slips through, they could deal damage to us internally."
+ BBB_recruits_in_pokrovsk:0 "Recruits in Pokrovsk"
+ BBB_recruits_in_pokrovsk_desc:0 "Those who prove to be strong in our true, correct opinion, will be gratefully incorporated into our forces. They will be tested effectively to make sure they are of the superiors like ourselves; therefore, we must be thorough in our testing, for if an anomaly slips through, they could deal damage to us internally."
  
  BBB_teach_them_to_survive:0 "Teach Them to Survive"
  BBB_teach_them_to_survive_desc:0 "We shall discipline them firmly, turning them into elite brigadiers like ourselves. The Basegi Black Brigades only accept the best, and we will train them to be elite, and hardened soldiers. We will make sure not one of them lacks in training. If one were to lack in training, we would deal with them as usual."
  
- BBB_begin_the_raids:0 "Begin the Raids"
- BBB_begin_the_raids_desc:0 "It is time for us to begin raiding the ulterior warlords and start proving our superiority. Those of the Wolgastaat will be our first targets as they try to be German terrorizers, but we will show them we are the true terrorizers. They will be deeply intimidated by our presence over them and we shall affirm it in full."
+ BBB_show_our_strength:0 "Show our Strength"
+ BBB_show_our_strength_desc:0 "It is time for us to begin raiding the ulterior warlords and start proving our superiority. Those of the Wolgastaat will be our first targets as they try to be German terrorizers, but we will show them we are the true terrorizers. They will be deeply intimidated by our presence over them and we shall affirm it in full."
  
  BBB_commence_the_black_terror:0 "Commence the Black Terror"
  BBB_commence_the_black_terror_desc:0 "It is time for us to begin the Black Terror. This will be our show of strength across Moskowien, and we will dominate the entire area in full. Not one warlord shall be spared from our brutal reign, and we will show that we are superior of all of them. From Astrachan to Tichwin, we shall affirm our presence over the subhumans."
  
  BBB_steal_from_the_armories:0 "Steal from the Armories"
- BBB_steal_from_the_armories_desc:0
-
-
- ### Event Localization ###
+ BBB_steal_from_the_armories_desc:0 ""
  
- #FOCUS CHANGE TO TERROR#
- basegi.1.a:0 "PLACEHOLDER CHANGE"
- basegi.1.b:0 "placeholder"
- basegi.1.c:0 "placeholder"
+ ### Post-Unification Radicals ###
+ BBB_Black_Brigades_Eternal:0 "Black Brigades Eternal!"
+ BBB_Black_Brigades_Eternal_desc:0 "The calls of the insidious reformsists have finally been overturned. Their pathetic attempts at subverting our goals to satisfy their egos lie scattered; torn to shreds by the will and inevitability of human nature. Our Social Darwinism shall not be constrained by the pettiness of the state nor hampered by the modernistic false consciousness of morality.  Together, we the Black Brigades bring a new age of struggle. We will accept nothing but the strongest, fastest, smartest and most cunning and the only judge will be mother nature herself. For there is no bloodier battleground; no harsher punisher than life itself. \n\nThe memory of our origins, and the glorious legacy of the Basegi Black Brigades shall live on through what made it so strong to begin with - adherence to the Law of Nature and the understanding of the only force that makes history - strength."
+ 
+ BBB_Cut_Off_The_Reformers:0 "Cut off the Reformers"
+ BBB_Cut_Off_The_Reformers_desc:0 "The losers of this game will not go down easily.\n Ankudinov and his band of modernists still surely scheme in their high castle, trying to bastardize our new society into exactly that which we are trying to prevent.\n They may see it in another way but naivety clouds their vision, making them unable to draw their plans to their inevitable conclusion of bringing us back to the era of human stagnation that we have found ourselves in since the rennaisance.\n Our leader may have made it clear in the 'Kremlin Declaration', as it has come to be known, that the reformists' days are numbered but nevertheless, their ideology remains. There are those in the Brigades that have, or are suspected of having, reformist sympathies.\n Make sure they never see the inner circle again."
+ 
+ BBB_Wrangle_The_Generals:0 "Wrangle the Generals"
+ BBB_Wrangle_The_Generals_desc:0 "There are still some neanderthals high up within our ranks that are more loyal to the Black Brigades than to what they represent.\n They, like the reformists, pose a threat to the natural order that we have reestablished and therefore, must be taken down before they destroy all that we have fought for now that we are so close.\n Some of these men have served the Brigades dutifully ever since our beginnings in the Urals, however they have let their own fear of inadequacy and modernist delusions of shared history cloud their allegience.\n There will certainly be more fresh and new candidates that will rise to prominence within our organization, and the ones that remain after our little purge shall undoubtedly work even harder."
+ 
+ BBB_Purge_The_Sycophants:0 "Purge the Sycophants"
+ BBB_Purge_The_Sycophants_desc:0 "Some men are weak. That is not for debate.\n That does not necessarily mean that they are always useless. When the Black Brigades were first exiled from the Ural League, there was not that many of us, a couple thousand at most.\n This meant that we could not have always seeked for the strongest when looking for people to head our cause but those that happened to be appropriate for the job.\n The administrative body became a ground for those that were too afraid of challenge seeking immunity because they knew that if they were just as vulnerable as the rest, we would not be able to manage the Brigades.\n Our circumstance allowed for that to happen but with all of Moscow under our thumb we can finally live up to our principles fully.\n It is time to throw the bloated administration to the wolves and see who is actually worthy to lead the struggle for the advancement of humankind."
+ 
+ BBB_Abolish_Germanism:0 "Abolish Germanism"
+ BBB_Abolish_Germanism_desc:0 "There exists only two kinds of men in the world - the strong and the weak.\nTo us, Nationality is nothing but yet another symptom of modernism. A false consciousness to make people seek companionship among those of the same blood, not those of same might. It only serves to protect those who otherwise would not be able to protect themselves.\n Like a limping wolf which is left to die by others of its kind, so shall we abandon this notion that weakness should be tolerated, just because it it draped in the tricolour of Russia.\n There shall no longer be 'Russian' and 'German', and any sympathies to such an identity shall be erased when the strong, regardless of Nationality, dominate the weak."
+ 
+ BBB_Good_Is_No_Longer_Enough:0 "'Good' is no longer enough"
+ BBB_Good_Is_No_Longer_Enough_desc:0 "For the past decades, we have often had to make do with what and who we had. Some people we worked with, even members of the Black Brigades themselves, were sometimes inadequate with no one to take their place.\n Our situation now is different and with the vast lands of Muscovy in our hands, we also have access to the people that inhabit it. Decades of German and Soviet adminstration have undoubtedly let the unworthy masses fester and rot underneath its skin, but as nature always intends, some excel that. The Brigades have been a formidable force in Western Russia for a long time, better than most of their kind and now they are about to reach the next stage of their evolution.\n And all of Muscovy will experience that change too - toil and sweat will be the grease that turns the machine of humanity evermore."
+ 
+ BBB_Will_To_Power:0 "Will to Power"
+ BBB_Will_To_Power_desc:0 "Every man and woman is ultimately driven by one goal - to live. Coat it in as much needless luxuries as one wants, that will always be the ultimate reality when all else it taken away.\n It is through this desire that our species has come to dominate all corners of the wide world. Not because we were graced with some sort of magical power, but because our ancestors proved to all else that they were the superior breed.\n Nature punished the Neanderthals and the Erectus just as nature will punish the modernists rotting in their homes surrounded by trinkets. Our new society is built upon the will for man to gain power and to gain the upper hand in the face of those that want nothing less but the same for them."
+ 
+ BBB_Close_The_Congress:0 "Close the Congress"
+ BBB_Close_The_Congress_desc:0 "With our victory, the modernists are atomized. Many have renounced their loyalty to the reformist cause and others... well, they've been found with two bullet holes in the backs of their head.\n The opportunity for their resurgence is dwindling by the day and now we shall finally put the nail into their coffin.\n It is time to pay an unnanouced visit to their little congress and flush the rats out. Arrest or kill anyone found inside, and declare bounties on the heads of the rest. If all goes well, this will be the last time we will have to worry about dissidents.\n Find them in the shadows, scheming in Moscow alleyways and in the hills of Voronezh and put them to the wolves.\n\n Let us see how much their idealistic thought and 'realism' helps them when faced with real struggle."
+ 
+ BBB_Directed_Anarchy:0 "Directed Anarchy"
+ BBB_Directed_Anarchy_desc:0 "The feeble-minded modernists cry at the Black Brigades' hold over Muscovy, slandering it as an 'anarchist state'. It is them, with their need for endless laws and regulations made to protect those that do not even deserve to breathe the same air as the ones who built the land on which they live, that point to us as an abomination.\nNo. We do not restrict ourselves and our\npeople from using all that they have been given to prove their mettle and demonstrate their superiority.\nHaving as little laws means less barriers to natural selection, and it works far better than anything that modernism has given us. It is not liberty which we gain from this 'anarchy', quite the contrary - it is to separate the weak from the strong so that only those who truly deserve a future manage to obtain one."
+ 
+ BBB_Terror_Groups:0 "Terror Groups"
+ BBB_Terror_Groups_desc:0 "The biggest enemy to our cause is and always will be communities. Communities are built by people who cannot survive in nature and thus, have to seek protection from others to be able to spread their inferior genes. It would be difficult to do anything about that fact, if it were not for mother nature herself providing the solution for us.\n\n The effects of the Black Brigades' dawn are increasingly more visible every day. The weak are tormented by the strong who roam the streets and countryside. The revitalization of the predator is our duty, and it would seem that we are more successful with each body lying limp on the streets. A body of one who was not able to outrun his own weakness, and thus was taken down by the strong. But as is always with death - with the fall of one, another thrives on their spoils, and only those that are worthy inherit the world."
+ 
+ BBB_Brotherhood_In_Strength:0 "Brotherhood in Strength"
+ BBB_Brotherhood_In_Strength_desc:0 "Cameraderie is made through commonality.\nAs much as this is expolited by the weak to hide from the struggle of survival, it can also be a beacon of opportunity for the strong too.\nRather than shielding the weak, these gangs, mafias and syndicates, that have began to shape day to day life in Muscovy, demand strength and courage from our citizens. Their brutal nature serves to greatly favour our cause by regularly terrorizing the weak and forcing people to either become stronger or live in shame and fear.\nSome, through exceptional prestige, even provide good recruits for the Black Brigades themselves.\n\nThis seems to be the new norm for people in Muscovy, and it will only get better from here, as these gangs attract more and more strong men seeking brotherhood and companionship. For those that deserve it should only be among the strongest."
+ 
+ BBB_Enforced_No_Longer:0 "Enforced no Longer"
+ BBB_Enforced_No_Longer_desc:"For the longest time, the brigades often times have had to step in personally to select the weak and the strong from the masses.\nIt was in a time where the understanding of our cause was so close, yet so far to many people. Some would prove to be the correct decision, serving the Brigades diligently and with no mercy.\nOthers, not so much. The reformists, though gone, served to show that man's instinct in choosing the strong is heavily flawed.\nThey were sheep in wolves' clothing and only used this flawed instinct to burrow themselves into our ranks and rot them from within. The utopia we are creating here has no such issue. There is no more need for us to step in and intervene where nature can take its toll in its own way. Man will either find a way or die knowing they were never meant for great things."
 
- #FOCUS CHANGE TO EXPANSION#
- basegi.2.a:0 "PLACEHOLDER CHANGE 2"
- basegi.2.b:0 "placeholder"
- basegi.2.c:0 "placeholder"
+ BBB_Wolves_Among_Sheep:0 "Wolves among Sheep"
+ BBB_Wolves_Among_Sheep_desc:"We the Black Brigades exemplify the pinnacle of the will to one's power.\nOur history is one of the most fearsome bandit brigades in history; trained in the harshest environments and enduring the darkest of days.\nBut there are many like us in that regard; The Black League, The Schutzstaffe, the SAS. We have something that makes us superior to all of them and that is knowledge and acknowledgement of the reality of human nature.\nAt the end of the day, after all the training and fighting is done, these 'elite forces' will go back to their families, to their political parties and to their possessions. They let weaker men rule over them because that is what they are told to believe, when they could easily overpower them and put themselves above. And it seems that for the forseeable future, that is how it will remain.\n\nThe Basegi Black Brigades - Wolves among flocks and flocks of sheep."
+ 
+ BBB_The_Only_Law:0 "The Only Law"
+ BBB_The_Only_Law_desc:"Man has one purpose. To survive. All else is luxury.\nOne may bite, kick, claw their way to the top and that is all that will ever matter, for a dead man cannot cry that their killer was unfair.\nThis is the world now and forever, and our purpose is to teach people of this reality. It will hurt at first, but slowly over the years, with weaklings dead and the strong thriving only for the bar of who is weak and who is strong to raise forever until what the strong man is in Germany, America and Japan is nothing but a neanderthal; a backwards creature to the men of Muscovy.\n\nThese are not calculations of some wanna-be philosopher or phony scientist sitting on their piles of functionless books. This is reality, and how man has advanced to the stage he finds himself in today, and we will make sure that this law is made clear to everyone forever."
+ 
+ BBB_Survival_Of_The_Fittest:0 "Survival of the Fittest"
+ BBB_Survival_Of_The_Fittest_desc:"The weak do not deserve to prosper,\n the strong do.\n They should regularly steal everything they can\n from all those that they meet,\n and should regularly shoot them for the trouble."
+ 
+ ### Focus Tooltips ###
+ BBB_Teach_Them_To_Survive_tt:0 "§TSpawns three local§! §YBlack Brigade Recruit Units.§!"
+ BBB_Close_The_Congress_tt:0 "§TIt is time to finally settle the score with Ankudinov...§!"
+ BBB_Terror_Groups_tt:0 "§YThe norms of our new society based on Natural Selection are beginning to take hold.\nOur social laws will begin to change to reflect that.§!"
+ BBB_Against_Wolgastaat_tt:0 "§TThe effects of 'Against Wolgastaat' will be strengthened!§!"
+ BBB_Commence_The_Black_Terror_tt:0 "§RWe have only just begun.§!"
+ 
+ ### Country Events ###
+ ### Initial Events ###
+ 
+ blackbrigades.1.t:0 "x"
+ blackbrigades.1.desc:0 "This is an event for focus: 'The Black Brigades'"
+ blackbrigades.1.a:0 "x"
+ 
+ blackbrigades.2.t:0 "x"
+ blackbrigades.2.desc:0 "This is an event for focus: 'Learn by Experience'"
+ blackbrigades.2.a:0 "x"
+ 
+ blackbrigades.3.t:0 "x"
+ blackbrigades.3.desc:0 "This is an event for focus: 'Recruits in Pokrovsk'"
+ blackbrigades.3.a:0 "x"
+ 
+ blackbrigades.4.t:0 "x"
+ blackbrigades.4.desc:0 "This is an event for focus: 'ALL is ours'"
+ blackbrigades.4.a:0 "x"
+ 
+ blackbrigades.5.t:0 "x"
+ blackbrigades.5.desc:0 "This is an event for focus: 'Salt the Wound'"
+ blackbrigades.5.a:0 "x"
+ 
+ blackbrigades.6.t:0 "x"
+ blackbrigades.6.desc:0 "This is an event for focus: 'Show of Strength'"
+ blackbrigades.6.a:0 "x"
+ 
+ blackbrigades.7.t:0 "x"
+ blackbrigades.7.desc:0 "This is an event for focus: 'Commence the Black Terror'"
+ blackbrigades.7.a:0 "Our Work Begins."
+ 
+ blackbrigades.8.t:0 "x"
+ blackbrigades.8.desc:0 "This is an event for focus: 'Introduce our Plans'"
+ blackbrigades.8.a:0 "x"
+ 
+ blackbrigades.9.t:0 "x"
+ blackbrigades.9.desc:0 "This is an event for focus: 'The Predators'"
+ blackbrigades.9.a:0 "x"
+ 
+ blackbrigades.10.t:0 "x"
+ blackbrigades.10.desc:0 "This is an event for focus: 'The Prey'"
+ blackbrigades.10.a:0 "x"
+
+ blackbrigades.11.t:0 "x"
+ blackbrigades.11.desc:0 "This is an event for focus: 'Those Left Behind'"
+ blackbrigades.11.a:0 "x"
+ 
+ blackbrigades.12.t:0 "A Floor of Broken Glass"
+ blackbrigades.12.desc:0 "This is an event for focus: 'Dangerous Days'"
+ blackbrigades.12.a:0 "Is this the future?"
+ 
+ blackbrigades.13.t:0 "x"
+ blackbrigades.13.desc:0 "This is an event for focus: 'dominate muscovy'"
+ blackbrigades.13.a:0 "x"
+ 
+ blackbrigades.14.t:0 "x"
+ blackbrigades.14.desc:0 "This is an event for focus: 'no mercy'"
+ blackbrigades.14.a:0 "x"
+ 
+ blackbrigades.15.t:0 "x"
+ blackbrigades.15.desc:0 "This is an event for focus: 'the german war machine'"
+ blackbrigades.15.a:0 "x"
+ 
+ blackbrigades.16.t:0 "x"
+ blackbrigades.16.desc:0 "This is an event for focus: 'dismantle oryol'"
+ blackbrigades.16.a:0 "x"
+ 
+ blackbrigades.17.t:0 "x"
+ blackbrigades.17.desc:0 "This is an event for focus: 'dismantle smolensk'"
+ blackbrigades.17.a:0 "x"
+ 
+ blackbrigades.18.t:0 "x"
+ blackbrigades.18.desc:0 "This is an event for focus: 'one excuse'"
+ blackbrigades.18.a:0 "x"
+ 
+ blackbrigades.19.t:0 "x"
+ blackbrigades.19.desc:0 "This is an event for focus: 'integrate the bands'"
+ blackbrigades.19.a:0 "x"
+ 
+ blackbrigades.20.t:0 "x"
+ blackbrigades.20.desc:0 "This is an event for focus: 'dismantle muscovy'"
+ blackbrigades.20.a:0 "x"
+ 
+ blackbrigades.21.t:0 "x"
+ blackbrigades.21.desc:0 "This is an event for focus: 'dismantle pleskau'"
+ blackbrigades.21.a:0 "x"
+ 
+ blackbrigades.22.t:0 "x"
+ blackbrigades.22.desc:0 "This is an event for focus: 'dismantle RSUA'"
+ blackbrigades.22.a:0 "x"
+ 
+ blackbrigades.23.t:0 "x"
+ blackbrigades.23.desc:0 "This is an event for focus: 'dismantle Oberkommando'"
+ blackbrigades.23.a:0 "x"
+ 
+ blackbrigades.24.t:0 "x"
+ blackbrigades.24.desc:0 "This is an event for focus: 'The Neanderthal is Extinct'"
+ blackbrigades.24.a:0 "x"
+ 
+ ### Radicals Events ###
+ blackbrigades.91.t:0 "Lament of the Weak"
+ blackbrigades.91.desc:0 "Vasily Mordakov faced the seasoned veterans of the Black Brigade at the Kremlin. The atmosphere felt tense as members trickled in one by one, called to meet just the last day. Few spoke, and those that did were quiet in their tone like students in a class. It must have been around ten minutes since the door last shut with an audible screech of unoiled metal. The leader, now at a podium ready to speak, cleared his throat.\n\n"My brothers, we have come very far in our mission." His voice echoed, slightly malformed due to the aged speakers, "We have not once hesitated in the face of enemies, even ones that may have seemed stronger. Yet, as nature always intends, we proved ourselves mightier and now we hold all of the former Reichskommisariat." The attendees felt slightly confused at this gathering. The victory speech was done weeks ago.\n\n"Man and woman will struggle and wry to survive. They will face every day knowing that it could be their last, that others are looking to kick them out of the gene pool not because we do not care for them, but because we care for the good of our species." Ankudinov's face slowly turned grey as he began to realize what this speech was. It was a thinly-veiled assault on the clique that he had formed to build a state out of the anarchy.\n\n"Nothing and no one," Mordakov paused for a second to look around the hall into the eyes of a select few, "shall intervene in the natural state of mankind. From now on, the fate of every person in Moscow shall be decided only by one and only thing - strength..."\n\n As the speech continued, Ankudinov stood forzen in the back. Was there any way he could still save this?"
+ blackbrigades.91.a:0 "Paradise of the Strong"
+ 
+ blackbrigades.92.t:0 "A Conqueror's Bounty"
+ blackbrigades.92.desc:0 "This focus describes an Ost German war veteran who thinks he will be oppressed by the new Russian adminstration but when he shows backbone, the Russians respect him."
+ blackbrigades.92.a:0 "Placeholder"
+ 
+ blackbrigades.93.t:0 "A System Forged in Iron"
+ blackbrigades.93.desc:0 "Description of a day in Moscow under the Black Brigade"
+ blackbrigades.93.a:0 "...but drenched in blood"
+ 
+ blackbrigades.94.t:0 "Emergency Call"
+ blackbrigades.94.desc:0 "Event chain that follows a mafia that indiscriminately mugs people, culminating in a terror attack on a hospital. The event will cause international headlines that lower opinion worldwide"
+ blackbrigades.94.a:0 "Was this really needed?"
+ 
+ blackbrigades.95.t:0 "Brotherhood in Strength"
+ blackbrigades.95.desc:0 "A group of kids aged 12-16 beat up and rob a kid that was born near-blind by stealing his glasses."
+ blackbrigades.95.a:0 "A criminal is made"
+ 
+ blackbrigades.96.t:0 "Leviathan"
+ blackbrigades.96.desc:0 "Mordakov looks over his life as the new Darwin"
+ blackbrigades.96.a:0 "Placeholder"
+ 
+ ### Spirits ###
+ 
+ BBB_Against_Wolgastaat_1:0 "Against Wolgastaat"
+ BBB_Against_Wolgastaat_1:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
+ 
+ BBB_Against_Wolgastaat_2:0 "Against Wolgastaat"
+ BBB_Against_Wolgastaat_2:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
+ 
+ BBB_Against_Wolgastaat_3:0 "Against Wolgastaat"
+ BBB_Against_Wolgastaat_3:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
+ 
+ BBB_Wheat_From_The_Chaff:0 "Wheat from the Chaff"
+ BBB_Wheat_From_The_Chaff_desc:0 "With the vast land we now control, there are many who have been socialized by the Germans and the Reds into inadequacy. Using our brigades, we shall sweep our adminstration and purge those that still hold on to their delusions and backwards ideologies."
+ 
+ BBB_Law_Of_Nature:0 "Law of Nature"
+ BBB_Law_Of_Nature_desc:0 "Nothing in the world matters but survival. The sooner the people come to terms with this fact, the sooner humanity can continue its natural ascent to greater horizons. Life in Muscovy is changing forever, and the more people taste the sweet allure of power without moral restrictions, the faster our greater purpose shall be fulfilled."
