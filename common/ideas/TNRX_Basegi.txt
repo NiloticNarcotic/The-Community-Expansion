@@ -1,0 +1,251 @@
+ideas = {
+	hidden_ideas = {
+		BBB_Darwinian_Society_Hidden = {
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			
+			cancel = {
+				has_war = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				offensive_war_stability_factor = 0.35
+				resistance_growth_on_our_occupied_states = 0.2
+				resistance_damage_to_garrison_on_our_occupied_states = 0.2
+			}
+		}
+	}
+
+	country = {
+		BBB_Darwinian_Society = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				monthly_population = -0.025
+				conscription_factor = -0.025
+			}
+		}	
+		
+		BBB_Terror_Of_The_East = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -0.25
+				no_supply_grace = 48
+				land_night_attack = 0.25
+			}
+		}
+
+		BBB_The_State_Of_The_Brigades = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_org = -10
+				army_org_regain = -0.1
+				wounded_chance_factor = 0.25
+				recon_factor = 0.25
+				
+			}
+		}	
+
+		BBB_Against_Wolgastaat_1 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			available = {
+				country_exists = VLG
+			}
+				
+			modifier = {
+				army_org = 5
+			}
+			
+			targeted_modifier = {
+				tag = VLG
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+
+		BBB_Against_Wolgastaat_2 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			available = {
+				country_exists = VLG
+			}
+				
+			modifier = {
+				army_org = 7.5
+			}
+			
+			targeted_modifier = {
+				tag = VLG
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		
+		BBB_Against_Wolgastaat_3 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			available = {
+				country_exists = VLG
+			}
+				
+			modifier = {
+				army_org = 10.0
+			}
+			
+			targeted_modifier = {
+				tag = VLG
+				attack_bonus_against = 0.125
+				defense_bonus_against = 0.125
+			}
+		}
+		BBB_Appropriating_Assets = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+
+		BBB_Work_To_The_Bone = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industry_repair_factor = 0.5
+				production_speed_buildings_factor = 0.035
+			}
+		}		
+
+		BBB_Reformists_Congress = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.1
+				fascism_drift = 0.05
+			}
+		}
+		
+		BBB_Wheat_From_The_Chaff = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = ultranational_socialism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = -0.025
+			}
+		}
+		
+		BBB_Law_Of_Nature = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = ultranational_socialism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = -0.05
+				conscription_factor = -0.05
+				war_support_factor = 0.2
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+		}
+	}
+}
