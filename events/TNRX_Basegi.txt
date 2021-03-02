@@ -1,0 +1,590 @@
+
+
+#██████╗░░█████╗░░██████╗███████╗░██████╗░██╗     ██████╗░░█████╗░░██████╗███████╗██████╗░    ██████╗░██████╗░██╗░██████╗░░█████╗░██████╗░███████╗░██████╗#
+#██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝░██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██║██╔════╝░██╔══██╗██╔══██╗██╔════╝██╔════╝#
+#██████╦╝███████║╚█████╗░█████╗░░██║░░██╗░██║     ██████╦╝███████║╚█████╗░█████╗░░██║░░██║    ██████╦╝██████╔╝██║██║░░██╗░███████║██║░░██║█████╗░░╚█████╗░#
+#██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░╚██╗██║     ██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░██║    ██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║██║░░██║██╔══╝░░░╚═══██╗#
+#██████╦╝██║░░██║██████╔╝███████╗╚██████╔╝██║     ██████╦╝██║░░██║██████╔╝███████╗██████╔╝    ██████╦╝██║░░██║██║╚██████╔╝██║░░██║██████╔╝███████╗██████╔╝#
+#╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝░╚═════╝░╚═╝     ╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░    ╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░#
+
+add_namespace = blackbrigades
+
+
+
+
+country_event = { #war 100 moment
+	id = blackbrigades.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event blackbrigades.3"}
+	title = blackbrigades.3.t
+	desc = blackbrigades.3.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BBB
+		BBB = {
+			owns_state = 401 #Kossackenstadt
+			has_global_flag = player_BBB
+			
+		}
+	}
+
+	option = { #lets fucking go
+		name = blackbrigades.0.a
+        hidden_effect = {
+			declare_war_on = {
+				target = VLG
+				type = annex_everything
+        	}
+		}
+	}
+}
+
+country_event = {
+	id = blackbrigades.1
+	title = blackbrigades.1.t
+	desc = blackbrigades.1.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.1.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.2
+	title = blackbrigades.2.t
+	desc = blackbrigades.2.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.2.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.3
+	title = blackbrigades.3.t
+	desc = blackbrigades.3.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.3.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.4
+	title = blackbrigades.4.t
+	desc = blackbrigades.4.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.4.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.5
+	title = blackbrigades.5.t
+	desc = blackbrigades.5.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.5.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.6
+	title = blackbrigades.6.t
+	desc = blackbrigades.6.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.6.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.7
+	title = blackbrigades.7.t
+	desc = blackbrigades.7.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.7.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			load_focus_tree = { tree = basegi_black_terror keep_completed = yes }
+		}
+	}
+}
+
+country_event = {
+	id = blackbrigades.8
+	title = blackbrigades.8.t
+	desc = blackbrigades.8.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.8.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.9
+	title = blackbrigades.9.t
+	desc = blackbrigades.9.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.9.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.10
+	title = blackbrigades.10.t
+	desc = blackbrigades.10.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.10.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.11
+	title = blackbrigades.11.t
+	desc = blackbrigades.11.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.11.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.12
+	title = blackbrigades.12.t
+	desc = blackbrigades.12.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.12.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			load_focus_tree = { tree = basegi_expansion keep_completed = yes }
+		}
+	}
+}
+
+country_event = {
+	id = blackbrigades.13
+	title = blackbrigades.13.t
+	desc = blackbrigades.13.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.13.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.14
+	title = blackbrigades.14.t
+	desc = blackbrigades.14.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.14.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.15
+	title = blackbrigades.15.t
+	desc = blackbrigades.15.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.15.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.16
+	title = blackbrigades.16.t
+	desc = blackbrigades.16.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.16.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.17
+	title = blackbrigades.17.t
+	desc = blackbrigades.17.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.17.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.18
+	title = blackbrigades.18.t
+	desc = blackbrigades.18.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.18.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.19
+	title = blackbrigades.19.t
+	desc = blackbrigades.19.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.19.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.20
+	title = blackbrigades.20.t
+	desc = blackbrigades.20.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.20.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.21
+	title = blackbrigades.21.t
+	desc = blackbrigades.21.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.21.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.22
+	title = blackbrigades.22.t
+	desc = blackbrigades.22.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.22.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.23
+	title = blackbrigades.23.t
+	desc = blackbrigades.23.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.23.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.24
+	title = blackbrigades.24.t
+	desc = blackbrigades.24.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.24.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#country_event = {
+	id = blackbrigades.1 #Lament of the weak 1
+	title = blackbrigades.1.t
+	desc = blackbrigades.1.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.1.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#country_event = {
+	id = blackbrigades.2 #A Conquerors Bounty
+	title = blackbrigades.2.t
+	desc = blackbrigades.2.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.2.a
+		ai_chance = { factor = 1 }
+		tno_minorities_improve = yes
+	}
+}
+
+#country_event = {
+	id = blackbrigades.3 #A System Forged In Iron
+	title = blackbrigades.3.t
+	desc = blackbrigades.3.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.3.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#country_event = {
+	id = blackbrigades.4 #Emergency Call 1
+	title = blackbrigades.4.t
+	desc = blackbrigades.4.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.4.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#country_event = {
+	id = blackbrigades.5 #Brotherhood in Strength
+	title = blackbrigades.5.t
+	desc = blackbrigades.5.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.5.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#country_event = {
+	id = blackbrigades.6 #Leviathan
+	title = blackbrigades.6.t
+	desc = blackbrigades.6.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.6.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+#country_event = {
+#	id = basegi.reformistsvic.1
+#	title = basegi.reformistsvic.t
+#	desc = basegi.reformistsvic.desc
+#	picture = GFX_report_event_russian_fascists_harbin
+#	
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	option = {
+#		name = basegi.reformistsvic.a
+#		ai_chance = { factor = 1 }
+#		kill_country_leader = yes
+#		set_politics = {
+#			ruling_party = fascism
+#		}
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.15
+#		}
+#		create_country_leader = {
+#			name = "Vladimir Ankudinov"
+#			desc = "POLITICS_VLADIMIR_ANKUDINOV_DESC"
+#			picture = "Portrait_Black_Brigades_Vladimir_Ankudinov.dds"
+#			expire = "1995.1.1"
+#			ideology = fascism_subtype
+#			traits = {
+#			}
+#		}
+#		add_ideas = {
+#			PRM_Vladimir_Ankudinov_hog
+#			PRM_Yuri_Nefedov_for
+#			PRM_Aslan_Usoyan_eco
+#			PRM_Boris_Krasilovsky_sec
+#		}
+#		set_cosmetic_tag = PRM_hyperborea_regional
+#		hidden_effect = {
+#			load_focus_tree = {
+#				tree = BBB_Radicals
+#				keep_completed = yes
+#			}
+#		}
+#	}
+#}
+
+#country_event = {
+#	id = basegi.radicalsvic.1
+#	title = basegi.radicalsvic.t
+#	desc = basegi.radicalsvic.desc
+#	picture = GFX_report_event_russian_fascists_harbin
+#	
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	option = {
+#		name = basegi.radicalsvic.a
+#		ai_chance = { factor = 1 }
+#		kill_country_leader = yes
+#		set_politics = {
+#			ruling_party = ultranational_socialism
+#		}
+#		add_popularity = {
+#			ideology = ultranational_socialism
+#			popularity = 0.2
+#		}
+#		create_country_leader = {
+#			name = "Vasily Mordakov"
+#			desc = "POLITICS_MORDAKOV_RADICAL_DESC"
+#			picture = "Portrait_Black_Brigades_Vasily_Mordakov.dds"
+#			expire = "1995.1.1"
+#			ideology = ultranational_socialism_subtype
+#			traits = {
+#			}
+#		}
+#		add_ideas = {
+#			PRM_Vladimir_Ankudinov_hog
+#			PRM_Yuri_Nefedov_for
+#			PRM_Aslan_Usoyan_eco
+#			PRM_Boris_Krasilovsky_sec
+#		}
+#		set_cosmetic_tag = PRM_hyperborea_regional
+#		hidden_effect = {
+#			load_focus_tree = {
+#				tree = BBB_Radicals
+#				keep_completed = yes
+#			}
+#		}
+#	}
+#}
