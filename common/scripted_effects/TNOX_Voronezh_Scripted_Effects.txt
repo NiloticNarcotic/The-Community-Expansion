@@ -1,6 +1,6 @@
 # Day 341: Im shit at making scripted effect yet they are going to give me a disease
 # Gorby Scripted Effects
-# Made By PrussianBlu
+# Made By PrussianBlu (R.I.P)
 #  ____   ___   ____   ____   __ __      ______  ____  ___ ___    ___ 
 # /    | /   \ |    \ |    \ |  |  |    |      ||    ||   |   |  /  _]
 #|   __||     ||  D  )|  o  )|  |  |    |      | |  | | _   _ | /  [_ 

@@ -23,6 +23,7 @@ country_event = {
 		name = pleskau.1.c
         hidden_effect = {
             the_blackest_night = yes
+			load_oob = PSK_1962
         }
         custom_effect_tooltip = tooltip_event_pleskau_1
 	}

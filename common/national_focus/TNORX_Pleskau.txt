@@ -16,7 +16,7 @@ focus_tree = {
 		y = 1
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -38,7 +38,7 @@ focus_tree = {
 		y = 3
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		prerequisite = { focus = PSK_the_blackest_night }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -62,7 +62,7 @@ focus_tree = {
 		y = 4
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		prerequisite = { focus = PSK_our_eternal_struggle }				
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -86,7 +86,7 @@ focus_tree = {
 		y = 6
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		prerequisite = { focus = PSK_fill_the_reserves }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -110,7 +110,7 @@ focus_tree = {
 		y = 4
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		prerequisite = { focus = PSK_our_eternal_struggle }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -134,7 +134,7 @@ focus_tree = {
 		y = 6
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		prerequisite = { focus = PSK_remembering_the_beginning }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -159,7 +159,7 @@ focus_tree = {
 		y = 4
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		prerequisite = { focus = PSK_our_eternal_struggle }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -183,7 +183,7 @@ focus_tree = {
 		y = 6
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		prerequisite = { focus = PSK_using_the_camps }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -207,7 +207,7 @@ focus_tree = {
 		y = 8
 		bypass = {
 		}
-		cost = 5
+		cost = 2
 		prerequisite = { focus = PSK_using_the_undesirables }
 		prerequisite = { focus = PSK_to_the_bitter_end }
 		prerequisite = { focus = PSK_fill_the_factories }
@@ -233,15 +233,18 @@ focus_tree = {
 		y = 5
 		bypass = {
 		}
-		cost = 35
+		cost = 2
 		prerequisite = { focus = PSK_remembering_the_beginning}
 		prerequisite = { focus = PSK_using_the_camps}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		completion_reward = {
-			faith_in_state = yes
+		hidden_effect={
+			completion_reward = {
+				faith_in_state = yes
+			}			
 		}
+		custom_effect_tooltip = tooltip_faith_in_state
 		ai_will_do = {
 			factor = 1
 		}
@@ -253,15 +256,107 @@ focus_tree = {
 		y = 5
 		bypass = {
 		}
-		cost = 35
+		cost = 2
 		prerequisite = { focus = PSK_remembering_the_beginning}
 		prerequisite = { focus = PSK_fill_the_reserves}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		completion_reward = {
-			faith_in_party = yes
+		hidden_effect={
+			completion_reward = {
+				faith_in_party = yes
+			}			
 		}
+		custom_effect_tooltip = tooltip_faith_in_party
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_expanding_our_reach
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_using_the_camps }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					####
+				}				
+			}
+		   custom_effect_tooltip = tooltip_expanding_our_reach
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_expanding_the_russian_corps
+		icon = GFX_goal_unknown
+		x = 1
+		y = 5
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_fill_the_reserves }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					####
+				}				
+			}
+		   custom_effect_tooltip = tooltip_expanding_the_russian_corps
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_civil_procurement
+		icon = GFX_goal_unknown
+		x = 6
+		y = 7
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_remembering_the_beginning}
+		prerequisite = { focus = PSK_using_the_camps}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			###
+		}
+		custom_effect_tooltip = tooltip_faith_in_state
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_material_construction
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_using_the_undesirables}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			###
+		}
+		custom_effect_tooltip = tooltip_faith_in_state
 		ai_will_do = {
 			factor = 1
 		}

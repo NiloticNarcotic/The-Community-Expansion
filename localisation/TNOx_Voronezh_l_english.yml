@@ -38,15 +38,15 @@
  VNH_Robert_Klein_sec:0 "Robert Klein"
  
  ### Ideas ###
- VNH_Little_Corruption_idea:0 "Low Corruption"
- VNH_Medium_Corruption_idea:0 "Medium Corruption"
+ VNH_Little_Corruption_idea:0 "Corruption: §SLow§!"
+ VNH_Medium_Corruption_idea:0 "Corruption: §YMedium§!"
  VNH_Medium_Corruption_idea_desc:0 "Voronezhs' prime political problem is that of corruption. Right now, corruption is not the highest, however it isn't exactly the lowest. Many polticians currently have deep political connections. "
- VNH_Large_Corruption_idea:0 "High Corruption"
+ VNH_Large_Corruption_idea:0 "Corruption: §RHigh§!"
  VNH_Disastrous_Corruption_idea:0 "Disastrous Corruption"
- VNH_Little_Anger_idea:0 "Low Industrialists' Anger"
- VNH_Medium_Anger_idea:0 "Medium Industrialists' Anger"
- VNH_Large_Anger_idea:0 "Large Industrialists' Anger"
- VNH_Disastrous_Anger_idea:0 "Disastrous Industrialists' Anger"
+ VNH_Little_Anger_idea:0 "Industrialist Anger: §SLow§!"
+ VNH_Medium_Anger_idea:0 "Industrialist Anger: §YMedium§!"
+ VNH_Large_Anger_idea:0 "Industrialist Anger: §RHigh§!"
+ VNH_Disastrous_Anger_idea:0 "Industrialist Anger: §xDisastrous§!"
  
  ### Gui ###
  Anger_Title_TT:0 "§BThe Industrialists's Anger§"
