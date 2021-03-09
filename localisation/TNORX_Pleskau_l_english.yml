@@ -12,13 +12,13 @@
  PSK_Party:0 "Faith in Party"
  PSK_Party_desc:0 "placeholder"
 
- PSK_Inferior:0 "Lesser-Race Industrial Production: Low"
+ PSK_Inferior:0 "Lesser-Race Industrial Production: §SLow§!"
  PSK_Inferior_desc:0 "placeholder"
 
- PSK_Inferior_2:0 "Lesser-Race Industrial Production: Medium"
+ PSK_Inferior_2:0 "Lesser-Race Industrial Production: §YMedium§!"
  PSK_Inferior_2_desc:0 "placeholder"
 
- PSK_Inferior_3:0 "Lesser-Race Industrial Production: High"
+ PSK_Inferior_3:0 "Lesser-Race Industrial Production: §RHigh§!"
  PSK_Inferior_3_desc:0 "placeholder" 
  ### Ministers ###
  PSK_Franz_Stangl_hog:0 "Franz Stangl"
@@ -73,7 +73,7 @@
  PSK_socialism_DEF:0 "United Partisan Movements"
  PSK_socialism_ADJ:0 "Russian"
 
- # Democratic Russia
+ # Democratic Russia #
 
  PSK_social_democrat:0 "Russian Republic"
  PSK_social_democrat_DEF:0 "United Russian Republic"
@@ -128,6 +128,18 @@
  PSK_faith_in_state:0 "Faith in State"
  PSK_faith_in_state_desc:0 "placeholder"
  
+ PSK_expanding_our_reach:0 "Expanding Our Reach"
+ PSK_expanding_our_reach_desc:0 "placeholder"
+
+ PSK_expanding_the_russian_corps:0 "The Russian Pacification Brigades"
+ PSK_expanding_the_russian_corps_desc:0 "placeholder"
+
+ PSK_civil_procurement:0 "Ensuring Civil Procurement"
+ PSK_civil_procurement_desc:0 "placeholder"
+
+ PSK_material_construction:0 "The New Construction Committee"
+ PSK_material_construction_desc:0 "placeholder"
+ 
  PSK_to_the_bitter_end:0 "To the Bitter End!"
  PSK_to_the_bitter_end_desc:0 "placeholder"
  
@@ -159,6 +171,18 @@
 
  tooltip_from_dust_to_dust:0 "§ROur domain secured, we step forwards over the ashes of old order.§!"
 
+ tooltip_expanding_the_russian_corps:0 "§RSome Slavs possess the traits of an Aryan warrior, we can use this to our advantage.§!"
+
+ tooltip_faith_in_party:0 "§RFaith in party will be increased, support is total.§!"
+
+ tooltip_faith_in_state:0 "§RFaith in state will be increased, victory is assured.§!"
+
+ tooltip_expanding_our_reach:0 "§RNo asset will be unaccounted for.§!"
+
+ tooltip_civil_procurement:0 "§RNo asset will be unaccounted for.§!"
+
+ tooltip_material_construction:0 "§RNo asset will be unaccounted for.§!"
+ 
  tooltip_event_pleskau_1:0 "§GAs focuses are completed, the country and it's subjects will be radically changed,§!§R the old order lies broken in two.§!"
  
  tooltip_event_pleskau_2:0 "§GGain a minor bonus to stability.§!"
