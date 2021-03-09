@@ -27160,4 +27160,39 @@ spriteTypes = {
 		name = "GFX_GER_behold_the_legion"
 		texturefile = "gfx/interface/goals/GER_behold_the_legion.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_PSK_Fill_the_Factories"
+		texturefile = "gfx/interface/goals/PSK_Fill_the_Factories.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PSK_From_Dust_to_Dust"
+		texturefile = "gfx/interface/goals/PSK_From_Dust_to_Dust.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PSK_Expanding_the_Russian_Corps"
+		texturefile = "gfx/interface/goals/PSK_Expanding_the_Russian_Corps.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PSK_Expanding_Our_Reach"
+		texturefile = "gfx/interface/goals/PSK_Expanding_Our_Reach.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PSK_Faith_in_State"
+		texturefile = "gfx/interface/goals/PSK_Faith_in_State.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PSK_Faith_in_Party"
+		texturefile = "gfx/interface/goals/PSK_Faith_in_Party.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PSK_Ensuring_Civil_Procurement"
+		texturefile = "gfx/interface/goals/PSK_Ensuring_Civil_Procurement.dds"
+	}
 }

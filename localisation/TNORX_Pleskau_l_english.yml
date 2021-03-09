@@ -108,7 +108,7 @@
  ### Focus Descriptions + Names ###
  ### Starting Tree ###
  PSK_the_blackest_night:0 "The Blackest Night"
- PSK_the_blackest_night_desc:0 "placeholder"
+ PSK_the_blackest_night_desc:0 "Ever since the Aryan truth was rediscovered in Germany by Hitler, it has spread far and wide. Today the gospel of national socialism is known globally and practiced across Europe. The prophecies of this faith tell us that the Aryan shall dominate from Burgundy to Moskowien. Yet today Moskowien is in chaos as the subhuman races attempt to reassert themselves. How foolish they are! There is no stopping the truth! The Aryan shall lord over Moskowien with an iron fist! The prophecy can never be shattered! Sieg Heil!"
  
  PSK_our_eternal_struggle:0 "Our Eternal Struggle"
  PSK_our_eternal_struggle_desc:0 "placeholder"
@@ -171,7 +171,7 @@
 
  tooltip_from_dust_to_dust:0 "§ROur domain secured, we step forwards over the ashes of old order.§!"
 
- tooltip_expanding_the_russian_corps:0 "§RSome Slavs possess the traits of an Aryan warrior, we can use this to our advantage.§!"
+ tooltip_expanding_the_russian_corps:0 "§RSome slavs possess the traits of an Aryan warrior, we can use this to expand the Pacification Brigades allowed manpower pool.§!"
 
  tooltip_faith_in_party:0 "§RFaith in party will be increased, support is total.§!"
 
@@ -179,9 +179,9 @@
 
  tooltip_expanding_our_reach:0 "§RNo asset will be unaccounted for.§!"
 
- tooltip_civil_procurement:0 "§RNo asset will be unaccounted for.§!"
+ tooltip_civil_procurement:0 "§RBy expanding the definition of 'Dangerious Inidividual' there will be an even greater pool to draw from.§!"
 
- tooltip_material_construction:0 "§RNo asset will be unaccounted for.§!"
+ tooltip_material_construction:0 "§RThe NCC will be appointed as the new organization of labour administration, responsible for directing and organizing construction of necessary buildings and infrastructure around Pleskau.§!"
  
  tooltip_event_pleskau_1:0 "§GAs focuses are completed, the country and it's subjects will be radically changed,§!§R the old order lies broken in two.§!"
  
