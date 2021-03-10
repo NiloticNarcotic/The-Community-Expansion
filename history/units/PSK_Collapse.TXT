@@ -1,0 +1,64 @@
+division_template = {
+	name = "Waffen-SS"					
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+   		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		MBT = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }	
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		military_police = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Staatliche Polizei"					
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+   		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+  		
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+units= {
+	division= { 
+		name = "2. Waffen-Grenadier-Division der SS"
+		location = 6154
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division= {
+		name = "1. Waffen-Grenadier-Division der SS"
+		location = 2999
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division= { 
+		name = "3. Einsatzgruppen Polizei 'Reich'"
+		location = 11202
+		division_template = "Staatliche Polizei"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division= { 
+		name = "7. Einsatzgruppen Polizei 'No. 07'"
+		location = 11349
+		division_template = "Staatliche Polizei"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}

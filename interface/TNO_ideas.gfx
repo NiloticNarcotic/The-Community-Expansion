@@ -5348,4 +5348,8 @@ spriteTypes = {
 		name = "PSK_Devastation_7"
 		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
 	}
+	spriteType = {
+		name = "PSK_Bitter"
+		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
+	}
 }

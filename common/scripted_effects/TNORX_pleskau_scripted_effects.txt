@@ -9,7 +9,6 @@ the_blackest_night = {
 	    ideology = burgundian_system
 	    popularity = 0.05
     }
-    load_oob = PSK_1962
 }
 the_eternal_struggle = {
     add_stability = 0.07
