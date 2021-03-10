@@ -414,6 +414,48 @@ focus_tree = {
 	id = VNH_a_light_hand_germans
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
+	
+	    prerequisite = {
+			focus = VNH_fascists_to_the_south
+		}
+        
+		mutually_exclusive = {
+		    focus = VNH_institute_strict_denazification
+	    }
+		
+		available = {
+			NOT = {
+				country_exists = BBB
+				country_exists = VLG
+			}
+		}
+		completion_reward = {
+			add_to_variable = {
+				var = VNH_Corruption_Value
+				value = 2
+			}
+			custom_effect_tooltip = VNH_Low_Corruption_Increase
+			add_stability = 0.1
+			political_power_factor = -0.2
+		
+		}
+		x = 6
+		y = 3
+	}
+	
+	focus = { # Promise amnesty to the Volga Germans
+	id = VNH_amnesty_to_volga_germans
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+	
+	    prerequisite = {
+			focus = VNH_fascists_to_the_south
+		}
+		
+		mutually_exclusive = {
+		    focus = VNH_institute_strict_denazification
+			focus = VNH_last_resort
+	    }
 
 		available = {
 			NOT = {
@@ -424,13 +466,76 @@ focus_tree = {
 		completion_reward = {
 			add_to_variable = {
 				var = VNH_Corruption_Value
-				value = 5
+			    value = 1
+			}
+			custom_effect_tooltip = VNH_Low_Corruption_Increase
+			add_stability = 0.1
+			political_power_gain = -0.1
+		
+		}
+		x = 6
+		y = 4
+	}
+	
+	
+	focus = { # institute strict denazification
+	id = VNH_institute_strict_denazification
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+	
+	    prerequisite = {
+			focus = VNH_fascists_to_the_south
+		}
+        
+		mutually_exclusive = {
+		    focus = VNH_a_light_hand_germans
+	    }
+		
+		available = {
+			NOT = {
+				country_exists = BBB
+				country_exists = VLG
+			}
+		}
+		completion_reward = {
+			add_to_variable = {
+				var = VNH_Corruption_Value
+				value = 3
 			}
 			custom_effect_tooltip = VNH_Low_Corruption_Increase
 			add_stability = 0.1
 		
 		}
-		x = 8
+		x = 10
+		y = 3
+	}
+	
+	focus = { # Last resort
+	id = VNH_last_resort
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+	
+	    prerequisite = {
+			focus = VNH_fascists_to_the_south
+		}
+
+		available = {
+			NOT = {
+				country_exists = BBB
+				country_exists = VLG
+			}
+		}
+		completion_reward = {
+			add_to_variable = {
+				var = VNH_Corruption_Value
+				value = 1
+			}
+			custom_effect_tooltip = VNH_Low_Corruption_Increase
+			add_stability = 0.1
+			war_support_factor = 0.2
+		    monthly_population = -0.01
+		}
+		x = 10
 		y = 4
 	}
 	
@@ -440,8 +545,25 @@ focus_tree = {
 	cost = 2
 
 		prerequisite = {
-			focus = VNH_a_light_hand_germans
+			focus = VNH_amnesty_to_volga_germans
+			focus = VNH_last_resort
 		}
+		
+		bypass = {
+		258 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = ORL
+
+				}
+
+			}
+
+		}
+		
 		available = {
 			NOT = {
 				country_exists = BBB
@@ -454,7 +576,564 @@ focus_tree = {
 			}
 		}
 		x = 8
+		y = 5
+	}
+	
+	
+	focus = { #
+	id = VNH_partisans_on_trial
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_telegram_oryol
+		}
+		
+		bypass = {
+		258 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = ORL
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = ORL
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.8
+				days = 1
+			}
+		}
+		x = 8
 		y = 6
+	}
+	
+	focus = { #
+	id = VNH_Oryol_secured
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_partisans_on_trial
+		}
+		
+		bypass = {
+		258 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = ORL
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = ORL
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.9
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 8
+		y = 7
+	}
+	
+    focus = { #
+	id = VNH_the_rogue_paratroopers
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_Oryol_secured
+		}
+		bypass = {
+		255 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = PEN
+
+				}
+
+			}
+
+		}
+		available = {
+			NOT = {
+				country_exists = ORL
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.10
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 8
+		y = 8
+	}
+	
+	focus = { #
+	id = VNH_learn_their_doctrine
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_the_rogue_paratroopers
+		}
+		available = {
+			NOT = {
+				country_exists = PEN
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.11
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		bypass = {
+		255 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = PEN
+
+				}
+
+			}
+
+		}
+		x = 10
+		y = 9
+	}
+	
+	focus = { #
+	id = VNH_convince_the_willing
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_the_rogue_paratroopers
+		}
+		
+		bypass = {
+		255 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = PEN
+
+				}
+
+			}
+
+		}
+		
+        available = {
+			NOT = {
+				country_exists = PEN
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.12
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 6
+		y = 9
+	}
+	
+	focus = { #
+	id = VNH_pensa_secured
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_convince_the_willing
+			focus = VNH_learn their doctrine
+		}
+		
+		bypass = {
+		255 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = PEN
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = PEN
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.13
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 8
+		y = 10
+	}
+	
+	focus = { #
+	id = VNH_the_socialist_partisans
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_Oryol_secured
+		}
+		
+		bypass = {
+		243 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = SMO
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = 
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.14
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 2
+		y = 8
+	}
+	
+	focus = { #
+	id = VNH_deal_with_lukin
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_the_socialist_partisans
+		}
+		
+		bypass = {
+		243 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = SMO
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = SMO
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.15
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 0
+		y = 9
+	}
+	
+	focus = { #
+	id = VNH_appease_the_few
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_the_socialist_partisans
+		}
+		
+		bypass = {
+		243 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = SMO
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = SMO
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.16
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 4
+		y = 9
+	}
+	
+	focus = { #
+	id = VNH_democracy_in_smolensk
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_the_socialist_partisans
+		}
+		
+		bypass = {
+		243 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = SMO
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = SMO
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.17
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 2
+		y = 10
+	}
+	
+	focus = { #
+	id = VNH_the_despotic_collaborators
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_Oryol_secured
+		}
+		
+		bypass = {
+		219 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = MOS
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = 
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.18
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 14
+		y = 8
+	}
+	focus = { #
+	id = VNH_kaminski_and_his_goons
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_the_despotic_collaborators
+		}
+		
+		bypass = {
+		219 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = MOS
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = MOS
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.19
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 12
+		y = 9
+	}
+	
+	focus = { #
+	id = VNH_rehabilitate_the_capital
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_the_despotic_collaborators
+		}
+		
+		bypass = {
+		219 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = MOS
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = MOS
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.20
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 16
+		y = 9
+	}
+	
+	focus = { #
+	id = VNH_a_free_moscow
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_kaminski_and_his_goons
+			focus = VNH_rehabilitate_the_capital
+		}
+		
+		bypass = {
+		219 = {
+
+			owner = {
+
+				NOT = {
+
+					tag = MOS
+
+				}
+
+			}
+
+		}
+		
+		available = {
+			NOT = {
+				country_exists = MOS
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = VNH.21
+				days = 1
+			}
+			war_support_factor = 0.05
+		}
+		x = 14
+		y = 10
 	}
 }
 	
