@@ -1303,8 +1303,8 @@ GUY = {
 }
 
 ORL = {
-	color = rgb { 170 64 146 }
-	color_ui = rgb { 170 64 146 }
+	color = rgb { 84 84 96 }
+	color_ui = rgb { 84 84 96 }
 }
 
 MAD = {

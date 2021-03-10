@@ -5320,36 +5320,4 @@ spriteTypes = {
 		name = "GFX_idea_PSK_Bitter"
 		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
 	}
-	spriteType = {
-		name = "PSK_Devastation_1"
-		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
-	}
-	spriteType = {
-		name = "PSK_Devastation_2"
-		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
-	}
-	spriteType = {
-		name = "PSK_Devastation_3"
-		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
-	}
-	spriteType = {
-		name = "PSK_Devastation_4"
-		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
-	}
-	spriteType = {
-		name = "PSK_Devastation_5"
-		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
-	}
-	spriteType = {
-		name = "PSK_Devastation_6"
-		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
-	}
-	spriteType = {
-		name = "PSK_Devastation_7"
-		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
-	}
-	spriteType = {
-		name = "PSK_Bitter"
-		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
-	}
 }

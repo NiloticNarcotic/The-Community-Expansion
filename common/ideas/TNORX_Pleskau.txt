@@ -43,7 +43,9 @@ ideas = {
 			removal_cost = -1
 			picture = GFX_idea_PSK_Bitter
 			modifier = {
-				stability_weekly  = 0.05
+				stability_weekly  = 0.065
+				political_power_cost = 0.15
+				ultranational_socialism_drift = 0.05
 			}
 		}
 		PSK_Party = {
@@ -57,7 +59,9 @@ ideas = {
 			removal_cost = -1
 			picture = GFX_idea_PSK_Bitter
 			modifier = {
-				war_support_weekly  = 0.05
+				war_support_weekly  = 0.065
+				political_power_cost = 0.15
+				burgundian_system_drift = 0.05
 			}
 		}
 		PSK_Inferior = {

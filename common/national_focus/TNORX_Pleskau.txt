@@ -13,7 +13,7 @@ focus_tree = {
 		id = PSK_the_blackest_night
 		icon = GFX_goal_unknown
 		x = 4
-		y = 1
+		y = 2
 		bypass = {
 		}
 		cost = 2
@@ -35,10 +35,10 @@ focus_tree = {
 		id = PSK_our_eternal_struggle
 		icon = GFX_goal_unknown
 		x = 4
-		y = 3
+		y = 4
 		bypass = {
 		}
-		cost = 2
+		cost = 3
 		prerequisite = { focus = PSK_the_blackest_night }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -59,7 +59,7 @@ focus_tree = {
 		id = PSK_fill_the_reserves
 		icon = GFX_goal_unknown
 		x = 2
-		y = 4
+		y = 5
 		bypass = {
 		}
 		cost = 2
@@ -83,11 +83,12 @@ focus_tree = {
 		id = PSK_using_the_undesirables
 		icon = GFX_goal_unknown
 		x = 2
-		y = 6
+		y = 8
 		bypass = {
 		}
 		cost = 2
 		prerequisite = { focus = PSK_fill_the_reserves }
+		prerequisite = { focus = PSK_regimental_training focus = PSK_expanding_the_russian_corps }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -107,7 +108,7 @@ focus_tree = {
 		id = PSK_remembering_the_beginning
 		icon = GFX_goal_unknown
 		x = 4	
-		y = 4
+		y = 5
 		bypass = {
 		}
 		cost = 2
@@ -131,11 +132,12 @@ focus_tree = {
 		id = PSK_to_the_bitter_end
 		icon = GFX_goal_unknown
 		x = 4
-		y = 6
+		y = 8
 		bypass = {
 		}
 		cost = 2
 		prerequisite = { focus = PSK_remembering_the_beginning }
+		prerequisite = { focus = PSK_faith_in_party focus = PSK_faith_in_state }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -156,7 +158,7 @@ focus_tree = {
 		id = PSK_using_the_camps
 		icon = GFX_goal_unknown
 		x = 6
-		y = 4
+		y = 5
 		bypass = {
 		}
 		cost = 2
@@ -180,11 +182,12 @@ focus_tree = {
 		id = PSK_fill_the_factories
 		icon = GFX_PSK_Fill_the_Factories
 		x = 6
-		y = 6
+		y = 8
 		bypass = {
 		}
 		cost = 2
 		prerequisite = { focus = PSK_using_the_camps }
+		prerequisite = { focus = PSK_expanding_our_reach focus = PSK_coercive_activities_bureau }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -204,10 +207,10 @@ focus_tree = {
 		id = PSK_from_dust_to_dust
 		icon = GFX_PSK_From_Dust_to_Dust
 		x = 4
-		y = 8
+		y = 12
 		bypass = {
 		}
-		cost = 2
+		cost = 3
 		prerequisite = { focus = PSK_using_the_undesirables }
 		prerequisite = { focus = PSK_to_the_bitter_end }
 		prerequisite = { focus = PSK_fill_the_factories }
@@ -232,12 +235,13 @@ focus_tree = {
 		id = PSK_faith_in_state
 		icon = GFX_PSK_Faith_in_State
 		x = 5
-		y = 5
+		y = 6
 		bypass = {
 		}
-		cost = 2
+		cost = 1
 		prerequisite = { focus = PSK_remembering_the_beginning}
 		prerequisite = { focus = PSK_using_the_camps}
+		mutually_exclusive = { focus = PSK_faith_in_party}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -255,12 +259,13 @@ focus_tree = {
 		id = PSK_faith_in_party
 		icon = GFX_PSK_Faith_in_Party
 		x = 3
-		y = 5
+		y = 6
 		bypass = {
 		}
-		cost = 2
+		cost = 1
 		prerequisite = { focus = PSK_remembering_the_beginning}
 		prerequisite = { focus = PSK_fill_the_reserves}
+		mutually_exclusive = { focus = PSK_faith_in_state}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -279,11 +284,12 @@ focus_tree = {
 		id = PSK_expanding_our_reach
 		icon = GFX_PSK_Expanding_Our_Reach
 		x = 7
-		y = 5
+		y = 6
 		bypass = {
 		}
-		cost = 2
+		cost = 1
 		prerequisite = { focus = PSK_using_the_camps }
+		mutually_exclusive = { focus = PSK_coercive_activities_bureau}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -299,13 +305,14 @@ focus_tree = {
 	}
 	focus = {
 		id = PSK_expanding_the_russian_corps
-		icon = GFX_PSK_Expanding_the_Russian_Corps
+		icon = GFX_BRG_Focus_Penal_Battalions
 		x = 1
-		y = 5
+		y = 6
 		bypass = {
 		}
-		cost = 2
+		cost = 1
 		prerequisite = { focus = PSK_fill_the_reserves }
+		mutually_exclusive = { focus = PSK_regimental_training}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -323,12 +330,12 @@ focus_tree = {
 		id = PSK_civil_procurement
 		icon = GFX_PSK_Ensuring_Civil_Procurement
 		x = 6
-		y = 7
+		y = 10
 		bypass = {
 		}
 		cost = 2
-		prerequisite = { focus = PSK_remembering_the_beginning}
-		prerequisite = { focus = PSK_using_the_camps}
+		prerequisite = { focus = PSK_to_the_bitter_end}
+		prerequisite = { focus = PSK_fill_the_factories}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -346,7 +353,7 @@ focus_tree = {
 		id = PSK_material_construction
 		icon = GFX_BRG_Raze_The_Cities_shine
 		x = 2
-		y = 7
+		y = 10
 		bypass = {
 		}
 		cost = 2
@@ -359,6 +366,52 @@ focus_tree = {
 				###
 			}
 			custom_effect_tooltip = tooltip_material_construction
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_regimental_training
+		icon = GFX_PSK_Expanding_the_Russian_Corps
+		x = -1
+		y = 6
+		bypass = {
+		}
+		cost = 1
+		prerequisite = { focus = PSK_fill_the_reserves}
+		mutually_exclusive = { focus = PSK_expanding_the_russian_corps}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {
+				###
+			}
+			custom_effect_tooltip = #
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_coercive_activities_bureau
+		icon = GFX_BRG_Focus_Work_Is_Freedom
+		x = 9
+		y = 6
+		bypass = {
+		}
+		cost = 1
+		prerequisite = { focus = PSK_using_the_camps}
+		mutually_exclusive = { focus = PSK_expanding_our_reach}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {
+				###
+			}
+			custom_effect_tooltip = #
 		}
 		ai_will_do = {
 			factor = 1

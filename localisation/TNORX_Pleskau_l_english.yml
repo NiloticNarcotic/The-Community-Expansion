@@ -139,6 +139,12 @@
 
  PSK_material_construction:0 "The New Construction Committee"
  PSK_material_construction_desc:0 "placeholder"
+
+ PSK_coercive_activities_bureau:0 "The Coercive Activities Bureau"
+ PSK_coercive_activities_bureau_desc:0 "placeholder"
+
+ PSK_regimental_training:0 "Rigorous Regimental Training"
+ PSK_regimental_training_desc:0 "placeholder"
  
  PSK_to_the_bitter_end:0 "To the Bitter End!"
  PSK_to_the_bitter_end_desc:0 "placeholder"

@@ -22,9 +22,10 @@ fill_the_reserves = {
 	add_stability = 0.02
 }
 using_the_undesirables = {
-    add_manpower = 4500
+    add_manpower = 3500
+    load_oob = "PSK_reinforcments"
     add_ideas = PSK_Rigid
-    add_war_support = 0.02
+    add_war_support = 0.04
     add_political_power = -10
 }
 remembering_the_beginning = {
