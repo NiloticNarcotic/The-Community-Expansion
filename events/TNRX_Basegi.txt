@@ -1,5 +1,43 @@
+#########################
+## BASEGI BASED EVENTS ##
+#########################
 
+add_namespace = basegi
 
+# focus tree change to terror
+country_event = {
+	id = basegi.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.1"}
+	title = basegi.1.a
+	desc = basegi.1.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = basegi.1.c
+        hidden_effect = {
+            load_focus_tree = basegi_black_terror  
+        }
+	}
+}
+
+# focus tree change to expansion
+country_event = {
+	id = basegi.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.2"}
+	title = basegi.2.a
+	desc = basegi.2.b
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = basegi.2.c
+        hidden_effect = {
+            load_focus_tree = basegi_expansion
+        }
+	}
+}
+=======
 #██████╗░░█████╗░░██████╗███████╗░██████╗░██╗     ██████╗░░█████╗░░██████╗███████╗██████╗░    ██████╗░██████╗░██╗░██████╗░░█████╗░██████╗░███████╗░██████╗#
 #██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝░██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██║██╔════╝░██╔══██╗██╔══██╗██╔════╝██╔════╝#
 #██████╦╝███████║╚█████╗░█████╗░░██║░░██╗░██║     ██████╦╝███████║╚█████╗░█████╗░░██║░░██║    ██████╦╝██████╔╝██║██║░░██╗░███████║██║░░██║█████╗░░╚█████╗░#
@@ -10,37 +48,6 @@
 add_namespace = blackbrigades
 
 
-
-
-country_event = { #war 100 moment
-	id = blackbrigades.0
-	immediate = {log = "[GetDateText]: [Root.GetName]: event blackbrigades.3"}
-	title = blackbrigades.3.t
-	desc = blackbrigades.3.desc
-	picture = GFX_report_event_russian_fascists_harbin
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	trigger = {
-		tag = BBB
-		BBB = {
-			owns_state = 401 #Kossackenstadt
-			has_global_flag = player_BBB
-			
-		}
-	}
-
-	option = { #lets fucking go
-		name = blackbrigades.0.a
-        hidden_effect = {
-			declare_war_on = {
-				target = VLG
-				type = annex_everything
-        	}
-		}
-	}
-}
 
 country_event = {
 	id = blackbrigades.1
@@ -405,100 +412,299 @@ country_event = {
 	option = {
 		name = blackbrigades.24.a
 		ai_chance = { factor = 1 }
+		hidden_effect = {
+			load_focus_tree = { tree = basegi_reformists keep_completed = yes }
+		}
+	}
+	option = {
+		name = blackbrigades.24.b
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			load_focus_tree = { tree = basegi_radicals keep_completed = yes }
+		}
 	}
 }
-
-#country_event = {
-	id = blackbrigades.1 #Lament of the weak 1
-	title = blackbrigades.1.t
-	desc = blackbrigades.1.desc
-	picture = GFX_report_event_russian_fascists_harbin
+### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
+### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
+### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ###
+country_event = {
+	id = blackbrigades.301 #The End Of Mordakov
+	title = blackbrigades.301.t
+	desc = blackbrigades.301.desc
+	picture = GFX_report_event_italy_female_fascists
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = blackbrigades.1.a
+		name = blackbrigades.301.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.302 #Sobering The Brigades
+	title = blackbrigades.302.t
+	desc = blackbrigades.302.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.302.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.303 #Reassuring The People
+	title = blackbrigades.303.t
+	desc = blackbrigades.303.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.303.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.304 #Superstitions No More
+	title = blackbrigades.304.t
+	desc = blackbrigades.304.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.304.a
 		ai_chance = { factor = 1 }
 	}
 }
 
-#country_event = {
-	id = blackbrigades.2 #A Conquerors Bounty
-	title = blackbrigades.2.t
-	desc = blackbrigades.2.desc
+country_event = {
+	id = blackbrigades.305 #Strength in Schools
+	title = blackbrigades.305.t
+	desc = blackbrigades.305.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.305.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.306 #Implementing Security Taxes
+	title = blackbrigades.306.t
+	desc = blackbrigades.306.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.306.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.307 #Hospitals In Working Order
+	title = blackbrigades.307.t
+	desc = blackbrigades.307.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.307.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.308 #That Which We Hold Dear
+	title = blackbrigades.308.t
+	desc = blackbrigades.308.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.308.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.309 #Culture of The Overman
+	title = blackbrigades.309.t
+	desc = blackbrigades.309.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.309.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.310 #The Dark Wilderness
+	title = blackbrigades.310.t
+	desc = blackbrigades.310.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.310.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.311 #Register of The Insufficient
+	title = blackbrigades.311.t
+	desc = blackbrigades.311.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.311.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.312 #The Final Meeting
+	title = blackbrigades.312.t
+	desc = blackbrigades.312.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.312.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.313 #Dominion
+	title = blackbrigades.313.t
+	desc = blackbrigades.313.desc
+	picture = GFX_report_event_italy_female_fascists
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.313.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
+### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
+### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ###
+
+country_event = {
+	id = blackbrigades.101 #Lament of the weak 1
+	title = blackbrigades.101.t
+	desc = blackbrigades.101.desc
 	picture = GFX_report_event_russian_fascists_harbin
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = blackbrigades.2.a
+		name = blackbrigades.101.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.102 #A Conquerors Bounty
+	title = blackbrigades.102.t
+	desc = blackbrigades.102.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.102.a
 		ai_chance = { factor = 1 }
 		tno_minorities_improve = yes
 	}
 }
 
-#country_event = {
-	id = blackbrigades.3 #A System Forged In Iron
-	title = blackbrigades.3.t
-	desc = blackbrigades.3.desc
+country_event = {
+	id = blackbrigades.103 #A System Forged In Iron
+	title = blackbrigades.103.t
+	desc = blackbrigades.103.desc
 	picture = GFX_report_event_russian_fascists_harbin
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = blackbrigades.3.a
+		name = blackbrigades.103.a
 		ai_chance = { factor = 1 }
 	}
 }
 
-#country_event = {
-	id = blackbrigades.4 #Emergency Call 1
-	title = blackbrigades.4.t
-	desc = blackbrigades.4.desc
+country_event = {
+	id = blackbrigades.104 #Emergency Call 1
+	title = blackbrigades.104.t
+	desc = blackbrigades.104.desc
 	picture = GFX_report_event_russian_fascists_harbin
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = blackbrigades.4.a
+		name = blackbrigades.104.a
 		ai_chance = { factor = 1 }
 	}
 }
 
-#country_event = {
-	id = blackbrigades.5 #Brotherhood in Strength
-	title = blackbrigades.5.t
-	desc = blackbrigades.5.desc
+country_event = {
+	id = blackbrigades.105 #Brotherhood in Strength
+	title = blackbrigades.105.t
+	desc = blackbrigades.105.desc
 	picture = GFX_report_event_russian_fascists_harbin
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = blackbrigades.5.a
+		name = blackbrigades.105.a
 		ai_chance = { factor = 1 }
 	}
 }
 
-#country_event = {
-	id = blackbrigades.6 #Leviathan
-	title = blackbrigades.6.t
-	desc = blackbrigades.6.desc
+country_event = {
+	id = blackbrigades.106 #Leviathan
+	title = blackbrigades.106.t
+	desc = blackbrigades.106.desc
 	picture = GFX_report_event_russian_fascists_harbin
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = blackbrigades.6.a
+		name = blackbrigades.106.a
 		ai_chance = { factor = 1 }
 	}
 }
-
 #country_event = {
 #	id = basegi.reformistsvic.1
 #	title = basegi.reformistsvic.t
@@ -537,7 +743,7 @@ country_event = {
 #		set_cosmetic_tag = PRM_hyperborea_regional
 #		hidden_effect = {
 #			load_focus_tree = {
-#				tree = BBB_Radicals
+#				tree = basegi_reformists
 #				keep_completed = yes
 #			}
 #		}
@@ -582,9 +788,10 @@ country_event = {
 #		set_cosmetic_tag = PRM_hyperborea_regional
 #		hidden_effect = {
 #			load_focus_tree = {
-#				tree = BBB_Radicals
+#				tree = basegi_radicals
 #				keep_completed = yes
 #			}
 #		}
 #	}
 #}
+

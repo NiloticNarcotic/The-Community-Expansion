@@ -50,7 +50,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = BBB_radicals
+    id = basegi_radicals
     country = {
         factor = 0
         modifier = {
@@ -62,7 +62,7 @@ focus_tree = {
 	shared_focus = BBB_Black_Brigades_Eternal
 }
 focus_tree = {
-    id = BBB_reformists
+    id = basegi_reformists
     country = {
         factor = 0
         modifier = {
