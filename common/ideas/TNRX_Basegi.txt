@@ -247,5 +247,49 @@ ideas = {
 				army_defence_factor = 0.15
 			}
 		}
+		######################################
+		######################################
+		#########    REFORMISTS    ###########
+		######################################
+		######################################
+		BBB_Sobering_Brigades = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = -0.005
+				ultranational_socialism_drift = -0.05
+				army_professionalism_monthly_rate = 1
+			}
+		}
+		BBB_People_Reassured = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.01
+				poverty_monthly_rate = 1
+			}
+		}
 	}
 }

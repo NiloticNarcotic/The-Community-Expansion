@@ -25,7 +25,7 @@ shared_focus = {
 
 	completion_reward = {
 		add_command_power = 65
-		load_focus_tree = { tree = BBB_radicals keep_completed = yes }		
+		#load_focus_tree = { tree = BBB_reformists keep_completed = yes }		
 		hidden_effect = {
 			country_event = { id = blackbrigades.1 days = 4 }
 		}
@@ -1130,7 +1130,7 @@ shared_focus = {
 	completion_reward = {
 		add_ideas = BBB_Reformists_Congress
 		add_political_power = 25
-		country_event = { id = blackbrigades.1 days = 1 }
+		country_event = { id = blackbrigades.101 days = 1 }
 		hidden_effect = {
 			set_politics = {
 				ruling_party = ultranational_socialism #TESTING PUPROSES ONLY - DELETE BEFORE RELEASE
@@ -1210,7 +1210,7 @@ shared_focus = {
 	y = 2
 
 	completion_reward = {
-		country_event = { id = blackbrigades.2 days = 1 }	
+		country_event = { id = blackbrigades.102 days = 1 }	
 	}
 }
 
@@ -1244,7 +1244,7 @@ shared_focus = {
 	y = 3
 
 	completion_reward = {
-		country_event = { id = blackbrigades.3 days = 1 }
+		country_event = { id = blackbrigades.103 days = 1 }
 	}
 }
 
@@ -1297,7 +1297,7 @@ shared_focus = {
 	completion_reward = {
 		custom_effect_tooltip = BBB_Terror_Groups_tt
 		hidden_effect = {
-			country_event = { id = blackbrigades.4 days = 1 }
+			country_event = { id = blackbrigades.104 days = 1 }
 			}
 	}
 }
@@ -1315,7 +1315,7 @@ shared_focus = {
 
 	completion_reward = {
 		add_stability = 0.1
-		country_event = { id = blackbrigades.5 days = 1 }
+		country_event = { id = blackbrigades.105 days = 1 }
 	}
 }
 
@@ -1385,7 +1385,252 @@ shared_focus = {
 	y = 8
 
 	completion_reward = {
-		country_event = { id = blackbrigades.6 days = 1 }
+		country_event = { id = blackbrigades.106 days = 1 }
 	}
 }
 
+### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
+### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
+### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ###
+
+#The Reformist branch of the Basegi political elite belive in that the ideals of the Radicals are obscene and overzealous. They
+#believe in a state ruled by the elite, the capable, where these strongmen are elected by the people for the people. It is in
+#their interests to reverse all that they see as wrong within the previous regime, and to ensure the well-being of the people of Moscow
+#at any cost.
+
+shared_focus = {
+	id = BBB_End_Of_Mordakov
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 1.00
+
+	x = 7
+	y = 1
+
+	completion_reward = {
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_popularity = { 
+			ideology = fascism 
+			popularity = 0.40
+		}
+		add_ideas = BBB_Reformists_Congress
+		add_political_power = -10
+		hidden_effect = {
+			country_event = { id = blackbrigades.301 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Sobering_The_Brigades
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_End_Of_Mordakov }
+	relative_position_id = BBB_End_Of_Mordakov
+	x = -2
+	y = 1
+
+	completion_reward = {
+		add_ideas = BBB_Sobering_Brigades
+		hidden_effect = {
+			country_event = { id = blackbrigades.302 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Reassuring_The_People
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_End_Of_Mordakov }
+	relative_position_id = BBB_End_Of_Mordakov
+	x = 2
+	y = 1
+
+	completion_reward = {
+		add_ideas = BBB_People_Reassured 
+		hidden_effect = {
+			country_event = { id = blackbrigades.303 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Centralize_Administration
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Sobering_The_Brigades }
+	prerequisite = { focus = BBB_Reassuring_The_People }
+	relative_position_id = BBB_End_Of_Mordakov
+	x = 0
+	y = 2
+
+	completion_reward = {
+		set_capital = 219
+	}
+}
+shared_focus = {
+	id = BBB_Target_The_Superstitious
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Centralize_Administration }
+	relative_position_id = BBB_Centralize_Administration
+	x = -3
+	y = 1
+
+	completion_reward = {
+		tno_religious_rights_improve = yes
+		hidden_effect = {
+			country_event = { id = blackbrigades.304 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Promote_School_Strength
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Centralize_Administration }
+	relative_position_id = BBB_Centralize_Administration
+	x = -1
+	y = 1
+
+	completion_reward = {
+		hidden_effect = {
+			country_event = { id = blackbrigades.305 }
+		}
+		TNO_improve_academic_base_med = yes
+	}
+}
+shared_focus = {
+	id = BBB_Security_Tax_Focus
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Centralize_Administration }
+	relative_position_id = BBB_Centralize_Administration
+	x = 1
+	y = 1
+
+	completion_reward = {
+		tno_security_improve = yes
+		hidden_effect = {
+			country_event = { id = blackbrigades.306 }
+		}
+		custom_effect_tooltip = BBB_Security_Tax_Focus_tt
+		add_to_variable = {GDP = 100}
+	}
+}
+shared_focus = {
+	id = BBB_Allow_Basic_Health_Services
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Centralize_Administration }
+	relative_position_id = BBB_Centralize_Administration
+	x = 3
+	y = 1
+
+	completion_reward = {
+		tno_health_care_improve = yes
+		hidden_effect = {
+			country_event = { id = blackbrigades.307 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_That_Which_We_Hold_Dear
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Target_The_Superstitious }
+	prerequisite = { focus = BBB_Promote_School_Strength }
+	prerequisite = { focus = BBB_Security_Tax_Focus }
+	prerequisite = { focus = BBB_Allow_Basic_Health_Services }
+	relative_position_id = BBB_Centralize_Administration
+	x = -2
+	y = 2
+
+	completion_reward = {
+		country_event = { id = blackbrigades.308 }
+	}
+}
+shared_focus = {
+	id = BBB_Culture_Of_The_Overman
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_That_Which_We_Hold_Dear }
+	relative_position_id = BBB_That_Which_We_Hold_Dear
+	x = 0
+	y = 1
+
+	completion_reward = {
+		country_event = { id = blackbrigades.309 }
+	}
+}
+shared_focus = {
+	id = BBB_The_Dark_Wilderness
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Target_The_Superstitious }
+	prerequisite = { focus = BBB_Promote_School_Strength }
+	prerequisite = { focus = BBB_Security_Tax_Focus }
+	prerequisite = { focus = BBB_Allow_Basic_Health_Services }
+	relative_position_id = BBB_Centralize_Administration
+	x = 2
+	y = 2
+
+	completion_reward = {
+		country_event = { id = blackbrigades.310 }
+	}
+}
+shared_focus = {
+	id = BBB_Register_Of_The_Insufficient
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_The_Dark_Wilderness }
+	relative_position_id = BBB_The_Dark_Wilderness
+	x = 0
+	y = 1
+
+	completion_reward = {
+		country_event = { id = blackbrigades.311 }
+	}
+}
+shared_focus = {
+	id = BBB_The_Final_Meeting
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 6.00
+	prerequisite = { focus = BBB_Register_Of_The_Insufficient }
+	prerequisite = { focus = BBB_Culture_Of_The_Overman }
+	relative_position_id = BBB_Register_Of_The_Insufficient
+	x = -2
+	y = 1
+
+	completion_reward = {
+		remove_ideas = BBB_Reformists_Congress
+		tno_Political_Parties_improve = yes
+		country_event = { id = blackbrigades.312 }
+	}
+}
+shared_focus = {
+	id = BBB_Dominion
+	icon = GFX_GER_go_with_speer
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_The_Final_Meeting }
+	relative_position_id = BBB_The_Final_Meeting
+	x = 0
+	y = 1
+
+	completion_reward = {
+		country_event = { id = blackbrigades.313 }
+	}
+}

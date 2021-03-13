@@ -61,6 +61,18 @@ focus_tree = {
     default = no
 	shared_focus = BBB_Black_Brigades_Eternal
 }
+focus_tree = {
+    id = BBB_reformists
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = BBB
+        }
+    }
+    default = no
+	shared_focus = BBB_End_Of_Mordakov
+}
 
 
 
