@@ -291,5 +291,217 @@ ideas = {
 				poverty_monthly_rate = 1
 			}
 		}
+		BBB_Moscow_In_Ruins = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.35
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
+				local_resources_factor = -0.2
+			}
+		}
+		BBB_Repair_The_Destruction = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				industry_repair_factor = 1
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		BBB_Workers_Willpower = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				industrial_expertise_monthly_rate = 1
+				production_factory_max_efficiency_factor = 0.025
+				production_factory_efficiency_gain_factor = 0.025
+				industrial_capacity_factory = 0.05
+				local_resources_factor = 0.05
+			}
+		}
+		BBB_Workers_Willpower_2 = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				industrial_expertise_monthly_rate = 2
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				industrial_capacity_factory = 0.1
+				local_resources_factor = 0.1
+			}
+		}
+		BBB_Weak_Shall_Perish = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = -0.3
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		BBB_Strong_Leadership = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = -0.3
+				production_speed_buildings_factor = 0.1
+				academic_base_monthly_rate = 1
+			}
+		}
+		BBB_Reconstructing_Moscow = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.4
+				industrial_capacity_factory = -0.35
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
+				local_resources_factor = -0.1
+			}
+		}
+		BBB_Reconstructing_Moscow_2 = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.4
+				industrial_capacity_factory = -0.2
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+				local_resources_factor = -0.1
+			}
+		}
+		BBB_Reconstructing_Moscow_3 = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.3
+				industrial_capacity_factory = -0.2
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		BBB_Functioning_Economy = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				local_resources_factor = 0.1
+			}
+		}
 	}
 }

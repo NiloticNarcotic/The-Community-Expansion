@@ -2,42 +2,8 @@
 ## BASEGI BASED EVENTS ##
 #########################
 
-add_namespace = basegi
 
-# focus tree change to terror
-country_event = {
-	id = basegi.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.1"}
-	title = basegi.1.a
-	desc = basegi.1.b
-	picture = GFX_report_event_blue_mosque
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = basegi.1.c
-        hidden_effect = {
-            load_focus_tree = basegi_black_terror  
-        }
-	}
-}
 
-# focus tree change to expansion
-country_event = {
-	id = basegi.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.2"}
-	title = basegi.2.a
-	desc = basegi.2.b
-	picture = GFX_report_event_blue_mosque
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = basegi.2.c
-        hidden_effect = {
-            load_focus_tree = basegi_expansion
-        }
-	}
-}
-=======
 #██████╗░░█████╗░░██████╗███████╗░██████╗░██╗     ██████╗░░█████╗░░██████╗███████╗██████╗░    ██████╗░██████╗░██╗░██████╗░░█████╗░██████╗░███████╗░██████╗#
 #██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝░██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██║██╔════╝░██╔══██╗██╔══██╗██╔════╝██╔════╝#
 #██████╦╝███████║╚█████╗░█████╗░░██║░░██╗░██║     ██████╦╝███████║╚█████╗░█████╗░░██║░░██║    ██████╦╝██████╔╝██║██║░░██╗░███████║██║░░██║█████╗░░╚█████╗░#
@@ -47,7 +13,39 @@ country_event = {
 
 add_namespace = blackbrigades
 
+# focus tree change to terror
+country_event = {
+	id = blackbrigades.1000
+	immediate = {log = "[GetDateText]: [Root.GetName]: event blackbrigades.1000"}
+	title = blackbrigades.1000.t
+	desc = blackbrigades.1000.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = blackbrigades.1000.a
+        hidden_effect = {
+            load_focus_tree = basegi_black_terror  
+        }
+	}
+}
 
+# focus tree change to expansion
+country_event = {
+	id = blackbrigades.1001
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.2"}
+	title = blackbrigades.1001.t
+	desc = blackbrigades.1000.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = blackbrigades.1000.a
+        hidden_effect = {
+            load_focus_tree = basegi_expansion
+        }
+	}
+}
 
 country_event = {
 	id = blackbrigades.1
@@ -413,6 +411,7 @@ country_event = {
 		name = blackbrigades.24.a
 		ai_chance = { factor = 1 }
 		hidden_effect = {
+			add_ideas = BBB_Moscow_In_Ruins
 			load_focus_tree = { tree = basegi_reformists keep_completed = yes }
 		}
 	}
@@ -427,6 +426,11 @@ country_event = {
 ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
 ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
 ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ###
+
+### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
+### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
+### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
+
 country_event = {
 	id = blackbrigades.301 #The End Of Mordakov
 	title = blackbrigades.301.t
@@ -608,8 +612,146 @@ country_event = {
 	option = {
 		name = blackbrigades.313.a
 		ai_chance = { factor = 1 }
+		hidden_effect = {
+			load_focus_tree = { tree = basegi_reformists_post_political keep_completed = yes}
+		}
 	}
 }
+
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+
+country_event = {
+	id = blackbrigades.314 #State Based Economics
+	title = blackbrigades.314.t
+	desc = blackbrigades.314.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.314.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.315 #Repair What They Destroyed
+	title = blackbrigades.315.t
+	desc = blackbrigades.315.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.315.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.316 #Factories Of Old
+	title = blackbrigades.316.t
+	desc = blackbrigades.316.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.316.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.317 #Improve Workers' Willpower
+	title = blackbrigades.317.t
+	desc = blackbrigades.317.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.317.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.318 #Work, For Survival!
+	title = blackbrigades.318.t
+	desc = blackbrigades.318.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.318.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.319 #Housing For The Capable
+	title = blackbrigades.319.t
+	desc = blackbrigades.319.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.319.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.320 #The Capable Must Be Uplifted
+	title = blackbrigades.320.t
+	desc = blackbrigades.320.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.320.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.321 #Finishing Touches
+	title = blackbrigades.321.t
+	desc = blackbrigades.321.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.321.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.322 #A Functioning Economy
+	title = blackbrigades.322.t
+	desc = blackbrigades.322.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.322.a
+		ai_chance = { factor = 1 }
+	}
+}
+
 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 

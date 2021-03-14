@@ -73,6 +73,20 @@ focus_tree = {
     default = no
 	shared_focus = BBB_End_Of_Mordakov
 }
+focus_tree = {
+    id = basegi_reformists_post_political
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = BBB
+        }
+    }
+    default = no
+	shared_focus = BBB_End_Of_Mordakov
+	shared_focus = BBB_State_Based_Economics
+}
+
 
 
 

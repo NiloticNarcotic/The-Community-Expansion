@@ -25,7 +25,7 @@ shared_focus = {
 
 	completion_reward = {
 		add_command_power = 65
-		#load_focus_tree = { tree = BBB_reformists keep_completed = yes }		
+		#load_focus_tree = { tree = basegi_reformists_post_political keep_completed = yes }		
 		hidden_effect = {
 			country_event = { id = blackbrigades.1 days = 4 }
 		}
@@ -1393,10 +1393,14 @@ shared_focus = {
 ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
 ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ###
 
-#The Reformist branch of the Basegi political elite belive in that the ideals of the Radicals are obscene and overzealous. They
-#believe in a state ruled by the elite, the capable, where these strongmen are elected by the people for the people. It is in
-#their interests to reverse all that they see as wrong within the previous regime, and to ensure the well-being of the people of Moscow
-#at any cost.
+#The Reformist branch of the Basegi political elite belive in that the ideals of the Radicals are obscene and overzealous. While they are
+#still advocates of a state for the true survivors of darwinism, They also believe in a state ruled by the elite
+#the capable, where these strongmen are elected by the people for the people. It is in their interests to reverse all that they see as wrong
+#within the previous regime, and to ensure the strength of the people of Moscow at any cost.
+
+### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
+### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
+### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
 
 shared_focus = {
 	id = BBB_End_Of_Mordakov
@@ -1632,5 +1636,308 @@ shared_focus = {
 
 	completion_reward = {
 		country_event = { id = blackbrigades.313 }
+	}
+}
+
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
+
+shared_focus = {
+	id = BBB_State_Based_Economics
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 2.00
+	relative_position_id = BBB_End_Of_Mordakov
+	x = 12
+	y = 0
+
+	completion_reward = {
+		add_political_power = 25
+		country_event = { id = blackbrigades.314 }
+	}
+}
+shared_focus = {
+	id = BBB_Repair_What_They_Destroyed
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_State_Based_Economics }
+	relative_position_id = BBB_State_Based_Economics
+	x = 0
+	y = 1
+
+	completion_reward = {
+		add_timed_idea = { idea = BBB_Repair_The_Destruction days = 120 }
+		country_event = { id = blackbrigades.315 }
+	}
+}
+shared_focus = {
+	id = BBB_The_Factories_Of_Old
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Repair_What_They_Destroyed }
+	relative_position_id = BBB_Repair_What_They_Destroyed
+	x = -5
+	y = 1
+
+	completion_reward = {
+		219 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		195 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		hidden_effect = { 
+			country_event = { id = blackbrigades.316 } 
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Salvage_What_Cant_Be_Repaired
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_The_Factories_Of_Old }
+	relative_position_id = BBB_The_Factories_Of_Old
+	x = 0
+	y = 1
+
+	completion_reward = {
+		every_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		TNO_improve_industrial_equipment_low = yes
+	}
+}
+shared_focus = {
+	id = BBB_Support_The_Locals
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Repair_What_They_Destroyed }
+	relative_position_id = BBB_Repair_What_They_Destroyed
+	x = 0
+	y = 1
+
+	completion_reward = {
+		TNO_improve_poverty_low = yes
+		custom_effect_tooltip = BBB_Support_The_Locals_tt
+		add_to_variable = {misc_costs = 50}
+	}
+}
+shared_focus = {
+	id = BBB_Housing_For_The_Capable
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Support_The_Locals }
+	relative_position_id = BBB_Support_The_Locals
+	x = 0
+	y = 1
+
+	completion_reward = {
+		TNO_improve_poverty_med = yes
+		custom_effect_tooltip = BBB_Housing_For_The_Capable_tt
+		add_to_variable = {misc_costs = 200}
+		hidden_effect = {
+			country_event = { id = blackbrigades.319 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Improve_Workers_Willpower
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Repair_What_They_Destroyed }
+	relative_position_id = BBB_Repair_What_They_Destroyed
+	x = 5
+	y = 1
+
+	completion_reward = {
+		add_ideas = BBB_Workers_Willpower
+		hidden_effect = {
+			country_event = { id = blackbrigades.317 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Work_For_Survival
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Improve_Workers_Willpower }
+	relative_position_id = BBB_Improve_Workers_Willpower
+	x = 0
+	y = 1
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_Workers_Willpower
+			add_idea = BBB_Workers_Willpower_2
+		}
+		hidden_effect = {
+			country_event = { id = blackbrigades.318 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_The_Weak_Shall_Perish
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Salvage_What_Cant_Be_Repaired }
+	prerequisite = { focus = BBB_Housing_For_The_Capable }
+	prerequisite = { focus = BBB_Work_For_Survival }
+	relative_position_id = BBB_Housing_For_The_Capable
+	x = -3
+	y = 1
+
+	completion_reward = {
+		add_ideas = BBB_Weak_Shall_Perish
+	}
+}
+shared_focus = {
+	id = BBB_The_Capable_Must_Be_Uplifted
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_The_Weak_Shall_Perish }
+	relative_position_id = BBB_The_Weak_Shall_Perish
+	x = 1
+	y = 1
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_Weak_Shall_Perish
+			add_idea = BBB_Strong_Leadership
+		}
+		hidden_effect = {
+			country_event = { id = blackbrigades.320 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Reparations_To_The_Farmers
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 4.00
+	prerequisite = { focus = BBB_The_Capable_Must_Be_Uplifted }
+	relative_position_id = BBB_The_Capable_Must_Be_Uplifted
+	x = 1
+	y = 1
+
+	completion_reward = {
+		TNO_improve_agriculture_med = yes
+	}
+}
+shared_focus = {
+	id = BBB_Mines_And_Factory_Lines
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = { focus = BBB_Salvage_What_Cant_Be_Repaired }
+	prerequisite = { focus = BBB_Housing_For_The_Capable }
+	prerequisite = { focus = BBB_Work_For_Survival }
+	relative_position_id = BBB_Housing_For_The_Capable
+	x = 3
+	y = 1
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_Moscow_In_Ruins
+			add_idea = BBB_Reconstructing_Moscow
+		}
+		add_to_variable = {misc_costs = 100}
+		custom_effect_tooltip = BBB_Factory_Investments_tt
+	}
+}
+shared_focus = {
+	id = BBB_A_Workplace_Ethos
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Mines_And_Factory_Lines }
+	relative_position_id = BBB_Mines_And_Factory_Lines
+	x = -1
+	y = 1
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_Reconstructing_Moscow
+			add_idea = BBB_Reconstructing_Moscow_2
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Finishing_Touches
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 4.00
+	prerequisite = { focus = BBB_A_Workplace_Ethos }
+	relative_position_id = BBB_A_Workplace_Ethos
+	x = -1
+	y = 1
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_Reconstructing_Moscow_2
+			add_idea = BBB_Reconstructing_Moscow_3
+		}
+	}
+	hidden_effect = {
+		country_event = { id = blackbrigades.321 }
+	}
+}
+shared_focus = {
+	id = BBB_A_Functioning_Economy
+	icon = GFX_GER_industry_calls
+	available_if_capitulated = no
+	cost = 5.00
+	prerequisite = { focus = BBB_Reparations_To_The_Farmers }
+	prerequisite = { focus = BBB_Finishing_Touches }
+	relative_position_id = BBB_Finishing_Touches
+	x = -1
+	y = 1
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_Reconstructing_Moscow_3
+			add_idea = BBB_Functioning_Economy
+		}
+		custom_effect_tooltip = BBB_A_Functioning_Economy_tt
+		hidden_effect = {
+			country_event = { id = blackbrigades.322 }
+		}
 	}
 }
