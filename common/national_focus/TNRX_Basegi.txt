@@ -85,6 +85,7 @@ focus_tree = {
     default = no
 	shared_focus = BBB_End_Of_Mordakov
 	shared_focus = BBB_State_Based_Economics
+	shared_focus = BBB_Address_The_State_Of_The_Brigades
 }
 
 

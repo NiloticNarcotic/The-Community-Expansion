@@ -1682,7 +1682,7 @@ shared_focus = {
 	cost = 3.00
 	prerequisite = { focus = BBB_Repair_What_They_Destroyed }
 	relative_position_id = BBB_Repair_What_They_Destroyed
-	x = -5
+	x = -4
 	y = 1
 
 	completion_reward = {
@@ -1781,7 +1781,7 @@ shared_focus = {
 	cost = 3.00
 	prerequisite = { focus = BBB_Repair_What_They_Destroyed }
 	relative_position_id = BBB_Repair_What_They_Destroyed
-	x = 5
+	x = 4
 	y = 1
 
 	completion_reward = {
@@ -1938,6 +1938,236 @@ shared_focus = {
 		custom_effect_tooltip = BBB_A_Functioning_Economy_tt
 		hidden_effect = {
 			country_event = { id = blackbrigades.322 }
+		}
+	}
+}
+### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
+### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
+### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
+### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
+### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
+### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
+
+shared_focus = {
+	id = BBB_Address_The_State_Of_The_Brigades
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 1.00
+	relative_position_id = BBB_State_Based_Economics
+	x = 12
+	y = 0
+
+	completion_reward = {
+		army_experience = 20
+		custom_effect_tooltip = BBB_Address_The_State_Of_The_Brigades_tt
+		hidden_effect = {
+			country_event = { id = blackbrigades.323 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Sober_Them_Up
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Address_The_State_Of_The_Brigades }
+	relative_position_id = BBB_Address_The_State_Of_The_Brigades
+	x = -3
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_Sobering_Brigades
+			add_idea = BBB_Sobered_Brigades
+		}
+		hidden_effect = {
+			country_event = { id = blackbrigades.324 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Purge_The_Rot
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Address_The_State_Of_The_Brigades }
+	relative_position_id = BBB_Address_The_State_Of_The_Brigades
+	x = 0
+	y = 1
+	completion_reward = {
+		add_manpower = -5435
+		tno_training_improve = yes
+		tno_military_supervision_improve = yes
+		hidden_effect = {
+			country_event = { id = blackbrigades.325 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Purge_The_Incapable
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_Address_The_State_Of_The_Brigades }
+	relative_position_id = BBB_Address_The_State_Of_The_Brigades
+	x = 3
+	y = 1
+	completion_reward = {
+		TNO_improve_army_professionalism_low = yes
+		add_manpower = -36573
+		hidden_effect = {
+			country_event = { id = blackbrigades.326 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_A_Professional_Army
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 5.00
+	prerequisite = { focus = BBB_Sober_Them_Up }
+	prerequisite = { focus = BBB_Purge_The_Rot }
+	prerequisite = { focus = BBB_Purge_The_Incapable }
+	relative_position_id = BBB_Purge_The_Rot
+	x = 0
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_The_State_Of_The_Brigades
+			add_idea = BBB_The_State_Of_The_Brigades_reform_2
+		}
+		hidden_effect = {
+			country_event = { id = blackbrigades.327 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_The_Strong_Will_Survive
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 4.00
+	prerequisite = { focus = BBB_A_Professional_Army }
+	mutually_exclusive = { focus = BBB_The_Horde_Mechanized }
+	relative_position_id = BBB_A_Professional_Army
+	x = -1
+	y = 1
+	completion_reward = {
+		add_war_support = 0.05
+		add_ideas = BBB_Army_Of_The_Strong
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 3583
+			producer = BBB
+		}
+	}
+}
+shared_focus = {
+	id = BBB_The_Horde_Mechanized
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 4.00
+	prerequisite = { focus = BBB_A_Professional_Army }
+	mutually_exclusive = { focus = BBB_The_Strong_Will_Survive }
+	relative_position_id = BBB_A_Professional_Army
+	x = 1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			name = armor_bonus
+			bonus = 0.75
+			uses = 2
+			category = armor
+		}
+		add_equipment_to_stockpile = {
+			type = MBT_equipment_2
+			amount = 577
+			producer = GER
+		}
+		add_equipment_to_stockpile = {
+			type = IFV_equipment_2 
+			amount = 2536
+			producer = GER
+		}
+		add_ideas = BBB_The_Mechanized_Horde
+	}
+}
+shared_focus = {
+	id = BBB_Mordakovs_Legacy
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 2.00
+	prerequisite = {
+		 focus = BBB_The_Strong_Will_Survive
+		 focus = BBB_The_Horde_Mechanized
+	}
+	relative_position_id = BBB_The_Horde_Mechanized
+	x = -1
+	y = 1
+	completion_reward = {
+		army_experience = 10
+		country_event = { id = blackbrigades.328 }
+	}
+}
+shared_focus = {
+	id = BBB_Keep_Them_Around
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { 
+		focus = BBB_Mordakovs_Legacy
+		has_country_flag = BBB_Reform_Kept_Generals
+	}
+	mutually_exclusive = { focus = BBB_Out_With_The_Old }
+	relative_position_id = BBB_Mordakovs_Legacy
+	x = -1
+	y = 1
+	completion_reward = {
+		add_war_support = -0.1
+		add_popularity = {
+			ideology = ultranational_socialism
+			popularity = 0.3
+		}
+	}
+}
+shared_focus = {
+	id = BBB_Out_With_The_Old
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { 
+		focus = BBB_Mordakovs_Legacy
+		has_country_flag = BBB_Reform_Kill_Generals
+	}
+	mutually_exclusive = { focus = BBB_Keep_Them_Around }
+	relative_position_id = BBB_Mordakovs_Legacy
+	x = 1
+	y = 1
+	completion_reward = {
+		add_stability = 0.05
+		add_war_support = 0.1 #Later add for the generals to die.
+		custom_effect_tooltip = BBB_Out_With_The_Old_tt 
+		hidden_effect = {
+			country_event = { id = blackbrigades.330 }
+		}
+	}
+}
+shared_focus = {
+	id = BBB_The_New_Brigades
+	icon = GFX_RAJ_rifles_guns_cannons
+	available_if_capitulated = no
+	cost = 5.00
+	prerequisite = {
+		focus = BBB_Keep_Them_Around
+		focus = BBB_Out_With_The_Old
+	}
+	relative_position_id = BBB_Out_With_The_Old
+	x = -1
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = BBB_The_State_Of_The_Brigades_reform_2
+			add_idea = BBB_The_New_Brigades_idea
+		hidden_effect = {
+			country_event = { id = blackbrigades.329 }
 		}
 	}
 }

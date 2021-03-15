@@ -269,7 +269,7 @@ ideas = {
 			modifier = {
 				war_support_weekly = -0.005
 				ultranational_socialism_drift = -0.05
-				army_professionalism_monthly_rate = 1
+				army_professionalism_monthly_rate = 0.5
 			}
 		}
 		BBB_People_Reassured = {
@@ -287,7 +287,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_weekly = 0.01
+				stability_weekly = 0.005
 				poverty_monthly_rate = 1
 			}
 		}
@@ -501,6 +501,118 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.05
 				local_resources_factor = 0.1
+			}
+		}
+		BBB_Sobered_Brigades = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_professionalism_monthly_rate = 1
+				ultranational_socialism_drift = -0.05
+				despotism_drift = -0.05
+			}
+		}
+		BBB_The_State_Of_The_Brigades_reform_2 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_org = -5
+				army_org_regain = -0.05
+				wounded_chance_factor = 0.25
+				recon_factor = 0.25
+				
+			}
+		}
+		BBB_Army_Of_The_Strong = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+				army_infantry_attack_factor = 0.1
+				army_infantry_defence_factor = 0.1
+				experience_loss_factor = 0.30
+			}
+		}
+		BBB_Army_Of_The_Strong = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+				army_infantry_attack_factor = 0.1
+				army_infantry_defence_factor = 0.1
+				experience_loss_factor = 0.30
+			}
+		}
+		BBB_The_Mechanized_Horde = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_armor_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+				army_armor_speed_factor = 0.1
+			}
+		}
+		BBB_The_New_Brigades_idea = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_armor_speed_factor = 0.1
+				recon_factor = 0.25
+				army_professionalism_monthly_rate = 1
+				army_org_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
 			}
 		}
 	}

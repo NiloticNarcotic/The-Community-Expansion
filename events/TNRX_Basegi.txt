@@ -751,7 +751,126 @@ country_event = {
 		ai_chance = { factor = 1 }
 	}
 }
-
+country_event = {
+	id = blackbrigades.323 #Address The State Of The Brigades
+	title = blackbrigades.323.t
+	desc = blackbrigades.323.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.323.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.324 #Sober Them Up
+	title = blackbrigades.324.t
+	desc = blackbrigades.324.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.324.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.325 #Purge The Rot
+	title = blackbrigades.325.t
+	desc = blackbrigades.325.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.325.a
+		ai_chance = { factor = 1 }
+		add_manpower = -1
+	}
+}
+country_event = {
+	id = blackbrigades.326 #Purge The Incapable
+	title = blackbrigades.326.t
+	desc = blackbrigades.326.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.326.a
+		ai_chance = { factor = 1 }
+		add_manpower = -20
+	}
+}
+country_event = {
+	id = blackbrigades.327 #A Professional Army
+	title = blackbrigades.327.t
+	desc = blackbrigades.327.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.327.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.328 #Mordakov's Legacy
+	title = blackbrigades.328.t
+	desc = blackbrigades.328.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Keep The Generals
+		name = blackbrigades.328.a
+		ai_chance = { factor = 0 }
+		set_country_flag = BBB_Reform_Kept_Generals
+	}
+	option = { #Kill The Generals
+		name = blackbrigades.328.b
+		ai_chance = { factor = 1 }
+		set_country_flag = BBB_Reform_Kill_Generals
+	}
+}
+country_event = {
+	id = blackbrigades.329 #The New Brigades
+	title = blackbrigades.329.t
+	desc = blackbrigades.329.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.329.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = blackbrigades.330 #Out With The Old
+	title = blackbrigades.330.t
+	desc = blackbrigades.330.desc
+	picture = GFX_report_event_india_factory_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.330.a #This is supposed to be the start of an event chain about recruiting new generals.
+		ai_chance = { factor = 1 } #Right now it does nothing.
+	}
+}
 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
