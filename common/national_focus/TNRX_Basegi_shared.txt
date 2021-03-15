@@ -2166,6 +2166,8 @@ shared_focus = {
 		swap_ideas = {
 			remove_idea = BBB_The_State_Of_The_Brigades_reform_2
 			add_idea = BBB_The_New_Brigades_idea
+		}
+		tno_military_supervision_improve = yes
 		hidden_effect = {
 			country_event = { id = blackbrigades.329 }
 		}
