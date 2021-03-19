@@ -1651,9 +1651,8 @@ shared_focus = {
 	icon = GFX_GER_industry_calls
 	available_if_capitulated = no
 	cost = 2.00
-	relative_position_id = BBB_End_Of_Mordakov
-	x = 12
-	y = 0
+	x = 19
+	y = 1
 
 	completion_reward = {
 		add_political_power = 25
@@ -1953,9 +1952,8 @@ shared_focus = {
 	icon = GFX_RAJ_rifles_guns_cannons
 	available_if_capitulated = no
 	cost = 1.00
-	relative_position_id = BBB_State_Based_Economics
-	x = 12
-	y = 0
+	x = 31
+	y = 1
 
 	completion_reward = {
 		army_experience = 20
@@ -2112,9 +2110,11 @@ shared_focus = {
 	icon = GFX_RAJ_rifles_guns_cannons
 	available_if_capitulated = no
 	cost = 3.00
-	prerequisite = { 
-		focus = BBB_Mordakovs_Legacy
-		has_country_flag = BBB_Reform_Kept_Generals
+	prerequisite = { focus = BBB_Mordakovs_Legacy }
+	available = {
+		hidden_trigger = {
+			has_country_flag = BBB_Reform_Kept_Generals
+		}
 	}
 	mutually_exclusive = { focus = BBB_Out_With_The_Old }
 	relative_position_id = BBB_Mordakovs_Legacy
@@ -2133,9 +2133,11 @@ shared_focus = {
 	icon = GFX_RAJ_rifles_guns_cannons
 	available_if_capitulated = no
 	cost = 3.00
-	prerequisite = { 
-		focus = BBB_Mordakovs_Legacy
-		has_country_flag = BBB_Reform_Kill_Generals
+	prerequisite = { focus = BBB_Mordakovs_Legacy }
+	available = {
+		hidden_trigger = {
+			has_country_flag = BBB_Reform_Kill_Generals
+		}
 	}
 	mutually_exclusive = { focus = BBB_Keep_Them_Around }
 	relative_position_id = BBB_Mordakovs_Legacy
