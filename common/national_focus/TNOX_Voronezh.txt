@@ -384,43 +384,29 @@ focus_tree = {
 			tag = VNH 
 		}
 	}
-	focus = { # The Fascists to the South
-	id = VNH_fascists_to_the_south
+	focus = { The Reunification wars began
+	id = VNH_The_Reunification_wars_began
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
 		available = {
 			VNH = {has_war = no}
 		}
-		bypass = {
-			NOT = {
-				country_exists = BBB
-				country_exists = VLG
-			}
-		}
-		completion_reward = {
 		
-			country_event = {
-				id = VNH.6 # A Direct Report
-				days = 1
-			}
-		
-		}
 		x = 8
 		y = 2
 	}
 	
-	focus = { # A light hand on the Germans
-	id = VNH_a_light_hand_germans
+	focus = { Going South
+	id = VNH_Going_South
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 	
 	    prerequisite = {
-			focus = VNH_fascists_to_the_south
+			focus = VNH_The_Reunification_wars_began
 		}
         
-		mutually_exclusive = {
-		    focus = VNH_institute_strict_denazification
+		
 	    }
 		
 		available = {
@@ -430,93 +416,73 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_to_variable = {
-				var = VNH_Corruption_Value
-				value = 2
-			}
-			custom_effect_tooltip = VNH_Low_Corruption_Increase
-			add_stability = 0.1
-			political_power_factor = -0.2
-		
+			
 		}
 		x = 6
 		y = 3
 	}
 	
-	focus = { # Promise amnesty to the Volga Germans
-	id = VNH_amnesty_to_volga_germans
+	focus = { A German Volga no more
+	id = VNH_A_German_Volga_no_more
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 	
 	    prerequisite = {
-			focus = VNH_fascists_to_the_south
+			focus = VNH_Going_South
 		}
 		
-		mutually_exclusive = {
-		    focus = VNH_institute_strict_denazification
-			focus = VNH_last_resort
-	    }
 
 		available = {
-			NOT = {
-				country_exists = BBB
 				country_exists = VLG
 			}
 		}
 		completion_reward = {
-			add_to_variable = {
-				var = VNH_Corruption_Value
-			    value = 1
+			create_wargoal = {
+			target = VLG
+			type = annex_everything
 			}
-			custom_effect_tooltip = VNH_Low_Corruption_Increase
-			add_stability = 0.1
-			political_power_gain = -0.1
-		
+			
 		}
 		x = 6
 		y = 4
 	}
 	
 	
-	focus = { # institute strict denazification
-	id = VNH_institute_strict_denazification
+	focus = { Long awaited justice
+	id = VNH_Long_awaited_justice
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 	
 	    prerequisite = {
-			focus = VNH_fascists_to_the_south
+			focus = VNH_A_German_Volga_no_more
 		}
         
-		mutually_exclusive = {
-		    focus = VNH_a_light_hand_germans
+		
 	    }
 		
 		available = {
-			NOT = {
 				country_exists = BBB
-				country_exists = VLG
+				
 			}
 		}
 		completion_reward = {
-			add_to_variable = {
-				var = VNH_Corruption_Value
-				value = 3
+			create_wargoal = {
+			target = BBB
+			type = annex_everything
 			}
-			custom_effect_tooltip = VNH_Low_Corruption_Increase
-			add_stability = 0.1
-		
+			
 		}
-		x = 10
-		y = 3
+		x = 8
+		y = 4
 	}
 	
-	focus = { # Last resort
-	id = VNH_last_resort
+	focus = { Wolgstaat and Black brigade trials
+	id = VNH_Wolgstaat_and_Black_brigade_trials
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 	
 	    prerequisite = {
-			focus = VNH_fascists_to_the_south
+			focus = VNH_A_German_Volga_no_more
 		}
 
 		available = {
@@ -526,184 +492,143 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_to_variable = {
-				var = VNH_Corruption_Value
-				value = 1
-			}
-			custom_effect_tooltip = VNH_Low_Corruption_Increase
-			add_stability = 0.1
+			add_stability = 2.0
 			war_support_factor = 0.2
-		    monthly_population = -0.01
 		}
-		x = 10
-		y = 4
-	}
-	
-	focus = { # A Telegram to Oryol
-	id = VNH_telegram_oryol
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-		prerequisite = {
-			focus = VNH_amnesty_to_volga_germans
-			focus = VNH_last_resort
-		}
-		
-		bypass = {
-		258 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = ORL
-
-				}
-
-			}
-
-		}
-		
-		available = {
-			NOT = {
-				country_exists = BBB
-			}
-		}
-		completion_reward = {
-			country_event = {
-				id = VNH.7 # The Partisans in Oryol
-				days = 1
-			}
-		}
-		x = 8
-		y = 5
-	}
-	
-	
-	focus = { #
-	id = VNH_partisans_on_trial
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-		prerequisite = {
-			focus = VNH_telegram_oryol
-		}
-		
-		bypass = {
-		258 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = ORL
-
-				}
-
-			}
-
-		}
-		
-		available = {
-			NOT = {
-				country_exists = ORL
-			}
-		}
-		completion_reward = {
-			country_event = {
-				id = VNH.8
-				days = 1
-			}
-		}
-		x = 8
+		x = 7
 		y = 6
 	}
 	
-	focus = { #
-	id = VNH_Oryol_secured
+
+	focus = { The southern Campaign is finished.
+	id = VNH_The_southern_Campaign_is_finished.
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
 		prerequisite = {
-			focus = VNH_partisans_on_trial
+			VNH_Wolgstaat_and_Black_brigade_trials
 		}
 		
-		bypass = {
-		258 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = ORL
-
-				}
-
-			}
-
-		}
 		
 		available = {
 			NOT = {
-				country_exists = ORL
+				country_exists = BBB
+				country_exists = VLG
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.9
-				days = 1
-			}
-			war_support_factor = 0.05
+			add_stability = 5.0
+			add_war_support = 2.0
 		}
-		x = 8
-		y = 7
-	}
-	
-    focus = { #
-	id = VNH_the_rogue_paratroopers
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-		prerequisite = {
-			focus = VNH_Oryol_secured
-		}
-		bypass = {
-		255 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = PEN
-
-				}
-
-			}
-
-		}
-		available = {
-			NOT = {
-				country_exists = ORL
-			}
-		}
-		completion_reward = {
-			country_event = {
-				id = VNH.10
-				days = 1
-			}
-			war_support_factor = 0.05
-		}
-		x = 8
+		x = 7
 		y = 8
 	}
-	
-	focus = { #
-	id = VNH_learn_their_doctrine
+
+
+	focus = { Going North
+	id = VNH_Going_North
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
 		prerequisite = {
-			focus = VNH_the_rogue_paratroopers
+			VNH_The_Reunification_wars_began
+		}
+		
+		
+		available = {
+			NOT = {
+				country_exists = BBB
+			}
+		}
+		completion_reward = {
+			
+		}
+		x = 5
+		y = 4
+	}
+	
+	
+	focus = { War for Oryol
+	id = VNH_War_for_Oryol
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_Going_North
+		}
+		
+		available = {
+				country_exists = ORL
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+			target = ORL
+			type = annex_everything
+			}
+		}
+		x = 3
+		y = 5
+	}
+	
+	focus = { War for Penza
+	id = VNH_War_for_Penza
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_Going_North
+		}
+		
+		available = {
+			NOT = {
+				country_exists = ORL
+			}
+		}
+		completion_reward = {
+		   create_wargoal = {
+			target = PEN
+			type = annex_everything
+			}
+			
+		}
+		x = 5
+		y = 5
+	}
+	
+    focus = { The Republics Pardons
+	id = VNH_The_Republics_pardons
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_War_for_Penza
+			focus = VNH_War_for_Oryol
+		}
+		
+		available = {
+			NOT = {
+				country_exists = ORL
+				country_exists = PEN
+			}
+		}
+		completion_reward = {
+			
+			}
+			add_stability = 2.0
+		}
+		x = 4
+		y = 6
+	}
+	
+	focus = { Prepare for the true chaos that is the North
+	id = VNH_Prepare_for_the_true_chaos_that_is_the_North
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_The_Republics_pardons
+			focus = VNH_The_southern_Campaign_is_finished.
 		}
 		available = {
 			NOT = {
@@ -711,24 +636,12 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.11
-				days = 1
+			add_stability = 10.0
+			war_support = 5.0
 			}
 			war_support_factor = 0.05
 		}
-		bypass = {
-		255 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = PEN
-
-				}
-
-			}
+		
 
 		}
 		x = 10
