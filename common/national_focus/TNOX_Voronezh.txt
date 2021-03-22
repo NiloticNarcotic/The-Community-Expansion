@@ -791,92 +791,64 @@ focus_tree = {
 		y = 15
 	}
 	
-	focus = { #
-	id = VNH_the_despotic_collaborators
+	focus = { Expel the SS from Russia
+	id = VNH_Expel_the_SS_from_Russia
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
+	cost = 32
 
 		prerequisite = {
-			focus = VNH_Oryol_secured
+			focus = VNH_It's_Moscow_again
 		}
 		
-		bypass = {
-		219 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = MOS
-
-				}
-
-			}
-
-		}
 		
 		available = {
-			NOT = {
-				country_exists = 
+				country_exists = PLE
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.18
-				days = 1
+			 create_wargoal = {
+			target = PLE
+			type = annex_everything
 			}
 			war_support_factor = 0.05
 		}
-		x = 14
-		y = 8
+		x = 19
+		y = 17
 	}
-	focus = { #
-	id = VNH_kaminski_and_his_goons
+	focus = { Kick out the reds
+	id = VNH_Kick_out_the_reds
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
 		prerequisite = {
-			focus = VNH_the_despotic_collaborators
+			focus = VNH_It's_Moscow_again
 		}
 		
-		bypass = {
-		219 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = MOS
-
-				}
-
-			}
-
+		
 		}
 		
 		available = {
-			NOT = {
-				country_exists = MOS
+				country_exists = RSU
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.19
-				days = 1
+			 create_wargoal = {
+			target = RSU
+			type = annex_everything
 			}
 			war_support_factor = 0.05
 		}
-		x = 12
-		y = 9
+		x = 22
+		y = 17
 	}
 	
-	focus = { #
-	id = VNH_rehabilitate_the_capital
+	focus = { Kill the tyrants
+	id = VNH_Kill_the_tyrants
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
 		prerequisite = {
-			focus = VNH_the_despotic_collaborators
+			focus = VNH_Expel_the_SS_from_Russia
 		}
 		
 		bypass = {
@@ -900,55 +872,87 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.20
-				days = 1
+			add_stability = 2.0
 			}
 			war_support_factor = 0.05
 		}
 		x = 16
-		y = 9
+		y = 25
 	}
 	
-	focus = { #
-	id = VNH_a_free_moscow
+	focus = { Where did Mkhitar go?
+	id = VNH_Where_did_Mkhitar_go?
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
 		prerequisite = {
-			focus = VNH_kaminski_and_his_goons
-			focus = VNH_rehabilitate_the_capital
-		}
-		
-		bypass = {
-		219 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = MOS
-
-				}
-
-			}
-
+			focus = VNH_Kick_out_the_reds
 		}
 		
 		available = {
 			NOT = {
-				country_exists = MOS
+				country_exists = RSU
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.21
-				days = 1
+			add_stability = 5.0
 			}
 			war_support_factor = 0.05
 		}
-		x = 14
-		y = 10
+		x = 17
+		y = 25
 	}
 }
 	
+	focus = { Liberation of St Petersburg
+	id = VNH_Liberation_of_St_Petersburg
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_Where_did_Mkhitar_go?
+			focus = VNH_Expel_the_SS_from_Russia
+		}
+		
+		available = {
+			NOT = {
+				country_exists = OBS
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+			target = OBS
+			type = annex_everything
+			}
+			war_support_factor = 0.05
+		}
+		x = 19
+		y = 28
+	}
+}
+
+focus = { Victory at last
+	id = VNH_Victory_at_last
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_Where_did_Mkhitar_go?
+			focus = VNH_Expel_the_SS_from_Russia
+		}
+		
+		available = {
+			NOT = {
+				country_exists = OBS
+			}
+		}
+		completion_reward = {
+			add_stability = 25.0
+			add_war_support = 20.0
+			}
+			war_support_factor = 0.20
+		}
+		x = 25
+		y = 32
+	}
+}
