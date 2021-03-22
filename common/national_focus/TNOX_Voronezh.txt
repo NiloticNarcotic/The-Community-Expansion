@@ -648,149 +648,38 @@ focus_tree = {
 		y = 9
 	}
 	
-	focus = { #
-	id = VNH_convince_the_willing
+	focus = { Deal with Smolensk
+	id = VNH_Deal_with_Smolensk
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
+	cost = 32
 
 		prerequisite = {
-			focus = VNH_the_rogue_paratroopers
+			focus = VNH_Prepare_for_the_true_chaos_that_is_the_North
 		}
 		
-		bypass = {
-		255 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = PEN
-
-				}
-
-			}
-
 		}
 		
         available = {
-			NOT = {
-				country_exists = PEN
+			country_exist = SMO
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.12
-				days = 1
-			}
-			war_support_factor = 0.05
-		}
-		x = 6
-		y = 9
-	}
-	
-	focus = { #
-	id = VNH_pensa_secured
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-		prerequisite = {
-			focus = VNH_convince_the_willing
-			focus = VNH_learn their doctrine
-		}
-		
-		bypass = {
-		255 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = PEN
-
-				}
-
-			}
-
-		}
-		
-		available = {
-			NOT = {
-				country_exists = PEN
+			 create_wargoal = {
+			target = SMO
+			type = annex_everything
 			}
 		}
-		completion_reward = {
-			country_event = {
-				id = VNH.13
-				days = 1
-			}
-			war_support_factor = 0.05
-		}
-		x = 8
+		x = 12
 		y = 10
 	}
 	
-	focus = { #
-	id = VNH_the_socialist_partisans
+	focus = { More Pardons
+	id = VNH_More_pardons
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
+	cost = 22
 
 		prerequisite = {
-			focus = VNH_Oryol_secured
-		}
-		
-		bypass = {
-		243 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = SMO
-
-				}
-
-			}
-
-		}
-		
-		available = {
-			NOT = {
-				country_exists = 
-			}
-		}
-		completion_reward = {
-			country_event = {
-				id = VNH.14
-				days = 1
-			}
-			war_support_factor = 0.05
-		}
-		x = 2
-		y = 8
-	}
-	
-	focus = { #
-	id = VNH_deal_with_lukin
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-		prerequisite = {
-			focus = VNH_the_socialist_partisans
-		}
-		
-		bypass = {
-		243 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = SMO
-
-				}
-
-			}
-
+			focus = VNH_Deal_with_Smolensk
 		}
 		
 		available = {
@@ -799,94 +688,107 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.15
-				days = 1
+		add_war_support = 2.0
 			}
 			war_support_factor = 0.05
 		}
-		x = 0
+		x = 14
+		y = 12
+	}
+	
+	focus = { Destroy the cult
+	id = VNH_Destroy_the_cult
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 32
+
+		prerequisite = {
+			focus = VNH_Prepare_for_the_true_chaos_that_is_the_North
+		}
+			
+		available = {
+				country_exists = BOS
+			}
+		}
+		completion_reward = {
+			 create_wargoal = {
+			target = BOS
+			type = annex_everything
+			}
+		}
+		x = 14
 		y = 9
 	}
 	
-	focus = { #
-	id = VNH_appease_the_few
+	focus = { The Antikhrist unmasked
+	id = VNH_The_Antikhrist_unmasked
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
+	cost = 12
 
 		prerequisite = {
-			focus = VNH_the_socialist_partisans
-		}
-		
-		bypass = {
-		243 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = SMO
-
-				}
-
-			}
-
+			focus = VNH_Destroy_the_cult
 		}
 		
 		available = {
 			NOT = {
-				country_exists = SMO
+				country_exists = BOS
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.16
-				days = 1
+			add_stability = 10.0
 			}
 			war_support_factor = 0.05
 		}
-		x = 4
-		y = 9
+		x = 16
+		y = 11
 	}
 	
-	focus = { #
-	id = VNH_democracy_in_smolensk
+	focus = { Liberate Moscow
+	id = VNH_Liberate_Moscow
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
+	cost = 32
 
 		prerequisite = {
-			focus = VNH_the_socialist_partisans
-		}
-		
-		bypass = {
-		243 = {
-
-			owner = {
-
-				NOT = {
-
-					tag = SMO
-
-				}
-
-			}
-
+			focus = VNH_The_Antikhrist_unmasked
+			focus = More_pardons
 		}
 		
 		available = {
 			NOT = {
 				country_exists = SMO
+				country_exists = BOS
 			}
 		}
 		completion_reward = {
-			country_event = {
-				id = VNH.17
-				days = 1
+			 create_wargoal = {
+			target = MOS
+			type = annex_everything
 			}
 			war_support_factor = 0.05
 		}
-		x = 2
-		y = 10
+		x = 18
+		y = 13
+	}
+	
+	focus = { It's Moscow again
+	id = VNH_It's_Moscow_again
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+		prerequisite = {
+			focus = VNH_Liberate_Moscow
+		}
+		
+		available = {
+				country_exists = MOS
+			}
+		}
+		completion_reward = {
+			add_stability = 10
+			}
+			war_support_factor = 0.05
+		}
+		x = 17
+		y = 15
 	}
 	
 	focus = { #
