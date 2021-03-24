@@ -57,18 +57,19 @@
  BBB_all_is_ours_desc:0 "It is not just the enemy soldiers which have things we need in our fight. The towns and villages dotting the Volga region are rife with anything from medical supplies, cars, trucks, fuel, even rifles and ammunition. All useful in the hands of men who deserve it more and can actually put it to good use. Anything 'found' in and outside of the battlefields can be taken with no repercussions from our officers. It will also teach the denizens of the former Reichskommisariat that their possessions are no longer safe, and they will slowly learn to protect themselves and their property tooth and nail. To some like the Americans or the Germans it is a 'drastic' war measure, but to us it is nothing more than the new, everyday reality of life. Everyone will soon adapt to this way of life and it shall only make us stronger."
  
  BBB_recruits_in_pokrovsk:0 "Recruits in Pokrovsk"
- BBB_recruits_in_pokrovsk_desc:0 "Those who prove to be strong in our true, correct opinion, will be gratefully incorporated into our forces. They will be tested effectively to make sure they are of the superiors like ourselves; therefore, we must be thorough in our testing, for if an anomaly slips through, they could deal damage to us internally."
+ BBB_recruits_in_pokrovsk_desc:0 "Pokrovsk - formerly Kosackenstadt or Engels, depending on what scum you ask, was the latest in our conquest. For a city in an area of Moskowien generally considered pretty Germanized, the Russian population held on quite tightly. No doubt it was partly due to the powerful mafia that developed under Bukharin's corrupt administration. The reason for Pokrovsk's ethnic make-up does not matter, as either way many see the Brigades as liberators from their German Oppressors. Whether we like it or not, fighting-age men are flocking to our forces seeking to drive the knife southwards to Paulusburg - and we would be foolish to stifle their enthusiasm. While many; most, are not exactly Black Brigades material, they could definitely be put into external branches under local authority. At the very least they can serve as cannon fodder. And the survivors can be looked at afterwards."
  
  BBB_teach_them_to_survive:0 "Teach Them to Survive"
- BBB_teach_them_to_survive_desc:0 "We shall discipline them firmly, turning them into elite brigadiers like ourselves. The Basegi Black Brigades only accept the best, and we will train them to be elite, and hardened soldiers. We will make sure not one of them lacks in training. If one were to lack in training, we would deal with them as usual."
+ BBB_teach_them_to_survive_desc:0 "While the Russian Thieves-in-Law and the Black Brigades are indeed separate entities, we have thoroughly cooperated in the past, present and surely will continue to do so in the future. Our headsman Vasily Mordakov himself found his way into the brigades through the mafia. He still has many connections and knows many people who could bring in support for our fight against the Wolgastaat. In particular, there are many people in Pokrovsk and Yershov who are both willing to join the Black Brigades and capable to live up to its standards.\n\nFor now, however, we should be careful in accepting many new members. Even if every single one of the recruits fits the standard for the Brigades, we cannot risk angering the mafia by putting so many people under our protection. At least so long as the mob remains the threatening force that it is."
  
  BBB_show_our_strength:0 "Show our Strength"
- BBB_show_our_strength_desc:0 "It is time for us to begin raiding the ulterior warlords and start proving our superiority. Those of the Wolgastaat will be our first targets as they try to be German terrorizers, but we will show them we are the true terrorizers. They will be deeply intimidated by our presence over them and we shall affirm it in full."
+ BBB_show_our_strength_desc:0 "As we march southwards, we cannot forget the purpose of the entire endeavour. Too many see us as either liberators who've come to save the people from German tyranny, or as deranged Russian revanchists coming to slaughter them for the crimes that they have not even committed. We are not petty ideologues with fancy books and leaflets. We are men of action and action is what we will use to show the people of our domain what we want to see. Raids will not just be encouraged within the Brigades; they will be mandatory after every town 'liberated'. This is not for loot and plunder, of course - if that was what we were after we would have stuck to being the formidable force in the Volga steppes. The pain we put the people through is not for loot, but for humanity."
  
  BBB_commence_the_black_terror:0 "Commence the Black Terror"
- BBB_commence_the_black_terror_desc:0 "It is time for us to begin the Black Terror. This will be our show of strength across Moskowien, and we will dominate the entire area in full. Not one warlord shall be spared from our brutal reign, and we will show that we are superior of all of them. From Astrachan to Tichwin, we shall affirm our presence over the subhumans."
+ BBB_commence_the_black_terror_desc:0 "The German soldiers are routed. The hills have gone silent. The Volga is a deep shade of crimson.\n\nThe Basegi Black Brigades have achieved victory. From a roaming bandit clique terrorizing villages like a meager fox, to standing at the feet of the Wolgabund with the bodies of a hundred bureaucratic rats, whom preferred to hide behind pens and paper than proving their strength head on, laying on the steps and staining the stones red. As our forces took the towns and villages, a whisper could be heard. One that gave a name to not us, but what we were doing - 'Black Terror'.\n\nYes. We will show those who were shielded by the cradle of a weak society what the world really is, and it is Terror."
  
- BBB_steal_from_the_armories:0 "Steal from the Armories"
+ ### Basegi Black Terror ###
+ BBB_steal_from_the_armories:0 "Introduce our Plans"
  BBB_steal_from_the_armories_desc:0 ""
  
  ### Post-Unification Radicals ###
@@ -123,10 +124,13 @@
  BBB_Terror_Groups_tt:0 "§YThe norms of our new society based on Natural Selection are beginning to take hold.\nOur social laws will begin to change to reflect that.§!"
  BBB_Against_Wolgastaat_tt:0 "§TThe effects of 'Against Wolgastaat' will be strengthened!§!"
  BBB_Commence_The_Black_Terror_tt:0 "§RWe have only just begun.§!"
+ BBB_Unlock_SOTF_tt:0 "We will be able to §Vterrorize§! the local population in a new way!"
  
- ### Country Events ###
+ ### Country Events ### ### Country Events ### ### Country Events ###
+ ### Country Events ### ### Country Events ### ### Country Events ###
+ ### Country Events ### ### Country Events ### ### Country Events ###
+
  ### Initial Events ###
- 
  blackbrigades.1.t:0 "x"
  blackbrigades.1.desc:0 "This is an event for focus: 'The Black Brigades'"
  blackbrigades.1.a:0 "x"
@@ -155,6 +159,7 @@
  blackbrigades.7.desc:0 "This is an event for focus: 'Commence the Black Terror'"
  blackbrigades.7.a:0 "Our Work Begins."
  
+ ### Black Terror Events ###
  blackbrigades.8.t:0 "x"
  blackbrigades.8.desc:0 "This is an event for focus: 'Introduce our Plans'"
  blackbrigades.8.a:0 "x"
@@ -175,6 +180,7 @@
  blackbrigades.12.desc:0 "This is an event for focus: 'Dangerous Days'"
  blackbrigades.12.a:0 "Is this the future?"
  
+ ### Expansion Events ###
  blackbrigades.13.t:0 "x"
  blackbrigades.13.desc:0 "This is an event for focus: 'dominate muscovy'"
  blackbrigades.13.a:0 "x"
