@@ -50,7 +50,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = basegi_radicals
+    id = BBB_radicals
     country = {
         factor = 0
         modifier = {
@@ -61,6 +61,7 @@ focus_tree = {
     default = no
 	shared_focus = BBB_Black_Brigades_Eternal
 }
+
 focus_tree = {
     id = basegi_reformists
     country = {
@@ -73,6 +74,7 @@ focus_tree = {
     default = no
 	shared_focus = BBB_End_Of_Mordakov
 }
+
 focus_tree = {
     id = basegi_reformists_post_political
     country = {
@@ -87,9 +89,6 @@ focus_tree = {
 	shared_focus = BBB_State_Based_Economics
 	shared_focus = BBB_Address_The_State_Of_The_Brigades
 }
-
-
-
 
 
 
