@@ -1,19 +1,19 @@
-penza states = 255, 254, 257
-
-Oryol states = 222, 223, 258, 220
-
-Smolensk states = 242, 241, 243, 224, 205
-
-Muscovy States = 219, 1314, 248, 247
-
-Pleskau States = 246, 210, 263, 209
-
-RSUA States = 264
-
-OKW states = 244, 208, 195
-
-Bogi Smerti States = 253
-
-Basegi States = 401
-
-Wolgastaat states = 239, 217, 245, 237, 236
+#penza states = 255, 254, 257
+#
+#Oryol states = 222, 223, 258, 220
+#
+#Smolensk states = 242, 241, 243, 224, 205
+#
+#Muscovy States = 219, 1314, 248, 247
+#
+#Pleskau States = 246, 210, 263, 209
+#
+#RSUA States = 264
+#
+#OKW states = 244, 208, 195
+#
+#Bogi Smerti States = 253
+#
+#Basegi States = 401
+#
+#Wolgastaat states = 239, 217, 245, 237, 236

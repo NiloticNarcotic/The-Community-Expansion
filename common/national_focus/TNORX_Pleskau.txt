@@ -29,6 +29,7 @@ focus_tree = {
 			custom_effect_tooltip = tooltip_the_blackest_night
 		}
         ai_will_do = {
+			factor = 1
 		}
     }
     focus = {

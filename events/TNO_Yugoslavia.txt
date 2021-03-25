@@ -23,9 +23,10 @@ country_event = {
 			add_state_core = 1272
 			add_state_core = 1275
 			add_state_core = 107
-		declare_war_on = {
-			target = SER
-			type = annex_everything
+			declare_war_on = {
+				target = SER
+				type = annex_everything
+			}
 		}
 	}
 }
