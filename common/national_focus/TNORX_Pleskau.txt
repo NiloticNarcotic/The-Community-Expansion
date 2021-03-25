@@ -11,7 +11,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 	focus = {
 		id = PSK_the_blackest_night
-		icon = GFX_goal_unknown
+		icon = GFX_PSK_The_Blackest_Night
 		x = 4
 		y = 2
 		bypass = {
@@ -34,7 +34,7 @@ focus_tree = {
     }
     focus = {
 		id = PSK_our_eternal_struggle
-		icon = GFX_goal_unknown
+		icon = GFX_PSK_Our_Eternal_Struggle
 		x = 4
 		y = 4
 		bypass = {

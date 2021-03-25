@@ -9,6 +9,7 @@ the_blackest_night = {
 	    ideology = burgundian_system
 	    popularity = 0.05
     }
+    add_stability = 0.15
 }
 the_eternal_struggle = {
     add_stability = 0.07
@@ -16,21 +17,22 @@ the_eternal_struggle = {
 	    ideology = burgundian_system
 	    popularity = 0.02
     }
+    add_war_support = 0.05
 }
 fill_the_reserves = {
-    add_manpower = 1500
-	add_stability = 0.02
+    add_manpower = 2250
+	add_stability = 0.04
 }
 using_the_undesirables = {
-    add_manpower = 3500
+    add_manpower = 1200
     load_oob = "PSK_reinforcments"
     add_ideas = PSK_Rigid
     add_war_support = 0.04
-    add_political_power = -10
+    add_political_power = -20
 }
 remembering_the_beginning = {
     add_stability = 0.05
-    add_political_power = 25
+    add_political_power = 20
     add_popularity = {
 	    ideology = burgundian_system
 	    popularity = 0.03
