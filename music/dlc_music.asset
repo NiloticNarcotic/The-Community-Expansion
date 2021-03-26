@@ -1,4 +1,4 @@
-######Together for Victory
+#####Together for Victory
 music = {
 	name = "londoninflames"
 	file = "londoninflames.ogg"
@@ -229,8 +229,8 @@ music = {
 #	file = "sbst_uprising.ogg"
 #	volume = 0.30
 #}
-######Radio Pack
-###### ALLIES
+#####Radio Pack
+##### ALLIES
 
 music = {
 	name = "allies_justanotherday"
