@@ -1,11 +1,4 @@
 
-#██████╗░░█████╗░░██████╗███████╗░██████╗░██╗     ██████╗░░█████╗░░██████╗███████╗██████╗░    ██████╗░██████╗░██╗░██████╗░░█████╗░██████╗░███████╗░██████╗#
-#██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝░██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██║██╔════╝░██╔══██╗██╔══██╗██╔════╝██╔════╝#
-#██████╦╝███████║╚█████╗░█████╗░░██║░░██╗░██║     ██████╦╝███████║╚█████╗░█████╗░░██║░░██║    ██████╦╝██████╔╝██║██║░░██╗░███████║██║░░██║█████╗░░╚█████╗░#
-#██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░╚██╗██║     ██╔══██╗██╔══██║░╚═══██╗██╔══╝░░██║░░██║    ██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║██║░░██║██╔══╝░░░╚═══██╗#
-#██████╦╝██║░░██║██████╔╝███████╗╚██████╔╝██║     ██████╦╝██║░░██║██████╔╝███████╗██████╔╝    ██████╦╝██║░░██║██║╚██████╔╝██║░░██║██████╔╝███████╗██████╔╝#
-#╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝░╚═════╝░╚═╝     ╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░    ╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░#
-
 capital = 401
 
 oob = "MOS_1962"
@@ -16,7 +9,6 @@ load_focus_tree = basegi_initial
 add_ideas = {
 	### Ideas ###
 	BBB_Darwinian_Society_Hidden
-	BBB_Darwinian_Society
 	BBB_Terror_Of_The_East
 	BBB_The_State_Of_The_Brigades
 
@@ -31,7 +23,7 @@ add_ideas = {
 	tno_religious_rights_secularism
 	tno_trade_unions_all_allowed
 	tno_immigration_open_immigration
-	tno_slavery_outlawed
+	tno_slavery_corvee
 	tno_public_meetings_outlawed
 	tno_press_rights_censored_press
 	tno_vote_franchise_no_voting
@@ -139,9 +131,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-    name = "Vasily Mordakov"
-    desc = "POLITICS_RADICAL_MORDAKOV_DESC"
-    picture = "Portrait_Black_Brigades_Vasily_Mordakov.dds"
+    name = "Aslan Usoyan"
+    desc = "x"
+    picture = "x"
     expire = "1993.4.24"
     ideology = ultranational_socialism_subtype
     traits = {
@@ -157,17 +149,6 @@ create_country_leader = {
     ideology = fascism_subtype
     traits = {
     }
-}
-
-create_country_leader = {
-	name = "Vladimir Ankudinov"
-	desc = "POLITICS_VLADIMIR_ANKUDINOV_DESC"
-	picture = "Portrait_Black_Brigades_Vladimir_Ankudinov.dds"
-	expire = "1993.4.24"
-	ideology = fascism_subtype
-	traits = {
-
-	}
 }
 
 ### Generals ###
