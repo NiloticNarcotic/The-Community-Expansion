@@ -1116,60 +1116,270 @@ shared_focus = {
 ### BASEGI SHOWDOWN ### ### BASEGI SHOWDOWN ### ### BASEGI SHOWDOWN ### ### BASEGI SHOWDOWN ### 
 ### BASEGI SHOWDOWN ### ### BASEGI SHOWDOWN ### ### BASEGI SHOWDOWN ### ### BASEGI SHOWDOWN ### 
 
+shared_focus = {
+	id = BBB_the_pressing_issue
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
 
+	x = 8
+	y = 0
 
+	completion_reward = {
+		country_event = { id = blackbrigades.50 }
+	}
+}
 
+shared_focus = {
+	id = BBB_divided_brigades
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_the_pressing_issue }
 
+	x = 8
+	y = 1
 
+	completion_reward = {
+		add_political_power = -50
+		add_stability = -0.1
+		country_event = { id = blackbrigades.51 }
+	}
+}
 
+shared_focus = {
+	id = BBB_consult_the_old_guard
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_divided_brigades }
 
+	x = 6
+	y = 2
 
+	completion_reward = {
+		add_manpower = 680
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 301
+		}
+		country_event = { id = blackbrigades.52 }
+	}
+}
 
+shared_focus = {
+	id = BBB_consult_the_inner_circle
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_divided_brigades }
 
+	x = 8
+	y = 2
 
+	completion_reward = {
+		add_political_power = 30
+		country_event = { id = blackbrigades.53 }
+	}
+}
 
+shared_focus = {
+	id = BBB_consult_the_mafia
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_divided_brigades }
 
+	x = 10
+	y = 2
 
+	completion_reward = {
+		add_stability = 0.1
+		country_event = { id = blackbrigades.54 }
+		### adds one blue chip
+	}
+}
 
+shared_focus = {
+	id = BBB_the_decision_is_ours
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_consult_the_old_guard }
+	prerequisite = { focus = BBB_consult_the_inner_circle }
+	prerequisite = { focus = BBB_consult_the_mafia }
 
+	x = 8
+	y = 3
 
+	completion_reward = {
+		country_event = { id = blackbrigades.55 }
+	}
+}
 
+# If you decide to side with the reformists, but have not managed to build up enough of a support base before completing the focus
+# 'strike from the shadows', you will end up with a mafia bad end. (similarly to Perm's Zigfrid Shultz events before the showdown)
 
+shared_focus = {
+	id = BBB_saving_grace
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_the_decision_is_ours }
 
+	x = 5
+	y = 4
 
+	completion_reward = {
+		tno_slavery_outlawed = yes
+		TNO_improve_poverty_low = yes
+		### adds three red chips
+	}
+}
 
+shared_focus = {
+	id = BBB_the_wolf_at_our_neck
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_saving_grace }
 
+	x = 5
+	y = 5
 
+	completion_reward = {
+		country_event = { id = blackbrigades.56 }
+		add_popularity = { 
+			ideology = ultranational_socialism 
+			popularity = 0.05
+		}		
+	}
+}
 
+shared_focus = {
+	id = BBB_bare_our_own_teeth
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_the_wolf_at_our_neck }
 
+	x = 5
+	y = 6
 
+	completion_reward = {
+		country_event = { id = blackbrigades.57 }
+		add_popularity = { 
+			ideology = ultranational_socialism 
+			popularity = -0.10
+		}	
+		# adds a tiny (symbolic) div morale to reformists congress
+	}
+}
 
+shared_focus = {
+	id = BBB_reassuring_the_mafioso
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_the_pressing_issue }
 
+	x = 5
+	y = 7
 
+	completion_reward = {
+		# removes one red chip
+		# takes some money from the liquid reserves
+			hidden_effect = {
+				country_event = { id = blackbrigades.58 days = 1 }
+			}
+	}
+}
 
+# If you decide to side with the radicals, but have not managed to stop the reformists from securing a powerful enough base before completing
+# the focus 'strike from the shadows', you will end up with a mafia bad end. (similarly to Perm's Zigfrid Shultz events before the showdown)
 
+shared_focus = {
+	id = BBB_freedom_is_an_amenity
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_the_decision_is_ours }
 
+	x = 11
+	y = 4
 
+	completion_reward = {
+		tno_slavery_allowed = yes
+		# gives two blue chips
+	}
+}
 
+shared_focus = {
+	id = BBB_hunt_down_reformist_sympathizers
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_the_decision_is_ours }
 
+	x = 11
+	y = 5
 
+	completion_reward = {
+		country_event = { id = blackbrigades.59 }
+	}
+}
 
+shared_focus = {
+	id = BBB_make_some_exceptions #frees slaves with families to increase stability
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_the_decision_is_ours }
 
+	x = 11
+	y = 6
 
+	completion_reward = {
+		TNO_improve_poverty_low = yes
+		add_stability = 0.12
+	}
+}
 
+shared_focus = {
+	id = BBB_keep_them_satisfied
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { focus = BBB_the_decision_is_ours }
 
+	x = 11
+	y = 7
 
+	completion_reward = {
+		#lose some money from liquid reserves
+		#adds one blue chip
+	}
+}
 
+#time for you to choose your leader
 
+shared_focus = {
+	id = BBB_strike_from_the_shadows
+	icon = GFX_ITA_Avoid_the_Border_Issues
+	available_if_capitulated = no
+	cost = 3.00
+	prerequisite = { 
+		focus = BBB_reassuring_the_mafioso
+		focus = BBB_keep_them_satisfied
+	}
 
+	x = 7
+	y = 1
 
-
-
-
-
-
-
-
+	completion_reward = {
+		country_event = { id = blackbrigades.60 }
+	}
+}
 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
@@ -1180,6 +1390,7 @@ shared_focus = {
 #Essentially, this is as close to egoism as you can probably get, however for the Black Brigades this is less about principles of freedom
 #(like under egoism) but about reintroducing natural selection into human society to further improve the species.
 
+#politics#
 shared_focus = {
 	id = BBB_Black_Brigades_Eternal
 	icon = GFX_ITA_Avoid_the_Border_Issues
@@ -1460,10 +1671,7 @@ shared_focus = {
 #the capable, where these strongmen are elected by the people for the people. It is in their interests to reverse all that they see as wrong
 #within the previous regime, and to ensure the strength of the people of Moscow at any cost.
 
-### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
-### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
-### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
-
+### POLITICS ### 
 shared_focus = {
 	id = BBB_End_Of_Mordakov
 	icon = GFX_GER_go_with_speer
@@ -1701,13 +1909,7 @@ shared_focus = {
 	}
 }
 
-### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
-### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
-### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
-### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
-### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
-### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
-
+### ECONOMY ### 
 shared_focus = {
 	id = BBB_State_Based_Economics
 	icon = GFX_GER_industry_calls
@@ -2002,13 +2204,8 @@ shared_focus = {
 		}
 	}
 }
-### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
-### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
-### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
-### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
-### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
-### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### ### ARMY ### 
 
+#Army#
 shared_focus = {
 	id = BBB_Address_The_State_Of_The_Brigades
 	icon = GFX_RAJ_rifles_guns_cannons
