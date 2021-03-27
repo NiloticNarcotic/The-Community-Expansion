@@ -1,0 +1,71 @@
+BBB_Deals_With_Devils = {
+	BBB_Send_Mafia_Reinforcements = {
+		allowed = {
+			tag = BBB
+		}
+
+		available = {
+			has_political_power > 19
+			has_manpower > 499
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		visible = {
+			has_country_flag = BBB_Mafia_Mechanic
+		}
+		
+		fire_only_once = no
+		days_remove = 10
+		days_re_enable = 10
+		complete_effect = {
+			custom_effect_tooltip = BBB_Send_Mafia_Reinforcements_start_tt
+			hidden_effect = {
+				add_political_power = -20
+				add_manpower = -500
+			}
+		}
+		remove_effect = {
+			BBB_Mafia_Blue_Small_Gain = yes
+		}
+	}
+	BBB_Ask_Mafia_For_Guns = {
+		allowed = {
+			tag = BBB
+		}
+
+		available = {
+			has_political_power > 29
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			has_country_flag = BBB_Mafia_Mechanic
+		}
+
+		fire_only_once = no
+		days_remove = 15
+		days_re_enable = 10
+		complete_effect = {
+			custom_effect_tooltip = BBB_Ask_Mafia_For_Guns_start_tt
+			BBB_Mafia_Ask_For_Favour_Complete_Effect = yes
+		}
+		remove_effect = {
+			custom_effect_tooltip = BBB_Ask_Mafia_For_Guns_remove_tt
+			hidden_effect = {
+				add_political_power = -30
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1500
+					producer = BBB
+				}
+			}
+			BBB_Mafia_Ask_For_Favour_Remove_Effect = yes
+		}
+	}
+}

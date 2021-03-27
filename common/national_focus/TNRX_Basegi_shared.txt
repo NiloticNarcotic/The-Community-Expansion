@@ -2177,9 +2177,9 @@ shared_focus = {
 			remove_idea = BBB_Reconstructing_Moscow_2
 			add_idea = BBB_Reconstructing_Moscow_3
 		}
-	}
-	hidden_effect = {
-		country_event = { id = blackbrigades.321 }
+		hidden_effect = {
+			country_event = { id = blackbrigades.321 }
+		}
 	}
 }
 shared_focus = {

@@ -46,6 +46,46 @@ country_event = {
         }
 	}
 }
+country_event = {
+	id = blackbrigades.1001
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.2"}
+	title = blackbrigades.1001.t
+	desc = blackbrigades.1000.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = blackbrigades.1000.a
+        hidden_effect = {
+            load_focus_tree = basegi_expansion
+        }
+	}
+}
+country_event = {
+	id = blackbrigades.1003
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.1003"}
+	title = blackbrigades.1003.t
+	desc = blackbrigades.1003.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = blackbrigades.1003.a
+        BBB_Mafia_Blue_Small_Gain = yes
+	}
+	option = {
+		name = blackbrigades.1003.b
+        BBB_Mafia_Blue_Small_Loss = yes
+	}
+	option = {
+		name = blackbrigades.1003.b
+        BBB_Mafia_Red_Small_Gain = yes
+	}
+	option = {
+		name = blackbrigades.1003.b
+        BBB_Mafia_Red_Small_Loss = yes
+	}
+}
 
 country_event = {
 	id = blackbrigades.1
@@ -151,6 +191,15 @@ country_event = {
 		ai_chance = { factor = 1 }
 		hidden_effect = {
 			load_focus_tree = { tree = basegi_black_terror keep_completed = yes }
+			set_country_flag = BBB_Mafia_Mechanic
+			set_variable = {
+				var = BBB_Mafia_Red_Chips
+				value = 5
+			}
+			set_variable = {
+				var = BBB_Mafia_Blue_Chips
+				value = 7
+			}
 		}
 	}
 }

@@ -1,0 +1,162 @@
+###############################################################################
+###### BLACK BRIGADES / MAFIA BARGAINING CHIPS MECHANIC SCRIPTED EFFECTS ######
+###############################################################################
+
+
+#######################################
+# RED CHIPS ## RED CHIPS ## RED CHIPS # The Bargaining Power of The Mafia
+#######################################
+BBB_Mafia_Red_Small_Gain = {
+	custom_effect_tooltip = BBB_Mafia_Red_Small_Gain_tt
+	add_to_variable = {
+		var = BBB_Mafia_Red_Chips
+		value = 1
+	}
+}
+BBB_Mafia_Red_Medium_Gain = {
+	custom_effect_tooltip = BBB_Mafia_Red_Medium_Gain_tt
+	add_to_variable = {
+		var = BBB_Mafia_Red_Chips
+		value = 2
+	}
+}
+BBB_Mafia_Red_Big_Gain = {
+	custom_effect_tooltip = BBB_Mafia_Red_Big_Gain_tt
+	add_to_variable = {
+		var = BBB_Mafia_Red_Chips
+		value = 3
+	}
+}
+BBB_Mafia_Red_Huge_Gain = {
+	custom_effect_tooltip = BBB_Mafia_Red_Huge_Gain_tt
+	add_to_variable = {
+		var = BBB_Mafia_Red_Chips
+		value = 5
+	}
+}
+BBB_Mafia_Red_Small_Loss = {
+	custom_effect_tooltip = BBB_Mafia_Red_Small_Loss_tt
+	add_to_variable = {
+		var = BBB_Mafia_Red_Chips
+		value = -1
+	}
+}
+BBB_Mafia_Red_Medium_Loss = {
+	custom_effect_tooltip = BBB_Mafia_Red_Medium_Loss_tt
+	add_to_variable = {
+		var = BBB_Mafia_Red_Chips
+		value = -2
+	}
+}
+BBB_Mafia_Red_Big_Loss = {
+	custom_effect_tooltip = BBB_Mafia_Red_Big_Loss_tt
+	add_to_variable = {
+		var = BBB_Mafia_Red_Chips
+		value = -3
+	}
+}
+BBB_Mafia_Red_Huge_Loss = {
+	custom_effect_tooltip = BBB_Mafia_Red_Huge_Loss_tt
+	add_to_variable = {
+		var = BBB_Mafia_Red_Chips
+		value = -5
+	}
+}
+##########################################
+# BLUE CHIPS ## BLUE CHIPS ## BLUE CHIPS # The Bargaining Power of The Black Brigades
+##########################################
+BBB_Mafia_Blue_Small_Gain = {
+	custom_effect_tooltip = BBB_Mafia_Blue_Small_Gain_tt
+	add_to_variable = {
+		var = BBB_Mafia_Blue_Chips
+		value = 1
+	}
+}
+BBB_Mafia_Blue_Medium_Gain = {
+	custom_effect_tooltip = BBB_Mafia_Blue_Medium_Gain_tt
+	add_to_variable = {
+		var = BBB_Mafia_Blue_Chips
+		value = 2
+	}
+}
+BBB_Mafia_Blue_Big_Gain = {
+	custom_effect_tooltip = BBB_Mafia_Blue_Big_Gain_tt
+	add_to_variable = {
+		var = BBB_Mafia_Blue_Chips
+		value = 3
+	}
+}
+BBB_Mafia_Blue_Huge_Gain = {
+	custom_effect_tooltip = BBB_Mafia_Blue_Huge_Gain_tt
+	add_to_variable = {
+		var = BBB_Mafia_Blue_Chips
+		value = 5
+	}
+}
+##########################################
+### |   ################## | i ###########
+##########################################
+### | | ################## | _ ###########
+##########################################
+BBB_Mafia_Blue_Small_Loss = {
+	custom_effect_tooltip = BBB_Mafia_Blue_Small_Loss_tt
+	add_to_variable = {
+		var = BBB_Mafia_Blue_Chips
+		value = -1
+	}
+}
+BBB_Mafia_Blue_Medium_Loss = {
+	custom_effect_tooltip = BBB_Mafia_Blue_Medium_Loss_tt
+	add_to_variable = {
+		var = BBB_Mafia_Blue_Chips
+		value = -2
+	}
+}
+BBB_Mafia_Blue_Big_Loss = {
+	custom_effect_tooltip = BBB_Mafia_Blue_Big_Loss_tt
+	add_to_variable = {
+		var = BBB_Mafia_Blue_Chips
+		value = -3
+	}
+}
+BBB_Mafia_Blue_Huge_Loss = {
+	custom_effect_tooltip = BBB_Mafia_Blue_Huge_Loss_tt
+	add_to_variable = {
+		var = BBB_Mafia_Blue_Chips
+		value = -5
+	}
+}
+###########################################################################
+###############   The Actual Stuff For The Mafia Stuff   ##################
+###########################################################################
+BBB_Mafia_Ask_For_Favour_Remove_Effect = {
+	if = {
+		limit = {
+			check_variable = {
+				var = BBB_Mafia_Blue_Chips
+				value = 0
+				compare = equals
+			}
+		}
+		BBB_Mafia_Red_Medium_Gain = yes
+		custom_effect_tooltip = BBB_Mafia_Ask_For_Favour_Remove_Effect_tt_Medium
+	}
+	else = {
+		BBB_Mafia_Red_Small_Gain = yes
+	}
+}
+BBB_Mafia_Ask_For_Favour_Complete_Effect = {
+	if = {
+		limit = {
+			check_variable = {
+				var = BBB_Mafia_Blue_Chips
+				value = 0
+				compare = equals
+			}
+		}
+		custom_effect_tooltip = BBB_Mafia_Ask_For_Favour_Complete_Effect_tt_0
+	}
+	else = {
+		BBB_Mafia_Blue_Small_Loss = yes
+	}
+}

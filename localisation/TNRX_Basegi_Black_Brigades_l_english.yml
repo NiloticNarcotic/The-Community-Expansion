@@ -35,6 +35,38 @@
  BBB_Soslanbek_Apayev_sec:0 "Soslanbek Apayev"
  BBB_Ivan_Yezhov_for:0 "Ivan Yezhov"
  
+ ### DECISIONS ###
+ 
+ ### Mafia Mechanic ###
+ BBB_Mafia_Red_Small_Gain_tt:0 "§YThis will net the §!§TMafia £war_support_icon §!§W1 §!§RBargaining Power§!"
+ BBB_Mafia_Red_Medium_Gain_tt:0 "§YThis will net the §!§TMafia £war_support_icon §!§W2 §!§RBargaining Power§!"
+ BBB_Mafia_Red_Big_Gain_tt:0 "§YThis will net the §!§TMafia £war_support_icon §!§W3 §!§RBargaining Power§!"
+ BBB_Mafia_Red_Huge_Gain_tt:0 "§YThis will net the §!§TMafia £war_support_icon §!§W5 §!§RBargaining Power§!"
+ BBB_Mafia_Red_Small_Loss_tt:0 "§YThis will lose the §!§TMafia £war_support_icon §!§W1 §!§RBargaining Power§!"
+ BBB_Mafia_Red_Medium_Loss_tt:0 "§YThis will lose the §!§TMafia £war_support_icon §!§W2 §!§RBargaining Power§!"
+ BBB_Mafia_Red_Big_Loss_tt:0 "§YThis will lose the §!§TMafia £war_support_icon §!§W3 §!§RBargaining Power§!"
+ BBB_Mafia_Red_Huge_Loss_tt:0 "§YThis will lose the §!§TMafia £war_support_icon §!§W5 §!§RBargaining Power§!"
+ 
+ 
+ BBB_Mafia_Blue_Small_Gain_tt:0 "§YThis will net the §!§LBlack Brigades £trait_defense §!§W1 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Medium_Gain_tt:0 "§YThis will net the §!§LBlack Brigades £trait_defense §!§W2 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Big_Gain_tt:0 "§YThis will net the §!§LBlack Brigades £trait_defense §!§W3 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Huge_Gain_tt:0 "§YThis will net the §!§LBlack Brigades £trait_defense §!§W5 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Small_Loss_tt:0 "§YThis will lose the §!§LBlack Brigades £trait_defense §!§W1 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Medium_Loss_tt:0 "§YThis will lose the §!§LBlack Brigades £trait_defense §!§W2 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Big_Loss_tt:0 "§YThis will lose the §!§LBlack Brigades £trait_defense §!§W3 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Huge_Loss_tt:0 "§YThis will lose the §!§LBlack Brigades £trait_defense §!§W5 §!§BBargaining Power§!"
+ 
+ BBB_Mafia_Ask_For_Favour_Remove_Effect_tt_Medium:0 "§YThis is because the §!§LBlack Brigades§!§Y have £trait_defense §!§R0§!§B Bargaining Power!"
+ BBB_Mafia_Ask_For_Favour_Complete_Effect_tt_0:0 "§YThe §!§LBlack Brigades§!§Y have £trait_defense §!§R0§!§B Bargaining Power§!§Y, so the §!§TMafia§!§Y will gain §!§Rtwice§!§Y as much!§!"
+ 
+ BBB_Deals_With_Devils:0 "Deals With Devils"
+ BBB_Deals_With_Devils_desc:0 "§WWhile the §!§LBlack Brigades§!§W function together with the §!§TMafia§!§W, they have certain differences in viewpoint. If we were to found a home for the truly strong, we must play a political game of §!§Ybargaining with the §!§TMafia§!§W.\n\n§!§WWe must act carefully, if the §!§TMafia§!§W gains too much £war_support_icon §!§R Bargaining Power§!§W and the §!§LBlack Brigades§!§W end up with too little £trait_defense §!§B Bargaining Power§!§W, things could end §!§Rcatastrophically!\n\n\n§!§OCurrently the §!§TMafia§!§O has £war_support_icon [?BBB_Mafia_Red_Chips|W0] §!§RBargaining Power§!§O.\n§!§OCurrently the §!§LBlack Brigades§!§O have £trait_defense [?BBB_Mafia_Blue_Chips|W0] §!§BBargaining Power§!§O.§!"
+ BBB_Send_Mafia_Reinforcements:0"Send The Mafia Reinforcements"
+ BBB_Send_Mafia_Reinforcements_start_tt:0 "§YWe will send an attachment of men to reinforce the Mafia in it's shady dealings. This will cost us §!§R500§!§Y of our men and §!§R20 §!§Ypoltical power.§!"
+ BBB_Ask_Mafia_For_Guns:0"Ask The Mafia For Guns"
+ BBB_Ask_Mafia_For_Guns_start_tt:0"§YWe will spend §!§R30§!§Y political power to estabilish a route to deliver weapons from the §!§TMafia§!§Y.§!\n"
+ BBB_Ask_Mafia_For_Guns_remove_tt:0"§YWe will receive 1500 Infantry Weapons from the §!§TMafia§!§Y!§!"
  ### FOCUS TREES ###
  
  ### Basegi Initial ###
