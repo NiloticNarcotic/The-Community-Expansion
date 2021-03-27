@@ -228,7 +228,53 @@
  blackbrigades.24.t:0 "x"
  blackbrigades.24.desc:0 "This is an event for focus: 'The Neanderthal is Extinct'"
  blackbrigades.24.a:0 "x"
- 
+
+ ###Showdown Events###
+ blackbrigades.50.t:0 "The Elephant in the Room"
+ blackbrigades.50.desc:0 "event talks about how the status of the slaves is a question that can no longer be avoided. The reformists want to 'wipe the      slate' and give them freedom while the radicals believe that they let themselves be enslaved and the only way that they can be allowed to be free is through their own strength. The mafia prefers the radicals because they benefit from slavery being allowed."
+ blackbrigades.50.a:0 "x"
+
+ blackbrigades.51.t:0 "A Night in the Bar"
+ blackbrigades.51.desc:0 "event portrays a trip to the bar from the POV of a Black Brigades detatchment. What used to be one squad who have stuck together through thick and thin, has now split into two because of the issue of slavery. This is the first time anything like this has happened."
+ blackbrigades.51.a:0 "x"
+
+ blackbrigades.52.t:0 "The Old Guard"
+ blackbrigades.52.desc:0 "event is explaining the position that the original members of the Brigades have on the issue of slavery - most side with the radicals however a decent portion sides with the reformists also"
+ blackbrigades.52.a:0 "x"
+
+ blackbrigades.53.t:0 "The Inner Circle"
+ blackbrigades.53.desc:0 "event is explaining the position of the upper echelons of the Black Brigades - the ones that showed up are all in favour of the radicals but this is obviously because the reformist supporters didn't show up, and there was a large amount of empty seats."
+ blackbrigades.53.a:0 "x"
+
+ blackbrigades.54.t:0 "The Shotcaller"
+ blackbrigades.54.desc:0 "event is explaining Usoyan's view on slavery which is very much in favour of it, but tactically freeing slaves (ones that have families etc) is recommended."
+ blackbrigades.54.a:0 "x"
+
+ blackbrigades.55.t:0 "The choice is ours"
+ blackbrigades.55.desc:0 "choice between Ankudinov's reformists who want to ban slavery and create a state and Mordakov's radicals who want pure darwinian societal deevolution"
+ blackbrigades.55.a:0 "Slavery is only problems"
+ blackbrigades.55.b:0 "Slavery is simply nature"
+
+ blackbrigades.56.t:0 "In the Dark"
+ blackbrigades.56.desc:0 "event describes how Ankudinov's clique is at the brink of war with Mordakov's loyalists and how the brigades are at each others throats"
+ blackbrigades.56.a:0 "x"
+
+ blackbrigades.57.t:0 "Baring our Teeth"
+ blackbrigades.57.desc:0 "event is through the POV of one of the radicals' commanders that attends a meeting with one of the slave factory owners who's been supplying the Brigades Radicals. When they enter his office they find him dead with a note from Ankudinov's men and being strapped to an explosive trap which kills the commander"
+ blackbrigades.57.a:0 "Two can play this game"
+
+ blackbrigades.58.t:0 "Secret Meeting"
+ blackbrigades.58.desc:0 "Ankudinov decides to personally meet with Usoyan to reassure that the mafia will not lose out by not having slaves."
+ blackbrigades.58.a:0 "x"
+
+ blackbrigades.59.t:0 "x"
+ blackbrigades.59.desc:0 "event where a reformist sympathizer's family is threatened in order for him to stay low"
+ blackbrigades.59.a:0 "x"
+
+ blackbrigades.60.t:0 ""
+ blackbrigades.60.desc:0 ""
+ blackbrigades.60.a:0 ""
+
  ### Radicals Events ###
  blackbrigades.91.t:0 "Lament of the Weak"
  blackbrigades.91.desc:0 "Vasily Mordakov faced the seasoned veterans of the Black Brigade at the Kremlin. The atmosphere felt tense as members trickled in one by one, called to meet just the last day. Few spoke, and those that did were quiet in their tone like students in a class. It must have been around ten minutes since the door last shut with an audible screech of unoiled metal. The leader, now at a podium ready to speak, cleared his throat.\n\n"My brothers, we have come very far in our mission." His voice echoed, slightly malformed due to the aged speakers, "We have not once hesitated in the face of enemies, even ones that may have seemed stronger. Yet, as nature always intends, we proved ourselves mightier and now we hold all of the former Reichskommisariat." The attendees felt slightly confused at this gathering. The victory speech was done weeks ago.\n\n"Man and woman will struggle and wry to survive. They will face every day knowing that it could be their last, that others are looking to kick them out of the gene pool not because we do not care for them, but because we care for the good of our species." Ankudinov's face slowly turned grey as he began to realize what this speech was. It was a thinly-veiled assault on the clique that he had formed to build a state out of the anarchy.\n\n"Nothing and no one," Mordakov paused for a second to look around the hall into the eyes of a select few, "shall intervene in the natural state of mankind. From now on, the fate of every person in Moscow shall be decided only by one and only thing - strength..."\n\n As the speech continued, Ankudinov stood forzen in the back. Was there any way he could still save this?"
