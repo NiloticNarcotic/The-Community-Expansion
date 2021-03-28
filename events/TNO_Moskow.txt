@@ -1540,6 +1540,8 @@ country_event = { # Moskowien Collapse #7
 			transfer_state = 1314
 			add_state_core = 219
 			transfer_state = 219
+			add_state_core = 247
+			transfer_state = 247
 			inherit_technology = MCW
 			load_oob = "MOS_Collapse"
 		}
@@ -1575,8 +1577,6 @@ country_event = { # Moskowien Collapse #8
 			transfer_state = 264
 			add_state_core = 244
 			transfer_state = 244
-			add_state_core = 247
-			transfer_state = 247
 			inherit_technology = MCW
 			load_oob = "PET_Collapse"
 			
