@@ -1,7 +1,7 @@
 focus_tree = {
 	id = pleskau_focus
 	country = {
-		factor = 0
+		factor = 5
 		modifier = {
 			add = 10
 			tag = PSK
@@ -11,7 +11,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 	focus = {
 		id = PSK_the_blackest_night
-		icon = GFX_goal_unknown
+		icon = GFX_PSK_The_Blackest_Night
 		x = 4
 		y = 2
 		bypass = {
@@ -29,11 +29,12 @@ focus_tree = {
 			custom_effect_tooltip = tooltip_the_blackest_night
 		}
         ai_will_do = {
+			factor = 1
 		}
     }
     focus = {
 		id = PSK_our_eternal_struggle
-		icon = GFX_goal_unknown
+		icon = GFX_PSK_Our_Eternal_Struggle
 		x = 4
 		y = 4
 		bypass = {
@@ -83,7 +84,7 @@ focus_tree = {
 		id = PSK_using_the_undesirables
 		icon = GFX_goal_unknown
 		x = 2
-		y = 8
+		y = 7
 		bypass = {
 		}
 		cost = 2
@@ -132,7 +133,7 @@ focus_tree = {
 		id = PSK_to_the_bitter_end
 		icon = GFX_goal_unknown
 		x = 4
-		y = 8
+		y = 7
 		bypass = {
 		}
 		cost = 2
@@ -182,7 +183,7 @@ focus_tree = {
 		id = PSK_fill_the_factories
 		icon = GFX_PSK_Fill_the_Factories
 		x = 6
-		y = 8
+		y = 7
 		bypass = {
 		}
 		cost = 2
@@ -207,7 +208,7 @@ focus_tree = {
 		id = PSK_from_dust_to_dust
 		icon = GFX_PSK_From_Dust_to_Dust
 		x = 4
-		y = 12
+		y = 10
 		bypass = {
 		}
 		cost = 3
@@ -330,7 +331,7 @@ focus_tree = {
 		id = PSK_civil_procurement
 		icon = GFX_PSK_Ensuring_Civil_Procurement
 		x = 6
-		y = 10
+		y = 9
 		bypass = {
 		}
 		cost = 2
@@ -353,7 +354,7 @@ focus_tree = {
 		id = PSK_material_construction
 		icon = GFX_BRG_Raze_The_Cities_shine
 		x = 2
-		y = 10
+		y = 9
 		bypass = {
 		}
 		cost = 2

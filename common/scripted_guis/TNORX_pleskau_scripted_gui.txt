@@ -1,0 +1,68 @@
+scripted_gui = {
+
+	TNO_Pleskau_Germanization_GUI_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNO_Pleskau_GUI_open"
+
+		visible = {
+			tag = PSK
+			NOT = {
+			}
+		}
+		
+		triggers = {
+		
+		}
+
+		effects = {
+			psk_germanization_menu_open_click = {
+				if = {
+					limit = { NOT = { has_country_flag = PSK_Germanization_GUI_open_flag } }
+					set_country_flag = PSK_Germanization_GUI_open_flag
+				}
+				else_if = {
+					limit = { has_country_flag = PSK_Germanization_GUI_open_flag }
+					clr_country_flag = PSK_Germanization_GUI_open_flag
+				}
+				clr_country_flag = gui_alert_visible
+			}
+		}
+
+		ai_enabled = { original_tag = PSK }
+		ai_check = {
+			#check_variable = {WWSControl > 0}
+        }
+
+		ai_test_interval = 168
+		ai_max_weight_taken_per_test = 1
+
+		ai_weights = {
+			ger_economy_menu_open_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						add = 10
+					}
+				}
+				weight = 1
+			}
+		}
+	}
+	
+	TNO_Pleskau_germanization_window_main_open = {
+		context_type = player_context
+		window_name = "TNO_Pleskau_germanization_window_main"
+		visible = {
+			has_country_flag = PSK_Germanization_GUI_open_flag
+		}
+		triggers = {
+		
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = PSK_Germanization_GUI_open_flag
+			}
+		}
+	}
+}
