@@ -118,7 +118,23 @@ shared_focus = {# A Government For Stability
 		cost = 1
 
 		prerequisite = {
-			focus = VNH_The_First_Council_Meeting
+			focus = VNH_The_Artisan
+		}
+		
+		prerequisite = {
+			focus = VNH_The_Factory_Owners
+		}
+		
+		prerequisite = {
+			focus = VNH_The_Reformer
+		}
+		
+		prerequisite = {
+			focus = VNH_The_Oligarch
+		}
+		
+		prerequisite = {
+			focus = VNH_The_Defender
 		}
 
 		completion_reward = {
@@ -294,7 +310,7 @@ shared_focus = {# A Need For Strength
 		cost = 1
 
 		prerequisite = {
-			focus = VNH_A_Government_For_Stability
+			focus = VNH_Bulganins_ideas
 		}
 
 		mutually_exclusive = {
@@ -308,7 +324,7 @@ shared_focus = {# A Need For Strength
 			}
 			add_manpower = 1000
 		}
-		x = 2
+		x = 1
 		y = 4
 	}
 	
@@ -318,7 +334,7 @@ shared_focus = {# Token Promises
 		cost = 1
 
 		prerequisite = {
-			focus = VNH_A_Government_For_Stability
+			focus = VNH_Savvinas_Altruism
 		}
 		mutually_exclusive = {
 			focus = VNH_Turn_To_Lukin
@@ -328,7 +344,7 @@ shared_focus = {# Token Promises
 			add_ideas = tno_trade_unions_state_controlled
 			add_political_power = 10
 		}
-		x = 5
+		x = 7
 		y = 4
 	}
 	
@@ -360,7 +376,7 @@ shared_focus = {
 	
 	
 	prerequisite = {
-		focus = VNH_Savvinas_Altruism
+		focus = VNH_Turn_To_Lukin
 	}
 	
 	completion_reward = {
@@ -376,7 +392,7 @@ shared_focus = {
 		cost = 1
 		
 		prerequisite = {
-			focus = VNH_A_Government_For_Stability
+			focus = VNH_Putins_Demands
 		}
 		mutually_exclusive = {
 			focus = VNH_Compensate_Lukins_Oligarchs
@@ -400,7 +416,7 @@ shared_focus = {
 				}
 			}
 		}
-		x = 8
+		x = 9
 		y = 4
 	}
 	
@@ -420,8 +436,8 @@ shared_focus = {# New Training Programme
 				days = 1
 			}
 		}
-		x = 2
-		y = 6	
+		x = 1
+		y = 5
 	}
 	
 shared_focus = {# But Not Too Much
@@ -440,8 +456,8 @@ shared_focus = {# But Not Too Much
 			}
 			add_stability = 0.05
 		}
-		x = 5
-		y = 6
+		x = 7
+		y = 5
 	}
 	
 shared_focus = {# Stimulate The Economy
@@ -467,8 +483,8 @@ shared_focus = {# Stimulate The Economy
 			set_variable = { VNH_downfall_production_speed_buildings_factor = -0.20 }
 			custom_effect_tooltip = “VNH_Stimulate_the_economy_TT”
 		}
-		x = 8
-		y = 6
+		x = 9
+		y = 5
 	}
 
 shared_focus = {# The People Content
@@ -478,12 +494,15 @@ shared_focus = {# The People Content
 
 	prerequisite = {
 		focus = VNH_Stimulate_the_economy
+		focus = VNH_Deregulate_The_Economy
 	}
 	prerequisite = {
 		focus = VNH_But_Not_Too_Much
+		focus = VNH_Eradicate_The_Disease
 	}
 	prerequisite = {
 		focus = VNH_A_New_Training_Programme
+		focus = VNH_Focus_On_Light_Industry
 	}
 
 	completion_reward = {
@@ -493,7 +512,7 @@ shared_focus = {# The People Content
 		}
 	}
 	x = 5
-	y = 8
+	y = 6
 }
 
 #####################################################################################################################
@@ -546,7 +565,7 @@ shared_focus = { # An Unfortunate Truth ######### NEED TO ADD TOOLTIP
 		add_ideas = tno_press_rights_censored_press
 	}
 	x = 6
-	y = 2
+	y = 1
 }
 
 shared_focus = { # But One that dosen't need solving ######### NEED TO ADD POPULARITY (LATER ON) AND TOOLTIP
@@ -586,7 +605,7 @@ shared_focus = { # But One that dosen't need solving ######### NEED TO ADD POPUL
 		custom_effect_tooltip = VNH_unfortunate_truth_TT
 	}
 	x = 10
-	y = 2
+	y = 1
 }
 
 shared_focus = { # A Speech To the Masses
@@ -606,8 +625,8 @@ shared_focus = { # A Speech To the Masses
 		}
 		add_war_support = 0.1
 	}
-	x = 8
-	y = 4
+	x = 6
+	y = 2
 }
 
 shared_focus = { # Mobilize the Reserves
@@ -622,8 +641,80 @@ shared_focus = { # Mobilize the Reserves
 	completion_reward = {
 		add_manpower = 10000
 	}
+	x = 10
+	y = 2
+}
+
+shared_focus = { # Mobilize the Reserves
+	id = VNH_the_final_steps
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+	prerequisite = {
+		focus = VNH_A_Speech_To_the_Masses
+	}
+
+	completion_reward = {
+		add_war_support = 0.1
+	}
 	x = 8
-	y = 6
+	y = 3
+}
+
+shared_focus = { # Mobilize the Reserves
+	id = VNH_dig_german_stockpiles
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+	prerequisite = {
+		focus = VNH_A_Speech_To_the_Masses
+	}
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 50
+				producer = MCW
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = MCW
+			}
+	}
+	x = 6
+	y = 4
+}
+
+shared_focus = { # Mobilize the Reserves
+	id = VNH_the_last_conversation
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+	prerequisite = {
+		focus = VNH_A_Speech_To_the_Masses
+	}
+
+	completion_reward = {
+		add_to_variable = {
+			var = VNH_Corruption_Value
+			value = 2
+		}
+		add_to_variable = {
+			var = VNH_Anger_Value
+			value = -25
+		}
+		add_to_variable = {
+			var = VNH_industrialists_support
+			value = 20
+		}
+		add_to_variable = {
+			var = VNH_mark_lib_power
+			value = 5
+		}
+	}
+	x = 10
+	y = 4
 }
 
 shared_focus = { # NOW THE REAL WORK BEGINS
@@ -640,7 +731,7 @@ shared_focus = { # NOW THE REAL WORK BEGINS
 		}
 	}
 	x = 8
-	y = 8
+	y = 5
 }
 
 #####################################################################################################################
