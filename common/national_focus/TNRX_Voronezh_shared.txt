@@ -16,6 +16,7 @@ shared_focus = {# The First Council Meeting
 			id = VNH_initial.1 # Rainy Day In Voronezh
 			days = 1
 		}
+		load_focus_tree = { tree = Voronezh_Tree_War keep_completed = yes}
 	}
 	x = 5
 	y = 0
@@ -748,7 +749,13 @@ shared_focus = { #The Reunification wars began
 	available = {
 		VNH = {has_war = no}
 	}
-	x = 4
+	bypass = {
+		always = yes
+	}
+	completion_reward = {
+		custom_effect_tooltip = VNH_The_Reunification_wars_began_tt
+	}
+	x = 10
 	y = 2
 }
 
@@ -757,19 +764,29 @@ shared_focus = { #Going South
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
+	relative_position_id = VNH_The_Reunification_wars_began
+	x = 3
+	y = 1
+
 	prerequisite = {
 		focus = VNH_The_Reunification_wars_began
 	}
 
-	available = {
-		country_exists = BBB
-		country_exists = VLG
+	available = { }
+	bypass = {
+		AND = {
+			NOT = {
+				country_exists = BBB
+				country_exists = VLG
+			}
+		}
 	}
 	completion_reward = {
-		####
+		country_event = {
+			id = VNH.6
+			days = 1
+		}
 	}
-	x = 6
-	y = 3
 }
 
 shared_focus = { #A German Volga no more
@@ -781,18 +798,28 @@ shared_focus = { #A German Volga no more
 		focus = VNH_Going_South
 	}
 
+	relative_position_id = VNH_Going_South
+	x = -1
+	y = 1
 
-	available = {
-		country_exists = VLG
+	available = { }
+	bypass = {
+		NOT = {
+			country_exists = VLG
+		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.7
+				days = 1
+			}
+		}
 		create_wargoal = {
 			target = VLG
 			type = annex_everything
 		}
 	}
-	x = 8
-	y = 9
 }
 
 
@@ -802,21 +829,31 @@ shared_focus = { #Long awaited justice
 	cost = 2
 
 	prerequisite = {
-		focus = VNH_A_German_Volga_no_more
+		focus = VNH_Going_South
 	}
+	relative_position_id = VNH_Going_South
+	x = 1
+	y = 1
 
-	available = {
-		country_exists = BBB
+	available = { }
+	bypass = {
+		NOT = {
+			country_exists = BBB
+		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.8
+				days = 1
+			}
+		}
 		create_wargoal = {
 			target = BBB
 			type = annex_everything
 		}
 	
 	}
-	x = 8
-	y = 4
 }
 
 shared_focus = { #Wolgstaat and Black brigade trials
@@ -827,6 +864,13 @@ shared_focus = { #Wolgstaat and Black brigade trials
 	prerequisite = {
 		focus = VNH_A_German_Volga_no_more
 	}
+	prerequisite = {
+		focus = VNH_Long_awaited_justice
+	}
+
+	relative_position_id = VNH_Long_awaited_justice
+	x = -1
+	y = 1
 
 	available = {
 		NOT = {
@@ -834,37 +878,55 @@ shared_focus = { #Wolgstaat and Black brigade trials
 			country_exists = VLG
 		}
 	}
+	bypass = {
+		AND = {
+			NOT = {
+				owns_state = 217
+				owns_state = 401
+			}
+			NOT = {
+				country_exists = BBB
+				country_exists = VLG
+			}
+		}
+	}
 	completion_reward = {
-		add_stability = 0.02
+		country_event = {
+			id = VNH.9
+			days = 1
+		}
 		add_war_support = 0.02
 	}
-	x = 7
-	y = 6
 }
 
 
 shared_focus = { #The southern Campaign is finished.
-	id = VNH_The_southern_Campaign_is_finished.
+	id = VNH_The_southern_Campaign_is_finished
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
 	prerequisite = {
 		focus = VNH_Wolgstaat_and_Black_brigade_trials
-	}
+	}	
 
+	relative_position_id = VNH_Wolgstaat_and_Black_brigade_trials
+	x = 0
+	y = 1
 
 	available = {
-		NOT = {
-			country_exists = BBB
-			country_exists = VLG
-		}
+		owns_state = 217
+		owns_state = 401
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.10
+				days = 1
+			}
+		}
 		add_stability = 0.05
-		add_war_support = 0.02
+		add_war_support = 0.1
 	}
-	x = 7
-	y = 8
 }
 
 
@@ -877,17 +939,25 @@ shared_focus = { #Going North
 		focus = VNH_The_Reunification_wars_began
 	}
 
+	relative_position_id = VNH_The_Reunification_wars_began
+	x = -3
+	y = 1
 
-	available = {
-		NOT = {
-			country_exists = BBB
+	available = { }
+	bypass = {
+		AND = {
+			NOT = {
+				country_exists = ORL
+				country_exists = PEN
+			}
 		}
 	}
 	completion_reward = {
-		###
+		country_event = {
+			id = VNH.11
+			days = 1
+		}
 	}
-	x = 5
-	y = 4
 }
 
 
@@ -900,17 +970,28 @@ shared_focus = { #War for Oryol
 		focus = VNH_Going_North
 	}
 
-	available = {
-		country_exists = ORL
+	relative_position_id = VNH_Going_North
+	x = -1
+	y = 1
+
+	available = { }
+	bypass = {
+		NOT = {
+			country_exists = ORL
+		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.12
+				days = 1
+			}
+		}
 		create_wargoal = {
 			target = ORL
 			type = annex_everything
 		}
 	}
-	x = 3
-	y = 5
 }
 
 shared_focus = { #War for Penza
@@ -922,19 +1003,28 @@ shared_focus = { #War for Penza
 		focus = VNH_Going_North
 	}
 
-	available = {
+	relative_position_id = VNH_Going_North
+	x = 1
+	y = 1
+
+	available = { }
+	bypass = {
 		NOT = {
-			country_exists = ORL
+			country_exists = PEN
 		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.13
+				days = 1
+			}
+		}
 	   create_wargoal = {
 		target = PEN
 		type = annex_everything
 		}	
 	}
-	x = 5
-	y = 5
 }
 
 shared_focus = { #The Republics Pardons
@@ -944,8 +1034,14 @@ shared_focus = { #The Republics Pardons
 
 	prerequisite = {
 		focus = VNH_War_for_Penza
+	}
+	prerequisite = {
 		focus = VNH_War_for_Oryol
 	}
+
+	relative_position_id = VNH_War_for_Penza
+	x = -1
+	y = 1
 
 	available = {
 		NOT = {
@@ -953,11 +1049,54 @@ shared_focus = { #The Republics Pardons
 			country_exists = PEN
 		}
 	}
+	bypass = {
+		AND = {
+			NOT = {
+				owns_state = 222
+				owns_state = 255
+			}
+			NOT = {
+				country_exists = ORL
+				country_exists = PEN
+			}
+		}
+	}
 	completion_reward = {
+		country_event = {
+			id = VNH.14
+			days = 1
+		}
 		add_stability = 0.02
 	}
-	x = 4
-	y = 6
+}
+
+shared_focus = { #The Northern Campaign Is Finished
+	id = VNH_The_Northern_Campaign_Is_Finished
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+	prerequisite = {
+		focus = VNH_The_Republics_pardons
+	}
+
+	relative_position_id = VNH_The_Republics_pardons
+	x = 0
+	y = 1
+
+	available = {
+		owns_state = 222
+		owns_state = 255
+	}
+	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.15
+				days = 1
+			}
+		}
+		add_stability = 0.1
+		add_war_support = 0.05
+	}
 }
 
 shared_focus = { #Prepare for the true chaos that is the North
@@ -965,21 +1104,25 @@ shared_focus = { #Prepare for the true chaos that is the North
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
+	relative_position_id = VNH_The_Northern_Campaign_Is_Finished
+	x = 3
+	y = 1
+
 	prerequisite = {
-		focus = VNH_The_Republics_pardons
-		focus = VNH_The_southern_Campaign_is_finished.
+		focus = VNH_The_Northern_Campaign_Is_Finished
 	}
-	available = {
-		NOT = {
-			country_exists = PEN
-		}
+	prerequisite = {
+		focus = VNH_The_southern_Campaign_is_finished
 	}
+	available = { }
 	completion_reward = {
+		country_event = {
+			id = VNH.16
+			days = 1
+		}
 		add_stability = 0.1
-		add_war_support = 0.05
+		add_war_support = 0.1
 	}
-	x = 10
-	y = 9
 }
 
 shared_focus = { #Deal with Smolensk
@@ -991,17 +1134,28 @@ shared_focus = { #Deal with Smolensk
 	focus = VNH_Prepare_for_the_true_chaos_that_is_the_North
 	}
 
-	available = {
-		country_exists = SMO
+	relative_position_id = VNH_Prepare_for_the_true_chaos_that_is_the_North
+	x = -2
+	y = 1
+
+	available = { }
+	bypass = {
+		NOT = {
+			country_exists = SMO
+		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.17
+				days = 1
+			}
+		}
 		create_wargoal = {
 			target = SMO
 			type = annex_everything
 		}
 	}
-	x = 12
-	y = 10
 }
 
 shared_focus = { #More Pardons
@@ -1013,16 +1167,32 @@ shared_focus = { #More Pardons
 		focus = VNH_Deal_with_Smolensk
 	}
 
+	relative_position_id = VNH_Deal_with_Smolensk
+	x = 1
+	y = 1
+
 	available = {
 		NOT = {
 			country_exists = SMO
 		}
 	}
-	completion_reward = {
-		add_war_support = 0.05
+	bypass = {
+		NOT = {
+			country_exists = SMO
+		}
+		NOT = {
+			owns_state = 242
+		}
 	}
-	x = 14
-	y = 12
+	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.18
+				days = 1
+			}
+		}
+		add_stability = 0.03
+	}
 }
 
 shared_focus = { #Destroy the cult
@@ -1033,18 +1203,23 @@ shared_focus = { #Destroy the cult
 	prerequisite = {
 		focus = VNH_Prepare_for_the_true_chaos_that_is_the_North
 	}
+	relative_position_id = VNH_Prepare_for_the_true_chaos_that_is_the_North
+	x = 2
+	y = 1
 	
 	available = {
-		country_exists = BOS
+	}
+	bypass = {
+		NOT = {
+			country_exists = BSB
+		}
 	}
 	completion_reward = {
 		create_wargoal = {
-			target = BOS
+			target = BSB
 			type = annex_everything
 		}
 	}
-	x = 14
-	y = 9
 }
 
 shared_focus = { #The Antikhrist unmasked
@@ -1056,17 +1231,32 @@ shared_focus = { #The Antikhrist unmasked
 		focus = VNH_Destroy_the_cult
 	}
 
+	relative_position_id = VNH_Destroy_the_cult
+	x = -1
+	y = 1
+
 	available = {
 		NOT = {
-			country_exists = BOS
+			country_exists = BSB
+		}
+	}
+	bypass = {
+		NOT = {
+			country_exists = BSB
+		}
+		NOT = {
+			owns_state = 253
 		}
 	}
 	completion_reward = {
-		add_stability = 0.1
-		add_war_support = 0.05
+		hidden_effect = {
+			country_event = {
+				id = VNH.19
+				days = 1
+			}
+		}
+		add_war_support = 0.03
 	}
-	x = 16
-	y = 11
 }
 
 shared_focus = { #Liberate Moscow
@@ -1076,44 +1266,71 @@ shared_focus = { #Liberate Moscow
 
 	prerequisite = {
 		focus = VNH_The_Antikhrist_unmasked
+	}
+	prerequisite = {
 		focus = VNH_More_pardons
 	}
+
+	relative_position_id = VNH_The_Antikhrist_unmasked
+	x = -1
+	y = 1
+
 
 	available = {
 		NOT = {
 			country_exists = SMO
-			country_exists = BOS
+			country_exists = BSB
+		}
+	}
+	bypass = {
+		NOT = {
+			country_exists = MOS
 		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.20
+				days = 1
+			}
+		}
 		create_wargoal = {
 			target = MOS
 			type = annex_everything
 		}
-		add_war_support = 0.05
 	}
-	x = 18
-	y = 13
 }
 
 shared_focus = { #It's Moscow again
 	id = VNH_Its_Moscow_again
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
+	cost = 1
 
 	prerequisite = {
 		focus = VNH_Liberate_Moscow
 	}
 
+	relative_position_id = VNH_Liberate_Moscow
+	x = 0
+	y = 1
+
 	available = {
-		country_exists = MOS
+		NOT = {
+			country_exists = MOS
+		}
+		owns_state = 219
 	}
 	completion_reward = {
-		add_stability = 0.1
-		add_war_support = 0.05
+		custom_effect_tooltip = VNH_Its_Moscow_again_tt
+		hidden_effect = {
+			set_province_name = { id = 6380 name = "Moscow" }
+			219 = {
+				set_state_name = "Moscow"
+			}
+		}
+		add_political_power = 100
+		add_stability = 0.05
 	}
-	x = 17
-	y = 15
 }
 
 shared_focus = { #Expel the SS from Russia
@@ -1122,22 +1339,33 @@ shared_focus = { #Expel the SS from Russia
 	cost = 2
 
 	prerequisite = {
-		focus = VNH_Its_Moscow_again
+		focus = VNH_Liberate_Moscow
 	}
 
+	relative_position_id = VNH_Liberate_Moscow
+	x = -2
+	y = 1
 
 	available = {
-		country_exists = PLE
+	}
+	bypass = {
+		NOT = {
+			country_exists = PSK
+		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.21
+				days = 1
+			}
+		}
 		create_wargoal = {
-			target = PLE
+			target = PSK
 			type = annex_everything
 		}
-		add_war_support = 0.05
+		add_war_support = 0.025
 	}
-	x = 19
-	y = 17
 }
 
 shared_focus = { #Kick out the reds
@@ -1146,21 +1374,33 @@ shared_focus = { #Kick out the reds
 	cost = 2
 
 	prerequisite = {
-		focus = VNH_Its_Moscow_again
+		focus = VNH_Liberate_Moscow
 	}
 
+	relative_position_id = VNH_Liberate_Moscow
+	x = 2
+	y = 1
+
 	available = {
-		country_exists = RSU
+	}
+	bypass = {
+		NOT = {
+			country_exists = RSB
+		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.22
+				days = 1
+			}
+		}
 		create_wargoal = {
-			target = RSU
+			target = RSB
 			type = annex_everything
 		}
-		add_war_support = 0.05
+		add_war_support = 0.025
 	}
-	x = 22
-	y = 17
 }
 
 shared_focus = { #Kill the tyrants
@@ -1172,27 +1412,28 @@ shared_focus = { #Kill the tyrants
 		focus = VNH_Expel_the_SS_from_Russia
 	}
 
+	relative_position_id = VNH_Expel_the_SS_from_Russia
+	x = 0
+	y = 1
+
 	bypass = {
-		219 = {
-			owner = {
-				NOT = {
-					tag = MOS
-				}
+		AND = {
+			NOT = {
+				owns_state = 246
+				country_exists = PSK
 			}
 		}
 	}
 
 	available = {
-		NOT = {
-			country_exists = MOS
-		}
 	}
 	completion_reward = {
-		add_stability = 0.02
-		add_war_support = 0.05
+		country_event = {
+			id = VNH.23
+			days = 1
+		}
+		custom_effect_tooltip = VNH_Kill_the_tyrants_tt
 	}
-	x = 16
-	y = 25
 }
 
 shared_focus = { #Where did Mkhitar go?
@@ -1204,17 +1445,28 @@ shared_focus = { #Where did Mkhitar go?
 		focus = VNH_Kick_out_the_reds
 	}
 
+	relative_position_id = VNH_Kick_out_the_reds
+	x = 0
+	y = 1
+
 	available = {
-		NOT = {
-			country_exists = RSU
+	}
+
+	bypass = {
+		AND = {
+			NOT = {
+				owns_state = 264
+				country_exists = RSB
+			}
 		}
 	}
 	completion_reward = {
-		add_stability = 0.05
-		add_war_support = 0.05
+		country_event = {
+			id = VNH.24
+			days = 1
+		}
+		add_stability = 0.02
 	}
-	x = 17
-	y = 25
 }
 
 shared_focus = { #Liberation of St Petersburg
@@ -1224,43 +1476,82 @@ shared_focus = { #Liberation of St Petersburg
 
 	prerequisite = {
 		focus = VNH_Where_did_Mkhitar_go
-		focus = VNH_Expel_the_SS_from_Russia
+	}
+	prerequisite = {
+		focus = VNH_Kill_the_tyrants
 	}
 
+	relative_position_id = VNH_Where_did_Mkhitar_go
+	x = -2
+	y = 1
+
 	available = {
+	}
+	bypass = {
 		NOT = {
-			country_exists = OBS
+			country_exists = PET
 		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.25
+				days = 1
+			}
+		}
 		create_wargoal = {
-			target = OBS
+			target = PET
 			type = annex_everything
 		}
-		add_war_support = 0.05
 	}
-	x = 19
-	y = 28
 }
 
+shared_focus = { #Victory at last
+	id = VNH_Its_St_Petersburg
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+
+	prerequisite = {
+		focus = VNH_Liberation_of_St_Petersburg
+	}
+
+	relative_position_id = VNH_Liberation_of_St_Petersburg
+	x = 0
+	y = 1
+
+	available = {
+		owns_state = 195
+	}
+	completion_reward = {
+		custom_effect_tooltip = VNH_Its_St_Petersburg_tt
+		hidden_effect = {
+			set_province_name = { id = 3151 name = "St. Petersburg" }
+			195 = {
+				set_state_name = "St. Petersburg"
+			}
+		}
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
 shared_focus = { #Victory at last
 	id = VNH_Victory_at_last
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 
 	prerequisite = {
-		focus = VNH_Where_did_Mkhitar_go
-		focus = VNH_Expel_the_SS_from_Russia
+		focus = VNH_Its_St_Petersburg
 	}
-	available = {
-		NOT = {
-			country_exists = OBS
-		}
-	}
+	relative_position_id = VNH_Its_St_Petersburg
+	x = 0
+	y = 1
+	available = {}
 	completion_reward = {
-			add_stability = 0.15
-			add_war_support = 0.05
+		country_event = {
+			id = VNH.26
+			days = 1
+		}
+		add_stability = 0.25
+		add_war_support = 0.15
 	}
-	x = 25
-	y = 32
 }
