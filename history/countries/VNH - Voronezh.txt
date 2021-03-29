@@ -2,6 +2,8 @@
 
 oob = "VNH_1962"
 
+load_focus_tree = Voronezh_Initial
+
 add_ideas = {
 	## Ministers ##
 	VNH_Iya_Savvina_hog

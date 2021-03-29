@@ -1,6 +1,3 @@
-#
-# Pleskau Debug Decisions by BadThingsNeverHappen (BasedJFK)
-#
 PSK_Debug = {
 
 	debug_pleskau_unification_tree = {
@@ -8,6 +5,7 @@ PSK_Debug = {
 
 		available = { 
 			is_ai = no 
+			is_debug = yes
 		}
 		visible = {
 

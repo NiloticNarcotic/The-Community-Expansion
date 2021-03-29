@@ -3,14 +3,6 @@ spriteTypes = {
 		name = "GFX_NIK_affairs_of_national_assembly"
 		texturefile = "gfx/interface/goals/GFX_NIK_affairs_of_national_assembly.dds"
 	}
-	SpriteType = {
-		name = "GFX_VNH_The_People_Content"
-		texturefile = "gfx/interface/goals/GFX_VNH_The_People_Content.dds"
-	}
-	SpriteType = {
-		name = "GFX_VNH_Token_Promises"
-		texturefile = "gfx/interface/goals/GFX_VNH_Token_Promises.dds"
-	}
 	#### Generic continuous goal icons
 	#### Bormann OFN Tree
 	SpriteType = {
@@ -27212,5 +27204,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_PSK_Our_Eternal_Struggle"
 		texturefile = "gfx/interface/goals/PSK_Our_Eternal_Struggle.dds"
+	}
+	SpriteType = {
+		name = "GFX_VNH_The_People_Content"
+		texturefile = "gfx/interface/goals/GFX_VNH_The_People_Content.dds"
+	}
+	SpriteType = {
+		name = "GFX_VNH_Token_Promises"
+		texturefile = "gfx/interface/goals/GFX_VNH_Token_Promises.dds"
+	}
+	SpriteType = {
+		name = "GFX_VNH_Stimulate_The_Economy"
+		texturefile = "gfx/interface/goals/GFX_VNH_Stimulate_The_Economy.dds"
 	}
 }
