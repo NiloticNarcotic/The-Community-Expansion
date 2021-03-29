@@ -366,14 +366,6 @@ country_event = {
 	option = {
 		name = VNH.6.a
 		ai_chance = { factor = 1 }
-		declare_war_on = {
-			target = VLG
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = BBB
-			type = annex_everything
-		}
 	}
 }
 country_event = {
@@ -386,10 +378,6 @@ country_event = {
 	option = {
 	    name = VNH.7.a
 		ai_chance = { factor = 1 }
-		declare_war_on = {
-		    target = ORL
-			type = annex_everything
-		}
 	}
 }
 country_event = {
@@ -429,10 +417,6 @@ country_event = {
 	option = {
 		name = VNH.10.a
 		ai_chance = { factor = 1 }
-		declare_war_on = {
-		    target = PEN
-			type = annex_everything
-		}
 	}
 }
 country_event = {
@@ -485,10 +469,6 @@ country_event = {
 	option = {
 		name = VNH.14.a
 		ai_chance = { factor = 1 }
-		declare_war_on = {
-		    target = SMO
-			type = annex_everything
-		}
 	}
 }
 country_event = {
@@ -541,10 +521,6 @@ country_event = {
 	option = {
 		name = VNH.18.a
 		ai_chance = { factor = 1 }
-		declare_war_on = {
-		    target = MOS
-			type = annex_everything
-		}
 	}
 }
 country_event = {
@@ -583,6 +559,71 @@ country_event = {
 
 	option = {
 		name = VNH.21.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.22
+	title = VNH.22.t
+	desc = VNH.22.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.22.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.23
+	title = VNH.23.t
+	desc = VNH.23.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.23.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.24
+	title = VNH.24.t
+	desc = VNH.24.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.24.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.25
+	title = VNH.25.t
+	desc = VNH.25.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.25.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.26
+	title = VNH.26.t
+	desc = VNH.26.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.26.a
 		ai_chance = { factor = 1 }
 	}
 }
