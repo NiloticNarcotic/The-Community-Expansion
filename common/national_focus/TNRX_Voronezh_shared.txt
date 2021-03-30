@@ -1185,11 +1185,9 @@ shared_focus = { #More Pardons
 		}
 	}
 	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.18
-				days = 1
-			}
+		country_event = {
+			id = VNH.18
+			days = 1
 		}
 		add_stability = 0.03
 	}
@@ -1215,6 +1213,12 @@ shared_focus = { #Destroy the cult
 		}
 	}
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = VNH.27
+				days = 1
+			}
+		}
 		create_wargoal = {
 			target = BSB
 			type = annex_everything
@@ -1249,11 +1253,9 @@ shared_focus = { #The Antikhrist unmasked
 		}
 	}
 	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.19
-				days = 1
-			}
+		country_event = {
+			id = VNH.19
+			days = 1
 		}
 		add_war_support = 0.03
 	}
@@ -1479,6 +1481,9 @@ shared_focus = { #Liberation of St Petersburg
 	}
 	prerequisite = {
 		focus = VNH_Kill_the_tyrants
+	}
+	prerequisite = {
+		focus = VNH_Its_Moscow_again
 	}
 
 	relative_position_id = VNH_Where_did_Mkhitar_go

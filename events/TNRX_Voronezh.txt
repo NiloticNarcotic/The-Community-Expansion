@@ -628,3 +628,16 @@ country_event = {
 		ai_chance = { factor = 1 }
 	}
 }
+country_event = {
+	id = VNH.27
+	title = VNH.27.t
+	desc = VNH.27.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.26.a
+		ai_chance = { factor = 1 }
+	}
+}
