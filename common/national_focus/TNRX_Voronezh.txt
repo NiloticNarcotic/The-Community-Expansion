@@ -1,0 +1,44 @@
+
+focus_tree = {
+	id = Voronezh_Initial
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	shared_focus = VNH_The_First_Council_Meeting
+}
+
+focus_tree = {
+	id = Voronezh_Tree_Two
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	shared_focus = VNH_council_reconvenes
+}
+	
+focus_tree = {
+	id = Voronezh_Tree_War
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	shared_focus = VNH_The_Reunification_wars_began
+}
