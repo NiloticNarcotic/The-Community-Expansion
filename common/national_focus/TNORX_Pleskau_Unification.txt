@@ -1,7 +1,7 @@
 focus_tree = {
 	id = pleskau_unification
 	country = {
-		factor = 20
+		factor = 0
 		modifier = {
 			add = 10
 			tag = PSK
@@ -153,7 +153,7 @@ focus_tree = {
 	focus = {
 		id = PSK_the_winding_road
 		icon = GFX_goal_unknown
-		x = 3
+		x = 5
 		y = 7
 		bypass = {
 		}
@@ -173,7 +173,7 @@ focus_tree = {
 	focus = {
 		id = PSK_a_rebellious_east
 		icon = GFX_goal_unknown
-		x = 13
+		x = 11
 		y = 7
 		bypass = {
 		}
@@ -213,7 +213,7 @@ focus_tree = {
 	focus = {
 		id = PSK_contest_brauschichstadt_leadership
 		icon = GFX_goal_unknown
-		x = 3
+		x = 5
 		y = 8
 		bypass = {
 		}
@@ -233,7 +233,7 @@ focus_tree = {
 	focus = {
 		id = PSK_dealing_with_kaminski
 		icon = GFX_goal_unknown
-		x = 13
+		x = 11
 		y = 8
 		bypass = {
 		}
@@ -253,7 +253,7 @@ focus_tree = {
 	focus = {
 		id = PSK_dinner_with_von_saucken
 		icon = GFX_goal_unknown
-		x = 1
+		x = 3
 		y = 9
 		bypass = {
 		}
@@ -273,7 +273,7 @@ focus_tree = {
 	focus = {
 		id = PSK_end_to_wehrmacht_jewry
 		icon = GFX_goal_unknown
-		x = 3
+		x = 5
 		y = 9
 		bypass = {
 		}
@@ -353,7 +353,7 @@ focus_tree = {
 	focus = {
 		id = PSK_treytarovs_trip
 		icon = GFX_goal_unknown
-		x = 15
+		x = 13
 		y = 9
 		bypass = {
 		}
@@ -373,7 +373,7 @@ focus_tree = {
 	focus = {
 		id = PSK_end_to_kaminsky_delusion
 		icon = GFX_goal_unknown
-		x = 13
+		x = 11
 		y = 9
 		bypass = {
 		}
@@ -393,7 +393,7 @@ focus_tree = {
 	focus = {
 		id = PSK_great_expectations
 		icon = GFX_goal_unknown
-		x = 1
+		x = 3
 		y = 10
 		bypass = {
 		}
@@ -413,7 +413,7 @@ focus_tree = {
 	focus = {
 		id = PSK_out_of_frying_pan
 		icon = GFX_goal_unknown
-		x = 3
+		x = 5
 		y = 10
 		bypass = {
 		}
@@ -434,7 +434,7 @@ focus_tree = {
 	focus = {
 		id = PSK_traitors_different_kind
 		icon = GFX_goal_unknown
-		x = 15
+		x = 13
 		y = 10
 		bypass = {
 		}
@@ -454,7 +454,7 @@ focus_tree = {
 	focus = {
 		id = PSK_shot_in_the_dark
 		icon = GFX_goal_unknown
-		x = 13
+		x = 11
 		y = 10
 		bypass = {
 		}
@@ -476,7 +476,7 @@ focus_tree = {
 		id = PSK_drauf_und_dran
 		icon = GFX_goal_unknown
 		x = 8
-		y = 12
+		y = 11
 		bypass = {
 		}
 		cost = 5
@@ -499,7 +499,7 @@ focus_tree = {
 		id = PSK_the_best_laid_plans
 		icon = GFX_goal_unknown
 		x = 8
-		y = 13
+		y = 12
 		bypass = {
 		}
 		cost = 5
@@ -519,7 +519,7 @@ focus_tree = {
 		id = PSK_memories_of_forty_one
 		icon = GFX_goal_unknown
 		x = 8
-		y = 14
+		y = 13
 		bypass = {
 		}
 		cost = 5
@@ -539,7 +539,7 @@ focus_tree = {
 		id = PSK_lichter_aus
 		icon = GFX_goal_unknown
 		x = 8
-		y = 15
+		y = 14
 		bypass = {
 		}
 		cost = 5
@@ -559,7 +559,7 @@ focus_tree = {
 		id = PSK_deal_with_devil
 		icon = GFX_goal_unknown
 		x = 10
-		y = 16
+		y = 15
 		bypass = {
 		}
 		cost = 5
@@ -580,7 +580,7 @@ focus_tree = {
 		id = PSK_through_cold_lenses
 		icon = GFX_goal_unknown
 		x = 12
-		y = 16
+		y = 15
 		bypass = {
 		}
 		cost = 5
@@ -601,7 +601,7 @@ focus_tree = {
 		id = PSK_to_their_dying_breath
 		icon = GFX_goal_unknown
 		x = 6
-		y = 17
+		y = 15
 		bypass = {
 		}
 		cost = 5
@@ -621,7 +621,7 @@ focus_tree = {
 		id = PSK_no_where_left_to_flee
 		icon = GFX_goal_unknown
 		x = 8
-		y = 17
+		y = 16
 		bypass = {
 		}
 		cost = 5
@@ -646,7 +646,7 @@ focus_tree = {
 		id = PSK_all_bandits_share_same_fate
 		icon = GFX_goal_unknown
 		x = 4
-		y = 18
+		y = 15
 		bypass = {
 		}
 		cost = 5
@@ -666,7 +666,7 @@ focus_tree = {
 		id = PSK_a_useful_puppet
 		icon = GFX_goal_unknown
 		x = 6
-		y = 19
+		y = 17
 		bypass = {
 		}
 		cost = 5
@@ -687,7 +687,7 @@ focus_tree = {
 		id = PSK_the_only_use_traitors
 		icon = GFX_goal_unknown
 		x = 10
-		y = 19
+		y = 17
 		bypass = {
 		}
 		cost = 5
@@ -708,7 +708,7 @@ focus_tree = {
 		id = PSK_volksdeutsch_vereinigt
 		icon = GFX_goal_unknown
 		x = 8
-		y = 20
+		y = 18
 		bypass = {
 		}
 		cost = 5
@@ -731,7 +731,7 @@ focus_tree = {
 		id = PSK_fall_schwarz
 		icon = GFX_goal_unknown
 		x = 8
-		y = 21
+		y = 19
 		bypass = {
 		}
 		cost = 5
@@ -751,7 +751,7 @@ focus_tree = {
 		id = PSK_es_ist_aus
 		icon = GFX_goal_unknown
 		x = 8
-		y = 22
+		y = 20
 		bypass = {
 		}
 		cost = 5

@@ -1,7 +1,7 @@
 focus_tree = {
 	id = pleskau_focus
 	country = {
-		factor = 5
+		factor = 0
 		modifier = {
 			add = 10
 			tag = PSK
@@ -296,7 +296,9 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
-				###				
+				country_event = {
+					id = pleskau.17
+				}			
 			}
 		   custom_effect_tooltip = tooltip_expanding_our_reach
 		}
@@ -319,7 +321,9 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {	
-				###		
+				country_event = {
+					id = pleskau.12
+				}
 			}
 		   custom_effect_tooltip = tooltip_expanding_the_russian_corps
 		}
@@ -342,7 +346,9 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
-				###
+				country_event = {
+					id = pleskau.16
+				}		
 			}
 			custom_effect_tooltip = tooltip_civil_procurement
 		}
@@ -364,7 +370,9 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
-				###
+				country_event = {
+					id = pleskau.15
+				}		
 			}
 			custom_effect_tooltip = tooltip_material_construction
 		}
@@ -387,9 +395,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
-				###
+				country_event = {
+					id = pleskau.13
+				}
 			}
-			custom_effect_tooltip = #
+			custom_effect_tooltip = tootltip_regimental_training
 		}
 		ai_will_do = {
 			factor = 1
@@ -410,9 +420,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
-				###
+				country_event = {
+					id = pleskau.14
+				}		
 			}
-			custom_effect_tooltip = #
+			custom_effect_tooltip = tooltip_coersive_activities_bureau
 		}
 		ai_will_do = {
 			factor = 1
