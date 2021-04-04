@@ -1,4 +1,21 @@
 ﻿l_english:
+ ### Debug stuff :OOOO ###
+ VNH_debug.1.t:0 "Initiates the corruption/anger mechanic, §Rmight break after more than one use.§!"
+ VNH_debug.1.desc:0 "Initiates the corruption/anger mechanic, §Rmight break after more than one use.§!"
+ VNH_debug.1.a:0 "Initiates the corruption/anger mechanic, §Rmight break after more than one use.§!"
+ VNH_debug.1.b:0 "No."
+ VNH_debug.1_tt:0 "Initiates the corruption/anger mechanic, §Rmight break after more than one use.§!"
+ VNH_debug.2.t:0 "Sets both sliders to 50/50"
+ VNH_debug.2.desc:0 "Sets both sliders to 50/50"
+ VNH_debug.2.a:0 "Sets both sliders to 50/50"
+ VNH_debug.2.b:0 "No."
+ VNH_debug.2_tt:0 "Sets both sliders to 50/50"
+ VNH_debug.3.t:0 "Refresh the modifiers"
+ VNH_debug.3.desc:0 "Refresh the modifiers"
+ VNH_debug.3.a:0 "Refresh the modifiers"
+ VNH_debug.3_tt:0 "Refresh the modifiers"
+ VNH_debug.3.b:0 "No."
+ 
  ### Country Names ###
  VNH_fascism:0 "Voronezh"
  VNH_fascism_DEF:0 "Voronezh"
@@ -50,6 +67,28 @@
  VNH_Boris_Gostev_eco:0 "Boris Gostev"
  VNH_Robert_Klein_sec:0 "Robert Klein"
  
+ ### Decisions ###
+ VNH_Corruption_category:0 "Corruption [?VNH_Corruption_Value]"
+ VNH_Anger_category:0 "Anger [?VNH_Anger_Value]"
+ 
+ ### Custom Tooltips ###
+ VNH_Corruption_Add_Small_tt:0 "§WWe will §Rgain§!§W a §!§Ysmall§!§W ammount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Add_Medium_tt:0 "§WWe will §Rgain§!§W a §!§Omedium§!§W ammount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Add_Large_tt:0 "§WWe will §Rgain§!§W a §!§Rlarge§!§W ammount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Add_No_More_tt:0 "§RWe are already at a catastrophic level of §!§YCorruption§!"
+ VNH_Corruption_Lose_Small_tt:0 "§WWe will §!§Glose§!§W a §!§Bsmall§!§W ammount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Lose_Medium_tt:0 "§WWe will §!§Glose§!§W a §!§Cmedium§!§W ammount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Lose_Large_tt:0 "§WWe will §!§Glose§!§W a §!§Glarge§!§W ammount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Lose_No_More_tt:0 "§GWe have already reached the lowest ammount of §!§YCorruption§!§G we could in our government!§!"
+ VNH_Anger_Add_Small_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Ysmall§!§W ammount!§!"
+ VNH_Anger_Add_Medium_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Omedium§!§W ammount!§!"
+ VNH_Anger_Add_Large_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Rlarge§!§W ammount!§!"
+ VNH_Anger_Add_No_More_tt:0 "§RThe industrialists are already as angry as they can be with us!§!"
+ VNH_Anger_Lose_Small_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Bsmall§!§W ammount!§!"
+ VNH_Anger_Lose_Medium_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Cmedium§!§W ammount!§!"
+ VNH_Anger_Lose_Large_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Glarge§!§W ammount!§!"
+ VNH_Anger_Lose_No_More_tt:0 "§GThe industrialists are already as little §!§R"Angry"§!§G as they can be with us!§!"
+ 
  ### Ideas ###
  VNH_Little_Corruption_idea:0 "Corruption: §SLow§!"
  VNH_Medium_Corruption_idea:0 "Corruption: §YMedium§!"
@@ -72,10 +111,10 @@
  VNH_Corruption_Medium:0 "Currently Corruption is §HModerate§"
  VNH_Corruption_Large:0 "Currently Corruption is §OSerious§"
  VNH_Corruption_Large:0 "Currently Corruption is §RDisastrous§"
- VNH_Baron_anger_Little:0 "Currently The Industrialists' Anger is §WNegligent§"
- VNH_Baron_anger_Medium:0 "Currently The Industrialists' Anger is §HModerate§"
- VNH_Baron_anger_large:0 "Currently The Industrialists' Anger is §OSerious"
- VNH_Baron_anger_Disastrous:0 "Currently The Industrialists' Anger is §RDisastrous§"
+ VNH_Baron_anger_Little:0 "Currently The Industrialists' Anger is §WNegligent§!."
+ VNH_Baron_anger_Medium:0 "Currently The Industrialists' Anger is §HModerate§!."
+ VNH_Baron_anger_large:0 "Currently The Industrialists' Anger is §OSerious!§!"
+ VNH_Baron_anger_Disastrous:0 "Currently The Industrialists' Anger is §RDisastrous!§!"
  VNH_Council_Support_Data:0 "Industrialists' Support: [?VNH_industrialists_support]\n Conservatives' Support [?VNH_con_dem_support]\n Liberals' Support [?VNH_lib_dem_support]\n Social Democrats' Support [?VNH_soc_dem_support]"
 
  ### Focus Trees ###

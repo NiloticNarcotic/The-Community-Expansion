@@ -6,11 +6,20 @@ spriteTypes = {
 	}
 
 	progressbartype = {
-		name = "GFX_VNH_control_bars"
+		name = "GFX_VNH_control_bar_anger"
 		color = { 1.0 1.0 1.0 }
 		colortwo = { 1.0 1.0 1.0 }
-		textureFile1 = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_green.dds"
-		textureFile2 = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_red.dds"
+		textureFile1 = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_fire.dds"
+		textureFile2 = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_empty.dds"
+		size = { x = 370 y = 38 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		name = "GFX_VNH_control_bar_corruption"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_coins.dds"
+		textureFile2 = "gfx/interface/Voronezh_assets_gui/Voronezh_control_bar_empty.dds"
 		size = { x = 370 y = 38 }
 		effectFile = "gfx/FX/progress.lua"
 	}

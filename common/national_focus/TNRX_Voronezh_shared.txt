@@ -16,7 +16,7 @@ shared_focus = {# The First Council Meeting
 			id = VNH_initial.1 # Rainy Day In Voronezh
 			days = 1
 		}
-		load_focus_tree = { tree = Voronezh_Tree_War keep_completed = yes}
+		#load_focus_tree = { tree = Voronezh_Tree_Two keep_completed = yes}
 	}
 	x = 5
 	y = 0
@@ -482,7 +482,7 @@ shared_focus = {# Stimulate The Economy
 			set_variable = { VNH_downfall_annual_gdp_growth_factor = -0.20 }
 			set_variable = { VNH_downfall_proportional_gdp_cost = 0.20 }
 			set_variable = { VNH_downfall_production_speed_buildings_factor = -0.20 }
-			custom_effect_tooltip = “VNH_Stimulate_the_economy_TT”
+			custom_effect_tooltip = VNH_Stimulate_the_economy_TT
 		}
 		x = 9
 		y = 5

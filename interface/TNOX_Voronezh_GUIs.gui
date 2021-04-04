@@ -1,5 +1,5 @@
 #
-# Voronezh GUIs Made by PrussianBlu
+# Voronezh GUIs
 #
 guiTypes = {
 	containerWindowType = {
@@ -15,7 +15,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "TNOX_Voronezh_GUI_Corruption" # CORRUPTION SCRIPTED GUI
-		size = { width = 482 height = 330 }
+		size = { width = 482 height = 420 }
 		position = { x = 7 y = 7 }
 
 		instantTextBoxType = {
@@ -26,13 +26,6 @@ guiTypes = {
 			text = "Corruption_Title_TT"
 			format = center
 		}
-		instantTextBoxType = {
-			name = "Corruption_Title_1"
-			position = { x = -30 y = 65 }
-			font = "aldrich_16_outline"
-			text = "VNH_Corruption"
-			format = center
-		}
 
 		iconType = {
 			name = "VNH_Corruption_control_bar_Frame"
@@ -41,23 +34,23 @@ guiTypes = {
 		}
 		iconType = {
 			name = "VNH_Corruption_control_bar"
-			spriteType = "GFX_VNH_control_bars"
+			spriteType = "GFX_VNH_control_bar_corruption"
 			pdx_tooltip = "VNH_Corruption_bar"
 			pdx_tooltip_delayed = "VNH_Corruption_bar_desc"
 			position = { x = 51 y = 95 }
 		}
 		instantTextBoxType = {
 			name = "VNH_Corruption_Description"
-			position = { x = -20 y = 210 }
-			font = "aldrich_16_outline"
-			text = "getcorruptionVNH"
+			position = { x = 241 y = 210 }
+			font = "aldrich_20_outline"
+			text = [getcorruptionVNH]
 			format = center
 		}
 	}
 
 	containerWindowType = {
 		name = "TNOX_Voronezh_GUI_Anger" # INDUSTRIALISTS ANGER SCRIPTED GUI
-		size = { width = 482 height = 330 }
+		size = { width = 482 height = 420 }
 		position = { x = 7 y = 7 }
 
 		instantTextBoxType = {
@@ -68,13 +61,6 @@ guiTypes = {
 			text = "Anger_Title_TT"
 			format = center
 		}
-		instantTextBoxType = {
-			name = "Anger_Title_1"
-			position = { x = -30 y = 65 }
-			font = "aldrich_16_outline"
-			text = "VNH_Anger"
-			format = center
-		}
 
 		iconType = {
 			name = "VNH_anger_control_bar_Frame"
@@ -83,16 +69,16 @@ guiTypes = {
 		}
 		iconType = {
 			name = "VNH_Anger_control_bar"
-			spriteType = "GFX_VNH_control_bars"
+			spriteType = "GFX_VNH_control_bar_anger"
 			pdx_tooltip = "VNH_anger_bar"
 			pdx_tooltip_delayed = "VNH_anger_bar_desc"
 			position = { x = 51 y = 95 }
 		}
 		instantTextBoxType = {
 			name = "VNH_Anger_Description"
-			position = { x = -20 y = 210 }
-			font = "aldrich_16_outline"
-			text = "getBaronAngerVNH"
+			position = { x = 241 y = 210 }
+			font = "aldrich_20_outline"
+			text = [getBaronAngerVNH]
 			format = center
 		}
 	}

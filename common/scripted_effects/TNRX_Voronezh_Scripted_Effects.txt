@@ -1,0 +1,365 @@
+# 
+# Voronezh Scripted Effects
+# 
+
+VNH_clamp_support_variables = {
+	clamp_variable = { var = VNH_con_dem_support min = 0 max = 100 }
+	clamp_variable = { var = VNH_lib_dem_support min = 0 max = 100 }
+	clamp_variable = { var = VNH_soc_dem_support min = 0 max = 100 }
+	clamp_variable = { var = VNH_industrialists_support min = 0 max = 100 }
+	clamp_variable = { var = VNH_lib_dem_power min = 0 max = 100 }
+	clamp_variable = { var = VNH_con_dem_power min = 0 max = 100 }
+	clamp_variable = { var = VNH_soc_dem_power min = 0 max = 100 }
+	clamp_variable = { var = VNH_auth_dem_power min = 0 max = 100 }
+}
+
+VNH_clamp_corruption_variables = {
+	clamp_variable = { var = VNH_Corruption_Value min = 0 max = 100 }
+	clamp_variable = { var = VNH_Anger_Value min = 0 max = 100 }
+}
+
+### Corruption Effects
+
+VNH_Corruption_Add_Small = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value < 96 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Add_Small_tt
+		add_to_variable = { var = VNH_Corruption_Value value = 5 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Corruption_Value = 100 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Add_No_More_tt
+	}
+}
+
+VNH_Corruption_Add_Medium = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value < 91 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Add_Medium_tt
+		add_to_variable = { var = VNH_Corruption_Value value = 10 }
+	}
+	else_if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value > 94 }
+			NOT = {
+				check_variable = { VNH_Corruption_Value = 100 }
+			}
+		}
+		custom_effect_tooltip = VNH_Corruption_Add_Medium_tt
+		hidden_effect = {
+			VNH_Corruption_Add_Small = yes
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Corruption_Value = 100 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Add_No_More_tt
+	}
+}
+
+VNH_Corruption_Add_Large = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value < 86 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Add_Large_tt
+		add_to_variable = { var = VNH_Corruption_Value value = 15 }
+	}
+	else_if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value > 89 }
+			NOT = {
+				check_variable = { VNH_Corruption_Value = 100 }
+			}
+		}
+		custom_effect_tooltip = VNH_Corruption_Add_Large_tt
+		hidden_effect = {
+			VNH_Corruption_Add_Medium = yes
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Corruption_Value = 100 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Add_No_More_tt
+	}
+}
+
+VNH_Corruption_Lose_Small = {
+	if = {
+		limit = {
+			check_variable = { VNH_Corruption_Value > 4 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Lose_Small_tt
+		add_to_variable = { var = VNH_Corruption_Value value = -5 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Corruption_Value = 0 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Lose_No_More_tt
+	}
+}
+
+VNH_Corruption_Lose_Medium = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value > 9 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Lose_Medium_tt
+		add_to_variable = { var = VNH_Corruption_Value value = -10 }
+	}
+	else_if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value < 6 }
+			NOT = {
+				check_variable = { VNH_Corruption_Value = 0 }
+			}
+		}
+		custom_effect_tooltip = VNH_Corruption_Lose_Medium_tt
+		hidden_effect = {
+			VNH_Corruption_Lose_Small = yes
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Corruption_Value = 0 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Lose_No_More_tt
+	}
+}
+
+VNH_Corruption_Lose_Large = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value > 14 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Lose_Large_tt
+		add_to_variable = { var = VNH_Corruption_Value value = -15 }
+	}
+	else_if = {
+		limit = {
+			check_variable =  { VNH_Corruption_Value < 11 }
+			NOT = {
+				check_variable = { VNH_Corruption_Value = 0 }
+			}
+		}
+		custom_effect_tooltip = VNH_Corruption_Lose_Large_tt
+		hidden_effect = {
+			VNH_Corruption_Lose_Medium = yes
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Corruption_Value = 0 }
+		}
+		custom_effect_tooltip = VNH_Corruption_Lose_No_More_tt
+	}
+}
+
+
+### Anger effects
+
+VNH_Anger_Add_Small = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value < 96 }
+		}
+		custom_effect_tooltip = VNH_Anger_Add_Small_tt
+		add_to_variable = { var = VNH_Anger_Value value = 5 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Anger_Value = 100 }
+		}
+		custom_effect_tooltip = VNH_Anger_Add_No_More_tt
+	}
+}
+
+VNH_Anger_Add_Medium = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value < 91 }
+		}
+		custom_effect_tooltip = VNH_Anger_Add_Medium_tt
+		add_to_variable = { var = VNH_Anger_Value value = 10 }
+	}
+	else_if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value > 94 }
+			NOT = {
+				check_variable = { VNH_Anger_Value = 100 }
+			}
+		}
+		custom_effect_tooltip = VNH_Anger_Add_Medium_tt
+		hidden_effect = {
+			VNH_Anger_Add_Small = yes
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Anger_Value = 100 }
+		}
+		custom_effect_tooltip = VNH_Anger_Add_No_More_tt
+	}
+}
+
+VNH_Anger_Add_Large = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value < 86 }
+		}
+		custom_effect_tooltip = VNH_Anger_Add_Large_tt
+		add_to_variable = { var = VNH_Anger_Value value = 15 }
+	}
+	else_if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value > 89 }
+			NOT = {
+				check_variable = { VNH_Anger_Value = 100 }
+			}
+		}
+		custom_effect_tooltip = VNH_Anger_Add_Large_tt
+		hidden_effect = {
+			VNH_Anger_Add_Medium = yes
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Anger_Value = 100 }
+		}
+		custom_effect_tooltip = VNH_Anger_Add_No_More_tt
+	}
+}
+
+VNH_Anger_Lose_Small = {
+	if = {
+		limit = {
+			check_variable = { VNH_Anger_Value > 4 }
+		}
+		custom_effect_tooltip = VNH_Anger_Lose_Small_tt
+		add_to_variable = { var = VNH_Anger_Value value = -5 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Anger_Value = 0 }
+		}
+		custom_effect_tooltip = VNH_Anger_Lose_No_More_tt
+	}
+}
+
+VNH_Anger_Lose_Medium = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value > 9 }
+		}
+		custom_effect_tooltip = VNH_Anger_Lose_Medium_tt
+		add_to_variable = { var = VNH_Anger_Value value = -10 }
+	}
+	else_if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value < 6 }
+			NOT = {
+				check_variable = { VNH_Anger_Value = 0 }
+			}
+		}
+		custom_effect_tooltip = VNH_Anger_Lose_Medium_tt
+		hidden_effect = {
+			VNH_Anger_Lose_Small = yes
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Anger_Value = 0 }
+		}
+		custom_effect_tooltip = VNH_Anger_Lose_No_More_tt
+	}
+}
+
+VNH_Anger_Lose_Large = {
+	if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value > 14 }
+		}
+		custom_effect_tooltip = VNH_Anger_Lose_Large_tt
+		add_to_variable = { var = VNH_Anger_Value value = -15 }
+	}
+	else_if = {
+		limit = {
+			check_variable =  { VNH_Anger_Value < 11 }
+			NOT = {
+				check_variable = { VNH_Anger_Value = 0 }
+			}
+		}
+		custom_effect_tooltip = VNH_Anger_Lose_Large_tt
+		hidden_effect = {
+			VNH_Anger_Lose_Medium = yes
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { VNH_Anger_Value = 0 }
+		}
+		custom_effect_tooltip = VNH_Anger_Lose_No_More_tt
+	}
+}
+
+
+### Corruption/anger modifier checks
+
+VNH_corruption_anger_idea_variables = {
+# Corruption Consumer Goods
+	set_temp_variable = { corruption_number_consumer_goods = VNH_Corruption_Value }
+	subtract_from_temp_variable = { corruption_number_consumer_goods = 30 }
+	divide_temp_variable = { corruption_number_consumer_goods = 250 }
+	set_variable = { var = VNH_Corruption_consumer_goods_factor value = corruption_number_consumer_goods }
+
+# Corruption Political Power
+	set_temp_variable = { corruption_number_political_power_cost = VNH_Corruption_Value }
+	subtract_from_temp_variable = { corruption_number_political_power_cost = 45 }
+	divide_temp_variable = { corruption_number_political_power_cost = 25 }
+	set_variable = { var = VNH_Corruption_political_power_cost value = corruption_number_political_power_cost }
+
+# Anger Production Efficiency Gain
+	set_temp_variable = { anger_number_production_gain = VNH_Anger_Value }
+	subtract_from_temp_variable = { anger_number_production_gain = 60 }
+	divide_temp_variable = { anger_number_production_gain = 125 }
+	multiply_temp_variable = { anger_number_production_gain = -1 }
+	set_variable = { var = VNH_Anger_production_factory_efficiency_gain_factor value = anger_number_production_gain }
+
+# Anger Production Efficiency Max
+	set_temp_variable = { anger_number_production_max = VNH_Anger_Value }
+	subtract_from_temp_variable = { anger_number_production_max = 20 }
+	divide_temp_variable = { anger_number_production_max = 250 }
+	multiply_temp_variable = { anger_number_production_max = -1 }
+	set_variable = { var = VNH_Anger_production_factory_max_efficiency_factor value = anger_number_production_max }
+
+# Anger Production Efficiency Base
+	set_temp_variable = { anger_number_production_based = VNH_Anger_Value }
+	subtract_from_temp_variable = { anger_number_production_based = 35 }
+	divide_temp_variable = { anger_number_production_based = 500 }
+	multiply_temp_variable = { anger_number_production_based = -1 }
+	set_variable = { var = VNH_Anger_production_factory_start_efficiency_factor value = anger_number_production_based }
+
+# Anger Production Efficiency Retention
+	set_temp_variable = { anger_number_production_retention = VNH_Anger_Value }
+	subtract_from_temp_variable = { anger_number_production_retention = 50 }
+	divide_temp_variable = { anger_number_production_retention = 250 }
+	multiply_temp_variable = { anger_number_production_retention = -1 }
+	set_variable = { var = VNH_Anger_line_change_production_efficiency_factor value = anger_number_production_retention }
+
+# Anger Construction Speed
+	set_temp_variable = { anger_number_construction_speed = VNH_Anger_Value }
+	subtract_from_temp_variable = { anger_number_construction_speed = 15 }
+	divide_temp_variable = { anger_number_construction_speed = 125 }
+	multiply_temp_variable = { anger_number_construction_speed = -1 }
+	set_variable = { var = VNH_Anger_production_speed_buildings_factor value = anger_number_construction_speed }
+
+}

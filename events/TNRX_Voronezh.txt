@@ -4,14 +4,14 @@
 #| | | |/ _ \| '__/ _ \| '_ \ / _ \_  / '_ \  |  __\ \ / / _ \ '_ \| __/ __|
 #\ \_/ / (_) | | | (_) | | | |  __// /| | | | | |___\ V /  __/ | | | |_\__ \
 # \___/ \___/|_|  \___/|_| |_|\___/___|_| |_| \____/ \_/ \___|_| |_|\__|___/
-#By PrussianBlu
+#
 
 add_namespace = VNH_initial
 add_namespace = VNH_debug
 add_namespace = VNH
 
 country_event = {
-	id = VNH_debug.1
+	id = VNH_debug.1 #Initiate Mechanic
 	title = VNH_debug.1.t
 	desc = VNH_debug.1.desc
 	picture = GFX_report_event_russian_fascists_harbin
@@ -21,7 +21,86 @@ country_event = {
 	option = {
 		name = VNH_debug.1.a
 		ai_chance = { factor = 1 }
+		custom_effect_tooltip = VNH_debug.1_tt
 		set_country_flag = VNH_Corruption_Mechanic
+		add_dynamic_modifier = { modifier = VNH_Corruption_Modifier }
+		add_dynamic_modifier = { modifier = VNH_Anger_Modifier }
+	}
+	option = {
+		name = VNH_debug.1.b
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_debug.2 # Sets sliders to 50
+	title = VNH_debug.2.t
+	desc = VNH_debug.2.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_debug.2.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = VNH_debug.2_tt
+		set_variable = {var = VNH_Corruption_Value value = 50 }
+		set_variable = {var = VNH_Anger_Value value = 50 }
+	}
+	option = {
+		name = VNH_debug.2.b
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_debug.3 #refresh modifiers
+	title = VNH_debug.3.t
+	desc = VNH_debug.3.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_debug.3.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = VNH_debug.3_tt
+		VNH_corruption_anger_idea_variables = yes
+	}
+	option = {
+		name = VNH_debug.3.b
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_debug.4 #poop
+	title = VNH_debug.4.t
+	desc = VNH_debug.4.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_debug.4.a
+		ai_chance = { factor = 1 }
+		VNH_Corruption_Add_Large = yes
+		VNH_corruption_anger_idea_variables = yes
+	}
+	option = {
+		name = VNH_debug.4.b
+		ai_chance = { factor = 1 }
+		VNH_Anger_Add_Large = yes
+		VNH_corruption_anger_idea_variables = yes
+	}
+	option = {
+		name = VNH_debug.4.c
+		ai_chance = { factor = 1 }
+		VNH_Corruption_Lose_Large = yes
+		VNH_corruption_anger_idea_variables = yes
+	}
+	option = {
+		name = VNH_debug.4.d
+		ai_chance = { factor = 1 }
+		VNH_Anger_Lose_Large = yes
+		VNH_corruption_anger_idea_variables = yes
 	}
 }
 
@@ -36,6 +115,10 @@ country_event = {
 	option = {
 		name = VNH_initial.1.a
 		ai_chance = { factor = 1 }
+		set_country_flag = VNH_Corruption_Mechanic
+		add_dynamic_modifier = { modifier = VNH_Corruption_Modifier }
+		add_dynamic_modifier = { modifier = VNH_Anger_Modifier }
+		VNH_corruption_anger_idea_variables = yes
 	}
 }
 
