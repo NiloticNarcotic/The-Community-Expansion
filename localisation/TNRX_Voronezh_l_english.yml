@@ -88,6 +88,7 @@
  VNH_Anger_Lose_Medium_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Cmedium§!§W amount!§!"
  VNH_Anger_Lose_Large_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Glarge§!§W amount!§!"
  VNH_Anger_Lose_No_More_tt:0 "§GThe industrialists are already as little §!§R"Angry"§!§G as they can be with us!§!"
+ VNH_initial.1_tt:0 "§YThe corruption and anger mechanics will now be unlocked!§!"
  
  ### Ideas ###
  VNH_Little_Corruption_idea:0 "Corruption: §SLow§!"
@@ -164,7 +165,7 @@
  VNH_Expel_the_SS_from_Russia:0"Expel The SS From Russia!"
  VNH_Kick_out_the_reds:0"Kick Out The Reds!"
  VNH_Kill_the_tyrants:0"End The Tyrants"
- VNH_Kill_the_tyrants_tt:0"§THimmler won't be happy about this...§!§Y but who cares?§!"
+ VNH_Kill_the_tyrants_tt:0"§THimmler won't be happy about this...§!§O but who cares?§!"
  VNH_Where_did_Mkhitar_go:0"Where Did Mkhitar Go?..."
  VNH_Liberation_of_St_Petersburg:0"The Wehrmacht Has No Power Here!"
  VNH_Its_St_Petersburg:0"St. Petersburg, You German Swine!"

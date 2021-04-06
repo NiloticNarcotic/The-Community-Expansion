@@ -16,7 +16,7 @@ shared_focus = {# The First Council Meeting
 			id = VNH_initial.1 # Rainy Day In Voronezh
 			days = 1
 		}
-		#load_focus_tree = { tree = Voronezh_Tree_Two keep_completed = yes}
+		load_focus_tree = { tree = Voronezh_Tree_War keep_completed = yes}
 	}
 	x = 5
 	y = 0
@@ -278,7 +278,7 @@ shared_focus = {#
 			id = VNH_initial.13
 			days = 1
 		}
-	add_ideas = tno_tax_rate_no_taxation
+		tno_tax_rate_worsen = yes
 	}
 	x = 13
 	y = 4
@@ -342,7 +342,7 @@ shared_focus = {# Token Promises
 		}
 
 		completion_reward = {
-			add_ideas = tno_trade_unions_state_controlled
+			tno_trade_unions_improve = yes
 			add_political_power = 10
 		}
 		x = 7
@@ -410,6 +410,8 @@ shared_focus = {
 					level = 2
 					instant_build = yes
 				}
+			}
+			random_owned_state = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -431,11 +433,11 @@ shared_focus = {# New Training Programme
 		}
 
 		completion_reward = {
-			add_ideas = tno_training_combat_schooling
 			country_event = {
 				id = VNH_initial.5	#Brotherhood of Comrades 
 				days = 1
 			}
+			tno_training_improve = yes
 		}
 		x = 1
 		y = 5
@@ -476,13 +478,10 @@ shared_focus = {# Stimulate The Economy
 				days = 1
 			}
 			add_stability = 0.05
-			set_variable = { VNH_downfall_stability_factor = -0.10 }
-			set_variable = { VNH_downfall_consumer_goods_factor = 0.20 }
-			set_variable = { VNH_downfall_industrial_capacity_factory = -0.20 }
-			set_variable = { VNH_downfall_annual_gdp_growth_factor = -0.20 }
-			set_variable = { VNH_downfall_proportional_gdp_cost = 0.20 }
-			set_variable = { VNH_downfall_production_speed_buildings_factor = -0.20 }
-			custom_effect_tooltip = VNH_Stimulate_the_economy_TT
+			swap_ideas = {
+				add_idea = VNH_Downfall_2
+				remove_idea = VNH_Downfall_1
+			}
 		}
 		x = 9
 		y = 5
@@ -559,11 +558,8 @@ shared_focus = { # An Unfortunate Truth ######### NEED TO ADD TOOLTIP
 			id = VNH.2 # A Simple News Article
 			days = 1
 		}
-		add_to_variable = {
-			var = VNH_Corruption_Value
-			value = -10
-		}
-		add_ideas = tno_press_rights_censored_press
+		VNH_Corruption_Lose_Medium = yes
+		tno_press_rights_improve = yes
 	}
 	x = 6
 	y = 1
@@ -587,14 +583,8 @@ shared_focus = { # But One that dosen't need solving ######### NEED TO ADD POPUL
 			id = VNH.3 # An Afternoon with the Industrialists
 			days = 1
 		}
-		add_to_variable = {
-			var = VNH_Corruption_Value
-			value = 5
-		}
-		add_to_variable = {
-			var = VNH_Anger_Value
-			value = -10
-		}
+		VNH_Corruption_Add_Small = yes
+		VNH_Anger_Lose_Medium = yes
 		add_to_variable = {
 			var = VNH_industrialists_support
 			value = 10
@@ -636,7 +626,8 @@ shared_focus = { # Mobilize the Reserves
 	cost = 2
 
 	prerequisite = {
-		focus = VNH_A_Speech_To_the_Masses
+		focus = VNH_unfortunate_truth
+		focus = VNH_but_one_that_dosent_need_solving
 	}
 
 	completion_reward = {
@@ -653,6 +644,9 @@ shared_focus = { # Mobilize the Reserves
 
 	prerequisite = {
 		focus = VNH_A_Speech_To_the_Masses
+	}
+	prerequisite = {
+		focus = VNH_mobilize_the_reserves
 	}
 
 	completion_reward = {
@@ -693,18 +687,12 @@ shared_focus = { # Mobilize the Reserves
 	cost = 2
 
 	prerequisite = {
-		focus = VNH_A_Speech_To_the_Masses
+		focus = VNH_mobilize_the_reserves
 	}
 
 	completion_reward = {
-		add_to_variable = {
-			var = VNH_Corruption_Value
-			value = 2
-		}
-		add_to_variable = {
-			var = VNH_Anger_Value
-			value = -25
-		}
+		VNH_Corruption_Add_Small = yes
+		VNH_Anger_Lose_Large = yes
 		add_to_variable = {
 			var = VNH_industrialists_support
 			value = 20
@@ -723,7 +711,13 @@ shared_focus = { # NOW THE REAL WORK BEGINS
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
 	prerequisite = {
-		focus = VNH_mobilize_the_reserves
+		focus = VNH_the_final_steps
+	}
+	prerequisite = {
+		focus = VNH_dig_german_stockpiles
+	}
+	prerequisite = {
+		focus = VNH_the_last_conversation
 	}
 	completion_reward = {
 		country_event = {
@@ -1514,7 +1508,7 @@ shared_focus = { #Liberation of St Petersburg
 shared_focus = { #Victory at last
 	id = VNH_Its_St_Petersburg
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
+	cost = 1
 
 	prerequisite = {
 		focus = VNH_Liberation_of_St_Petersburg

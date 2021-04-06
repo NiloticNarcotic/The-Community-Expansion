@@ -18,5 +18,23 @@ ideas = {
 				production_speed_buildings_factor = -0.4
 			}
 		}
+		VNH_Downfall_2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_generic_coins
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.10
+				consumer_goods_factor = 0.2
+				annual_gdp_growth_factor = -0.2
+				proportional_gdp_cost = 0.2
+				production_speed_buildings_factor = -0.2
+			}
+		}
 	}
 }

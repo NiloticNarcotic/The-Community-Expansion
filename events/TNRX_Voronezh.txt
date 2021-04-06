@@ -115,9 +115,12 @@ country_event = {
 	option = {
 		name = VNH_initial.1.a
 		ai_chance = { factor = 1 }
+		custom_effect_tooltip = VNH_initial.1_tt
 		set_country_flag = VNH_Corruption_Mechanic
 		add_dynamic_modifier = { modifier = VNH_Corruption_Modifier }
 		add_dynamic_modifier = { modifier = VNH_Anger_Modifier }
+		set_variable = {var = VNH_Corruption_Value value = 40 }
+		set_variable = {var = VNH_Anger_Value value = 20 } 
 		VNH_corruption_anger_idea_variables = yes
 	}
 }
