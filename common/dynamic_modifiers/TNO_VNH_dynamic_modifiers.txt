@@ -26,7 +26,7 @@ VNH_Anger_Modifier = {
 	
 	production_factory_efficiency_gain_factor = VNH_Anger_production_factory_efficiency_gain_factor
 	production_factory_max_efficiency_factor = VNH_Anger_production_factory_max_efficiency_factor
-	production_factory_start_efficiency_factor = VNH_Anger_production_factory_start_efficiency_factor
-	line_change_production_efficiency_factor = VNH_Anger_line_change_production_efficiency_factor
 	production_speed_buildings_factor = VNH_Anger_production_speed_buildings_factor
+	consumer_goods_factor = VNH_Anger_consumer_goods_factor
+	local_resources_factor = VNH_Anger_resource_gain_factor
 }

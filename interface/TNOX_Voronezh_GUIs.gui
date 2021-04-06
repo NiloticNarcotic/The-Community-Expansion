@@ -30,21 +30,30 @@ guiTypes = {
 		iconType = {
 			name = "VNH_Corruption_control_bar_Frame"
 			spriteType = "GFX_Voronezh_control_bar_bg"
-			position = { x = 48 y = 93 }
+			position = { x = 58 y = 93 }
 		}
 		iconType = {
 			name = "VNH_Corruption_control_bar"
 			spriteType = "GFX_VNH_control_bar_corruption"
 			pdx_tooltip = "VNH_Corruption_bar"
 			pdx_tooltip_delayed = "VNH_Corruption_bar_desc"
-			position = { x = 51 y = 95 }
+			position = { x = 61 y = 95 }
 		}
 		instantTextBoxType = {
-			name = "VNH_Corruption_Description"
-			position = { x = 241 y = 210 }
+			name = "VNH_Corruption_Status"
+			position = { x = 90 y = 160 }
+			maxWidth = 300
 			font = "aldrich_20_outline"
 			text = [getcorruptionVNH]
 			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Corruption_Description"
+			position = { x = 60 y = 210 }
+			maxWidth = 360
+			font = "aldrich_18_outline"
+			text = "VNH_Corruption_Description_GUI_Text"
+			format = left
 		}
 	}
 
@@ -65,21 +74,30 @@ guiTypes = {
 		iconType = {
 			name = "VNH_anger_control_bar_Frame"
 			spriteType = "GFX_Voronezh_control_bar_bg"
-			position = { x = 48 y = 93 }
+			position = { x = 58 y = 93 }
 		}
 		iconType = {
 			name = "VNH_Anger_control_bar"
 			spriteType = "GFX_VNH_control_bar_anger"
 			pdx_tooltip = "VNH_anger_bar"
 			pdx_tooltip_delayed = "VNH_anger_bar_desc"
-			position = { x = 51 y = 95 }
+			position = { x = 61 y = 95 }
 		}
 		instantTextBoxType = {
-			name = "VNH_Anger_Description"
-			position = { x = 241 y = 210 }
+			name = "VNH_Anger_Status"
+			position = { x = 60 y = 160 }
+			maxWidth = 360
 			font = "aldrich_20_outline"
 			text = [getBaronAngerVNH]
 			format = center
+		}
+		instantTextBoxType = {
+			name = "VNH_Anger_Description"
+			position = { x = 60 y = 210 }
+			maxWidth = 360
+			font = "aldrich_18_outline"
+			text = "VNH_Anger_Description_GUI_Text"
+			format = left
 		}
 	}
 	containerWindowType = {

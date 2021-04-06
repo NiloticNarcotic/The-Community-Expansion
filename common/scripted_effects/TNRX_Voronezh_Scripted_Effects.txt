@@ -317,48 +317,63 @@ VNH_Anger_Lose_Large = {
 VNH_corruption_anger_idea_variables = {
 # Corruption Consumer Goods
 	set_temp_variable = { corruption_number_consumer_goods = VNH_Corruption_Value }
-	subtract_from_temp_variable = { corruption_number_consumer_goods = 30 }
+	subtract_from_temp_variable = { corruption_number_consumer_goods = 25 }
 	divide_temp_variable = { corruption_number_consumer_goods = 250 }
 	set_variable = { var = VNH_Corruption_consumer_goods_factor value = corruption_number_consumer_goods }
 
 # Corruption Political Power
 	set_temp_variable = { corruption_number_political_power_cost = VNH_Corruption_Value }
-	subtract_from_temp_variable = { corruption_number_political_power_cost = 45 }
-	divide_temp_variable = { corruption_number_political_power_cost = 25 }
+	subtract_from_temp_variable = { corruption_number_political_power_cost = 20 }
+	divide_temp_variable = { corruption_number_political_power_cost = 40 }
 	set_variable = { var = VNH_Corruption_political_power_cost value = corruption_number_political_power_cost }
 
 # Anger Production Efficiency Gain
 	set_temp_variable = { anger_number_production_gain = VNH_Anger_Value }
-	subtract_from_temp_variable = { anger_number_production_gain = 60 }
-	divide_temp_variable = { anger_number_production_gain = 125 }
+	subtract_from_temp_variable = { anger_number_production_gain = 25 }
+	divide_temp_variable = { anger_number_production_gain = 250 }
 	multiply_temp_variable = { anger_number_production_gain = -1 }
 	set_variable = { var = VNH_Anger_production_factory_efficiency_gain_factor value = anger_number_production_gain }
 
 # Anger Production Efficiency Max
 	set_temp_variable = { anger_number_production_max = VNH_Anger_Value }
-	subtract_from_temp_variable = { anger_number_production_max = 20 }
-	divide_temp_variable = { anger_number_production_max = 250 }
+	subtract_from_temp_variable = { anger_number_production_max = 15 }
+	divide_temp_variable = { anger_number_production_max = 150 }
 	multiply_temp_variable = { anger_number_production_max = -1 }
 	set_variable = { var = VNH_Anger_production_factory_max_efficiency_factor value = anger_number_production_max }
 
-# Anger Production Efficiency Base
-	set_temp_variable = { anger_number_production_based = VNH_Anger_Value }
-	subtract_from_temp_variable = { anger_number_production_based = 35 }
-	divide_temp_variable = { anger_number_production_based = 500 }
-	multiply_temp_variable = { anger_number_production_based = -1 }
-	set_variable = { var = VNH_Anger_production_factory_start_efficiency_factor value = anger_number_production_based }
+# Anger Resource Gain
+	set_temp_variable = { anger_number_resource_gain = VNH_Anger_Value }
+	subtract_from_temp_variable = { anger_number_resource_gain = 60 }
+	divide_temp_variable = { anger_number_resource_gain = 100 }
+	multiply_temp_variable = { anger_number_resource_gain = -1 }
+	if = {
+		limit = {
+			check_variable = { VNH_Anger_Value < 61 }
+		}
+		set_variable = { var = VNH_Anger_resource_gain_factor value = 0 }
+	}
+	else = {
+		set_variable = { var = VNH_Anger_resource_gain_factor value = anger_number_resource_gain }
+	}
 
-# Anger Production Efficiency Retention
-	set_temp_variable = { anger_number_production_retention = VNH_Anger_Value }
-	subtract_from_temp_variable = { anger_number_production_retention = 50 }
-	divide_temp_variable = { anger_number_production_retention = 250 }
-	multiply_temp_variable = { anger_number_production_retention = -1 }
-	set_variable = { var = VNH_Anger_line_change_production_efficiency_factor value = anger_number_production_retention }
+# Anger Consumer Goods
+	set_temp_variable = { anger_number_consumer_goods = VNH_Anger_Value }
+	subtract_from_temp_variable = { anger_number_consumer_goods = 25 }
+	divide_temp_variable = { anger_number_consumer_goods = 250 }
+	if = {
+		limit = {
+			check_variable = { VNH_Anger_Value < 31 }
+		}
+		set_variable = { var = VNH_Anger_consumer_goods_factor value = 0 }
+	}
+	else = {
+		set_variable = { var = VNH_Anger_consumer_goods_factor value = anger_number_consumer_goods }
+	}
 
 # Anger Construction Speed
 	set_temp_variable = { anger_number_construction_speed = VNH_Anger_Value }
-	subtract_from_temp_variable = { anger_number_construction_speed = 15 }
-	divide_temp_variable = { anger_number_construction_speed = 125 }
+	subtract_from_temp_variable = { anger_number_construction_speed = 10 }
+	divide_temp_variable = { anger_number_construction_speed = 100 }
 	multiply_temp_variable = { anger_number_construction_speed = -1 }
 	set_variable = { var = VNH_Anger_production_speed_buildings_factor value = anger_number_construction_speed }
 

@@ -2,31 +2,27 @@ defined_text = {
 	name = getcorruptionVNH
 	text = {
 		trigger = {
-			check_variable = {VNH_Corruption < 29}
+			check_variable = {VNH_Corruption_Value < 29}
 		}
 		localization_key = VNH_Corruption_Little
 	}
 	text = {
 		trigger = {
-			AND = {
-				check_variable = {VNH_Corruption < 69}
-				check_variable = {VNH_Corruption > 30}
-			}
+			check_variable = {VNH_Corruption_Value < 69}
+			check_variable = {VNH_Corruption_Value > 29}
 		}
 		localization_key = VNH_Corruption_Medium
 	}
 	text = {
 		trigger = {
-			AND = {
-				check_variable = {VNH_Corruption > 70}
-				check_variable = {VNH_Corruption < 89}
-			}
+			check_variable = {VNH_Corruption_Value > 69}
+			check_variable = {VNH_Corruption_Value < 89}
 		}
 		localization_key = VNH_Corruption_large
 	}
 	text = {
 		trigger = {
-			check_variable = {VNH_Corruption > 90}
+			check_variable = {VNH_Corruption_Value > 89}
 		}
 		localization_key = VNH_Corruption_Disastrous
 	}
@@ -35,31 +31,27 @@ defined_text = {
 	name = getBaronAngerVNH
 	text = {
 		trigger = {
-			check_variable = {VNH_Baron_Anger < 29}
+			check_variable = {VNH_Anger_Value < 29}
 		}
 		localization_key = VNH_Baron_anger_Little
 	}
 	text = {
 		trigger = {
-			AND = {
-				check_variable = {VNH_Baron_Anger < 69}
-				check_variable = {VNH_Baron_Anger > 30}
-			}
+			check_variable = {VNH_Anger_Value < 69}
+			check_variable = {VNH_Anger_Value > 29}
 		}
 		localization_key = VNH_Baron_anger_Medium
 	}
 	text = {
 		trigger = {
-			AND = {
-				check_variable = {VNH_Baron_Anger > 70}
-				check_variable = {VNH_Baron_Anger < 89}
-			}
+			check_variable = {VNH_Anger_Value > 69}
+			check_variable = {VNH_Anger_Value < 89}
 		}
 		localization_key = VNH_Baron_anger_large
 	}
 	text = {
 		trigger = {
-			check_variable = {VNH_Baron_Anger > 90}
+			check_variable = {VNH_Anger_Value > 89}
 		}
 		localization_key = VNH_Baron_anger_Disastrous
 	}
