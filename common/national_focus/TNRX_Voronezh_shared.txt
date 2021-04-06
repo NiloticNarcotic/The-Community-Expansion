@@ -16,7 +16,7 @@ shared_focus = {# The First Council Meeting
 			id = VNH_initial.1 # Rainy Day In Voronezh
 			days = 1
 		}
-		load_focus_tree = { tree = Voronezh_Tree_War keep_completed = yes}
+		load_focus_tree = { tree = Voronezh_Tree_Two keep_completed = yes}
 	}
 	x = 5
 	y = 0
@@ -560,6 +560,7 @@ shared_focus = { # An Unfortunate Truth ######### NEED TO ADD TOOLTIP
 		}
 		VNH_Corruption_Lose_Medium = yes
 		tno_press_rights_improve = yes
+		VNH_corruption_anger_idea_variables = yes
 	}
 	x = 6
 	y = 1
@@ -585,6 +586,7 @@ shared_focus = { # But One that dosen't need solving ######### NEED TO ADD POPUL
 		}
 		VNH_Corruption_Add_Small = yes
 		VNH_Anger_Lose_Medium = yes
+		VNH_corruption_anger_idea_variables = yes
 		add_to_variable = {
 			var = VNH_industrialists_support
 			value = 10
@@ -593,7 +595,7 @@ shared_focus = { # But One that dosen't need solving ######### NEED TO ADD POPUL
 			var = VNH_auth_dem_power
 			value = 10
 		}
-		custom_effect_tooltip = VNH_unfortunate_truth_TT
+		custom_effect_tooltip = VNH_but_one_that_dosent_need_solving_tt
 	}
 	x = 10
 	y = 1
@@ -693,6 +695,7 @@ shared_focus = { # Mobilize the Reserves
 	completion_reward = {
 		VNH_Corruption_Add_Small = yes
 		VNH_Anger_Lose_Large = yes
+		VNH_corruption_anger_idea_variables = yes
 		add_to_variable = {
 			var = VNH_industrialists_support
 			value = 20
