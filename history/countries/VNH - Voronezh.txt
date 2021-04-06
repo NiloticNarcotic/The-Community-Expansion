@@ -57,6 +57,8 @@ add_ideas = {
 	tno_agriculture_mass_mechanized
 	tno_research_facilities_outdated
 	tno_academic_base_basic_literacy
+	### IDEAS ###
+	VNH_Downfall_1
 }
 
 set_technology = {

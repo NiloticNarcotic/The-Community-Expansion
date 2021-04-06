@@ -2,17 +2,6 @@
  # Voronezh Dynamic Modfiers #
  #############################
 
-TNOx_VNH_Downfall = {
-	icon = "GFX_idea_CRN_Reliance_On_the_Fatherland_Icon"
-	enable = { always = yes }
-	
-	stability_factor = VNH_downfall_stability_factor
-	production_speed_buildings_factor = VNH_downfall_production_speed_buildings_factor
-	consumer_goods_factor = VNH_downfall_consumer_goods_factor
-	industrial_capacity_factory = VNH_downfall_industrial_capacity_factory
-	annual_gdp_growth_factor = VNH_downfall_annual_gdp_growth_factor
-	proportional_gdp_cost = VNH_downfall_proportional_gdp_cost
-}
 VNH_Corruption_Modifier = {
 	icon = "GFX_idea_CRN_Reliance_On_the_Fatherland_Icon"
 	enable = { always = yes }
