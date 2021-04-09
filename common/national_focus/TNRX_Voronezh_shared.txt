@@ -16,7 +16,7 @@ shared_focus = {# The First Council Meeting
 			id = VNH_initial.1 # Rainy Day In Voronezh
 			days = 1
 		}
-		load_focus_tree = { tree = Voronezh_Tree_Two keep_completed = yes}
+		#load_focus_tree = { tree = Voronezh_Tree_War keep_completed = yes}
 	}
 	x = 5
 	y = 0
