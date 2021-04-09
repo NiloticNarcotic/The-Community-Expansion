@@ -426,6 +426,9 @@ country_event = { #demilitarization
 		401 = {
 			set_demilitarized_zone = yes
 		}
+		239 = {
+			set_demilitarized_zone = yes
+		}
 		hidden_effect = {
 			VLG = {
 				country_event = {
@@ -484,7 +487,7 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #chungus disapproves
+	option = { 
 		name = VLG.8.a
 		ai_chance = { factor = 1 }
 		BBB = {
@@ -499,8 +502,11 @@ country_event = {
 		401 = {
 			set_demilitarized_zone = no
 		}
+		239 = {
+			set_demilitarized_zone = no
+		}
 	}
-	option = { #chungus approves
+	option = { 
 		name = VLG.8.b
 		ai_chance = { factor = 0 }
 		BBB = {
