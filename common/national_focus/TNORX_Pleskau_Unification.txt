@@ -8,8 +8,8 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 50 y = 1000 }
-	
+	continuous_focus_position = { x = 2000 y = 2000 }
+
 	focus = {
 		id = PSK_scorched_by_the_sun
 		icon = GFX_goal_unknown
@@ -18,9 +18,6 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -28,7 +25,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_refining_our_methods
 		icon = GFX_goal_unknown
@@ -38,9 +34,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_scorched_by_the_sun }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -48,7 +41,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_new_officer_corp
 		icon = GFX_goal_unknown
@@ -57,10 +49,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_scorched_by_the_sun }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_scorched_by_the_sun } 
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -68,7 +57,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_the_black_cats
 		icon = GFX_goal_unknown
@@ -79,9 +67,6 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_refining_our_methods }
 		prerequisite = { focus = PSK_new_officer_corp }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -89,7 +74,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_the_black_skies
 		icon = GFX_goal_unknown
@@ -99,9 +83,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_black_cats }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -109,7 +90,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_a_question_of_purity
 		icon = GFX_goal_unknown
@@ -119,9 +99,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_black_skies }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -129,7 +106,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_speib_boran
 		icon = GFX_goal_unknown
@@ -139,9 +115,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_a_question_of_purity }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -149,7 +122,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_the_winding_road
 		icon = GFX_goal_unknown
@@ -159,9 +131,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -169,7 +138,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_a_rebellious_east
 		icon = GFX_goal_unknown
@@ -179,9 +147,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -189,7 +154,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_purging_the_spectre
 		icon = GFX_goal_unknown
@@ -199,9 +163,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -209,7 +170,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_contest_brauschichstadt_leadership
 		icon = GFX_goal_unknown
@@ -218,10 +178,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_the_winding_road }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_the_winding_road }	   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -229,7 +186,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_dealing_with_kaminski
 		icon = GFX_goal_unknown
@@ -239,9 +195,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_a_rebellious_east }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -249,7 +202,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_dinner_with_von_saucken
 		icon = GFX_goal_unknown
@@ -258,10 +210,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_contest_brauschichstadt_leadership }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_contest_brauschichstadt_leadership }   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -269,7 +218,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_end_to_wehrmacht_jewry
 		icon = GFX_goal_unknown
@@ -278,10 +226,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_contest_brauschichstadt_leadership }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_contest_brauschichstadt_leadership } 
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -289,7 +234,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_put_them_to_work
 		icon = GFX_goal_unknown
@@ -299,9 +243,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_purging_the_spectre }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -309,7 +250,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_a_step_into_the_past
 		icon = GFX_goal_unknown
@@ -318,10 +258,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_purging_the_spectre }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_purging_the_spectre }   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -329,7 +266,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_purge_the_rot
 		icon = GFX_goal_unknown
@@ -338,10 +274,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_purging_the_spectre }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_purging_the_spectre }   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -349,7 +282,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_treytarovs_trip
 		icon = GFX_goal_unknown
@@ -358,10 +290,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_dealing_with_kaminski }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_dealing_with_kaminski } 
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -369,7 +298,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_end_to_kaminsky_delusion
 		icon = GFX_goal_unknown
@@ -378,10 +306,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_dealing_with_kaminski }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_dealing_with_kaminski } 
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -389,7 +314,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_great_expectations
 		icon = GFX_goal_unknown
@@ -399,9 +323,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_dinner_with_von_saucken }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -409,7 +330,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_out_of_frying_pan
 		icon = GFX_goal_unknown
@@ -420,9 +340,6 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_great_expectations }
 		prerequisite = { focus = PSK_end_to_wehrmacht_jewry }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -430,7 +347,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_traitors_different_kind
 		icon = GFX_goal_unknown
@@ -440,9 +356,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_treytarovs_trip }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -450,7 +363,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_shot_in_the_dark
 		icon = GFX_goal_unknown
@@ -461,9 +373,6 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_traitors_different_kind }
 		prerequisite = { focus = PSK_end_to_kaminsky_delusion }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -471,7 +380,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_drauf_und_dran
 		icon = GFX_goal_unknown
@@ -484,9 +392,6 @@ focus_tree = {
 		prerequisite = { focus = PSK_shot_in_the_dark }
 		prerequisite = { focus = PSK_put_them_to_work }
 		prerequisite = { focus = PSK_purge_the_rot }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -494,7 +399,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_the_best_laid_plans
 		icon = GFX_goal_unknown
@@ -503,10 +407,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_drauf_und_dran }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_drauf_und_dran }  
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -514,7 +415,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_memories_of_forty_one
 		icon = GFX_goal_unknown
@@ -523,10 +423,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_the_best_laid_plans }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_the_best_laid_plans }	   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -534,7 +431,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_lichter_aus
 		icon = GFX_goal_unknown
@@ -543,10 +439,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_memories_of_forty_one }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_memories_of_forty_one }   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -554,7 +447,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_deal_with_devil
 		icon = GFX_goal_unknown
@@ -564,10 +456,7 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }
-		mutually_exclusive = { focus = PSK_through_cold_lenses }
-		 
-		  
-		   
+		mutually_exclusive = { focus = PSK_through_cold_lenses }  
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -575,7 +464,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_through_cold_lenses
 		icon = GFX_goal_unknown
@@ -585,10 +473,7 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }
-		mutually_exclusive = { focus = PSK_deal_with_devil }
-		 
-		  
-		   
+		mutually_exclusive = { focus = PSK_deal_with_devil }   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -596,7 +481,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_to_their_dying_breath
 		icon = GFX_goal_unknown
@@ -605,10 +489,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_lichter_aus }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_lichter_aus }  
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -616,7 +497,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_no_where_left_to_flee
 		icon = GFX_goal_unknown
@@ -630,10 +510,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PSK_deal_with_devil
 			focus = PSK_through_cold_lenses
-		}
-		 
-		  
-		   
+		}  
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -641,7 +518,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_all_bandits_share_same_fate
 		icon = GFX_goal_unknown
@@ -651,9 +527,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_to_their_dying_breath }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -661,7 +534,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_a_useful_puppet
 		icon = GFX_goal_unknown
@@ -671,10 +543,7 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_no_where_left_to_flee }
-		mutually_exclusive = { focus = PSK_the_only_use_traitors }
-		 
-		  
-		   
+		mutually_exclusive = { focus = PSK_the_only_use_traitors }  
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -682,7 +551,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_the_only_use_traitors
 		icon = GFX_goal_unknown
@@ -692,10 +560,7 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_no_where_left_to_flee }
-		mutually_exclusive = { focus = PSK_a_useful_puppet }
-		 
-		  
-		   
+		mutually_exclusive = { focus = PSK_a_useful_puppet }   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -703,7 +568,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_volksdeutsch_vereinigt
 		icon = GFX_goal_unknown
@@ -715,10 +579,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PSK_a_useful_puppet
 			focus = PSK_the_only_use_traitors
-		}
-		 
-		  
-		   
+		}   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -726,7 +587,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_fall_schwarz
 		icon = GFX_goal_unknown
@@ -735,10 +595,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_volksdeutsch_vereinigt }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_volksdeutsch_vereinigt }  
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -746,7 +603,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_es_ist_aus
 		icon = GFX_goal_unknown
@@ -755,10 +611,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_fall_schwarz }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_fall_schwarz } 
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -766,7 +619,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	### Economy ###
 	focus = {
 		id = PSK_aktion_odilo
@@ -776,9 +628,6 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -786,7 +635,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_the_blank_check
 		icon = GFX_goal_unknown
@@ -796,9 +644,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_aktion_odilo }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -806,7 +651,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_make_use_our_lands
 		icon = GFX_goal_unknown
@@ -816,9 +660,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -826,7 +667,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_make_use_our_labor
 		icon = GFX_goal_unknown
@@ -836,9 +676,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -846,7 +683,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_scour_the_countryside
 		icon = GFX_goal_unknown
@@ -856,9 +692,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -866,7 +699,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_reopen_scrapyards
 		icon = GFX_goal_unknown
@@ -875,10 +707,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_make_use_our_lands }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_make_use_our_lands }   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -886,7 +715,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_no_stone_unturned
 		icon = GFX_goal_unknown
@@ -895,10 +723,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_make_use_our_labor }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_make_use_our_labor } 
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -906,7 +731,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_inviting_advisors
 		icon = GFX_goal_unknown
@@ -916,9 +740,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_scour_the_countryside }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -926,7 +747,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_pure_administration
 		icon = GFX_goal_unknown
@@ -936,9 +756,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_reopen_scrapyards }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -946,7 +763,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_officers_the_camps
 		icon = GFX_goal_unknown
@@ -955,10 +771,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		prerequisite = { focus = PSK_no_stone_unturned }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_no_stone_unturned } 
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -966,7 +779,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_dark_clouds
 		icon = GFX_goal_unknown
@@ -976,9 +788,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_pure_administration }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -986,7 +795,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_black_state_of_east
 		icon = GFX_goal_unknown
@@ -996,9 +804,6 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_officers_the_camps }
-		 
-		  
-		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -1006,7 +811,6 @@ focus_tree = {
         ai_will_do = {
 		}
     }
-	
 	focus = {
 		id = PSK_best_yet_come
 		icon = GFX_goal_unknown
@@ -1017,16 +821,12 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_inviting_advisors }
 		prerequisite = { focus = PSK_dark_clouds }
-		prerequisite = { focus = PSK_black_state_of_east }
-		 
-		  
-		   
+		prerequisite = { focus = PSK_black_state_of_east }  
 		completion_reward = {
 			hidden_effect = {		
 			}
 		}
         ai_will_do = {
 		}
-    }
-	
+    }	
 }
