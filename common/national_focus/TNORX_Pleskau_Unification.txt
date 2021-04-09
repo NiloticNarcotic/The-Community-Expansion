@@ -18,9 +18,9 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -38,9 +38,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_scorched_by_the_sun }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -58,9 +58,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_scorched_by_the_sun }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -79,9 +79,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_refining_our_methods }
 		prerequisite = { focus = PSK_new_officer_corp }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -99,9 +99,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_black_cats }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -119,9 +119,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_black_skies }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -139,9 +139,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_a_question_of_purity }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -159,9 +159,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -179,9 +179,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -199,9 +199,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -219,9 +219,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_winding_road }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -239,9 +239,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_a_rebellious_east }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -259,9 +259,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_contest_brauschichstadt_leadership }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -279,9 +279,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_contest_brauschichstadt_leadership }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -299,9 +299,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_purging_the_spectre }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -319,9 +319,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_purging_the_spectre }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -339,9 +339,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_purging_the_spectre }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -359,9 +359,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_dealing_with_kaminski }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -379,9 +379,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_dealing_with_kaminski }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -399,9 +399,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_dinner_with_von_saucken }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -420,9 +420,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_great_expectations }
 		prerequisite = { focus = PSK_end_to_wehrmacht_jewry }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -440,9 +440,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_treytarovs_trip }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -461,9 +461,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_traitors_different_kind }
 		prerequisite = { focus = PSK_end_to_kaminsky_delusion }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -484,9 +484,9 @@ focus_tree = {
 		prerequisite = { focus = PSK_shot_in_the_dark }
 		prerequisite = { focus = PSK_put_them_to_work }
 		prerequisite = { focus = PSK_purge_the_rot }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -504,9 +504,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_drauf_und_dran }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -524,9 +524,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_best_laid_plans }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -544,9 +544,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_memories_of_forty_one }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -565,9 +565,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }
 		mutually_exclusive = { focus = PSK_through_cold_lenses }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -586,9 +586,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }
 		mutually_exclusive = { focus = PSK_deal_with_devil }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -606,9 +606,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -631,9 +631,9 @@ focus_tree = {
 			focus = PSK_deal_with_devil
 			focus = PSK_through_cold_lenses
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -651,9 +651,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_to_their_dying_breath }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -672,9 +672,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_no_where_left_to_flee }
 		mutually_exclusive = { focus = PSK_the_only_use_traitors }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -693,9 +693,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PSK_no_where_left_to_flee }
 		mutually_exclusive = { focus = PSK_a_useful_puppet }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -716,9 +716,9 @@ focus_tree = {
 			focus = PSK_a_useful_puppet
 			focus = PSK_the_only_use_traitors
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -736,9 +736,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_volksdeutsch_vereinigt }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -756,9 +756,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_fall_schwarz }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -776,9 +776,9 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 5
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -796,9 +796,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_aktion_odilo }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -816,9 +816,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -836,9 +836,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -856,9 +856,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -876,9 +876,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_make_use_our_lands }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -896,9 +896,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_make_use_our_labor }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -916,9 +916,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_scour_the_countryside }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -936,9 +936,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_reopen_scrapyards }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -956,9 +956,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_no_stone_unturned }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -976,9 +976,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_pure_administration }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -996,9 +996,9 @@ focus_tree = {
 		}
 		cost = 5
 		prerequisite = { focus = PSK_officers_the_camps }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -1018,9 +1018,9 @@ focus_tree = {
 		prerequisite = { focus = PSK_inviting_advisors }
 		prerequisite = { focus = PSK_dark_clouds }
 		prerequisite = { focus = PSK_black_state_of_east }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		 
+		  
+		   
 		completion_reward = {
 			hidden_effect = {		
 			}

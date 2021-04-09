@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 50 y = 1000 }
+	continuous_focus_position = { x = 1000 y = 1000 }
 	focus = {
 		id = PSK_the_blackest_night
 		icon = GFX_PSK_The_Blackest_Night
@@ -17,9 +17,6 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 2
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -40,10 +37,7 @@ focus_tree = {
 		bypass = {
 		}
 		cost = 3
-		prerequisite = { focus = PSK_the_blackest_night }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		prerequisite = { focus = PSK_the_blackest_night }  
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -65,9 +59,6 @@ focus_tree = {
 		}
 		cost = 2
 		prerequisite = { focus = PSK_our_eternal_struggle }				
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -89,10 +80,7 @@ focus_tree = {
 		}
 		cost = 2
 		prerequisite = { focus = PSK_fill_the_reserves }
-		prerequisite = { focus = PSK_regimental_training focus = PSK_expanding_the_russian_corps }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		prerequisite = { focus = PSK_regimental_training focus = PSK_expanding_the_russian_corps }  
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -114,9 +102,6 @@ focus_tree = {
 		}
 		cost = 2
 		prerequisite = { focus = PSK_our_eternal_struggle }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -139,9 +124,6 @@ focus_tree = {
 		cost = 2
 		prerequisite = { focus = PSK_remembering_the_beginning }
 		prerequisite = { focus = PSK_faith_in_party focus = PSK_faith_in_state }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				to_the_bitter_end = yes
@@ -164,9 +146,6 @@ focus_tree = {
 		}
 		cost = 2
 		prerequisite = { focus = PSK_our_eternal_struggle }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -189,9 +168,6 @@ focus_tree = {
 		cost = 2
 		prerequisite = { focus = PSK_using_the_camps }
 		prerequisite = { focus = PSK_expanding_our_reach focus = PSK_coercive_activities_bureau }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -217,9 +193,6 @@ focus_tree = {
 		prerequisite = { focus = PSK_fill_the_factories }
 		prerequisite = { focus = PSK_material_construction }
 		prerequisite = { focus = PSK_civil_procurement }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -242,10 +215,7 @@ focus_tree = {
 		cost = 1
 		prerequisite = { focus = PSK_remembering_the_beginning}
 		prerequisite = { focus = PSK_using_the_camps}
-		mutually_exclusive = { focus = PSK_faith_in_party}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		mutually_exclusive = { focus = PSK_faith_in_party}  
 		completion_reward = {
 			hidden_effect = {
 				faith_in_state = yes	
@@ -267,16 +237,12 @@ focus_tree = {
 		prerequisite = { focus = PSK_remembering_the_beginning}
 		prerequisite = { focus = PSK_fill_the_reserves}
 		mutually_exclusive = { focus = PSK_faith_in_state}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect={
 				faith_in_party = yes
 			}
 			custom_effect_tooltip = tooltip_faith_in_party
 		}			
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -291,14 +257,11 @@ focus_tree = {
 		cost = 1
 		prerequisite = { focus = PSK_using_the_camps }
 		mutually_exclusive = { focus = PSK_coercive_activities_bureau}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
 					id = pleskau.17
-				}			
+				}
 			}
 		   custom_effect_tooltip = tooltip_expanding_our_reach
 		}
@@ -315,10 +278,7 @@ focus_tree = {
 		}
 		cost = 1
 		prerequisite = { focus = PSK_fill_the_reserves }
-		mutually_exclusive = { focus = PSK_regimental_training}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		mutually_exclusive = { focus = PSK_regimental_training}  
 		completion_reward = {
 			hidden_effect = {	
 				country_event = {
@@ -341,9 +301,6 @@ focus_tree = {
 		cost = 2
 		prerequisite = { focus = PSK_to_the_bitter_end}
 		prerequisite = { focus = PSK_fill_the_factories}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -365,9 +322,6 @@ focus_tree = {
 		}
 		cost = 2
 		prerequisite = { focus = PSK_using_the_undesirables}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -390,9 +344,6 @@ focus_tree = {
 		cost = 1
 		prerequisite = { focus = PSK_fill_the_reserves}
 		mutually_exclusive = { focus = PSK_expanding_the_russian_corps}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -415,9 +366,6 @@ focus_tree = {
 		cost = 1
 		prerequisite = { focus = PSK_using_the_camps}
 		mutually_exclusive = { focus = PSK_expanding_our_reach}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
