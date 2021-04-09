@@ -21,7 +21,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.1.a
-        #custom_effect_tooltip = tooltip_event_pleskau_1
+        custom_effect_tooltip = tooltip_event_pleskau_1
 	}
 }
 ##Victory for the Righteous
@@ -35,7 +35,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.2.a
-        #custom_effect_tooltip = tooltip_event_pleskau_2
 	}
 }
 ##Fill the Reserves
@@ -49,7 +48,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.3.a
-        #custom_effect_tooltip = tooltip_event_pleskau_3
 	}
 }
 ##Using the Untermensch
@@ -63,7 +61,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.4.a
-        #custom_effect_tooltip = tooltip_event_pleskau_4
 	}
 }
 ##Remembering 1923
@@ -77,7 +74,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.5.a
-        #custom_effect_tooltip = tooltip_event_pleskau_5
 	}
 }
 ##Quotas
@@ -91,7 +87,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.6.a
-        #custom_effect_tooltip = tooltip_event_pleskau_6
 	}
 }
 ##Using the Camps
@@ -105,7 +100,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.7.a
-        #custom_effect_tooltip = tooltip_event_pleskau_7
 	}
 }
 #Fill the Factories
@@ -119,7 +113,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.8.a
-        #custom_effect_tooltip = tooltip_event_pleskau_8
 	}
 }
 #Ashes ashes we all poop down#
@@ -133,7 +126,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.9.a
-        #custom_effect_tooltip = tooltip_event_pleskau_9
+        custom_effect_tooltip = tooltip_event_pleskau_2
 	}
 }
 #Faith in the Party 

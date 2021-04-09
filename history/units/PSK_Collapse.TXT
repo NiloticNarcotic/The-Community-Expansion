@@ -26,7 +26,21 @@ division_template = {
    		light_infantry = { x = 1 y = 0 }
 		light_infantry = { x = 1 y = 1 }
 		light_infantry = { x = 1 y = 2 }
-  		
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infanterie Abteilung"					
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 	support = {
 		military_police = { x = 0 y = 0 }
@@ -39,26 +53,26 @@ units= {
 		location = 6154
 		division_template = "Waffen-SS"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.67
 	}
 	division= {
 		name = "1. Waffen-Grenadier-Division der SS"
 		location = 2999
 		division_template = "Waffen-SS"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.78
 	}
 	division= { 
-		name = "3. Einsatzgruppen Polizei 'Reich'"
+		name = "3. Infanterieabteilung 'Reich'"
 		location = 11202
-		division_template = "Staatliche Polizei"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		division_template = "Infanterie Abteilung"
+		start_experience_factor = 0.153
+		start_equipment_factor = 0.68
 	}
 	division= { 
 		name = "7. Einsatzgruppen Polizei 'No. 07'"
 		location = 11349
 		division_template = "Staatliche Polizei"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.76
 	}
