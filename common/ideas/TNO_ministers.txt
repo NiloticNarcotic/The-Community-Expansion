@@ -11585,10 +11585,10 @@ ideas = {
 
 	### Basegi Black Brigades ###
 	head_of_government = {
-		BBB_Soslanbek_Apayev_hog = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Soslanbek_Apayev_hog"}
+		BBB_Vasily_Mordakov_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Vasily_Mordakov_hog"}
 			allowed = { original_tag = BBB }
-			picture = "BBB_minister_Soslanbek_Apayev_hog"
+			picture = "BBB_minister_Vasily_Mordakov_hog"
 			available = {
 
 			}
@@ -11639,10 +11639,10 @@ ideas = {
 	}
 
 	security_minister = {
-		BBB_Vasily_Mordakov_sec = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Vasily_Mordakov_sec"}
+		BBB_Soslanbek_Apayev_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Soslanbek_Apayev_sec"}
 			allowed = { original_tag = BBB }
-			picture = "BBB_minister_Vasily_Mordakov_sec"
+			picture = "BBB_minister_Soslanbek_Apayev_sec"
 			available = {
 
 			}
