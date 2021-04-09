@@ -471,7 +471,7 @@ country_event = {#BBB movements
 		}
 	}
 }
-country_event = {#BBB hello rise up
+country_event = {
 	id = VLG.8
 	immediate = { log = "[GetDateText]: [Root.GetName]: event VLG.8" }
 	title = VLG.8.t
@@ -481,7 +481,7 @@ country_event = {#BBB hello rise up
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #chungus disapproves
+	option = {
 		name = VLG.8.a
 		ai_chance = { factor = 1 }
 		BBB = {
