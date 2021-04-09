@@ -189,27 +189,13 @@
 
  tooltip_civil_procurement:0 "§RBy expanding the definition of 'Dangerious Inidividual' there will be an even greater pool to draw from.§!"
 
- tooltip_coersive_activities_bureau:0 "§RWe will appoint a new committee to manage the remaining labour force across the country.§!"
+ tooltip_coersive_activities_bureau:0 "§RWe will appoint a state committee to seek out any remaining untapped labour across the country.§!"
  
  tooltip_material_construction:0 "§RThe NCC will be appointed as the new organization of labour administration, responsible for directing and organizing construction of necessary buildings and infrastructure around Pleskau.§!"
  
- tooltip_event_pleskau_1:0 "§GAs focuses are completed, the country and it's subjects will be radically changed,§!§R the old order lies broken in two.§!"
+ tooltip_event_pleskau_1:0 "§RAs focuses are completed, the country and it's subjects will be radically changed, the old order lies broken in two.§!"
  
- tooltip_event_pleskau_2:0 "§GGain a minor bonus to stability.§!"
-
- tooltip_event_pleskau_3:0 "§GWe will gain a boost to our reserves!§!"
-
- tooltip_event_pleskau_4:0 "§GWe will gain a boost to our manpower and combat ability!§!"
-
- tooltip_event_pleskau_5:0 "§GWe will gain a slight boost to our support for the war effort!§!"
-
- tooltip_event_pleskau_6:0 "§GWe will gain a slight boost to our support for the war effort!§!"
-
- tooltip_event_pleskau_7:0 "§GPartisan suppression will lead to a significant decrease in activity all across Pleskau!§!"
-
- tooltip_event_pleskau_8:0 "§GWe will gain a boost to our industrial might!§!"
- 
- tooltip_event_pleskau_9:0 "§RThere is no turning back...§!"
+ tooltip_event_pleskau_2:0 "§RThere is no turning back...§!"
 
  tooltip_decision_pleskau_1:0 "HALT! This is a test!"
  #Events and shite#
