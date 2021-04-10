@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 ### Country Names ###
  VLG_social_democrat:0 "Wolgastaat"
@@ -44,6 +44,23 @@
  ### Leaders ###
  POLITICS_KARL_DONITZ_DESC:0 "Dönitz is a man of means and a man of ideals. A staunch supporter of the Reich from its violent birth to its seemingly violent end, he has seen his even more beloved Kriegsmarine slowly burn away in the flames of rebellion and ruination. While many ships have abandoned the Reich's cause to find harbor with the various supporters, namely the liberals with Speer, Dönitz knows that only one man can truly save the Reich from damnation.\n\nWho better than Bormann? A strong leader, a protégé of Hitler himself, and a staunch believer in the Reich's ideals. Sadly, the Kriegsmarine is no longer safe in harbors where any day another wretched traitor may simply seize their ships to continue their degenerate causes.\n\nLuckily, Dönitz had already secured a 'civilian' post overseeing the ports of Crimea on behalf of the local governor. With dozens of naval ships in port every day and with many an able bodied sailor to aid him, overthrowing this weak governate for the betterment of the Reich was simple. Now he sits in Crimea, waiting for the day his ships can once more return to the mainland and aid the Reich in its glorious rebuilding."
  
+### Focus Localization ###
+VLG_Their_Failures:0 "Their Failures"
+VLG_Their_Failures_desc: "The failure of the Reichkommissariat was based off the meddling by Reichkommisar Kasche and his apathetic rule to the matter of affairs that were at hand. We shall not be like Kasche, as the Wolgan germans are purer and stronger. Hellmuth von Pannwitz shall lead us to a glorious future of prosperity, but first, we must propose a solution to a certain Russian question..."
+
+VLG_Our_Failures:0 "Our Failures"
+VLG_Our_Failures_desc: "Following our propositions to the Wolgabund, we have seen a rising in resistance in one major region, the Kosackenstadt. This is a major failure on our part and we must handle it quickly and decisively, not allowing the pest that is the Russian people to try and seize control and begin to oppress our people."
+
+VLG_Total_Chaos:0 "Total Chaos"
+VLG_Total_Chaos_desc: "The situation has spiralled out of control! The named Basegi Black Brigades have declared total open revolt against us. Their forces may seem small, but after further examination, they are well-equipped and well-versed in combat. We must tread carefully should we want the Wolgastaat to live another day."
+
+VLG_Our_Victory:0 "Our Victory"
+VLG_Our_Victory_desc: "Despite what looked like an unwinnable war against well-armed forces, we have prevailed against the Black Brigades. Pannwitz's leadership has shown to be ineffective, and he is the one who plunged us into this great conflict. Since he is already popular, it is now time for us to claim our victory, try the Basegi remnants, and then reorganize our government. For the Wolgastaat!"
+
+VLG_Our_Retreat:0 "Our Retreat"
+VLG_Our_Retreat_desc: "The war of attrition waged against the Basegi Black Brigades have resulted in what most expected. Our defeat. We must retreat from the Wolgastaat, salting the lands and burning all in our path in our retreat from Moskowien to hopefully Germanic lands."
+
+
 ### Ministers ### 
  VLG_minister_Dominik_Hollmann_hog:0 "Dominik Hollmann"
  VLG_minister_Alexander_Hasselbach_eco:0 "Alexander Hasselbach"
@@ -72,4 +89,3 @@
  VLG.5.t:0 "The Freikorps Attack the Wolga Staat!"
  VLG.5.d:0 "When Ferdinand Schörner took power in Moskowien, he had expected all the regional administrations to follow him. Such was not the case, as we have condemned the Feldmarschall and his plans for Eastern Europe which will only bring ruin to all parties involved. Most believed that such a bold statement would not remain unpunished, and today they haven't been disappointed.\n\nAfter several days of tense wait, we were almost starting to believe that they would be able to weather the storm, but it had all been a ploy. With the help of the loyal Freikorps in Kaukasien, the Feldmarschall has launched a pincher offensive in order to subdue us! The mercenaries have struck from the South, while Schörner waits for the perfect moment to attack from the North.\n\nReports coming from the border tell of skirmishes between the first vanguards of the Freikorps and our border outposts, but the situation is escalating quickly. All attempts to reach a peaceful resolution of the crisis have been rejected, and we are officially in a state of war."
  VLG.5.a:0 "We won't give up our freedom!"
- 
