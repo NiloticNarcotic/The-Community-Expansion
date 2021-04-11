@@ -62,6 +62,9 @@
  VLG_volga_autonomous_region:0 "Volga Autonomus Region"
  VLG_volga_autonomous_region_desc:0 "The Volga-german council, though split between Wolgabund and NSDAP ensures a certain level of autonomy for those areas, that the Volga-germans mainly inhabit."
 
+### tooltips ###
+ VLG_fightbasegi:0 "Choose to stay as Wolgastaat"
+ VLG_joinbasegi:0 "Choose to side with the Black Brigades"
  
 ### Events ###
  VLG.4.t:0 "The Wolgabund Coups The Government!"

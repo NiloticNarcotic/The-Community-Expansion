@@ -33,7 +33,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_learn_by_experience
-	icon = GFX_goal_unknown
+	icon = GFX_DST_a_gun_under_every_blade_of_grass
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -53,7 +53,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_twist_the_knife
-	icon = GFX_goal_unknown
+	icon = GFX_purge_opposition
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -165,7 +165,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_recruits_in_pokrovsk
-	icon = GFX_goal_unknown
+	icon = GFX_PRM_A_City_On_War_Footing
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -184,7 +184,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_teach_them_to_survive
-	icon = GFX_goal_unknown
+	icon = GFX_HGR_Do_Or_Die_Brigrades
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -203,7 +203,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_show_our_strength
-	icon = GFX_goal_unknown
+	icon = GFX_BAS_But_Rabid_Dogs_Must_be_Put_Down
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -223,7 +223,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_commence_the_black_terror
-	icon = GFX_goal_unknown
+	icon = GFX_HGR_Military_Preference
 	cost = 0.5
 	available_if_capitulated = no
 	prerequisite = { focus = BBB_salt_the_wound }
@@ -1373,8 +1373,8 @@ shared_focus = {
 		focus = BBB_keep_them_satisfied
 	}
 
-	x = 7
-	y = 1
+	x = 10
+	y = 8
 
 	completion_reward = {
 		country_event = { id = blackbrigades.60 }
