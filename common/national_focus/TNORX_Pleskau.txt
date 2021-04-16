@@ -446,7 +446,7 @@ focus_tree = {
 					id = pleskau.13
 				}
 			}
-			custom_effect_tooltip = tootltip_regimental_training
+			custom_effect_tooltip = tooltip_regimental_training
 		}
 		ai_will_do = {
 			factor = 1

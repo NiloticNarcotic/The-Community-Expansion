@@ -10,6 +10,10 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2000 y = 2000 }
 
+	initial_show_position = {
+		focus = PSK_scorched_by_the_sun
+	}
+
 	focus = {
 		id = PSK_scorched_by_the_sun
 		icon = GFX_goal_unknown
@@ -28,10 +32,11 @@ focus_tree = {
 	focus = {
 		id = PSK_refining_our_methods
 		icon = GFX_goal_unknown
-		x = 7
-		y = 2
+		x = 0
+		y = 1
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_scorched_by_the_sun }
 		completion_reward = {
@@ -44,10 +49,11 @@ focus_tree = {
 	focus = {
 		id = PSK_new_officer_corp
 		icon = GFX_goal_unknown
-		x = 9
+		x = 0
 		y = 2
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_scorched_by_the_sun } 
 		completion_reward = {
@@ -60,10 +66,11 @@ focus_tree = {
 	focus = {
 		id = PSK_the_black_cats
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 3
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_refining_our_methods }
 		prerequisite = { focus = PSK_new_officer_corp }
@@ -77,10 +84,11 @@ focus_tree = {
 	focus = {
 		id = PSK_the_black_skies
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 4
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_the_black_cats }
 		completion_reward = {
@@ -93,10 +101,11 @@ focus_tree = {
 	focus = {
 		id = PSK_a_question_of_purity
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 5
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_the_black_skies }
 		completion_reward = {
@@ -109,10 +118,11 @@ focus_tree = {
 	focus = {
 		id = PSK_speib_boran
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 6
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_a_question_of_purity }
 		completion_reward = {
@@ -125,10 +135,11 @@ focus_tree = {
 	focus = {
 		id = PSK_the_winding_road
 		icon = GFX_goal_unknown
-		x = 5
+		x = -4
 		y = 7
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
 		completion_reward = {
@@ -141,10 +152,11 @@ focus_tree = {
 	focus = {
 		id = PSK_a_rebellious_east
 		icon = GFX_goal_unknown
-		x = 11
+		x = 4
 		y = 7
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
 		completion_reward = {
@@ -157,10 +169,11 @@ focus_tree = {
 	focus = {
 		id = PSK_purging_the_spectre
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 7
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_speib_boran }
 		completion_reward = {
@@ -173,10 +186,11 @@ focus_tree = {
 	focus = {
 		id = PSK_contest_brauschichstadt_leadership
 		icon = GFX_goal_unknown
-		x = 5
+		x = -4
 		y = 8
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_the_winding_road }	   
 		completion_reward = {
@@ -189,10 +203,11 @@ focus_tree = {
 	focus = {
 		id = PSK_dealing_with_kaminski
 		icon = GFX_goal_unknown
-		x = 11
+		x = 4
 		y = 8
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_a_rebellious_east }
 		completion_reward = {
@@ -205,10 +220,11 @@ focus_tree = {
 	focus = {
 		id = PSK_dinner_with_von_saucken
 		icon = GFX_goal_unknown
-		x = 3
+		x = -6
 		y = 9
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_contest_brauschichstadt_leadership }   
 		completion_reward = {
@@ -221,10 +237,11 @@ focus_tree = {
 	focus = {
 		id = PSK_end_to_wehrmacht_jewry
 		icon = GFX_goal_unknown
-		x = 5
+		x = -4
 		y = 9
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_contest_brauschichstadt_leadership } 
 		completion_reward = {
@@ -237,10 +254,11 @@ focus_tree = {
 	focus = {
 		id = PSK_put_them_to_work
 		icon = GFX_goal_unknown
-		x = 6
+		x = -2
 		y = 9
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_purging_the_spectre }
 		completion_reward = {
@@ -253,10 +271,11 @@ focus_tree = {
 	focus = {
 		id = PSK_a_step_into_the_past
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 9
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_purging_the_spectre }   
 		completion_reward = {
@@ -269,10 +288,11 @@ focus_tree = {
 	focus = {
 		id = PSK_purge_the_rot
 		icon = GFX_goal_unknown
-		x = 10
+		x = 2
 		y = 9
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_purging_the_spectre }   
 		completion_reward = {
@@ -285,10 +305,11 @@ focus_tree = {
 	focus = {
 		id = PSK_treytarovs_trip
 		icon = GFX_goal_unknown
-		x = 13
+		x = 6
 		y = 9
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_dealing_with_kaminski } 
 		completion_reward = {
@@ -301,10 +322,11 @@ focus_tree = {
 	focus = {
 		id = PSK_end_to_kaminsky_delusion
 		icon = GFX_goal_unknown
-		x = 11
+		x = 4
 		y = 9
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_dealing_with_kaminski } 
 		completion_reward = {
@@ -317,10 +339,11 @@ focus_tree = {
 	focus = {
 		id = PSK_great_expectations
 		icon = GFX_goal_unknown
-		x = 3
+		x = -6
 		y = 10
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_dinner_with_von_saucken }
 		completion_reward = {
@@ -333,10 +356,11 @@ focus_tree = {
 	focus = {
 		id = PSK_out_of_frying_pan
 		icon = GFX_goal_unknown
-		x = 5
+		x = -4
 		y = 10
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_great_expectations }
 		prerequisite = { focus = PSK_end_to_wehrmacht_jewry }
@@ -350,10 +374,11 @@ focus_tree = {
 	focus = {
 		id = PSK_traitors_different_kind
 		icon = GFX_goal_unknown
-		x = 13
+		x = 6
 		y = 10
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_treytarovs_trip }
 		completion_reward = {
@@ -366,10 +391,11 @@ focus_tree = {
 	focus = {
 		id = PSK_shot_in_the_dark
 		icon = GFX_goal_unknown
-		x = 11
+		x = 4
 		y = 10
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_traitors_different_kind }
 		prerequisite = { focus = PSK_end_to_kaminsky_delusion }
@@ -383,10 +409,11 @@ focus_tree = {
 	focus = {
 		id = PSK_drauf_und_dran
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 11
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_out_of_frying_pan }
 		prerequisite = { focus = PSK_shot_in_the_dark }
@@ -402,10 +429,11 @@ focus_tree = {
 	focus = {
 		id = PSK_the_best_laid_plans
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 12
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_drauf_und_dran }  
 		completion_reward = {
@@ -418,10 +446,11 @@ focus_tree = {
 	focus = {
 		id = PSK_memories_of_forty_one
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 13
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_the_best_laid_plans }	   
 		completion_reward = {
@@ -434,10 +463,11 @@ focus_tree = {
 	focus = {
 		id = PSK_lichter_aus
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 14
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_memories_of_forty_one }   
 		completion_reward = {
@@ -450,10 +480,11 @@ focus_tree = {
 	focus = {
 		id = PSK_deal_with_devil
 		icon = GFX_goal_unknown
-		x = 10
+		x = 4
 		y = 15
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }
 		mutually_exclusive = { focus = PSK_through_cold_lenses }  
@@ -467,10 +498,11 @@ focus_tree = {
 	focus = {
 		id = PSK_through_cold_lenses
 		icon = GFX_goal_unknown
-		x = 12
+		x = 2
 		y = 15
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }
 		mutually_exclusive = { focus = PSK_deal_with_devil }   
@@ -484,10 +516,11 @@ focus_tree = {
 	focus = {
 		id = PSK_to_their_dying_breath
 		icon = GFX_goal_unknown
-		x = 6
+		x = -1
 		y = 15
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }  
 		completion_reward = {
@@ -500,10 +533,11 @@ focus_tree = {
 	focus = {
 		id = PSK_no_where_left_to_flee
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 16
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_lichter_aus }
 		prerequisite = { focus = PSK_to_their_dying_breath }
@@ -521,10 +555,11 @@ focus_tree = {
 	focus = {
 		id = PSK_all_bandits_share_same_fate
 		icon = GFX_goal_unknown
-		x = 4
+		x = -3
 		y = 15
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_to_their_dying_breath }
 		completion_reward = {
@@ -537,10 +572,11 @@ focus_tree = {
 	focus = {
 		id = PSK_a_useful_puppet
 		icon = GFX_goal_unknown
-		x = 6
+		x = -1
 		y = 17
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_no_where_left_to_flee }
 		mutually_exclusive = { focus = PSK_the_only_use_traitors }  
@@ -554,10 +590,11 @@ focus_tree = {
 	focus = {
 		id = PSK_the_only_use_traitors
 		icon = GFX_goal_unknown
-		x = 10
+		x = 1
 		y = 17
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_no_where_left_to_flee }
 		mutually_exclusive = { focus = PSK_a_useful_puppet }   
@@ -571,10 +608,11 @@ focus_tree = {
 	focus = {
 		id = PSK_volksdeutsch_vereinigt
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 18
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = {
 			focus = PSK_a_useful_puppet
@@ -590,10 +628,11 @@ focus_tree = {
 	focus = {
 		id = PSK_fall_schwarz
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 19
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_volksdeutsch_vereinigt }  
 		completion_reward = {
@@ -606,10 +645,11 @@ focus_tree = {
 	focus = {
 		id = PSK_es_ist_aus
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
 		y = 20
 		bypass = {
 		}
+		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_fall_schwarz } 
 		completion_reward = {
@@ -623,8 +663,8 @@ focus_tree = {
 	focus = {
 		id = PSK_aktion_odilo
 		icon = GFX_goal_unknown
-		x = 18
-		y = 1
+		x = 16
+		y = 3
 		bypass = {
 		}
 		cost = 5
@@ -638,10 +678,11 @@ focus_tree = {
 	focus = {
 		id = PSK_the_blank_check
 		icon = GFX_goal_unknown
-		x = 18
-		y = 2
+		x = 0
+		y = 1
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_aktion_odilo }
 		completion_reward = {
@@ -654,10 +695,11 @@ focus_tree = {
 	focus = {
 		id = PSK_make_use_our_lands
 		icon = GFX_goal_unknown
-		x = 16
-		y = 2
+		x = -2
+		y = 1
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
 		completion_reward = {
@@ -670,10 +712,11 @@ focus_tree = {
 	focus = {
 		id = PSK_make_use_our_labor
 		icon = GFX_goal_unknown
-		x = 20
-		y = 2
+		x = 2
+		y = 1
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
 		completion_reward = {
@@ -686,10 +729,11 @@ focus_tree = {
 	focus = {
 		id = PSK_scour_the_countryside
 		icon = GFX_goal_unknown
-		x = 18
-		y = 3
+		x = 0
+		y = 2
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_the_blank_check }
 		completion_reward = {
@@ -702,10 +746,11 @@ focus_tree = {
 	focus = {
 		id = PSK_reopen_scrapyards
 		icon = GFX_goal_unknown
-		x = 16
-		y = 3
+		x = -2
+		y = 2
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_make_use_our_lands }   
 		completion_reward = {
@@ -718,10 +763,11 @@ focus_tree = {
 	focus = {
 		id = PSK_no_stone_unturned
 		icon = GFX_goal_unknown
-		x = 20
-		y = 3
+		x = 2
+		y = 2
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_make_use_our_labor } 
 		completion_reward = {
@@ -734,10 +780,11 @@ focus_tree = {
 	focus = {
 		id = PSK_inviting_advisors
 		icon = GFX_goal_unknown
-		x = 18
-		y = 4
+		x = 0
+		y = 3
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_scour_the_countryside }
 		completion_reward = {
@@ -750,10 +797,11 @@ focus_tree = {
 	focus = {
 		id = PSK_pure_administration
 		icon = GFX_goal_unknown
-		x = 16
-		y = 4
+		x = -2
+		y = 3
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_reopen_scrapyards }
 		completion_reward = {
@@ -766,10 +814,11 @@ focus_tree = {
 	focus = {
 		id = PSK_officers_the_camps
 		icon = GFX_goal_unknown
-		x = 20
-		y = 4
+		x = 2
+		y = 3
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_no_stone_unturned } 
 		completion_reward = {
@@ -782,10 +831,11 @@ focus_tree = {
 	focus = {
 		id = PSK_dark_clouds
 		icon = GFX_goal_unknown
-		x = 16
-		y = 5
+		x = -2
+		y = 4
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_pure_administration }
 		completion_reward = {
@@ -798,10 +848,11 @@ focus_tree = {
 	focus = {
 		id = PSK_black_state_of_east
 		icon = GFX_goal_unknown
-		x = 20
-		y = 5
+		x = 2
+		y = 4
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_officers_the_camps }
 		completion_reward = {
@@ -814,10 +865,11 @@ focus_tree = {
 	focus = {
 		id = PSK_best_yet_come
 		icon = GFX_goal_unknown
-		x = 18
-		y = 6
+		x = 0
+		y = 5
 		bypass = {
 		}
+		relative_position_id = PSK_aktion_odilo
 		cost = 5
 		prerequisite = { focus = PSK_inviting_advisors }
 		prerequisite = { focus = PSK_dark_clouds }
