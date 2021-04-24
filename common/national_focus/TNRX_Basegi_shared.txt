@@ -429,7 +429,10 @@ shared_focus = {
 	y = 11
 	
 	completion_reward = {
-		#unlocks new darwinian society actions
+		custom_effect_tooltip = BBB_Unlock_SOTF_tt
+		hidden_effect = {
+			set_country_flag = BBB_SOTF_UNLOCK_2		
+		}
 	}
 }
 
@@ -456,7 +459,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_dominate_muscovy
-	icon = GFX_goal_unknown
+	icon = GFX_MCW_A_Door_To_The_Russian_Hell
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -471,7 +474,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_our_need_for_industry
-	icon = GFX_goal_unknown
+	icon = Generic_Industry
 	cancel_if_invalid = yes
 	available_if_capitulated = no		
 	cost = 2
@@ -567,7 +570,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_the_german_war_machine
-	icon = GFX_goal_unknown
+	icon = OFN_CAR_Train_Native_Militias
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3

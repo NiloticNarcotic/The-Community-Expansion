@@ -455,21 +455,8 @@ country_event = {
 			factor = 1
 		}
 		hidden_effect = {
-			add_ideas = BBB_Moscow_In_Ruins
 			load_focus_tree = {
-				tree = basegi_reformists
-				keep_completed = yes
-			}
-		}
-	}
-	option = {
-		name = blackbrigades.24.b
-		ai_chance = {
-			factor = 1
-		}
-		hidden_effect = {
-			load_focus_tree = {
-				tree = basegi_radicals
+				tree = basegi_showdown
 				keep_completed = yes
 			}
 		}
@@ -567,10 +554,12 @@ country_event = {
 	option = {
 		name = blackbrigades.55.a
 		ai_chance = { factor = 3 }
+		completes_focus = { focus = BBB_saving_grace }
 	}
 	option = {
 		name = blackbrigades.55.b
 		ai_chance = { factor = 1 }
+		completes_focus = { focus = BBB_freedom_is_an_amenity }
 	}
 }
 
