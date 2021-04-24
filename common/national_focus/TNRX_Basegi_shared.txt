@@ -15,7 +15,7 @@
 
 shared_focus = {
 	id = BBB_the_black_brigades
-	icon = GFX_goal_unknown
+	icon = GFX_TNRX_BBB_the_black_brigades
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5

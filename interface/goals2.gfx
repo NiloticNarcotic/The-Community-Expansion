@@ -27160,4 +27160,10 @@ spriteTypes = {
 		name = "GFX_GER_behold_the_legion"
 		texturefile = "gfx/interface/goals/GER_behold_the_legion.dds"
 	}
+	
+		SpriteType = {
+		name = "GFX_TNRX_BBB_the_black_brigades"
+		texturefile = "gfx/interface/goals/TNRX_BBB_the_black_brigades.dds"
+	}
+	
 }
