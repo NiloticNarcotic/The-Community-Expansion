@@ -1231,7 +1231,7 @@ shared_focus = {
 	y = 4
 
 	completion_reward = {
-		tno_slavery_outlawed = yes
+		tno_slavery_improve = yes
 		TNO_improve_poverty_low = yes
 		### adds three red chips
 	}
@@ -1309,7 +1309,7 @@ shared_focus = {
 	y = 4
 
 	completion_reward = {
-		tno_slavery_allowed = yes
+		tno_slavery_worsen = yes
 		# gives two blue chips
 	}
 }
@@ -1635,10 +1635,7 @@ shared_focus = {
 	y = 7
 
 	completion_reward = {
-		swap_ideas = {
-			remove_idea = BBB_Darwinian_Society
-			add_idea = BBB_Law_Of_Nature
-		}
+		add_ideas = BBB_Law_Of_Nature
 	}
 }
 

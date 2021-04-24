@@ -63,7 +63,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = BBB_radicals
+    id = basegi_radicals
     country = {
         factor = 0
         modifier = {

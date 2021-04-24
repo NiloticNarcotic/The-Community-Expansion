@@ -1,9 +1,6 @@
 #########################
 ## BASEGI BASED EVENTS ##
 #########################
-
-
-
 #██████╗░░█████╗░░██████╗███████╗░██████╗░██╗     ██████╗░░█████╗░░██████╗███████╗██████╗░    ██████╗░██████╗░██╗░██████╗░░█████╗░██████╗░███████╗░██████╗#
 #██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝░██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██║██╔════╝░██╔══██╗██╔══██╗██╔════╝██╔════╝#
 #██████╦╝███████║╚█████╗░█████╗░░██║░░██╗░██║     ██████╦╝███████║╚█████╗░█████╗░░██║░░██║    ██████╦╝██████╔╝██║██║░░██╗░███████║██║░░██║█████╗░░╚█████╗░#
@@ -16,7 +13,9 @@ add_namespace = blackbrigades
 # focus tree change to terror
 country_event = {
 	id = blackbrigades.1000
-	immediate = {log = "[GetDateText]: [Root.GetName]: event blackbrigades.1000"}
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event blackbrigades.1000"
+	}
 	title = blackbrigades.1000.t
 	desc = blackbrigades.1000.desc
 	picture = GFX_report_event_blue_mosque
@@ -24,16 +23,18 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = blackbrigades.1000.a
-        hidden_effect = {
-            load_focus_tree = basegi_black_terror  
-        }
+		hidden_effect = {
+			load_focus_tree = basegi_black_terror
+		}
 	}
 }
 
 # focus tree change to expansion
 country_event = {
 	id = blackbrigades.1001
-	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.2"}
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event basegi.2"
+	}
 	title = blackbrigades.1001.t
 	desc = blackbrigades.1000.desc
 	picture = GFX_report_event_blue_mosque
@@ -41,29 +42,17 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = blackbrigades.1000.a
-        hidden_effect = {
-            load_focus_tree = basegi_expansion
-        }
+		hidden_effect = {
+			load_focus_tree = basegi_expansion
+		}
 	}
 }
-country_event = {
-	id = blackbrigades.1001
-	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.2"}
-	title = blackbrigades.1001.t
-	desc = blackbrigades.1000.desc
-	picture = GFX_report_event_blue_mosque
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = blackbrigades.1000.a
-        hidden_effect = {
-            load_focus_tree = basegi_expansion
-        }
-	}
-}
+
 country_event = {
 	id = blackbrigades.1003
-	immediate = {log = "[GetDateText]: [Root.GetName]: event basegi.1003"}
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event basegi.1003"
+	}
 	title = blackbrigades.1003.t
 	desc = blackbrigades.1003.desc
 	picture = GFX_report_event_blue_mosque
@@ -71,19 +60,19 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = blackbrigades.1003.a
-        BBB_Mafia_Blue_Small_Gain = yes
+		BBB_Mafia_Blue_Small_Gain = yes
 	}
 	option = {
 		name = blackbrigades.1003.b
-        BBB_Mafia_Blue_Small_Loss = yes
+		BBB_Mafia_Blue_Small_Loss = yes
 	}
 	option = {
 		name = blackbrigades.1003.b
-        BBB_Mafia_Red_Small_Gain = yes
+		BBB_Mafia_Red_Small_Gain = yes
 	}
 	option = {
 		name = blackbrigades.1003.b
-        BBB_Mafia_Red_Small_Loss = yes
+		BBB_Mafia_Red_Small_Loss = yes
 	}
 }
 
@@ -92,13 +81,13 @@ country_event = {
 	title = blackbrigades.1.t
 	desc = blackbrigades.1.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.1.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -107,13 +96,13 @@ country_event = {
 	title = blackbrigades.2.t
 	desc = blackbrigades.2.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.2.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -122,13 +111,13 @@ country_event = {
 	title = blackbrigades.3.t
 	desc = blackbrigades.3.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.3.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -137,13 +126,13 @@ country_event = {
 	title = blackbrigades.4.t
 	desc = blackbrigades.4.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.4.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -152,13 +141,13 @@ country_event = {
 	title = blackbrigades.5.t
 	desc = blackbrigades.5.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.5.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -167,13 +156,13 @@ country_event = {
 	title = blackbrigades.6.t
 	desc = blackbrigades.6.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.6.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -182,15 +171,18 @@ country_event = {
 	title = blackbrigades.7.t
 	desc = blackbrigades.7.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.7.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		hidden_effect = {
-			load_focus_tree = { tree = basegi_black_terror keep_completed = yes }
+			load_focus_tree = {
+				tree = basegi_black_terror
+				keep_completed = yes
+			}
 			set_country_flag = BBB_Mafia_Mechanic
 			set_variable = {
 				var = BBB_Mafia_Red_Chips
@@ -209,13 +201,13 @@ country_event = {
 	title = blackbrigades.8.t
 	desc = blackbrigades.8.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.8.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -224,13 +216,13 @@ country_event = {
 	title = blackbrigades.9.t
 	desc = blackbrigades.9.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.9.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -239,13 +231,13 @@ country_event = {
 	title = blackbrigades.10.t
 	desc = blackbrigades.10.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.10.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -254,13 +246,13 @@ country_event = {
 	title = blackbrigades.11.t
 	desc = blackbrigades.11.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.11.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -269,15 +261,18 @@ country_event = {
 	title = blackbrigades.12.t
 	desc = blackbrigades.12.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.12.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		hidden_effect = {
-			load_focus_tree = { tree = basegi_expansion keep_completed = yes }
+			load_focus_tree = {
+				tree = basegi_expansion
+				keep_completed = yes
+			}
 		}
 	}
 }
@@ -287,13 +282,13 @@ country_event = {
 	title = blackbrigades.13.t
 	desc = blackbrigades.13.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.13.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -302,13 +297,13 @@ country_event = {
 	title = blackbrigades.14.t
 	desc = blackbrigades.14.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.14.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -317,13 +312,13 @@ country_event = {
 	title = blackbrigades.15.t
 	desc = blackbrigades.15.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.15.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -332,13 +327,13 @@ country_event = {
 	title = blackbrigades.16.t
 	desc = blackbrigades.16.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.16.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -347,13 +342,13 @@ country_event = {
 	title = blackbrigades.17.t
 	desc = blackbrigades.17.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.17.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -362,13 +357,13 @@ country_event = {
 	title = blackbrigades.18.t
 	desc = blackbrigades.18.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.18.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -377,13 +372,13 @@ country_event = {
 	title = blackbrigades.19.t
 	desc = blackbrigades.19.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.19.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -392,13 +387,13 @@ country_event = {
 	title = blackbrigades.20.t
 	desc = blackbrigades.20.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.20.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -407,13 +402,13 @@ country_event = {
 	title = blackbrigades.21.t
 	desc = blackbrigades.21.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.21.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -422,13 +417,13 @@ country_event = {
 	title = blackbrigades.22.t
 	desc = blackbrigades.22.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.22.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -437,13 +432,13 @@ country_event = {
 	title = blackbrigades.23.t
 	desc = blackbrigades.23.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.23.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -452,217 +447,412 @@ country_event = {
 	title = blackbrigades.24.t
 	desc = blackbrigades.24.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.24.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		hidden_effect = {
 			add_ideas = BBB_Moscow_In_Ruins
-			load_focus_tree = { tree = basegi_reformists keep_completed = yes }
+			load_focus_tree = {
+				tree = basegi_reformists
+				keep_completed = yes
+			}
 		}
 	}
 	option = {
 		name = blackbrigades.24.b
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		hidden_effect = {
-			load_focus_tree = { tree = basegi_radicals keep_completed = yes }
+			load_focus_tree = {
+				tree = basegi_radicals
+				keep_completed = yes
+			}
 		}
 	}
 }
+
+### SHOWDOWN ### ### SHOWDOWN ### ### SHOWDOWN ### ### SHOWDOWN ### 
+### SHOWDOWN ### ### SHOWDOWN ### ### SHOWDOWN ### ### SHOWDOWN ### 
+### SHOWDOWN ### ### SHOWDOWN ### ### SHOWDOWN ### ### SHOWDOWN ### 
+
+country_event = {
+	id = blackbrigades.50 #The Elephant in the Room
+	title = blackbrigades.50.t
+	desc = blackbrigades.50.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.50.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.51 #A Night in the Bar
+	title = blackbrigades.51.t
+	desc = blackbrigades.51.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.51.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.52 #The Old Guard
+	title = blackbrigades.52.t
+	desc = blackbrigades.52.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.52.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.53 #The Inner Circle
+	title = blackbrigades.53.t
+	desc = blackbrigades.53.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.53.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.54 #The Shotcaller
+	title = blackbrigades.54.t
+	desc = blackbrigades.54.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.54.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.55 #The Choice is ours
+	title = blackbrigades.55.t
+	desc = blackbrigades.55.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.55.a
+		ai_chance = { factor = 3 }
+	}
+	option = {
+		name = blackbrigades.55.b
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.56 #In the Dark
+	title = blackbrigades.56.t
+	desc = blackbrigades.56.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.56.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.57 #Baring our Teeth
+	title = blackbrigades.57.t
+	desc = blackbrigades.57.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.57.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.58
+	title = blackbrigades.58.t
+	desc = blackbrigades.58.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.58.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.59
+	title = blackbrigades.59.t
+	desc = blackbrigades.59.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.59.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = blackbrigades.60
+	title = blackbrigades.60.t
+	desc = blackbrigades.60.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = blackbrigades.60.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+
 ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
 ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### 
 ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ### ### BASEGI REFORMISTS ###
-
 ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
 ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
 ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### ### POLITICS ### 
-
 country_event = {
-	id = blackbrigades.301 #The End Of Mordakov
+	id = blackbrigades.301	#The End Of Mordakov
 	title = blackbrigades.301.t
 	desc = blackbrigades.301.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.301.a
-		ai_chance = { factor = 1 }
-	}
-}
-country_event = {
-	id = blackbrigades.302 #Sobering The Brigades
-	title = blackbrigades.302.t
-	desc = blackbrigades.302.desc
-	picture = GFX_report_event_italy_female_fascists
-	
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = blackbrigades.302.a
-		ai_chance = { factor = 1 }
-	}
-}
-country_event = {
-	id = blackbrigades.303 #Reassuring The People
-	title = blackbrigades.303.t
-	desc = blackbrigades.303.desc
-	picture = GFX_report_event_italy_female_fascists
-	
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = blackbrigades.303.a
-		ai_chance = { factor = 1 }
-	}
-}
-country_event = {
-	id = blackbrigades.304 #Superstitions No More
-	title = blackbrigades.304.t
-	desc = blackbrigades.304.desc
-	picture = GFX_report_event_italy_female_fascists
-	
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = blackbrigades.304.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
 country_event = {
-	id = blackbrigades.305 #Strength in Schools
+	id = blackbrigades.302	#Sobering The Brigades
+	title = blackbrigades.302.t
+	desc = blackbrigades.302.desc
+	picture = GFX_report_event_italy_female_fascists
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackbrigades.302.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = blackbrigades.303	#Reassuring The People
+	title = blackbrigades.303.t
+	desc = blackbrigades.303.desc
+	picture = GFX_report_event_italy_female_fascists
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackbrigades.303.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = blackbrigades.304	#Superstitions No More
+	title = blackbrigades.304.t
+	desc = blackbrigades.304.desc
+	picture = GFX_report_event_italy_female_fascists
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackbrigades.304.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = blackbrigades.305	#Strength in Schools
 	title = blackbrigades.305.t
 	desc = blackbrigades.305.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.305.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.306 #Implementing Security Taxes
+	id = blackbrigades.306	#Implementing Security Taxes
 	title = blackbrigades.306.t
 	desc = blackbrigades.306.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.306.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.307 #Hospitals In Working Order
+	id = blackbrigades.307	#Hospitals In Working Order
 	title = blackbrigades.307.t
 	desc = blackbrigades.307.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.307.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.308 #That Which We Hold Dear
+	id = blackbrigades.308	#That Which We Hold Dear
 	title = blackbrigades.308.t
 	desc = blackbrigades.308.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.308.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.309 #Culture of The Overman
+	id = blackbrigades.309	#Culture of The Overman
 	title = blackbrigades.309.t
 	desc = blackbrigades.309.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.309.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.310 #The Dark Wilderness
+	id = blackbrigades.310	#The Dark Wilderness
 	title = blackbrigades.310.t
 	desc = blackbrigades.310.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.310.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.311 #Register of The Insufficient
+	id = blackbrigades.311	#Register of The Insufficient
 	title = blackbrigades.311.t
 	desc = blackbrigades.311.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.311.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.312 #The Final Meeting
+	id = blackbrigades.312	#The Final Meeting
 	title = blackbrigades.312.t
 	desc = blackbrigades.312.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.312.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.313 #Dominion
+	id = blackbrigades.313	#Dominion
 	title = blackbrigades.313.t
 	desc = blackbrigades.313.desc
 	picture = GFX_report_event_italy_female_fascists
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.313.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		hidden_effect = {
-			load_focus_tree = { tree = basegi_reformists_post_political keep_completed = yes}
+			load_focus_tree = {
+				tree = basegi_reformists_post_political
+				keep_completed = yes
+			}
 		}
 	}
 }
@@ -673,348 +863,368 @@ country_event = {
 ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
 ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
 ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### ### ECONOMY ### 
-
 country_event = {
-	id = blackbrigades.314 #State Based Economics
+	id = blackbrigades.314	#State Based Economics
 	title = blackbrigades.314.t
 	desc = blackbrigades.314.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.314.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.315 #Repair What They Destroyed
+	id = blackbrigades.315	#Repair What They Destroyed
 	title = blackbrigades.315.t
 	desc = blackbrigades.315.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.315.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.316 #Factories Of Old
+	id = blackbrigades.316	#Factories Of Old
 	title = blackbrigades.316.t
 	desc = blackbrigades.316.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.316.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.317 #Improve Workers' Willpower
+	id = blackbrigades.317	#Improve Workers' Willpower
 	title = blackbrigades.317.t
 	desc = blackbrigades.317.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.317.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.318 #Work, For Survival!
+	id = blackbrigades.318	#Work, For Survival!
 	title = blackbrigades.318.t
 	desc = blackbrigades.318.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.318.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.319 #Housing For The Capable
+	id = blackbrigades.319	#Housing For The Capable
 	title = blackbrigades.319.t
 	desc = blackbrigades.319.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.319.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.320 #The Capable Must Be Uplifted
+	id = blackbrigades.320	#The Capable Must Be Uplifted
 	title = blackbrigades.320.t
 	desc = blackbrigades.320.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.320.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.321 #Finishing Touches
+	id = blackbrigades.321	#Finishing Touches
 	title = blackbrigades.321.t
 	desc = blackbrigades.321.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.321.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.322 #A Functioning Economy
+	id = blackbrigades.322	#A Functioning Economy
 	title = blackbrigades.322.t
 	desc = blackbrigades.322.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.322.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.323 #Address The State Of The Brigades
+	id = blackbrigades.323	#Address The State Of The Brigades
 	title = blackbrigades.323.t
 	desc = blackbrigades.323.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.323.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.324 #Sober Them Up
+	id = blackbrigades.324	#Sober Them Up
 	title = blackbrigades.324.t
 	desc = blackbrigades.324.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.324.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.325 #Purge The Rot
+	id = blackbrigades.325	#Purge The Rot
 	title = blackbrigades.325.t
 	desc = blackbrigades.325.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.325.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		add_manpower = -1
 	}
 }
+
 country_event = {
-	id = blackbrigades.326 #Purge The Incapable
+	id = blackbrigades.326	#Purge The Incapable
 	title = blackbrigades.326.t
 	desc = blackbrigades.326.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.326.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		add_manpower = -20
 	}
 }
+
 country_event = {
-	id = blackbrigades.327 #A Professional Army
+	id = blackbrigades.327	#A Professional Army
 	title = blackbrigades.327.t
 	desc = blackbrigades.327.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.327.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.328 #Mordakov's Legacy
+	id = blackbrigades.328	#Mordakov's Legacy
 	title = blackbrigades.328.t
 	desc = blackbrigades.328.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
-	option = { #Keep The Generals
+	option = {
+		#Keep The Generals
 		name = blackbrigades.328.a
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		set_country_flag = BBB_Reform_Kept_Generals
 	}
-	option = { #Kill The Generals
+	option = {
+		#Kill The Generals
 		name = blackbrigades.328.b
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		set_country_flag = BBB_Reform_Kill_Generals
 	}
 }
+
 country_event = {
-	id = blackbrigades.329 #The New Brigades
+	id = blackbrigades.329	#The New Brigades
 	title = blackbrigades.329.t
 	desc = blackbrigades.329.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.329.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 country_event = {
-	id = blackbrigades.330 #Out With The Old
+	id = blackbrigades.330	#Out With The Old
 	title = blackbrigades.330.t
 	desc = blackbrigades.330.desc
 	picture = GFX_report_event_india_factory_2
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
-		name = blackbrigades.330.a #This is supposed to be the start of an event chain about recruiting new generals.
-		ai_chance = { factor = 1 } #Right now it does nothing.
+		name = blackbrigades.330.a		#This is supposed to be the start of an event chain about recruiting new generals.
+		ai_chance = {
+			factor = 1
+		}
+		#Right now it does nothing.
 	}
 }
 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### 
 ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ### ### BASEGI RADICALS ###
-
 country_event = {
-	id = blackbrigades.101 #Lament of the weak 1
+	id = blackbrigades.101	#Lament of the weak 1
 	title = blackbrigades.101.t
 	desc = blackbrigades.101.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.101.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
 country_event = {
-	id = blackbrigades.102 #A Conquerors Bounty
+	id = blackbrigades.102	#A Conquerors Bounty
 	title = blackbrigades.102.t
 	desc = blackbrigades.102.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.102.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 		tno_minorities_improve = yes
 	}
 }
 
 country_event = {
-	id = blackbrigades.103 #A System Forged In Iron
+	id = blackbrigades.103	#A System Forged In Iron
 	title = blackbrigades.103.t
 	desc = blackbrigades.103.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.103.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
 country_event = {
-	id = blackbrigades.104 #Emergency Call 1
+	id = blackbrigades.104	#Emergency Call 1
 	title = blackbrigades.104.t
 	desc = blackbrigades.104.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.104.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
 country_event = {
-	id = blackbrigades.105 #Brotherhood in Strength
+	id = blackbrigades.105	#Brotherhood in Strength
 	title = blackbrigades.105.t
 	desc = blackbrigades.105.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.105.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
 country_event = {
-	id = blackbrigades.106 #Leviathan
+	id = blackbrigades.106	#Leviathan
 	title = blackbrigades.106.t
 	desc = blackbrigades.106.desc
 	picture = GFX_report_event_russian_fascists_harbin
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	option = {
 		name = blackbrigades.106.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
+
 #country_event = {
 #	id = basegi.reformistsvic.1
 #	title = basegi.reformistsvic.t
@@ -1059,7 +1269,6 @@ country_event = {
 #		}
 #	}
 #}
-
 #country_event = {
 #	id = basegi.radicalsvic.1
 #	title = basegi.radicalsvic.t
@@ -1104,4 +1313,3 @@ country_event = {
 #		}
 #	}
 #}
-
