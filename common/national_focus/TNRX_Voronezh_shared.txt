@@ -639,7 +639,7 @@ shared_focus = { # Mobilize the Reserves
 	y = 2
 }
 
-shared_focus = { # Mobilize the Reserves
+shared_focus = { # The final steps
 	id = VNH_the_final_steps
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
@@ -658,7 +658,7 @@ shared_focus = { # Mobilize the Reserves
 	y = 3
 }
 
-shared_focus = { # Mobilize the Reserves
+shared_focus = { # Dig German Stockpiles
 	id = VNH_dig_german_stockpiles
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
@@ -683,7 +683,7 @@ shared_focus = { # Mobilize the Reserves
 	y = 4
 }
 
-shared_focus = { # Mobilize the Reserves
+shared_focus = { # The last conversation
 	id = VNH_the_last_conversation
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 2
