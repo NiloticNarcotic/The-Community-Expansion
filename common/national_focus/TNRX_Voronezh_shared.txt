@@ -855,7 +855,7 @@ shared_focus = { #Long awaited justice
 
 shared_focus = { #Wolgstaat and Black brigade trials
 	id = VNH_Wolgstaat_and_Black_brigade_trials
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_show_trials
 	cost = 2
 
 	prerequisite = {
@@ -1334,7 +1334,7 @@ shared_focus = { #It's Moscow again
 
 shared_focus = { #Expel the SS from Russia
 	id = VNH_Expel_the_SS_from_Russia
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_smash_nazi_symbols
 	cost = 2
 
 	prerequisite = {
@@ -1369,7 +1369,7 @@ shared_focus = { #Expel the SS from Russia
 
 shared_focus = { #Kick out the reds
 	id = VNH_Kick_out_the_reds
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_smash_communists
 	cost = 2
 
 	prerequisite = {
@@ -1404,7 +1404,7 @@ shared_focus = { #Kick out the reds
 
 shared_focus = { #Kill the tyrants
 	id = VNH_Kill_the_tyrants
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_execute
 	cost = 2
 
 	prerequisite = {
@@ -1470,7 +1470,7 @@ shared_focus = { #Where did Mkhitar go?
 
 shared_focus = { #Liberation of St Petersburg
 	id = VNH_Liberation_of_St_Petersburg
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_smash_nazi_symbols
 	cost = 2
 
 	prerequisite = {
@@ -1510,7 +1510,7 @@ shared_focus = { #Liberation of St Petersburg
 
 shared_focus = { #Victory at last
 	id = VNH_Its_St_Petersburg
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_russian_eagle
 	cost = 1
 
 	prerequisite = {
