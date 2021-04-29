@@ -24,6 +24,7 @@ shared_focus = {# The First Council Meeting
     
 shared_focus = {# 
 	id = VNH_The_Reformer
+	icon = GFX_VNH_The_reformer
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
 	}
@@ -42,7 +43,7 @@ shared_focus = {#
     
 shared_focus = {# 
 	id = VNH_The_Artisan
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_VNH_The_Artisan
 	cost = 1
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
@@ -60,7 +61,7 @@ shared_focus = {#
 	
 shared_focus = {# 
 	id = VNH_The_Oligarch
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_VNH_The_oligarch
 	cost = 1
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
@@ -78,7 +79,7 @@ shared_focus = {#
 	
 shared_focus = {# 
 	id = VNH_The_Factory_Owners
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_The_Factory_owners
 	cost = 1
 	
 	prerequisite = {
@@ -97,7 +98,7 @@ shared_focus = {#
 	
 shared_focus = {# 
 	id = VNH_The_Defender
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_VNH_The_defender
 	cost = 1
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
@@ -307,7 +308,7 @@ shared_focus = {#
 	
 shared_focus = {# A Need For Strength
 		id = VNH_A_Need_For_Strength
-		icon = GFX_PRM_Beneath_The_Hooked_Cross
+		icon = GFX_VNH_strong_govement
 		cost = 1
 
 		prerequisite = {
