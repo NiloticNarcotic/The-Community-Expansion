@@ -1262,13 +1262,13 @@ country_event = { # kasche dips
 				news_event = { id = WORLD.579 days = 10 }
 			}
 			random_list = {
-				20 = {
+				100 = {
 					country_event = {
 						id = MCW.201
 						days = 10
 					}
 				}
-				70 = {
+				0 = {
 					country_event = {
 						id = MCW.106
 						days = 10
