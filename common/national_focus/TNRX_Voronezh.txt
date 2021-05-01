@@ -42,3 +42,18 @@ focus_tree = {
 	default = no
 	shared_focus = VNH_The_Reunification_wars_began
 }
+
+focus_tree = {
+    id = Voronezh_Tree_Election
+	
+	country = {
+	    factor = 0
+		
+		modifier = {
+		    add = 10
+			tag = VNH
+		}
+	}
+	default = no
+	shared_focus = VNH_Calls_of_democracy
+}

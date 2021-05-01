@@ -175,6 +175,7 @@ country_event = {
 	option = {
 		name = VNH_initial.5.a
 		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_War
 	}
 }
 country_event = {
@@ -712,6 +713,7 @@ country_event = {
 	option = {
 		name = VNH.26.a
 		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Election
 	}
 }
 country_event = {
@@ -723,7 +725,41 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = VNH.26.a
+		name = VNH.27.a
 		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.28
+	title = VNH.28.t
+	desc = VNH.28.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.27.a
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_The_status_quo_upheld
+	}
+	option = {
+		name = VNH.27.b
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_LDPR_velikaya_rossiya
+	}
+	option = {
+		name = VNH.27.c
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_Partiya_naroda
+	}
+	option = {
+		name = VNH.27.d
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_Reformist_victory
+	}
+	option = {
+		name = VNH.27.e
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_Artisans_Triumph
 	}
 }
