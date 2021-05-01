@@ -1509,7 +1509,7 @@ shared_focus = { #Liberation of St Petersburg
 	}
 }
 
-shared_focus = { #Victory at last
+shared_focus = { #It's St. Petersburg
 	id = VNH_Its_St_Petersburg
 	icon = GFX_generic_russian_eagle
 	cost = 1
