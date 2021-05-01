@@ -79,7 +79,7 @@ shared_focus = {# The Oligarch
 	
 shared_focus = {# The Factory Owners
 	id = VNH_The_Factory_Owners
-	icon = GFX_the_factory_owners
+	icon = GFX_VNH_the_factory_owners
 	cost = 1
 	
 	prerequisite = {
