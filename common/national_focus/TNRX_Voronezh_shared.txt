@@ -22,9 +22,9 @@ shared_focus = {# The First Council Meeting
 	y = 0
 }
     
-shared_focus = {# 
+shared_focus = {# The Reformer
 	id = VNH_The_Reformer
-	icon = GFX_VNH_The_reformer
+	icon = GFX_VNH_the_reformer
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
 	}
@@ -41,9 +41,9 @@ shared_focus = {#
 	y = 1
 }
     
-shared_focus = {# 
+shared_focus = {# The Artisan
 	id = VNH_The_Artisan
-	icon = GFX_VNH_The_Artisan
+	icon = GFX_VNH_the_artisan
 	cost = 1
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
@@ -59,9 +59,9 @@ shared_focus = {#
 	y = 1
 }
 	
-shared_focus = {# 
+shared_focus = {# The Oligarch
 	id = VNH_The_Oligarch
-	icon = GFX_VNH_The_oligarch
+	icon = GFX_VNH_the_oligarch
 	cost = 1
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
@@ -77,9 +77,9 @@ shared_focus = {#
 	y = 1
 }
 	
-shared_focus = {# 
+shared_focus = {# The Factory Owners
 	id = VNH_The_Factory_Owners
-	icon = GFX_The_Factory_owners
+	icon = GFX_the_factory_owners
 	cost = 1
 	
 	prerequisite = {
@@ -96,9 +96,9 @@ shared_focus = {#
 	y = 1
 	}
 	
-shared_focus = {# 
+shared_focus = {# The Defender
 	id = VNH_The_Defender
-	icon = GFX_VNH_The_defender
+	icon = GFX_VNH_the_defender
 	cost = 1
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
@@ -151,7 +151,7 @@ shared_focus = {# A Government For Stability
 		y = 2
 	}
 	
-shared_focus = {# 
+shared_focus = {# Bulganins ideas
 	id = VNH_Bulganins_ideas
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 1
@@ -172,7 +172,7 @@ shared_focus = {#
 	y = 3
 }
 	
-shared_focus = {# 
+shared_focus = {# Refused
 	id = VNH_Refused
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 1
@@ -194,7 +194,7 @@ shared_focus = {#
 	y = 4
 }
 	
-shared_focus = {# 
+shared_focus = {# Focus On Light Industry
 	id = VNH_Focus_On_Light_Industry
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 1
@@ -220,7 +220,7 @@ shared_focus = {#
 	y = 5
 }
 	
-shared_focus = {# 
+shared_focus = {# Savvinas Altruism
 	id = VNH_Savvinas_Altruism
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 1
@@ -240,7 +240,7 @@ shared_focus = {#
 	y = 3
 }
 	
-shared_focus = {# 
+shared_focus = {# Putin's Demands
 	id = VNH_Putins_Demands
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 1
@@ -261,7 +261,7 @@ shared_focus = {#
 	y = 3
 	}
 	
-shared_focus = {# 
+shared_focus = {# Compensate Lukins Oligarchs
 	id = VNH_Compensate_Lukins_Oligarchs
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 1
@@ -285,7 +285,7 @@ shared_focus = {#
 	y = 4
 	}
 	
-shared_focus = {# 
+shared_focus = {# Deregulate The Economy
 	id = VNH_Deregulate_The_Economy
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cost = 1
@@ -308,7 +308,7 @@ shared_focus = {#
 	
 shared_focus = {# A Need For Strength
 		id = VNH_A_Need_For_Strength
-		icon = GFX_VNH_strong_govement
+		icon = GFX_VNH_strong_goverment
 		cost = 1
 
 		prerequisite = {

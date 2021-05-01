@@ -27217,4 +27217,8 @@ spriteTypes = {
 		name = "GFX_VNH_Stimulate_The_Economy"
 		texturefile = "gfx/interface/goals/GFX_VNH_Stimulate_The_Economy.dds"
 	}
+	SpriteType = {
+		name = "GFX_VNH_the_artisan"
+		texturefile = "gfx/interface/goals/VNH_the_artisan.dds"
+	}
 }
