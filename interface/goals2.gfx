@@ -15660,6 +15660,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/RAJ_Economic_Bloc.dds"
 	}
 	SpriteType = {
+		name = "GFX_VNH_Revitalise_Railway"
+		texturefile = "gfx/interface/goals/Revitalise_Railway.dds"
+	}
+	SpriteType = {
+		name = "GFX_VNH_But_not_too_much"
+		texturefile = "gfx/interface/goals/But_not_too_much.dds"
+	}
+	SpriteType = {
 		name = "GFX_RAJ_Mixed_Market"
 		texturefile = "gfx/interface/goals/RAJ_Mixed_Market.dds"
 	}

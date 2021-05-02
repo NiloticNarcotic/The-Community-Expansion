@@ -14,7 +14,7 @@ country_event = {
 	id = VNH_debug.1 #Initiate Mechanic
 	title = VNH_debug.1.t
 	desc = VNH_debug.1.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -35,7 +35,7 @@ country_event = {
 	id = VNH_debug.2 # Sets sliders to 50
 	title = VNH_debug.2.t
 	desc = VNH_debug.2.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -55,7 +55,7 @@ country_event = {
 	id = VNH_debug.3 #refresh modifiers
 	title = VNH_debug.3.t
 	desc = VNH_debug.3.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -74,7 +74,7 @@ country_event = {
 	id = VNH_debug.4 #poop
 	title = VNH_debug.4.t
 	desc = VNH_debug.4.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -108,7 +108,7 @@ country_event = {
 	id = VNH_initial.1
 	title = VNH_initial.1.t
 	desc = VNH_initial.1.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -129,7 +129,7 @@ country_event = {
 	id = VNH_initial.2
 	title = VNH_initial.2.t
 	desc = VNH_initial.2.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -142,7 +142,7 @@ country_event = {
 	id = VNH_initial.3
 	title = VNH_initial.3.t
 	desc = VNH_initial.3.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -155,7 +155,7 @@ country_event = {
 	id = VNH_initial.4
 	title = VNH_initial.4.t
 	desc = VNH_initial.4.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -168,7 +168,7 @@ country_event = {
 	id = VNH_initial.5
 	title = VNH_initial.5.t
 	desc = VNH_initial.5.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -195,7 +195,7 @@ country_event = {
 	id = VNH_initial.7
 	title = VNH_initial.7.t
 	desc = VNH_initial.7.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -208,7 +208,7 @@ country_event = {
 	id = VNH_initial.8
 	title = VNH_initial.8.t
 	desc = VNH_initial.8.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -222,7 +222,7 @@ country_event = {
 	id = VNH_initial.9
 	title = VNH_initial.9.t
 	desc = VNH_initial.9.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -235,7 +235,7 @@ country_event = {
 	id = VNH_initial.10
 	title = VNH_initial.10.t
 	desc = VNH_initial.10.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -248,7 +248,7 @@ country_event = {
 	id = VNH_initial.11
 	title = VNH_initial.11.t
 	desc = VNH_initial.11.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -261,7 +261,7 @@ country_event = {
 	id = VNH_initial.12
 	title = VNH_initial.12.t
 	desc = VNH_initial.12.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -274,7 +274,7 @@ country_event = {
 	id = VNH_initial.13
 	title = VNH_initial.13.t
 	desc = VNH_initial.13.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -287,7 +287,7 @@ country_event = {
 	id = VNH_initial.14
 	title = VNH_initial.14.t
 	desc = VNH_initial.14.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -300,7 +300,7 @@ country_event = {
 	id = VNH_initial.15
 	title = VNH_initial.15.t
 	desc = VNH_initial.15.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -313,7 +313,7 @@ country_event = {
 	id = VNH_initial.16
 	title = VNH_initial.16.t
 	desc = VNH_initial.16.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -326,7 +326,7 @@ country_event = {
 	id = VNH_initial.17
 	title = VNH_initial.17.t
 	desc = VNH_initial.17.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -339,7 +339,7 @@ country_event = {
 	id = VNH_initial.18
 	title = VNH_initial.18.t
 	desc = VNH_initial.18.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -352,7 +352,7 @@ country_event = {
 	id = VNH_initial.19
 	title = VNH_initial.19.t
 	desc = VNH_initial.19.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -365,7 +365,7 @@ country_event = {
 	id = VNH_initial.20
 	title = VNH_initial.20.t
 	desc = VNH_initial.20.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -379,7 +379,7 @@ country_event = {
 	id = VNH.1
 	title = VNH.1.t
 	desc = VNH.1.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -394,7 +394,7 @@ country_event = {
 	id = VNH.2
 	title = VNH.2.t
 	desc = VNH.2.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -407,7 +407,7 @@ country_event = {
 	id = VNH.3
 	title = VNH.3.t
 	desc = VNH.3.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -420,7 +420,7 @@ country_event = {
 	id = VNH.4
 	title = VNH.4.t
 	desc = VNH.4.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -433,7 +433,7 @@ country_event = {
 	id = VNH.5
 	title = VNH.5.t
 	desc = VNH.5.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -447,7 +447,7 @@ country_event = {
 	id = VNH.6
 	title = VNH.6.t
 	desc = VNH.6.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -460,7 +460,7 @@ country_event = {
     id = VNH.7
 	title = VNH.7.t
 	desc = VNH.7.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 	
 	is_triggered_only = yes
 	option = {
@@ -472,7 +472,7 @@ country_event = {
 	id = VNH.8
 	title = VNH.8.t
 	desc = VNH.8.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -485,7 +485,7 @@ country_event = {
 	id = VNH.9
 	title = VNH.9.t
 	desc = VNH.9.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -498,7 +498,7 @@ country_event = {
 	id = VNH.10
 	title = VNH.10.t
 	desc = VNH.10.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -511,7 +511,7 @@ country_event = {
 	id = VNH.11
 	title = VNH.11.t
 	desc = VNH.11.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -524,7 +524,7 @@ country_event = {
 	id = VNH.12
 	title = VNH.12.t
 	desc = VNH.12.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -537,7 +537,7 @@ country_event = {
 	id = VNH.13
 	title = VNH.13.t
 	desc = VNH.13.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -550,7 +550,7 @@ country_event = {
 	id = VNH.14
 	title = VNH.14.t
 	desc = VNH.14.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -563,7 +563,7 @@ country_event = {
 	id = VNH.15
 	title = VNH.15.t
 	desc = VNH.15.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -576,7 +576,7 @@ country_event = {
 	id = VNH.16
 	title = VNH.16.t
 	desc = VNH.15.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -589,7 +589,7 @@ country_event = {
 	id = VNH.17
 	title = VNH.17.t
 	desc = VNH.17.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -602,7 +602,7 @@ country_event = {
 	id = VNH.18
 	title = VNH.18.t
 	desc = VNH.18.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -615,7 +615,7 @@ country_event = {
 	id = VNH.19
 	title = VNH.19.t
 	desc = VNH.19.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -628,7 +628,7 @@ country_event = {
 	id = VNH.20
 	title = VNH.20.t
 	desc = VNH.20.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -641,7 +641,7 @@ country_event = {
 	id = VNH.21
 	title = VNH.21.t
 	desc = VNH.21.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -654,7 +654,7 @@ country_event = {
 	id = VNH.22
 	title = VNH.22.t
 	desc = VNH.22.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -667,7 +667,7 @@ country_event = {
 	id = VNH.23
 	title = VNH.23.t
 	desc = VNH.23.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -680,7 +680,7 @@ country_event = {
 	id = VNH.24
 	title = VNH.24.t
 	desc = VNH.24.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -693,7 +693,7 @@ country_event = {
 	id = VNH.25
 	title = VNH.25.t
 	desc = VNH.25.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -706,7 +706,7 @@ country_event = {
 	id = VNH.26
 	title = VNH.26.t
 	desc = VNH.26.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -720,7 +720,7 @@ country_event = {
 	id = VNH.27
 	title = VNH.27.t
 	desc = VNH.27.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -733,7 +733,7 @@ country_event = {
 	id = VNH.28
 	title = VNH.28.t
 	desc = VNH.28.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
@@ -767,12 +767,69 @@ country_event = {
 	id = VNH.29
 	title = VNH.29.t
 	desc = VNH.29.desc
-	picture = 
+	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = yes
 
 	option = {
-		name = VNH.27.a
+		name = VNH.29.a
 		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Gorbachev
+	}
+}
+country_event = {
+	id = VNH.30
+	title = VNH.30.t
+	desc = VNH.30.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.30.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Putin
+	}
+}
+country_event = {
+	id = VNH.31
+	title = VNH.31.t
+	desc = VNH.31.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.31.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Savvina
+	}
+}
+country_event = {
+	id = VNH.32
+	title = VNH.32.t
+	desc = VNH.32.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.32.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Lukin
+	}
+}
+country_event = {
+	id = VNH.33
+	title = VNH.33.t
+	desc = VNH.33.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.33.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Ligachev
 	}
 }

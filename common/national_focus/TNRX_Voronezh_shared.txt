@@ -390,7 +390,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = VNH_Revitalise_The_South_Eastern_Railway
-		icon = GFX_PRM_Beneath_The_Hooked_Cross
+		icon = GFX_VNH_Revitalise_Railway
 		cost = 1
 		
 		prerequisite = {
@@ -446,7 +446,7 @@ shared_focus = {# New Training Programme
 	
 shared_focus = {# But Not Too Much
 		id = VNH_But_Not_Too_Much
-		icon = GFX_PRM_Beneath_The_Hooked_Cross
+		icon = GFX_VNH_But_not_too_much
 		cost = 1
 
 		prerequisite = {
@@ -1572,7 +1572,7 @@ shared_focus = {
 	cost = 2
 	
 	x = 0
-	y = 1
+	y = 0
 	completion_reward = {
 	    country_event = {
 		    id = VNH.27
@@ -1737,12 +1737,158 @@ shared_focus = {
 	cost = 2
 	
 	x = 0
+	y = 0
+	completion_reward = {
+		add_stability = 0.05
+		VNH_Corruption_Lose_Medium = yes
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_inaugurating_speech
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -2
 	y = 1
+	prerequisite = {
+		focus = VNH_Hat_man_victorious
+	}
 	completion_reward = {
 	    country_event = {
-		    id = VNH.27
+		    id = VNH.34
 			days = 1
 		}
-		add_stability = 0.05
+	political_power = 0.2
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_party
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = VNH_Hat_man_victorious
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.35
+			days = 1
+		}
+	political_power = 0.1
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_next_step
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 0
+	y = 2
+	prerequisite = {
+		focus = VNH_The_party
+		focus = VNH_The_inaugurating_speech
+	}
+	completion_reward = {
+	 political_power = 0.1
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_fate_of_the_oligarchs
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 6
+	y = 3
+	prerequisite = {
+		focus = VNH_The_next_step
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.36
+			days = 1
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_awaited_trial
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 8
+	y = 4
+	prerequisite = {
+		focus = VNH_The_fate_of_the_oligarchs
+	}
+	mutually_exclusive = {
+	    focus = VNH_The_light_hand
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.37
+			days = 1
+		}
+		VNH_Corruption_Lose_High = yes
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_light_hand
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = VNH_The_fate_of_the_oligarchs
+	}
+	mutually_exclusive = {
+	    focus = VNH_The_awaited_trial
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.38
+			days = 1
+		}
+		VNH_Corruption_Lose_High = yes
+	}
+}
+
+shared_focus = { 
+    id = VNH_A_true_democracy
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 6
+	y = 5
+	prerequisite = {
+		focus = VNH_The_awaited_trial
+	}
+	prerequisite = {
+		focus = VNH_The_light_hand
+	}
+	completion_reward = {
+		add_stability = 0.3
+	}
+}
+
+shared_focus = { 
+    id = VNH_Economic_burdens
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -6
+	y = 3
+	prerequisite = {
+		focus = VNH_The_next_step
+	}
+	completion_reward = {
+		add_idea = VNH_Gorby_Economy_1
 	}
 }
