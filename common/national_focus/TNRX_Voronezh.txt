@@ -57,3 +57,80 @@ focus_tree = {
 	default = no
 	shared_focus = VNH_Calls_of_democracy
 }
+
+focus_tree = {
+    id = Voronezh_Tree_Gorbachev
+	
+	country = {
+	    factor = 0
+		
+		modifier = {
+		    add = 10
+			tag = VNH
+		}
+	}
+	default = no
+	shared_focus = 
+}
+
+focus_tree = {
+    id = Voronezh_Tree_Putin
+	
+	country = {
+	    factor = 0
+		
+		modifier = {
+		    add = 10
+			tag = VNH
+		}
+	}
+	default = no
+	shared_focus = 
+}
+
+
+focus_tree = {
+    id = Voronezh_Tree_Savvina
+	
+	country = {
+	    factor = 0
+		
+		modifier = {
+		    add = 10
+			tag = VNH
+		}
+	}
+	default = no
+	shared_focus = 
+}
+
+focus_tree = {
+    id = Voronezh_Tree_Lukin
+	
+	country = {
+	    factor = 0
+		
+		modifier = {
+		    add = 10
+			tag = VNH
+		}
+	}
+	default = no
+	shared_focus = 
+}
+
+
+focus_tree = {
+    id = Voronezh_Tree_Ligachev
+	
+	country = {
+	    factor = 0
+		
+		modifier = {
+		    add = 10
+			tag = VNH
+		}
+	}
+	default = no
+	shared_focus = 
+}

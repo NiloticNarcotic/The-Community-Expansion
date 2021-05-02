@@ -1605,6 +1605,9 @@ shared_focus = {
 	x = 0
 	y = 3
 	
+	prerequisite = {
+		focus = VNH_The_peoples_vote
+	}
 	mutually_exclusive = {
 	    focus = VNH_Partiya_naroda
 		focus = VNH_LDPR_velikaya_rossiya
@@ -1627,6 +1630,9 @@ shared_focus = {
 	
 	x = -1
 	y = 3
+	prerequisite = {
+		focus = VNH_The_peoples_vote
+	}
 	mutually_exclusive = {
 	    focus = VNH_The_status_quo_holds
 		focus = VNH_LDPR_velikaya_rossiya
@@ -1650,6 +1656,9 @@ shared_focus = {
 	
 	x = -2
 	y = 3
+	prerequisite = {
+		focus = VNH_The_peoples_vote
+	}
 	mutually_exclusive = {
 	    focus = VNH_Partiya_naroda
 		focus = VNH_The_status_quo_holds
@@ -1672,6 +1681,9 @@ shared_focus = {
 	
 	x = 1
 	y = 3
+	prerequisite = {
+		focus = VNH_The_peoples_vote
+	}
 	mutually_exclusive = {
 	    focus = VNH_Partiya_naroda
 		focus = VNH_LDPR_velikaya_rossiya
@@ -1680,7 +1692,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	    country_event = {
-		    id = VNH.33
+		    id = VNH.32
 			days = 1
 		}
 		add_political_power = 0.5
@@ -1694,6 +1706,9 @@ shared_focus = {
 	
 	x = 2
 	y = 3
+	prerequisite = {
+		focus = VNH_The_peoples_vote
+	}
 	mutually_exclusive = {
 	    focus = VNH_Partiya_naroda
 		focus = VNH_LDPR_velikaya_rossiya
@@ -1702,9 +1717,32 @@ shared_focus = {
 	}
 	completion_reward = {
 	    country_event = {
-		    id = VNH.34
+		    id = VNH.33
 			days = 1
 		}
 		add_political_power = 0.6
+	}
+}
+
+#####################################################################################################################
+####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE #############
+##################################################################################################################### 
+#####################################################################################################################
+####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE #############
+##################################################################################################################### 
+
+shared_focus = { 
+    id = VNH_Hat_man_victorious
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 0
+	y = 1
+	completion_reward = {
+	    country_event = {
+		    id = VNH.27
+			days = 1
+		}
+		add_stability = 0.05
 	}
 }
