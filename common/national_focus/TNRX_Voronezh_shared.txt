@@ -1560,171 +1560,6 @@ shared_focus = { #Victory at last
 }
 
 #####################################################################################################################
-####### VORONEZH ELECTION TREE ####### VORONEZH ELECTION TREE ####### VORONEZH ELECTION TREE ####### VORONEZH ELECTION TREE #############
-##################################################################################################################### 
-#####################################################################################################################
-####### VORONEZH ELECTION TREE ####### VORONEZH ELECTION TREE ####### VORONEZH ELECTION TREE ####### VORONEZH ELECTION TREE #############
-##################################################################################################################### 
-
-shared_focus = { 
-    id = VNH_Calls_of_democracy
-	icon = GFX_SLO_Social_Liberalization
-	cost = 2
-	
-	x = 0
-	y = 0
-	completion_reward = {
-	    country_event = {
-		    id = VNH.27
-			days = 1
-		}
-		add_political_power = -0.2
-	}
-}
-
-shared_focus = { 
-    id = VNH_The_peoples_vote
-	icon = GFX_ENG_Onwards_to_Democracy
-	cost = 2
-	
-	x = 0
-	y = 2
-	completion_reward = {
-	    country_event = {
-		    id = VNH.28
-			days = 1
-		}
-		add_political_power = 0.35
-	}
-}
-
-shared_focus = { 
-    id = VNH_The_status_quo_holds
-	icon = GFX_market_socialism
-	cost = 1
-	x = 0
-	y = 3
-	
-	prerequisite = {
-		focus = VNH_The_peoples_vote
-	}
-	mutually_exclusive = {
-	    focus = VNH_Partiya_naroda
-		focus = VNH_LDPR_velikaya_rossiya
-		focus = VNH_Reformist_victory
-		focus = VNH_Artisans_Triumph
-	}
-	
-	completion_reward = {
-	    country_event = {
-		    id = VNH.29
-			days = 1
-		}
-	}
-}
-
-shared_focus = { 
-    id = VNH_Partiya_naroda
-	icon = GFX_ITA_focus_ita_social_democrat_victory_66
-	cost = 1
-	
-	x = -1
-	y = 3
-	prerequisite = {
-		focus = VNH_The_peoples_vote
-	}
-	mutually_exclusive = {
-	    focus = VNH_The_status_quo_holds
-		focus = VNH_LDPR_velikaya_rossiya
-		focus = VNH_Reformist_victory
-		focus = VNH_Artisans_Triumph
-	}
-	
-	completion_reward = {
-	    country_event = {
-		    id = VNH.30
-			days = 1
-		}
-		add_political_power = 0.30
-	}
-}
-
-shared_focus = { 
-    id = VNH_LDPR_velikaya_rossiya
-	icon = GFX_ITA_focus_ita_social_democrat_victory_66
-	cost = 1
-	
-	x = -2
-	y = 3
-	prerequisite = {
-		focus = VNH_The_peoples_vote
-	}
-	mutually_exclusive = {
-	    focus = VNH_Partiya_naroda
-		focus = VNH_The_status_quo_holds
-		focus = VNH_Reformist_victory
-		focus = VNH_Artisans_Triumph
-	}
-	completion_reward = {
-	    country_event = {
-		    id = VNH.31
-			days = 1
-		}
-		add_political_power = 0.30
-	}
-}
-
-shared_focus = { 
-    id = VNH_Artisans_Triumph
-	icon = GFX_URL_Teach_Their_Artisans
-	cost = 1
-	
-	x = 1
-	y = 3
-	prerequisite = {
-		focus = VNH_The_peoples_vote
-	}
-	mutually_exclusive = {
-	    focus = VNH_Partiya_naroda
-		focus = VNH_LDPR_velikaya_rossiya
-		focus = VNH_Reformist_victory
-		focus = VNH_The_status_quo_holds
-	}
-	completion_reward = {
-	    country_event = {
-		    id = VNH.32
-			days = 1
-		}
-		add_political_power = 0.5
-	}
-}
-
-shared_focus = { 
-    id = VNH_Reformist_victory
-	icon = GFX_Generic_Social_Liberal
-	cost = 1
-	
-	x = 2
-	y = 3
-	prerequisite = {
-		focus = VNH_The_peoples_vote
-	}
-	mutually_exclusive = {
-	    focus = VNH_Partiya_naroda
-		focus = VNH_LDPR_velikaya_rossiya
-		focus = VNH_The_status_quo_holds
-		focus = VNH_Artisans_Triumph
-	}
-	completion_reward = {
-	    country_event = {
-		    id = VNH.33
-			days = 1
-		}
-		add_political_power = 0.6
-	}
-}
-
-#####################################################################################################################
 ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE #############
 ##################################################################################################################### 
 #####################################################################################################################
@@ -1759,7 +1594,7 @@ shared_focus = {
 		    id = VNH.34
 			days = 1
 		}
-	political_power = 0.2
+	political_power = 20
 	}
 }
 
@@ -1778,7 +1613,7 @@ shared_focus = {
 		    id = VNH.35
 			days = 1
 		}
-	political_power = 0.1
+	political_power = 10
 	}
 }
 
@@ -1794,7 +1629,7 @@ shared_focus = {
 		focus = VNH_The_inaugurating_speech
 	}
 	completion_reward = {
-	 political_power = 0.1
+	 political_power = 10
 	}
 }
 
