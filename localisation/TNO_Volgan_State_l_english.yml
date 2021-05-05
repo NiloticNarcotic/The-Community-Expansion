@@ -61,6 +61,8 @@
  VLG_mandatory_NSDAP_seats_tooltip:0 "The NSDAP maintains a permanent §R15§! seats in Wolgabund."
  VLG_volga_autonomous_region:0 "Volga Autonomus Region"
  VLG_volga_autonomous_region_desc:0 "The Volga-german council, though split between Wolgabund and NSDAP ensures a certain level of autonomy for those areas, that the Volga-germans mainly inhabit."
+ VLG_disorganized_head_command:0 "Disorganized Head Command"
+ VLG_disorganized_head_command_desc:0 "Our forces are disorganized, we are not able to deploy soldiers to the frontlines and must rely on what we have. This makes our situation uncertain, as we may end up soon running out of efficient manpower, and be left on our own."
 
  
 ### Events ###

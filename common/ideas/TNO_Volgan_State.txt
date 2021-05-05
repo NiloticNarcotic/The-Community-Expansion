@@ -53,5 +53,19 @@ ideas = {
 				conscription_factor = -0.1
 			}
 		}
+		VLG_disorganized_head_command = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VLG_wolga_german_settler_conflict" }
+			removal_cost = -1
+			picture = BRY_Idealistic_Revolutionaries
+			
+
+			allowed = {
+				original_tag = VLG
+			}
+			modifier = {
+				conscription_factor = -0.25
+				country_lock_all_division_template = yes
+			}
+		}
 	}
 }

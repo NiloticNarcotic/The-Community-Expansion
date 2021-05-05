@@ -5,6 +5,7 @@ add_ideas = {
 	VLG_volga_settler_conflict
 	VLG_local_russian_resistance
 	VLG_NSDAP_meddling
+	VLG_disorganized_head_command
 	##MINISTERS##
 	VLG_minister_Dominik_Hollmann_hog
 	VLG_minister_Alexander_Hasselbach_eco
