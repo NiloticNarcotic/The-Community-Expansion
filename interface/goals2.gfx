@@ -27231,14 +27231,18 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_VNH_the_reformer"
-		texturefile = "gfx/interface/goals/GFX_VNH_the_reformer.dds"
+		texturefile = "gfx/interface/goals/VNH_the_reformer.dds"
+	}
+	SpriteType = {
+		name = "GFX_VNH_the_defender"
+		texturefile = "gfx/interface/goals/VNH_the_defender.dds"
 	}
 	SpriteType = {
 		name = "GFX_VNH_the_oligarch"
-		texturefile = "gfx/interface/goals/GFX_VNH_the_oligarch.dds"
+		texturefile = "gfx/interface/goals/VNH_the_oligarch.dds"
 	}
 	SpriteType = {
-		name = "GFX_the_factory_owners"
-		texturefile = "gfx/interface/goals/GFX_the_factory_owners.dds"
+		name = "GFX_VNH_the_factory_owners"
+		texturefile = "gfx/interface/goals/GFX_VNH_the_factory_owners.dds"
 	}
 }

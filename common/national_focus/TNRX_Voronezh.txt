@@ -71,4 +71,12 @@ focus_tree = {
 	}
 	default = no
 	shared_focus = VNH_Hat_man_victorious
+	shared_focus = VNH_Defenders_of_democracy
+	shared_focus = VNH_On_the_land
+	shared_focus = VNH_Voronezh_Military_Academy
+	shared_focus = VNH_Gorbachev_Line
+	shared_focus = VNH_Bulganins_word
+	shared_focus = VNH_Boots_of_democracy
+	shared_focus = VNH_Standardize_production
+	shared_focus = VNH_In_the_sky
 }

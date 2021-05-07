@@ -62,7 +62,7 @@ shared_focus = {
 	icon = GFX_ITA_focus_ita_social_democrat_victory_66
 	cost = 1
 	
-	x = -1
+	x = -2
 	y = 3
 	prerequisite = {
 		focus = VNH_The_peoples_vote
@@ -88,7 +88,7 @@ shared_focus = {
 	icon = GFX_ITA_focus_ita_social_democrat_victory_66
 	cost = 1
 	
-	x = -2
+	x = -4
 	y = 3
 	prerequisite = {
 		focus = VNH_The_peoples_vote
@@ -113,7 +113,7 @@ shared_focus = {
 	icon = GFX_URL_Teach_Their_Artisans
 	cost = 1
 	
-	x = 1
+	x = 2
 	y = 3
 	prerequisite = {
 		focus = VNH_The_peoples_vote
@@ -138,7 +138,7 @@ shared_focus = {
 	icon = GFX_Generic_Social_Liberal
 	cost = 1
 	
-	x = 2
+	x = 4
 	y = 3
 	prerequisite = {
 		focus = VNH_The_peoples_vote

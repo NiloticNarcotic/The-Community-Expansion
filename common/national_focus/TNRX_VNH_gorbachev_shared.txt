@@ -1,0 +1,553 @@
+shared_focus = { 
+    id = VNH_Hat_man_victorious
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 0
+	y = 0
+	completion_reward = {
+		add_stability = 0.05
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_inaugurating_speech
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -2
+	y = 1
+	prerequisite = {
+		focus = VNH_Hat_man_victorious
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.34
+			days = 1
+		}
+	political_power = 20
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_party
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = VNH_Hat_man_victorious
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.35
+			days = 1
+		}
+	political_power = 10
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_next_step
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 0
+	y = 2
+	prerequisite = {
+		focus = VNH_The_party
+		focus = VNH_The_inaugurating_speech
+	}
+	completion_reward = {
+	 political_power = 10
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_fate_of_the_oligarchs
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 6
+	y = 3
+	prerequisite = {
+		focus = VNH_The_next_step
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.36
+			days = 1
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_awaited_trial
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 8
+	y = 4
+	prerequisite = {
+		focus = VNH_The_fate_of_the_oligarchs
+	}
+	mutually_exclusive = {
+	    focus = VNH_The_light_hand
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.37
+			days = 1
+		}
+	VNH_Corruption_Lose_Large = yes
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_light_hand
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = VNH_The_fate_of_the_oligarchs
+	}
+	mutually_exclusive = {
+	    focus = VNH_The_awaited_trial
+	}
+	completion_reward = {
+	    country_event = {
+		    id = VNH.38
+			days = 1
+		}
+	VNH_Corruption_Lose_Medium = yes 
+	}
+}
+
+shared_focus = { 
+    id = VNH_A_true_democracy
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 6
+	y = 5
+	prerequisite = {
+		focus = VNH_The_awaited_trial
+	}
+	prerequisite = {
+		focus = VNH_The_light_hand
+	}
+	completion_reward = {
+		add_stability = 0.3
+	}
+}
+
+shared_focus = { 
+    id = VNH_Economic_burdens
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -6
+	y = 3
+	prerequisite = {
+		focus = VNH_The_next_step
+	}
+	completion_reward = {
+		add_idea = VNH_Gorby_Economy_1
+	}
+}
+
+shared_focus = { 
+    id = VNH_Nationalize_key_industries
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -4
+	y = 4
+	prerequisite = {
+		focus = VNH_Economic_burdens
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Strict_Regulations
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -4
+	y = 5
+	prerequisite = {
+		focus = VNH_Nationalize_key_industries
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Perfected_capitalism
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -4
+	y = 6
+	prerequisite = {
+		focus = VNH_Strict_Regulations
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Education_for_all
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -8
+	y = 4
+	prerequisite = {
+		focus = VNH_Economic_burdens
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Rebuild_Tula_Arms
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -8
+	y = 4
+	prerequisite = {
+		focus = VNH_Education_for_all
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Prepare_for_war
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -8
+	y = 6
+	prerequisite = {
+		focus = VNH_Rebuild_Tula_Arms
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Steady_urbanization_programs
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -6
+	y = 4
+	prerequisite = {
+		focus = VNH_Economic_burdens
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Tax_the_rich
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -6
+	y = 5
+	prerequisite = {
+		focus = VNH_Steady_urbanization_programs
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Minor_welfare_program
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -6
+	y = 6
+	prerequisite = {
+		focus = VNH_Tax_the_rich
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Soon_to_be_prosperous
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -6
+	y = 7
+	prerequisite = {
+		focus = VNH_Perfected_capitalism
+		focus = VNH_Minor_welfare_program
+		focus = VNH_Prepare_for_war
+	}
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+    id = VNH_Defenders_of_democracy
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 14
+	y = 0
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_On_the_land
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 10
+	y = 1
+	prerequisite = {
+		focus = VNH_Defenders_of_democracy
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Voronezh_Military_Academy
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 8
+	y = 2
+	prerequisite = {
+		focus = VNH_On_the_land
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Gorbachev_Line
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 10
+	y = 2
+	prerequisite = {
+		focus = VNH_On_the_land
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Bulganins_word
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 10
+	y = 4
+	prerequisite = {
+		focus = VNH_Standardize_production
+	}
+	prerequisite = {
+		focus = VNH_Gorbachev_Line
+	}
+	prerequisite = {
+		focus = VNH_Voronezh_Military_Academy
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Boots_of_democracy
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 10
+	y = 6
+	prerequisite = {
+		focus = VNH_Bulganins_word
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Standardize_production
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 12
+	y = 2
+	prerequisite = {
+		focus = VNH_On_the_land
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_In_the_sky
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 18
+	y = 1
+	prerequisite = {
+		focus = VNH_Defenders_of_democracy
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Land_air_integration
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 16
+	y = 2
+	prerequisite = {
+		focus = VNH_In_the_sky
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_New_ages_new_planes
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 18
+	y = 2
+	prerequisite = {
+		focus = VNH_In_the_sky
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Revive_MiG
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 20
+	y = 2
+	prerequisite = {
+		focus = VNH_In_the_sky
+	}
+	completion_reward = {
+	 
+	}
+}
+
+
+shared_focus = { 
+    id = VNH_Smolensk_air_base
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 18
+	y = 3
+	prerequisite = {
+		focus = VNH_Revive_MiG
+	}
+	prerequisite = {
+		focus = VNH_Land_air_integration
+	}
+	prerequisite = {
+		focus = VNH_New_ages_new_planes
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Against_all_odds
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 18
+	y = 6
+	prerequisite = {
+		focus = VNH_Smolensk_air_base
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_Army_of_Russia
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 18
+	y = 6
+	prerequisite = {
+		focus = VNH_Against_all_odds
+	}
+	prerequisite = {
+		focus = VNH_Boots_of_democracy
+	}
+	completion_reward = {
+	 
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_future
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 6
+	y = 8
+	prerequisite = {
+		focus = VNH_Army_of_Russia
+	}
+	prerequisite = {
+		focus = VNH_Soon_to_be_prosperous
+	}
+	completion_reward = {
+	 
+	}
+}
