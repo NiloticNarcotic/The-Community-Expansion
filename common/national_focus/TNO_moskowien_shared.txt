@@ -133,6 +133,37 @@ shared_focus = {# admit our failure
 	y = 4
 }
 
+
+shared_focus = {# The investigation into command
+	id = MCW_The_investigation_into_command
+	icon = GFX_decadence_and_complacency
+	cost = 1
+	prerequisite = {
+		focus = MCW_admit_our_failure
+	}
+	completion_reward = {
+		add_stability = 1.00
+	}
+	x = 6
+	y = 5
+}
+
+shared_focus = {# The trial of Kasche
+	id = MCW_The_trial_of_Kasche
+	icon = GFX_decadence_and_complacency
+	cost = 1
+	prerequisite = {
+		focus = MCW_The_investigation_into_command
+	}
+	completion_reward = {
+		add_stability = 1.00
+	}
+	x = 6
+	y = 6
+}
+
+
+
 #shared_focus = {
 #	id = MCW_Russian_Hell
 #	icon = GFX_MCW_A_Door_To_The_Russian_Hell
