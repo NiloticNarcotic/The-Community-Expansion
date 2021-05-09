@@ -25,11 +25,10 @@ shared_focus = {# The First Council Meeting
 shared_focus = {# The Reformer
 	id = VNH_The_Reformer
 	icon = GFX_VNH_the_reformer
+	cost = 1
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
 	}
-	icon = GFX_GER_convene_the_parties
-	cost = 1
 	completion_reward = {
 		country_event = {
 			id = VNH_initial.2

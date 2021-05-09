@@ -2,17 +2,20 @@
 
 #idk what that means but im gonna make the tree now
 
+#This man isn't bright
+
 focus_tree = {
-	id = moskowien_blank
+	id = Moskowien_Initial
 	country = {
 		factor = 0
+		
 		modifier = {
 			add = 10
 			tag = MCW
 		}
 	}
 	default = no
-	shared_focus = mcw_blankfocus
+	shared_focus = MCW_Status_of_Moskoweine
 }
 
 #focus_tree = {
