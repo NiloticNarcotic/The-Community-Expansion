@@ -60,7 +60,7 @@ shared_focus = {
 		focus = VNH_The_inaugurating_speech
 	}
 	completion_reward = {
-	 political_power = 10
+	 political_power = 25
 	}
 }
 
@@ -101,6 +101,8 @@ shared_focus = {
 			days = 1
 		}
 	VNH_Corruption_Lose_Large = yes
+	add_stability = 0.05
+	add_political_power = -50
 	}
 }
 
@@ -123,6 +125,8 @@ shared_focus = {
 			days = 1
 		}
 	VNH_Corruption_Lose_Medium = yes 
+	add_stability = 0.02
+	add_political_power = -10
 	}
 }
 
@@ -140,7 +144,7 @@ shared_focus = {
 		focus = VNH_The_light_hand
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.1
 	}
 }
 
@@ -155,7 +159,7 @@ shared_focus = {
 		focus = VNH_The_next_step
 	}
 	completion_reward = {
-		add_idea = VNH_Gorby_Economy_1
+	    
 	}
 }
 
