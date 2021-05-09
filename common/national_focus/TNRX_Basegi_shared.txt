@@ -75,7 +75,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_salt_the_wound
-	icon = GFX_goal_unknown
+	icon = GFX_CHI_Smoke_Out_The_Rats
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -98,7 +98,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_take_whats_ours
-	icon = GFX_goal_unknown
+	icon = GFX_generic_advanced_weapons
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -130,7 +130,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_all_is_ours
-	icon = GFX_goal_unknown
+	icon = GFX_GER_Manchurian_Depots
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
