@@ -482,7 +482,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_our_need_for_industry
-	icon = Generic_Industry
+	icon = GFX_Generic_Industry
 	cancel_if_invalid = yes
 	available_if_capitulated = no		
 	cost = 2
@@ -1403,7 +1403,17 @@ shared_focus = {
 	completion_reward = {
 		hidden_effect = {
 			if = {
-				has_country_flag = BBB_THECHOICEISOURS_REFORM
+				limit = {
+					has_country_flag = BBB_THECHOICEISOURS_REFORM
+				}
+			}
+			country_event = { id = blackbrigades.60 days = 1 }
+
+			else_if = {
+				limit = {
+					has_country_flag = BBB_THECHOICEISOURS_RADICALS
+				}
+				country_event = { id = blackbrigades.61 days = 1 }
 			}
 		}
 	}
