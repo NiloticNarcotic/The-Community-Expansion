@@ -220,7 +220,8 @@ shared_focus = {
 		focus = VNH_Economic_burdens
 	}
 	completion_reward = {
-		
+		add_political_power = 50
+		add_stability = 0.02
 	}
 }
 
@@ -230,12 +231,12 @@ shared_focus = {
 	cost = 2
 	
 	x = -8
-	y = 4
+	y = 5
 	prerequisite = {
 		focus = VNH_Education_for_all
 	}
 	completion_reward = {
-		
+		add_war_support = 0.05
 	}
 }
 
@@ -265,7 +266,8 @@ shared_focus = {
 		focus = VNH_Economic_burdens
 	}
 	completion_reward = {
-	
+	add_political_power = 15
+	add_stability = 0.01
 	}
 }
 
@@ -280,7 +282,7 @@ shared_focus = {
 		focus = VNH_Steady_urbanization_programs
 	}
 	completion_reward = {
-		
+		add_political_power = 200
 	}
 }
 
@@ -339,7 +341,7 @@ shared_focus = {
 		focus = VNH_Defenders_of_democracy
 	}
 	completion_reward = {
-	 
+	 add_war_support = 0.05
 	}
 }
 
@@ -354,7 +356,8 @@ shared_focus = {
 		focus = VNH_On_the_land
 	}
 	completion_reward = {
-	
+	add_war_support = 0.07
+	add_manpower = 10000
 	}
 }
 
@@ -369,7 +372,7 @@ shared_focus = {
 		focus = VNH_On_the_land
 	}
 	completion_reward = {
-	 
+	 army_defence_dactor = 0.07
 	}
 }
 
@@ -390,7 +393,7 @@ shared_focus = {
 		focus = VNH_Voronezh_Military_Academy
 	}
 	completion_reward = {
-	 
+	 army_attack_factor = 0.05
 	}
 }
 
@@ -405,7 +408,9 @@ shared_focus = {
 		focus = VNH_Bulganins_word
 	}
 	completion_reward = {
-	 
+	 army_speed_factor = 0.05
+	 army_attack_factor = 0.05
+	 army_defence_dactor = 0.05
 	}
 }
 
@@ -420,7 +425,7 @@ shared_focus = {
 		focus = VNH_On_the_land
 	}
 	completion_reward = {
-	 
+	 army_speed_factor = 0.05
 	}
 }
 
@@ -435,7 +440,7 @@ shared_focus = {
 		focus = VNH_Defenders_of_democracy
 	}
 	completion_reward = {
-	 
+	 air_defence_factor = 0.05
 	}
 }
 
@@ -450,7 +455,8 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-	 
+	 air_attack_factor = 0.07
+	 army_attack_factor = 0.1
 	}
 }
 
@@ -465,7 +471,7 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-	 
+	 experince_gain_air_factor = 0.05
 	}
 }
 
@@ -480,7 +486,7 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-	 
+	  experince_gain_air = 0.01
 	}
 }
 
@@ -502,7 +508,7 @@ shared_focus = {
 		focus = VNH_New_ages_new_planes
 	}
 	completion_reward = {
-	 
+	 ground_attack_factor = 0.05
 	}
 }
 
@@ -517,7 +523,7 @@ shared_focus = {
 		focus = VNH_Smolensk_air_base
 	}
 	completion_reward = {
-	 
+	 add_stability = 0.1
 	}
 }
 
@@ -535,7 +541,7 @@ shared_focus = {
 		focus = VNH_Boots_of_democracy
 	}
 	completion_reward = {
-	 
+	 add_war_support = 0.1
 	}
 }
 
@@ -553,6 +559,6 @@ shared_focus = {
 		focus = VNH_Soon_to_be_prosperous
 	}
 	completion_reward = {
-	 
+	 add_stability = 0.2
 	}
 }
