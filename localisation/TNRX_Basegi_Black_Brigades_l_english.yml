@@ -24,7 +24,10 @@
  BBB_ultranational_socialism_party_long:0 "Vory v Zakone"
  BBB_burgundian_system_party:0 "SS"
  BBB_burgundian_system_party_long:0 "Schutzstaffel im Osten"
- 
+
+ BBB_ultranat_mordakov_long:0 "Chernyye Brigady - Radikalny"
+ BBB_ultranat_mordakov:0 "ChB-R "
+
  ###Leader Desc###
  POLITICS_VASILY_MORDAKOV_DESC:0 "Pretty based guy"
  POLITICS_RADICAL_MORDAKOV_DESC:0 "Even more based guy"
@@ -48,14 +51,14 @@
  BBB_Mafia_Red_Huge_Loss_tt:0 "§YThis will lose the §!§TMafia £war_support_icon §!§W5 §!§RBargaining Power§!"
  
  
- BBB_Mafia_Blue_Small_Gain_tt:0 "§YThis will net the §!§LBlack Brigades £trait_defense §!§W1 §!§BBargaining Power§!"
- BBB_Mafia_Blue_Medium_Gain_tt:0 "§YThis will net the §!§LBlack Brigades £trait_defense §!§W2 §!§BBargaining Power§!"
- BBB_Mafia_Blue_Big_Gain_tt:0 "§YThis will net the §!§LBlack Brigades £trait_defense §!§W3 §!§BBargaining Power§!"
- BBB_Mafia_Blue_Huge_Gain_tt:0 "§YThis will net the §!§LBlack Brigades £trait_defense §!§W5 §!§BBargaining Power§!"
- BBB_Mafia_Blue_Small_Loss_tt:0 "§YThis will lose the §!§LBlack Brigades £trait_defense §!§W1 §!§BBargaining Power§!"
- BBB_Mafia_Blue_Medium_Loss_tt:0 "§YThis will lose the §!§LBlack Brigades £trait_defense §!§W2 §!§BBargaining Power§!"
- BBB_Mafia_Blue_Big_Loss_tt:0 "§YThis will lose the §!§LBlack Brigades £trait_defense §!§W3 §!§BBargaining Power§!"
- BBB_Mafia_Blue_Huge_Loss_tt:0 "§YThis will lose the §!§LBlack Brigades £trait_defense §!§W5 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Small_Gain_tt:0 "§YThis will net the §!§LBrigades £trait_defense §!§W1 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Medium_Gain_tt:0 "§YThis will net the §!§LBrigades £trait_defense §!§W2 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Big_Gain_tt:0 "§YThis will net the §!§LBrigades £trait_defense §!§W3 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Huge_Gain_tt:0 "§YThis will net the §!§LBrigades £trait_defense §!§W5 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Small_Loss_tt:0 "§YThis will lose the §!§LBrigades £trait_defense §!§W1 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Medium_Loss_tt:0 "§YThis will lose the §!§LBrigades £trait_defense §!§W2 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Big_Loss_tt:0 "§YThis will lose the §!§LBrigades £trait_defense §!§W3 §!§BBargaining Power§!"
+ BBB_Mafia_Blue_Huge_Loss_tt:0 "§YThis will lose the §!§LBrigades £trait_defense §!§W5 §!§BBargaining Power§!"
  
  BBB_Mafia_Ask_For_Favour_Remove_Effect_tt_Medium:0 "§YThis is because the §!§LBlack Brigades§!§Y have £trait_defense §!§R0§!§B Bargaining Power!"
  BBB_Mafia_Ask_For_Favour_Complete_Effect_tt_0:0 "§YThe §!§LBlack Brigades§!§Y have £trait_defense §!§R0§!§B Bargaining Power§!§Y, so the §!§TMafia§!§Y will gain §!§Rtwice§!§Y as much!§!"
@@ -101,9 +104,101 @@
  BBB_commence_the_black_terror_desc:0 "The German soldiers are routed. The hills have gone silent. The Volga is a deep shade of crimson.\n\nThe Basegi Black Brigades have achieved victory. From a roaming bandit clique terrorizing villages like a meager fox, to standing at the feet of the Wolgabund with the bodies of a hundred bureaucratic rats, whom preferred to hide behind pens and paper than proving their strength head on, laying on the steps and staining the stones red. As our forces took the towns and villages, a whisper could be heard. One that gave a name to not us, but what we were doing - 'Black Terror'.\n\nYes. We will show those who were shielded by the cradle of a weak society what the world really is, and it is Terror."
  
  ### Basegi Black Terror ###
- BBB_steal_from_the_armories:0 "Introduce our Plans"
- BBB_steal_from_the_armories_desc:0 ""
+ BBB_introduce_our_plans:0 "Introduce our Plans"
+ BBB_introduce_our_plans_desc:0 ""
+
+ BBB_the_predators:0 "The Predators"
+ BBB_the_predators_desc:0 ""
+
+ BBB_approach_the_veterans:0 "Approach the Veterans"
+ BBB_approach_the_veterans_desc:0 ""
+
+ BBB_back_to_work:0 "Back to Work"
+ BBB_back_to_work_desc:0 ""
+
+ BBB_normalize_street_violence:0 "Normalize Street Violence"
+ BBB_normalize_street_violence_desc:0 ""
+
+ BBB_the_prey:0 "The Prey"
+ BBB_the_prey_desc:0 ""
  
+ BBB_those_left_behind:0 "Those left Behind"
+ BBB_those_left_behind_desc:0 ""
+
+ BBB_dismantle_the_wolgabund:0 "Dismantle the Wolgabund"
+ BBB_dismantle_the_wolgabund_desc:0 ""
+
+ BBB_fear_through_radicalization:0 "Fear through Radicalization"
+ BBB_fear_through_radicalization_desc:0 "" 
+
+ BBB_dangerous_days:0 "Dangerous Days"
+ BBB_dangerous_days_desc:0 ""
+
+ ### Basegi Expansion ###
+ 
+ BBB_dominate_muscovy:0 "Dominate Muscovy"
+ BBB_dominate_muscovy:0 ""
+
+ BBB_our_need_for_industry:0 "Our need for Industry"
+ BBB_our_need_for_industry:0 ""
+
+ BBB_no_mercy_given:0 "No Mercy Given"
+ BBB_no_mercy_given:0 ""
+
+ BBB_our_need_for_men:0 "Our need for Men"
+ BBB_our_need_for_men:0 ""
+
+ BBB_the_german_war_machine:0 "The German War Machine"
+ BBB_the_german_war_machine:0 ""
+
+ BBB_hunt_the_partisans:0 "Hunt the Partisans"
+ BBB_hunt_the_partisans:0 ""
+
+ BBB_handicap_partisan_activity:0 "Handicap Partisan Activity"
+ BBB_handicap_partisan_activity:0 ""
+
+ BBB_false_shepherds:0 "False Shepherds"
+ BBB_false_shepherds:0 ""
+
+ BBB_dismantle_their_charity:0 "Dismantle their Charity"
+ BBB_dismantle_their_charity:0 ""
+
+ BBB_face_the_miserable_horde:0 "Face the Miserable Horde"
+ BBB_face_the_miserable_horde:0 ""
+
+ BBB_one_excuse:0 "One Excuse"
+ BBB_one_excuse:0 ""
+
+ BBB_integrate_the_bands:0 "Integrate the Bands"
+ BBB_integrate_the_bands:0 ""
+
+ BBB_march_on_moscow:0 "March on Moscow"
+ BBB_march_on_moscow:0 ""
+
+ BBB_leverage_our_legitimacy:0 "Leverage our Legitimacy"
+ BBB_leverage_our_legitimacy:0 ""
+
+ BBB_move_on_the_north:0 "Move on the North"
+ BBB_move_on_the_north:0 ""
+
+ BBB_kill_off_the_ideologues:0 "Kill off the Ideologues"
+ BBB_kill_off_the_ideologues:0 ""
+
+ BBB_red_bandits:0 "Red Bandits"
+ BBB_red_bandits:0 ""
+
+ BBB_end_the_facade:0 "End the Facade"
+ BBB_end_the_facade:0 ""
+
+ BBB_expel_the_germans_from_muscovy:0 "Expel the Germans form Muscovy"
+ BBB_expel_the_germans_from_muscovy:0 ""
+
+ BBB_solidify_hold_over_st_petersburg:0 "Solidify hold over St. Petersburg"
+ BBB_solidify_hold_over_st_petersburg:0 ""
+
+ BBB_the_neanderthal_is_extinct:0 "The Neanderthal is Extinct"
+ BBB_the_neanderthal_is_extinct:0 ""
+
  ### Post-Unification Radicals ###
  BBB_Black_Brigades_Eternal:0 "Black Brigades Eternal!"
  BBB_Black_Brigades_Eternal_desc:0 "The calls of the insidious reformsists have finally been overturned. Their pathetic attempts at subverting our goals to satisfy their egos lie scattered; torn to shreds by the will and inevitability of human nature. Our Social Darwinism shall not be constrained by the pettiness of the state nor hampered by the modernistic false consciousness of morality.  Together, we the Black Brigades bring a new age of struggle. We will accept nothing but the strongest, fastest, smartest and most cunning and the only judge will be mother nature herself. For there is no bloodier battleground; no harsher punisher than life itself. \n\nThe memory of our origins, and the glorious legacy of the Basegi Black Brigades shall live on through what made it so strong to begin with - adherence to the Law of Nature and the understanding of the only force that makes history - strength."

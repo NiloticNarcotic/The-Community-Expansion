@@ -296,7 +296,15 @@ shared_focus = {
 	
 	completion_reward = {
 		add_manpower = 4700
-		#lower resistance in all wolgastaat states check in Southern Victory mod
+		every_state = {
+			limit = {
+				owner = {
+					tag = BBB
+				}
+				is_core_of = VLG
+			}
+		}
+		add_resistance = -20
 	}
 }
 
@@ -570,7 +578,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_the_german_war_machine
-	icon = OFN_CAR_Train_Native_Militias
+	icon = GFX_OFN_CAR_Train_Native_Militias
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
@@ -612,7 +620,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_attack_oryol_placeholder
+	id = BBB_hunt_the_partisans
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
@@ -642,12 +650,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_dismantle_oryol_placeholder
+	id = BBB_handicap_partisan_activity
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
-	prerequisite = { focus = BBB_attack_oryol_placeholder }
+	prerequisite = { focus = BBB_hunt_the_partisans }
 	bypass = {
 		222= {
 			owner = {
@@ -676,12 +684,12 @@ shared_focus = {
 }	
 
 shared_focus = {
-	id = BBB_attack_smolensk_placeholder
+	id = BBB_false_shepherds
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_dismantle_oryol_placeholder }
+	prerequisite = { focus = BBB_handicap_partisan_activity }
 	bypass = {
 		SMO = {
 			exists = no
@@ -703,12 +711,12 @@ shared_focus = {
 }	
 
 shared_focus = {
-	id = BBB_dismantle_smolensk_placeholder
+	id = BBB_dismantle_their_charity
 	icon = GFX_goal_unknown
 	cost = 3
 	cancel_if_invalid = yes
 	available_if_capitulated = no
-	prerequisite = { focus = BBB_attack_smolensk_placeholder }
+	prerequisite = { focus = BBB_false_shepherds }
 	bypass = {
 		242= {
 			owner = {
@@ -737,12 +745,12 @@ shared_focus = {
 }	
 
 shared_focus = {
-	id = BBB_attack_bogi_placeholder
+	id = BBB_face_the_miserable_horde
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_dismantle_oryol_placeholder }
+	prerequisite = { focus = BBB_handicap_partisan_activity }
 	bypass = {
 		BSB = {
 			exists = no
@@ -769,7 +777,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
-	prerequisite = { focus = BBB_attack_bogi_placeholder }
+	prerequisite = { focus = BBB_face_the_miserable_horde }
 	bypass = {
 		253= {
 			owner = {
@@ -806,7 +814,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 4
-	prerequisite = { focus = BBB_attack_bogi_placeholder }
+	prerequisite = { focus = BBB_face_the_miserable_horde }
 	bypass = {
 		253= {
 			owner = {
@@ -837,12 +845,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_attack_muscovy_placeholder
+	id = BBB_march_on_moscow
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_dismantle_oryol_placeholder }
+	prerequisite = { focus = BBB_handicap_partisan_activity }
 	bypass = {
 		MOS = {
 			exists = no
@@ -864,12 +872,12 @@ shared_focus = {
 }	
 
 shared_focus = {
-	id = BBB_dismantle_muscovy_placeholder
+	id = BBB_leverage_our_legitimacy
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
-	prerequisite = { focus = BBB_attack_muscovy_placeholder }
+	prerequisite = { focus = BBB_march_on_moscow }
 	bypass = {
 		219= {
 			owner = {
@@ -898,12 +906,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_attack_pleskau_placeholder
+	id = BBB_move_on_the_north
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_dismantle_smolensk_placeholder }
+	prerequisite = { focus = BBB_dismantle_their_charity }
 	bypass = {
 		PSK = {
 			exists = no
@@ -925,12 +933,12 @@ shared_focus = {
 }	
 
 shared_focus = {
-	id = BBB_dismantle_pleskau_placeholder
+	id = BBB_kill_off_the_ideologues
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
-	prerequisite = { focus = BBB_attack_pleskau_placeholder }
+	prerequisite = { focus = BBB_move_on_the_north }
 	bypass = {
 		209= {
 			owner = {
@@ -959,12 +967,12 @@ shared_focus = {
 }	
 
 shared_focus = {
-	id = BBB_attack_rsua_placeholder
+	id = BBB_red_bandits
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_dismantle_muscovy_placeholder }
+	prerequisite = { focus = BBB_leverage_our_legitimacy }
 	prerequisite = {
 		focus = BBB_one_excuse
 		focus = BBB_integrate_the_bands
@@ -990,12 +998,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_dismantle_rsua_placeholder
+	id = BBB_end_the_facade
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
-	prerequisite = { focus = BBB_attack_rsua_placeholder }
+	prerequisite = { focus = BBB_red_bandits }
 	bypass = {
 		195= {
 			owner = {
@@ -1024,12 +1032,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_attack_oberkommando_placeholder
+	id = BBB_expel_the_germans_from_muscovy
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_dismantle_muscovy_placeholder }
+	prerequisite = { focus = BBB_leverage_our_legitimacy }
 	prerequisite = {
 		focus = BBB_one_excuse
 		focus = BBB_integrate_the_bands
@@ -1055,12 +1063,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_dismantle_oberkommando_placeholder
+	id = BBB_solidify_hold_over_st_petersburg
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
-	prerequisite = { focus = BBB_attack_oberkommando_placeholder }
+	prerequisite = { focus = BBB_expel_the_germans_from_muscovy }
 	bypass = {
 		195	= {
 			owner = {
@@ -1094,10 +1102,10 @@ shared_focus = {
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 5
-	prerequisite = { focus = BBB_dismantle_pleskau_placeholder }
+	prerequisite = { focus = BBB_kill_off_the_ideologues }
 	prerequisite = {
-		focus = BBB_dismantle_oberkommando_placeholder
-		focus = BBB_dismantle_rsua_placeholder
+		focus = BBB_solidify_hold_over_st_petersburg
+		focus = BBB_end_the_facade
 	}
 	available = {
 		owns_state = 195
@@ -1199,7 +1207,7 @@ shared_focus = {
 	completion_reward = {
 		add_stability = 0.1
 		country_event = { id = blackbrigades.54 }
-		### adds one blue chip
+		BBB_Mafia_Blue_Small_Gain = yes
 	}
 }
 
@@ -1229,6 +1237,11 @@ shared_focus = {
 	available_if_capitulated = no
 	cost = 3.00
 	prerequisite = { focus = BBB_the_decision_is_ours }
+	available = {
+		hidden_trigger = {
+			has_country_flag = BBB_THECHOICEISOURS_REFORM
+		}
+	}
 
 	x = 5
 	y = 4
@@ -1236,7 +1249,9 @@ shared_focus = {
 	completion_reward = {
 		tno_slavery_improve = yes
 		TNO_improve_poverty_low = yes
-		### adds three red chips
+		BBB_Mafia_Red_Small_Gain = yes
+		BBB_Mafia_Red_Small_Gain = yes
+		BBB_Mafia_Red_Small_Gain = yes
 	}
 }
 
@@ -1290,7 +1305,7 @@ shared_focus = {
 	y = 7
 
 	completion_reward = {
-		# removes one red chip
+		BBB_Mafia_Red_Small_Loss = yes
 		# takes some money from the liquid reserves
 			hidden_effect = {
 				country_event = { id = blackbrigades.58 days = 1 }
@@ -1307,13 +1322,19 @@ shared_focus = {
 	available_if_capitulated = no
 	cost = 3.00
 	prerequisite = { focus = BBB_the_decision_is_ours }
+	available = {
+		hidden_trigger = {
+			has_country_flag = BBB_THECHOICEISOURS_RADICAL
+		}
+	}
 
 	x = 11
 	y = 4
 
 	completion_reward = {
 		tno_slavery_worsen = yes
-		# gives two blue chips
+		BBB_Mafia_Blue_Small_Gain = yes
+		BBB_Mafia_Blue_Small_Gain = yes
 	}
 }
 
@@ -1360,7 +1381,7 @@ shared_focus = {
 
 	completion_reward = {
 		#lose some money from liquid reserves
-		#adds one blue chip
+		BBB_Mafia_Blue_Small_Gain = yes
 	}
 }
 
@@ -1380,7 +1401,11 @@ shared_focus = {
 	y = 8
 
 	completion_reward = {
-		country_event = { id = blackbrigades.60 }
+		hidden_effect = {
+			if = {
+				has_country_flag = BBB_THECHOICEISOURS_REFORM
+			}
+		}
 	}
 }
 
