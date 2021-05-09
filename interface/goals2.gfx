@@ -27231,7 +27231,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_VNH_the_reformer"
-		texturefile = "gfx/interface/goals/VNH_the_reformer.dds"
+		texturefile = "gfx/interface/goals/VHN_the_reformer.dds"
 	}
 	SpriteType = {
 		name = "GFX_VNH_the_defender"

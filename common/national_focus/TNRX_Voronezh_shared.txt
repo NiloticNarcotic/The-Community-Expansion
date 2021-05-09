@@ -16,7 +16,6 @@ shared_focus = {# The First Council Meeting
 			id = VNH_initial.1 # Rainy Day In Voronezh
 			days = 1
 		}
-		#load_focus_tree = { tree = Voronezh_Tree_War keep_completed = yes}
 	}
 	x = 5
 	y = 0
@@ -25,10 +24,11 @@ shared_focus = {# The First Council Meeting
 shared_focus = {# The Reformer
 	id = VNH_The_Reformer
 	icon = GFX_VNH_the_reformer
-	cost = 1
 	prerequisite = {
 		focus = VNH_The_First_Council_Meeting
 	}
+	icon = GFX_GER_convene_the_parties
+	cost = 1
 	completion_reward = {
 		country_event = {
 			id = VNH_initial.2
@@ -165,7 +165,6 @@ shared_focus = {# Bulganins ideas
 			days = 1
 		}
 		add_manpower = 2500
-		
 	}
 	x = -1
 	y = 3
@@ -382,6 +381,7 @@ shared_focus = {
 	
 	completion_reward = {
 		TNO_worsen_poverty_low = yes
+		industrial_capacity_factory = 0.1
 	}
 	x = 3
 	y = 5

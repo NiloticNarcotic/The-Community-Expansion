@@ -159,7 +159,7 @@ shared_focus = {
 		focus = VNH_The_next_step
 	}
 	completion_reward = {
-	    
+	    add_political_power = -100
 	}
 }
 
@@ -174,7 +174,7 @@ shared_focus = {
 		focus = VNH_Economic_burdens
 	}
 	completion_reward = {
-		
+		consumer_goods_factor = -0.2
 	}
 }
 
@@ -189,7 +189,7 @@ shared_focus = {
 		focus = VNH_Nationalize_key_industries
 	}
 	completion_reward = {
-		
+		add_stability = 0.02
 	}
 }
 
@@ -204,7 +204,8 @@ shared_focus = {
 		focus = VNH_Strict_Regulations
 	}
 	completion_reward = {
-		
+		add_stability = 0.1
+		add_political_power = 200
 	}
 }
 
@@ -249,7 +250,7 @@ shared_focus = {
 		focus = VNH_Rebuild_Tula_Arms
 	}
 	completion_reward = {
-		
+		add_manpower = 100000
 	}
 }
 
@@ -264,7 +265,7 @@ shared_focus = {
 		focus = VNH_Economic_burdens
 	}
 	completion_reward = {
-		
+	
 	}
 }
 
@@ -294,13 +295,13 @@ shared_focus = {
 		focus = VNH_Tax_the_rich
 	}
 	completion_reward = {
-		
+		add_stability = 0.05
 	}
 }
 
 shared_focus = { 
     id = VNH_Soon_to_be_prosperous
-	icon = GFX_VNH_the_reformer
+	icon = GFX_VNH_the_reformer 
 	cost = 2
 	
 	x = -6
@@ -311,7 +312,7 @@ shared_focus = {
 		focus = VNH_Prepare_for_war
 	}
 	completion_reward = {
-		
+		production_speed_buildings_factor = 0.15
 	}
 }
 
@@ -323,7 +324,7 @@ shared_focus = {
 	x = 14
 	y = 0
 	completion_reward = {
-	 
+	    war_support_factor = 0.1
 	}
 }
 
@@ -353,7 +354,7 @@ shared_focus = {
 		focus = VNH_On_the_land
 	}
 	completion_reward = {
-	 
+	
 	}
 }
 
