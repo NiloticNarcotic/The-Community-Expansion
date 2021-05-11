@@ -21,6 +21,21 @@ on_actions = {
 						}
 					do_german_renames = yes
 					}
+					
+					### RUS ###
+					if = {
+						limit = {
+							ROOT = {OR = {tag = SMO
+										  tag = RSB
+										  tag = ORL
+										  tag = BSB
+										  tag = RBB
+										  tag = VNH
+										  tag = PEN
+										  tag = MOS}}
+						}
+					do_russian_renames = yes
+					}
 			}
 		}
 	}

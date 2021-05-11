@@ -641,3 +641,416 @@ do_italian_renames = {
 		}
 	}
 }
+
+do_russian_renames = {
+
+	if = {
+		limit = {
+			state = 219
+		}	
+		set_state_name = Moskva
+		set_province_name = {
+			id = 6380
+			name = "Moskva"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1314
+		}	
+		set_state_name = "Severnaya Moskva"
+		set_province_name = {
+			id = 14457
+			name = "Severnaya Moskva"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 247
+		}	
+		set_state_name = Tver
+		set_province_name = {
+			id = 6245
+			name = "Tver"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 253
+		}	
+		set_state_name = Ivanovo
+		set_province_name = {
+			id = 378
+			name = "Ivanovo"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 246
+		}	
+		set_state_name = Rzhev
+		set_province_name = {
+			id = 11349
+			name = "Ostashkov"
+		}
+		set_province_name = {
+			id = 11224
+			name = "Rzhev"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 210
+		}	
+		set_state_name = Ostrov
+		set_province_name = {
+			id = 9254
+			name = "Ostrov"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 263
+		}	
+		set_state_name = Novgorod
+		set_province_name = {
+			id = 117
+			name = "Veliky Novgorod"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 209
+		}	
+		set_state_name = Pskov
+		set_province_name = {
+			id = 9319
+			name = "Velikiye Luki"
+		}
+		set_province_name = {
+			id = 11202
+			name = "Pskov"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 264
+		}	
+		set_state_name = Tikhvin
+		set_province_name = {
+			id = 3124
+			name = "Cherepovets"
+		}
+		set_province_name = {
+			id = 3140
+			name = "Tikhvin"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 208
+		}	
+		set_state_name = Luga
+		set_province_name = {
+			id = 9098
+			name = "Luga"
+		}
+		set_province_name = {
+			id = 11186
+			name = "Sosnovy Bor"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 244
+		}	
+		set_state_name = Volkhov
+		set_province_name = {
+			id = 11174
+			name = "Volkhov"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 195
+		}	
+		set_state_name = Petrograd
+		set_province_name = {
+			id = 3151
+			name = "Petrograd"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 242
+		}	
+		set_state_name = Smolensk
+		set_province_name = {
+			id = 11254
+			name = "Vyazma"
+		}
+		set_province_name = {
+			id = 306
+			name = "Smolensk"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 205
+		}	
+		set_state_name = Kaluga
+		set_province_name = {
+			id = 382
+			name = "Kaluga"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 243
+		}	
+		set_state_name = Roslavl
+		set_province_name = {
+			id = 3210
+			name = "Roslavl"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 224
+		}	
+		set_state_name = Bryansk
+		set_province_name = {
+			id = 3335
+			name = "Bryansk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 241
+		}	
+		set_state_name = Gomel
+		set_province_name = {
+			id = 9288
+			name = "Gomel"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 223
+		}	
+		set_state_name = Tula
+		set_province_name = {
+			id = 6262
+			name = "Tula"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 222
+		}	
+		set_state_name = Oryol
+		set_province_name = {
+			id = 9355
+			name = "Oryol"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 258
+		}	
+		set_state_name = Lipetsk
+		set_province_name = {
+			id = 6398
+			name = "Lipetsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 220
+		}	
+		set_state_name = Kursk
+		set_province_name = {
+			id = 3580
+			name = "Kursk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 254
+		}	
+		set_state_name = Ryazan
+		set_province_name = {
+			id = 11248
+			name = "Ryazan"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 257
+		}	
+		set_state_name = Tambov
+		set_province_name = {
+			id = 367
+			name = "Tambov"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 255
+		}	
+		set_state_name = Penza
+		set_province_name = {
+			id = 9409
+			name = "Penza"
+		}
+		set_province_name = {
+			id = 11262
+			name = "Saransk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 239
+		}	
+		set_state_name = Saratov
+		set_province_name = {
+			id = 433
+			name = "Balashov"
+		}
+		set_province_name = {
+			id = 3578
+			name = "Saratov"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 401
+		}	
+		set_state_name = Pokrovsk
+		set_province_name = {
+			id = 11523
+			name = "Pokrovsk"
+		}
+		set_province_name = {
+			id = 3551
+			name = "Yershov"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 240
+		}	
+		set_state_name = Belgorod
+		set_province_name = {
+			id = 9489
+			name = "Belgorod"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 260
+		}	
+		set_state_name = Voronezh
+		set_province_name = {
+			id = 413
+			name = "Voronezh"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 265
+		}	
+		set_state_name = Mikhaylovka
+		set_province_name = {
+			id = 487
+			name = "Mikhaylovka"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 245
+		}	
+		set_state_name = Millerovo
+		set_province_name = {
+			id = 3519
+			name = "Millerovo"
+		}
+		set_province_name = {
+			id = 6544
+			name = "Morozovsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 217
+		}	
+		set_state_name = Volgograd
+		set_province_name = {
+			id = 3529
+			name = "Volgograd"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 238
+		}	
+		set_state_name = Volgodonsk
+		set_province_name = {
+			id = 6490
+			name = "Volgodonsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 237
+		}	
+		set_state_name = Elista
+		set_province_name = {
+			id = 11566
+			name = "Elista"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 236
+		}	
+		set_state_name = Astrakhan
+		set_province_name = {
+			id = 9753
+			name = "Astrakhan"
+		}
+	}
+}
