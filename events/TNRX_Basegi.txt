@@ -448,6 +448,10 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
+		add_popularity = { 
+			ideology = communism
+			popularity = -0.12
+		}		
 	}
 }
 
@@ -687,7 +691,6 @@ country_event = {
 			}
 		}
 	}
-
 }
 
 country_event = {

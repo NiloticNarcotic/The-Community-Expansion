@@ -129,74 +129,120 @@
  BBB_dismantle_the_wolgabund_desc:0 ""
 
  BBB_fear_through_radicalization:0 "Fear through Radicalization"
- BBB_fear_through_radicalization_desc:0 "" 
+ BBB_fear_through_radicalization_desc:0 "The Basegi Black Brigades were founded on an idea. An ancient idea that might makes right, that the weak ought to fear the strong, that man can become something greater if he comply with nature’s laws. If this idea vanishes, so too will our brigades vanish. The best way to ensure the idea’s survival in this world is with the school systems. Our students shall learn the principles and details of natural selection, of survival of the fittest, of eugenics, and of course, of evolution. In a matter of years our children shall ascend from scientific ignorance to the salvation of Darwinism. They must also learn fear. Fear of the strong, fear of violating the laws of nature, fear of violating us. Indeed, there is no god but nature, and Darwin is her messenger!" 
 
  BBB_dangerous_days:0 "Dangerous Days"
  BBB_dangerous_days_desc:0 ""
 
  ### Basegi Expansion ###
  BBB_dominate_muscovy:0 "Dominate Muscovy"
- BBB_dominate_muscovy:0 ""
+ BBB_dominate_muscovy_desc:0 ""
 
  BBB_our_need_for_industry:0 "Our need for Industry"
- BBB_our_need_for_industry:0 ""
+ BBB_our_need_for_industry_desc:0 ""
 
  BBB_no_mercy_given:0 "No Mercy Given"
- BBB_no_mercy_given:0 ""
+ BBB_no_mercy_given_desc:0 ""
 
  BBB_our_need_for_men:0 "Our need for Men"
- BBB_our_need_for_men:0 ""
+ BBB_our_need_for_men_desc:0 ""
 
  BBB_the_german_war_machine:0 "The German War Machine"
- BBB_the_german_war_machine:0 ""
+ BBB_the_german_war_machine_desc:0 ""
 
  BBB_hunt_the_partisans:0 "Hunt the Partisans"
- BBB_hunt_the_partisans:0 ""
+ BBB_hunt_the_partisans_desc:0 ""
 
- BBB_handicap_partisan_activity:0 "Handicap Partisan Activity"
- BBB_handicap_partisan_activity:0 ""
+ BBB_adopt_oryol_tactics:0 "Adopt Oryol Tactics"
+ BBB_adopt_oryol_tactics_desc:0 ""
 
  BBB_false_shepherds:0 "False Shepherds"
- BBB_false_shepherds:0 ""
+ BBB_false_shepherds_desc:0 ""
 
  BBB_dismantle_their_charity:0 "Dismantle their Charity"
- BBB_dismantle_their_charity:0 ""
+ BBB_dismantle_their_charity_desc:0 ""
 
  BBB_face_the_miserable_horde:0 "Face the Miserable Horde"
- BBB_face_the_miserable_horde:0 ""
+ BBB_face_the_miserable_horde_desc:0 ""
 
  BBB_one_excuse:0 "One Excuse"
- BBB_one_excuse:0 ""
+ BBB_one_excuse_desc:0 ""
 
  BBB_integrate_the_bands:0 "Integrate the Bands"
- BBB_integrate_the_bands:0 ""
+ BBB_integrate_the_bands_desc:0 ""
 
  BBB_march_on_moscow:0 "March on Moscow"
- BBB_march_on_moscow:0 ""
+ BBB_march_on_moscow_desc:0 ""
 
  BBB_leverage_our_legitimacy:0 "Leverage our Legitimacy"
- BBB_leverage_our_legitimacy:0 ""
+ BBB_leverage_our_legitimacy_desc:0 ""
 
  BBB_move_on_the_north:0 "Move on the North"
- BBB_move_on_the_north:0 ""
+ BBB_move_on_the_north_desc:0 ""
 
  BBB_kill_off_the_ideologues:0 "Kill off the Ideologues"
- BBB_kill_off_the_ideologues:0 ""
+ BBB_kill_off_the_ideologues_desc:0 ""
 
  BBB_red_bandits:0 "Red Bandits"
- BBB_red_bandits:0 ""
+ BBB_red_bandits_desc:0 ""
 
  BBB_end_the_facade:0 "End the Facade"
- BBB_end_the_facade:0 ""
+ BBB_end_the_facade_desc:0 ""
 
  BBB_expel_the_germans_from_muscovy:0 "Expel the Germans form Muscovy"
- BBB_expel_the_germans_from_muscovy:0 ""
+ BBB_expel_the_germans_from_muscovy_desc:0 ""
 
- BBB_solidify_hold_over_st_petersburg:0 "Solidify hold over St. Petersburg"
- BBB_solidify_hold_over_st_petersburg:0 ""
+ BBB_send_a_message_to_germany:0 "Send a Message to Germany"
+ BBB_send_a_message_to_germany_desc:0 ""
 
  BBB_the_neanderthal_is_extinct:0 "The Neanderthal is Extinct"
- BBB_the_neanderthal_is_extinct:0 ""
+ BBB_the_neanderthal_is_extinct_desc:0 ""
+
+ ### Basegi Showdown ###
+ BBB_the_pressing_issue:0 "Our Pressing Issue"
+ BBB_the_pressing_issue_desc:0 ""
+
+ BBB_divided_brigades:0 "Divided Brigades"
+ BBB_divided_brigades_desc:0 ""
+
+ BBB_consult_the_old_guard:0 "Consult the Old Guard"
+ BBB_consult_the_old_guard_desc:0 ""
+
+ BBB_consult_the_inner_circle:0 "Consult the Inner Circle"
+ BBB_consult_the_inner_circle_desc:0 ""
+
+ BBB_consult_the_mafia:0 "Consult the Mafia"
+ BBB_consult_the_mafia_desc:0 ""
+
+ BBB_the_decision_is_ours:0 "The Decision is Ours"
+ BBB_the_decision_is_ours_desc:0 ""
+
+ BBB_saving_grace:0 "Saving Grace"
+ BBB_saving_grace_desc:0 ""
+
+ BBB_the_wolf_at_our_neck:0 "The Wolf at our Neck"
+ BBB_the_wolf_at_our_neck_desc:0 ""
+
+ BBB_bare_our_own_teeth:0 "Bare our own Teeth"
+ BBB_bare_our_own_teeth_desc:0 ""
+
+ BBB_reassuring_the_mafioso:0 "Reassuring the Mafioso"
+ BBB_reassuring_the_mafioso_desc:0 ""
+
+ BBB_freedom_is_an_amenity:0 "Freedom is an amenity"
+ BBB_freedom_is_an_amenity_desc:0 ""
+
+ BBB_hunt_down_reformist_sympathizers:0 "Hunt Down Reformist Sympathizers"
+ BBB_hunt_down_reformist_sympathizers_desc:0 ""
+
+ BBB_make_some_exceptions:0 "Make some Exceptions"
+ BBB_make_some_exceptions_desc:0 ""
+
+ BBB_keep_them_satisfied:0 "Keep them Satisfied"
+ BBB_keep_them_satisfied_desc:0 ""
+
+ BBB_strike_from_the_shadows:0 "Strike from the Shadows"
+ BBB_strike_from_the_shadows_desc:0 ""
 
  ### Post-Unification Radicals ###
  BBB_Black_Brigades_Eternal:0 "Black Brigades Eternal!"
@@ -257,9 +303,9 @@
  ### Country Events ### ### Country Events ### ### Country Events ###
 
  ### Initial Events ###
- blackbrigades.1.t:0 "x"
- blackbrigades.1.desc:0 "This is an event for focus: 'The Black Brigades'"
- blackbrigades.1.a:0 "x"
+ blackbrigades.1.t:0 "Welcome to the Black Brigades"
+ blackbrigades.1.desc:0 "Since the dawn of man it has always been blatantly obvious that the strong dominate the weak. Never has this not been true until recent times, where there is a strange notion among people that might does not make right, that we ought to give special care for those below us in capability. Vasily Mordakov scoffs at such a ludicrous notion. “Who is man, to try and look past the natural evolutionary ordering of things? Nature is our creator, and by her laws of natural selection and survival of the fittest we must live” he thinks. Thankfully, Mordakov now leads the Basegi Black Brigades, filled with like-minded individuals, ready to reestablish a truly natural law over the land, using the measures that it permits in order to do so."
+ blackbrigades.1.a:0 "Might is Right"
  
  blackbrigades.2.t:0 "x"
  blackbrigades.2.desc:0 "This is an event for focus: 'Learn by Experience'"
@@ -427,18 +473,87 @@
  blackbrigades.96.a:0 "Placeholder"
  
  ### Spirits ###
+
+ BBB_Terror_Of_The_East:0 "Terror of the East"
+ BBB_Terror_Of_The_East_desc:0 "Ever since arriving in the bountiful land around the Volga, we have had a bad reputation with the locals and the administration. Our infamy is our strength and it has allowed us to grow in strength with no clear way for it to be hampered."
+
+ BBB_The_State_Of_The_Brigades:0 "The State of the Brigades"
+ BBB_The_State_Of_The_Brigades_desc:0 "Once, we were a highly disciplined force in the Urals. But as time went on, the lifestyle of banditry took a toll on the Black Brigades. Soldiers and even some generals have become reckless, less disciplined and rebellious."
  
  BBB_Against_Wolgastaat_1:0 "Against Wolgastaat"
- BBB_Against_Wolgastaat_1:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
+ BBB_Against_Wolgastaat_1_desc:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
  
  BBB_Against_Wolgastaat_2:0 "Against Wolgastaat"
- BBB_Against_Wolgastaat_2:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
+ BBB_Against_Wolgastaat_2_desc:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
  
  BBB_Against_Wolgastaat_3:0 "Against Wolgastaat"
- BBB_Against_Wolgastaat_3:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
+ BBB_Against_Wolgastaat_3_desc:0 "Our skill and momentum is our greatest strength in our fight against the Wolgans. The more we keep up this momentum, the terror we inflict will lower the morale of our enemies and will help us defeat them sooner."
+
+ BBB_Appropriating_Assets:0 "Appropriating Assets"
+ BBB_Appropriating_Assets_desc:0 "The war with the Wolgastaat is over and many women have been widowed. It is only logical that our own soldiers who have clearly come out of top deserve their rewards. Homes, properties and land to deceased Wolgans for the Black Brigades."
+
+ BBB_Work_To_The_Bone:0 "Work to the Bone"
+ BBB_Work_To_The_Bone_desc:0 "'No rest for the wicked', there is no such thing as 'exploitation', or rather, there is no exploitation when the ones being exploited allow it to happen. In this way, we shall force the industry of Muscovy to befit for our men, and any increases in recruits in the future."
+
+ BBB_Satans_Division:0 "Satan's Division"
+ BBB_Satans_Division_desc:0 "The Bogi Smerti were another bandit group that terrorized the land upon the fall of the Reichskommisariat. Although we had defeated them, we decided there is no reason to punish those who have proven their strength before. Instead, we integrated Antikhrist's men into the Brigades as a semi-autonomous shock division known by many as 'razdeleniye satany'."
+
+ BBB_Reformists_Congress:0 "Reformists Congress"
+ BBB_Reformists_Congress_desc:0 "Put enough men in a room together and it is only a matter of time before the room splits over the slightest disagreement. Vladimir Ankudinov and other likeminded Brigadiers disliked the direction that the Black Brigades were going in. It led to a split in the organization and the founding of an informal group called the 'Reformist Congress' where the men discussed the direction in which the Brigades should be going instead."
  
  BBB_Wheat_From_The_Chaff:0 "Wheat from the Chaff"
  BBB_Wheat_From_The_Chaff_desc:0 "With the vast land we now control, there are many who have been socialized by the Germans and the Reds into inadequacy. Using our brigades, we shall sweep our adminstration and purge those that still hold on to their delusions and backwards ideologies."
  
  BBB_Law_Of_Nature:0 "Law of Nature"
  BBB_Law_Of_Nature_desc:0 "Nothing in the world matters but survival. The sooner the people come to terms with this fact, the sooner humanity can continue its natural ascent to greater horizons. Life in Muscovy is changing forever, and the more people taste the sweet allure of power without moral restrictions, the faster our greater purpose shall be fulfilled."
+
+ BBB_Sobering_Brigades:0 "Sobering Brigades"
+ BBB_Sobering_Brigades_desc:0 ""
+
+ BBB_People_Reassured:0 "People Assured"
+ BBB_People_Reassured_desc:0 ""
+
+ BBB_Moscow_In_Ruins:0 "Moscow in Ruins"
+ BBB_Moscow_In_Ruins_desc:0 ""
+
+ BBB_Repair_The_Destruction:0 "Repair the Destruction"
+ BBB_Repair_The_Destruction_desc:0 ""
+
+ BBB_Workers_Willpower:0 "Workers Willpower"
+ BBB_Workers_Willpower_desc:0 ""
+
+ BBB_Workers_Willpower_2:0 "Workers Willpower"
+ BBB_Workers_Willpower_2_desc:0 ""
+
+ BBB_Weak_Shall_Perish:0 "The Weak Shall Perish"
+ BBB_Weak_Shall_Perish_desc:0 ""
+
+ BBB_Strong_Leadership:0 "Strong Leadership"
+ BBB_Strong_Leadership_desc:0 ""
+
+ BBB_Reconstructing_Moscow:0 "Reconstructing Moscow"
+ BBB_Reconstructing_Moscow_desc:0 ""
+
+ BBB_Reconstructing_Moscow_2:0 "Reconstructing Moscow"
+ BBB_Reconstructing_Moscow_2_desc:0 ""
+
+ BBB_Reconstructing_Moscow_3:0 "Reconstructing Moscow"
+ BBB_Reconstructing_Moscow_3_desc:0 ""
+
+ BBB_Functioning_Economy:0 "Functioning Economy"
+ BBB_Functioning_Economy_desc:0 ""
+
+ BBB_Sobered_Brigades:0 "Sobered Brigades"
+ BBB_Sobered_Brigades_desc:0 ""
+
+ BBB_The_State_Of_The_Brigades_reform_2:0 "State of the Brigades"
+ BBB_The_State_Of_The_Brigades_reform_2_desc:0 ""
+
+ BBB_Army_Of_The_Strong:0 "Army of the Strong"
+ BBB_Army_Of_The_Strong_desc:0 ""
+
+ BBB_The_Mechanized_Horde:0 "The Mechanized Horde"
+ BBB_The_Mechanized_Horde_desc:0 ""
+
+ BBB_The_New_Brigades_idea:0 "The New Brigades"
+ BBB_The_New_Brigades_idea_desc:0 ""

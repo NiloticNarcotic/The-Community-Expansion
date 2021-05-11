@@ -269,7 +269,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_the_predators
-	icon = GFX_goal_unknown
+	icon = GFX_BAS_Cry_Havoc
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -374,7 +374,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_the_prey
-	icon = GFX_goal_unknown
+	icon = GFX_UPO_spade_the_sows
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -650,7 +650,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_handicap_partisan_activity
+	id = BBB_adopt_oryol_tactics
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
@@ -676,9 +676,14 @@ shared_focus = {
 	y = 4
 	
 	completion_reward = {
-
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = land_doctrine
+		}
 		hidden_effect = {
 			country_event = { id = blackbrigades.16 }
+			
 		}
 	}
 }	
@@ -689,7 +694,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_handicap_partisan_activity }
+	prerequisite = { focus = BBB_adopt_oryol_tactics }
 	bypass = {
 		SMO = {
 			exists = no
@@ -737,12 +742,14 @@ shared_focus = {
 	y = 6
 	
 	completion_reward = {
-	
+		add_stability = -0.1
+		custom_effect_tooltip = BBB_Unlock_SOTF_tt
 		hidden_effect = {
 			country_event = { id = blackbrigades.17 }
+			set_country_flag = BBB_SOTF_UNLOCK_2
 		}
 	}
-}	
+}
 
 shared_focus = {
 	id = BBB_face_the_miserable_horde
@@ -750,7 +757,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_handicap_partisan_activity }
+	prerequisite = { focus = BBB_adopt_oryol_tactics }
 	bypass = {
 		BSB = {
 			exists = no
@@ -801,7 +808,8 @@ shared_focus = {
 	y = 6
 	
 	completion_reward = {
-	
+		add_war_support = -0.025
+		add_stability = 0.1
 		hidden_effect = {
 			country_event = { id = blackbrigades.18 }
 		}
@@ -838,6 +846,9 @@ shared_focus = {
 	y = 6
 	
 	completion_reward = {
+		add_war_support = 0.05
+		add_manpower = 6300
+		add_ideas = BBB_Satans_Division
 		hidden_effect = {
 			country_event = { id = blackbrigades.19 }
 		}
@@ -850,7 +861,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
-	prerequisite = { focus = BBB_handicap_partisan_activity }
+	prerequisite = { focus = BBB_adopt_oryol_tactics }
 	bypass = {
 		MOS = {
 			exists = no
@@ -898,7 +909,8 @@ shared_focus = {
 	y = 6
 	
 	completion_reward = {
-	
+		add_state_core = 219
+		add_state_core = 1314
 		hidden_effect = {
 			country_event = { id = blackbrigades.20 }
 		}
@@ -959,10 +971,16 @@ shared_focus = {
 	y = 8
 	
 	completion_reward = {
-	
-		hidden_effect = {
-			country_event = { id = blackbrigades.21 }
+		add_popularity = { 
+			ideology = national_socialism 
+			popularity = -0.04
 		}
+		add_popularity = { 
+			ideology = burgundian_system
+			popularity = -0.08
+		}
+		add_stability = 0.03
+		country_event = { id = blackbrigades.21 }
 	}
 }	
 
@@ -1024,10 +1042,7 @@ shared_focus = {
 	y = 8
 	
 	completion_reward = {
-	
-		hidden_effect = {
-			country_event = { id = blackbrigades.22 }
-		}
+		country_event = { id = blackbrigades.22 }
 	}
 }
 
@@ -1063,7 +1078,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BBB_solidify_hold_over_st_petersburg
+	id = BBB_send_a_message_to_germany #execute Van Boch
 	icon = GFX_goal_unknown
 	cancel_if_invalid = yes
 	available_if_capitulated = no
@@ -1089,7 +1104,6 @@ shared_focus = {
 	y = 8
 	
 	completion_reward = {
-	
 		hidden_effect = {
 			country_event = { id = blackbrigades.23 }
 		}
@@ -1104,7 +1118,7 @@ shared_focus = {
 	cost = 5
 	prerequisite = { focus = BBB_kill_off_the_ideologues }
 	prerequisite = {
-		focus = BBB_solidify_hold_over_st_petersburg
+		focus = BBB_send_a_message_to_germany
 		focus = BBB_end_the_facade
 	}
 	available = {
@@ -1116,9 +1130,9 @@ shared_focus = {
 	y = 9
 	
 	completion_reward = {
-	
+		country_event = { id = blackbrigades.24 }
 		hidden_effect = {
-			country_event = { id = blackbrigades.24 }
+			add_political_power = 75
 		}
 	}
 }
@@ -1406,14 +1420,13 @@ shared_focus = {
 				limit = {
 					has_country_flag = BBB_THECHOICEISOURS_REFORM
 				}
+			country_event = { id = blackbrigades.60 }
 			}
-			country_event = { id = blackbrigades.60 days = 1 }
-
 			else_if = {
 				limit = {
 					has_country_flag = BBB_THECHOICEISOURS_RADICALS
 				}
-				country_event = { id = blackbrigades.61 days = 1 }
+				country_event = { id = blackbrigades.61 }
 			}
 		}
 	}

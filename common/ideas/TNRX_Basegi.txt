@@ -170,6 +170,23 @@ ideas = {
 			}
 		}		
 
+		BBB_Satans_Division = {
+			picture = MAR_Forced_Syncretism
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.04
+				breakthrough_factor = 0.05
+			}
+		}
+
 		BBB_Reformists_Congress = {
 			picture = MAR_Forced_Syncretism			
 			
