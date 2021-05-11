@@ -666,8 +666,8 @@ country_event = {
 
 		set_party_name = { 
 			ideology = ultranational_socialism
-			long_name = BBB_Ultranat_Mordakov_long
-			name = BBB_Ultranat_Mordakov
+			long_name = BBB_ultranat_mordakov_long
+			name = BBB_ultranat_mordakov
 		}
 
 		set_politics = {
@@ -685,10 +685,29 @@ country_event = {
 		}
 
 		hidden_effect = {
+
+			create_country_leader = {
+				name = "Vasily Mordakov"
+				desc = "POLITICS_RADICAL_MORDAKOV_DESC"
+				picture = "Portrait_Black_Brigades_Vasily_Mordakov.dds"
+				expire = "1993.4.24"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+
+			set_party_name = { 
+				ideology = despotism
+				long_name = BBB_
+				name = BBB_ultranat_mordakov
+			}
+
 			add_popularity = {
 				ideology = ultranational_socialism
-				popularity = 0.25
+				popularity = 0.55
 			}
+
+			load_focus_tree = { tree = basegi_radicals }
 		}
 	}
 }

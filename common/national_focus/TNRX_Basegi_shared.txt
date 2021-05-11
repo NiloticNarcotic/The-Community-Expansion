@@ -75,7 +75,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_salt_the_wound
-	icon = GFX_CHI_Smoke_Out_The_Rats
+	icon = GFX_YUN_Burn_What_Is_Lost
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -255,7 +255,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_introduce_our_plans
-	icon = GFX_goal_unknown
+	icon = GFX_generic_revolutionary_movement
 	cost = 0.5
 	cancel_if_invalid = yes
 	available_if_capitulated = no
@@ -285,7 +285,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_approach_the_veterans
-	icon = GFX_goal_unknown
+	icon = GFX_speer_retire_the_officers
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -310,7 +310,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_back_to_work
-	icon = GFX_goal_unknown
+	icon = GFX_PRM_Work_For_Your_Nation
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -355,7 +355,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_normalize_street_violence
-	icon = GFX_goal_unknown
+	icon = GFX_MAG_Soldiers_Without_Borders
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -390,7 +390,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_those_left_behind
-	icon = GFX_goal_unknown
+	icon = GFX_Generic_Refugees
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -407,7 +407,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_dismantle_the_wolgabund
-	icon = GFX_goal_unknown
+	icon = GFX_generic_show_trials
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -427,7 +427,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_fear_through_radicalization
-	icon = GFX_goal_unknown
+	icon = GFX_COR_Utilize_The_Black_Market
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -446,7 +446,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_dangerous_days
-	icon = GFX_goal_unknown
+	icon = GFX_MAG_Desperate_Times
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 0.5
@@ -482,7 +482,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_our_need_for_industry
-	icon = GFX_Generic_Industry
+	icon = GFX_CHU_securing_the_factories
 	cancel_if_invalid = yes
 	available_if_capitulated = no		
 	cost = 2
@@ -509,7 +509,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_no_mercy_given
-	icon = GFX_goal_unknown
+	icon = GFX_BAS_SVV
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
@@ -551,7 +551,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_our_need_for_men
-	icon = GFX_goal_unknown
+	icon = GFX_TNO_generic_civilian_auxillaries
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -578,7 +578,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_the_german_war_machine
-	icon = GFX_OFN_CAR_Train_Native_Militias
+	icon = GFX_KHA_collective_defense_requirements
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
@@ -621,7 +621,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_hunt_the_partisans
-	icon = GFX_goal_unknown
+	icon = GFX_UPO_From_the_Shadows
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -651,7 +651,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_adopt_oryol_tactics
-	icon = GFX_goal_unknown
+	icon = GFX_INS_deploy_the_militia
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
@@ -717,7 +717,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_dismantle_their_charity
-	icon = GFX_goal_unknown
+	icon = GFX_ORE_common_investment_contributions
 	cost = 3
 	cancel_if_invalid = yes
 	available_if_capitulated = no
@@ -753,7 +753,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_face_the_miserable_horde
-	icon = GFX_goal_unknown
+	icon = GFX_Secularists_Appeased
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -780,7 +780,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_one_excuse
-	icon = GFX_goal_unknown
+	icon = GFX_generic_execute
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
@@ -818,7 +818,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_integrate_the_bands
-	icon = GFX_goal_unknown
+	icon = GFX_TNO_generic_attack
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 4
@@ -857,7 +857,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_march_on_moscow
-	icon = GFX_goal_unknown
+	icon = GFX_March_on_Copenhagen
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -919,7 +919,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_move_on_the_north
-	icon = GFX_goal_unknown
+	icon = GFX_GER_SS_Border_Guards
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -946,7 +946,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_kill_off_the_ideologues
-	icon = GFX_goal_unknown
+	icon = GFX_UPO_We_Die_for_Justice
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
@@ -986,7 +986,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_red_bandits
-	icon = GFX_goal_unknown
+	icon = GFX_KHA_the_black_army
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -1048,7 +1048,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_expel_the_germans_from_muscovy
-	icon = GFX_goal_unknown
+	icon = GFX_SGR_The_Eagle_Tamed
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -1079,7 +1079,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_send_a_message_to_germany #execute Van Boch
-	icon = GFX_goal_unknown
+	icon = GFX_HGR_Only_Brass_Tacks_Left
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 3
@@ -1112,7 +1112,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_the_neanderthal_is_extinct
-	icon = GFX_goal_unknown
+	icon = GFX_DSR_burn_it_down
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 5
@@ -1415,18 +1415,22 @@ shared_focus = {
 	y = 8
 
 	completion_reward = {
+		custom_effect_tooltip = BBB_Strike_from_the_Shadows_tt
 		hidden_effect = {
 			if = {
 				limit = {
-					has_country_flag = BBB_THECHOICEISOURS_REFORM
+					has_country_flag = BBB_THECHOICEISOURS_RADICALS
 				}
-			country_event = { id = blackbrigades.60 }
+				country_event = { id = blackbrigades.60 }
 			}
 			else_if = {
 				limit = {
-					has_country_flag = BBB_THECHOICEISOURS_RADICALS
+					has_country_flag = BBB_THECHOICEISOURS_REFORM
 				}
 				country_event = { id = blackbrigades.61 }
+			}
+			else = {
+				add_stability = -0.99
 			}
 		}
 	}

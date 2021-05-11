@@ -29,7 +29,7 @@
  BBB_ultranat_mordakov:0 "ChB-R "
 
  ###Leader Desc###
- POLITICS_VASILY_MORDAKOV_DESC:0 "Pretty based guy"
+ POLITICS_VASILY_MORDAKOV_DESC:0 "The history of Vasily Mordakov changes with every person one may ask. Some say he was orphaned during the war and lived among rats, learning to steal and thrift from them, others say he was raised in a commune of thieves and was their prodigy child. Whatever the story may be, it will undoubtedly try to explain the man's supernatural charisma and guile. Mordakov knew hardship nearly his entire life, and had to survive completely on his own.\nDaily, he would face death from hunger, cold or knife. He knew from the very early days that this world does not belong to those who do not deserve it, so when he grew up and saw with his own eyes, the measly people whom managed to live good lives protected by the confines of comfortable office jobs and communal housing. None would even last a week in the environment he grew up in.\nMordakov found work with the Pokrovsk Thieves-in-Law, a criminal organization, where he grew in rank so fast that it put fear in the upper echelons of the mafia. So it came to be, that at every opportunity, the young prodigy would be stifled. Missed details here, sloppy work there.\nIt became clear to him at one point that he is not wanted, but is badly needed in the organization.\nThe Black Brigades were like a godsend for the man. He quickly moved to greener pastures by joining up with them, proving himself to the leadership faster than in the mafia. There, he did not slow down in his pursuit of power and purpose. He built a sizable clique of those in the Brigades who strived to be more than bandits, a mere nuisance for the Germans."
  POLITICS_RADICAL_MORDAKOV_DESC:0 "Even more based guy"
  
  ### Ministers ###
@@ -296,6 +296,8 @@
  BBB_Terror_Groups_tt:0 "§YThe norms of our new society based on Natural Selection are beginning to take hold.\nOur social laws will begin to change to reflect that.§!"
  BBB_Against_Wolgastaat_tt:0 "§TThe effects of 'Against Wolgastaat' will be strengthened!§!"
  BBB_Commence_The_Black_Terror_tt:0 "§RWe have only just begun.§!"
+ BBB_Strike_from_the_Shadows_tt:0 "We will make a move to eliminate our rival and secure the future of the Black Brigades as ours."
+
  BBB_Unlock_SOTF_tt:0 "We will be able to §Vterrorize§! the local population in a new way!"
  
  ### Country Events ### ### Country Events ### ### Country Events ###
@@ -443,9 +445,13 @@
  blackbrigades.59.desc:0 "event where a reformist sympathizer's family is threatened in order for him to stay low"
  blackbrigades.59.a:0 "x"
 
- blackbrigades.60.t:0 ""
+ blackbrigades.60.t:0 "Mordakov takes power"
  blackbrigades.60.desc:0 ""
  blackbrigades.60.a:0 ""
+
+ blackbrigades.61.t:0 "Ankudinov takes power"
+ blackbrigades.61.desc:0 ""
+ blackbrigades.61.a:0 ""
 
  ### Radicals Events ###
  blackbrigades.91.t:0 "Lament of the Weak"
@@ -469,8 +475,8 @@
  blackbrigades.95.a:0 "A criminal is made"
  
  blackbrigades.96.t:0 "Leviathan"
- blackbrigades.96.desc:0 "Mordakov looks over his life as the new Darwin"
- blackbrigades.96.a:0 "Placeholder"
+ blackbrigades.96.desc:0 "The land from the Baltic to the Caspian are a proving ground. A proving ground for all men and women like in the primitive days before the arms of civilization took humanity in its arms like a vile drug, corrupting the body of not one man but mankind as a whole. The struggle of day to day life thickens the skin, energizes the blood and strengthens the bones of men with each generation. The state of nature that had propelled humanity from swamps and caves onto every corner of the earth has been put back into motion by the Black Brigades, once a simple pest for the German settlers on the Volga, who have now become the forerunners of evolution. It is doubtless that there are stronger nations out there; Germany already increasing activity on our border, but it is men who form the backbone of any nation. At the helm of everything stands Mordakov, the sole leviathan of this society. But his role is different from others like him. His power exists so that none other may take it and twist it into mockeries of humanity, stifling evolution once more. The Black Brigades march on into the future, while the rest of humanity stagnates in a pool of their own decadence."
+ blackbrigades.96.a:0 "Mordakov saw what he did and thought it was good"
  
  ### Spirits ###
 
