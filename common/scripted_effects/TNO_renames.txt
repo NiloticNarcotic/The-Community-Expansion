@@ -265,25 +265,6 @@ do_french_renames = {
 		
 	if = {
 		limit = {
-			state = 28
-		}	
-		set_state_name = Alsace-Lorraine
-		set_province_name = {
-			id = 678
-			name = "Mulhouse"
-		}
-		set_province_name = {
-			id = 9503
-			name = "Strasbourg"
-		}
-		set_province_name = {
-			id = 9559
-			name = "Metz"
-		}
-	}
-		
-	if = {
-		limit = {
 			state = 51
 		}	
 		set_state_name = Rhénnaie
@@ -308,7 +289,7 @@ do_french_renames = {
 		set_state_name = Brabant
 		set_province_name = {
 			id = 6496
-			name = "Eupen"
+			name = "Eindhoven"
 		}
 	}
 		
@@ -332,6 +313,331 @@ do_french_renames = {
 		set_province_name = {
 			id = 68
 			name = "Amsterdam"
+		}
+	}
+}
+
+do_german_renames = {
+		
+	if = {
+		limit = {
+			state = 32
+		}	
+		set_state_name = Alpenland
+		set_province_name = {
+			id = 3768
+			name = "Graswalde"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 20
+		}	
+		set_state_name = Rhone
+		set_province_name = {
+			id = 6613
+			name = "Leyden"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 27
+		}	
+		set_state_name = Burgund
+		set_province_name = {
+			id = 3652
+			name = "Dision"
+		}
+		set_province_name = {
+			id = 3681
+			name = "Autrikus"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 17
+		}	
+		set_state_name = Freigrafschaft
+		set_province_name = {
+			id = 9642
+			name = "Bisanz"
+		}
+		set_province_name = {
+			id = 11516
+			name = "Nanzig"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 18
+		}	
+		set_state_name = Kampen
+		set_province_name = {
+			id = 9490
+			name = "Trojen"
+		}
+		set_province_name = {
+			id = 13011
+			name = "Reimen"
+		}
+		set_province_name = {
+			id = 5291
+			name = "Verden"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 788
+		}	
+		set_state_name = Meau
+		set_province_name = {
+			id = 6949
+			name = "Meldis"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 16
+		}	
+		set_state_name = "Großraum Paris"
+		set_province_name = {
+			id = 11506
+			name = "Paris Est"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 15
+		}	
+		set_state_name = Normandie
+		set_province_name = {
+			id = 11563
+			name = "Rodomo"
+		}
+		set_province_name = {
+			id = 9434
+			name = "Hafenstadt"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 29
+		}	
+		set_state_name = Pickardien
+		set_province_name = {
+			id = 3476
+			name = "Meroweschkrone"
+		}
+		set_province_name = {
+			id = 11483
+			name = "Ryssel"
+		}
+		set_province_name = {
+			id = 11548
+			name = "Kalen"
+		}
+		set_province_name = {
+			id = 575
+			name = "Dünkirchen"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 34
+		}	
+		set_state_name = Walloonien
+		set_province_name = {
+			id = 3516
+			name = "Namen"
+		}
+		set_province_name = {
+			id = 11519
+			name = "Lüttich"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 6
+		}	
+		set_state_name = Flandern
+		set_province_name = {
+			id = 516
+			name = "Brüssel"
+		}
+		set_province_name = {
+			id = 6560
+			name = "Gent"
+		}
+		set_province_name = {
+			id = 6598
+			name = "Antorf"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 28
+		}	
+		set_state_name = Elsaß-Lothringen
+		set_province_name = {
+			id = 678
+			name = "Mülhausen"
+		}
+		set_province_name = {
+			id = 9503
+			name = "Straßborg"
+		}
+		set_province_name = {
+			id = 9559
+			name = "Metz"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 8
+		}	
+		set_state_name = Luxemburg
+		set_province_name = {
+			id = 6583
+			name = "Luxemburg"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 42
+		}	
+		set_state_name = Moselland
+		set_province_name = {
+			id = 11531
+			name = "Saarbrücken"
+		}
+		set_province_name = {
+			id = 11435
+			name = "Trier"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 51
+		}	
+		set_state_name = Rheinland
+		set_province_name = {
+			id = 3488
+			name = "Eupen"
+		}
+		set_province_name = {
+			id = 3547
+			name = "Ordensburg Vogelsang"
+		}
+		set_province_name = {
+			id = 587
+			name = "Köln"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 35
+		}	
+		set_state_name = Brabant
+		set_province_name = {
+			id = 6496
+			name = "Eindhoven"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 7
+		}	
+		set_state_name = Holland
+		set_province_name = {
+			id = 9498
+			name = "Rotterdam"
+		}
+		set_province_name = {
+			id = 3211
+			name = "Der Haag"
+		}
+		set_province_name = {
+			id = 391
+			name = "Utrecht"
+		}
+		set_province_name = {
+			id = 68
+			name = "Amsterdam"
+		}
+	}
+}
+
+do_breton_renames = {
+		
+	if = {
+		limit = {
+			state = 14
+		}
+		set_state_name = Breizh
+		set_province_name = {
+			id = 11465
+			name = "Naoned"
+		}
+		set_province_name = {
+			id = 9495
+			name = "Roazhon"
+		}
+		set_province_name = {
+			id = 6536
+			name = "An Oriant"
+		}
+		set_province_name = {
+			id = 3552
+			name = "Brest"
+		}
+	}
+}
+
+do_italian_renames = {
+		
+	if = {
+		limit = {
+			state = 735
+		}	
+		set_state_name = Savoia
+		set_province_name = {
+			id = 13583
+			name = "Nizza"
+		}
+		set_province_name = {
+			id = 778
+			name = "Anneci"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 1
+		}	
+		set_state_name = Corsica
+		set_province_name = {
+			id = 11804
+			name = "Aiaccio"
+		}
+		set_province_name = {
+			id = 11891
+			name = "Bastia"
 		}
 	}
 }
