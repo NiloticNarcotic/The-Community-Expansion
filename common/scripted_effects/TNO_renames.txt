@@ -318,6 +318,416 @@ do_french_renames = {
 }
 
 do_german_renames = {
+
+	if = {
+		limit = {
+			state = 219
+		}	
+		set_state_name = Moskau
+		set_province_name = {
+			id = 6380
+			name = "Moskau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1314
+		}	
+		set_state_name = "Nord-Moskau"
+		set_province_name = {
+			id = 14457
+			name = "Nord-Moskau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 247
+		}	
+		set_state_name = Königstein
+		set_province_name = {
+			id = 6245
+			name = "Königstein"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 253
+		}	
+		set_state_name = Waldemar
+		set_province_name = {
+			id = 378
+			name = "Waldemar"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 246
+		}	
+		set_state_name = Rosau
+		set_province_name = {
+			id = 11349
+			name = "Ostaschkau"
+		}
+		set_province_name = {
+			id = 11224
+			name = "Rosau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 210
+		}	
+		set_state_name = Ostrau
+		set_province_name = {
+			id = 9254
+			name = "Ostrau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 263
+		}	
+		set_state_name = Holmgard
+		set_province_name = {
+			id = 117
+			name = "Holmgard"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 209
+		}	
+		set_state_name = Plskau
+		set_province_name = {
+			id = 9319
+			name = "Lukienburg"
+		}
+		set_province_name = {
+			id = 11202
+			name = "Plsekau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 264
+		}	
+		set_state_name = Straßenmarkt
+		set_province_name = {
+			id = 3124
+			name = "Tscherepau"
+		}
+		set_province_name = {
+			id = 3140
+			name = "Straßenmarkt"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 208
+		}	
+		set_state_name = Lüka
+		set_province_name = {
+			id = 9098
+			name = "Lüka"
+		}
+		set_province_name = {
+			id = 11186
+			name = "Kiefernwald"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 244
+		}	
+		set_state_name = Wölfe
+		set_province_name = {
+			id = 11174
+			name = "Wölfe"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 195
+		}	
+		set_state_name = Brauchitschstadt
+		set_province_name = {
+			id = 3151
+			name = "Brauchitschstadt"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 242
+		}	
+		set_state_name = Smolenau
+		set_province_name = {
+			id = 11254
+			name = "Wiasma"
+		}
+		set_province_name = {
+			id = 306
+			name = "Smolenau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 205
+		}	
+		set_state_name = Kaluga
+		set_province_name = {
+			id = 382
+			name = "Kaluga"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 243
+		}	
+		set_state_name = Prigorskön
+		set_province_name = {
+			id = 3210
+			name = "Prigorskön"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 224
+		}	
+		set_state_name = Waldemarstadt
+		set_province_name = {
+			id = 3335
+			name = "Waldemarstadt"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 241
+		}	
+		set_state_name = Homel
+		set_province_name = {
+			id = 9288
+			name = "Homel"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 223
+		}	
+		set_state_name = Thulestadt
+		set_province_name = {
+			id = 6262
+			name = "Thulestadt"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 222
+		}	
+		set_state_name = Adler
+		set_province_name = {
+			id = 9355
+			name = "Adler"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 258
+		}	
+		set_state_name = "Leipzig am Woronesch"
+		set_province_name = {
+			id = 6398
+			name = "Leipzig am Woronesch"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 220
+		}	
+		set_state_name = Mansteinburg
+		set_province_name = {
+			id = 3580
+			name = "Mansteinburg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 254
+		}	
+		set_state_name = Rjasan
+		set_province_name = {
+			id = 11248
+			name = "Rjasan"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 257
+		}	
+		set_state_name = Tombau
+		set_province_name = {
+			id = 367
+			name = "Tombau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 255
+		}	
+		set_state_name = Pensa
+		set_province_name = {
+			id = 9409
+			name = "Pensa"
+		}
+		set_province_name = {
+			id = 11262
+			name = "Saran"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 239
+		}	
+		set_state_name = Saritau
+		set_province_name = {
+			id = 433
+			name = "Balaschau"
+		}
+		set_province_name = {
+			id = 3578
+			name = "Saritau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 401
+		}	
+		set_state_name = Kosackenstadt
+		set_province_name = {
+			id = 11523
+			name = "Kosackenstadt"
+		}
+		set_province_name = {
+			id = 3551
+			name = "Erschau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 240
+		}	
+		set_state_name = "Donezische Weißenburg"
+		set_province_name = {
+			id = 9489
+			name = "Donezische Weißenburg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 260
+		}	
+		set_state_name = Woronesch
+		set_province_name = {
+			id = 413
+			name = "Woronesch"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 265
+		}	
+		set_state_name = Micheilau
+		set_province_name = {
+			id = 487
+			name = "Micheilau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 245
+		}	
+		set_state_name = Müllerowau
+		set_province_name = {
+			id = 3519
+			name = "Müllerowau"
+		}
+		set_province_name = {
+			id = 6544
+			name = "Mosozowsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 217
+		}	
+		set_state_name = Paulusburg
+		set_province_name = {
+			id = 3529
+			name = "Paulusburg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 238
+		}	
+		set_state_name = Wolgodonstadt
+		set_province_name = {
+			id = 6490
+			name = "Wolgodonstadt"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 237
+		}	
+		set_state_name = Steppenstadt
+		set_province_name = {
+			id = 11566
+			name = "Steppenstadt"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 236
+		}	
+		set_state_name = Wolgastadt
+		set_province_name = {
+			id = 9753
+			name = "Wolgastadt"
+		}
+	}
 		
 	if = {
 		limit = {
