@@ -378,3 +378,36 @@
  MCW.114.desc:0 ""The council session had been a calm one, with both Germans and Russians seemingly, and rarely, not prepared to kill one another. Perhaps it was the somber news form the west, of the German's great leader gone and hopes for German unity gone with it. Even now, the more zealous and ideological of the garrison had rushed west to prepare for the inevitable, and several seats on the council sat vacant.\n\nPerhaps it was this unsurety from the German delegation that gave Gorbachev the gumption to say what he was about to say. With a request for quiet, the Russian stood, and across the table, Alexander Heckman from the German settler militias stood. The two nodded at one another, and then it was clear. This had not been a sudden bout of bravery, this was prepared, planned, and the time had come.\n\n"It is becoming increasingly clear that German rule of Moskowien is impossible," Gorbachev started, the Russians staring ahead solemnly and most of the Germans staring in shock at the sheer audacity, "Us Slavs can never be ruled over properly. We will fight and bite anyone who tries to lead us. Knowing this, and knowing that the purety of Aryan German blood is at stake with the slow mixing of the frontier, and knowing that there has been an uptick of bandit raids and riots in Moscow in the past few weeks, we know that there is only one solution."\n\n"It is time to split the colony. Two states. One Russian, one German, with neutral zones in mixed areas. Only then will all be able to live in peace, without fear of the other."\nThe chaos that followed was predictable. Shouting, screaming, Germans and Russians yelling at one another, at Gorbachev and at his comrade Heckman. But the entire time only one sat silent. The Reichskommissar just stared at Gorbachev, not maliciously, almost curiously. Without a word he walked from the room, to his quarters, where he would spend the rest of his day in silence. As he did almost every day.""
  MCW.114.a:0 "Nobody could seriously entertain this idea, could they?"
  
+ MCW.201.t:0 "The SS cecedes!"
+ MCW.201.desc:0 "Following the civil war in Germany, the long traitorous SS has decided to cut all communication lines and have killed all of our garrison!
+ MCW.201.a:0 "Traitorous bastards!
+ 
+ MCW.202.t:0 "The reds rebel!"
+ MCW.202.desc:0 "With the Reichkomissariat collapsing, the socialists in Smolensk have overthrown the local garrison and have took full control over their provinces.""
+ MCW.202.a:0 "Those bastards don't give up, don't they?"
+
+MCW.203.t:0 "More partisans!"
+MCW.203.desc:0 "The red partisans weren't the only one. The splinter group that were exiled by the ones in Smolensk have toppled the German administration in Oryol!"
+MCW.203.a:0 "Everything is falling apart!"
+
+MCW.204.t:0 "The Russian Ostvolk Council's betrayal"
+MCW.204.desc: "Alarming news! Gorbachev and his subordinates have evacuated to Voronezh and its surrounding territories and have proclaimed a new Republic."
+MCW.204.a:0 "Another bunch escapes the sinking ship!"
+
+MCW.205.t:0 "A new Volga"
+MCW.205.desc:0 "Oh god! Helmuth Pannwitz has sent us a message. He says that in order to preserve national socialism, he separated himself from the collapsing administration and raised his own units."
+MCW.205.a:0 "There is nothing we can do"
+MCW.205.b:0 "I'm coming, dear Volga!"
+
+MCW.206.t:0 "Yet another rebellion"
+MCW.206.desc:0 "From Penza, we have gotten news that a bunch of former red army partisans have cededed with little effort given the situation."
+MCW.206.a:0 "We are doomed"
+
+MCW.207.t:0 "The ultimate betrayal"
+MCW.207.desc:0 "Looking at the utter collapse of the reichkommissariat, Kaminski and his former collaborators have seized Moscow and declared their independence from us"
+MCW.207.a:0 "Traitors, traitors everywhere!"
+
+MCW.208.t:0 "The end"
+MCW.208.desc:0 "The remaining Wehrmact units capable of defending have taken control over the remaining parts of what now is a warlord hellhole"
+MCW.208.a:0 "For Germany! For Bach! For the victory!"
+ 

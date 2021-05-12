@@ -1,0 +1,291 @@
+focus_tree = {
+	id = pleskau_post_unification
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PSK
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 1000 y = 1000 }
+
+	initial_show_position = {
+		focus = PSK_triumph_the_will
+	}
+
+	focus = {
+		id = PSK_triumph_the_will
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		bypass = {
+		}
+		cost = 5
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_empire_the_righteous
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		bypass = {
+		}
+		mutually_exclusive = {
+			focus = PSK_soldiers_the_new_fatherland
+			focus = PSK_foundations_for_radical_change
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_triumph_the_will }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_conduct_the_grand_investigation
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_empire_the_righteous }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_excise_loose_ends
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_conduct_the_grand_investigation }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_foundations_for_radical_change
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		bypass = {
+		}
+		mutually_exclusive = {
+			focus = PSK_soldiers_the_new_fatherland
+			focus = PSK_empire_the_righteous
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_triumph_the_will }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_talk_with_the_ministers
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_foundations_for_radical_change }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_helping_hand
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_foundations_for_radical_change }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_friends_high_places
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_helping_hand }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_relocate_pacification_brigade_units
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_friends_high_places}
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_soldiers_the_new_fatherland
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		bypass = {
+		}
+		mutually_exclusive = {
+			focus = PSK_empire_the_righteous
+			focus = PSK_foundations_for_radical_change
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_triumph_the_will }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_zeiht_die_faden
+		icon = GFX_goal_unknown
+		x = -4
+		y = 2
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_soldiers_the_new_fatherland }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_assure_our_loyalty
+		icon = GFX_goal_unknown
+		x = -2
+		y = 2
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_soldiers_the_new_fatherland }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_with_fingers_crossed
+		icon = GFX_goal_unknown
+		x = -2
+		y = 3
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_assure_our_loyalty }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_kick_the_rpb
+		icon = GFX_goal_unknown
+		x = -4
+		y = 4
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_with_fingers_crossed }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_preliminary_results
+		icon = GFX_goal_unknown
+		x = -1
+		y = 4
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { 
+			focus = PSK_with_fingers_crossed
+			focus = PSK_excise_loose_ends
+			focus = PSK_friends_high_places
+		}
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_setting_the_table
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { 
+			focus = PSK_with_fingers_crossed
+			focus = PSK_excise_loose_ends
+			focus = PSK_friends_high_places
+		}
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+	focus = {
+		id = PSK_the_interlude
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		bypass = {
+		}
+		relative_position_id = PSK_triumph_the_will 
+		cost = 5
+		prerequisite = { focus = PSK_preliminary_results }
+		prerequisite = { focus = PSK_setting_the_table }
+		completion_reward = {
+		}
+        ai_will_do = {
+		}
+    }
+}

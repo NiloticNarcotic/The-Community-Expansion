@@ -1,0 +1,477 @@
+focus_tree = {
+	id = pleskau_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PSK
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 1000 y = 1000 }
+	focus = {
+		id = PSK_the_blackest_night
+		icon = GFX_PSK_The_Blackest_Night
+		x = 4
+		y = 2
+		bypass = {
+		}
+		cost = 2
+		completion_reward = {
+			custom_effect_tooltip = tooltip_the_blackest_night
+			hidden_effect = {
+				country_event = {
+					id = pleskau.1
+				} 			
+				add_political_power = 30
+				add_stability = 0.15
+				add_popularity = {
+					ideology = burgundian_system
+					popularity = 0.05
+				}	
+			}
+		}
+        ai_will_do = {
+			factor = 1
+		}
+    }
+    focus = {
+		id = PSK_our_eternal_struggle
+		icon = GFX_PSK_Our_Eternal_Struggle
+		x = 4
+		y = 4
+		bypass = {
+		}
+		cost = 3
+		prerequisite = { focus = PSK_the_blackest_night }  
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.2
+				}
+				add_stability = 0.07
+				add_popularity = {
+					ideology = burgundian_system
+					popularity = 0.02
+				}
+				add_war_support = 0.05
+			}
+			custom_effect_tooltip = tooltip_our_eternal_struggle
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = PSK_fill_the_reserves
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_our_eternal_struggle }				
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.3
+				}
+				add_manpower = 2250
+				add_stability = 0.04
+			}
+			custom_effect_tooltip = tooltip_fill_the_reserves
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = PSK_using_the_undesirables
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_fill_the_reserves }
+		prerequisite = { focus = PSK_regimental_training focus = PSK_expanding_the_russian_corps }  
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.4
+				}
+				add_manpower = 1200
+				load_oob = "PSK_reinforcments"
+				add_ideas = PSK_Rigid
+				add_war_support = 0.04
+				add_political_power = -20				
+			}
+		   custom_effect_tooltip = tooltip_using_the_undesirables
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+    focus = {
+		id = PSK_remembering_the_beginning
+		icon = GFX_goal_unknown
+		x = 4	
+		y = 5
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_our_eternal_struggle }
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.5
+				}	
+				add_stability = 0.05
+				add_political_power = 20
+				add_popularity = {
+					ideology = burgundian_system
+					popularity = 0.03
+				}		
+			}
+			custom_effect_tooltip = tooltip_remembering_the_beginning
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_to_the_bitter_end
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_remembering_the_beginning }
+		prerequisite = { focus = PSK_faith_in_party focus = PSK_faith_in_state }
+		completion_reward = {
+			hidden_effect = {
+				to_the_bitter_end = yes
+				country_event = {
+					id = pleskau.6
+				}
+				add_ideas = PSK_Bitter
+				add_war_support = 0.05
+				add_popularity = {
+					ideology = burgundian_system
+					popularity = 0.035
+				}				
+			}
+			custom_effect_tooltip = tooltip_to_the_bitter_end
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_using_the_camps
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_our_eternal_struggle }
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.7
+				}
+				add_political_power = -25
+				add_stability = -0.05
+				add_popularity = {
+					ideology = socialist
+					popularity = -0.085
+				}
+				add_popularity = {
+					ideology = communist
+					popularity = -0.085
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = -0.8
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = -0.085
+				}
+				263 = {
+					add_building_construction = {
+						type = industrial_complex 
+						instant_build = yes
+						level = 1
+					}        
+				}
+				246 = {
+					add_building_construction = {
+						type = arms_factory
+						instant_build = yes
+						level = 1
+					}        
+				}   
+			}
+			custom_effect_tooltip = tooltip_using_the_camps
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_fill_the_factories
+		icon = GFX_PSK_Fill_the_Factories
+		x = 6
+		y = 7
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_using_the_camps }
+		prerequisite = { focus = PSK_expanding_our_reach focus = PSK_coercive_activities_bureau }
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.8
+				}
+				add_popularity = {
+					ideology = burgundian_system
+					popularity = 0.015
+				}
+				209 = {
+					add_building_construction = {
+						type = industrial_complex 
+						instant_build = yes
+						level = 1
+					}
+					add_building_construction = {
+						type = arms_factory  
+						instant_build = yes
+						level = 1
+					}
+				} 
+			}
+			custom_effect_tooltip = tooltip_fill_the_factories
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_from_dust_to_dust
+		icon = GFX_PSK_From_Dust_to_Dust
+		x = 4
+		y = 10
+		bypass = {
+		}
+		cost = 3
+		prerequisite = { focus = PSK_using_the_undesirables }
+		prerequisite = { focus = PSK_to_the_bitter_end }
+		prerequisite = { focus = PSK_fill_the_factories }
+		prerequisite = { focus = PSK_material_construction }
+		prerequisite = { focus = PSK_civil_procurement }
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.9
+				}
+				add_war_support = 0.05
+				add_popularity = {
+					ideology = burgundian_system
+					popularity = 0.05
+				}
+			}
+			custom_effect_tooltip = tooltip_from_dust_to_dust
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_faith_in_state
+		icon = GFX_PSK_Faith_in_State
+		x = 5
+		y = 6
+		bypass = {
+		}
+		cost = 1
+		prerequisite = { focus = PSK_remembering_the_beginning}
+		prerequisite = { focus = PSK_using_the_camps}
+		mutually_exclusive = { focus = PSK_faith_in_party}  
+		completion_reward = {
+			hidden_effect = {
+				add_popularity = {
+					ideology = burgundian_system 
+					popularity = 0.015
+				}       
+				add_timed_idea = { idea = PSK_State  days = 75 }
+			}
+			custom_effect_tooltip = tooltip_faith_in_state
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_faith_in_party
+		icon = GFX_PSK_Faith_in_Party
+		x = 3
+		y = 6
+		bypass = {
+		}
+		cost = 1
+		prerequisite = { focus = PSK_remembering_the_beginning}
+		prerequisite = { focus = PSK_fill_the_reserves}
+		mutually_exclusive = { focus = PSK_faith_in_state}
+		completion_reward = {
+			hidden_effect={
+				add_popularity = {
+					ideology = burgundian_system
+					popularity = 0.025
+				}
+				add_popularity = {
+					ideology = national_socialism
+					popularity = 0.01
+				}        
+				add_timed_idea = { idea = PSK_Party  days = 75 }
+			}
+			custom_effect_tooltip = tooltip_faith_in_party
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_expanding_our_reach
+		icon = GFX_PSK_Expanding_Our_Reach
+		x = 7
+		y = 6
+		bypass = {
+		}
+		cost = 1
+		prerequisite = { focus = PSK_using_the_camps }
+		mutually_exclusive = { focus = PSK_coercive_activities_bureau}
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.17
+				}
+			}
+		   custom_effect_tooltip = tooltip_expanding_our_reach
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_expanding_the_russian_corps
+		icon = GFX_BRG_Focus_Penal_Battalions
+		x = 1
+		y = 6
+		bypass = {
+		}
+		cost = 1
+		prerequisite = { focus = PSK_fill_the_reserves }
+		mutually_exclusive = { focus = PSK_regimental_training}  
+		completion_reward = {
+			hidden_effect = {	
+				country_event = {
+					id = pleskau.12
+				}
+			}
+		   custom_effect_tooltip = tooltip_expanding_the_russian_corps
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_civil_procurement
+		icon = GFX_PSK_Ensuring_Civil_Procurement
+		x = 6
+		y = 9
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_to_the_bitter_end}
+		prerequisite = { focus = PSK_fill_the_factories}
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.16
+				}		
+			}
+			custom_effect_tooltip = tooltip_civil_procurement
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_material_construction
+		icon = GFX_BRG_Raze_The_Cities_shine
+		x = 2
+		y = 9
+		bypass = {
+		}
+		cost = 2
+		prerequisite = { focus = PSK_using_the_undesirables}
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.15
+				}		
+			}
+			custom_effect_tooltip = tooltip_material_construction
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_regimental_training
+		icon = GFX_PSK_Expanding_the_Russian_Corps
+		x = -1
+		y = 6
+		bypass = {
+		}
+		cost = 1
+		prerequisite = { focus = PSK_fill_the_reserves}
+		mutually_exclusive = { focus = PSK_expanding_the_russian_corps}
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.13
+				}
+			}
+			custom_effect_tooltip = tooltip_regimental_training
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = PSK_coercive_activities_bureau
+		icon = GFX_BRG_Focus_Work_Is_Freedom
+		x = 9
+		y = 6
+		bypass = {
+		}
+		cost = 1
+		prerequisite = { focus = PSK_using_the_camps}
+		mutually_exclusive = { focus = PSK_expanding_our_reach}
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = pleskau.14
+				}		
+			}
+			custom_effect_tooltip = tooltip_coersive_activities_bureau
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

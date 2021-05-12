@@ -12,13 +12,13 @@
  PSK_Party:0 "Faith in Party"
  PSK_Party_desc:0 "placeholder"
 
- PSK_Inferior:0 "Lesser-Race Industrial Production: Low"
+ PSK_Inferior:0 "Lesser-Race Industrial Production: §SLow§!"
  PSK_Inferior_desc:0 "placeholder"
 
- PSK_Inferior_2:0 "Lesser-Race Industrial Production: Medium"
+ PSK_Inferior_2:0 "Lesser-Race Industrial Production: §YMedium§!"
  PSK_Inferior_2_desc:0 "placeholder"
 
- PSK_Inferior_3:0 "Lesser-Race Industrial Production: High"
+ PSK_Inferior_3:0 "Lesser-Race Industrial Production: §RHigh§!"
  PSK_Inferior_3_desc:0 "placeholder" 
  ### Ministers ###
  PSK_Franz_Stangl_hog:0 "Franz Stangl"
@@ -73,7 +73,7 @@
  PSK_socialism_DEF:0 "United Partisan Movements"
  PSK_socialism_ADJ:0 "Russian"
 
- # Democratic Russia
+ # Democratic Russia #
 
  PSK_social_democrat:0 "Russian Republic"
  PSK_social_democrat_DEF:0 "United Russian Republic"
@@ -108,7 +108,7 @@
  ### Focus Descriptions + Names ###
  ### Starting Tree ###
  PSK_the_blackest_night:0 "The Blackest Night"
- PSK_the_blackest_night_desc:0 "placeholder"
+ PSK_the_blackest_night_desc:0 "Ever since the Aryan truth was rediscovered in Germany by Hitler, it has spread far and wide. Today the gospel of national socialism is known globally and practiced across Europe. The prophecies of this faith tell us that the Aryan shall dominate from Burgundy to Moskowien. Yet today Moskowien is in chaos as the subhuman races attempt to reassert themselves. How foolish they are! There is no stopping the truth! The Aryan shall lord over Moskowien with an iron fist! The prophecy can never be shattered! Sieg Heil!"
  
  PSK_our_eternal_struggle:0 "Our Eternal Struggle"
  PSK_our_eternal_struggle_desc:0 "placeholder"
@@ -127,6 +127,24 @@
  
  PSK_faith_in_state:0 "Faith in State"
  PSK_faith_in_state_desc:0 "placeholder"
+ 
+ PSK_expanding_our_reach:0 "Expanding Our Reach"
+ PSK_expanding_our_reach_desc:0 "placeholder"
+
+ PSK_expanding_the_russian_corps:0 "The Russian Pacification Brigades"
+ PSK_expanding_the_russian_corps_desc:0 "placeholder"
+
+ PSK_civil_procurement:0 "Ensuring Civil Procurement"
+ PSK_civil_procurement_desc:0 "placeholder"
+
+ PSK_material_construction:0 "The New Construction Committee"
+ PSK_material_construction_desc:0 "placeholder"
+
+ PSK_coercive_activities_bureau:0 "The Coercive Activities Bureau"
+ PSK_coercive_activities_bureau_desc:0 "placeholder"
+
+ PSK_regimental_training:0 "Rigorous Regimental Training"
+ PSK_regimental_training_desc:0 "placeholder"
  
  PSK_to_the_bitter_end:0 "To the Bitter End!"
  PSK_to_the_bitter_end_desc:0 "placeholder"
@@ -159,82 +177,114 @@
 
  tooltip_from_dust_to_dust:0 "§ROur domain secured, we step forwards over the ashes of old order.§!"
 
- tooltip_event_pleskau_1:0 "§GAs focuses are completed, the country and it's subjects will be radically changed,§!§R the old order lies broken in two.§!"
+ tooltip_expanding_the_russian_corps:0 "§RSome slavs possess the traits of an Aryan warrior, we can use this to expand the Pacification Brigades allowed manpower pool.§!"
+
+ tooltip_regimental_training:0 "§RWe will use all our power to ensure the greatest potential is reached by soldiers of our new fatherland.§!"
+
+ tooltip_faith_in_party:0 "§RFaith in party will be increased, support is total.§!"
+
+ tooltip_faith_in_state:0 "§RFaith in state will be increased, victory is assured.§!"
+
+ tooltip_expanding_our_reach:0 "§RNo asset will be unaccounted for.§!"
+
+ tooltip_civil_procurement:0 "§RBy expanding the definition of 'Dangerious Inidividual' there will be an even greater pool to draw from.§!"
+
+ tooltip_coersive_activities_bureau:0 "§RWe will appoint a state committee to seek out any remaining untapped labour across the country.§!"
  
- tooltip_event_pleskau_2:0 "§GGain a minor bonus to stability.§!"
-
- tooltip_event_pleskau_3:0 "§GWe will gain a boost to our reserves!§!"
-
- tooltip_event_pleskau_4:0 "§GWe will gain a boost to our manpower and combat ability!§!"
-
- tooltip_event_pleskau_5:0 "§GWe will gain a slight boost to our support for the war effort!§!"
-
- tooltip_event_pleskau_6:0 "§GWe will gain a slight boost to our support for the war effort!§!"
-
- tooltip_event_pleskau_7:0 "§GPartisan suppression will lead to a significant decrease in activity all across Pleskau!§!"
-
- tooltip_event_pleskau_8:0 "§GWe will gain a boost to our industrial might!§!"
+ tooltip_material_construction:0 "§RThe NCC will be appointed as the new organization of labour administration, responsible for directing and organizing construction of necessary buildings and infrastructure around Pleskau.§!"
  
- tooltip_event_pleskau_9:0 "§RThere is no turning back...§!"
+ tooltip_event_pleskau_1:0 "§RAs focuses are completed, the country and it's subjects will be radically changed, the old order lies broken in two.§!"
+ 
+ tooltip_event_pleskau_2:0 "§RThere is no turning back...§!"
 
  tooltip_decision_pleskau_1:0 "HALT! This is a test!"
  #Events and shite#
 
  #Shadows over Pleskau#
- pleskau.1.a:0 "Shadows Over Pleskau"
- pleskau.1.b:0 "placeholder"
- pleskau.1.c:0 "Our work can finally begin."
+ pleskau.1.t:0 "Shadows Over Pleskau"
+ pleskau.1.desc:0 "placeholder"
+ pleskau.1.a:0 "Our work can finally begin."
 
  #Victory Royale for the SS#
- pleskau.2.a:0 "Victory for the Rightous"
- pleskau.2.b:0 "placeholder"
- pleskau.2.c:0 "The best is yet to come."
+ pleskau.2.t:0 "Victory for the Rightous"
+ pleskau.2.desc:0 "placeholder"
+ pleskau.2.a:0 "The best is yet to come."
 
  #Fill the Reserves#
- pleskau.3.a:0 "Filling the Reserves"
- pleskau.3.b:0 "placeholder"
- pleskau.3.c:0 "One step closer."
+ pleskau.3.t:0 "Filling the Reserves"
+ pleskau.3.desc:0 "placeholder"
+ pleskau.3.a:0 "One step closer."
 
  #Using the Untermensch#
- pleskau.4.a:0 "Blood and Soil"
- pleskau.4.b:0 "[STRENG GEHEIM] \nTo SS-Führer Odilo Glonotschnigg \n\nFrom SS-Minister [ZENSIERTEN] \n\nMein Fürher, I am pleased to announce the relocation of Untermensch individuals, away from civilian and military positions and towards the agricultural sector is going as planned. Their replacement, by loyal and supe-rior individuals, which contain far greater intelligence and position management, have sworn their al-legiance to their SS, and are actively carrying out their duties. Moreover, this relocation has greatly increased our grain output, and with the process of relocation reaching the lower class, it can be said, with great confidence, that we expect a surplus of agricultural production, and a far more loyal, pure, and powerful Aryan Army. Although, there is an increase of partisan activity within the forests, it is not something the security battalions cannot handle. If we further pursue this aggressive slave agriculture policy, it can be expected that the Aryan Plan will be achieved, and a continuous grain supply will soon follow. \nHEIL GLONOTOSCHNIGG! \nREPORT CONCLUDED"
- pleskau.4.c:0 "Splendid job!"
+ pleskau.4.t:0 "Blood and Soil"
+ pleskau.4.desc:0 "[STRENG GEHEIM] \nTo SS-Führer Odilo Glonotschnigg \n\nFrom SS-Minister [ZENSIERTEN] \n\nMein Fürher, I am pleased to announce the relocation of Untermensch individuals, away from civilian and military positions and towards the agricultural sector is going as planned. Their replacement, by loyal and supe-rior individuals, which contain far greater intelligence and position management, have sworn their al-legiance to their SS, and are actively carrying out their duties. Moreover, this relocation has greatly increased our grain output, and with the process of relocation reaching the lower class, it can be said, with great confidence, that we expect a surplus of agricultural production, and a far more loyal, pure, and powerful Aryan Army. Although, there is an increase of partisan activity within the forests, it is not something the security battalions cannot handle. If we further pursue this aggressive slave agriculture policy, it can be expected that the Aryan Plan will be achieved, and a continuous grain supply will soon follow. \nHEIL GLONOTOSCHNIGG! \nREPORT CONCLUDED"
+ pleskau.4.a:0 "Splendid job!"
 
  #Remembering 1923#
- pleskau.5.a:0 "Remembering 1923"
- pleskau.5.b:0 "8th of November. \nThe day the new order celebrates with immense pride and fervor. \nThe city of Pleskau itself, has exploded into lively celebrations with hundreds of Germanophiles and SS supporters flooding the streets, to celebrate the day Hitler heroically attempted to overthrow the corrupt Judeo-Bolshevik kleptocracy, known as the Weimar Republic. Although, his attempt proved to be a complete failure, he would lay out the foundations for the glorious German Reich, and become the savior of Germany, the avenger of Versailles, the 2nd Bismarck. Even Odilo Globočnik and his cabinet, were celebrating that memorable day in his grandeur villa. \n“Gentlemen” Odilo Globočnik began, after he finished his meal. “Today is a day all of you should greatly remember. Adolf Hitler, the defender of the Germanic pride, has subdued the very Untermensch that tried to destroy him and Germany. However, his job is far from over, because… these Untermensch have infiltrated us.” As Odilo continued with his rhetoric, he approached a plain cylinder-vase, and carefully placed it in his arms. “Take a look at this vase.” he demanded, as he presented it towards the cabinet. “This, is a plain vase, right? It’s nothing but a hollow object, used for decorations, with no purpose or obligation to harm us whatsoever.” His eyes slowly drifted away from the vase, and towards the council. “If we compared it to us, it could be a useful collaborator, or even an honorary “Aryan”, right?” Odilo asked. A few murmurs of agreement followed on. \n“…” “WRONG!” Odilo interrupted abruptly, as he threw the vase to the ground, shattering it and spreading bits of glasses everywhere. All the cabinet could do, was look with horror, as he broke into an intense rant. “DON’T YOU UNDERSTAND? THIS IS THE VERY THING THAT THREATENED TO KILL OUR REICH; HELL, THIS IS THE THING THAT CAUSE THIS GODDAMN REICHKOMMISARIAT TO COLLAPSE IN THE FIRST PLACE!” he roared. “OUR IGNORANCE! THE BASTARDLY SLAVS, THE FAKE ARYANS, EVERYONE! WE WERE SO SPOILED WITH THE FRUITS OF OUR OWN LABOUR, THAT WE FORGOT WHAT OUR GOAL IS ON THE FIRST PLACE!” Odilo spurted as he turned red with fury. “ALWAYS SPENDING OUR TIME ON LAVISH STUFF, WHILE THESE PLAGUED RATS INFILTRATE OUR GREAT SOCIETY, YOU HAVE BETRAYED YOUR OWN CAUSE!” Realizing that he has gone out of control, Odilo took a few deep breaths, and calmed down. “We…Need to realize, that not only the petty Russian warlords are to be defeated, but also that honorary Aryans need to repopulate that region, from the start!” he muttered, before flumping himself onto a wooden chair. "
- pleskau.5.c:0 "Hatred is the greatest weapon on the battlefield"
+ pleskau.5.t:0 "Remembering 1923"
+ pleskau.5.desc:0 "8th of November. \nThe day the new order celebrates with immense pride and fervor. \nThe city of Pleskau itself, has exploded into lively celebrations with hundreds of Germanophiles and SS supporters flooding the streets, to celebrate the day Hitler heroically attempted to overthrow the corrupt Judeo-Bolshevik kleptocracy, known as the Weimar Republic. Although, his attempt proved to be a complete failure, he would lay out the foundations for the glorious German Reich, and become the savior of Germany, the avenger of Versailles, the 2nd Bismarck. Even Odilo Globočnik and his cabinet, were celebrating that memorable day in his grandeur villa. \n“Gentlemen” Odilo Globočnik began, after he finished his meal. “Today is a day all of you should greatly remember. Adolf Hitler, the defender of the Germanic pride, has subdued the very Untermensch that tried to destroy him and Germany. However, his job is far from over, because… these Untermensch have infiltrated us.” As Odilo continued with his rhetoric, he approached a plain cylinder-vase, and carefully placed it in his arms. “Take a look at this vase.” he demanded, as he presented it towards the cabinet. “This, is a plain vase, right? It’s nothing but a hollow object, used for decorations, with no purpose or obligation to harm us whatsoever.” His eyes slowly drifted away from the vase, and towards the council. “If we compared it to us, it could be a useful collaborator, or even an honorary “Aryan”, right?” Odilo asked. A few murmurs of agreement followed on. \n“…” “WRONG!” Odilo interrupted abruptly, as he threw the vase to the ground, shattering it and spreading bits of glasses everywhere. All the cabinet could do, was look with horror, as he broke into an intense rant. “DON’T YOU UNDERSTAND? THIS IS THE VERY THING THAT THREATENED TO KILL OUR REICH; HELL, THIS IS THE THING THAT CAUSE THIS GODDAMN REICHKOMMISARIAT TO COLLAPSE IN THE FIRST PLACE!” he roared. “OUR IGNORANCE! THE BASTARDLY SLAVS, THE FAKE ARYANS, EVERYONE! WE WERE SO SPOILED WITH THE FRUITS OF OUR OWN LABOUR, THAT WE FORGOT WHAT OUR GOAL IS ON THE FIRST PLACE!” Odilo spurted as he turned red with fury. “ALWAYS SPENDING OUR TIME ON LAVISH STUFF, WHILE THESE PLAGUED RATS INFILTRATE OUR GREAT SOCIETY, YOU HAVE BETRAYED YOUR OWN CAUSE!” Realizing that he has gone out of control, Odilo took a few deep breaths, and calmed down. “We…Need to realize, that not only the petty Russian warlords are to be defeated, but also that honorary Aryans need to repopulate that region, from the start!” he muttered, before flumping himself onto a wooden chair. "
+ pleskau.5.a:0 "Hatred is the greatest weapon on any battlefield."
 
  #Quotas#
- pleskau.6.a:0 "Quotas"
- pleskau.6.b:0 "placeholder"
- pleskau.6.c:0 "All else is folly."
+ pleskau.6.t:0 "Quotas"
+ pleskau.6.desc:0 "placeholder"
+ pleskau.6.a:0 "All else is folly."
 
  #Restarting the Camps
- pleskau.7.a:0 "Restarting the Camps"
- pleskau.7.b:0 "placeholder"
- pleskau.7.c:0 "They will suffer under the weight of their crimes!"
+ pleskau.7.t:0 "Restarting the Camps"
+ pleskau.7.desc:0 "placeholder"
+ pleskau.7.a:0 "They will suffer under the weight of their crimes!"
 
  #Fill the Factories
- pleskau.8.a:0 "Weapons for the Struggle"
- pleskau.8.b:0 "placeholder"
- pleskau.8.c:0 "Our enemies will soon know fear."
+ pleskau.8.t:0 "Weapons for the Struggle"
+ pleskau.8.desc:0 "placeholder"
+ pleskau.8.a:0 "Our enemies will soon know fear."
 
  #Ashes of the Fallen#
- pleskau.9.a:0 "Ashes of the Fallen"
- pleskau.9.b:0 "[STRENG GEHEIM \nTo; Reichkommandant of “Yamburg” Concentration Camp \n[ZENSIERTEN] \nFrom; Geheimdienstoffizier of “Yamburg” Concentration Camp \n[ZENSIERTEN] \nTHE FOLLOWING REPORT SHOULD NOT BE REDISTRIBUTED TO ANY MEDIA PLAT-FORM. VIOLATION OF SUCH ACT WILL RESUT WITH CHARGES OF HIGH TREASON AND EXECUTION BY FIRING SQUAD MONTHLY QUOTA REPORT; \n1-XX-196X TO 3X-XX-196X Between 1-XX-196X and 3X-XX-196X, the “Yamburg” Concentration Camp has; \n.   Eradicated about 8,000-10,000 traitorous individuals with “Honorary Aryan” status \n.    Forced about 170,000 lesser race individuals in the labour sector \n.    Incinerated a total of 84,000 individuals of Gypsy, Jewish or of any other lesser ancestry \n.    Siezed valuables and other personal equipment worth nearly 25,000,000 Reichmarks \n.    Burnt an estimate of 210,000 passports, birth certificates or any form of civilian documents \nConclusion \nThe “Yamburg” Concentration Camp has successfully met it’s monthly quota, with minimal incidents. However, an import of more efficient Gas Chambers and Furnaces will be needed in the foreseeable future. \nHEIL HITLER! \nHEIL GLOBOTSCHNIGG!"
- pleskau.9.c:0 "Report Concluded" 
+ pleskau.9.t:0 "Ashes of the Fallen"
+ pleskau.9.desc:0 "[STRENG GEHEIM \nTo; Reichkommandant of “Yamburg” Concentration Camp \n[ZENSIERTEN] \nFrom; Geheimdienstoffizier of “Yamburg” Concentration Camp \n[ZENSIERTEN] \nTHE FOLLOWING REPORT SHOULD NOT BE REDISTRIBUTED TO ANY MEDIA PLAT-FORM. VIOLATION OF SUCH ACT WILL RESUT WITH CHARGES OF HIGH TREASON AND EXECUTION BY FIRING SQUAD MONTHLY QUOTA REPORT; \n1-XX-196X TO 3X-XX-196X Between 1-XX-196X and 3X-XX-196X, the “Yamburg” Concentration Camp has; \n.   Eradicated about 8,000-10,000 traitorous individuals with “Honorary Aryan” status \n.    Forced about 170,000 lesser race individuals in the labour sector \n.    Incinerated a total of 84,000 individuals of Gypsy, Jewish or of any other lesser ancestry \n.    Siezed valuables and other personal equipment worth nearly 25,000,000 Reichmarks \n.    Burnt an estimate of 210,000 passports, birth certificates or any form of civilian documents \nConclusion \nThe “Yamburg” Concentration Camp has successfully met it’s monthly quota, with minimal incidents. However, an import of more efficient Gas Chambers and Furnaces will be needed in the foreseeable future. \nHEIL HITLER! \nHEIL GLOBOTSCHNIGG!"
+ pleskau.9.a:0 "Report Concluded" 
 
  #Faith in Party
- pleskau.10.a:0 "Faith in the Party"
- pleskau.10.b:0 "placeholder"
- pleskau.10.c:0 "No room for anything else."
+ pleskau.10.t:0 "Faith in the Party"
+ pleskau.10.desc:0 "placeholder"
+ pleskau.10.a:0 "No room for anything else."
 
  #Faith in State
- pleskau.11.a:0 "Faith in the State"
- pleskau.11.b:0 "placeholder"
- pleskau.11.c:0 "Above all else."
+ pleskau.11.t:0 "Faith in the State"
+ pleskau.11.desc:0 "placeholder"
+ pleskau.11.a:0 "Above all else."
 
+ #Expanding the Russian Corps
+ pleskau.12.t:0 "Expanding our Russian Corps."
+ pleskau.12.desc:0 "placeholder"
+ pleskau.12.a:0 "placeholder"
+
+ #Regimental Training
+ pleskau.13.t:0 "Extreme Regimental Training"
+ pleskau.13.desc:0 "placeholder"
+ pleskau.13.a:0 "placeholder"
+
+ #Material Construction
+ pleskau.14.t:0 "The New Construction Committee"
+ pleskau.14.desc:0 "placeholder"
+ pleskau.14.a:0 "placeholder"
+
+ #Coercive Activities Bureau
+ pleskau.15.t:0 "The Coercive Activities Bureau"
+ pleskau.15.desc:0 "placeholder"
+ pleskau.15.a:0 "placeholder"
+
+ #Civil Procurement
+ pleskau.16.t:0 "Ensuring Civil Procurement"
+ pleskau.16.desc:0 "placeholder"
+ pleskau.16.a:0 "placeholder"
+
+ #Expanding our Reach
+ pleskau.17.t:0 "Goals for an Omniscent State"
+ pleskau.17.desc:0 "placeholder"
+ pleskau.17.a:0 "placeholder"
+ 
  #Decisions Localization#
  #Political Decisions#
  pleskau_political:0 "Pleskau Shutzstaffel Affairs"

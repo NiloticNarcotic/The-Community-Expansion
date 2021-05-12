@@ -1,0 +1,620 @@
+Moscowien_coring_category = {
+	Moscowien_coring_integrate_Kosakenstadt = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 401
+		}
+
+		visible = {
+			owns_state = 401
+			NOT = {
+				401 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 401
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Kosakenstadt remove"
+			add_state_core = 401
+		}
+	}
+	Moscowien_coring_integrate_Astrakhan = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 236
+		}
+
+		visible = {
+			owns_state = 236
+			NOT = {
+				236 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				237 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				238 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 236
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Astrakhan remove"
+			add_state_core = 236
+			add_state_core = 237
+			add_state_core = 238
+		}
+	}
+	Moscowien_coring_integrate_Paulusburg = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 217
+		}
+
+		visible = {
+			owns_state = 217
+			NOT = {
+				217 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				239 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				245 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 217
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Paulusburg remove"
+			add_state_core = 238
+			add_state_core = 245
+			add_state_core = 239
+		}
+	}
+	Moscowien_coring_integrate_Penza = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 255
+		}
+
+		visible = {
+			owns_state = 255
+			NOT = {
+				255 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				254 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				257 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 255
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Penza remove"
+			add_state_core = 255
+			add_state_core = 254
+			add_state_core = 257
+		}
+	}
+	Moscowien_coring_integrate_Voronezh = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 260
+		}
+
+		visible = {
+			owns_state = 260
+			NOT = {
+				265 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				260 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				240 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 260
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Voronezh remove"
+			add_state_core = 265
+			add_state_core = 260
+			add_state_core = 240
+		}
+	}
+	Moscowien_coring_integrate_Oryol = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 222
+		}
+
+		visible = {
+			owns_state = 222
+			NOT = {
+				222 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				220 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				258 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				223 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 222
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Oryol remove"
+			add_state_core = 222
+			add_state_core = 220
+			add_state_core = 258
+			add_state_core = 223
+		}
+	}
+	Moscowien_coring_integrate_Smolensk = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 242
+		}
+
+		visible = {
+			owns_state = 242
+			NOT = {
+				242 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				243 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				241 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				224 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				205 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 242
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Smolensk remove"
+			add_state_core = 242
+			add_state_core = 243
+			add_state_core = 241
+			add_state_core = 224
+			add_state_core = 205
+		}
+	}
+	Moscowien_coring_integrate_Moscow = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 219
+		}
+
+		visible = {
+			owns_state = 219
+			NOT = {
+				219 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				1314 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				248 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 219
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Moscow remove"
+			add_state_core = 219
+			add_state_core = 1314
+			add_state_core = 248
+		}
+	}
+	Moscowien_coring_integrate_Bogi_Smerti = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 253
+		}
+
+		visible = {
+			owns_state = 253
+			NOT = {
+				253 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 253
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Bogi_Smerti remove"
+			add_state_core = 253
+		}
+	}
+	Moscowien_coring_integrate_Pleskau = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 209
+		}
+
+		visible = {
+			owns_state = 209
+			NOT = {
+				209 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				210 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				246 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				263 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 209
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Pleskau remove"
+			add_state_core = 209
+			add_state_core = 210
+			add_state_core = 246
+			add_state_core = 263
+		}
+	}
+	Moscowien_coring_integrate_St_Petersburg = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 195
+		}
+
+		visible = {
+			owns_state = 195
+			NOT = {
+				195 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				208 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				244 = {
+					is_core_of = ROOT
+				}
+			}
+			NOT = {
+				247 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 195
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Pleskau remove"
+			add_state_core = 195
+			add_state_core = 208
+			add_state_core = 244
+			add_state_core = 247
+		}
+	}
+	Moscowien_coring_integrate_Tikhvin = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			controls_state = 264
+		}
+
+		visible = {
+			owns_state = 264
+			NOT = {
+				264 = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 264
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 30
+		fire_only_once = yes
+
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision Moscowien_coring_integrate_Pleskau remove"
+			add_state_core = 264
+		}
+	}
+}

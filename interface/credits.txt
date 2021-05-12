@@ -2,7 +2,7 @@
 #    The Cutting Room Floor Team   
 
 #PROJECT LEAD
-ThePinkPanzer
+ThePinkPanzer 
 
 #DEVELOPERS
 AlbertSphere
@@ -14,7 +14,7 @@ DreadGrunt
 Hetmanivna
 Lamounier
 moyme
-Pacifica
+Pacifica got og redux cancelled and crunch timer
 TheTortle
 Valrin
 

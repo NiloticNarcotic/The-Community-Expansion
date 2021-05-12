@@ -1,0 +1,21 @@
+ #############################
+ # Voronezh Dynamic Modfiers #
+ #############################
+
+VNH_Corruption_Modifier = {
+	icon = "GFX_idea_CRN_Reliance_On_the_Fatherland_Icon"
+	enable = { always = yes }
+	
+	political_power_cost = VNH_Corruption_political_power_cost
+	consumer_goods_factor = VNH_Corruption_consumer_goods_factor
+}
+VNH_Anger_Modifier = {
+	icon = "GFX_idea_CRN_Reliance_On_the_Fatherland_Icon"
+	enable = { always = yes }
+	
+	production_factory_efficiency_gain_factor = VNH_Anger_production_factory_efficiency_gain_factor
+	production_factory_max_efficiency_factor = VNH_Anger_production_factory_max_efficiency_factor
+	production_speed_buildings_factor = VNH_Anger_production_speed_buildings_factor
+	consumer_goods_factor = VNH_Anger_consumer_goods_factor
+	local_resources_factor = VNH_Anger_resource_gain_factor
+}

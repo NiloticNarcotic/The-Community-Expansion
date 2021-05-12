@@ -2,6 +2,8 @@
 
 oob = "VNH_1962"
 
+load_focus_tree = Voronezh_Initial
+
 add_ideas = {
 	## Ministers ##
 	VNH_Iya_Savvina_hog
@@ -55,6 +57,8 @@ add_ideas = {
 	tno_agriculture_mass_mechanized
 	tno_research_facilities_outdated
 	tno_academic_base_basic_literacy
+	### IDEAS ###
+	VNH_Downfall_1
 }
 
 set_technology = {
@@ -222,9 +226,9 @@ set_popularities = {
 	communist = 0
 	ultranational_socialism = 0
 	socialist = 0
-	social_democrat = 24
+	social_democrat = 4
 	social_liberal = 9
-	market_liberal = 0
+	market_liberal = 20
 	social_conservative = 11
 	authoritarian_democrat = 54
 	despotism = 0
@@ -240,6 +244,39 @@ create_country_leader = {
 	picture = "Portrait_VNH_Mikhail_Gorbachev.dds"
 	expire = "1983.4.24"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Iya Savvina"
+	desc = "POLITICS_IYA_SAVVINA_DESC"
+	picture = "Portrait_VNH_Iya_Savvina.dds"
+	expire = "1983.4.24"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Spiridonovich Putin"
+	desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
+	picture = ""
+	expire = "1983.4.24"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Lukin"
+	desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
+	picture = "Portrait_VNH_Vladimir Lukin.dds"
+	expire = "1983.4.24"
+	ideology = market_liberal_subtype
 	traits = {
 		
 	}

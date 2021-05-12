@@ -1,0 +1,14 @@
+
+focus_tree = {
+	id = Wolgastaat_Collapse_Initial
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VLG 
+		}
+	}
+	default = no
+	shared_focus = VLG_Their_Failures
+}

@@ -1,0 +1,24 @@
+PSK_Debug = {
+
+	debug_pleskau_unification_tree = {
+		icon = generic_industry
+
+		available = { 
+			is_ai = no 
+			is_debug = yes
+		}
+		visible = {
+
+		}
+		fire_only_once = no
+		days_re_enable = 1
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision debug_pleskau_unification_tree"
+			PSK = { load_focus_tree = pleskau_unification }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}		
+
+}

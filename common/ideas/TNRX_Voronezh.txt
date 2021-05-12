@@ -1,0 +1,59 @@
+ideas = {
+	country = {
+		VNH_Downfall_1 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_generic_coins
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.25
+				consumer_goods_factor = 0.4
+				annual_gdp_growth_factor = -0.4
+				proportional_gdp_cost = 0.5
+				production_speed_buildings_factor = -0.4
+			}
+		}
+		VNH_Downfall_2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_generic_coins
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.10
+				consumer_goods_factor = 0.2
+				annual_gdp_growth_factor = -0.2
+				proportional_gdp_cost = 0.2
+				production_speed_buildings_factor = -0.2
+			}
+		}
+		VNH_Gorby_Economy_1 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_generic_coins
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.35
+				annual_gdp_growth_factor = -0.2
+				production_speed_buildings_factor = -0.3
+				industrial_capacity_factory = -0.2
+				production_factory_start_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.25
+			}
+		}
+	}
+}

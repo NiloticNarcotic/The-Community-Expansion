@@ -14,16 +14,13 @@ add_namespace = pleskau
 country_event = {
 	id = pleskau.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.1"}
-	title = pleskau.1.a
-	desc = pleskau.1.b
+	title = pleskau.1.title
+	desc = pleskau.1.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.1.c
-        hidden_effect = {
-            the_blackest_night = yes
-        }
+		name = pleskau.1.a
         custom_effect_tooltip = tooltip_event_pleskau_1
 	}
 }
@@ -31,161 +28,208 @@ country_event = {
 country_event = {
 	id = pleskau.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.2"}
-	title = pleskau.2.a
-	desc = pleskau.2.b
+	title = pleskau.2.title
+	desc = pleskau.2.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.2.c
-        hidden_effect = {
-            the_eternal_struggle = yes
-        }
-        custom_effect_tooltip = tooltip_event_pleskau_2
+		name = pleskau.2.a
 	}
 }
 ##Fill the Reserves
 country_event = {
 	id = pleskau.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.3"}
-	title = pleskau.3.a
-	desc = pleskau.3.b
+	title = pleskau.3.title
+	desc = pleskau.3.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.3.c
-        hidden_effect = {
-            fill_the_reserves = yes
-        }
-        custom_effect_tooltip = tooltip_event_pleskau_3
+		name = pleskau.3.a
 	}
 }
 ##Using the Untermensch
 country_event = {
 	id = pleskau.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.4"}
-	title = pleskau.4.a
-	desc = pleskau.4.b
+	title = pleskau.4.title
+	desc = pleskau.4.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.4.c
-        hidden_effect {
-            using_the_undesirables = yes
-        }
-        custom_effect_tooltip = tooltip_event_pleskau_4
+		name = pleskau.4.a
 	}
 }
 ##Remembering 1923
 country_event = {
 	id = pleskau.5
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.5"}
-	title = pleskau.5.a
-	desc = pleskau.5.b
+	title = pleskau.5.title
+	desc = pleskau.5.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.5.c
-        hidden_effect = {
-            remembering_the_beginning = yes
-        }
-        custom_effect_tooltip = tooltip_event_pleskau_5
+		name = pleskau.5.a
 	}
 }
 ##Quotas
 country_event = {
 	id = pleskau.6
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.6"}
-	title = pleskau.6.a
-	desc = pleskau.6.b
+	title = pleskau.6.title
+	desc = pleskau.6.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.6.c
-        hidden_effect = {
-            to_the_bitter_end = yes
-        }
-        custom_effect_tooltip = tooltip_event_pleskau_6
+		name = pleskau.6.a
 	}
 }
 ##Using the Camps
 country_event = {
 	id = pleskau.7
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.7"}
-	title = pleskau.7.a
-	desc = pleskau.7.b
+	title = pleskau.7.title
+	desc = pleskau.7.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.7.c
-        hidden_effect = {
-            using_the_camps = yes
-        }
-        custom_effect_tooltip = tooltip_event_pleskau_7
+		name = pleskau.7.a
 	}
 }
 #Fill the Factories
 country_event = {
 	id = pleskau.8
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.8"}
-	title = pleskau.8.a
-	desc = pleskau.8.b
+	title = pleskau.8.title
+	desc = pleskau.8.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.8.c
-        hidden_effect = {
-            fill_the_factories = yes
-        }
-        custom_effect_tooltip = tooltip_event_pleskau_8
+		name = pleskau.8.a
 	}
 }
 #Ashes ashes we all poop down#
 country_event = {
 	id = pleskau.9
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.9"}
-	title = pleskau.9.a
-	desc = pleskau.9.b
+	title = pleskau.9.title
+	desc = pleskau.9.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.9.c
-        hidden_effect = {
-            dust_to_dust = yes
-        }
-        custom_effect_tooltip = tooltip_event_pleskau_9
+		name = pleskau.9.a
+        custom_effect_tooltip = tooltip_event_pleskau_2
 	}
 }
 #Faith in the Party 
 country_event = {
 	id = pleskau.10
-	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.9"}
-	title = pleskau.10.a
-	desc = pleskau.10.b
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.10"}
+	title = pleskau.10.title
+	desc = pleskau.10.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.10.c
+		name = pleskau.10.a
 	}
 }
 #Faith in the State
 country_event = {
 	id = pleskau.11
-	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.9"}
-	title = pleskau.11.a
-	desc = pleskau.11.b
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.11"}
+	title = pleskau.11.title
+	desc = pleskau.11.desc
 	picture = GFX_report_event_blue_mosque
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.11.c
+		name = pleskau.11.a
+	}
+}
+#Expanding the Russian Corps 
+country_event = {
+	id = pleskau.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.12"}
+	title = pleskau.12.title
+	desc = pleskau.12.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.12.a
+	}
+}
+#Regimental Training
+country_event = {
+	id = pleskau.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.13"}
+	title = pleskau.13.title
+	desc = pleskau.13.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.13.a
+	}
+}
+#Material Construction
+country_event = {
+	id = pleskau.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.14"}
+	title = pleskau.14.title
+	desc = pleskau.14.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.14.a
+	}
+}
+#Coercive Activities Bureau
+country_event = {
+	id = pleskau.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.15"}
+	title = pleskau.15.title
+	desc = pleskau.15.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.15.a
+	}
+}
+#Civil Procurement 
+country_event = {
+	id = pleskau.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.16"}
+	title = pleskau.16.title
+	desc = pleskau.16.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.16.a
+	}
+}
+#Expanding Our Reach
+country_event = {
+	id = pleskau.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.17"}
+	title = pleskau.17.title
+	desc = pleskau.17.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.17.a
 	}
 }

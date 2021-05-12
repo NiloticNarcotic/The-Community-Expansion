@@ -1,0 +1,835 @@
+# _   _                                _       _____                _       
+#| | | |                              | |     |  ___|              | |      
+#| | | | ___  _ __ ___  _ __   ___ ___| |__   | |____   _____ _ __ | |_ ___ 
+#| | | |/ _ \| '__/ _ \| '_ \ / _ \_  / '_ \  |  __\ \ / / _ \ '_ \| __/ __|
+#\ \_/ / (_) | | | (_) | | | |  __// /| | | | | |___\ V /  __/ | | | |_\__ \
+# \___/ \___/|_|  \___/|_| |_|\___/___|_| |_| \____/ \_/ \___|_| |_|\__|___/
+#
+
+add_namespace = VNH_initial
+add_namespace = VNH_debug
+add_namespace = VNH
+
+country_event = {
+	id = VNH_debug.1 #Initiate Mechanic
+	title = VNH_debug.1.t
+	desc = VNH_debug.1.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_debug.1.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = VNH_debug.1_tt
+		set_country_flag = VNH_Corruption_Mechanic
+		add_dynamic_modifier = { modifier = VNH_Corruption_Modifier }
+		add_dynamic_modifier = { modifier = VNH_Anger_Modifier }
+	}
+	option = {
+		name = VNH_debug.1.b
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_debug.2 # Sets sliders to 50
+	title = VNH_debug.2.t
+	desc = VNH_debug.2.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_debug.2.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = VNH_debug.2_tt
+		set_variable = {var = VNH_Corruption_Value value = 50 }
+		set_variable = {var = VNH_Anger_Value value = 50 }
+	}
+	option = {
+		name = VNH_debug.2.b
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_debug.3 #refresh modifiers
+	title = VNH_debug.3.t
+	desc = VNH_debug.3.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_debug.3.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = VNH_debug.3_tt
+		VNH_corruption_anger_idea_variables = yes
+	}
+	option = {
+		name = VNH_debug.3.b
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_debug.4 #poop
+	title = VNH_debug.4.t
+	desc = VNH_debug.4.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_debug.4.a
+		ai_chance = { factor = 1 }
+		VNH_Corruption_Add_Large = yes
+		VNH_corruption_anger_idea_variables = yes
+	}
+	option = {
+		name = VNH_debug.4.b
+		ai_chance = { factor = 1 }
+		VNH_Anger_Add_Large = yes
+		VNH_corruption_anger_idea_variables = yes
+	}
+	option = {
+		name = VNH_debug.4.c
+		ai_chance = { factor = 1 }
+		VNH_Corruption_Lose_Large = yes
+		VNH_corruption_anger_idea_variables = yes
+	}
+	option = {
+		name = VNH_debug.4.d
+		ai_chance = { factor = 1 }
+		VNH_Anger_Lose_Large = yes
+		VNH_corruption_anger_idea_variables = yes
+	}
+}
+
+country_event = {
+	id = VNH_initial.1
+	title = VNH_initial.1.t
+	desc = VNH_initial.1.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.1.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = VNH_initial.1_tt
+		set_country_flag = VNH_Corruption_Mechanic
+		add_dynamic_modifier = { modifier = VNH_Corruption_Modifier }
+		add_dynamic_modifier = { modifier = VNH_Anger_Modifier }
+		set_variable = {var = VNH_Corruption_Value value = 40 }
+		set_variable = {var = VNH_Anger_Value value = 20 } 
+		VNH_corruption_anger_idea_variables = yes
+	}
+}
+
+country_event = {
+	id = VNH_initial.2
+	title = VNH_initial.2.t
+	desc = VNH_initial.2.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.2.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.3
+	title = VNH_initial.3.t
+	desc = VNH_initial.3.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.3.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.4
+	title = VNH_initial.4.t
+	desc = VNH_initial.4.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.4.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.5
+	title = VNH_initial.5.t
+	desc = VNH_initial.5.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.5.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_War
+	}
+}
+country_event = {
+	id = VNH_initial.6
+	title = VNH_initial.6.t
+	desc = VNH_initial.6.desc
+	picture = GFX_famine_bros_fire
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.6.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.7
+	title = VNH_initial.7.t
+	desc = VNH_initial.7.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.7.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.8
+	title = VNH_initial.8.t
+	desc = VNH_initial.8.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.8.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = {	tree = Voronezh_Tree_Two keep_completed = yes }
+	}
+}
+country_event = {
+	id = VNH_initial.9
+	title = VNH_initial.9.t
+	desc = VNH_initial.9.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.9.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.10
+	title = VNH_initial.10.t
+	desc = VNH_initial.10.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.10.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.11
+	title = VNH_initial.11.t
+	desc = VNH_initial.11.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.11.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.12
+	title = VNH_initial.12.t
+	desc = VNH_initial.12.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.12.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.13
+	title = VNH_initial.13.t
+	desc = VNH_initial.13.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.13.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.14
+	title = VNH_initial.14.t
+	desc = VNH_initial.14.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.14.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.15
+	title = VNH_initial.15.t
+	desc = VNH_initial.15.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.15.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.16
+	title = VNH_initial.16.t
+	desc = VNH_initial.16.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.16.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.17
+	title = VNH_initial.17.t
+	desc = VNH_initial.17.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.17.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.18
+	title = VNH_initial.18.t
+	desc = VNH_initial.18.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.18.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.19
+	title = VNH_initial.19.t
+	desc = VNH_initial.19.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.19.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH_initial.20
+	title = VNH_initial.20.t
+	desc = VNH_initial.20.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH_initial.8.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Two
+	}
+}
+country_event = {
+	id = VNH.1
+	title = VNH.1.t
+	desc = VNH.1.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.1.a
+		ai_chance = { factor = 1 }
+		set_country_flag = VNH_Corruption_Mechanic
+		custom_effect_tooltip = VNH_A_Host_Of_New_Options
+	}
+}
+country_event = {
+	id = VNH.2
+	title = VNH.2.t
+	desc = VNH.2.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.2.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.3
+	title = VNH.3.t
+	desc = VNH.3.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.3.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.4
+	title = VNH.4.t
+	desc = VNH.4.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.4.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.5
+	title = VNH.5.t
+	desc = VNH.5.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.5.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_War
+	}
+}
+country_event = {
+	id = VNH.6
+	title = VNH.6.t
+	desc = VNH.6.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.6.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+    id = VNH.7
+	title = VNH.7.t
+	desc = VNH.7.desc
+	picture = GFX_report_event_russian_fascists_harbin
+	
+	is_triggered_only = yes
+	option = {
+	    name = VNH.7.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.8
+	title = VNH.8.t
+	desc = VNH.8.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.8.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.9
+	title = VNH.9.t
+	desc = VNH.9.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.9.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.10
+	title = VNH.10.t
+	desc = VNH.10.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.10.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.11
+	title = VNH.11.t
+	desc = VNH.11.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.11.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.12
+	title = VNH.12.t
+	desc = VNH.12.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.12.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.13
+	title = VNH.13.t
+	desc = VNH.13.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.13.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.14
+	title = VNH.14.t
+	desc = VNH.14.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.14.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.15
+	title = VNH.15.t
+	desc = VNH.15.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.15.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.16
+	title = VNH.16.t
+	desc = VNH.15.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.16.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.17
+	title = VNH.17.t
+	desc = VNH.17.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.17.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.18
+	title = VNH.18.t
+	desc = VNH.18.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.18.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.19
+	title = VNH.19.t
+	desc = VNH.19.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.19.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.20
+	title = VNH.20.t
+	desc = VNH.20.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.20.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.21
+	title = VNH.21.t
+	desc = VNH.21.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.21.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.22
+	title = VNH.22.t
+	desc = VNH.22.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.22.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.23
+	title = VNH.23.t
+	desc = VNH.23.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.23.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.24
+	title = VNH.24.t
+	desc = VNH.24.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.24.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.25
+	title = VNH.25.t
+	desc = VNH.25.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.25.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.26
+	title = VNH.26.t
+	desc = VNH.26.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.26.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Election
+	}
+}
+country_event = {
+	id = VNH.27
+	title = VNH.27.t
+	desc = VNH.27.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.27.a
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = VNH.28
+	title = VNH.28.t
+	desc = VNH.28.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.27.a
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_The_status_quo_upheld
+	}
+	option = {
+		name = VNH.27.b
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_LDPR_velikaya_rossiya
+	}
+	option = {
+		name = VNH.27.c
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_Partiya_naroda
+	}
+	option = {
+		name = VNH.27.d
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_Reformist_victory
+	}
+	option = {
+		name = VNH.27.e
+		ai_chance = { factor = 1 }
+		complete_national_focus = VNH_Artisans_Triumph
+	}
+}
+country_event = {
+	id = VNH.29
+	title = VNH.29.t
+	desc = VNH.29.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.29.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Gorbachev
+	}
+}
+country_event = {
+	id = VNH.30
+	title = VNH.30.t
+	desc = VNH.30.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.30.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Putin
+	}
+}
+country_event = {
+	id = VNH.31
+	title = VNH.31.t
+	desc = VNH.31.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.31.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Savvina
+	}
+}
+country_event = {
+	id = VNH.32
+	title = VNH.32.t
+	desc = VNH.32.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.32.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Lukin
+	}
+}
+country_event = {
+	id = VNH.33
+	title = VNH.33.t
+	desc = VNH.33.desc
+	picture = GFX_report_event_russian_fascists_harbin
+
+	is_triggered_only = yes
+
+	option = {
+		name = VNH.33.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = Voronezh_Tree_Ligachev
+	}
+}

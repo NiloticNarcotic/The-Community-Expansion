@@ -1,144 +1,144 @@
-######Together for Victory
-#music = {
-#	name = "londoninflames"
-#	file = "londoninflames.ogg"
-#	volume = 0.65
-#}
-#
-#music = {
-#	name = "operationcompas"
-#	file = "operationcompas.ogg"
-#	volume = 0.7
-#}
-#
-#music = {
-#	name = "heroesofelalamein"
-#	file = "heroesofelalamein.ogg"
-#	volume = 0.62
-#}
-######Death or Dishonor
-#music = {
-#	name = "Aggression"
-#	file = "aggression.ogg"
-#	volume = 0.88
-#}
-#
-#music = {
-#	name = "Escalation"
-#	file = "escalation.ogg"
-#	volume = 0.85
-#}
-#
-#music = {
-#	name = "Retribution"
-#	file = "retribution.ogg"
-#	volume = 0.85
-#}
-######Waking the Tiger
-#music = {
-#	name = "battleofwuhan"
-#	file = "battleofwuhan.ogg"
-#	volume = 0.55
-#}
-#
-#music = {
-#	name = "empireofthesun"
-#	file = "empireofthesun.ogg"
-#	volume = 0.88
-#}
-#
-#music = {
-#	name = "warofresistance"
-#	file = "warofresistance.ogg"
-#	volume = 0.54
-#}
-######Man the Guns
-#music = {
-#	name = "claustrophobic_march"
-#	file = "claustrophobic_march.ogg"
-#	volume = 0.57
-#}
-#
-#music = {
-#	name = "communist_america"
-#	file = "communist_america.ogg"
-#	volume = 0.59
-#}
-#
-#music = {
-#	name = "confederate_flags"
-#	file = "confederate_flags.ogg"
-#	volume = 0.62
-#}
-#
-#music = {
-#	name = "democratic_movements"
-#	file = "democratic_movements.ogg"
-#	volume = 0.63
-#}
-######La Resistance
-#music = {
-#	name = "a_storm_coming"
-#	file = "a_storm_coming.ogg"
-#	volume = 0.6
-#}
-#
-#music = {
-#	name = "cloak_and_dagger"
-#	file = "cloak_and_dagger.ogg"
-#	volume = 0.6
-#}
-#
-#music = {
-#	name = "imperterrita"
-#	file = "imperterrita.ogg"
-#	volume = 0.6
-#}
-#
-#music = {
-#	name = "liberty_equality_fraternity"
-#	file = "liberty_equality_fraternity.ogg"
-#	volume = 0.6
-#}
-######German March Order
-#music = {
-#	name = "der_machtigste_konig_im_luftrevier"
-#	file = "gmomp_dermachtigstekonigimluftrevier.ogg"
-#}
-#
-#music = {
-#	name = "panzerlied"
-#	file = "gmomp_panzerlied.ogg"
-#}
-#
-#music = {
-#	name = "schwarzbraun_ist_die_haselnuss"
-#	file = "gmomp_schwarzbraunistdiehaselnuss.ogg"
-#}
-######Allied Radio
-#music = {
-#	name = "dance_your_troubles_away"
-#	file = "armp_dance_your_troubles_away_main.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "from_glen_to_glen"
-#	file = "armp_from_glen_to_glen_main.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "the_man_on_the_british_countryside"
-#	file = "armp_the_man_on_the_british_countryside_main.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "winter_came_spring"
-#	file = "armp_winter_came_spring_main.ogg"
-#	volume = 0.58
-#}
+#####Together for Victory
+music = {
+	name = "londoninflames"
+	file = "londoninflames.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "operationcompas"
+	file = "operationcompas.ogg"
+	volume = 0.7
+}
+
+music = {
+	name = "heroesofelalamein"
+	file = "heroesofelalamein.ogg"
+	volume = 0.62
+}
+#####Death or Dishonor
+music = {
+	name = "Aggression"
+	file = "aggression.ogg"
+	volume = 0.88
+}
+
+music = {
+	name = "Escalation"
+	file = "escalation.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Retribution"
+	file = "retribution.ogg"
+	volume = 0.85
+}
+#####Waking the Tiger
+music = {
+	name = "battleofwuhan"
+	file = "battleofwuhan.ogg"
+	volume = 0.55
+}
+
+music = {
+	name = "empireofthesun"
+	file = "empireofthesun.ogg"
+	volume = 0.88
+}
+
+music = {
+	name = "warofresistance"
+	file = "warofresistance.ogg"
+	volume = 0.54
+}
+#####Man the Guns
+music = {
+	name = "claustrophobic_march"
+	file = "claustrophobic_march.ogg"
+	volume = 0.57
+}
+
+music = {
+	name = "communist_america"
+	file = "communist_america.ogg"
+	volume = 0.59
+}
+
+music = {
+	name = "confederate_flags"
+	file = "confederate_flags.ogg"
+	volume = 0.62
+}
+
+music = {
+	name = "democratic_movements"
+	file = "democratic_movements.ogg"
+	volume = 0.63
+}
+#####La Resistance
+music = {
+	name = "a_storm_coming"
+	file = "a_storm_coming.ogg"
+	volume = 0.6
+}
+
+music = {
+	name = "cloak_and_dagger"
+	file = "cloak_and_dagger.ogg"
+	volume = 0.6
+}
+
+music = {
+	name = "imperterrita"
+	file = "imperterrita.ogg"
+	volume = 0.6
+}
+
+music = {
+	name = "liberty_equality_fraternity"
+	file = "liberty_equality_fraternity.ogg"
+	volume = 0.6
+}
+#####German March Order
+music = {
+	name = "der_machtigste_konig_im_luftrevier"
+	file = "gmomp_dermachtigstekonigimluftrevier.ogg"
+}
+
+music = {
+	name = "panzerlied"
+	file = "gmomp_panzerlied.ogg"
+}
+
+music = {
+	name = "schwarzbraun_ist_die_haselnuss"
+	file = "gmomp_schwarzbraunistdiehaselnuss.ogg"
+}
+#####Allied Radio
+music = {
+	name = "dance_your_troubles_away"
+	file = "armp_dance_your_troubles_away_main.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "from_glen_to_glen"
+	file = "armp_from_glen_to_glen_main.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "the_man_on_the_british_countryside"
+	file = "armp_the_man_on_the_british_countryside_main.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "winter_came_spring"
+	file = "armp_winter_came_spring_main.ogg"
+	volume = 0.58
+}
 ######Sabaton Soundtrack
 #music = {
 #	name = "hearts_of_iron"
@@ -229,165 +229,165 @@
 #	file = "sbst_uprising.ogg"
 #	volume = 0.30
 #}
-######Radio Pack
-###### ALLIES
-#
-#music = {
-#	name = "allies_justanotherday"
-#	file = "allies/allies_justanotherday.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "allies_longingfortomorrow"
-#	file = "allies/allies_longingfortomorrow.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "allies_meetingwithcigars"
-#	file = "allies/allies_meetingwithcigars.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "allies_neverlookingbackagain"
-#	file = "allies/allies_neverlookingbackagain.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "allies_somedaywewillmeetagain"
-#	file = "allies/allies_somedaywewillmeetagain.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "allies_thenightbefore"
-#	file = "allies/allies_thenightbefore.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "allies_thethoughtofyou"
-#	file = "allies/allies_thethoughtofyou.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "allies_verylastofgoodbyes"
-#	file = "allies/allies_verylastofgoodbyes.ogg"
-#	volume = 0.58
-#}
-###### AXIES
-#
-#music = {
-#	name = "axis_enemyshores"
-#	file = "axis/axis_enemyshores.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "axis_forthereich"
-#	file = "axis/axis_forthereich.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "axis_meetthegeneral"
-#	file = "axis/axis_meetthegeneral.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "axis_meninline"
-#	file = "axis/axis_meninline.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "axis_preparethesubs"
-#	file = "axis/axis_preparethesubs.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "axis_raisetheflag"
-#	file = "axis/axis_raisetheflag.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "axis_returninghome"
-#	file = "axis/axis_returninghome.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "axis_shipsatsea"
-#	file = "axis/axis_shipsatsea.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "axis_sightoftheenemy"
-#	file = "axis/axis_sightoftheenemy.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "axis_whenwecomehomeagain"
-#	file = "axis/axis_whenwecomehomeagain.ogg"
-#	volume = 0.58
-#}
-###### COMINTERN
-#
-#music = {
-#	name = "comintern_countrysidestories"
-#	file = "comintern/comintern_countrysidestories.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "comintern_leavingtheharbor"
-#	file = "comintern/comintern_leavingtheharbor.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "comintern_marchfromredsquare"
-#	file = "comintern/comintern_marchfromredsquare.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "comintern_motherlandfirst"
-#	file = "comintern/comintern_motherlandfirst.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "comintern_returningincoffins"
-#	file = "comintern/comintern_returningincoffins.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "comintern_siberiainmyheart"
-#	file = "comintern/comintern_siberiainmyheart.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "comintern_smokeofrevenge"
-#	file = "comintern/comintern_smokeofrevenge.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "comintern_snowpatrol"
-#	file = "comintern/comintern_snowpatrol.ogg"
-#	volume = 0.58
-#}
-#
-#music = {
-#	name = "comintern_theplan"
-#	file = "comintern/comintern_theplan.ogg"
-#	volume = 0.58
-#}
-#music = {
-#	name = "comintern_victoryuponus"
-#	file = "comintern/comintern_victoryuponus.ogg"
-#	volume = 0.58
-#}
+#####Radio Pack
+##### ALLIES
+
+music = {
+	name = "allies_justanotherday"
+	file = "allies/allies_justanotherday.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "allies_longingfortomorrow"
+	file = "allies/allies_longingfortomorrow.ogg"
+	volume = 0.58
+}
+music = {
+	name = "allies_meetingwithcigars"
+	file = "allies/allies_meetingwithcigars.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "allies_neverlookingbackagain"
+	file = "allies/allies_neverlookingbackagain.ogg"
+	volume = 0.58
+}
+music = {
+	name = "allies_somedaywewillmeetagain"
+	file = "allies/allies_somedaywewillmeetagain.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "allies_thenightbefore"
+	file = "allies/allies_thenightbefore.ogg"
+	volume = 0.58
+}
+music = {
+	name = "allies_thethoughtofyou"
+	file = "allies/allies_thethoughtofyou.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "allies_verylastofgoodbyes"
+	file = "allies/allies_verylastofgoodbyes.ogg"
+	volume = 0.58
+}
+##### AXIES
+
+music = {
+	name = "axis_enemyshores"
+	file = "axis/axis_enemyshores.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "axis_forthereich"
+	file = "axis/axis_forthereich.ogg"
+	volume = 0.58
+}
+music = {
+	name = "axis_meetthegeneral"
+	file = "axis/axis_meetthegeneral.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "axis_meninline"
+	file = "axis/axis_meninline.ogg"
+	volume = 0.58
+}
+music = {
+	name = "axis_preparethesubs"
+	file = "axis/axis_preparethesubs.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "axis_raisetheflag"
+	file = "axis/axis_raisetheflag.ogg"
+	volume = 0.58
+}
+music = {
+	name = "axis_returninghome"
+	file = "axis/axis_returninghome.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "axis_shipsatsea"
+	file = "axis/axis_shipsatsea.ogg"
+	volume = 0.58
+}
+music = {
+	name = "axis_sightoftheenemy"
+	file = "axis/axis_sightoftheenemy.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "axis_whenwecomehomeagain"
+	file = "axis/axis_whenwecomehomeagain.ogg"
+	volume = 0.58
+}
+##### COMINTERN
+
+music = {
+	name = "comintern_countrysidestories"
+	file = "comintern/comintern_countrysidestories.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "comintern_leavingtheharbor"
+	file = "comintern/comintern_leavingtheharbor.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "comintern_marchfromredsquare"
+	file = "comintern/comintern_marchfromredsquare.ogg"
+	volume = 0.58
+}
+music = {
+	name = "comintern_motherlandfirst"
+	file = "comintern/comintern_motherlandfirst.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "comintern_returningincoffins"
+	file = "comintern/comintern_returningincoffins.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "comintern_siberiainmyheart"
+	file = "comintern/comintern_siberiainmyheart.ogg"
+	volume = 0.58
+}
+music = {
+	name = "comintern_smokeofrevenge"
+	file = "comintern/comintern_smokeofrevenge.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "comintern_snowpatrol"
+	file = "comintern/comintern_snowpatrol.ogg"
+	volume = 0.58
+}
+
+music = {
+	name = "comintern_theplan"
+	file = "comintern/comintern_theplan.ogg"
+	volume = 0.58
+}
+music = {
+	name = "comintern_victoryuponus"
+	file = "comintern/comintern_victoryuponus.ogg"
+	volume = 0.58
+}

@@ -1,0 +1,33 @@
+division_template = {
+	name = "Rifleman's Brigades"					
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+  		
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units= {
+	division= { 
+		name = "10. Russian Pacification Volunteer Brigade 'Blood and Soil'"
+		location = 11202
+		division_template = "Rifleman's Brigades"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.65
+	}
+	division= { 
+		name = "7. Ost-German Rifleman's Corps. 'Sword and Shield'"
+		location = 11349
+		division_template = "Rifleman's Brigades"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.9
+	}

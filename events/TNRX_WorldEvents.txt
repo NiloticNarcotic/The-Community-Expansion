@@ -1,0 +1,43 @@
+add_namespace = WORLD_TNRX
+###################################################
+#####Moscowien Russia Unification News Events #####
+###################################################
+news_event = {
+	id = WORLD_TNRX.1 #Basegi unites Muscovite Russia
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.1"}
+
+	hidden = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = WORLD_TNRX.1.a
+	}
+}
+news_event = {
+	id = WORLD_TNRX.2 #Voronezh unites Muscovite Russia
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.1"}
+
+	hidden = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = WORLD_TNRX.2.a
+	}
+}
+news_event = {
+	id = WORLD_TNRX.3 #Pleskau unites Muscovite Russia
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.1"}
+
+	hidden = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = WORLD_TNRX.3.a
+	}
+}

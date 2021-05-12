@@ -423,6 +423,7 @@ country_event = {
 			transfer_state = 210
 			add_state_core = 246
 			transfer_state = 246
+			load_oob = PSK_Collapse
 		}
 		SMO = {
 			add_state_core = 242
@@ -435,6 +436,7 @@ country_event = {
 			transfer_state = 243
 			add_state_core = 241
 			transfer_state = 241
+			load_oob = SMO_Collapse
 		}
 		ORL = {
 			add_state_core = 220
@@ -445,6 +447,7 @@ country_event = {
 			transfer_state = 223
 			add_state_core = 222
 			transfer_state = 222
+			load_oob = ORL_Collapse
 		}
 		VNH = {
 			add_state_core = 265
@@ -453,6 +456,7 @@ country_event = {
 			transfer_state = 260
 			add_state_core = 240
 			transfer_state = 240
+			load_oob = VNH_Collapse
 		}
 		VLG = {
 			add_state_core = 239
@@ -469,6 +473,7 @@ country_event = {
 			transfer_state = 237
 			add_state_core = 238
 			transfer_state = 238
+			load_oob = VLG_Collapse
 		}
 		PEN = {
 			add_state_core = 254
@@ -477,6 +482,7 @@ country_event = {
 			transfer_state = 255
 			add_state_core = 257
 			transfer_state = 257
+			load_oob = PEN_Collapse
 		}
 
 		MOS = {
@@ -488,6 +494,7 @@ country_event = {
 			transfer_state = 1314
 			add_state_core = 219
 			transfer_state = 219
+			load_oob = MOS_Collapse
 		}
 		PET = {
 			add_state_core = 208
@@ -500,6 +507,7 @@ country_event = {
 			transfer_state = 244
 			add_state_core = 247
 			transfer_state = 247
+			load_oob = PET_Collapse
 			set_politics = { ruling_party = national_socialism }
 			set_country_flag = PET_moskowien_collapse
 			add_ideas = PET_reconquest_of_moskowien
@@ -507,16 +515,19 @@ country_event = {
 		BBB = {
 			add_state_core = 401
 			transfer_state = 401
+			load_oob = BBB_Collapse
 			declare_war_on = { target = VLG type = annex_everything }
 		}
 		RSB = {
 			add_state_core = 264
 			transfer_state = 264
+			load_oob = RSB_Collapse
 			declare_war_on = { target = PET type = annex_everything }
 		}
 		BSB = {
 			add_state_core = 253
 			transfer_state = 253
+			load_oob = BSB_Collapse
 			declare_war_on = { target = MOS type = annex_everything }
 			country_event = BSB.1
 		}
@@ -1251,13 +1262,13 @@ country_event = { # kasche dips
 				news_event = { id = WORLD.579 days = 10 }
 			}
 			random_list = {
-				20 = {
+				100 = {
 					country_event = {
 						id = MCW.201
 						days = 10
 					}
 				}
-				70 = {
+				0 = {
 					country_event = {
 						id = MCW.106
 						days = 10
@@ -1474,6 +1485,35 @@ country_event = { # Moskowien Collapse #5
     		days = 2
 		}
 	}
+	option = {
+		name = MCW.205.b
+		VLG = {
+			add_state_core = 239
+			transfer_state = 239
+			add_state_core = 217
+			transfer_state = 217
+			add_state_core = 245
+			transfer_state = 245
+			transfer_state = 401
+			add_state_core = 236
+			transfer_state = 236
+			add_state_core = 237
+			transfer_state = 237
+			add_state_core = 238
+			transfer_state = 238
+			inherit_technology = MCW
+			load_oob = "VLG_Collapse"
+			country_event = {
+				id = VLG.6
+				days = 2
+			}
+			change_tag_from = MCW
+		}
+		country_event = {
+    		id = MCW.206
+    		days = 2
+		}
+	}
 }
 
 country_event = { # Moskowien Collapse #6
@@ -1529,6 +1569,8 @@ country_event = { # Moskowien Collapse #7
 			transfer_state = 1314
 			add_state_core = 219
 			transfer_state = 219
+			add_state_core = 247
+			transfer_state = 247
 			inherit_technology = MCW
 			load_oob = "MOS_Collapse"
 		}
@@ -1564,8 +1606,6 @@ country_event = { # Moskowien Collapse #8
 			transfer_state = 264
 			add_state_core = 244
 			transfer_state = 244
-			add_state_core = 247
-			transfer_state = 247
 			inherit_technology = MCW
 			load_oob = "PET_Collapse"
 			

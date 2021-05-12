@@ -2,27 +2,167 @@
 
 #still dont know what that means, im listening to wolf rn, jamba
 
-###BLANK FOCUS###
-shared_focus = {
-	id = mcw_blankfocus
+shared_focus = { # Status of Moskoweine
+	id = MCW_Status_of_Moskoweine
 	icon = GFX_MCW_A_Door_To_The_Russian_Hell
-	bypass = {
-	}
-	offset = {
-		x = 1
-		y = 1
-		trigger = {
-			tag = MCW
-		}
-	}
-	allow_branch = {
-		has_country_flag = neverflag
-	}
-	cost = 2
+	cost = 1
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus mcw_blankfocus"
+		add_stability = 0.01
 	}
+	x = 5
+	y = 0
 }
+
+shared_focus = {# Legacy of the west Russian war
+	id = MCW_Legacy_of_the_west_Russian_war
+	icon = GFX_MCW_Joint_Patrols
+	cost = 2
+	prerequisite = {
+		focus = MCW_Status_of_Moskoweine
+	}
+	completion_reward = {
+		add_stability = 0.10
+	}
+	x = 4
+	y = 1
+}
+
+shared_focus = {# Out numbered and dependent on the Fatherland
+	id = MCW_Out_numbered_and_dependent_on_the_Fatherland
+	icon = GFX_MCW_Joint_Patrols
+	cost = 2
+	prerequisite = {
+		focus = MCW_Status_of_Moskoweine
+	}
+	completion_reward = {
+		add_stability = -0.02
+	}
+	x = 6
+	y = 1
+}
+
+shared_focus = {# The failure of Germanifcation
+	id = MCW_The_failure_of_Germanifcation
+	icon = GFX_MCW_Joint_Patrols
+	cost = 2
+	prerequisite = {
+		focus = MCW_Out_numbered_and_dependent_on_the_Fatherland
+		focus = MCW_Legacy_of_the_west_Russian_war
+	}
+	completion_reward = {
+		add_stability = -0.05
+	}
+	x = 5
+	y = 2
+}
+
+shared_focus = {# The Fuhrer calls
+	id = MCW_The_Fuhrer_calls
+	icon = GFX_TNO_generic_germany
+	cost = 1
+	prerequisite = {
+		focus = MCW_Out_numbered_and_dependent_on_the_Fatherland
+		focus = MCW_Legacy_of_the_west_Russian_war
+	}
+	completion_reward = {
+		add_stability = -0.01
+	}
+	x = 5
+	y = 3
+}
+
+shared_focus = {# cover it up
+	id = MCW_cover_it_up
+	icon = GFX_MCW_Joint_Patrols
+	cost = 7
+	prerequisite = {
+		focus = MCW_The_Fuhrer_calls
+	}
+	mutually_exclusive ={
+		focus = MCW_admit_our_failure
+	}
+	completion_reward = {
+		add_stability = 0.1
+	}
+	x = 3
+	y = 4
+}
+
+shared_focus = {# Bribe the Gestapo
+	id = MCW_Bribe_the_Gestapo
+	icon = GFX_MCW_Joint_Patrols
+	cost = 7
+	prerequisite = {
+		focus = MCW_cover_it_up
+	}
+	completion_reward = {
+		add_stability = 0.2
+	}
+	x = 3
+	y = 5
+}
+
+shared_focus = {# Rename places
+	id = MCW_Rename_places
+	icon = GFX_MCW_Joint_Patrols
+	cost = 7
+	prerequisite = {
+		focus = MCW_Bribe_the_Gestapo
+	}
+	completion_reward = {
+		add_stability = 0.01
+	}
+	x = 3
+	y = 6
+}
+
+shared_focus = {# admit our failure
+	id = MCW_admit_our_failure
+	icon = GFX_MCW_A_Door_To_The_Russian_Hell
+	cost = 7
+	prerequisite = {
+		focus = MCW_The_Fuhrer_calls
+	}
+	mutually_exclusive ={
+		focus = MCW_cover_it_up
+	}
+	completion_reward = {
+		add_stability = -0.05
+	}
+	x = 6
+	y = 4
+}
+
+
+shared_focus = {# The investigation into command
+	id = MCW_The_investigation_into_command
+	icon = GFX_MCW_A_Door_To_The_Russian_Hell
+	cost = 7
+	prerequisite = {
+		focus = MCW_admit_our_failure
+	}
+	completion_reward = {
+		add_stability = -0.1
+	}
+	x = 6
+	y = 5
+}
+
+shared_focus = {# The trial of Kasche
+	id = MCW_The_trial_of_Kasche
+	icon = GFX_MCW_A_Door_To_The_Russian_Hell
+	cost = 7
+	prerequisite = {
+		focus = MCW_The_investigation_into_command
+	}
+	completion_reward = {
+		add_stability = -0.01
+	}
+	x = 6
+	y = 6
+}
+
+
 
 #shared_focus = {
 #	id = MCW_Russian_Hell

@@ -1,0 +1,79 @@
+is_muscovite_unifier = {
+	OR = {
+		original_tag = PET
+		original_tag = PSK
+
+		original_tag = VNH
+		original_tag = BBB
+	}
+}
+is_muscovite_nation = {
+	OR = {
+		original_tag = PET
+		original_tag = RSB
+		original_tag = PSK
+		original_tag = MOS
+		original_tag = BSB
+		original_tag = SMO
+
+		original_tag = ORL
+		original_tag = PEN
+		original_tag = VNH
+		original_tag = VLG
+		original_tag = BBB
+	}
+}
+is_north_muscovite_nation = {
+	OR = {
+		original_tag = PET
+		original_tag = RSB
+		original_tag = PSK
+		original_tag = MOS
+		original_tag = BSB
+		original_tag = SMO
+	}
+}
+is_south_muscovite_nation = {
+	OR = {
+		original_tag = ORL
+		original_tag = PEN
+		original_tag = VNH
+		original_tag = VLG
+		original_tag = BBB
+	}
+}
+can_form_muscovite_russia = {
+	AND = {
+		owns_state = 255
+		owns_state = 254
+		owns_state = 257
+		owns_state = 222
+		owns_state = 223
+		owns_state = 258
+		owns_state = 220
+		owns_state = 242
+		owns_state = 241
+		owns_state = 243
+		owns_state = 224
+		owns_state = 205
+		owns_state = 219
+		owns_state = 1314
+		owns_state = 248
+		owns_state = 247
+		owns_state = 246
+		owns_state = 210
+		owns_state = 263
+		owns_state = 209
+		owns_state = 264
+		owns_state = 244
+		owns_state = 208
+		owns_state = 195
+		owns_state = 253
+		owns_state = 401
+		owns_state = 239
+		owns_state = 217
+		owns_state = 245
+		owns_state = 237
+		owns_state = 236
+	}
+}

@@ -1,0 +1,235 @@
+ideas = {
+	country = {
+		PSK_Bitter = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Bitter" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_PSK_Bitter
+			modifier = {
+				political_power_factor = -0.1
+                surrender_limit = 0.15
+				consumer_goods_factor = 0.075
+			}
+		}
+		PSK_Rigid = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Rigid" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_PSK_Bitter
+			modifier = {
+				army_attack_factor = 0.05
+    			army_defence_factor = 0.05
+				surrender_limit = 0.10
+			}
+		}
+		PSK_State = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_State" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_PSK_Bitter
+			modifier = {
+				stability_weekly  = 0.065
+				political_power_cost = 0.15
+				ultranational_socialism_drift = 0.05
+			}
+		}
+		PSK_Party = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Party" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_PSK_Bitter
+			modifier = {
+				war_support_weekly  = 0.065
+				political_power_cost = 0.15
+				burgundian_system_drift = 0.05
+			}
+		}
+		PSK_Inferior = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Inferior" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_PSK_Bitter
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.15
+				political_power_cost = 0.25
+			}
+		}
+		PSK_Inferior_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Inferior_2" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_PSK_Bitter
+			modifier = {
+				industrial_capacity_factory = 0.2
+				production_speed_buildings_factor = 0.30
+				political_power_cost = 0.50
+			}
+		}
+		PSK_Inferior_3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Inferior_3" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_PSK_Bitter
+			modifier = {
+				industrial_capacity_factory = 0.25
+				production_speed_buildings_factor = 0.40
+				political_power_cost = 0.75
+			}
+		}
+		PSK_Devastation_1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Devastation_1" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_PSK_Bitter
+			modifier = {
+				stability_factor = -0.025
+				army_core_defence_factor = 0.025
+				attrition = 0.01
+				weekly_manpower = -75
+			}
+		}
+		PSK_Devastation_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Devastation_2" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_PSK_Bitter
+			modifier = {
+				stability_factor = -0.03
+				army_core_defence_factor = 0.05
+				attrition = 0.015
+				weekly_manpower = -175
+			}
+		}
+		PSK_Devastation_3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Devastation_3" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_PSK_Bitter
+			modifier = {
+				stability_factor = -0.035
+				army_core_defence_factor = 0.075
+				attrition = 0.02
+				weekly_manpower = -275
+			}
+		}
+		PSK_Devastation_4 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Devastation_4" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_PSK_Bitter
+			modifier = {
+				stability_factor = -0.045
+				army_core_defence_factor = 0.10
+				attrition = 0.03
+				weekly_manpower = -375
+			}
+		}
+		PSK_Devastation_5 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Devastation_5" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_PSK_Bitter
+			modifier = {
+				stability_factor = -0.055
+				army_core_defence_factor = 0.125
+				attrition = 0.04
+				weekly_manpower = -475
+			}
+		}
+		PSK_Devastation_6 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Devastation_6" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_PSK_Bitter
+			modifier = {
+				stability_factor = -0.065
+				army_core_defence_factor = 0.15
+				attrition = 0.05
+				weekly_manpower = -575
+			}
+		}
+		PSK_Devastation_7 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PSK_Devastation_7" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always =  yes
+			}
+			removal_cost = -1
+			picture = GFX_PSK_Bitter
+			modifier = {
+				stability_factor = -0.075
+				army_core_defence_factor = 0.17
+				attrition = 0.06
+				weekly_manpower = -675
+			}
+		}
+	}
+}
