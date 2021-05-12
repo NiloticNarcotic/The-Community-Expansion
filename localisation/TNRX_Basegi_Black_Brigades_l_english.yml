@@ -25,8 +25,10 @@
  BBB_burgundian_system_party:0 "SS"
  BBB_burgundian_system_party_long:0 "Schutzstaffel im Osten"
 
- BBB_ultranat_mordakov_long:0 "Chernyye Brigady - Radikalny"
  BBB_ultranat_mordakov:0 "ChB-R "
+ BBB_ultranat_mordakov_long:0 "Chernyye Brigady - Radikalny"
+ BBB_party_reformist_congress:0 "S'yezd Reformatorov"
+ BBB_party_reformist_congress_long:0 "S'yezd Reformatorov"
 
  ###Leader Desc###
  POLITICS_VASILY_MORDAKOV_DESC:0 "The history of Vasily Mordakov changes with every person one may ask. Some say he was orphaned during the war and lived among rats, learning to steal and thrift from them, others say he was raised in a commune of thieves and was their prodigy child. Whatever the story may be, it will undoubtedly try to explain the man's supernatural charisma and guile. Mordakov knew hardship nearly his entire life, and had to survive completely on his own.\nDaily, he would face death from hunger, cold or knife. He knew from the very early days that this world does not belong to those who do not deserve it, so when he grew up and saw with his own eyes, the measly people whom managed to live good lives protected by the confines of comfortable office jobs and communal housing. None would even last a week in the environment he grew up in.\nMordakov found work with the Pokrovsk Thieves-in-Law, a criminal organization, where he grew in rank so fast that it put fear in the upper echelons of the mafia. So it came to be, that at every opportunity, the young prodigy would be stifled. Missed details here, sloppy work there.\nIt became clear to him at one point that he is not wanted, but is badly needed in the organization.\nThe Black Brigades were like a godsend for the man. He quickly moved to greener pastures by joining up with them, proving himself to the leadership faster than in the mafia. There, he did not slow down in his pursuit of power and purpose. He built a sizable clique of those in the Brigades who strived to be more than bandits, a mere nuisance for the Germans."
@@ -105,22 +107,22 @@
  
  ### Basegi Black Terror ###
  BBB_introduce_our_plans:0 "Introduce our Plans"
- BBB_introduce_our_plans_desc:0 ""
+ BBB_introduce_our_plans_desc:0 "It is time to let the men of the Brigades know what awaits us in the future - the Prize is the whole of Muscovy.\nA Muscovy that will serve as the stomping ground for a future which allows humanity to progress to even greater heights like once long ago, before the wretched curse of modernity befell on our species. First, however, our headsman Mordakov needs to tie up loose ends with the people of the Wolgastaat, in order to show everyone what the future is intended to be."
 
  BBB_the_predators:0 "The Predators"
- BBB_the_predators_desc:0 ""
+ BBB_the_predators_desc:0 "Vasily Mordakov is the unoffical head of what many would call the most radical members of our brigades.  Thirsty for conquest, and thirstier still for loot, Mordakov has no qualms about killing to get what he wants.  For him, life is a struggle for survival, and the weak shall always succumb to the strong.  And Mordakov intends to be the apex predator of all the lands that were once Moskowien, by any and all means necessary."
 
  BBB_approach_the_veterans:0 "Approach the Veterans"
- BBB_approach_the_veterans_desc:0 ""
+ BBB_approach_the_veterans_desc:0 "If the Black Brigades are to reign supreme over Moskowien and beyond, we will need capable leadership.  Our ranks are swelling with many former Red Army men who only wish to fight again, to kill German scum, to hear the lamentations of their women, and get rich off the loot of their former slave-masters.  We have no reason to deny these men the right to fight and conquer once more.  Let them lead us into battle, and fortune and victory shall await us all!  Glory to the Black Brigades!"
 
  BBB_back_to_work:0 "Back to Work"
- BBB_back_to_work_desc:0 ""
+ BBB_back_to_work_desc:0 "A soldier without a gun is just a man in a silly uniform.  The Germans left us behind plenty of factories and slave camps.  Now that we are the masters of these lands, we can "generously" provide employment to those under our control, and spare the weak their lives if they will work to produce us the weapons we need to begin our coming conquests.  Soon, the Black Brigades will not only be the most feared warriors in all the land, but the best armed!"
 
  BBB_normalize_street_violence:0 "Normalize Street Violence"
- BBB_normalize_street_violence_desc:0 ""
+ BBB_normalize_street_violence_desc:0 "Let's face it, our ranks are largely a bunch of bandits, murderers, crooks, rapists, and thugs of all stripes.  But why is that a bad thing?  A skilled criminal is no different than a skilled soldier, a strong man who has overcome the weak and taken from them what is rightfully his!  To hell with laws and order!  Anarchy and blood shall rule the streets, as we build our strength by taking out our anger on those who have no right to live!"
 
  BBB_the_prey:0 "The Prey"
- BBB_the_prey_desc:0 ""
+ BBB_the_prey_desc:0 "The weak.  Russia is full of them, the reason why we lost to the German scum who came to pillage and burn our lands.  It is only fair that they did so, Hitler's armies were clearly stronger than Bukharin's Red "Army".  Thankfully, Russia is in no shortage of brave men, strong men, men worthy to join us on our crusade as well.  It is the right of these men, the right of us, to rule.  It is the right of us to conquer, to loot, to kill.  The weak are our prey, and we will not spare a single one an end to their pathetic existence."
  
  BBB_those_left_behind:0 "Those left Behind"
  BBB_those_left_behind_desc:0 ""
@@ -161,6 +163,7 @@
 
  BBB_dismantle_their_charity:0 "Dismantle their Charity"
  BBB_dismantle_their_charity_desc:0 ""
+
 
  BBB_face_the_miserable_horde:0 "Face the Miserable Horde"
  BBB_face_the_miserable_horde_desc:0 ""
@@ -374,6 +377,10 @@
  blackbrigades.17.t:0 "x"
  blackbrigades.17.desc:0 "This is an event for focus: 'dismantle smolensk'"
  blackbrigades.17.a:0 "x"
+
+ blackbrigades.175.t:0 "x"
+ blackbrigades.175.desc:0 "Reformists Congress"
+ blackbrigades.175.a:0 "x"
  
  blackbrigades.18.t:0 "x"
  blackbrigades.18.desc:0 "This is an event for focus: 'one excuse'"

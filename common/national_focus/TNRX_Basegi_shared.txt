@@ -810,11 +810,15 @@ shared_focus = {
 	completion_reward = {
 		add_war_support = -0.025
 		add_stability = 0.1
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
 		hidden_effect = {
 			country_event = { id = blackbrigades.18 }
 		}
 	}
-}	
+}
 
 shared_focus = {
 	id = BBB_integrate_the_bands
@@ -1415,23 +1419,20 @@ shared_focus = {
 	y = 8
 
 	completion_reward = {
-		custom_effect_tooltip = BBB_Strike_from_the_Shadows_tt
-		hidden_effect = {
-			if = {
-				limit = {
-					has_country_flag = BBB_THECHOICEISOURS_RADICALS
-				}
-				country_event = { id = blackbrigades.60 }
+		if = {
+			limit = {
+				has_country_flag = BBB_THECHOICEISOURS_RADICAL			
 			}
-			else_if = {
-				limit = {
-					has_country_flag = BBB_THECHOICEISOURS_REFORM
-				}
-				country_event = { id = blackbrigades.61 }
+			country_event = { id = blackbrigades.60 }
+		}
+		else_if = {
+			limit = {
+				has_country_flag = BBB_THECHOICEISOURS_REFORM
 			}
-			else = {
-				add_stability = -0.99
-			}
+			country_event = { id = blackbrigades.61 }
+		}
+		else = {
+			add_stability = -0.99
 		}
 	}
 }
