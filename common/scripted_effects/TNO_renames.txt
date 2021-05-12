@@ -1446,10 +1446,10 @@ do_russian_renames = {
 		limit = {
 			state = 237
 		}	
-		set_state_name = Elista
+		set_state_name = Stepnoy
 		set_province_name = {
 			id = 11566
-			name = "Elista"
+			name = "Stepnoy"
 		}
 	}
 	
