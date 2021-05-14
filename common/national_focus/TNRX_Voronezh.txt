@@ -80,3 +80,18 @@ focus_tree = {
 	shared_focus = VNH_Standardize_production
 	shared_focus = VNH_In_the_sky
 }
+
+focus_tree = {
+    id = Voronezh_Tree_Gorbachev_Finale
+	
+	country = {
+	    factor = 0
+		
+		modifier = {
+		    add = 10
+			tag = VNH
+		}
+	}
+	default = no
+	shared_focus = VNH_The_epilogue
+}
