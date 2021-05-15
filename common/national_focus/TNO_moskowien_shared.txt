@@ -74,7 +74,7 @@ shared_focus = {# The Fuhrer calls
 shared_focus = {# cover it up
 	id = MCW_cover_it_up
 	icon = GFX_MCW_Joint_Patrols
-	cost = 7
+	cost = 9
 	prerequisite = {
 		focus = MCW_The_Fuhrer_calls
 	}
@@ -91,7 +91,7 @@ shared_focus = {# cover it up
 shared_focus = {# Bribe the Gestapo
 	id = MCW_Bribe_the_Gestapo
 	icon = GFX_MCW_Joint_Patrols
-	cost = 7
+	cost = 9
 	prerequisite = {
 		focus = MCW_cover_it_up
 	}
@@ -105,7 +105,7 @@ shared_focus = {# Bribe the Gestapo
 shared_focus = {# Rename places
 	id = MCW_Rename_places
 	icon = GFX_MCW_Joint_Patrols
-	cost = 7
+	cost = 9
 	prerequisite = {
 		focus = MCW_Bribe_the_Gestapo
 	}
@@ -119,7 +119,7 @@ shared_focus = {# Rename places
 shared_focus = {# admit our failure
 	id = MCW_admit_our_failure
 	icon = GFX_MCW_A_Door_To_The_Russian_Hell
-	cost = 7
+	cost = 9
 	prerequisite = {
 		focus = MCW_The_Fuhrer_calls
 	}
@@ -137,7 +137,7 @@ shared_focus = {# admit our failure
 shared_focus = {# The investigation into command
 	id = MCW_The_investigation_into_command
 	icon = GFX_MCW_A_Door_To_The_Russian_Hell
-	cost = 7
+	cost = 9
 	prerequisite = {
 		focus = MCW_admit_our_failure
 	}
@@ -151,7 +151,7 @@ shared_focus = {# The investigation into command
 shared_focus = {# The trial of Kasche
 	id = MCW_The_trial_of_Kasche
 	icon = GFX_MCW_A_Door_To_The_Russian_Hell
-	cost = 7
+	cost = 9
 	prerequisite = {
 		focus = MCW_The_investigation_into_command
 	}

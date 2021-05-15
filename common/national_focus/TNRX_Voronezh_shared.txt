@@ -1726,3 +1726,67 @@ shared_focus = {
 		add_idea = VNH_Gorby_Economy_1
 	}
 }
+
+######Putin Tree############
+
+shared_focus = { #The Putin Presidency
+    id = VNH_The_Putin_presidency
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 5
+	y = 1
+	completion_reward = {
+		add_stability = 0.05%
+	}
+}
+
+shared_focus = { #the promise of unification
+    id = VNH_The_promise_of_unification
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 5
+	y = 2
+	prerequisite = {
+		focus = VNH_The_Putin_presidency
+	}
+	completion_reward = {
+		add_stability = 0.05%
+	}
+}
+
+shared_focus = { #take Karelia
+    id = VNH_take_Karelia
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 3
+	y = 3
+	prerequisite = {
+		focus = VNH_The_promise_of_unification
+	}
+	completion_reward = {
+		create_wargoal = {
+			type = take_state_focus
+			target = FIN
+			generator = { 146 }
+		}
+	}
+}
+
+shared_focus = { #Move East
+    id = VNH_Move_east
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 5
+	y = 4
+	prerequisite = {
+		VNH_take_Karelia
+		VNH_The_promise_of_unification
+	}
+	completion_reward = {
+		add_stability = 0.05%
+	}
+}

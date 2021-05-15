@@ -144,6 +144,39 @@
  MCW_minister_Otto_Ambros_eco:0 "Otto Ambros"
  
  ## Tree ##
+ MCW_Status_of_Moskoweine:0 "Status of Moskoweince"
+ MCW_Status_of_Moskoweine_desc:0 "Welcome to Moskoweine, or as some call it, Germany's greatist annoyance"
+ 
+ MCW_Legacy_of_the_west_Russian_war:0 "Legacy of the west Russian war"
+ MCW_Legacy_of_the_west_Russian_war_desc:0 "As we all know here in Moskoweine, the West Russian war was a very big annoyance for Germany and even though we won, more troops have been stationed here to guard Moskoweine."
+ 
+ MCW_Out_numbered_and_dependent_on_the_Fatherland:0 "Out numbered and dependent on the Fatherland"
+ MCW_Out_numbered_and_dependent_on_the_Fatherland_desc:0 "We are in simple terms, outnumbered by the Russian population and dependent on the Fatherland for this place to function."
+ 
+ MCW_The_failure_of_Germanifcation:0 "Failure to Germanify"
+ MCW_The_failure_of_Germanifcation_desc:0 "We are in all words, a failure."
+
+ MCW_The_Fuhrer_calls:0 "The Fuhrer calls"
+ MCW_The_Fuhrer_calls_desc:0 "Well the Fuhrer want's to see our progress and he'll give us a year to prepare, crap."
+ 
+ MCW_cover_it_up:0 "cover it up"
+ MCW_cover_it_up_desc:0 "We should try and cover up our failures."
+
+ MCW_Bribe_the_Gestapo:0 "Bribe the Gestapo"
+ MCW_Bribe_the_Gestapo_desc:0 "who say's money can't solve problems?"
+ 
+ MCW_Rename_places:0 "Rename places"
+ MCW_Rename_places_desc:0 "give off the illusion that we're doing great and Germanifaction is working!"
+ 
+ MCW_admit_our_failure:0 "Admit our failure"
+ MCW_admit_our_failure_desc:0 "We can't keep this a lie any longer. We suck at our jobs"
+
+ MCW_The_investigation_into_command:0 "Investigation into command"
+ MCW_The_investigation_into_command_desc:0 "Well now we're being investigated, great."
+ 
+ MCW_The_trial_of_Kasche:0 "The Trial of Kasche"
+ MCW_The_trial_of_Kasche_desc:0 "well what began as an investigation turned into a full scale investigation"
+
  MCW_Russian_Hell:0 "A Door To The Russian Hell"
  MCW_Russian_Hell_desc:0 ""
 
