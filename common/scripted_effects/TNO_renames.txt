@@ -1,0 +1,1466 @@
+do_french_renames = {
+		
+	if = {
+		limit = {
+			state = 14
+		}
+		set_state_name = Bretagne
+		set_province_name = {
+			id = 11465
+			name = "Nantes"
+		}
+		set_province_name = {
+			id = 9495
+			name = "Rennes"
+		}
+		set_province_name = {
+			id = 6536
+			name = "Lorient"
+		}
+		set_province_name = {
+			id = 3552
+			name = "Brest"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 32
+		}	
+		set_state_name = Hautes-Alpes
+		set_province_name = {
+			id = 3768
+			name = "Grenoble"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 20
+		}	
+		set_state_name = Rhône
+		set_province_name = {
+			id = 6613
+			name = "Lyon"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 27
+		}	
+		set_state_name = Bourgogne
+		set_province_name = {
+			id = 3652
+			name = "Dijon"
+		}
+		set_province_name = {
+			id = 3681
+			name = "Auxerre"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 17
+		}	
+		set_state_name = Franche-Comté
+		set_province_name = {
+			id = 9642
+			name = "Besançon"
+		}
+		set_province_name = {
+			id = 11516
+			name = "Nancy"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 18
+		}	
+		set_state_name = Champagne
+		set_province_name = {
+			id = 9490
+			name = "Troyes"
+		}
+		set_province_name = {
+			id = 13011
+			name = "Reims"
+		}
+		set_province_name = {
+			id = 5291
+			name = "Verdun"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 788
+		}	
+		set_state_name = Meaux
+		set_province_name = {
+			id = 6949
+			name = "Meaux"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 16
+		}	
+		set_state_name = Grand-Paris
+		set_province_name = {
+			id = 11506
+			name = "Paris Est"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 15
+		}	
+		set_state_name = Normandie
+		set_province_name = {
+			id = 11563
+			name = "Rouen"
+		}
+		set_province_name = {
+			id = 9434
+			name = "Le Havre"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 29
+		}	
+		set_state_name = Picardie
+		set_province_name = {
+			id = 3476
+			name = "Amiens"
+		}
+		set_province_name = {
+			id = 11483
+			name = "Lille"
+		}
+		set_province_name = {
+			id = 11548
+			name = "Calais"
+		}
+		set_province_name = {
+			id = 575
+			name = "Dunkerque"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 34
+		}	
+		set_state_name = Walloonie
+		set_province_name = {
+			id = 3516
+			name = "Namur"
+		}
+		set_province_name = {
+			id = 11519
+			name = "Liège"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 6
+		}	
+		set_state_name = Flandre
+		set_province_name = {
+			id = 516
+			name = "Bruxelles"
+		}
+		set_province_name = {
+			id = 6560
+			name = "Gand"
+		}
+		set_province_name = {
+			id = 6598
+			name = "Anvers"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 735
+		}	
+		set_state_name = Savoie
+		set_province_name = {
+			id = 13583
+			name = "Nice"
+		}
+		set_province_name = {
+			id = 778
+			name = "Annecy"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 1
+		}	
+		set_state_name = Corse
+		set_province_name = {
+			id = 11804
+			name = "Ajaccio"
+		}
+		set_province_name = {
+			id = 11891
+			name = "Bastia"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 28
+		}	
+		set_state_name = Alsace-Lorraine
+		set_province_name = {
+			id = 678
+			name = "Mulhouse"
+		}
+		set_province_name = {
+			id = 9503
+			name = "Strasbourg"
+		}
+		set_province_name = {
+			id = 9559
+			name = "Metz"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 8
+		}	
+		set_state_name = Luxembourg
+		set_province_name = {
+			id = 6583
+			name = "Luxembourg"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 42
+		}	
+		set_state_name = Palatinat
+		set_province_name = {
+			id = 11531
+			name = "Sarrebruck"
+		}
+		set_province_name = {
+			id = 11435
+			name = "Trèves"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 51
+		}	
+		set_state_name = Rhénnaie
+		set_province_name = {
+			id = 3488
+			name = "Eupen"
+		}
+		set_province_name = {
+			id = 3547
+			name = "Château de Vogelsang"
+		}
+		set_province_name = {
+			id = 587
+			name = "Cologne"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 35
+		}	
+		set_state_name = Brabant
+		set_province_name = {
+			id = 6496
+			name = "Eindhoven"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 7
+		}	
+		set_state_name = Hollande
+		set_province_name = {
+			id = 9498
+			name = "Rotterdam"
+		}
+		set_province_name = {
+			id = 3211
+			name = "La Haye"
+		}
+		set_province_name = {
+			id = 391
+			name = "Utrecht"
+		}
+		set_province_name = {
+			id = 68
+			name = "Amsterdam"
+		}
+	}
+}
+
+do_german_renames = {
+
+	if = {
+		limit = {
+			state = 219
+		}	
+		set_state_name = Moskau
+		set_province_name = {
+			id = 6380
+			name = "Moskau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1314
+		}	
+		set_state_name = "Nord-Moskau"
+		set_province_name = {
+			id = 14457
+			name = "Nord-Moskau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 247
+		}	
+		set_state_name = Königstein
+		set_province_name = {
+			id = 6245
+			name = "Königstein"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 253
+		}	
+		set_state_name = Waldemar
+		set_province_name = {
+			id = 378
+			name = "Waldemar"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 246
+		}	
+		set_state_name = Rosau
+		set_province_name = {
+			id = 11349
+			name = "Ostaschkau"
+		}
+		set_province_name = {
+			id = 11224
+			name = "Rosau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 210
+		}	
+		set_state_name = Ostrau
+		set_province_name = {
+			id = 9254
+			name = "Ostrau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 263
+		}	
+		set_state_name = Holmgard
+		set_province_name = {
+			id = 117
+			name = "Holmgard"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 209
+		}	
+		set_state_name = Plskau
+		set_province_name = {
+			id = 9319
+			name = "Lukienburg"
+		}
+		set_province_name = {
+			id = 11202
+			name = "Plsekau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 264
+		}	
+		set_state_name = Straßenmarkt
+		set_province_name = {
+			id = 3124
+			name = "Tscherepau"
+		}
+		set_province_name = {
+			id = 3140
+			name = "Straßenmarkt"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 208
+		}	
+		set_state_name = Lüka
+		set_province_name = {
+			id = 9098
+			name = "Lüka"
+		}
+		set_province_name = {
+			id = 11186
+			name = "Kiefernwald"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 244
+		}	
+		set_state_name = Wölfe
+		set_province_name = {
+			id = 11174
+			name = "Wölfe"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 195
+		}	
+		set_state_name = Brauchitschstadt
+		set_province_name = {
+			id = 3151
+			name = "Brauchitschstadt"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 242
+		}	
+		set_state_name = Smolenau
+		set_province_name = {
+			id = 11254
+			name = "Wiasma"
+		}
+		set_province_name = {
+			id = 306
+			name = "Smolenau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 205
+		}	
+		set_state_name = Kaluga
+		set_province_name = {
+			id = 382
+			name = "Kaluga"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 243
+		}	
+		set_state_name = Prigorskön
+		set_province_name = {
+			id = 3210
+			name = "Prigorskön"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 224
+		}	
+		set_state_name = Waldemarstadt
+		set_province_name = {
+			id = 3335
+			name = "Waldemarstadt"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 241
+		}	
+		set_state_name = Homel
+		set_province_name = {
+			id = 9288
+			name = "Homel"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 223
+		}	
+		set_state_name = Thulestadt
+		set_province_name = {
+			id = 6262
+			name = "Thulestadt"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 222
+		}	
+		set_state_name = Adler
+		set_province_name = {
+			id = 9355
+			name = "Adler"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 258
+		}	
+		set_state_name = "Leipzig am Woronesch"
+		set_province_name = {
+			id = 6398
+			name = "Leipzig am Woronesch"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 220
+		}	
+		set_state_name = Mansteinburg
+		set_province_name = {
+			id = 3580
+			name = "Mansteinburg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 254
+		}	
+		set_state_name = Rjasan
+		set_province_name = {
+			id = 11248
+			name = "Rjasan"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 257
+		}	
+		set_state_name = Tombau
+		set_province_name = {
+			id = 367
+			name = "Tombau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 255
+		}	
+		set_state_name = Pensa
+		set_province_name = {
+			id = 9409
+			name = "Pensa"
+		}
+		set_province_name = {
+			id = 11262
+			name = "Saran"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 239
+		}	
+		set_state_name = Saritau
+		set_province_name = {
+			id = 433
+			name = "Balaschau"
+		}
+		set_province_name = {
+			id = 3578
+			name = "Saritau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 401
+		}	
+		set_state_name = Kosackenstadt
+		set_province_name = {
+			id = 11523
+			name = "Kosackenstadt"
+		}
+		set_province_name = {
+			id = 3551
+			name = "Erschau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 240
+		}	
+		set_state_name = "Donezische Weißenburg"
+		set_province_name = {
+			id = 9489
+			name = "Donezische Weißenburg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 260
+		}	
+		set_state_name = Woronesch
+		set_province_name = {
+			id = 413
+			name = "Woronesch"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 265
+		}	
+		set_state_name = Micheilau
+		set_province_name = {
+			id = 487
+			name = "Micheilau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 245
+		}	
+		set_state_name = Müllerowau
+		set_province_name = {
+			id = 3519
+			name = "Müllerowau"
+		}
+		set_province_name = {
+			id = 6544
+			name = "Mosozowsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 217
+		}	
+		set_state_name = Paulusburg
+		set_province_name = {
+			id = 3529
+			name = "Paulusburg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 238
+		}	
+		set_state_name = Wolgodonstadt
+		set_province_name = {
+			id = 6490
+			name = "Wolgodonstadt"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 237
+		}	
+		set_state_name = Steppenstadt
+		set_province_name = {
+			id = 11566
+			name = "Steppenstadt"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 236
+		}	
+		set_state_name = Wolgastadt
+		set_province_name = {
+			id = 9753
+			name = "Wolgastadt"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 32
+		}	
+		set_state_name = Alpenland
+		set_province_name = {
+			id = 3768
+			name = "Graswalde"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 20
+		}	
+		set_state_name = Rhone
+		set_province_name = {
+			id = 6613
+			name = "Leyden"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 27
+		}	
+		set_state_name = Burgund
+		set_province_name = {
+			id = 3652
+			name = "Dision"
+		}
+		set_province_name = {
+			id = 3681
+			name = "Autrikus"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 17
+		}	
+		set_state_name = Freigrafschaft
+		set_province_name = {
+			id = 9642
+			name = "Bisanz"
+		}
+		set_province_name = {
+			id = 11516
+			name = "Nanzig"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 18
+		}	
+		set_state_name = Kampen
+		set_province_name = {
+			id = 9490
+			name = "Trojen"
+		}
+		set_province_name = {
+			id = 13011
+			name = "Reimen"
+		}
+		set_province_name = {
+			id = 5291
+			name = "Verden"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 788
+		}	
+		set_state_name = Meau
+		set_province_name = {
+			id = 6949
+			name = "Meldis"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 16
+		}	
+		set_state_name = "Großraum Paris"
+		set_province_name = {
+			id = 11506
+			name = "Paris Est"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 15
+		}	
+		set_state_name = Normandie
+		set_province_name = {
+			id = 11563
+			name = "Rodomo"
+		}
+		set_province_name = {
+			id = 9434
+			name = "Hafenstadt"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 29
+		}	
+		set_state_name = Pickardien
+		set_province_name = {
+			id = 3476
+			name = "Meroweschkrone"
+		}
+		set_province_name = {
+			id = 11483
+			name = "Ryssel"
+		}
+		set_province_name = {
+			id = 11548
+			name = "Kalen"
+		}
+		set_province_name = {
+			id = 575
+			name = "Dünkirchen"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 34
+		}	
+		set_state_name = Walloonien
+		set_province_name = {
+			id = 3516
+			name = "Namen"
+		}
+		set_province_name = {
+			id = 11519
+			name = "Lüttich"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 6
+		}	
+		set_state_name = Flandern
+		set_province_name = {
+			id = 516
+			name = "Brüssel"
+		}
+		set_province_name = {
+			id = 6560
+			name = "Gent"
+		}
+		set_province_name = {
+			id = 6598
+			name = "Antorf"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 28
+		}	
+		set_state_name = Elsaß-Lothringen
+		set_province_name = {
+			id = 678
+			name = "Mülhausen"
+		}
+		set_province_name = {
+			id = 9503
+			name = "Straßborg"
+		}
+		set_province_name = {
+			id = 9559
+			name = "Metz"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 8
+		}	
+		set_state_name = Luxemburg
+		set_province_name = {
+			id = 6583
+			name = "Luxemburg"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 42
+		}	
+		set_state_name = Moselland
+		set_province_name = {
+			id = 11531
+			name = "Saarbrücken"
+		}
+		set_province_name = {
+			id = 11435
+			name = "Trier"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 51
+		}	
+		set_state_name = Rheinland
+		set_province_name = {
+			id = 3488
+			name = "Eupen"
+		}
+		set_province_name = {
+			id = 3547
+			name = "Ordensburg Vogelsang"
+		}
+		set_province_name = {
+			id = 587
+			name = "Köln"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 35
+		}	
+		set_state_name = Brabant
+		set_province_name = {
+			id = 6496
+			name = "Eindhoven"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 7
+		}	
+		set_state_name = Holland
+		set_province_name = {
+			id = 9498
+			name = "Rotterdam"
+		}
+		set_province_name = {
+			id = 3211
+			name = "Der Haag"
+		}
+		set_province_name = {
+			id = 391
+			name = "Utrecht"
+		}
+		set_province_name = {
+			id = 68
+			name = "Amsterdam"
+		}
+	}
+}
+
+do_breton_renames = {
+		
+	if = {
+		limit = {
+			state = 14
+		}
+		set_state_name = Breizh
+		set_province_name = {
+			id = 11465
+			name = "Naoned"
+		}
+		set_province_name = {
+			id = 9495
+			name = "Roazhon"
+		}
+		set_province_name = {
+			id = 6536
+			name = "An Oriant"
+		}
+		set_province_name = {
+			id = 3552
+			name = "Brest"
+		}
+	}
+}
+
+do_italian_renames = {
+		
+	if = {
+		limit = {
+			state = 735
+		}	
+		set_state_name = Savoia
+		set_province_name = {
+			id = 13583
+			name = "Nizza"
+		}
+		set_province_name = {
+			id = 778
+			name = "Anneci"
+		}
+	}
+		
+	if = {
+		limit = {
+			state = 1
+		}	
+		set_state_name = Corsica
+		set_province_name = {
+			id = 11804
+			name = "Aiaccio"
+		}
+		set_province_name = {
+			id = 11891
+			name = "Bastia"
+		}
+	}
+}
+
+do_russian_renames = {
+
+	if = {
+		limit = {
+			state = 219
+		}	
+		set_state_name = Moskva
+		set_province_name = {
+			id = 6380
+			name = "Moskva"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1314
+		}	
+		set_state_name = "Severnaya Moskva"
+		set_province_name = {
+			id = 14457
+			name = "Severnaya Moskva"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 247
+		}	
+		set_state_name = Tver
+		set_province_name = {
+			id = 6245
+			name = "Tver"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 253
+		}	
+		set_state_name = Ivanovo
+		set_province_name = {
+			id = 378
+			name = "Ivanovo"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 246
+		}	
+		set_state_name = Rzhev
+		set_province_name = {
+			id = 11349
+			name = "Ostashkov"
+		}
+		set_province_name = {
+			id = 11224
+			name = "Rzhev"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 210
+		}	
+		set_state_name = Ostrov
+		set_province_name = {
+			id = 9254
+			name = "Ostrov"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 263
+		}	
+		set_state_name = Novgorod
+		set_province_name = {
+			id = 117
+			name = "Veliky Novgorod"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 209
+		}	
+		set_state_name = Pskov
+		set_province_name = {
+			id = 9319
+			name = "Velikiye Luki"
+		}
+		set_province_name = {
+			id = 11202
+			name = "Pskov"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 264
+		}	
+		set_state_name = Tikhvin
+		set_province_name = {
+			id = 3124
+			name = "Cherepovets"
+		}
+		set_province_name = {
+			id = 3140
+			name = "Tikhvin"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 208
+		}	
+		set_state_name = Luga
+		set_province_name = {
+			id = 9098
+			name = "Luga"
+		}
+		set_province_name = {
+			id = 11186
+			name = "Sosnovy Bor"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 244
+		}	
+		set_state_name = Volkhov
+		set_province_name = {
+			id = 11174
+			name = "Volkhov"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 195
+		}	
+		set_state_name = Petrograd
+		set_province_name = {
+			id = 3151
+			name = "Petrograd"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 242
+		}	
+		set_state_name = Smolensk
+		set_province_name = {
+			id = 11254
+			name = "Vyazma"
+		}
+		set_province_name = {
+			id = 306
+			name = "Smolensk"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 205
+		}	
+		set_state_name = Kaluga
+		set_province_name = {
+			id = 382
+			name = "Kaluga"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 243
+		}	
+		set_state_name = Roslavl
+		set_province_name = {
+			id = 3210
+			name = "Roslavl"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 224
+		}	
+		set_state_name = Bryansk
+		set_province_name = {
+			id = 3335
+			name = "Bryansk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 241
+		}	
+		set_state_name = Gomel
+		set_province_name = {
+			id = 9288
+			name = "Gomel"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 223
+		}	
+		set_state_name = Tula
+		set_province_name = {
+			id = 6262
+			name = "Tula"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 222
+		}	
+		set_state_name = Oryol
+		set_province_name = {
+			id = 9355
+			name = "Oryol"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 258
+		}	
+		set_state_name = Lipetsk
+		set_province_name = {
+			id = 6398
+			name = "Lipetsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 220
+		}	
+		set_state_name = Kursk
+		set_province_name = {
+			id = 3580
+			name = "Kursk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 254
+		}	
+		set_state_name = Ryazan
+		set_province_name = {
+			id = 11248
+			name = "Ryazan"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 257
+		}	
+		set_state_name = Tambov
+		set_province_name = {
+			id = 367
+			name = "Tambov"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 255
+		}	
+		set_state_name = Penza
+		set_province_name = {
+			id = 9409
+			name = "Penza"
+		}
+		set_province_name = {
+			id = 11262
+			name = "Saransk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 239
+		}	
+		set_state_name = Saratov
+		set_province_name = {
+			id = 433
+			name = "Balashov"
+		}
+		set_province_name = {
+			id = 3578
+			name = "Saratov"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 401
+		}	
+		set_state_name = Pokrovsk
+		set_province_name = {
+			id = 11523
+			name = "Pokrovsk"
+		}
+		set_province_name = {
+			id = 3551
+			name = "Yershov"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 240
+		}	
+		set_state_name = Belgorod
+		set_province_name = {
+			id = 9489
+			name = "Belgorod"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 260
+		}	
+		set_state_name = Voronezh
+		set_province_name = {
+			id = 413
+			name = "Voronezh"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 265
+		}	
+		set_state_name = Mikhaylovka
+		set_province_name = {
+			id = 487
+			name = "Mikhaylovka"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 245
+		}	
+		set_state_name = Millerovo
+		set_province_name = {
+			id = 3519
+			name = "Millerovo"
+		}
+		set_province_name = {
+			id = 6544
+			name = "Morozovsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 217
+		}	
+		set_state_name = Volgograd
+		set_province_name = {
+			id = 3529
+			name = "Volgograd"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 238
+		}	
+		set_state_name = Volgodonsk
+		set_province_name = {
+			id = 6490
+			name = "Volgodonsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 237
+		}	
+		set_state_name = Stepnoy
+		set_province_name = {
+			id = 11566
+			name = "Stepnoy"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 236
+		}	
+		set_state_name = Astrakhan
+		set_province_name = {
+			id = 9753
+			name = "Astrakhan"
+		}
+	}
+}
