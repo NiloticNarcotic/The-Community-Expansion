@@ -7,6 +7,10 @@ shared_focus = { # Status of Moskoweine
 	icon = GFX_MCW_A_Door_To_The_Russian_Hell
 	cost = 1
 	completion_reward = {
+		  country_event = {
+		    id = MCW.1
+			days = 1
+		}
 		add_stability = 0.01
 	}
 	x = 5
@@ -65,6 +69,10 @@ shared_focus = {# The Fuhrer calls
 		focus = MCW_Legacy_of_the_west_Russian_war
 	}
 	completion_reward = {
+		country_event = {
+			id = MCW.111
+			days = 1
+		}
 		add_stability = -0.01
 	}
 	x = 5
@@ -156,6 +164,10 @@ shared_focus = {# The trial of Kasche
 		focus = MCW_The_investigation_into_command
 	}
 	completion_reward = {
+		country_event = {
+			id = MCW.112
+			days = 1
+		}
 		add_stability = -0.01
 	}
 	x = 6
