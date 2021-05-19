@@ -31,7 +31,7 @@ add_ideas = {
 	### Military###
 	tno_conscription_two_year_draft
 	tno_women_noncombat_only
-	tno_military_supervision_kill_em_all
+	tno_military_supervision_no_supervision
 	tno_military_spending_medium_spending
 	tno_training_minimal_training
 	tno_racial_integration_segregated_regiments
@@ -161,6 +161,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 2
+	id = 5876
 }
 create_corps_commander = {
 	name = "Anatoly Volkov"
@@ -171,6 +172,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 3
+	id = 5877
 }
 create_corps_commander = {
 	name = "Evgeny Dimitriev"
@@ -181,6 +183,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
+	id = 5878
 }
 create_corps_commander = {
 	name = "Igor Krivatsky"
@@ -191,6 +194,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
+	id = 5879
 }
 create_field_marshal = {
 	name = "Alexander Rodionov"
@@ -201,4 +205,5 @@ create_field_marshal = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
+	id = 5880
 }

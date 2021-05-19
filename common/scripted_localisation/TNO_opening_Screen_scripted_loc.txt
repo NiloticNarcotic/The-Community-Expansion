@@ -122,6 +122,10 @@ defined_text = {
 		trigger = { tag = OST }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GER
 	}
+	text = {
+		trigger = { tag = MCW }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GER		
+	}
 
 	##Germany
 	text = {
@@ -430,10 +434,14 @@ defined_text = {
 		trigger = { tag = BRG }
 		localization_key = COUNTRY_INFO_BURGUNDY
 	}
-	## Ostland
+	## Reichskommisariats
 	text = {
 		trigger = { tag = OST }
 		localization_key = COUNTRY_INFO_OSTLAND
+	}
+	text = {
+		trigger = { tag = MCW }
+		localization_key = COUNTRY_INFO_MOSKOWIEN
 	}
 
 	## Italy / Italosphere
@@ -541,6 +549,7 @@ defined_text = {
 				tag = BRG
 				tag = GER
 				tag = OST
+				tag = MCW
 				tag = NOR
 				tag = CZE
 				tag = TUR
@@ -669,6 +678,7 @@ defined_text = {
 				tag = BRG
 				tag = GER
 				tag = OST
+				tag = MCW
 				tag = NOR
 				tag = CZE
 				tag = TUR
@@ -871,6 +881,10 @@ defined_text = {
 	text = {
 		trigger = { tag = BRG }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Burgundy"
+	}
+	text = {
+		trigger = { tag = MCW }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Moskowien"
 	}
 	##Italy
 	text = {

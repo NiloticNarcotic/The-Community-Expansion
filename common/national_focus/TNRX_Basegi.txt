@@ -73,6 +73,8 @@ focus_tree = {
     }
     default = no
 	shared_focus = BBB_Black_Brigades_Eternal
+	shared_focus = BBB_evolution_of_industry
+	shared_focus = BBB_the_modern_brigades
 }
 
 focus_tree = {

@@ -27097,6 +27097,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_goal_OFN_MZB_push_out_the_settlers"
+		texturefile = "gfx/interface/goals/OFN_MZB_push_out_the_settlers.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_WCH_A_Mutually_Beneficial_Arrangement"
 		texturefile = "gfx/interface/goals/WCH_A_Mutually_Beneficial_Arrangement.dds"
 	}
@@ -27165,5 +27170,44 @@ spriteTypes = {
 		name = "GFX_TNRX_BBB_the_black_brigades"
 		texturefile = "gfx/interface/goals/TNRX_BBB_the_black_brigades.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_TNRX_BBB_brotherhood_in_strength"
+		texturefile = "gfx/interface/goals/TNRX_BBB_brotherhood_in_strength.dds"
+	}
 	
+	SpriteType = {
+		name = "GFX_TNRX_BBB_false_shepherds"
+		texturefile = "gfx/interface/goals/TNRX_BBB_false_shepherds.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_BBB_leverage_our_legitimacy"
+		texturefile = "gfx/interface/goals/TNRX_BBB_leverage_our_legitimacy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_BBB_the_neanderthal_is_extinct"
+		texturefile = "gfx/interface/goals/TNRX_BBB_the_neanderthal_is_extinct.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_BBB_wolves_among_sheep"
+		texturefile = "gfx/interface/goals/TNRX_BBB_wolves_among_sheep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_BBB_end_the_facade"
+		texturefile = "gfx/interface/goals/TNRX_BBB_end_the_facade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_BBB_terror_groups"
+		texturefile = "gfx/interface/goals/TNRX_BBB_terror_groups.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_BBB_twist_the_knife"
+		texturefile = "gfx/interface/goals/TNRX_BBB_twist_the_knife.dds"
+	}
 }

@@ -29,6 +29,8 @@
  BBB_ultranat_mordakov_long:0 "Chernyye Brigady - Radikalny"
  BBB_party_reformist_congress:0 "S'yezd Reformatorov"
  BBB_party_reformist_congress_long:0 "S'yezd Reformatorov"
+ BBB_despotism_radicals:0 "ChB - Staraya Gvardiya"
+ BBB_despotism_radicals_long:0 "Chernyye Brigady - Staraya Gvardiya"
 
  ###Leader Desc###
  POLITICS_VASILY_MORDAKOV_DESC:0 "The history of Vasily Mordakov changes with every person one may ask. Some say he was orphaned during the war and lived among rats, learning to steal and thrift from them, others say he was raised in a commune of thieves and was their prodigy child. Whatever the story may be, it will undoubtedly try to explain the man's supernatural charisma and guile. Mordakov knew hardship nearly his entire life, and had to survive completely on his own.\nDaily, he would face death from hunger, cold or knife. He knew from the very early days that this world does not belong to those who do not deserve it, so when he grew up and saw with his own eyes, the measly people whom managed to live good lives protected by the confines of comfortable office jobs and communal housing. None would even last a week in the environment he grew up in.\nMordakov found work with the Pokrovsk Thieves-in-Law, a criminal organization, where he grew in rank so fast that it put fear in the upper echelons of the mafia. So it came to be, that at every opportunity, the young prodigy would be stifled. Missed details here, sloppy work there.\nIt became clear to him at one point that he is not wanted, but is badly needed in the organization.\nThe Black Brigades were like a godsend for the man. He quickly moved to greener pastures by joining up with them, proving himself to the leadership faster than in the mafia. There, he did not slow down in his pursuit of power and purpose. He built a sizable clique of those in the Brigades who strived to be more than bandits, a mere nuisance for the Germans."
@@ -72,7 +74,11 @@
  BBB_Ask_Mafia_For_Guns:0"Ask The Mafia For Guns"
  BBB_Ask_Mafia_For_Guns_start_tt:0"§YWe will spend §!§R30§!§Y political power to estabilish a route to deliver weapons from the §!§TMafia§!§Y.§!\n"
  BBB_Ask_Mafia_For_Guns_remove_tt:0"§YWe will receive 1500 Infantry Weapons from the §!§TMafia§!§Y!§!"
- ### FOCUS TREES ###
+
+ ### FOCUS TREES ###  ### FOCUS TREES ###  ### FOCUS TREES ### ### FOCUS TREES ###  ### FOCUS TREES ###  ### FOCUS TREES ###
+ ### FOCUS TREES ###  ### FOCUS TREES ###  ### FOCUS TREES ### ### FOCUS TREES ###  ### FOCUS TREES ###  ### FOCUS TREES ###
+ ### FOCUS TREES ###  ### FOCUS TREES ###  ### FOCUS TREES ### ### FOCUS TREES ###  ### FOCUS TREES ###  ### FOCUS TREES ###
+ ### FOCUS TREES ###  ### FOCUS TREES ###  ### FOCUS TREES ### ### FOCUS TREES ###  ### FOCUS TREES ###  ### FOCUS TREES ###
  
  ### Basegi Initial ###
  BBB_the_black_brigades:0 "The Black Brigades"
@@ -293,6 +299,114 @@
  BBB_Survival_Of_The_Fittest:0 "Survival of the Fittest"
  BBB_Survival_Of_The_Fittest_desc:"The weak do not deserve to prosper,\n the strong do.\n They should regularly steal everything they can\n from all those that they meet,\n and should regularly shoot them for the trouble."
  
+ BBB_evolution_of_industry:0 "Evolution of Industry"
+ BBB_evolution_of_industry_desc:0 ""
+ 
+ BBB_brigades_controlled_industry:0 "Brigades Controlled Industry"
+ BBB_brigades_controlled_industry_desc:0 ""
+ 
+ BBB_competitive_workforce:0 "Competitive Workforce"
+ BBB_competitive_workforce_desc:0 ""
+ 
+ BBB_mafia_controlled_industry:0 "Mafia Controlled Industry"
+ BBB_mafia_controlled_industry_desc:0 ""
+ 
+ BBB_brutal_monopolization:0 "Brutal Monopolization"
+ BBB_brutal_monopolization_desc:0 ""
+ 
+ BBB_study_german_factory_designs:0 "Study German Factory Designs"
+ BBB_study_german_factory_designs_desc:0 ""
+ 
+ BBB_patrols_in_the_countryside:0 "Patrols in the Countryside"
+ BBB_patrols_in_the_countryside_desc:0 ""
+ 
+ BBB_reconstruct_moskowien_railway_systems:0 "Reconstruct Moskowien Railway Systems"
+ BBB_reconstruct_moskowien_railway_systems_desc:0 ""
+ 
+ BBB_expand_black_brigades_innovation_teams:0 "Expand Black Brigades Innovation Teams"
+ BBB_expand_black_brigades_innovation_teams_desc:0 ""
+ 
+ BBB_dedicated_brigades_manufactories:0 "Dedicated Brigades Manufactories"
+ BBB_dedicated_brigades_manufactories_desc:0 ""
+ 
+ BBB_raid_ostland:0 "Get Ready to Raid Ostland"
+ BBB_raid_ostland_desc:0 ""
+ 
+ BBB_raid_ukraine:0 "Get Ready to Raid Ukraine"
+ BBB_raid_ukraine_desc:0 ""
+ 
+ BBB_all_under_the_thumb:0 "All under the Thumb"
+ BBB_all_under_the_thumb_desc:0 ""
+ 
+ BBB_muster_the_workers:0 "Muster the Workers"
+ BBB_muster_the_workers_desc:0 ""
+ 
+ BBB_the_modern_brigades:0 "The Modern Brigades"
+ BBB_the_modern_brigades_desc:0 ""
+ 
+ BBB_administrators_into_officers:0 "Administrators into Officers"
+ BBB_administrators_into_officers_desc:0 ""
+ 
+ BBB_officers_into_administrators:0 "Officers into Administrators"
+ BBB_officers_into_administrators_desc:0 ""
+ 
+ BBB_replaceable_positions:0 "Replaceable Positions"
+ BBB_replaceable_positions_desc:0 ""
+ 
+ BBB_zone_control_tactics:0 "Zone Control Tactics"
+ BBB_zone_control_tactics_desc:0 ""
+ 
+ BBB_a_cutthroat_recruitment_process:0 "A Cutthroat Recruitment Process"
+ BBB_a_cutthroat_recruitment_process_desc:0 ""
+ 
+ BBB_pressure_businesses_for_support:0 "Press Businesses for support"
+ BBB_pressure_businesses_for_support_desc:0 ""
+ 
+ BBB_habitat_for_paramilitaries:0 "Habitat for Paramilitaries"
+ BBB_habitat_for_paramilitaries_desc:0 ""
+ 
+ BBB_the_partisans:0 "The Partisans"
+ BBB_the_partisans_desc:0 ""
+ 
+ BBB_the_freedom_fighters:0 "The Freedom Fighters"
+ BBB_the_freedom_fighters_desc:0 ""
+ 
+ BBB_sponsored_weapon_deals:0 "Sponsored Weapon Deals"
+ BBB_sponsored_weapon_deals_desc:0 ""
+ 
+ BBB_let_them_roam:0 "Let them Roam"
+ BBB_let_them_roam_desc:0 ""
+ 
+ BBB_chip_away_patriotism:0 "Chip away military Patriotism"
+ BBB_chip_away_patriotism_desc:0 ""
+ 
+ BBB_in_defense_of_the_muscovite_zone:0 "In defense of the Muscovite Zone"
+ BBB_in_defense_of_the_muscovite_zone_desc:0 ""
+ 
+ BBB_a_place_for_the_veterans:0 "A Place for the Veterans"
+ BBB_a_place_for_the_veterans_desc:0 ""
+ 
+ BBB_leadership_in_the_army:0 "Leadership in the Army"
+ BBB_leadership_in_the_army_desc:0 ""
+ 
+ BBB_ruthless_drill:0 "Ruthless Drill"
+ BBB_ruthless_drill_desc:0 ""
+ 
+ BBB_prodigies_on_the_streets:0 "Prodigies on the Streets"
+ BBB_prodigies_on_the_streets_desc:0 ""
+ 
+ BBB_an_elite_force:0 "An Elite Force"
+ BBB_an_elite_force_desc:0 ""
+
+ BBB_operations_of_highest_priority:0 "Operations of Highest Priority"
+ BBB_operations_of_highest_priority_desc:0 ""
+ 
+ BBB_completely_unchained:0 "Completely Unchained"
+ BBB_completely_unchained_desc:0 ""
+ 
+ BBB_no_medals_but_a_place_in_the_future:0 "No Medals, but a place in the future"
+ BBB_no_medals_but_a_place_in_the_future_desc:0 ""
+
  ### Focus Tooltips ###
  BBB_Teach_Them_To_Survive_tt:0 "§TSpawns three local§! §YBlack Brigade Recruit Units.§!"
  BBB_Close_The_Congress_tt:0 "§TIt is time to finally settle the score with Ankudinov...§!"
@@ -300,6 +414,8 @@
  BBB_Against_Wolgastaat_tt:0 "§TThe effects of 'Against Wolgastaat' will be strengthened!§!"
  BBB_Commence_The_Black_Terror_tt:0 "§RWe have only just begun.§!"
  BBB_Strike_from_the_Shadows_tt:0 "We will make a move to eliminate our rival and secure the future of the Black Brigades as ours."
+ BBB_Raid_Ostland_tt:0 "§BWe will raid the neighboring§! §RReichskommisariat Ostland§! §Bto improve our§! §Lindustrial capabilities.§!"
+ BBB_Raid_Ukraine_tt:0 "§BWe will raid the neighboring§! §RReichskommisariat Ukraine§! §Bto improve our§! §Lagricultural capabilities.§!"
 
  BBB_Unlock_SOTF_tt:0 "We will be able to §Vterrorize§! the local population in a new way!"
  
@@ -312,21 +428,21 @@
  blackbrigades.1.desc:0 "Since the dawn of man it has always been blatantly obvious that the strong dominate the weak. Never has this not been true until recent times, where there is a strange notion among people that might does not make right, that we ought to give special care for those below us in capability. Vasily Mordakov scoffs at such a ludicrous notion. “Who is man, to try and look past the natural evolutionary ordering of things? Nature is our creator, and by her laws of natural selection and survival of the fittest we must live” he thinks. Thankfully, Mordakov now leads the Basegi Black Brigades, filled with like-minded individuals, ready to reestablish a truly natural law over the land, using the measures that it permits in order to do so."
  blackbrigades.1.a:0 "Might is Right"
  
- blackbrigades.2.t:0 "x"
+ blackbrigades.2.t:0 "Learn by Experience"
  blackbrigades.2.desc:0 "This is an event for focus: 'Learn by Experience'"
  blackbrigades.2.a:0 "x"
  
- blackbrigades.3.t:0 "x"
+ blackbrigades.3.t:0 "On the streets of Pokrovsk"
  blackbrigades.3.desc:0 "This is an event for focus: 'Recruits in Pokrovsk'"
- blackbrigades.3.a:0 "x"
+ blackbrigades.3.a:0 "Pokrovsk, Not Kosakenstadt!"
  
- blackbrigades.4.t:0 "x"
+ blackbrigades.4.t:0 "All or Nothing"
  blackbrigades.4.desc:0 "This is an event for focus: 'ALL is ours'"
- blackbrigades.4.a:0 "x"
+ blackbrigades.4.a:0 "Freedom fighters to some, Terrorists to many"
  
  blackbrigades.5.t:0 "x"
  blackbrigades.5.desc:0 "This is an event for focus: 'Salt the Wound'"
- blackbrigades.5.a:0 "x"
+ blackbrigades.5.a:0 ""No Prisoners""
  
  blackbrigades.6.t:0 "x"
  blackbrigades.6.desc:0 "This is an event for focus: 'Show of Strength'"
@@ -485,7 +601,11 @@
  blackbrigades.96.desc:0 "The land from the Baltic to the Caspian are a proving ground. A proving ground for all men and women like in the primitive days before the arms of civilization took humanity in its arms like a vile drug, corrupting the body of not one man but mankind as a whole. The struggle of day to day life thickens the skin, energizes the blood and strengthens the bones of men with each generation. The state of nature that had propelled humanity from swamps and caves onto every corner of the earth has been put back into motion by the Black Brigades, once a simple pest for the German settlers on the Volga, who have now become the forerunners of evolution. It is doubtless that there are stronger nations out there; Germany already increasing activity on our border, but it is men who form the backbone of any nation. At the helm of everything stands Mordakov, the sole leviathan of this society. But his role is different from others like him. His power exists so that none other may take it and twist it into mockeries of humanity, stifling evolution once more. The Black Brigades march on into the future, while the rest of humanity stagnates in a pool of their own decadence."
  blackbrigades.96.a:0 "Mordakov saw what he did and thought it was good"
  
- ### Spirits ###
+ ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ###
+ ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ###
+ ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ### ### Spirits ###
+
+ #Pre-Unification#
 
  BBB_Terror_Of_The_East:0 "Terror of the East"
  BBB_Terror_Of_The_East_desc:0 "Ever since arriving in the bountiful land around the Volga, we have had a bad reputation with the locals and the administration. Our infamy is our strength and it has allowed us to grow in strength with no clear way for it to be hampered."
@@ -514,11 +634,33 @@
  BBB_Reformists_Congress:0 "Reformists Congress"
  BBB_Reformists_Congress_desc:0 "Put enough men in a room together and it is only a matter of time before the room splits over the slightest disagreement. Vladimir Ankudinov and other likeminded Brigadiers disliked the direction that the Black Brigades were going in. It led to a split in the organization and the founding of an informal group called the 'Reformist Congress' where the men discussed the direction in which the Brigades should be going instead."
  
+ #Radicals# 
+
  BBB_Wheat_From_The_Chaff:0 "Wheat from the Chaff"
  BBB_Wheat_From_The_Chaff_desc:0 "With the vast land we now control, there are many who have been socialized by the Germans and the Reds into inadequacy. Using our brigades, we shall sweep our adminstration and purge those that still hold on to their delusions and backwards ideologies."
  
  BBB_Law_Of_Nature:0 "Law of Nature"
  BBB_Law_Of_Nature_desc:0 "Nothing in the world matters but survival. The sooner the people come to terms with this fact, the sooner humanity can continue its natural ascent to greater horizons. Life in Muscovy is changing forever, and the more people taste the sweet allure of power without moral restrictions, the faster our greater purpose shall be fulfilled."
+
+ BBB_Competitive_workforce_idea:0 "Competitive Workforce"
+ BBB_Competitive_workforce_idea_desc:0 "In the factories that litter Muscovy, it is important that we facilitate and grow a culture of constant competition between its workers. Brutality and harsh quotas all with the risk of losing their job will force the workers to be more and more efficient, simply to one-up their peers. And those that lack the ability to keep up will be left to fend for themselves elsewhere."
+
+ BBB_optimized_railway_system:0 "Optimized Railway System"
+ BBB_optimized_railway_system_desc:0 ""
+
+ BBB_The_State_Of_The_Brigades_radicals_2:0 "The State of the Brigades"
+ BBB_The_State_Of_The_Brigades_radicals_2_desc:0 "Once, we were a highly disciplined force in the Urals. But as time went on, the lifestyle of banditry took a toll on the Black Brigades. Soldiers and even some generals have become reckless, less disciplined and rebellious. Now that Muscovy has been consolidated under our grasp, we can take steps to removing this malaise and creating a real deadly and professional force, just like we once were."
+
+ BBB_The_State_Of_The_Brigades_radicals_3:0 "The State of the Brigades"
+ BBB_The_State_Of_The_Brigades_radicals_3_desc:0 "Once, we were a highly disciplined force in the Urals. But as time went on, the lifestyle of banditry took a toll on the Black Brigades. Soldiers and even some generals have become reckless, less disciplined and rebellious. Now that Muscovy has been consolidated under our grasp, we can take steps to removing this malaise and creating a real deadly and professional force, just like we once were."
+
+ BBB_The_State_Of_The_Brigades_radicals_4:0 "The State of the Brigades"
+ BBB_The_State_Of_The_Brigades_radicals_4_desc:0 "Once, we were a highly disciplined force in the Urals. But as time went on, the lifestyle of banditry took a toll on the Black Brigades. Soldiers and even some generals have become reckless, less disciplined and rebellious. Now that Muscovy has been consolidated under our grasp, we can take steps to removing this malaise and creating a real deadly and professional force, just like we once were."
+
+ BBB_apex_predators:0 "Apex Predators"
+ BBB_apex_predators_desc:0 ""
+
+ #Reformists#
 
  BBB_Sobering_Brigades:0 "Sobering Brigades"
  BBB_Sobering_Brigades_desc:0 ""

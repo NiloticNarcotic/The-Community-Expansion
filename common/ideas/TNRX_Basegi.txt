@@ -203,7 +203,9 @@ ideas = {
 				fascism_drift = 0.08
 			}
 		}
-		
+
+		### Radicals ###
+
 		BBB_Wheat_From_The_Chaff = {
 			picture = MAR_Forced_Syncretism			
 			
@@ -246,6 +248,207 @@ ideas = {
 				army_defence_factor = 0.15
 			}
 		}
+
+		BBB_competitive_workforce_idea = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = ultranational_socialism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.12
+				industrial_capacity_factory = 0.05
+				local_resources_factor = 0.08
+			}
+		}
+
+		BBB_optimized_railway_system = {
+			picture = MAR_Forced_Syncretism
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_government = ultranational_socialism
+			}
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.3
+				army_speed_factor = 0.2
+			}
+		}
+
+		### army ideas ###
+		
+		BBB_The_State_Of_The_Brigades_radicals_2 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_org = -10
+				army_org_regain = -0.1
+				wounded_chance_factor = 0.1
+				recon_factor = 0.2
+			}
+		}	
+
+		BBB_The_State_Of_The_Brigades_radicals_3 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_org = -5
+				army_org_regain = -0.05
+				wounded_chance_factor = 0.1
+				recon_factor = 0.2
+			}
+		}	
+
+		BBB_The_State_Of_The_Brigades_radicals_4 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_org = -5
+				army_org_regain = -0.05
+				recon_factor = 0.05
+			}
+		}
+		
+		BBB_a_thousand_armed_forces = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.15
+			}
+		}
+
+		BBB_free_partisan_groups = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = 0.15
+				dig_in_speed = 0.35
+			}
+		}
+
+		BBB_brigades_in_the_army_1 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				minimum_training_level = -0.1
+			}
+		}
+
+		BBB_brigades_in_the_army_2 = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				minimum_training_level = -0.1
+				training_time_factor = -0.1
+			}
+		}
+
+		BBB_apex_predators = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_cap = 0.1
+				special_forces_training_time_factor = 0.1
+			}
+		}
+
+		BBB_above_everyone_and_everything = {
+			picture = MAR_Forced_Syncretism			
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				army_attack_factor = 0.1
+				army_org_factor = 0.1
+			}
+		}
+
 		######################################
 		######################################
 		#########    REFORMISTS    ###########
@@ -267,7 +470,7 @@ ideas = {
 			
 			modifier = {
 				war_support_weekly = -0.005
-				ultranational_socialism_drift = -0.05
+				ultranational_socialism_drift = -0.03
 				army_professionalism_monthly_rate = 0.5
 			}
 		}

@@ -150,18 +150,19 @@ bookmarks = {
 						}
 					}
 
-					"OST" = {
+					"IRE" = {
 						minor = yes
-						history = "OST_THENEWORDER_DESC"
-						ideology = national_socialism
+						history = "IRE_THENEWORDER_DESC"
+						ideology = authoritarian_democrat
 						ideas = {
-							OST_model_colony
-							OST_unusual_quiet
+							IRE_there_will_be_blood
+							IRE_humiliation_of_a_giant
+							IRE_not_much_to_gain_mr_hitler
 						}
 						focuses = {
-							OST_finishing_touches
-							OST_invite_hitler
-							OST_the_model_colony_focus
+							IRE_shame_of_the_giant
+							IRE_erin_go_bragh
+							IRE_on_the_peoples_side
 						}
 					}
 				## PAKT ##
@@ -596,42 +597,51 @@ bookmarks = {
 				## TRIUM ##
 
 				## PAKT ##
-					"IRE" = {
+					"OST" = {
 						minor = yes
-						history = "IRE_THENEWORDER_DESC"
-						ideology = authoritarian_democrat
+						history = "OST_THENEWORDER_DESC"
+						ideology = national_socialism
 						ideas = {
-							IRE_there_will_be_blood
-							IRE_humiliation_of_a_giant
-							IRE_not_much_to_gain_mr_hitler
+							OST_model_colony
+							OST_unusual_quiet
 						}
 						focuses = {
-							IRE_shame_of_the_giant
-							IRE_erin_go_bragh
-							IRE_on_the_peoples_side
+							OST_finishing_touches
+							OST_invite_hitler
+							OST_the_model_colony_focus
 						}
 					}
 
-					"BRT"={
+					"MCW"={
 						minor = yes
-						history = "BRT_THENEWORDER_DESC"
-						ideology = fascism
+						history = "MCW_THENEWORDER_DESC"
+						ideology = national_socialism
 						ideas = {
-							BRT_europes_staple_port
-							BRT_breton_national_committee
-							BRT_the_bezen_perrot
+							MCW_apathetic_rule
+							MCW_unified_ostvolk_council
+							MCW_the_porous_border
 						}
 						focuses = {
-							BRT_for_freedom
-							BRT_for_gain
-							BRT_for_power
+							MCW_The_Fuhrer_calls
+							MCW_Bribe_the_Gestapo
+							MCW_The_investigation_into_command
 						}
 					}
 
-
-					"ZZZ" = {
+					"MCW"={
 						minor = yes
-						history = ""
+						history = "MCW_THENEWORDER_DESC"
+						ideology = national_socialism
+						ideas = {
+							MCW_apathetic_rule
+							MCW_unified_ostvolk_council
+							MCW_the_porous_border
+						}
+						focuses = {
+							MCW_The_Fuhrer_calls
+							MCW_Bribe_the_Gestapo
+							MCW_The_investigation_into_command
+						}
 					}
 				## PAKT ##
 

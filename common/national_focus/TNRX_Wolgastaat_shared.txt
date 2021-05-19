@@ -45,40 +45,36 @@ shared_focus = {# Total Chaos [Pannwitz, what have you done?!]
 
 shared_focus = {# Our Victory
 	id = VLG_Our_Victory
-	prerequisite = {
-		focus = VLG_Total_Chaos
-	}
+	prerequisite = { focus = VLG_Total_Chaos }
+	mutually_exclusive = { focus = VLG_Our_Retreat }
 	icon = GFX_GER_we_come_bearing_gifts
 	cost = 1
-	completion_reward = {
-		add_war_support = 0.10
-0		add_political_power = 25
-		add_stability = 0.14
 
-		mutually_exclusive = {
-		   { focus = VLG_Our_Retreat }
-		}
-	}
 	x = 4
 	y = 3
+
+	completion_reward = {
+		add_war_support = 0.10
+		add_political_power = 25
+		add_stability = 0.14
+
+	}
+
 }
 
 shared_focus = {# Our Retreat
 	id = VLG_Our_Retreat
-	prerequisite = {
-		focus = VLG_Total_Chaos
-	}
+	prerequisite = { focus = VLG_Total_Chaos }
+	mutually_exclusive = { focus = VLG_Our_Victory }
 	icon = GFX_GER_we_come_bearing_gifts
 	cost = 1
+
+	x = 6
+	y = 3
+
 	completion_reward = {
 		add_war_support = -0.50
 		add_political_power = -40
 		add_stability = -0.42
-
-		mutually_exclusive = {
-		{ focus = VLG_Our_Victory }
-		}
 	}
-	x = 6
-	y = 3
 }
