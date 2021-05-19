@@ -95,3 +95,18 @@ focus_tree = {
 	default = no
 	shared_focus = VNH_The_epilogue
 }
+
+focus_tree = {
+	id = Voronezh_Putin_tree
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	shared_focus = VNH_The_Putin_presidency
+}
