@@ -53,7 +53,7 @@ add_ideas = {
 	tno_pollution_no_controls
 	tno_education_public_education
 	tno_penal_system_capital_punishment
-	tno_lgbt_rights_equal_rights
+	tno_lgbt_rights_lgbt_outlawed
 	tno_gender_rights_promoted_equality
 	tno_minorities_equal_rights
 	tno_security_police

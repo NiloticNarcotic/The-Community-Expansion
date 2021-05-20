@@ -1542,7 +1542,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BBB_Good_Is_No_Longer_Enough
-	icon = GFX_ITA_Avoid_the_Border_Issues
+	icon = GFX_TNRX_BBB_good_is_no_longer_enough
 	available_if_capitulated = no
 	cost = 3.00
 	prerequisite = { focus = BBB_Purge_The_Sycophants }
@@ -2440,18 +2440,12 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-		set_politics = {
-			ruling_party = fascism
-		}
 		add_popularity = { 
-			ideology = fascism 
-			popularity = 0.40
+			ideology = despotism 
+			popularity = -0.08
 		}
-		add_ideas = BBB_Reformists_Congress
-		add_political_power = -10
-		hidden_effect = {
-			country_event = { id = blackbrigades.301 }
-		}
+		add_stability = -0.05
+		country_event = { id = blackbrigades.301 }
 	}
 }
 shared_focus = {
@@ -2548,12 +2542,11 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-		tno_security_improve = yes
 		hidden_effect = {
 			country_event = { id = blackbrigades.306 }
 		}
-		custom_effect_tooltip = BBB_Security_Tax_Focus_tt
-		add_to_variable = {GDP = 100}
+		add_to_variable = { GDP = 100 }
+		tno_security_improve = yes
 	}
 }
 shared_focus = {
@@ -2692,7 +2685,7 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-		add_timed_idea = { idea = BBB_Repair_The_Destruction days = 120 }
+		add_timed_idea = { idea = BBB_Repair_The_Destruction days = 30 }
 		country_event = { id = blackbrigades.315 }
 	}
 }
@@ -2796,7 +2789,7 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = BBB_Improve_Workers_Willpower
+	id = BBB_Improve_the_Labour_Spirit
 	icon = GFX_GER_industry_calls
 	available_if_capitulated = no
 	cost = 3.00
@@ -2817,8 +2810,8 @@ shared_focus = {
 	icon = GFX_GER_industry_calls
 	available_if_capitulated = no
 	cost = 3.00
-	prerequisite = { focus = BBB_Improve_Workers_Willpower }
-	relative_position_id = BBB_Improve_Workers_Willpower
+	prerequisite = { focus = BBB_Improve_the_Labour_Spirit }
+	relative_position_id = BBB_Improve_the_Labour_Spirit
 	x = 0
 	y = 1
 
@@ -2965,7 +2958,7 @@ shared_focus = {
 
 #Army#
 shared_focus = {
-	id = BBB_Address_The_State_Of_The_Brigades
+	id = BBB_Address_Our_Pitiful_State
 	icon = GFX_RAJ_rifles_guns_cannons
 	available_if_capitulated = no
 	cost = 1.00
@@ -2974,19 +2967,16 @@ shared_focus = {
 
 	completion_reward = {
 		army_experience = 20
-		custom_effect_tooltip = BBB_Address_The_State_Of_The_Brigades_tt
-		hidden_effect = {
-			country_event = { id = blackbrigades.323 }
-		}
+		country_event = { id = blackbrigades.323 }
 	}
 }
 shared_focus = {
-	id = BBB_Sober_Them_Up
+	id = BBB_Purge_The_Corrupt
 	icon = GFX_RAJ_rifles_guns_cannons
 	available_if_capitulated = no
 	cost = 3.00
-	prerequisite = { focus = BBB_Address_The_State_Of_The_Brigades }
-	relative_position_id = BBB_Address_The_State_Of_The_Brigades
+	prerequisite = { focus = BBB_Address_Our_Pitiful_State }
+	relative_position_id = BBB_Address_Our_Pitiful_State
 	x = -3
 	y = 1
 	completion_reward = {
@@ -3004,8 +2994,8 @@ shared_focus = {
 	icon = GFX_RAJ_rifles_guns_cannons
 	available_if_capitulated = no
 	cost = 3.00
-	prerequisite = { focus = BBB_Address_The_State_Of_The_Brigades }
-	relative_position_id = BBB_Address_The_State_Of_The_Brigades
+	prerequisite = { focus = BBB_Address_Our_Pitiful_State }
+	relative_position_id = BBB_Address_Our_Pitiful_State
 	x = 0
 	y = 1
 	completion_reward = {
@@ -3022,8 +3012,8 @@ shared_focus = {
 	icon = GFX_RAJ_rifles_guns_cannons
 	available_if_capitulated = no
 	cost = 3.00
-	prerequisite = { focus = BBB_Address_The_State_Of_The_Brigades }
-	relative_position_id = BBB_Address_The_State_Of_The_Brigades
+	prerequisite = { focus = BBB_Address_Our_Pitiful_State }
+	relative_position_id = BBB_Address_Our_Pitiful_State
 	x = 3
 	y = 1
 	completion_reward = {
@@ -3039,7 +3029,7 @@ shared_focus = {
 	icon = GFX_RAJ_rifles_guns_cannons
 	available_if_capitulated = no
 	cost = 5.00
-	prerequisite = { focus = BBB_Sober_Them_Up }
+	prerequisite = { focus = BBB_Purge_The_Corrupt }
 	prerequisite = { focus = BBB_Purge_The_Rot }
 	prerequisite = { focus = BBB_Purge_The_Incapable }
 	relative_position_id = BBB_Purge_The_Rot

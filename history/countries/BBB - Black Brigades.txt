@@ -165,7 +165,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Anatoly Volkov"
-	picture = "Portrait_Black_Brigades_Soslanbek_Apayev.dds"
+	picture = "Portrait_Black_Brigades_Anatoly_Volkov.dds"
 	traits = { infantry_officer }
 	skill = 2
 	attack_skill = 1
@@ -187,8 +187,8 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Igor Krivatsky"
-	picture = "Portrait_Black_Brigades_Soslanbek_Apayev.dds"
-	traits = { inflexible_strategist commando }
+	picture = "Portrait_Black_Brigades_Igor_Krivatsky.dds"
+	traits = { inflexible_strategist commando substance_abuser }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
@@ -196,14 +196,25 @@ create_corps_commander = {
 	logistics_skill = 2
 	id = 5879
 }
+create_corps_commander = {
+	name = "Vycheslav Ivankov"
+	picture = "Portrait_Black_Brigades_Vycheslav_Ivankov.dds"
+	traits = { substance_abuser }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 5880
+}
 create_field_marshal = {
 	name = "Alexander Rodionov"
-	picture = "Portrait_Black_Brigades_Soslanbek_Apayev.dds"
+	picture = "Portrait_Black_Brigades_Alexander_Rodionov.dds"
 	traits = { offensive_doctrine }
 	skill = 3
 	attack_skill = 4
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
-	id = 5880
+	id = 5881
 }

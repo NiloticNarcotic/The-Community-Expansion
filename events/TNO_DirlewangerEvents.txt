@@ -994,7 +994,7 @@ country_event = {
 		custom_effect_tooltip = ORS_brigade_anger_up_t
 		add_to_variable = { ORS_Dirlewanger_Brigade_Angery_Level = 4 }
 		add_popularity = {
-			ideology = national_socialism
+			ideology = despotism
 			popularity = -0.1
 		}
 		hidden_effect = {
@@ -1377,7 +1377,7 @@ country_event = {
 		ai_chance = { factor = 80 }
 		add_stability = -0.3
 		add_popularity = {
-			ideology = fascism
+			ideology = national_socialism
 			popularity = -0.1
 		}
 	}

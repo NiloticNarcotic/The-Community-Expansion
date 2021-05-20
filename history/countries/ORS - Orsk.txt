@@ -15,7 +15,7 @@ add_equipment_to_stockpile = {
 add_manpower = 2000
 
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -28,9 +28,10 @@ set_popularities = {
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 0
-	authoritarian_democrat = 40
-	fascism = 5
-	national_socialism = 41
+	authoritarian_democrat = 20
+	despotism = 41
+	fascism = 0
+	national_socialism = 25
 	ultranational_socialism = 0
 	burgundian_system = 0
 }
@@ -76,7 +77,7 @@ add_ideas = {
 	tno_pollution_no_controls
 	tno_education_elite_only
 	tno_penal_system_penal_slavery
-	tno_lgbt_rights_lgbt_outlawed
+	tno_lgbt_rights_equal_rights
 	tno_gender_rights_traditional_roles
 	tno_minorities_oppression
 	tno_security_security_service
@@ -147,6 +148,14 @@ create_country_leader = {
 	name = "Oskar Dirlewanger"
 	desc = "POLITICS_OSKAR_DIRLEWANGER_DESC"
 	picture = "Portrait_Orsk_Oskar_Dirlewanger.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Fritz Schmedes"
+	desc = "POLITICS_FRITZ_SCHMEDES_DESC"
+	picture = "Portrait_Orsk_Fritz_Schmedes.dds"
 	expire = "1999.1.1"
 	ideology = national_socialism_subtype
 }

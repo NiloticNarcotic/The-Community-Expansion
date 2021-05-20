@@ -146,10 +146,30 @@
  RUS_coring_integrate_khromtau:0 "Integrate §YAktobe§!"
  RUS_coring_integrate_kostanay:0 "Integrate §YKostanay§!"
  RUS_coring_integrate_kokshetau:0 "Integrate §YKokshetau§!"
- RUS_coring_integrate_pavlodar:0 "Integrate §YPavlodar§!"
+ RUS_coring_integrate_pavlodar:0 "Integrate Integrate Pavlodar§!"
  RUS_coring_integrate_kyzylorda:0 "Integrate §YAlmaty§!"
  RUS_integration_cost_days_decrease_tt:0 "This will §Gslightly decrease coring time§!.\n"
 
+ #TNRX Moskowien Coring#
+ Moscowien_coring_category:0 "§YRegional Integration§!"
+ coring_moscow_map_category_name:0 "Reintegrating Moskowien"
+ Moscowien_coring_integrate_Kosakenstadt:0 "Integrate §YNorthern Volga§!"
+ Moscowien_coring_integrate_Astrakhan:0 "Integrate §YSouthern Volga§!"
+ Moscowien_coring_integrate_Paulusburg:0 "Integrate §YPaulusburg§!"
+ Moscowien_coring_integrate_Penza:0 "Integrate §YPenza§!"
+ Moscowien_coring_integrate_Voronezh:0 "Integrate §YVoronezh§!"
+ Moscowien_coring_integrate_Oryol:0 "Integrate §YOryol§!"
+ Moscowien_coring_integrate_Smolensk:0 "Integrate §YSmolensk§!"
+ Moscowien_coring_integrate_Moscow:0 "Integrate §YMoscow§!"
+ Moscowien_coring_integrate_Bogi_Smerti:0 "Integrate §YWaldemar§!"
+ Moscowien_coring_integrate_Pleskau:0 "Integrate §YPskov§!"
+ Moscowien_coring_integrate_St_Petersburg:0 "Integrate §YPetrograd§!"
+ Moscowien_coring_integrate_Tikhvin:0 "Integrate §YTikhvin§!"
+
+ Moscowien_reunification_category:0 "Reunification of Muscovy"
+ moscowien_total_reunification:0 "Reunify the region!"
+ 
+ #Onega#
  WSR_invade_onega:0 "Invade §YOnega§!"
  WSR_diplomacy_with_onega:0 "Request §YFinnish Negotiations§!"
  WSR_diplomacy_with_onega_tt:0 "There exists willingness to §Ynegotiate§! with Finland.\n"

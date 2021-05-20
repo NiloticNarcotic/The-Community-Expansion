@@ -11594,7 +11594,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				fascism
+				despotism
 				hog_local_tyrant
 			}
 			cancel_if_invalid = no
@@ -11612,7 +11612,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				fascism
+				despotism
 				eco_pillager
 			}
 			cancel_if_invalid = no
@@ -11630,7 +11630,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				fascism
+				despotism
 				for_the_cloak_n_dagger_schemer
 			}
 			cancel_if_invalid = no
@@ -11648,7 +11648,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				fascism
+				despotism
 				sec_prince_of_terror
 			}
 			cancel_if_invalid = no

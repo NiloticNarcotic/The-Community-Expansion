@@ -113,7 +113,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus_ORS_keep_them_happy"
 		add_popularity = {
-			ideology = national_socialism
+			ideology = despotism
 			popularity = 0.3
 		}
 		custom_effect_tooltip = ORS_brigade_anger_down_t

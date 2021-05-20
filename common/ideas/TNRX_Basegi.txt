@@ -136,8 +136,9 @@ ideas = {
 				defense_bonus_against = 0.125
 			}
 		}
+
 		BBB_Appropriating_Assets = {
-			picture = MAR_Forced_Syncretism			
+			picture = idea_WRS_wealth_seized	
 			
 			allowed = {
 				always = no
@@ -153,7 +154,7 @@ ideas = {
 		}
 
 		BBB_Work_To_The_Bone = {
-			picture = MAR_Forced_Syncretism			
+			picture = idea_PRM_Forced_Labor			
 			
 			allowed = {
 				always = no
@@ -188,7 +189,7 @@ ideas = {
 		}
 
 		BBB_Reformists_Congress = {
-			picture = MAR_Forced_Syncretism			
+			picture = BBB_idea_reformists_congress			
 			
 			allowed = {
 				always = no
@@ -199,7 +200,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_gain = -0.1
+				political_power_gain = -0.25
 				fascism_drift = 0.08
 			}
 		}
@@ -207,7 +208,7 @@ ideas = {
 		### Radicals ###
 
 		BBB_Wheat_From_The_Chaff = {
-			picture = MAR_Forced_Syncretism			
+			picture = NIK_mamlukization			
 			
 			allowed = {
 				always = no
@@ -227,7 +228,7 @@ ideas = {
 		}
 		
 		BBB_Law_Of_Nature = {
-			picture = MAR_Forced_Syncretism
+			picture = idea_SAM_Slipped_Leash
 			
 			allowed = {
 				always = no
@@ -250,7 +251,7 @@ ideas = {
 		}
 
 		BBB_competitive_workforce_idea = {
-			picture = MAR_Forced_Syncretism
+			picture = idea_generic_economic_control
 			
 			allowed = {
 				always = no
@@ -271,7 +272,7 @@ ideas = {
 		}
 
 		BBB_optimized_railway_system = {
-			picture = MAR_Forced_Syncretism
+			picture = idea_MZB_lackluster_infrastructures
 			
 			allowed = {
 				always = no
@@ -349,7 +350,7 @@ ideas = {
 		}
 		
 		BBB_a_thousand_armed_forces = {
-			picture = MAR_Forced_Syncretism			
+			picture = idea_COG_mercenary_army			
 			
 			allowed = {
 				always = no
@@ -365,7 +366,7 @@ ideas = {
 		}
 
 		BBB_free_partisan_groups = {
-			picture = MAR_Forced_Syncretism			
+			picture = idea_AKT_Steppe_Survivors			
 			
 			allowed = {
 				always = no
@@ -382,7 +383,7 @@ ideas = {
 		}
 
 		BBB_brigades_in_the_army_1 = {
-			picture = MAR_Forced_Syncretism			
+			picture = idea_GBE_idea_militia_based_army			
 			
 			allowed = {
 				always = no
@@ -398,7 +399,7 @@ ideas = {
 		}
 
 		BBB_brigades_in_the_army_2 = {
-			picture = MAR_Forced_Syncretism			
+			picture = idea_GBE_idea_militia_based_army			
 			
 			allowed = {
 				always = no
@@ -415,7 +416,7 @@ ideas = {
 		}
 
 		BBB_apex_predators = {
-			picture = MAR_Forced_Syncretism			
+			picture = idea_ORS_Rage_Inducing_Hormones			
 			
 			allowed = {
 				always = no
@@ -431,29 +432,12 @@ ideas = {
 			}
 		}
 
-		BBB_above_everyone_and_everything = {
-			picture = MAR_Forced_Syncretism			
-			
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			modifier = {
-				stability_factor = -0.1
-				army_attack_factor = 0.1
-				army_org_factor = 0.1
-			}
-		}
-
 		######################################
 		######################################
 		#########    REFORMISTS    ###########
 		######################################
 		######################################
+
 		BBB_Sobering_Brigades = {
 			picture = MAR_Forced_Syncretism
 			
@@ -471,9 +455,10 @@ ideas = {
 			modifier = {
 				war_support_weekly = -0.005
 				ultranational_socialism_drift = -0.03
-				army_professionalism_monthly_rate = 0.5
+				army_professionalism_monthly_rate = -0.5
 			}
 		}
+
 		BBB_People_Reassured = {
 			picture = MAR_Forced_Syncretism
 			
@@ -493,6 +478,7 @@ ideas = {
 				poverty_monthly_rate = 1
 			}
 		}
+
 		BBB_Moscow_In_Ruins = {
 			picture = MAR_Forced_Syncretism
 			
@@ -516,6 +502,7 @@ ideas = {
 				local_resources_factor = -0.2
 			}
 		}
+
 		BBB_Repair_The_Destruction = {
 			picture = MAR_Forced_Syncretism
 			
@@ -535,6 +522,7 @@ ideas = {
 				production_speed_buildings_factor = 0.2
 			}
 		}
+
 		BBB_Workers_Willpower = {
 			picture = MAR_Forced_Syncretism
 			
@@ -557,6 +545,7 @@ ideas = {
 				local_resources_factor = 0.05
 			}
 		}
+
 		BBB_Workers_Willpower_2 = {
 			picture = MAR_Forced_Syncretism
 			
@@ -579,6 +568,7 @@ ideas = {
 				local_resources_factor = 0.1
 			}
 		}
+
 		BBB_Weak_Shall_Perish = {
 			picture = MAR_Forced_Syncretism
 			
@@ -598,6 +588,7 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 			}
 		}
+
 		BBB_Strong_Leadership = {
 			picture = MAR_Forced_Syncretism
 			
@@ -618,6 +609,7 @@ ideas = {
 				academic_base_monthly_rate = 1
 			}
 		}
+
 		BBB_Reconstructing_Moscow = {
 			picture = MAR_Forced_Syncretism
 			
@@ -641,6 +633,7 @@ ideas = {
 				local_resources_factor = -0.1
 			}
 		}
+
 		BBB_Reconstructing_Moscow_2 = {
 			picture = MAR_Forced_Syncretism
 			
@@ -664,6 +657,7 @@ ideas = {
 				local_resources_factor = -0.1
 			}
 		}
+
 		BBB_Reconstructing_Moscow_3 = {
 			picture = MAR_Forced_Syncretism
 			
@@ -686,6 +680,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.1
 			}
 		}
+
 		BBB_Functioning_Economy = {
 			picture = MAR_Forced_Syncretism
 			
@@ -705,6 +700,7 @@ ideas = {
 				local_resources_factor = 0.1
 			}
 		}
+
 		BBB_Sobered_Brigades = {
 			picture = MAR_Forced_Syncretism
 			
@@ -725,6 +721,7 @@ ideas = {
 				despotism_drift = -0.05
 			}
 		}
+
 		BBB_The_State_Of_The_Brigades_reform_2 = {
 			picture = MAR_Forced_Syncretism			
 			
@@ -744,6 +741,7 @@ ideas = {
 				
 			}
 		}
+
 		BBB_Army_Of_The_Strong = {
 			picture = MAR_Forced_Syncretism			
 			
@@ -762,6 +760,7 @@ ideas = {
 				experience_loss_factor = 0.30
 			}
 		}
+
 		BBB_The_Mechanized_Horde = {
 			picture = MAR_Forced_Syncretism			
 			
@@ -779,6 +778,7 @@ ideas = {
 				army_armor_speed_factor = 0.1
 			}
 		}
+
 		BBB_The_New_Brigades_idea = {
 			picture = MAR_Forced_Syncretism			
 			

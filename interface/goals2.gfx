@@ -27210,4 +27210,9 @@ spriteTypes = {
 		name = "GFX_TNRX_BBB_twist_the_knife"
 		texturefile = "gfx/interface/goals/TNRX_BBB_twist_the_knife.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_TNRX_BBB_good_is_no_longer_enough"
+		texturefile = "gfx/interface/goals/TNRX_BBB_good_is_no_longer_enough.dds"
+	}
 }

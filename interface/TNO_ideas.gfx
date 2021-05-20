@@ -4807,6 +4807,10 @@ spriteTypes = {
 		name = "GFX_idea_The_Fatherland_Arrives"
 		texturefile = "gfx/interface/ideas/ideas/The_Fatherland_Arrives.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_MZB_lackluster_infrastructures"
+		texturefile = "gfx/interface/ideas/ideas/OFN_MZB_lackluster_infrastructures.dds"
+	}
 	#Zentralafrika
 	SpriteType = {
 		name = "GFX_idea_COG_idea_fatherland_arrives"
@@ -5319,5 +5323,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_PSK_Bitter"
 		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBB_reformists_congress"
+		texturefile = "gfx/interface/ideas/ideas/BBB_idea_reformists_congress.dds"
 	}
 }

@@ -407,15 +407,137 @@
  BBB_no_medals_but_a_place_in_the_future:0 "No Medals, but a place in the future"
  BBB_no_medals_but_a_place_in_the_future_desc:0 ""
 
+ #Post-Unification Reformists#
+ BBB_End_Of_Mordakov:0 "The End of Mordakov"
+ BBB_End_Of_Mordakov_desc:0 ""
+
+ BBB_Sobering_The_Brigades:0 "Sobering the Brigades"
+ BBB_Sobering_The_Brigades_desc:0 ""
+
+ BBB_Reassuring_The_People:0 "Reassuring the People"
+ BBB_Reassuring_The_People_desc:0 ""
+
+ BBB_Centralize_Administration:0 "Centralize our Administration"
+ BBB_Centralize_Administration_desc:0 ""
+
+ BBB_Target_The_Superstitious:0 "Target the Superstitious"
+ BBB_Target_The_Superstitious_desc:0 ""
+
+ BBB_Promote_School_Strength:0 "Promote Strength in Schools"
+ BBB_Promote_School_Strength_desc:0 ""
+
+ BBB_Security_Tax_Focus:0 "Focus on Security Tax"
+ BBB_Security_Tax_Focus_desc:0 ""
+
+ BBB_Allow_Basic_Health_Services:0 "Allow Basic Health Services"
+ BBB_Allow_Basic_Health_Services_desc:0 ""
+
+ BBB_That_Which_We_Hold_Dear:0 "That which we hold Dear"
+ BBB_That_Which_We_Hold_Dear_desc:0 ""
+
+ BBB_Culture_Of_The_Overman:0 "Culture of the Overman"
+ BBB_Culture_Of_The_Overman_desc:0 ""
+
+ BBB_The_Dark_Wilderness:0 "The Dark Wilderness"
+ BBB_The_Dark_Wilderness_desc:0 ""
+
+ BBB_Register_Of_The_Insufficient:0 "Register of the Insufficient"
+ BBB_Register_Of_The_Insufficient_desc:0 ""
+
+ BBB_The_Final_Meeting:0 "The Final Meeting"
+ BBB_The_Final_Meeting_desc:0 ""
+
+ BBB_Dominion:0 "Dominion"
+ BBB_Dominion_desc:0 ""
+
+ BBB_State_Based_Economics:0 "State Based Economics"
+ BBB_State_Based_Economics_desc:0 ""
+
+ BBB_Repair_What_They_Destroyed:0 "Repair what they Destroyed"
+ BBB_Repair_What_They_Destroyed_desc:0 ""
+
+ BBB_The_Factories_Of_Old:0 "The Factories of Old"
+ BBB_The_Factories_Of_Old_desc:0 ""
+
+ BBB_Salvage_What_Cant_Be_Repaired:0 "Salvage What Can't be Repaired"
+ BBB_Salvage_What_Cant_Be_Repaired_desc:0 ""
+
+ BBB_Support_The_Locals:0 "Support the locals"
+ BBB_Support_The_Locals_desc:0 "fight back bandits"
+
+ BBB_Housing_For_The_Capable:0 "Housing for the Capable"
+ BBB_Housing_For_The_Capable_desc:0 ""
+
+ BBB_Improve_the_Labour_Spirit:0 "Improve the Labour Spirit"
+ BBB_Improve_the_Labour_Spirit_desc:0 ""
+
+ BBB_Work_For_Survival:0 "Work for Survival"
+ BBB_Work_For_Survival_desc:0 ""
+
+ BBB_The_Weak_Shall_Perish:0 "The Weak Shall Perish Anyway"
+ BBB_The_Weak_Shall_Perish_desc:0 ""
+
+ BBB_The_Capable_Must_Be_Uplifted:0 "The Capable Must be Uplifted"
+ BBB_The_Capable_Must_Be_Uplifted_desc:0 ""
+
+ BBB_Reparations_To_The_Farmers:0 "Reparations to the Farmers"
+ BBB_Reparations_To_The_Farmers_desc:0 ""
+
+ BBB_Mines_And_Factory_Lines:0 "Mines and Factory lines"
+ BBB_Mines_And_Factory_Lines_desc:0 ""
+
+ BBB_A_Workplace_Ethos:0 "A Workplace Ethos"
+ BBB_A_Workplace_Ethos_desc:0 ""
+
+ BBB_Finishing_Touches:0 "Finishing Touches"
+ BBB_Finishing_Touches_desc:0 ""
+
+ BBB_A_Functioning_Economy:0 "A Functioning Economy"
+ BBB_A_Functioning_Economy_desc:0 ""
+
+ BBB_Address_Our_Pitiful_State:0 "Address our Pitiful State"
+ BBB_Address_Our_Pitiful_State_desc:0 ""
+
+ BBB_Purge_The_Corrupt:0 "Purge the Corrupt"
+ BBB_Purge_The_Corrupt_desc:0 ""
+
+ BBB_Purge_The_Rot:0 "Purge the Rot"
+ BBB_Purge_The_Rot_desc:0 ""
+
+ BBB_Purge_The_Incapable:0 "Purge the Incapable"
+ BBB_Purge_The_Incapable_desc:0 ""
+
+ BBB_A_Professional_Army:0 "A Professional Army"
+ BBB_A_Professional_Army_desc:0 ""
+
+ BBB_The_Strong_Will_Survive:0 "The Strong will Survive"
+ BBB_The_Strong_Will_Survive_desc:0 ""
+
+ BBB_The_Horde_Mechanized:0 "The Horde, Mechanized"
+ BBB_The_Horde_Mechanized_desc:0 ""
+
+ BBB_Mordakovs_Legacy:0 "Mordakov's Legacy"
+ BBB_Mordakovs_Legacy_desc:0 ""
+
+ BBB_Keep_Them_Around:0 "Keep them Around"
+ BBB_Keep_Them_Around_desc:0 ""
+
+ BBB_Out_With_The_Old:0 "Out with the Old"
+ BBB_Out_With_The_Old_desc:0 ""
+
+ BBB_The_New_Brigades:0 "The New Brigades"
+ BBB_The_New_Brigades_desc:0 ""
+
  ### Focus Tooltips ###
+ BBB_Against_Wolgastaat_tt:0 "§TThe effects of§! §Y'Against Wolgastaat'§! §Twill be strengthened!§!"
+ BBB_Commence_The_Black_Terror_tt:0 "§RWe have only just begun.§!"
+ BBB_Strike_from_the_Shadows_tt:0 "We will make a move to eliminate our rival and secure the future of the Black Brigades as ours."
  BBB_Teach_Them_To_Survive_tt:0 "§TSpawns three local§! §YBlack Brigade Recruit Units.§!"
  BBB_Close_The_Congress_tt:0 "§TIt is time to finally settle the score with Ankudinov...§!"
  BBB_Terror_Groups_tt:0 "§YThe norms of our new society based on Natural Selection are beginning to take hold.\nOur social laws will begin to change to reflect that.§!"
- BBB_Against_Wolgastaat_tt:0 "§TThe effects of 'Against Wolgastaat' will be strengthened!§!"
- BBB_Commence_The_Black_Terror_tt:0 "§RWe have only just begun.§!"
- BBB_Strike_from_the_Shadows_tt:0 "We will make a move to eliminate our rival and secure the future of the Black Brigades as ours."
  BBB_Raid_Ostland_tt:0 "§BWe will raid the neighboring§! §RReichskommisariat Ostland§! §Bto improve our§! §Lindustrial capabilities.§!"
  BBB_Raid_Ukraine_tt:0 "§BWe will raid the neighboring§! §RReichskommisariat Ukraine§! §Bto improve our§! §Lagricultural capabilities.§!"
+ BBB_Support_The_Locals_tt:0 "We will lose some money from our reserves."
 
  BBB_Unlock_SOTF_tt:0 "We will be able to §Vterrorize§! the local population in a new way!"
  
