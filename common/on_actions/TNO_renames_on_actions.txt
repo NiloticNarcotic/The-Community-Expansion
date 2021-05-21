@@ -3,6 +3,15 @@ on_actions = {
 	on_state_control_changed = {
 		effect = {
 			FROM.FROM = {	
+			
+					### CHI ###
+					if = {
+						limit = {
+							ROOT = {tag = CHI}
+						}
+					do_chinese_renames = yes
+					}	
+					
 					### FRA ###
 					if = {
 						limit = {
@@ -36,6 +45,15 @@ on_actions = {
 						}
 					do_russian_renames = yes
 					}
+					
+					### YUG ###
+					if = {
+						limit = {
+							ROOT = {tag = YUG}
+						}
+					do_yugoslavian_renames = yes
+					}
+					
 			}
 		}
 	}

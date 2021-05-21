@@ -1464,3 +1464,584 @@ do_russian_renames = {
 		}
 	}
 }
+
+
+do_yugoslavian_renames = {
+
+	if = {
+		limit = {
+			state = 163
+		}	
+		set_state_name = "Jadraska"
+		set_province_name = {
+			id = 11816
+			name = "Hvar"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 116
+		}	
+		set_state_name = "Rijeka"
+		set_province_name = {
+			id = 11595
+			name = "Gorica"
+		}
+		set_province_name = {
+			id = 628
+			name = "Videm"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 771
+		}	
+		set_state_name = "Prekmurje"
+		set_province_name = {
+			id = 13363
+			name = "Murska Sobota"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 770
+		}	
+		set_state_name = "Štajerska"
+		set_province_name = {
+			id = 665
+			name = "Maribor"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 102
+		}	
+		set_state_name = "Koroška"
+		set_province_name = {
+			id = 9627
+			name = "Ljubljana"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 736
+		}	
+		set_state_name = "Julijska krajina"
+		set_province_name = {
+			id = 11564
+			name = "Rijeka"
+		}
+		set_province_name = {
+			id = 599
+			name = "Trst"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 109
+		}	
+		set_state_name = Hrvatska
+		set_province_name = {
+			id = 11581
+			name = "Zagreb"
+		}
+		set_province_name = {
+			id = 3592
+			name = "Karlovac"
+		}
+		set_province_name = {
+			id = 3601
+			name = "Slunj"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1279
+		}	
+		set_state_name = Slavonija
+		set_province_name = {
+			id = 6647
+			name = "Osijek"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1293
+		}	
+		set_state_name = "Hrvatsko Primorje"
+	}
+
+	if = {
+		limit = {
+			state = 1280
+		}	
+		set_state_name = Dalmacija
+		set_province_name = {
+			id = 6889
+			name = "Dubrovnik"
+		}
+		set_province_name = {
+			id = 3924
+			name = "Split"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 103
+		}	
+		set_state_name = Zadar
+		set_province_name = {
+			id = 3943
+			name = "Zadar"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 104
+		}	
+		set_state_name = Bihać
+		set_province_name = {
+			id = 9586
+			name = "Bihać"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 104
+		}	
+		set_state_name = Bihać
+		set_province_name = {
+			id = 9586
+			name = "Bihać"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 746
+		}	
+		set_state_name = Hercegovina
+		set_province_name = {
+			id = 11845
+			name = "Mostar"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1278
+		}	
+		set_state_name = Vrbas
+		set_province_name = {
+			id = 9588
+			name = "Banja Luka"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1276
+		}	
+		set_state_name = Tuzla
+		set_province_name = {
+			id = 11574
+			name = "Tuzla"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1277
+		}	
+		set_state_name = Sarajevo
+		set_province_name = {
+			id = 11899
+			name = "Sarajevo"
+		}
+		set_province_name = {
+			id = 11872
+			name = "Konjic"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 44
+		}	
+		set_state_name = Durrës
+		set_province_name = {
+			id = 9914
+			name = "Durrës"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1294
+		}	
+		set_state_name = Gjirokastër
+		set_province_name = {
+			id = 11767
+			name = "Vlorë"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1295
+		}	
+		set_state_name = Elbasan
+		set_province_name = {
+			id = 14448
+			name = "Tiranë"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1326
+		}	
+		set_state_name = Kotor
+		set_province_name = {
+			id = 9821
+			name = "Kotor"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 745
+		}	
+		set_state_name = "Crna Gora"
+		set_province_name = {
+			id = 3896
+			name = "Podgorica"
+		}
+		set_province_name = {
+			id = 9809
+			name = "Cetinje"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1271
+		}	
+		set_state_name = Vardar
+		set_province_name = {
+			id = 974
+			name = "Bitola"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 106
+		}	
+		set_state_name = Skopje
+		set_province_name = {
+			id = 3882
+			name = "Skopje"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 105
+		}	
+		set_state_name = Kosovë
+		set_province_name = {
+			id = 9849
+			name = "Prishtinë"
+		}
+		set_province_name = {
+			id = 833
+			name = "Dibër"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 45
+		}	
+		set_state_name = Vojvodina
+		set_province_name = {
+			id = 9621
+			name = "Subotica"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 969
+		}	
+		set_state_name = Srijem
+		set_province_name = {
+			id = = 11580
+			name = "Ruma"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 968
+		}	
+		set_state_name = Pancevo
+	}
+
+	if = {
+		limit = {
+			state = 1274
+		}	
+		set_state_name = Sabač
+		set_province_name = {
+			id = = 3609
+			name = "Sabač"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1272
+		}	
+		set_state_name = Beograd
+		set_province_name = {
+			id = = 11586
+			name = "Beograd"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1273
+		}	
+		set_state_name = Arandelovac
+		set_province_name = {
+			id = = 11583
+			name = "Smederevo"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 107
+		}	
+		set_state_name = Valjevo
+		set_province_name = {
+			id = = 3984
+			name = "Čačak"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1275
+		}	
+		set_state_name = Raška
+		set_province_name = {
+			id = 6998
+			name = "Kruševac"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 108
+		}	
+		set_state_name = Niš
+		set_province_name = {
+			id = 11887
+			name = "Niš"
+		}
+	}
+}
+
+
+do_chinese_renames = {
+
+	if = {
+		limit = {
+			state = 812
+		}	
+		set_state_name = Qingdao
+		set_province_name = {
+			id = 10000
+			name = "Qingdao"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1022
+		}	
+		set_state_name = Yantai
+		set_province_name = {
+			id = 1200
+			name = "Yantai"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 811
+		}	
+		set_state_name = Yantai
+		set_province_name = {
+			id = 4205
+			name = "Weihai"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 813
+		}	
+		set_state_name = Shanghai
+		set_province_name = {
+			id = 10076
+			name = "Wuxi"
+		}
+		set_province_name = {
+			id = 4042
+			name = "Hangzhou"
+		}
+		set_province_name = {
+			id = 7014
+			name = "Shanghai"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 524
+		}	
+		set_state_name = Taiwan
+		set_province_name = {
+			id = 7186
+			name = "Taibei"
+		}
+		set_province_name = {
+			id = 11959
+			name = "Taizhong"
+		}
+		set_province_name = {
+			id = 12068
+			name = "Gaoxiong"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 593
+		}	
+		set_state_name = Guangdong
+		set_province_name = {
+			id = 9938
+			name = "Shantou"
+		}
+		set_province_name = {
+			id = 7067
+			name = "Lufeng"
+		}
+		set_province_name = {
+			id = 1202
+			name = "Baitang"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 326
+		}	
+		set_state_name = Xianggang
+		set_province_name = {
+			id = 10062
+			name = "Xianggang"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 592
+		}	
+		set_state_name = Guangzhou
+		set_province_name = {
+			id = 1047
+			name = "Guangzhou"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 729
+		}	
+		set_state_name = Aomen
+		set_province_name = {
+			id = 4189
+			name = "Aomen"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1017
+		}	
+		set_state_name = "Guangdong Sheng"
+		set_province_name = {
+			id = 9963
+			name = "Yangjiang"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 591
+		}	
+		set_state_name = "Hainan Dao"
+		set_province_name = {
+			id = 11981
+			name = "Zangjiang"
+		}
+		set_province_name = {
+			id = 1070
+			name = "Haikou"
+		}
+		set_province_name = {
+			id = 994
+			name = "Sanya"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 810
+		}	
+		set_state_name = "Dalian"
+		set_province_name = {
+			id = 1150
+			name = "Dalian"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 809
+		}	
+		set_state_name = "Haishenwai"
+		set_province_name = {
+			id = 957
+			name = "Haishenwai"
+		}
+	}
+}
