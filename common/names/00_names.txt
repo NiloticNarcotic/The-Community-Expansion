@@ -3200,6 +3200,48 @@ VEN = {
 	}
 	callsigns = { }
 }
+
+#Moskowien#
+
+PET = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+RSB = {
+	male = {
+		names = {
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+			Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = {
+		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+		Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+		Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+		Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
 PSK = {
 	male = {
 		names = {  
@@ -3217,3 +3259,172 @@ PSK = {
 		}
 	callsigns = { }
 }
+
+MOS = {
+	male = {
+		names = {
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+			Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yezvgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = {
+		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+		Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+		Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+		Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+BSB = {
+	male = {
+		names = {
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+			Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = {
+		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+		Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+		Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+		Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+SMO = {
+	male = {
+		names = {
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+			Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = {
+		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+		Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+		Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+		Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+ORL = {
+	male = {
+		names = {
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+			Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = {
+		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+		Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+		Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+		Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+PEN = {
+	male = {
+		names = {  
+			Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { }
+}
+
+VNH = {
+	male = {
+		names = {
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+			Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = {
+		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+		Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+		Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+		Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+VLG = {
+	male = {
+		names = {  
+			Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { }
+}
+
+BBB = {
+	male = {
+		names = {
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+			Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = {
+		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+		Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+		Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+		Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+	

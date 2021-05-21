@@ -11583,7 +11583,9 @@ ideas = {
 		}
 	}
 
+	#############################
 	### Basegi Black Brigades ###
+	#############################
 	head_of_government = {
 		BBB_Vasily_Mordakov_hog = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Vasily_Mordakov_hog"}
@@ -11601,25 +11603,6 @@ ideas = {
 			ledger = civilian
 		}
 	}
-
-	economy_minister = {
-		BBB_Vasily_Buzulutsky_eco = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Vasily_Buzulutsky_eco"}
-			allowed = { original_tag = BBB }
-			picture = "BBB_minister_Vasily_Buzulutsky_eco"
-			available = {
-
-			}
-			traits = {
-				economy_minister
-				despotism
-				eco_pillager
-			}
-			cancel_if_invalid = no
-			ledger = civilian
-		}
-	}
-
 	foreign_minister = {
 		BBB_Ivan_Yezhov_for = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Ivan_Yezhov_for"}
@@ -11637,7 +11620,23 @@ ideas = {
 			ledger = civilian
 		}
 	}
+	economy_minister = {
+		BBB_Vladimir_Ankudinov_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Vladimir_Ankudinov_eco"}
+			allowed = { original_tag = BBB }
+			picture = "BBB_minister_Vladimir_Ankudinov_eco"
+			available = {
 
+			}
+			traits = {
+				economy_minister
+				despotism
+				eco_political_appointment
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
 	security_minister = {
 		BBB_Soslanbek_Apayev_sec = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Soslanbek_Apayev_sec"}
@@ -11655,6 +11654,129 @@ ideas = {
 			ledger = civilian
 		}
 	}
+
+	# BBB reformist ministers #
+	head_of_government = {
+		BBB_Vladimir_Ankudinov_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Vladimir_Ankudinov_hog"}
+			allowed = { original_tag = BBB }
+			picture = "BBB_minister_Vladimir_Ankudinov_hog"
+			available = {
+
+			}
+			traits = {
+				head_of_government
+				fascism
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		BBB_Yuri_Nefedov_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Yuri_Nefedov_for"}
+			allowed = { original_tag = BBB }
+			picture = "BBB_minister_Yuri_Nefedov_for"
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+				fascism
+				for_fierce_negotiator
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		BBB_Viktor_Chernyshevsky_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Viktor_Chernyshevsky_eco"}
+			allowed = { original_tag = BBB }
+			picture = "BBB_minister_Viktor_Chernyshevsky_eco"
+			available = {
+
+			}
+			traits = {
+				economy_minister
+				fascism
+				eco_big_spender
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		BBB_Boris_Krasilovsky_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Boris_Krasilovsky_sec"}
+			allowed = { original_tag = BBB }
+			picture = "BBB_minister_Boris_Krasilovsky_sec"
+			available = {
+
+			}
+			traits = {
+				security_minister
+				fascism
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	#Basegi Other Minsters#
+	economy_minister = {
+		BBB_Vasily_Buzulutsky_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Vasily_Buzulutsky_eco"}
+			allowed = { original_tag = BBB }
+			picture = "BBB_minister_Vasily_Buzulutsky_eco"
+			available = {
+
+			}
+			traits = {
+				economy_minister
+				despotism
+				eco_pillager
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		BBB_Rudolf_Oganov_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Rudolf_Oganov_for"}
+			allowed = { original_tag = BBB }
+			picture = "BBB_minister_Rudolf_Oganov_for"
+			available = {
+
+			}
+			traits = {
+				foreign_minister
+				ultranational_socialism
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		BBB_Aslan_Usoyan_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BBB_Aslan_Usoyan_eco"}
+			allowed = { original_tag = BBB }
+			picture = "BBB_minister_Aslan_Usoyan_eco"
+			available = {
+
+			}
+			traits = {
+				economy_minister
+				ultranational_socialism
+				eco_mafia_boss
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+
 
 	### Moscow Autonomy ###
 	head_of_government = {

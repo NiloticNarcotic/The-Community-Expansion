@@ -3233,14 +3233,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/PSK/ministers/PSK_minister_Richard_Thomalla.dds"
 	}
 
+	#############################
 	### Basegi Black Brigades ###
+	#############################
 	spriteType = {
 		name = "GFX_idea_BBB_minister_Vasily_Mordakov_hog"
 		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Vasily_Mordakov.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_BBB_minister_Vasily_Buzulutsky_eco"
-		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Vasily_Buzulutsky.dds"
+		name = "GFX_idea_BBB_minister_Vladimir_Ankudinov_eco"
+		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Vladimir_Ankudinov.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_BBB_minister_Ivan_Yezhov_for"
@@ -3249,6 +3251,36 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_BBB_minister_Soslanbek_Apayev_sec"
 		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Soslanbek_Apayev.dds"
+	}
+	# Basegi reformist ministers #
+	spriteType = {
+		name = "GFX_idea_BBB_minister_Vladimir_Ankudinov_hog"
+		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Vladimir_Ankudinov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBB_minister_Yuri_Nefedov_for"
+		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Yuri_Nefedov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBB_minister_Viktor_Chernyshevsky_eco"
+		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Yuri_Nefedov.dds" #needs changing
+	}
+	spriteType = {
+		name = "GFX_idea_BBB_minister_Boris_Krasilovsky_sec"
+		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Boris_Krasilovsky.dds"
+	}
+	# Basegi other ministers #
+	spriteType = {
+		name = "GFX_idea_BBB_minister_Vasily_Buzulutsky_eco"
+		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Vasily_Buzulutsky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBB_minister_Rudolf_Oganov_for"
+		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Yuri_Nefedov.dds" #needs changing
+	}
+	spriteType = {
+		name = "GFX_idea_BBB_minister_Aslan_Usoyan_eco"
+		texturefile = "gfx/interface/ideas/BBB/ministers/BBB_minister_Aslan_Usoyan.dds"
 	}
 
 	### Oryol ###

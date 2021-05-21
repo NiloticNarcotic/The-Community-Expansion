@@ -768,8 +768,14 @@ country_event = {
 				ideology = fascism
 				popularity = 0.4
 			}
-			
 			load_focus_tree = { tree = basegi_reformists }
+		}
+
+		add_ideas = {
+			BBB_Vladimir_Ankudinov_hog
+			BBB_Yuri_Nefedov_for
+			BBB_Viktor_Chernyshevsky_eco
+			BBB_Boris_Krasilovsky_sec
 		}
 	}
 }

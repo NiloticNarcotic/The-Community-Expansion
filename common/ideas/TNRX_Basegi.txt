@@ -172,7 +172,7 @@ ideas = {
 		}		
 
 		BBB_Satans_Division = {
-			picture = MAR_Forced_Syncretism
+			picture = BBB_idea_satans_division
 
 			allowed = {
 				always = no

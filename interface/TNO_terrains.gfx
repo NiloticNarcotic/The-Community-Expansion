@@ -709,4 +709,14 @@ spriteTypes = {
 		name = "GFX_terrain_torino_winter"
 		textureFile = "gfx/interface/terrains/terrain_city_torino_winter.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_terrain_moskau"
+		textureFile = "gfx/interface/terrains/terrain_city_moskau.dds"
+	}
+
+	spriteType = {
+		name = "GFX_terrain_moskau_winter"
+		textureFile = "gfx/interface/terrains/terrain_city_moskau_winter.dds"
+	}
 }

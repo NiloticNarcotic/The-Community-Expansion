@@ -14,7 +14,7 @@ add_ideas = {
 
 	### Ministers ###
 	BBB_Vasily_Mordakov_hog
-	BBB_Vasily_Buzulutsky_eco
+	BBB_Vladimir_Ankudinov_eco
 	BBB_Soslanbek_Apayev_sec
 	BBB_Ivan_Yezhov_for
 

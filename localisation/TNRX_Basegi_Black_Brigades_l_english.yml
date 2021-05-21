@@ -38,9 +38,19 @@
  
  ### Ministers ###
  BBB_Vasily_Mordakov_hog:0 "Vasily Mordakov"
- BBB_Vasily_Buzulutsky_eco:0 "Vasily Buzulutsky"
- BBB_Soslanbek_Apayev_sec:0 "Soslanbek Apayev"
  BBB_Ivan_Yezhov_for:0 "Ivan Yezhov"
+ BBB_Vladimir_Ankudinov_eco:0 "Vladimir Ankudinov"
+ BBB_Soslanbek_Apayev_sec:0 "Soslanbek Apayev"
+
+ BBB_Vladimir_Ankudinov_hog:0 "Vladimir Ankudinov"
+ BBB_Yuri_Nefedov_for:0 "Yuri Nefedov"
+ BBB_Viktor_Chernyshevsky_eco:0 "Viktor Chernyshevsky"
+ BBB_Boris_Krasilovsky_sec:0 "Boris Krasilovsky"
+
+ BBB_Aslan_Usoyan_eco:0 "Aslan Usoyan"
+
+ BBB_Vasily_Buzulutsky_eco:0 "Vasily Buzulutsky"
+ BBB_Rudolf_Oganov_for:0 "Rudolf Oganov"
  
  ### DECISIONS ###
  
@@ -528,7 +538,7 @@
  BBB_The_New_Brigades:0 "The New Brigades"
  BBB_The_New_Brigades_desc:0 ""
 
- ### Focus Tooltips ###
+ ### Tooltips ###
  BBB_Against_Wolgastaat_tt:0 "§TThe effects of§! §Y'Against Wolgastaat'§! §Twill be strengthened!§!"
  BBB_Commence_The_Black_Terror_tt:0 "§RWe have only just begun.§!"
  BBB_Strike_from_the_Shadows_tt:0 "We will make a move to eliminate our rival and secure the future of the Black Brigades as ours."
@@ -540,6 +550,8 @@
  BBB_Support_The_Locals_tt:0 "We will lose some money from our reserves."
 
  BBB_Unlock_SOTF_tt:0 "We will be able to §Vterrorize§! the local population in a new way!"
+
+ BBB_minster_usoyan_tt:0 "Will prevent a Mafia Takeover!"
  
  ### Country Events ### ### Country Events ### ### Country Events ###
  ### Country Events ### ### Country Events ### ### Country Events ###

@@ -303,8 +303,8 @@ shared_focus = {
 				}
 				is_core_of = VLG
 			}
+			add_resistance = -20
 		}
-		add_resistance = -20
 	}
 }
 
@@ -1518,10 +1518,12 @@ shared_focus = {
 	completion_reward = {
 		add_popularity = {
 			ideology = ultranational_socialism
-			popularity = 0.06
+			popularity = 0.04
 		}
 		add_political_power = -50
-		########Replaces 2 or 3 advisors
+		add_ideas = {
+			BBB_Rudolf_Oganov_for
+		}
 	}
 }
 
@@ -1589,6 +1591,10 @@ shared_focus = {
 		tno_Political_Parties_worsen = yes
 		hidden_effect = {
 			remove_ideas = BBB_Reformists_Congress
+
+			add_ideas = {
+				BBB_Vasily_Buzulutsky_eco
+			}
 		}
 	}
 }

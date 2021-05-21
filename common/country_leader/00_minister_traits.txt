@@ -803,6 +803,13 @@ leader_traits = {
 		political_power_gain = -0.2
 	}
 
+	eco_mafia_boss = { #Aslan Usoyan
+	random = no
+	occupation_cost = -0.1
+	consumer_goods_factor = 0.08
+	industrial_capacity_factory = -0.05
+	}
+
 	########################################
 	## FOREIGN MINISTERS
 	########################################
