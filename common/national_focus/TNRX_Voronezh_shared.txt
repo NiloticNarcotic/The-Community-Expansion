@@ -1,186 +1,134 @@
-#####################################################################################################################
-####### VORONEZH FOCI ####### VORONEZH FOCI ####### VORONEZH FOCI ####### VORONEZH FOCI ####### VORONEZH FOCI ####### 
-#####################################################################################################################
-
-#####################################################################################################################
-####### VORONEZH INITIAL ####### VORONEZH INITIAL ####### VORONEZH INITIAL ####### VORONEZH INITIAL #################
-#####################################################################################################################
 
 
-shared_focus = {# The First Council Meeting
-	id = VNH_The_First_Council_Meeting
+### Voronezh Initial ###
+shared_focus = {
+	id = VNH_the_first_council_meeting
 	icon = GFX_GER_convene_the_parties
+	cancel_if_invalid = yes
+	available_if_capitulated = no
 	cost = 1
-	completion_reward = {
-		country_event = {
-			id = VNH_initial.1 # Rainy Day In Voronezh
-			days = 1
-		}
-	}
-	x = 5
+	
+	x = 6
 	y = 0
-}
-    
-shared_focus = {# The Reformer
-	id = VNH_The_Reformer
-	icon = GFX_VNH_the_reformer
-	prerequisite = {
-		focus = VNH_The_First_Council_Meeting
-	}
-	icon = GFX_GER_convene_the_parties
-	cost = 1
+
 	completion_reward = {
 		country_event = {
-			id = VNH_initial.2
+			id = VNH_initial.1 #Rainy Day In Voronezh
 			days = 1
 		}
-		add_stability = 0.01
 	}
-	x = 5
-	y = 1
 }
-    
-shared_focus = {# The Artisan
-	id = VNH_The_Artisan
-	icon = GFX_VNH_the_artisan
+
+shared_focus = {
+	id = VNH_a_government_for_stability
+	icon = GFX_TNRX_VNH_a_government_for_stability
+	cancel_if_invalid = yes
+	available_if_capitulated = no
 	cost = 1
+
 	prerequisite = {
-		focus = VNH_The_First_Council_Meeting
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH_initial.3 
-			days = 1
-		}
-		add_political_power = 5
-	}
-	x = 3
-	y = 1
-}
-	
-shared_focus = {# The Oligarch
-	id = VNH_The_Oligarch
-	icon = GFX_VNH_the_oligarch
-	cost = 1
-	prerequisite = {
-		focus = VNH_The_First_Council_Meeting
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH_initial.4
-			days = 1
-		}
-	add_political_power = 10
-	}
-	x = 7
-	y = 1
-}
-	
-shared_focus = {# The Factory Owners
-	id = VNH_The_Factory_Owners
-	icon = GFX_VNH_the_factory_owners
-	cost = 1
-	
-	prerequisite = {
-		focus = VNH_The_First_Council_Meeting
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH_initial.5
-			days = 1
-		}
-	add_political_power = 15
-	}
-	x = 9
-	y = 1
+		focus = VNH_the_first_council_meeting
 	}
 	
-shared_focus = {# The Defender
-	id = VNH_The_Defender
-	icon = GFX_VNH_the_defender
-	cost = 1
-	prerequisite = {
-		focus = VNH_The_First_Council_Meeting
-	}
+	x = 6
+	y = 1
+
 	completion_reward = {
+		add_stability = 0.05
+		add_political_power = -20
 		country_event = {
-			id = VNH_initial.6
+			id = VNH_initial.2 #An Uncscrupulous Meeting
 			days = 1
 		}
-	add_war_support = 0.05
 	}
+}
+
+shared_focus = {
+	id = VNH_bulganins_ideas
+	icon = GFX_TNRX_VNH_bulganin
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+
+	prerequisite = {
+		focus = VNH_a_government_for_stability
+	}
+
 	x = 1
-	y = 1
-}
-	
-shared_focus = {# A Government For Stability
-		id = VNH_A_Government_For_Stability
-		icon = GFX_PRM_Beneath_The_Hooked_Cross
-		cost = 1
-
-		prerequisite = {
-			focus = VNH_The_Artisan
-		}
-		
-		prerequisite = {
-			focus = VNH_The_Factory_Owners
-		}
-		
-		prerequisite = {
-			focus = VNH_The_Reformer
-		}
-		
-		prerequisite = {
-			focus = VNH_The_Oligarch
-		}
-		
-		prerequisite = {
-			focus = VNH_The_Defender
-		}
-
-		completion_reward = {
-			country_event = {
-				id = VNH_initial.2 #An Uncscrompulous Meeting
-				days = 1
-			}
-			add_stability = 0.05
-			add_political_power = -20
-		}
-		x = 5
-		y = 2
-	}
-	
-shared_focus = {# Bulganins ideas
-	id = VNH_Bulganins_ideas
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 1
-	
-	prerequisite = {
-		focus = VNH_A_Government_For_Stability
-	}
+	y = 2
 	
 	completion_reward = {
+		add_manpower = 2500
 		country_event = {
 			id = VNH_initial.8
 			days = 1
 		}
-		add_manpower = 2500
 	}
-	x = -1
-	y = 3
 }
-	
-shared_focus = {# Refused
-	id = VNH_Refused
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+
+shared_focus = {
+	id = VNH_savvinas_altruism
+	icon = GFX_TNRX_VNH_savvinna
+	cancel_if_invalid = yes
+	available_if_capitulated = no
 	cost = 1
 	
 	prerequisite = {
-		focus = VNH_Bulganins_ideas
+		focus = VNH_a_government_for_stability
+	}
+
+	x = 6
+	y = 3
+	
+	completion_reward = {
+		add_political_power = -10
+		country_event = {
+			id = VNH_initial.11
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_putins_demands
+	icon = GFX_TNRX_VNH_putin
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+	
+	prerequisite = {
+		focus = VNH_a_government_for_stability
+	}
+
+	x = 11
+	y = 2
+	
+	completion_reward = {
+		add_political_power = -20
+		country_event = {
+			id = VNH_initial.12
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_refuse_to_bend_to_bulganin
+	icon = GFX_TNRX_VNH_refuse_to_bend_to_bulganin
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+	
+	prerequisite = {
+		focus = VNH_bulganins_ideas
 	}
 	mutually_exclusive = {
-	    focus = VNH_A_Need_For_Strength
+	    focus = VNH_a_need_for_strength
 	}
+
+	x = 0
+	y = 3
+
 	completion_reward = {
 	    add_war_support = -0.1
 		country_event = {
@@ -188,18 +136,47 @@ shared_focus = {# Refused
 			days = 1
 		}
 	}
-	x = -3
-	y = 4
 }
-	
-shared_focus = {# Focus On Light Industry
-	id = VNH_Focus_On_Light_Industry
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+
+shared_focus = {
+	id = VNH_a_need_for_strength
+	icon = GFX_TNRX_VNH_a_need_for_strength
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+
+	prerequisite = {
+		focus = VNH_bulganins_ideas
+	}
+	mutually_exclusive = {
+		focus = VNH_refuse_to_bend_to_bulganin
+	}
+
+	x = 2
+	y = 3
+
+	completion_reward = {
+		add_manpower = 1000
+		country_event = {
+			id = VNH_initial.3	#Suprise Inspection
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_focus_on_light_industry
+	icon = GFX_TNRX_VNH_focus_on_light_industry
+	cancel_if_invalid = yes
+	available_if_capitulated = no
 	cost = 1
 	
 	prerequisite = {
-		focus = VNH_Refused
+		focus = VNH_refuse_to_bend_to_bulganin
 	}
+
+	x = -1
+	y = 5
 	
 	completion_reward = {
 		260 = {
@@ -211,1582 +188,268 @@ shared_focus = {# Focus On Light Industry
 			add_extra_state_shared_building_slots = 2
 		}
 		hidden_effect = {
-			country_event = { id = VNH_initial.10 days = 2 }
-		}	
+			country_event = { 
+				id = VNH_initial.10 
+				days = 2 
+			}
+		}
 	}
-	x = -3
+}
+
+shared_focus = {
+	id = VNH_a_new_training_programme
+	icon = GFX_TNRX_VNH_a_new_training_programme
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+
+	prerequisite = {
+		focus = VNH_a_need_for_strength
+	}
+
+	x = 3
 	y = 5
-}
-	
-shared_focus = {# Savvinas Altruism
-	id = VNH_Savvinas_Altruism
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 1
-	
-	prerequisite = {
-		focus = VNH_A_Government_For_Stability
-	}
-	
+
 	completion_reward = {
+		tno_training_improve = yes
 		country_event = {
-			id = VNH_initial.11
+			id = VNH_initial.5	#Brotherhood of Comrades 
 			days = 1
 		}
-		add_political_power = -10
 	}
-	x = 5
-	y = 3
 }
-	
-shared_focus = {# Putin's Demands
-	id = VNH_Putins_Demands
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 1
-	
-	prerequisite = {
-		focus = VNH_A_Government_For_Stability
-	}
-	
-	completion_reward = {
-		country_event = {
-			id = VNH_initial.12
-			days = 1
-		}
-		add_political_power = -20
-		
-	}
-	x = 11
-	y = 3
-	}
-	
-shared_focus = {# Compensate Lukins Oligarchs
-	id = VNH_Compensate_Lukins_Oligarchs
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+
+shared_focus = {
+	id = VNH_turn_to_lukin
+	icon = GFX_TNRX_VNH_lukin
+	cancel_if_invalid = yes
+	available_if_capitulated = no
 	cost = 1
 	
 	mutually_exclusive = {
-	    focus = VNH_Revitalise_The_South_Eastern_Railway
+	    focus = VNH_token_promises
 	}
-	
 	prerequisite = {
-		focus = VNH_Putins_Demands
+		focus = VNH_savvinas_altruism
 	}
+
+	x = 4
+	y = 4
 	
 	completion_reward = {
+		TNO_improve_industrial_equipment_low = yes
+		add_political_power = 10
+	}
+}
+
+shared_focus = {
+	id = VNH_token_promises
+	icon = GFX_TNRX_VNH_Token_Promises
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+
+	prerequisite = {
+		focus = VNH_savvinas_altruism
+	}
+	mutually_exclusive = {
+		focus = VNH_turn_to_lukin
+	}
+
+	x = 8
+	y = 4
+
+	completion_reward = {
+		tno_trade_unions_improve = yes
+		add_political_power = 10
+	}
+}
+
+shared_focus = {
+	id = VNH_eradicate_this_nonsense
+	icon = GFX_TNRX_VNH_eradicate_this_nonsense
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+	
+	prerequisite = {
+		focus = VNH_turn_to_lukin
+	}
+	
+	x = 4
+	y = 6
+	
+	completion_reward = {
+		TNO_worsen_poverty_low = yes
+	}
+}
+
+shared_focus = {
+	id = VNH_but_not_too_much
+	icon = GFX_Generic_Business
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+
+	prerequisite = {
+		focus = VNH_token_promises
+	}
+
+	x = 8
+	y = 6
+
+	completion_reward = {
+		add_stability = 0.05
+		country_event = {
+			id = VNH_initial.6	#An Unfortunate Sacrifice
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_revitalise_the_south_eastern_railway
+	icon = GFX_TNRX_VNH_revitalize_the_southwestern_railway
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+	
+	prerequisite = {
+		focus = VNH_putins_demands
+	}
+	mutually_exclusive = {
+		focus = VNH_compensate_the_oligarchs
+	}
+
+	x = 10
+	y = 3
+
+	completion_reward = {
+		country_event = {
+			id = VNH_initial.4	#Voronezh-1
+			days = 1
+		}
+		random_owned_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_compensate_the_oligarchs
+	icon = GFX_TNRX_VNH_compensate_the_oligarchs
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+	
+	mutually_exclusive = {
+	    focus = VNH_revitalise_the_south_eastern_railway
+	}
+	prerequisite = {
+		focus = VNH_putins_demands
+	}
+
+	x = 12
+	y = 3
+	
+	completion_reward = {
+		tno_tax_rate_worsen = yes
 		country_event = {
 			id = VNH_initial.13
 			days = 1
 		}
-		tno_tax_rate_worsen = yes
 	}
-	x = 13
-	y = 4
+}
+
+shared_focus = {
+	id = VNH_stimulate_the_economy
+	icon = GFX_TNRX_VNH_stimulate_the_economy
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 1
+
+	prerequisite = {
+		focus = VNH_revitalise_the_south_eastern_railway
 	}
-	
-shared_focus = {# Deregulate The Economy
-	id = VNH_Deregulate_The_Economy
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+
+	x = 9
+	y = 5
+
+	completion_reward = {
+		country_event = {
+			id = VNH_initial.7	#Igor's First Job
+			days = 1
+		}
+		add_stability = 0.05
+		swap_ideas = {
+			add_idea = VNH_Downfall_2
+			remove_idea = VNH_Downfall_1
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_fade_out_safety_laws
+	icon = GFX_CHI_Digging_deep
+	cancel_if_invalid = yes
+	available_if_capitulated = no
 	cost = 1
 	
 	prerequisite = {
-		focus = VNH_Compensate_Lukins_Oligarchs
+		focus = VNH_compensate_the_oligarchs
 	}
 	
+	x = 13
+	y = 5
+
 	completion_reward = {
+		add_political_power = -15
+		TNO_worsen_industrial_expertise_low = yes
 		country_event = {
 			id = VNH_initial.14
 			days = 1
 		}
-		add_political_power = -15
-		TNO_worsen_industrial_expertise_low = yes
 	}
-	x = 13
-	y = 5
-	}
-	
-shared_focus = {# A Need For Strength
-		id = VNH_A_Need_For_Strength
-		icon = GFX_VNH_strong_goverment
-		cost = 1
+}
 
-		prerequisite = {
-			focus = VNH_Bulganins_ideas
-		}
-
-		mutually_exclusive = {
-			focus = VNH_Refused
-		}
-
-		completion_reward = {
-			country_event = {
-				id = VNH_initial.3	#Suprise Inspection
-				days = 1
-			}
-			add_manpower = 1000
-		}
-		x = 1
-		y = 4
-	}
-	
-shared_focus = {# Token Promises
-		id = VNH_Token_Promises
-		icon = GFX_PRM_Beneath_The_Hooked_Cross
-		cost = 1
-
-		prerequisite = {
-			focus = VNH_Savvinas_Altruism
-		}
-		mutually_exclusive = {
-			focus = VNH_Turn_To_Lukin
-		}
-
-		completion_reward = {
-			tno_trade_unions_improve = yes
-			add_political_power = 10
-		}
-		x = 7
-		y = 4
-	}
-	
-shared_focus = {# Token Promises
-	id = VNH_Turn_To_Lukin
-	icon = GFX_VNH_Token_Promises
-	cost = 1
-	
-	mutually_exclusive = {
-	    focus = VNH_Token_Promises
-	}
-	
-	prerequisite = {
-		focus = VNH_Savvinas_Altruism
-	}
-	
-	completion_reward = {
-	TNO_improve_industrial_equipment_low = yes
-		add_political_power = 10
-	}
-	x = 3
-	y = 4
-	}
-	
 shared_focus = {
-	id = VNH_Eradicate_The_Disease
-	icon = GFX_VNH_Token_Promises
-	cost = 1
-	
-	
-	prerequisite = {
-		focus = VNH_Turn_To_Lukin
-	}
-	
-	completion_reward = {
-		TNO_worsen_poverty_low = yes
-		industrial_capacity_factory = 0.1
-	}
-	x = 3
-	y = 5
-	}
-	
-shared_focus = {
-		id = VNH_Revitalise_The_South_Eastern_Railway
-		icon = GFX_VNH_Revitalise_Railway
-		cost = 1
-		
-		prerequisite = {
-			focus = VNH_Putins_Demands
-		}
-		mutually_exclusive = {
-			focus = VNH_Compensate_Lukins_Oligarchs
-		}
-
-		completion_reward = {
-			country_event = {
-				id = VNH_initial.4	#Voronezh-1
-				days = 1
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-		x = 9
-		y = 4
-	}
-	
-shared_focus = {# New Training Programme
-		id = VNH_A_New_Training_Programme
-		icon = GFX_PRM_Beneath_The_Hooked_Cross
-		cost = 1
-
-		prerequisite = {
-			focus = VNH_A_Need_For_Strength
-		}
-
-		completion_reward = {
-			country_event = {
-				id = VNH_initial.5	#Brotherhood of Comrades 
-				days = 1
-			}
-			tno_training_improve = yes
-		}
-		x = 1
-		y = 5
-	}
-	
-shared_focus = {# But Not Too Much
-		id = VNH_But_Not_Too_Much
-		icon = GFX_VNH_But_not_too_much
-		cost = 1
-
-		prerequisite = {
-			focus = VNH_Token_Promises
-		}
-
-		completion_reward = {
-			country_event = {
-				id = VNH_initial.6	#An Unfortunate Sacrifice
-				days = 1
-			}
-			add_stability = 0.05
-		}
-		x = 7
-		y = 5
-	}
-	
-shared_focus = {# Stimulate The Economy
-		id = VNH_Stimulate_the_economy
-		icon = GFX_VNH_Stimulate_The_Economy
-		cost = 1
-
-		prerequisite = {
-			focus = VNH_Revitalise_The_South_Eastern_Railway
-		}
-
-		completion_reward = {
-			country_event = {
-				id = VNH_initial.7	#Igor's First Job
-				days = 1
-			}
-			add_stability = 0.05
-			swap_ideas = {
-				add_idea = VNH_Downfall_2
-				remove_idea = VNH_Downfall_1
-			}
-		}
-		x = 9
-		y = 5
-	}
-
-shared_focus = {# The People Content
-	id = VNH_The_people_content
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	id = VNH_the_people_content
+	icon = GFX_TNRX_VNH_The_People_Content
+	cancel_if_invalid = yes
+	available_if_capitulated = no
 	cost = 1
 
 	prerequisite = {
-		focus = VNH_Stimulate_the_economy
-		focus = VNH_Deregulate_The_Economy
+		focus = VNH_stimulate_the_economy
+		focus = VNH_fade_out_safety_laws
 	}
 	prerequisite = {
-		focus = VNH_But_Not_Too_Much
-		focus = VNH_Eradicate_The_Disease
+		focus = VNH_but_not_too_much
+		focus = VNH_eradicate_this_nonsense
 	}
 	prerequisite = {
-		focus = VNH_A_New_Training_Programme
-		focus = VNH_Focus_On_Light_Industry
+		focus = VNH_a_new_training_programme
+		focus = VNH_focus_on_light_industry
 	}
+
+	x = 6
+	y = 7
 
 	completion_reward = {
 		country_event = {
 			id = VNH_initial.8	#A Good Enough Drink
 			days = 1
 		}
-	}
-	x = 5
-	y = 6
-}
-
-#####################################################################################################################
-####### VORONEZH TREE TWO ####### VORONEZH TREE TWO ####### VORONEZH TREE TWO ####### VORONEZH TREE TWO #############
-##################################################################################################################### 
-#####################################################################################################################
-####### VORONEZH TREE TWO ####### VORONEZH TREE TWO ####### VORONEZH TREE TWO ####### VORONEZH TREE TWO #############
-##################################################################################################################### 
-
-
-
-shared_focus = { # The Council Reconvenes
-	id = VNH_council_reconvenes
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	completion_reward = {
-		country_event = {
-			id = VNH.1 # Report 063
-			days = 1
-		}
-		add_stability = 0.05
-	}
-	x = 8
-	y = 0
-}
-
-shared_focus = { # An Unfortunate Truth ######### NEED TO ADD TOOLTIP
-	id = VNH_unfortunate_truth
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_council_reconvenes
-	}
-
-	mutually_exclusive = {
-		focus = VNH_but_one_that_dosent_need_solving
-	}
-
-	completion_reward = {
-		country_event = {
-			id = VNH.2 # A Simple News Article
-			days = 1
-		}
-		VNH_Corruption_Lose_Medium = yes
-		tno_press_rights_improve = yes
-		VNH_corruption_anger_idea_variables = yes
-	}
-	x = 6
-	y = 1
-}
-
-shared_focus = { # But One that dosen't need solving ######### NEED TO ADD POPULARITY (LATER ON) AND TOOLTIP
-	id = VNH_but_one_that_dosent_need_solving
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_council_reconvenes
-	}
-
-	mutually_exclusive = {
-		focus = VNH_unfortunate_truth
-	}
-
-	completion_reward = {
-		country_event = {
-			id = VNH.3 # An Afternoon with the Industrialists
-			days = 1
-		}
-		VNH_Corruption_Add_Small = yes
-		VNH_Anger_Lose_Medium = yes
-		VNH_corruption_anger_idea_variables = yes
-		add_to_variable = {
-			var = VNH_industrialists_support
-			value = 10
-		}
-		add_to_variable = {
-			var = VNH_auth_dem_power
-			value = 10
-		}
-		custom_effect_tooltip = VNH_but_one_that_dosent_need_solving_tt
-	}
-	x = 10
-	y = 1
-}
-
-shared_focus = { # A Speech To the Masses
-	id = VNH_A_Speech_To_the_Masses
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_unfortunate_truth
-		focus = VNH_but_one_that_dosent_need_solving
-	}
-
-	completion_reward = {
-		country_event = {
-			id = VNH.4 # Gorbachev's Speech
-			days = 1
-		}
-		add_war_support = 0.1
-	}
-	x = 6
-	y = 2
-}
-
-shared_focus = { # Mobilize the Reserves
-	id = VNH_mobilize_the_reserves
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_unfortunate_truth
-		focus = VNH_but_one_that_dosent_need_solving
-	}
-
-	completion_reward = {
-		add_manpower = 10000
-	}
-	x = 10
-	y = 2
-}
-
-shared_focus = { # The final steps
-	id = VNH_the_final_steps
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_A_Speech_To_the_Masses
-	}
-	prerequisite = {
-		focus = VNH_mobilize_the_reserves
-	}
-
-	completion_reward = {
-		add_war_support = 0.1
-	}
-	x = 8
-	y = 3
-}
-
-shared_focus = { # Dig German Stockpiles
-	id = VNH_dig_german_stockpiles
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_A_Speech_To_the_Masses
-	}
-
-	completion_reward = {
-		add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 50
-				producer = MCW
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 2000
-				producer = MCW
-			}
-	}
-	x = 6
-	y = 4
-}
-
-shared_focus = { # The last conversation
-	id = VNH_the_last_conversation
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_mobilize_the_reserves
-	}
-
-	completion_reward = {
-		VNH_Corruption_Add_Small = yes
-		VNH_Anger_Lose_Large = yes
-		VNH_corruption_anger_idea_variables = yes
-		add_to_variable = {
-			var = VNH_industrialists_support
-			value = 20
-		}
-		add_to_variable = {
-			var = VNH_mark_lib_power
-			value = 5
-		}
-	}
-	x = 10
-	y = 4
-}
-
-shared_focus = { # NOW THE REAL WORK BEGINS
-	id = VNH_the_real_work_begins
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-	prerequisite = {
-		focus = VNH_the_final_steps
-	}
-	prerequisite = {
-		focus = VNH_dig_german_stockpiles
-	}
-	prerequisite = {
-		focus = VNH_the_last_conversation
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.5 # A late night at the Office
-			days = 1
-		}
-	}
-	x = 8
-	y = 5
-}
-
-#####################################################################################################################
-####### VORONEZH WAR TREE ####### VORONEZH WAR TREE ####### VORONEZH WAR TREE ####### VORONEZH WAR TREE #############
-##################################################################################################################### 
-#####################################################################################################################
-####### VORONEZH WAR TREE ####### VORONEZH WAR TREE ####### VORONEZH WAR TREE ####### VORONEZH WAR TREE #############
-##################################################################################################################### 
-
-shared_focus = { #The Reunification wars began
-	id = VNH_The_Reunification_wars_began
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-	available = {
-		VNH = {has_war = no}
-	}
-	bypass = {
-		always = yes
-	}
-	completion_reward = {
-		custom_effect_tooltip = VNH_The_Reunification_wars_began_tt
-	}
-	x = 10
-	y = 2
-}
-
-shared_focus = { #Going South
-	id = VNH_Going_South
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	relative_position_id = VNH_The_Reunification_wars_began
-	x = 3
-	y = 1
-
-	prerequisite = {
-		focus = VNH_The_Reunification_wars_began
-	}
-
-	available = { }
-	bypass = {
-		AND = {
-			NOT = {
-				country_exists = BBB
-				country_exists = VLG
-			}
-		}
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.6
-			days = 1
-		}
-	}
-}
-
-shared_focus = { #A German Volga no more
-	id = VNH_A_German_Volga_no_more
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Going_South
-	}
-
-	relative_position_id = VNH_Going_South
-	x = -1
-	y = 1
-
-	available = { }
-	bypass = {
-		NOT = {
-			country_exists = VLG
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.7
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = VLG
-			type = annex_everything
-		}
-	}
-}
-
-
-shared_focus = { #Long awaited justice
-	id = VNH_Long_awaited_justice
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Going_South
-	}
-	relative_position_id = VNH_Going_South
-	x = 1
-	y = 1
-
-	available = { }
-	bypass = {
-		NOT = {
-			country_exists = BBB
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.8
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = BBB
-			type = annex_everything
-		}
-	
-	}
-}
-
-shared_focus = { #Wolgstaat and Black brigade trials
-	id = VNH_Wolgstaat_and_Black_brigade_trials
-	icon = GFX_generic_show_trials
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_A_German_Volga_no_more
-	}
-	prerequisite = {
-		focus = VNH_Long_awaited_justice
-	}
-
-	relative_position_id = VNH_Long_awaited_justice
-	x = -1
-	y = 1
-
-	available = {
-		NOT = {
-			country_exists = BBB
-			country_exists = VLG
-		}
-	}
-	bypass = {
-		AND = {
-			NOT = {
-				owns_state = 217
-				owns_state = 401
-			}
-			NOT = {
-				country_exists = BBB
-				country_exists = VLG
-			}
-		}
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.9
-			days = 1
-		}
-		add_war_support = 0.02
-	}
-}
-
-
-shared_focus = { #The southern Campaign is finished.
-	id = VNH_The_southern_Campaign_is_finished
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Wolgstaat_and_Black_brigade_trials
-	}	
-
-	relative_position_id = VNH_Wolgstaat_and_Black_brigade_trials
-	x = 0
-	y = 1
-
-	available = {
-		owns_state = 217
-		owns_state = 401
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.10
-				days = 1
-			}
-		}
-		add_stability = 0.05
-		add_war_support = 0.1
-	}
-}
-
-
-shared_focus = { #Going North
-	id = VNH_Going_North
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_The_Reunification_wars_began
-	}
-
-	relative_position_id = VNH_The_Reunification_wars_began
-	x = -3
-	y = 1
-
-	available = { }
-	bypass = {
-		AND = {
-			NOT = {
-				country_exists = ORL
-				country_exists = PEN
-			}
-		}
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.11
-			days = 1
-		}
-	}
-}
-
-
-shared_focus = { #War for Oryol
-	id = VNH_War_for_Oryol
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Going_North
-	}
-
-	relative_position_id = VNH_Going_North
-	x = -1
-	y = 1
-
-	available = { }
-	bypass = {
-		NOT = {
-			country_exists = ORL
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.12
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = ORL
-			type = annex_everything
-		}
-	}
-}
-
-shared_focus = { #War for Penza
-	id = VNH_War_for_Penza
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Going_North
-	}
-
-	relative_position_id = VNH_Going_North
-	x = 1
-	y = 1
-
-	available = { }
-	bypass = {
-		NOT = {
-			country_exists = PEN
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.13
-				days = 1
-			}
-		}
-	   create_wargoal = {
-		target = PEN
-		type = annex_everything
-		}	
-	}
-}
-
-shared_focus = { #The Republics Pardons
-	id = VNH_The_Republics_pardons
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_War_for_Penza
-	}
-	prerequisite = {
-		focus = VNH_War_for_Oryol
-	}
-
-	relative_position_id = VNH_War_for_Penza
-	x = -1
-	y = 1
-
-	available = {
-		NOT = {
-			country_exists = ORL
-			country_exists = PEN
-		}
-	}
-	bypass = {
-		AND = {
-			NOT = {
-				owns_state = 222
-				owns_state = 255
-			}
-			NOT = {
-				country_exists = ORL
-				country_exists = PEN
-			}
-		}
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.14
-			days = 1
-		}
-		add_stability = 0.02
-	}
-}
-
-shared_focus = { #The Northern Campaign Is Finished
-	id = VNH_The_Northern_Campaign_Is_Finished
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_The_Republics_pardons
-	}
-
-	relative_position_id = VNH_The_Republics_pardons
-	x = 0
-	y = 1
-
-	available = {
-		owns_state = 222
-		owns_state = 255
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.15
-				days = 1
-			}
-		}
-		add_stability = 0.1
-		add_war_support = 0.05
-	}
-}
-
-shared_focus = { #Prepare for the true chaos that is the North
-	id = VNH_Prepare_for_the_true_chaos_that_is_the_North
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	relative_position_id = VNH_The_Northern_Campaign_Is_Finished
-	x = 3
-	y = 1
-
-	prerequisite = {
-		focus = VNH_The_Northern_Campaign_Is_Finished
-	}
-	prerequisite = {
-		focus = VNH_The_southern_Campaign_is_finished
-	}
-	available = { }
-	completion_reward = {
-		country_event = {
-			id = VNH.16
-			days = 1
-		}
-		add_stability = 0.1
-		add_war_support = 0.1
-	}
-}
-
-shared_focus = { #Deal with Smolensk
-	id = VNH_Deal_with_Smolensk
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-	focus = VNH_Prepare_for_the_true_chaos_that_is_the_North
-	}
-
-	relative_position_id = VNH_Prepare_for_the_true_chaos_that_is_the_North
-	x = -2
-	y = 1
-
-	available = { }
-	bypass = {
-		NOT = {
-			country_exists = SMO
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.17
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = SMO
-			type = annex_everything
-		}
-	}
-}
-
-shared_focus = { #More Pardons
-	id = VNH_More_pardons
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Deal_with_Smolensk
-	}
-
-	relative_position_id = VNH_Deal_with_Smolensk
-	x = 1
-	y = 1
-
-	available = {
-		NOT = {
-			country_exists = SMO
-		}
-	}
-	bypass = {
-		NOT = {
-			country_exists = SMO
-		}
-		NOT = {
-			owns_state = 242
-		}
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.18
-			days = 1
-		}
-		add_stability = 0.03
-	}
-}
-
-shared_focus = { #Destroy the cult
-	id = VNH_Destroy_the_cult
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Prepare_for_the_true_chaos_that_is_the_North
-	}
-	relative_position_id = VNH_Prepare_for_the_true_chaos_that_is_the_North
-	x = 2
-	y = 1
-	
-	available = {
-	}
-	bypass = {
-		NOT = {
-			country_exists = BSB
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.27
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = BSB
-			type = annex_everything
-		}
-	}
-}
-
-shared_focus = { #The Antikhrist unmasked
-	id = VNH_The_Antikhrist_unmasked
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Destroy_the_cult
-	}
-
-	relative_position_id = VNH_Destroy_the_cult
-	x = -1
-	y = 1
-
-	available = {
-		NOT = {
-			country_exists = BSB
-		}
-	}
-	bypass = {
-		NOT = {
-			country_exists = BSB
-		}
-		NOT = {
-			owns_state = 253
-		}
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.19
-			days = 1
-		}
-		add_war_support = 0.03
-	}
-}
-
-shared_focus = { #Liberate Moscow
-	id = VNH_Liberate_Moscow
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_The_Antikhrist_unmasked
-	}
-	prerequisite = {
-		focus = VNH_More_pardons
-	}
-
-	relative_position_id = VNH_The_Antikhrist_unmasked
-	x = -1
-	y = 1
-
-
-	available = {
-		NOT = {
-			country_exists = SMO
-			country_exists = BSB
-		}
-	}
-	bypass = {
-		NOT = {
-			country_exists = MOS
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.20
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = MOS
-			type = annex_everything
-		}
-	}
-}
-
-shared_focus = { #It's Moscow again
-	id = VNH_Its_Moscow_again
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 1
-
-	prerequisite = {
-		focus = VNH_Liberate_Moscow
-	}
-
-	relative_position_id = VNH_Liberate_Moscow
-	x = 0
-	y = 1
-
-	available = {
-		NOT = {
-			country_exists = MOS
-		}
-		owns_state = 219
-	}
-	completion_reward = {
-		custom_effect_tooltip = VNH_Its_Moscow_again_tt
-		hidden_effect = {
-			set_province_name = { id = 6380 name = "Moscow" }
-			219 = {
-				set_state_name = "Moscow"
-			}
-		}
-		add_political_power = 100
-		add_stability = 0.05
-	}
-}
-
-shared_focus = { #Expel the SS from Russia
-	id = VNH_Expel_the_SS_from_Russia
-	icon = GFX_generic_smash_nazi_symbols
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Liberate_Moscow
-	}
-
-	relative_position_id = VNH_Liberate_Moscow
-	x = -2
-	y = 1
-
-	available = {
-	}
-	bypass = {
-		NOT = {
-			country_exists = PSK
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.21
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = PSK
-			type = annex_everything
-		}
-		add_war_support = 0.025
-	}
-}
-
-shared_focus = { #Kick out the reds
-	id = VNH_Kick_out_the_reds
-	icon = GFX_generic_smash_communists
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Liberate_Moscow
-	}
-
-	relative_position_id = VNH_Liberate_Moscow
-	x = 2
-	y = 1
-
-	available = {
-	}
-	bypass = {
-		NOT = {
-			country_exists = RSB
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.22
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = RSB
-			type = annex_everything
-		}
-		add_war_support = 0.025
-	}
-}
-
-shared_focus = { #Kill the tyrants
-	id = VNH_Kill_the_tyrants
-	icon = GFX_generic_execute
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Expel_the_SS_from_Russia
-	}
-
-	relative_position_id = VNH_Expel_the_SS_from_Russia
-	x = 0
-	y = 1
-
-	bypass = {
-		AND = {
-			NOT = {
-				owns_state = 246
-				country_exists = PSK
-			}
-		}
-	}
-
-	available = {
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.23
-			days = 1
-		}
-		custom_effect_tooltip = VNH_Kill_the_tyrants_tt
-	}
-}
-
-shared_focus = { #Where did Mkhitar go?
-	id = VNH_Where_did_Mkhitar_go
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Kick_out_the_reds
-	}
-
-	relative_position_id = VNH_Kick_out_the_reds
-	x = 0
-	y = 1
-
-	available = {
-	}
-
-	bypass = {
-		AND = {
-			NOT = {
-				owns_state = 264
-				country_exists = RSB
-			}
-		}
-	}
-	completion_reward = {
-		country_event = {
-			id = VNH.24
-			days = 1
-		}
-		add_stability = 0.02
-	}
-}
-
-shared_focus = { #Liberation of St Petersburg
-	id = VNH_Liberation_of_St_Petersburg
-	icon = GFX_generic_smash_nazi_symbols
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Where_did_Mkhitar_go
-	}
-	prerequisite = {
-		focus = VNH_Kill_the_tyrants
-	}
-	prerequisite = {
-		focus = VNH_Its_Moscow_again
-	}
-
-	relative_position_id = VNH_Where_did_Mkhitar_go
-	x = -2
-	y = 1
-
-	available = {
-	}
-	bypass = {
-		NOT = {
-			country_exists = PET
-		}
-	}
-	completion_reward = {
-		hidden_effect = {
-			country_event = {
-				id = VNH.25
-				days = 1
-			}
-		}
-		create_wargoal = {
-			target = PET
-			type = annex_everything
-		}
-	}
-}
-
-shared_focus = { #It's St. Petersburg
-	id = VNH_Its_St_Petersburg
-	icon = GFX_generic_russian_eagle
-	cost = 1
-
-	prerequisite = {
-		focus = VNH_Liberation_of_St_Petersburg
-	}
-
-	relative_position_id = VNH_Liberation_of_St_Petersburg
-	x = 0
-	y = 1
-
-	available = {
-		owns_state = 195
-	}
-	completion_reward = {
-		custom_effect_tooltip = VNH_Its_St_Petersburg_tt
-		hidden_effect = {
-			set_province_name = { id = 3151 name = "St. Petersburg" }
-			195 = {
-				set_state_name = "St. Petersburg"
-			}
-		}
-		add_political_power = 50
-		add_stability = 0.05
-	}
-}
-shared_focus = { #Victory at last
-	id = VNH_Victory_at_last
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
-	cost = 2
-
-	prerequisite = {
-		focus = VNH_Its_St_Petersburg
-	}
-	relative_position_id = VNH_Its_St_Petersburg
-	x = 0
-	y = 2
-	available = {}
-	completion_reward = {
-		country_event = {
-			id = VNH.26
-			days = 1
-		}
-		add_stability = 0.25
-		add_war_support = 0.15
-	}
-}
-
-#####################################################################################################################
-####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE #############
-##################################################################################################################### 
-#####################################################################################################################
-####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE ####### VORONEZH GORBACHEV TREE #############
-##################################################################################################################### 
-
-shared_focus = { 
-    id = VNH_Hat_man_victorious
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 0
-	y = 0
-	completion_reward = {
-		add_stability = 0.05
-		VNH_Corruption_Lose_Medium = yes
-	}
-}
-
-shared_focus = { 
-    id = VNH_The_inaugurating_speech
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = -2
-	y = 1
-	prerequisite = {
-		focus = VNH_Hat_man_victorious
-	}
-	completion_reward = {
-	    country_event = {
-		    id = VNH.34
-			days = 1
-		}
-	political_power = 20
-	}
-}
-
-shared_focus = { 
-    id = VNH_The_party
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 2
-	y = 1
-	prerequisite = {
-		focus = VNH_Hat_man_victorious
-	}
-	completion_reward = {
-	    country_event = {
-		    id = VNH.35
-			days = 1
-		}
-	political_power = 10
-	}
-}
-
-shared_focus = { 
-    id = VNH_The_next_step
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 0
-	y = 2
-	prerequisite = {
-		focus = VNH_The_party
-		focus = VNH_The_inaugurating_speech
-	}
-	completion_reward = {
-	 political_power = 10
-	}
-}
-
-shared_focus = { 
-    id = VNH_The_fate_of_the_oligarchs
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 6
-	y = 3
-	prerequisite = {
-		focus = VNH_The_next_step
-	}
-	completion_reward = {
-	    country_event = {
-		    id = VNH.36
-			days = 1
-		}
-	}
-}
-
-shared_focus = { 
-    id = VNH_The_awaited_trial
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 8
-	y = 4
-	prerequisite = {
-		focus = VNH_The_fate_of_the_oligarchs
-	}
-	mutually_exclusive = {
-	    focus = VNH_The_light_hand
-	}
-	completion_reward = {
-	    country_event = {
-		    id = VNH.37
-			days = 1
-		}
-		VNH_Corruption_Lose_High = yes
-	}
-}
-
-shared_focus = { 
-    id = VNH_The_light_hand
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 4
-	y = 4
-	prerequisite = {
-		focus = VNH_The_fate_of_the_oligarchs
-	}
-	mutually_exclusive = {
-	    focus = VNH_The_awaited_trial
-	}
-	completion_reward = {
-	    country_event = {
-		    id = VNH.38
-			days = 1
-		}
-		VNH_Corruption_Lose_High = yes
-	}
-}
-
-shared_focus = { 
-    id = VNH_A_true_democracy
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 6
-	y = 5
-	prerequisite = {
-		focus = VNH_The_awaited_trial
-	}
-	prerequisite = {
-		focus = VNH_The_light_hand
-	}
-	completion_reward = {
-		add_stability = 0.3
-	}
-}
-
-shared_focus = { 
-    id = VNH_Economic_burdens
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = -6
-	y = 3
-	prerequisite = {
-		focus = VNH_The_next_step
-	}
-	completion_reward = {
-		add_idea = VNH_Gorby_Economy_1
-	}
-}
-
-######Putin Tree############
-
-shared_focus = { #The Putin Presidency
-    id = VNH_The_Putin_presidency
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 5
-	y = 1
-	completion_reward = {
-		add_stability = 0.05%
-	}
-}
-
-shared_focus = { #the promise of unification
-    id = VNH_The_promise_of_unification
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 5
-	y = 2
-	prerequisite = {
-		focus = VNH_The_Putin_presidency
-	}
-	completion_reward = {
-		add_stability = 0.05%
-	}
-}
-
-shared_focus = { #take Karelia
-    id = VNH_take_Karelia
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 3
-	y = 3
-	prerequisite = {
-		focus = VNH_The_promise_of_unification
-	}
-	completion_reward = {
-		create_wargoal = {
-			type = take_state_focus
-			target = FIN
-			generator = { 146 }
-		}
-	}
-}
-
-shared_focus = { #Move East
-    id = VNH_Move_east
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = 5
-	y = 4
-	prerequisite = {
-		VNH_take_Karelia
-		VNH_The_promise_of_unification
-	}
-	completion_reward = {
-		add_stability = 0.05%
 	}
 }

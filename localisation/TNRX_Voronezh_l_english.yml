@@ -15,7 +15,45 @@
  VNH_debug.3.a:0 "Refresh the modifiers"
  VNH_debug.3_tt:0 "Refresh the modifiers"
  VNH_debug.3.b:0 "No."
- 
+
+ ### Custom Tooltips ###
+ VNH_Corruption_Add_Small_tt:0 "§WWe will §Rgain§!§W a §!§Ysmall§!§W amount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Add_Medium_tt:0 "§WWe will §Rgain§!§W a §!§Omedium§!§W amount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Add_Large_tt:0 "§WWe will §Rgain§!§W a §!§Rlarge§!§W amount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Add_No_More_tt:0 "§RWe are already at a catastrophic level of §!§YCorruption§!"
+ VNH_Corruption_Lose_Small_tt:0 "§WWe will §!§Glose§!§W a §!§Bsmall§!§W amount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Lose_Medium_tt:0 "§WWe will §!§Glose§!§W a §!§Cmedium§!§W amount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Lose_Large_tt:0 "§WWe will §!§Glose§!§W a §!§Glarge§!§W amount of §!§YCorruption§!§W!§!"
+ VNH_Corruption_Lose_No_More_tt:0 "§GWe have already reached the lowest amount of §!§YCorruption§!§G we could in our government!§!"
+ VNH_Anger_Add_Small_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Ysmall§!§W amount!§!"
+ VNH_Anger_Add_Medium_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Omedium§!§W amount!§!"
+ VNH_Anger_Add_Large_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Rlarge§!§W amount!§!"
+ VNH_Anger_Add_No_More_tt:0 "§RThe industrialists are already as angry as they can be with us!§!"
+ VNH_Anger_Lose_Small_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Bsmall§!§W amount!§!"
+ VNH_Anger_Lose_Medium_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Cmedium§!§W amount!§!"
+ VNH_Anger_Lose_Large_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Glarge§!§W amount!§!"
+ VNH_Anger_Lose_No_More_tt:0 "§GThe industrialists are already as little §!§R"Angry"§!§G as they can be with us!§!"
+ VNH_initial.1_tt:0 "§YThe corruption and anger mechanics will now be unlocked!§!"
+
+ ### Gui ###
+ Anger_Title_TT:0 "§BThe Industrialists' Anger§"
+ VNH_anger_bar:0 "§RThe Anger of The Industrialists§!"
+ VNH_anger_bar_desc:0 "§gThe power that the Industrialists hold over Voronezh is undeniably humongous. As such, we must carefully maintain their happiness. If the industralists were to get §!§RAngry§!§g with us, the economic impacts would be §!§Rdisastrous!§!"
+ Corruption_Title_TT:0 "§BManaging Corruption§"
+ VNH_Corruption_bar:0 "§YThe Corruption in Voronezh§!"
+ VNH_Corruption_bar_desc:0 "§gAs many within our government have connections with large business magnates, §!§YCorruption§!§g is an important measure of their loyalty to democratic values over easy profit. If the unimaginable were to happen and §!§YCorruption§!§g were to get too high, §!§Rsomething unexpected might happen...§!"
+ VNH_Corruption_Little:0 "Currently Corruption is §WNegligent§!"
+ VNH_Corruption_Medium:0 "Currently Corruption is §HModerate§!"
+ VNH_Corruption_large:0 "Currently Corruption is §OSerious!§!"
+ VNH_Corruption_Disastrous:0 "Currently Corruption is §RDisastrous!§"
+ VNH_Baron_anger_Little:0 "Currently The Industrialists' Anger is §WNegligent§!."
+ VNH_Baron_anger_Medium:0 "Currently The Industrialists' Anger is §HModerate§!."
+ VNH_Baron_anger_large:0 "Currently The Industrialists' Anger is §OSerious!§!"
+ VNH_Baron_anger_Disastrous:0 "Currently The Industrialists' Anger is §RDisastrous!§!"
+ VNH_Council_Support_Data:0 "Industrialists' Support: [?VNH_industrialists_support]\n Conservatives' Support [?VNH_con_dem_support]\n Liberals' Support [?VNH_lib_dem_support]\n Social Democrats' Support [?VNH_soc_dem_support]"
+ VNH_Anger_Description_GUI_Text:0 "§WOne of the main driving forces of our fledgling republic are the industrialists, who control many aspects of the council. Their influence within our economy as a cause for their power, they hold considerable judgement to any happenings within the government. We must be careful not to let them get §!§Rangry§!§W with us, if it were so, the economic impact of their wrath would be §!§Rundeniably catastrophic!§!"
+ VNH_Corruption_Description_GUI_Text:0 "§WOur young republic has many aspirations, mainly to be true and free of all meddling both domestic and foreign, but that is not within the purview the current situation allows. As we manoeuvre the hellish landscape that is the remains of the Reichskommisariat, we must also carefully navigate the political realms of the council. If we want our young republic to not succumb to the influence of greed, we must struggle to maintain a low level of §YCorruption§!§W, lest §!§Rsomething unexpected happen within the government…§!"
+
  ### Country Names ###
  VNH_fascism:0 "Voronezh"
  VNH_fascism_DEF:0 "Voronezh"
@@ -25,7 +63,7 @@
  VNH_market_liberal_DEF:0 "Voronezh"
  VNH_social_conservative:0 "Voronezh"
  VNH_social_conservative_DEF:0 "Voronezh"
- VNH_authoritarian_democrat:0 "Republic of Voronezh"
+ VNH_authoritarian_democrat:0 "Voronezh"
  VNH_authoritarian_democrat_DEF:0 "Voronezh"
  VNH_despotism:0 "Voronezh"
  VNH_despotism_DEF:0 "Voronezh"
@@ -49,19 +87,28 @@
  VNH_ultranational_socialism_ADJ:0 "Voronezhan"
 
  ### Political Parties ###
- VNH_authoritarian_democrat_party:0 "SP"
- VNH_authoritarian_democrat_party_long:0 "Soyuznaya Partiya"
- VNH_social_conservative_party:0 "EARI"
- VNH_social_conservative_party_long:0 "Edinaya Assosiatsiya Russkih Industrialistov"
+ VNH_communist_party:0 "VKP(b)"
+ VNH_communist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya (bolshevikov)"
+ VNH_socialist_party:0 "VKP"
+ VNH_socialist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya"
+ VNH_social_democrat_party:0 "SP (G)"
+ VNH_social_democrat_party_long:0 "Souyznaya Partiya (Storonniki Gorbacheva)"
  VNH_social_liberal_party:0 "LPR"
  VNH_social_liberal_party_long:0 "Liberalnaya Partiya Remeslennikov"
  VNH_market_liberal_party:0 "PP"
  VNH_market_liberal_party_long:0 "Progressivnaya Partiya"
- VNH_social_democrat_party:0 "SP (G)"
- VNH_social_democrat_party_long:0 "Souyznaya Partiya (Storonniki Gorbacheva)"
- VNH_national_socialism_party:0 "German Settlers"
- VNH_national_socialism_party_long:0 "German Settlers"
- ### Ministers ###
+ VNH_social_conservative_party:0 "EARI"
+ VNH_social_conservative_party_long:0 "Edinaya Assosiatsiya Russkih Industrialistov"
+ VNH_authoritarian_democrat_party:0 "Emergency Council"
+ VNH_authoritarian_democrat_party_long:0 "Ostvolkskiy chrezvychaynyy sovet"
+ VNH_despotism_party:0 "Voronezhskiy Komitet Oborony"
+ VNH_despotism_party_long:0 "Voronezhskiy Komitet Oborony"
+ VNH_national_socialism_party:0 "Deutscher Siedlerverband"
+ VNH_national_socialism_party_long:0 "Deutscher Siedlerverband"
+ VNH_burgundian_system_party:0 "SS"
+ VNH_burgundian_system_party_long:0 "Schutzstaffel im Osten"
+
+
  VNH_Edmund_Gunther_hog:0 "Edmund Günther"
  VNH_Anatoly_Chernyaev_for:0 "Anatoly Chernayev"
  VNH_Boris_Gostev_eco:0 "Boris Gostev"
@@ -70,25 +117,6 @@
  ### Decisions ###
  VNH_Corruption_category:0 "The Evils of Money"
  VNH_Anger_category:0 "The Industrialists' Anger"
- 
- ### Custom Tooltips ###
- VNH_Corruption_Add_Small_tt:0 "§WWe will §Rgain§!§W a §!§Ysmall§!§W amount of §!§YCorruption§!§W!§!"
- VNH_Corruption_Add_Medium_tt:0 "§WWe will §Rgain§!§W a §!§Omedium§!§W amount of §!§YCorruption§!§W!§!"
- VNH_Corruption_Add_Large_tt:0 "§WWe will §Rgain§!§W a §!§Rlarge§!§W amount of §!§YCorruption§!§W!§!"
- VNH_Corruption_Add_No_More_tt:0 "§RWe are already at a catastrophic level of §!§YCorruption§!"
- VNH_Corruption_Lose_Small_tt:0 "§WWe will §!§Glose§!§W a §!§Bsmall§!§W amount of §!§YCorruption§!§W!§!"
- VNH_Corruption_Lose_Medium_tt:0 "§WWe will §!§Glose§!§W a §!§Cmedium§!§W amount of §!§YCorruption§!§W!§!"
- VNH_Corruption_Lose_Large_tt:0 "§WWe will §!§Glose§!§W a §!§Glarge§!§W amount of §!§YCorruption§!§W!§!"
- VNH_Corruption_Lose_No_More_tt:0 "§GWe have already reached the lowest amount of §!§YCorruption§!§G we could in our government!§!"
- VNH_Anger_Add_Small_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Ysmall§!§W amount!§!"
- VNH_Anger_Add_Medium_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Omedium§!§W amount!§!"
- VNH_Anger_Add_Large_tt:0 "§WThe §RAnger§!§W of the industrialists will increase by a §!§Rlarge§!§W amount!§!"
- VNH_Anger_Add_No_More_tt:0 "§RThe industrialists are already as angry as they can be with us!§!"
- VNH_Anger_Lose_Small_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Bsmall§!§W amount!§!"
- VNH_Anger_Lose_Medium_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Cmedium§!§W amount!§!"
- VNH_Anger_Lose_Large_tt:0 "§WThe industrialists' §!§RAnger§!§W will lower by a §!§Glarge§!§W amount!§!"
- VNH_Anger_Lose_No_More_tt:0 "§GThe industrialists are already as little §!§R"Angry"§!§G as they can be with us!§!"
- VNH_initial.1_tt:0 "§YThe corruption and anger mechanics will now be unlocked!§!"
  
  ### Ideas ###
  VNH_Little_Corruption_idea:0 "Corruption: §SLow§!"
@@ -100,91 +128,119 @@
  VNH_Medium_Anger_idea:0 "Industrialist Anger: §YMedium§!"
  VNH_Large_Anger_idea:0 "Industrialist Anger: §RHigh§!"
  VNH_Disastrous_Anger_idea:0 "Industrialist Anger: §xDisastrous§!"
- 
- ### Gui ###
- Anger_Title_TT:0 "§BThe Industrialists' Anger§"
- VNH_anger_bar:0 "§RThe Anger of The Industrialists§!"
- VNH_anger_bar_desc:0 "§gThe power that the Industrialists hold over Voronezh is undeniably humongous. As such, we must carefully maintain their happiness. If the industralists were to get §!§RAngry§!§g with us, the economic impacts would be §!§Rdisastrous!§!"
- Corruption_Title_TT:0 "§BManaging Corruption§"
- VNH_Corruption_bar:0 "§YThe Corruption in Voronezh§!"
- VNH_Corruption_bar_desc:0 "§gAs many within our government have connections with large business magnates, §!§YCorruption§!§g is an important measure of their loyalty to democratic values over easy profit. If the unimaginable were to happen and §!§YCorruption§!§g were to get too high, §!§Rsomething unexpected might happen...§!"
- VNH_Corruption_Little:0 "Currently Corruption is §WNegligent§!"
- VNH_Corruption_Medium:0 "Currently Corruption is §HModerate§!"
- VNH_Corruption_large:0 "Currently Corruption is §OSerious!§!"
- VNH_Corruption_Disastrous:0 "Currently Corruption is §RDisastrous!§"
- VNH_Baron_anger_Little:0 "Currently The Industrialists' Anger is §WNegligent§!."
- VNH_Baron_anger_Medium:0 "Currently The Industrialists' Anger is §HModerate§!."
- VNH_Baron_anger_large:0 "Currently The Industrialists' Anger is §OSerious!§!"
- VNH_Baron_anger_Disastrous:0 "Currently The Industrialists' Anger is §RDisastrous!§!"
- VNH_Council_Support_Data:0 "Industrialists' Support: [?VNH_industrialists_support]\n Conservatives' Support [?VNH_con_dem_support]\n Liberals' Support [?VNH_lib_dem_support]\n Social Democrats' Support [?VNH_soc_dem_support]"
- VNH_Anger_Description_GUI_Text:0 "§WOne of the main driving forces of our fledgling republic are the industrialists, who control many aspects of the council. Their influence within our economy as a cause for their power, they hold considerable judgement to any happenings within the government. We must be careful not to let them get §!§Rangry§!§W with us, if it were so, the economic impact of their wrath would be §!§Rundeniably catastrophic!§!"
- VNH_Corruption_Description_GUI_Text:0 "§WOur young republic has many aspirations, mainly to be true and free of all meddling both domestic and foreign, but that is not within the purview the current situation allows. As we manoeuvre the hellish landscape that is the remains of the Reichskommisariat, we must also carefully navigate the political realms of the council. If we want our young republic to not succumb to the influence of greed, we must struggle to maintain a low level of §YCorruption§!§W, lest §!§Rsomething unexpected happen within the government…§!"
 
  ### Focus Trees ###
- VNH_The_First_Council_Meeting:0 "The First Council Meeting"
- VNH_The_First_Council_Meeting_desc:0 "The warlords of Voronezh do not lust for money and power, but desire to protect freedom and opportunity for their people.  To that end, we have opened the first meeting of the Voronezh State Council, mending the divide between the former collaborators and the partisans who have returned to resist the Nazi scum.  Just as our city built the Rodina's first fleet almost 3 centuries ago, we shall build a New Russia from the ashes of our former overlords."
- VNH_A_Need_For_Strength:0 "A Need for Strength"
- VNH_A_Need_For_Strength_desc:0 "After the fall of Reichkommissariat Moscowien, Voronezh breaked free from German autonomy. However, Voronezh needs strength and decisiveness to face the upcoming unification wars of the Moskowien region with its neighbors, or else the young republic will perish before it had even taken it's first steps. We need to build up a powerful industry, a strong army and political stability. President Gorbachev will lead us with his young and decisive mind from this broken down region all the way to Petersburg!"
- VNH_Token_Promises:0 "Token Promises"
- VNH_Token_Promises_desc:0 "Officially, the government of Voronezh is a representative democracy. The Council of Voronezh is to be chosen by the Russian people, for the Russian people, and the right to stand in elections, speak freely, or form political parties is the right of every Russian adult.  This can't be further from the truth. Our government is controlled by oligarchs and their corporate lackeys, corruption is widespread, and the promised upcoming election seem anything but free or fair. Will anyone stand up to them?"
- VNH_Revitalise_The_South_Eastern_Railway:0 "Revitalise the South Eastern Railway"
- VNH_Revitalise_The_South_Eastern_Railway_desc:0 "Our campaign of guerilla warfare against the Nazi settlers and the dreaded SS cannot survive without proper logistics. We should begin work on rebuilding the South Eastern Railway immediately to ensure our boys will never lack for bullets or reinforcements. Our military shall certainly benefit from this in war, but best of all, proper railways will ensure our economy soars in the coming peace."
- VNH_A_Government_For_Stability:0 "A Government For Stability"
- VNH_A_Government_For_Stability_desc:0 "Our government isn't perfect, far from it in fact.  Until elections can be held, the council will always suffer from inefficiency without a dominant party, and corruption, as always, remains a serious issue.  Despite this, we have managed to provide our citizens a refuge from anarchy, instability, and famine, an achievement not many of our rivals can claim.  Now we can look to the future unbridled by starvation, banditry, or unrest."
- VNH_But_Not_Too_Much:0 "But Not Too Much"
- VNH_But_Not_Too_Much_desc:0 "We have promised our people freedom, but freedom can be a dangerous thing. Above all, Voronezh needs prosperity, it needs stability, and it needs order. We have already established perfectly good political parties for the people to debate on, and the Council is finally up and running as it should. We can't let a few bad actors throw a wrench into a perfectly good status quo.  Not now, not ever."
- VNH_Stimulate_the_economy:0 "Stimulate the Economy"
- VNH_Stimulate_the_economy_desc:0 "A man does not live on bread alone, but he still needs bread to live.  Now that military matters are dealt with, we should follow, Mr.Likachev's advice and begin a program to stimulate our civilian economy.  With time, our city shall stand as a beacon of liberty and prosperity in the hell of tyranny that was once Moskowien."
- VNH_The_people_content:0 "The People Content"
- VNH_The_people_content_desc:0 "The situation in Voronezh is far from perfect. Political freedoms are few and far between and many are afraid to speak openly about the problems they face in fear of being labeled a communist or fascist. The economy is still in complete disarray; the poor flood the streets, thousands of rural farmers now living in slums and forced to become wage laborers. However, despite the many glaring issues the young nation still faces, there may be a ray of hope yet. With new elections on the horizon, Voronezh is on the path to becoming a shining beacon of Democracy. Government subsidies have jump-started a stagnant industry and have set the Republic on the path to becoming an industrial powerhouse. While the present may still be bleak, the future flickers with promise."
- VNH_Savvinas_Altruism:0 "Savvina's Altruism"
- VNH_Savvinas_Altruism_desc:0 "Iya Savvina is an altruistic woman who wants to benefit the people and sideline the oligarch likes of Lukin. She proposes the liberalisation of trade unions and prioritise them over the industrialists. In these dire times, these ideas are going to damage our war effort which can cost our existence. We can however, try and tie the working closer to the state, or should we rather sideline that in favor of the industrialists like Lukin?"
+ VNH_the_first_council_meeting:0 "The First Council Meeting"
+ VNH_the_first_council_meeting_desc:0 "The warlords of Voronezh do not lust for money and power, but desire to protect freedom and opportunity for their people.  To that end, we have opened the first meeting of the Voronezh State Council, mending the divide between the former collaborators and the partisans who have returned to resist the Nazi scum.  Just as our city built the Rodina's first fleet almost 3 centuries ago, we shall build a New Russia from the ashes of our former overlords."
+
+ VNH_a_government_for_stability:0 "A Government For Stability"
+ VNH_a_government_for_stability_desc:0 "Our government isn't perfect, far from it in fact.  Until elections can be held, the council will always suffer from inefficiency without a dominant party, and corruption, as always, remains a serious issue.  Despite this, we have managed to provide our citizens a refuge from anarchy, instability, and famine, an achievement not many of our rivals can claim.  Now we can look to the future unbridled by starvation, banditry, or unrest."
+ 
+ VNH_bulganins_ideas:0 "Bulganin's Ideas"
+ VNH_bulganins_ideas_desc:0 "Bulganin is a former marshall of the Great Patriotic War and seeks to defend Voronezh from German Tyranny, Thank heavens he's on our side!"
+
+ VNH_savvinas_altruism:0 "Savvina's Altruism"
+ VNH_savvinas_altruism_desc:0 "Iya Savvina is an altruistic woman who wants to benefit the people and sideline the oligarch likes of Lukin. She proposes the liberalisation of trade unions and prioritise them over the industrialists. In these dire times, these ideas are going to damage our war effort which can cost our existence. We can however, try and tie the working closer to the state, or should we rather sideline that in favor of the industrialists like Lukin?"
+
+ VNH_putins_demands:0 "Putins demands"
+ VNH_putins_demands_desc:0 "Putin, the almightly oligarch has come to Gorbachev. He demands more tax cuts in exchange for better industry output. More of his demands also come from Lukin, who is completely on board with these ideas despite their differences."
+
+ VNH_refuse_to_bend_to_bulganin:0 "Refuse to bend to Bulganin"
+ VNH_refuse_to_bend_to_bulganin_desc:0 "Bulganins proposition has been declined by Gorbachev and his administration."
+
+ VNH_a_need_for_strength:0 "A Need for Strength"
+ VNH_a_need_for_strength_desc:0 "After the fall of Reichkommissariat Moscowien, Voronezh breaked free from German autonomy. However, Voronezh needs strength and decisiveness to face the upcoming unification wars of the Moskowien region with its neighbors, or else the young republic will perish before it had even taken it's first steps. We need to build up a powerful industry, a strong army and political stability. President Gorbachev will lead us with his young and decisive mind from this broken down region all the way to Petersburg!"
+ 
+ VNH_focus_on_light_industry:0 "Focus on the light industry"
+ VNH_focus_on_light_industry_desc:0 "We cannot forget about our economy! In order to be an military power, you must also have a good economy if we are to survive in the long term."
+
+ VNH_a_new_training_programme:0 "A new training programme"
+ VNH_a_new_training_programme_desc:0 "Recent inspections of our soldiers leave much to be desired.  Our men have the will to fight, but lack the skills or discipline to pose a threat to our enemies. A meeting has been convened by the Stavka to debate the implementation of a new training program, and so far they seem split between two camps.  One proposal says that we do not have the means to fight an open war, and should therefore train our troops for partisan warfare, focusing on winning through superior logistics and hit-and-run tactics to drain our enemies by attrition. The other faction proposes that we make up for our lack of numbers by providing our soldiers the very best equipment and enforcing strict discipline to create a small, but deadly army."
+
+ VNH_turn_to_lukin:0 "Turn to Lukins Ideas instead"
+ VNH_turn_to_lukin_desc:0 "Savvinas idealism isn't fit for the time we are in currently. Lukin has some good ideas to improve the industrial output from what we heard."
+
+ VNH_token_promises:0 "Token Promises"
+ VNH_token_promises_desc:0 "Officially, the government of Voronezh is a representative democracy. The Council of Voronezh is to be chosen by the Russian people, for the Russian people, and the right to stand in elections, speak freely, or form political parties is the right of every Russian adult.  This can't be further from the truth. Our government is controlled by oligarchs and their corporate lackeys, corruption is widespread, and the promised upcoming election seem anything but free or fair. Will anyone stand up to them?"
+
+ VNH_eradicate_this_nonsense:0 "Eradicate this Nonsense"
+ VNH_eradicate_this_nonsense_desc:0 "With Lukin expanding his industries, its no doubt that workers will try to unionize and tear down our progress. We must ban the formation of any unions before they have been created."
+
+ VNH_but_not_too_much:0 "But Not Too Much"
+ VNH_but_not_too_much_desc:0 "We have promised our people freedom, but freedom can be a dangerous thing. Above all, Voronezh needs prosperity, it needs stability, and it needs order. We have already established perfectly good political parties for the people to debate on, and the Council is finally up and running as it should. We can't let a few bad actors throw a wrench into a perfectly good status quo. Not now, not ever."
+ 
+ VNH_revitalise_the_south_eastern_railway:0 "Revitalise the South Eastern Railway"
+ VNH_revitalise_the_south_eastern_railway_desc:0 "Our campaign of guerilla warfare against the Nazi settlers and the dreaded SS cannot survive without proper logistics. We should begin work on rebuilding the South Eastern Railway immediately to ensure our boys will never lack for bullets or reinforcements. Our military shall certainly benefit from this in war, but best of all, proper railways will ensure our economy soars in the coming peace."
+
+ VNH_compensate_the_oligarchs:0 "Compensate the oligarchs"
+ VNH_compensate_the_oligarchs_desc:0 "Putins demands are heard! Taxation should be reduced to bare minimum. No businessman should be robbed! Every man here is a king if he wants to be!"
+
+ VNH_stimulate_the_economy:0 "Stimulate the Economy"
+ VNH_stimulate_the_economy_desc:0 "A man does not live on bread alone, but he still needs bread to live.  Now that military matters are dealt with, we should follow, Mr.Likachev's advice and begin a program to stimulate our civilian economy.  With time, our city shall stand as a beacon of liberty and prosperity in the hell of tyranny that was once Moskowien."
+
+ VNH_fade_out_safety_laws:0 "Fade out Safety Laws"
+ VNH_fade_out_safety_laws_desc:0 "Why should we spend on protecting these lazy couch potatoes, they should be working more! Up with them!"
+
+ VNH_the_people_content:0 "The People Content"
+ VNH_the_people_content_desc:0 "The situation in Voronezh is far from perfect. Political freedoms are few and far between and many are afraid to speak openly about the problems they face in fear of being labeled a communist or fascist. The economy is still in complete disarray; the poor flood the streets, thousands of rural farmers now living in slums and forced to become wage laborers. However, despite the many glaring issues the young nation still faces, there may be a ray of hope yet. With new elections on the horizon, Voronezh is on the path to becoming a shining beacon of Democracy. Government subsidies have jump-started a stagnant industry and have set the Republic on the path to becoming an industrial powerhouse. While the present may still be bleak, the future flickers with promise."
+
+
+
+
+
+
+
+
+
  VNH_The_Reformer:0 "The reformer"
  VNH_The_Reformer_desc:0 "Gorbachev, the former leader of the Ostvolk Council, a figurehead that liberal and conservative democracy sympathisers alike rally under. In the wake of Moskowien's collapse, he has been elected as the leader of the state of Voronezh. While a president with executive powers, he is not the only one who run Voronezh. The industrialists likes of Lukin and Putin are almost in complete control of the industry, and the army is headed by Bulganin. If he wants to survive, he will need to find a middle ground with these groups, or else face dire consequences."
+
  VNH_The_Artisan:0 "The artisan"
  VNH_The_Artisan_desc:0 "Ivya Savvina, a close friend of Gorbachev, an actress turned politician in the middle of the collapse. She wants a state with a mixed economy, a balance between a system with privately owned means of production and a public one. One thing that seperates her from her fellow friend Gorbachev is that she wants to liberalize the unions so that they could sufficiently co-exist with the industrialists. If anything happens to comrade Gorbachev, she is always ready to guide democracy forward the way she sees it."
- VNH_The_Defender:0 "The Defender"
- VNH_The_Defender_desc:0 "Bulganin is a former marshall of the Great Patriotic War and seeks to defend Voronezh from German Tyranny, Thank heavens he's on our side!"
+
+
  VNH_The_Oligarch:0 "The oligarch"
  VNH_The_Oligarch_desc:0 "Putin, the robber baron, whatever you call him. Putin controlls most of the industries and makes sure that Gorbachev's administration panders to him. Only Bulganin keeps him at bay from completely dominating the government."
+
  VNH_The_Factory_Owners:0 "The Liberals" 
  VNH_The_Factory_Owners_desc:0 "Besides Putin there are more oligarchs that keep Gorbachev hostage. Lukin's group of oligarchs split from Putin, believing that he would hinder their agenda. That said, Lukin's party want the industry to be completely decentralized, no taxes and let the monopolies expand without any interference of the government."
- VNH_Turn_To_Lukin:0 "Turn to Lukins ideas"
- VNH_Turn_To_Lukin_desc:0 "Savvinas idealism isn't fit for the time we are in currently. Lukin has some good ideas to improve the industrial output from what we heard."
- VNH_Eradicate_The_Disease:0 "Eradicate the nonsense"
- VNH_Eradicate_The_Disease_desc:0 "With Lukin expanding his industries, its no doubt that workers will try to unionize and tear down our progress. We must ban the formation of any unions before they have been created."
- VNH_Focus_On_Light_industry:0 "Focus on the light industry"
- VNH_Focus_On_Light_Industry_desc:0 "We cannot forget about our economy! In order to be an military power, you must also have a good economy if we are to survive in the long term."
- VNH_Refused:0 "Refused"
- VNH_Refused_desc:0 "Bulganins proposition has been declined by Gorbachev and his administration."
- VNH_A_New_Training_Programme:0 "A new training programme"
- VNH_A_New_Training_Programme_desc:0 "Recent inspections of our soldiers leave much to be desired.  Our men have the will to fight, but lack the skills or discipline to pose a threat to our enemies. A meeting has been convened by the Stavka to debate the implementation of a new training program, and so far they seem split between two camps.  One proposal says that we do not have the means to fight an open war, and should therefore train our troops for partisan warfare, focusing on winning through superior logistics and hit-and-run tactics to drain our enemies by attrition. The other faction proposes that we make up for our lack of numbers by providing our soldiers the very best equipment and enforcing strict discipline to create a small, but deadly army."
- VNH_Revitalise_The_South_Eastern_Railway_desc:0 "In order to have a functioning economy, we need to also have good infrastructure. Get working on it!"
- VNH_Putins_Demands:0 "Putins demands"
- VNH_Putins_Demands_desc:0 "Putin, the almightly oligarch has come to Gorbachev. He demands more tax cuts in exchange for better industry output. More of his demands also come from Lukin, who is completely on board with these ideas despite their differences."
+
+
+
+
+
+
+
+
+
+
  VNH_council_reconvenes:0 "The council reconvenese"
  VNH_council_reconvenes_desc:0 "The situation has stabilized somewhat since the Moskowien collapse. Now, it was time to get to serious business. The Elections are on the horizon and the destiny of Voronezh and its democracy are on the line."
- VNH_Compensate_Lukins_Oligarchs:0 "Compensate the oligarchs"
- VNH_Compensate_Lukins_Oligarchs_desc:0 "Putins demands are heard! Taxation should be reduced to bare minimum. No businessman should be robbed! Every man here is a king if he wants to be!"
- VNH_Deregulate_The_Economy:0 "Remove safety laws"
- VNH_Deregulate_The_Economy_desc:0 "Why should we spend on protecting these lazy couch potatoes, they should be working more! Up with them!"
- VNH_council_reconvenes_desc:0 "Well we just can't sit around and do nothing, we need to do something!"
+
  VNH_unfortunate_truth:0 "The unfortunate truth"
  VNH_unfortunate_truth_desc:0 "We Can't sit around and lie, we need to be straight forward with our citizens"
+
  VNH_but_one_that_dosent_need_solving:0 "But one that doesn't need solving"
  VNH_but_one_that_dosent_need_solving_desc:0 "why not just ignore what's happening and move on..."
+
  VNH_A_Speech_To_the_Masses:0 "A speech to the masses"
  VNH_A_Speech_To_the_Masses_desc:0 "We need to spread hope to the people!"
+
  VNH_mobilize_the_reserves:0 "Mobilize the reserves"
  VNH_mobilize_the_reserves_desc:0 "We must prepare an army to save what's left of the collapsed Moskowien"
+
  VNH_the_final_steps:0 "The final steps"
  VNH_the_final_steps_desc:0 "We are close to being ready for the reunification wars..."
+
  VNH_dig_german_stockpiles:0 "Dig German stockpiles"
  VNH_dig_german_stockpiles_desc:0 "Since the collapse of Moskowiene and beganing of the German civil war, the German stockpilles have been for the most part left untouched, but soon they shall see use for our Republic!"
+
  VNH_the_last_conversation:0 "The last conversation"
  VNH_the_last_conversation_desc:0 "Time for one last conversation with our leaders and generals"
+
  VNH_the_real_work_begins:0 "Now the real work begans"
  VNH_the_real_work_begins_desc:0 "The time has come... Soon we shall liberate the people of RUssia, for the Republic!"
+
  ### War Tree ###
  VNH_The_Reunification_wars_began:0"The Reunification Wars Begin"
  VNH_The_Reunification_wars_began_desc:0 "Glory to our mighty Republic"
