@@ -144,7 +144,7 @@ shared_focus = {# admit our failure
 
 shared_focus = {# The investigation into command
 	id = MCW_The_investigation_into_command
-	icon = GFX_MCW_A_Door_To_The_Russian_Hell
+	icon = GFX_GER_failure_warrants_punishment
 	cost = 9
 	prerequisite = {
 		focus = MCW_admit_our_failure

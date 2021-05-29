@@ -1,6 +1,6 @@
 shared_focus = { 
     id = VNH_The_final_battle
-	icon = GFX_VNH_the_reformer
+	icon = GFX_CHI_A_War_Cabinet
 	cost = 2
 	
 	x = 0
@@ -13,7 +13,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Mass_conscription
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Authoritarian_conscription
 	cost = 2
 	
 	x = 0
@@ -29,7 +29,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Suppress_german_settlers
-	icon = GFX_VNH_the_reformer
+	icon = GFX_UPO_Death_to_All_Nazis
 	cost = 2
 	
 	x = 0
@@ -45,7 +45,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Punish_deserters
-	icon = GFX_VNH_the_reformer
+	icon = GFX_GER_failure_warrants_punishment
 	cost = 2
 	
 	x = 0
@@ -61,7 +61,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Freedoms_last_stand
-	icon = GFX_VNH_the_reformer
+	icon = GFX_OST_Fight_for_Freedom
 	cost = 2
 	
 	x = 0
@@ -79,7 +79,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_proud_army
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Army_Officers
 	cost = 2
 	
 	x = 1
@@ -95,7 +95,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Fight_for_your_freedom
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Army_Focus_Green
 	cost = 2
 	
 	x = 1
@@ -111,7 +111,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Hold_your_ground
-	icon = GFX_VNH_the_reformer
+	icon = GFX_TNO_generic_defense
 	cost = 2
 	
 	x = 1
@@ -127,7 +127,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Relocate_industries
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Industry
 	cost = 2
 	
 	x = -1
@@ -143,7 +143,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Women_to_factories
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_factories
 	cost = 2
 	
 	x = -1
@@ -159,7 +159,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Everything_to_the_front
-	icon = GFX_VNH_the_reformer
+	icon = GFX_YUN_Everything_For_The_War
 	cost = 2
 	
 	x = -1
