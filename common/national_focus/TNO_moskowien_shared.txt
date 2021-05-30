@@ -33,7 +33,7 @@ shared_focus = {# Legacy of the west Russian war
 
 shared_focus = {# Out numbered and dependent on the Fatherland
 	id = MCW_Out_numbered_and_dependent_on_the_Fatherland
-	icon = GFX_MCW_Joint_Patrols
+	icon = GFX_SAM_German_Arms
 	cost = 2
 	prerequisite = {
 		focus = MCW_Status_of_Moskoweine

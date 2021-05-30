@@ -12,7 +12,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_inaugurating_speech
-	icon = GFX_VNH_the_reformer
+	icon = GFX_URL_Look_At_Us_When_We_Speak
 	cost = 2
 	
 	x = -2
@@ -31,7 +31,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_party
-	icon = GFX_VNH_the_reformer
+	icon = GFX_GER_convene_the_parties
 	cost = 2
 	
 	x = 2
@@ -180,7 +180,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Strict_Regulations
-	icon = GFX_VNH_the_reformer
+	icon = GFX_USA_the_Enforcment
 	cost = 2
 	
 	x = -4
@@ -195,7 +195,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Perfected_capitalism
-	icon = GFX_VNH_the_reformer
+	icon = GFX_TNO_generic_gold_bars
 	cost = 2
 	
 	x = -4
@@ -211,7 +211,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Education_for_all
-	icon = GFX_VNH_the_reformer
+	icon = GFX_education_general
 	cost = 2
 	
 	x = -8
@@ -227,7 +227,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Rebuild_Tula_Arms
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Arms_factory_blue
 	cost = 2
 	
 	x = -8
@@ -242,7 +242,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Prepare_for_war
-	icon = GFX_VNH_the_reformer
+	icon = GFX_YUN_Everything_For_The_War
 	cost = 2
 	
 	x = -8
@@ -257,7 +257,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Steady_urbanization_programs
-	icon = GFX_VNH_the_reformer
+	icon = GFX_TNO_generic_public_houses
 	cost = 2
 	
 	x = -6
@@ -273,7 +273,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Tax_the_rich
-	icon = GFX_VNH_the_reformer
+	icon = GFX_VOL_Tax_Debate
 	cost = 2
 	
 	x = -6
@@ -288,7 +288,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Minor_welfare_program
-	icon = GFX_VNH_the_reformer
+	icon = GFX_welfare_general
 	cost = 2
 	
 	x = -6
@@ -303,7 +303,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Soon_to_be_prosperous
-	icon = GFX_VNH_the_reformer 
+	icon = GFX_SKN_Beacon_of_Prosperity
 	cost = 2
 	
 	x = -6
@@ -332,7 +332,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_On_the_land
-	icon = GFX_VNH_the_reformer
+	icon = GFX_BLR_This_is_Our_Land
 	cost = 2
 	
 	x = 10
@@ -347,7 +347,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Voronezh_Military_Academy
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Army_Officers
 	cost = 2
 	
 	x = 8
@@ -378,7 +378,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Bulganins_word
-	icon = GFX_VNH_the_reformer
+	icon = GFX_VNH_the_defender
 	cost = 2
 	
 	x = 10
