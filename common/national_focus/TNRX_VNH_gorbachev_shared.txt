@@ -363,7 +363,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Gorbachev_Line
-	icon = GFX_VNH_the_reformer
+	icon = GFX_YUN_The_Best_Defense
 	cost = 2
 	
 	x = 10
@@ -378,7 +378,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Bulganins_word
-	icon = GFX_VNH_the_defender
+	icon = GFX_VNH_strong_goverment
 	cost = 2
 	
 	x = 10
@@ -399,7 +399,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Boots_of_democracy
-	icon = GFX_VNH_the_reformer
+	icon = GFX_JAP_Blood_Iron_and_Representative_Democracy
 	cost = 2
 	
 	x = 10
@@ -416,7 +416,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Standardize_production
-	icon = GFX_VNH_the_reformer
+	icon = GFX_CHI_New_Production_Tools
 	cost = 2
 	
 	x = 12
@@ -431,7 +431,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_In_the_sky
-	icon = GFX_VNH_the_reformer
+	icon = GFX_ANG_one_mans_sky
 	cost = 2
 	
 	x = 18
@@ -446,7 +446,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Land_air_integration
-	icon = GFX_VNH_the_reformer
+	icon = GFX_TNO_generic_airland_integration
 	cost = 2
 	
 	x = 16
@@ -462,7 +462,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_New_ages_new_planes
-	icon = GFX_VNH_the_reformer
+	icon = GFX_ANG_new_fighter_fleet
 	cost = 2
 	
 	x = 18
@@ -493,7 +493,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Smolensk_air_base
-	icon = GFX_VNH_the_reformer
+	icon = GFX_TOB_The_Airfields_of_Surgut
 	cost = 2
 	
 	x = 18
@@ -514,7 +514,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Against_all_odds
-	icon = GFX_VNH_the_reformer
+	icon = GFX_IBR_Iron_Fist
 	cost = 2
 	
 	x = 18
@@ -529,7 +529,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Army_of_Russia
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Army_Focus_Green
 	cost = 2
 	
 	x = 18
@@ -547,7 +547,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_future
-	icon = GFX_VNH_the_reformer
+	icon = GFX_generic_a_vision_for_the_future
 	cost = 2
 	
 	x = 6

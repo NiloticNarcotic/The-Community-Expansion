@@ -47,7 +47,7 @@ shared_focus = {# Out numbered and dependent on the Fatherland
 
 shared_focus = {# The failure of Germanifcation
 	id = MCW_The_failure_of_Germanifcation
-	icon = GFX_MCW_Joint_Patrols
+	icon = GFX_MCW_Opportunity_For_Settlers
 	cost = 2
 	prerequisite = {
 		focus = MCW_Out_numbered_and_dependent_on_the_Fatherland
@@ -81,7 +81,7 @@ shared_focus = {# The Fuhrer calls
 
 shared_focus = {# cover it up
 	id = MCW_cover_it_up
-	icon = GFX_MCW_Joint_Patrols
+	icon = GFX_MCW_German_Land_Grants
 	cost = 9
 	prerequisite = {
 		focus = MCW_The_Fuhrer_calls
@@ -144,7 +144,7 @@ shared_focus = {# admit our failure
 
 shared_focus = {# The investigation into command
 	id = MCW_The_investigation_into_command
-	icon = GFX_GER_failure_warrants_punishment
+	icon = GFX_MCW_A_Door_To_The_Russian_Hell
 	cost = 9
 	prerequisite = {
 		focus = MCW_admit_our_failure
