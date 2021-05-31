@@ -27215,4 +27215,81 @@ spriteTypes = {
 		name = "GFX_TNRX_BBB_good_is_no_longer_enough"
 		texturefile = "gfx/interface/goals/TNRX_BBB_good_is_no_longer_enough.dds"
 	}
+
+	
+	SpriteType = {
+		name = "GFX_TNRX_VNH_a_government_for_stability"
+		texturefile = "gfx/interface/goals/TNRX_VNH_a_government_for_stability.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_bulganin"
+		texturefile = "gfx/interface/goals/TNRX_VNH_bulganin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_savvinna"
+		texturefile = "gfx/interface/goals/TNRX_VNH_savvinna.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_putin"
+		texturefile = "gfx/interface/goals/TNRX_VNH_putin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_refuse_to_bend_to_bulganin"
+		texturefile = "gfx/interface/goals/TNRX_VNH_refuse_to_bend_to_bulganin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_a_need_for_strength"
+		texturefile = "gfx/interface/goals/TNRX_VNH_a_need_for_strength.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_focus_on_light_industry"
+		texturefile = "gfx/interface/goals/TNRX_VNH_focus_on_light_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_a_new_training_programme"
+		texturefile = "gfx/interface/goals/TNRX_VNH_a_new_training_programme.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_lukin"
+		texturefile = "gfx/interface/goals/TNRX_VNH_lukin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_Token_Promises"
+		texturefile = "gfx/interface/goals/TNRX_VNH_Token_Promises.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_eradicate_this_nonsense"
+		texturefile = "gfx/interface/goals/TNRX_VNH_eradicate_this_nonsense.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_revitalize_the_southwestern_railway"
+		texturefile = "gfx/interface/goals/TNRX_VNH_revitalize_the_southwestern_railway.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_compensate_the_oligarchs"
+		texturefile = "gfx/interface/goals/TNRX_VNH_compensate_the_oligarchs.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_stimulate_the_economy"
+		texturefile = "gfx/interface/goals/TNRX_VNH_stimulate_the_economy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TNRX_VNH_The_People_Content"
+		texturefile = "gfx/interface/goals/TNRX_VNH_The_People_Content.dds"
+	}
 }
+

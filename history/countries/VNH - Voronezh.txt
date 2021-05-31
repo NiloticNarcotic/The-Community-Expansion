@@ -2,7 +2,7 @@
 
 oob = "VNH_1962"
 
-load_focus_tree = Voronezh_Initial
+load_focus_tree = Voronezh_Tree_War
 
 add_ideas = {
 	## Ministers ##
@@ -61,159 +61,9 @@ add_ideas = {
 	VNH_Downfall_1
 }
 
-set_technology = {
- 	##INFANTRY##
- 	# infantry_equipment_0 = 1
- 	infantry_weapons_1 = 1
- 	infantry_weapons_2 = 1
- 	infantry_weapons_improvements_1 = 1
- 	infantry_weapons_improvements_2 = 1
- 	infantry_weapons_improvements_3 = 1
- 	infantry_weapons_improvements_4 = 1
- 	infantry_weapons_3 = 1
- 	basic_infantry_equipment = 1
- 	support_weapons = 1
- 	support_weapons2 = 1
-	night_vision_1 = 1
- 	support_weapons3 = 1
- 	infantry_at = 1
- 	infantry_at2 = 1
- 	infantry_at3 = 1
- 	
- 	motorized_infantry = 1
- 	motorized_rocket_unit = 1
- 	motorized_infantry_1 = 1
- 	marines = 1
- 	tech_mountaineers = 1
- 	paratroopers = 1
-
- 	##SUPPORT##
- 	tech_support = 1
- 	tech_engineers = 1
- 	tech_engineers_flamethrowers_1 = 1
- 	tech_engineers2 = 1
- 	tech_engineers_flamethrowers_2 = 1
- 	tech_engineers3 = 1
- 	tech_recon = 1
- 	tech_recon2 = 1
- 	tech_military_police = 1
- 	tech_military_police2 = 1
- 	tech_military_police3 = 1
- 	tech_maintenance_company = 1
- 	tech_maintenance_company2 = 1
- 	tech_field_hospital = 1
- 	tech_logistics_company = 1
- 	tech_signal_company = 1
-
- 	##ARMOR##
- 	advanced_light_tank = 1
-	advanced_medium_tank = 1
-	mechanised_infantry3 = 1
-
-	APC_1950 = 1
-	APC_1950_basic_turret = 1
-	#APC_1950_basic_engine = 1
-	IFV_1950 = 1
-	IFV_1950_basic_turret = 1
-	MBT_1950 = 1
-	MBT_1950_basic_turret = 1
-	#MBT_1950_basic_engine = 1
-
- 	##ARTY##
- 	antiair5 = 1
- 	antiair_1950 = 1
- 	SPAA_1950 = 1
- 	gw_artillery = 1
- 	artillery4 = 1
- 	artillery_1950 = 1
- 	artillery_1950_soft_attack = 1
- 	SPART_1950 = 1
- 	SPART_1950_soft_attack = 1
- 	#SPART_1950_speed = 1
-
- 	##LAND DOCTRINE##
- 	strategic_theorem = 1
-
- 	##NAVAL##
- 	ww2_destroyer = 1
- 	ww2_cruiser = 1
-	basic_cruiser = 1
- 	ww2_submarine = 1
- 	transport = 1
-
- 	##NAVAL DOCTRINE##
-
- 	##HELICOPTERS##
- 	very_early_helicopter = 1
- 	early_helicopter = 1
-
- 	##LIGHT AIR##
- 	early_fighter = 1
- 	interceptor_1945 = 1
- 	interceptor_1950 = 1
- 	fighter_1945 = 1
- 	fighter_1950 = 1
- 	CAS_1945 = 1
- 	CAS_1950 = 1
-
- 	##HEAVY AIR##
- 	tac_bomber1 = 1
- 	tac_air_1945 = 1
- 	tac_air_1950 = 1
- 	strategic_bomber1 = 1
- 	heavy_air_1945 = 1
- 	heavy_air_1950 = 1
- 	transport_air1 = 1
- 	transport_air_1945 = 1
- 	transport_air_1950 = 1
-
- 	##ENGINEERING##
- 	electronic_mechanical_engineering = 1
- 	radio = 1
- 	radio_detection = 1
- 	decimetric_radar = 1
- 	centimetric_radar = 1
- 	mechanical_computing = 1
- 	computing_machine = 1
- 	basic_encryption = 1
- 	basic_decryption = 1
- 	improved_computing_machine = 1
- 	improved_encryption = 1
- 	improved_decryption = 1
- 	advanced_computing_machine = 1
- 	advanced_encryption = 1
- 	computing_machine_1950 = 1
- 	helicopter_engines = 1
- 	jet_engines = 1
- 	jet_engines_bombers = 1
- 	improved_jet_engines_bombers_1 = 1
-
-	##INDUSTRY##
-	ww2_line_production = 1
-	mass_production_1 = 1
-	mass_production_2 = 1
-	countrywide_improvements = 1
-	concentrated_industry1 = 1
-	concentrated_industry2 = 1
-	
-	oil_processing = 1
-	constructionmethods = 1
-    construction0 = 1
-	resource_extraction_methods = 1
-    excavation0 = 1
-	construction1 = 1
-	excavation1 = 1
-	construction2 = 1
-	excavation2 = 1
-	military_construction0 = 1
-	military_construction1 = 1
-	batch_production_1 = 1
-	batch_production_2 = 1
-}
-
 set_research_slots = 2
 
-set_stability = 0.54
+set_stability = 0.22
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -248,7 +98,6 @@ create_country_leader = {
 		
 	}
 }
-
 create_country_leader = {
 	name = "Iya Savvina"
 	desc = "POLITICS_IYA_SAVVINA_DESC"
@@ -259,7 +108,6 @@ create_country_leader = {
 		
 	}
 }
-
 create_country_leader = {
 	name = "Vladimir Spiridonovich Putin"
 	desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
@@ -270,27 +118,279 @@ create_country_leader = {
 		
 	}
 }
-
 create_country_leader = {
 	name = "Vladimir Lukin"
 	desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
-	picture = "Portrait_VNH_Vladimir Lukin.dds"
+	picture = "Portrait_VNH_Vladimir_Lukin.dds"
 	expire = "1983.4.24"
 	ideology = market_liberal_subtype
 	traits = {
 		
 	}
 }
+create_country_leader = {
+	name = "Anatoly Chernyaev"
+	desc = "POLITICS_ANATOLY_CHERNAEV_DESC"
+	picture = "Portrait_VNH_Anatoly_Chernyaev.dds"
+	expire = "1983.4.24"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Karl-Günther von Hase"
+	desc = "POLITICS_KARL_VON_HASE_DESC"
+	picture = "Portrait_VNH_Karl_Hase"
+	expire = "1983.4.24"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
 
 ### Generals ###
 create_corps_commander = {
 	name = "Robert Klein"
-	picture = "Portrait_Voronezh_Robert_Klein.dds"
+	picture = "Portrait_VNH_Robert_Klein.dds"
 	traits = { politically_connected infantry_officer }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
-	id = 15023
+	id = 61209
+}
+
+create_corps_commander = {
+	name = "Alexei Yepishev"
+	picture = "Portrait_VNH_Alexander_Yepishev.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61210
+}
+
+create_corps_commander = {
+	name = "Nikolai Bulganin"
+	picture = "Portrait_VNH_Nikolai_Bulganin.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61211
+}
+
+create_corps_commander = {
+	name = "Yuri Bezmenov"
+	picture = "Portrait_VNH_Yuri_Bezmenov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61212
+}
+
+create_corps_commander = {
+	name = "Mikhail Tikhonov"
+	picture = "Portrait_VNH_Mikhail_Tikhonov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61213
+}
+
+create_corps_commander = {
+	name = "Georgiy Zakharov"
+	picture = "Portrait_VNH_Georgiy_Zakharov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61214
+}
+
+create_corps_commander = {
+	name = "Leonid Govarov"
+	picture = "Portrait_VNH_Leonid_Govorov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61215
+}
+
+create_corps_commander = {
+	name = "Seymon Krivoshein"
+	picture = "Portrait_VNH_Semyon_Krivoshein.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61216
+}
+
+set_technology = {
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+   night_vision_1 = 1
+	support_weapons3 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_engineers_flamethrowers_2 = 1
+	tech_engineers3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+
+	##ARMOR##
+	advanced_light_tank = 1
+   advanced_medium_tank = 1
+   mechanised_infantry3 = 1
+
+   APC_1950 = 1
+   APC_1950_basic_turret = 1
+   #APC_1950_basic_engine = 1
+   IFV_1950 = 1
+   IFV_1950_basic_turret = 1
+   MBT_1950 = 1
+   MBT_1950_basic_turret = 1
+   #MBT_1950_basic_engine = 1
+
+	##ARTY##
+	antiair5 = 1
+	antiair_1950 = 1
+	SPAA_1950 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	artillery_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+	#SPART_1950_speed = 1
+
+	##LAND DOCTRINE##
+	strategic_theorem = 1
+
+	##NAVAL##
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+   basic_cruiser = 1
+	ww2_submarine = 1
+	transport = 1
+
+	##NAVAL DOCTRINE##
+
+	##HELICOPTERS##
+	very_early_helicopter = 1
+	early_helicopter = 1
+
+	##LIGHT AIR##
+	early_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	fighter_1945 = 1
+	fighter_1950 = 1
+	CAS_1945 = 1
+	CAS_1950 = 1
+
+	##HEAVY AIR##
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_encryption = 1
+	improved_decryption = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	computing_machine_1950 = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	improved_jet_engines_bombers_1 = 1
+
+   ##INDUSTRY##
+   ww2_line_production = 1
+   mass_production_1 = 1
+   mass_production_2 = 1
+   countrywide_improvements = 1
+   concentrated_industry1 = 1
+   concentrated_industry2 = 1
+   
+   oil_processing = 1
+   constructionmethods = 1
+   construction0 = 1
+   resource_extraction_methods = 1
+   excavation0 = 1
+   construction1 = 1
+   excavation1 = 1
+   construction2 = 1
+   excavation2 = 1
+   military_construction0 = 1
+   military_construction1 = 1
+   batch_production_1 = 1
+   batch_production_2 = 1
 }

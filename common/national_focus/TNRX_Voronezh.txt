@@ -1,21 +1,8 @@
 
-focus_tree = {
-	id = Voronezh_Initial
-	country = {
-		factor = 0
-		
-		modifier = {
-			add = 10
-			tag = VNH 
-		}
-	}
-	default = no
-	shared_focus = VNH_The_First_Council_Meeting
-}
+
 
 focus_tree = {
-	id = Voronezh_Tree_Two
-	
+	id = voronezh_initial
 	country = {
 		factor = 0
 		
@@ -25,9 +12,9 @@ focus_tree = {
 		}
 	}
 	default = no
-	shared_focus = VNH_council_reconvenes
+	shared_focus = VNH_the_first_council_meeting
 }
-	
+
 focus_tree = {
 	id = Voronezh_Tree_War
 
@@ -40,73 +27,5 @@ focus_tree = {
 		}
 	}
 	default = no
-	shared_focus = VNH_The_Reunification_wars_began
-}
-
-focus_tree = {
-    id = Voronezh_Tree_Election
-	
-	country = {
-	    factor = 0
-		
-		modifier = {
-		    add = 10
-			tag = VNH
-		}
-	}
-	default = no
-	shared_focus = VNH_Calls_of_democracy
-}
-
-focus_tree = {
-    id = Voronezh_Tree_Gorbachev
-	
-	country = {
-	    factor = 0
-		
-		modifier = {
-		    add = 10
-			tag = VNH
-		}
-	}
-	default = no
-	shared_focus = VNH_Hat_man_victorious
-	shared_focus = VNH_Defenders_of_democracy
-	shared_focus = VNH_On_the_land
-	shared_focus = VNH_Voronezh_Military_Academy
-	shared_focus = VNH_Gorbachev_Line
-	shared_focus = VNH_Bulganins_word
-	shared_focus = VNH_Boots_of_democracy
-	shared_focus = VNH_Standardize_production
-	shared_focus = VNH_In_the_sky
-}
-
-focus_tree = {
-    id = Voronezh_Tree_Gorbachev_Finale
-	
-	country = {
-	    factor = 0
-		
-		modifier = {
-		    add = 10
-			tag = VNH
-		}
-	}
-	default = no
-	shared_focus = VNH_The_epilogue
-}
-
-focus_tree = {
-	id = Voronezh_Putin_tree
-
-	country = {
-		factor = 0
-		
-		modifier = {
-			add = 10
-			tag = VNH 
-		}
-	}
-	default = no
-	shared_focus = VNH_The_Putin_presidency
+	shared_focus = VNH_question_reunification
 }

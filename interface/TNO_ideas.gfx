@@ -5295,7 +5295,6 @@ spriteTypes = {
 		name = "GFX_idea_idea_GER_siemens_help"
 		texturefile = "gfx/interface/ideas/GER/idea_GER_siemens_help.dds"
 	}
-	
 	SpriteType = {
 		name = "GFX_idea_ZOM_Rodomo_Virus"
 		texturefile = "gfx/interface/ideas/ideas/ZOM_Rodomo_Virus.dds"
@@ -5324,13 +5323,12 @@ spriteTypes = {
 		name = "GFX_idea_PSK_Bitter"
 		texturefile = "gfx/interface/ideas/ideas/idea_PSK_Bitter.dds"
 	}
-	#Basegi Black Brigades#
 	spriteType = {
-		name = "BBB_idea_reformists_congress"
-		texturefile = "gfx/interface/ideas/BBB/BBB_idea_reformists_congress.dds"
+		name = "GFX_idea_BBB_reformists_congress"
+		texturefile = "gfx/interface/ideas/BBB/idea_BBB_reformists_congress.dds"
 	}
 	spriteType = {
-		name = "BBB_idea_satans_division"
-		texturefile = "gfx/interface/ideas/BBB/BBB_idea_satans_division.dds"
+		name = "GFX_idea_BBB_satans_division"
+		texturefile = "gfx/interface/ideas/BBB/idea_BBB_satans_division.dds"
 	}
 }

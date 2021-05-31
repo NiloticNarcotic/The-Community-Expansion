@@ -172,7 +172,7 @@ ideas = {
 		}		
 
 		BBB_Satans_Division = {
-			picture = BBB_idea_satans_division
+			picture = GFX_idea_BBB_satans_division
 
 			allowed = {
 				always = no
@@ -189,7 +189,7 @@ ideas = {
 		}
 
 		BBB_Reformists_Congress = {
-			picture = BBB_idea_reformists_congress			
+			picture = GFX_idea_BBB_reformists_congress			
 			
 			allowed = {
 				always = no
