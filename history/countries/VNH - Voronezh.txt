@@ -2,7 +2,7 @@
 
 oob = "VNH_1962"
 
-load_focus_tree = Voronezh_Tree_War
+load_focus_tree = Voronezh_initial
 
 add_ideas = {
 	## Ministers ##
