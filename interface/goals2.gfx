@@ -27273,11 +27273,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_xxxxx"
-		texturefile = "gfx/interface/goals/xxxxx.dds"
-	}
-
-	SpriteType = {
 		name = "GFX_TNRX_VNH_revitalize_the_southwestern_railway"
 		texturefile = "gfx/interface/goals/TNRX_VNH_revitalize_the_southwestern_railway.dds"
 	}
@@ -27290,11 +27285,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_TNRX_VNH_stimulate_the_economy"
 		texturefile = "gfx/interface/goals/TNRX_VNH_stimulate_the_economy.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_xxxxx"
-		texturefile = "gfx/interface/goals/xxxxx.dds"
 	}
 
 	SpriteType = {

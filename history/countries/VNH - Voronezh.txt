@@ -2,7 +2,7 @@
 
 oob = "VNH_1962"
 
-load_focus_tree = voronezh_initial
+load_focus_tree = Voronezh_Tree_War
 
 add_ideas = {
 	## Ministers ##
@@ -141,7 +141,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Karl-Günther von Hase"
 	desc = "POLITICS_KARL_VON_HASE_DESC"
-	picture = "Portrait_VNH_Karl_Von_Hase.dds"
+	picture = "Portrait_VNH_Karl_Hase"
 	expire = "1983.4.24"
 	ideology = national_socialism_subtype
 	traits = {
@@ -151,14 +151,98 @@ create_country_leader = {
 ### Generals ###
 create_corps_commander = {
 	name = "Robert Klein"
-	picture = "Portrait_Voronezh_Robert_Klein.dds"
+	picture = "Portrait_VNH_Robert_Klein.dds"
 	traits = { politically_connected infantry_officer }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
-	id = 15023
+	id = 61209
+}
+
+create_corps_commander = {
+	name = "Alexei Yepishev"
+	picture = "Portrait_VNH_Alexander_Yepishev.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61210
+}
+
+create_corps_commander = {
+	name = "Nikolai Bulganin"
+	picture = "Portrait_VNH_Nikolai_Bulganin.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61211
+}
+
+create_corps_commander = {
+	name = "Yuri Bezmenov"
+	picture = "Portrait_VNH_Yuri_Bezmenov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61212
+}
+
+create_corps_commander = {
+	name = "Mikhail Tikhonov"
+	picture = "Portrait_VNH_Mikhail_Tikhonov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61213
+}
+
+create_corps_commander = {
+	name = "Georgiy Zakharov"
+	picture = "Portrait_VNH_Georgiy_Zakharov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61214
+}
+
+create_corps_commander = {
+	name = "Leonid Govarov"
+	picture = "Portrait_VNH_Leonid_Govorov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61215
+}
+
+create_corps_commander = {
+	name = "Seymon Krivoshein"
+	picture = "Portrait_VNH_Semyon_Krivoshein.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61216
 }
 
 set_technology = {

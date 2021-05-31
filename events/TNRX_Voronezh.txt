@@ -104,6 +104,9 @@ country_event = {
 	}
 }
 
+
+### Initial ###
+
 country_event = {
 	id = VNH_initial.1
 	title = VNH_initial.1.t
@@ -215,9 +218,12 @@ country_event = {
 	option = {
 		name = VNH_initial.8.a
 		ai_chance = { factor = 1 }
-		load_focus_tree = {	tree = Voronezh_Tree_Two keep_completed = yes }
+		load_focus_tree = {	tree = Voronezh_Tree_War keep_completed = yes }
 	}
 }
+
+### Tree Two ###
+
 country_event = {
 	id = VNH_initial.9
 	title = VNH_initial.9.t

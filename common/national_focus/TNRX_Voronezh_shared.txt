@@ -449,7 +449,798 @@ shared_focus = {
 	completion_reward = {
 		country_event = {
 			id = VNH_initial.8	#A Good Enough Drink
+		}
+	}
+}
+
+
+
+################ ################ ################ ################ ################ 
+### War Tree ### ### War Tree ### ### War Tree ### ### War Tree ### ### War Tree ### 
+################ ################ ################ ################ ################ 
+
+
+
+shared_focus = { #The Reunification wars began
+	id = VNH_question_reunification
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cost = 2
+	available = {
+		VNH = { has_war = no }
+	}
+	bypass = {
+		always = yes
+	}
+	completion_reward = {
+		custom_effect_tooltip = VNH_The_Reunification_wars_began_tt
+	}
+	x = 8
+	y = 0
+}
+
+shared_focus = {
+	id = VNH_the_bulganin_plan
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_question_reunification }
+	mutually_exclusive = {
+		focus = VNH_the_yepishev_plan
+	}
+	
+	x = 4
+	y = 1
+
+	completion_reward = {
+		country_event = {
+			id = VNH.6
 			days = 1
 		}
+	}
+}
+
+shared_focus = {
+	id = VNH_the_yepishev_plan
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_question_reunification }
+	mutually_exclusive = {
+		focus = VNH_the_bulganin_plan
+		focus = VNH_the_tikhonov_plan
+	}
+	
+	x = 8
+	y = 1
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_the_tikhonov_plan
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_question_reunification }
+	mutually_exclusive = {
+		focus = VNH_the_yepishev_plan
+	}
+	
+	x = 12
+	y = 1
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_reclaim_the_volga
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_the_bulganin_plan }
+	bypass = {
+		VLG = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	mutually_exclusive = {
+		focus = VNH_save_the_volga_people
+	}
+	
+	x = 3
+	y = 2
+
+	completion_reward = {
+		declare_war_on = {
+			target = VLG
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_save_the_volga_people
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_the_bulganin_plan }
+	bypass = {
+		BBB = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	mutually_exclusive = {
+		focus = VNH_reclaim_the_volga
+	}
+	
+	x = 5
+	y = 2
+
+	completion_reward = {
+		declare_war_on = {
+			target = BBB
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_autonomy_or_justice
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_reclaim_the_volga }
+	bypass = {
+		217= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = VLG
+					}
+				}
+			}
+		}
+	}
+	
+	x = 3
+	y = 3
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_relief_campaigns
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_save_the_volga_people }
+	bypass = {
+		217= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = BBB
+					}
+				}
+			}
+		}
+	}
+	
+	x = 5
+	y = 3
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_fortify_the_south
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_the_yepishev_plan }
+	
+	x = 7
+	y = 2
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_fortify_the_north
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_the_yepishev_plan }
+	
+	x = 9
+	y = 2
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_let_them_come
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_fortify_the_south }
+	prerequisite = { focus = VNH_fortify_the_north }
+	
+	x = 8
+	y = 3
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = VNH_move_on_oryol_partisans
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_the_tikhonov_plan }
+	bypass = {
+		ORL = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 11
+	y = 2
+
+	completion_reward = {
+		declare_war_on = {
+			target = ORL
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_take_out_the_garrison
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_the_tikhonov_plan }
+	bypass = {
+		PEN = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 13
+	y = 2
+
+	completion_reward = {
+		declare_war_on = {
+			target = PEN
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_forgive_the_moderate_partisans
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_move_on_oryol_partisans }
+	bypass = {
+		222= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = ORL
+					}
+				}
+			}
+		}
+	}
+	
+	x = 11
+	y = 3
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_settler_disarmament_decree
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_take_out_the_garrison }
+	bypass = {
+		255= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = PEN
+					}
+				}
+			}
+		}
+	}
+	
+	x = 13
+	y = 3
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = { 
+	id = VNH_north_in_shambles
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+
+	x = 8
+	y = 5
+
+	prerequisite = { 
+		focus = VNH_autonomy_or_justice
+		focus = VNH_relief_campaigns
+	}
+	prerequisite = { 
+		focus = VNH_forgive_the_moderate_partisans
+		focus = VNH_let_them_come
+	}
+	prerequisite = { 
+		focus = VNH_settler_disarmament_decree
+		focus = VNH_let_them_come 
+	}
+
+	available = {
+		owns_state = 217
+		owns_state = 255
+		owns_state = 222
+		has_war = no
+	}
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_never_another_bukharin
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_north_in_shambles }
+	bypass = {
+		SMO = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 5
+	y = 7
+
+	completion_reward = {
+		declare_war_on = {
+			target = SMO
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_reclaim_our_capital
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_north_in_shambles }
+	bypass = {
+		MOS = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	mutually_exclusive = {
+		focus = VNH_end_the_madness_of_the_antikhrist
+	}
+	
+	x = 8
+	y = 7
+
+	completion_reward = {
+		declare_war_on = {
+			target = MOS
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_end_the_madness_of_the_antikhrist
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_north_in_shambles }
+	bypass = {
+		BSB = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	mutually_exclusive = {
+		focus = VNH_reclaim_our_capital
+	}
+	
+	x = 11
+	y = 7
+
+	completion_reward = {
+		declare_war_on = {
+			target = BSB
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_tackle_remaining_communists
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_never_another_bukharin }
+	bypass = {
+		242= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = SMO
+					}
+				}
+			}
+		}
+	}
+	
+	x = 5
+	y = 8
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_moscow_once_again
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_reclaim_our_capital }
+	bypass = {
+		219= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = MOS
+					}
+				}
+			}
+		}
+	}
+	
+	x = 8
+	y = 8
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_justice_for_the_hurt
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_end_the_madness_of_the_antikhrist }
+	bypass = {
+		253= {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = BSB
+					}
+				}
+			}
+		}
+	}
+	
+	x = 11
+	y = 8
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_stab_the_burgundian_serpent
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_tackle_remaining_communists }
+	bypass = {
+		PSK = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	
+	x = 6
+	y = 9
+
+	completion_reward = {
+		declare_war_on = {
+			target = PSK
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_the_red_kleptocrats
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { 
+		focus = VNH_moscow_once_again 
+		focus = VNH_justice_for_the_hurt
+	}
+	bypass = {
+		RSB = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	mutually_exclusive = { focus = VNH_end_brauchitstadt_authority }
+	
+	x = 8
+	y = 9
+
+	completion_reward = {
+		declare_war_on = {
+			target = RSB
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_end_brauchitstadt_authority
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { 
+		focus = VNH_moscow_once_again 
+		focus = VNH_justice_for_the_hurt
+	}
+	bypass = {
+		PET = {
+			exists = no
+		}
+	}
+	available = {
+		has_war = no
+	}
+	mutually_exclusive = { focus = VNH_the_red_kleptocrats }
+
+	
+	x = 10
+	y = 9
+
+	completion_reward = {
+		declare_war_on = {
+			target = PET
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = {
+	id = VNH_a_harsher_hand
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_stab_the_burgundian_serpent }
+	bypass = {
+		209 = {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = PSK
+					}
+				}
+			}
+		}
+	}
+	
+	x = 6
+	y = 10
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_re_redistribute_the_wealth
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_the_red_kleptocrats }
+	bypass = {
+		195 = {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = RSB
+					}
+				}
+			}
+		}
+	}
+	
+	x = 8
+	y = 10
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_hello_world_once_again
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 2
+	
+	prerequisite = { focus = VNH_end_brauchitstadt_authority }
+	bypass = {
+		195 = {
+			owner = {
+				NOT = {
+					OR = {
+						tag = VNH
+						tag = PET
+					}
+				}
+			}
+		}
+	}
+	
+	x = 10
+	y = 10
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = VNH_a_dream_of_muscovite_democracy
+	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	cancel_if_invalid = yes
+	available_if_capitulated = no
+	cost = 5
+
+	prerequisite = { focus = VNH_a_harsher_hand }
+	prerequisite = {
+		focus = VNH_re_redistribute_the_wealth
+		focus = VNH_hello_world_once_again
+	}
+	available = {
+		owns_state = 195
+		has_war = no
+	}
+	
+	x = 8
+	y = 11
+	
+	completion_reward = {
+		add_political_power = 100
 	}
 }

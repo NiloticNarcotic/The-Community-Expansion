@@ -14,3 +14,18 @@ focus_tree = {
 	default = no
 	shared_focus = VNH_the_first_council_meeting
 }
+
+focus_tree = {
+	id = Voronezh_Tree_War
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	shared_focus = VNH_question_reunification
+}
