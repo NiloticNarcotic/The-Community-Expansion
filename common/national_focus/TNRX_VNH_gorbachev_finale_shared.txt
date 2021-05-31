@@ -1,6 +1,6 @@
 shared_focus = { 
     id = VNH_The_epilogue
-	icon = GFX_VNH_the_reformer
+	icon = GFX_generic_diplomacy_peace
 	cost = 2
 	
 	x = 0
@@ -12,7 +12,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Rebuild_damaged_sectors
-	icon = GFX_VNH_the_reformer
+	icon = GFX_JAP_rebuilding_the_Cities
 	cost = 2
 	
 	x = 0
@@ -28,7 +28,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Demobilize_economy
-	icon = GFX_VNH_the_reformer
+	icon = GFX_generic_benefit_general
 	cost = 2
 	
 	x = 0
@@ -43,7 +43,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Grand_opening
-	icon = GFX_VNH_the_reformer
+	icon = GFX_cut_the_red_tape_goal
 	cost = 2
 	
 	x = 0
@@ -77,7 +77,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_A_speech_to_people
-	icon = GFX_VNH_the_reformer
+	icon = GFX_VNH_the_people_content
 	cost = 2
 	
 	x = -1
@@ -92,7 +92,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_A_pleasant_evening
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Liberty_Handshake
 	cost = 2
 	
 	x = -2
@@ -107,7 +107,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Diplomatic_frenzy
-	icon = GFX_VNH_the_reformer
+	icon = GFX_TNO_generic_international_diplomacy
 	cost = 2
 	
 	x = 1
@@ -122,7 +122,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_President_in_dc
-	icon = GFX_VNH_the_reformer
+	icon = GFX_focus_MAD_the_OFNs_offer
 	cost = 2
 	
 	x = 1
@@ -137,7 +137,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Gorby_in_Tokyo
-	icon = GFX_VNH_the_reformer
+	icon = GFX_INS_mission_To_Tokyo
 	cost = 2
 	
 	x = 2

@@ -33,7 +33,7 @@ shared_focus = {# Legacy of the west Russian war
 
 shared_focus = {# Out numbered and dependent on the Fatherland
 	id = MCW_Out_numbered_and_dependent_on_the_Fatherland
-	icon = GFX_MCW_Joint_Patrols
+	icon = GFX_SAM_German_Arms
 	cost = 2
 	prerequisite = {
 		focus = MCW_Status_of_Moskoweine
@@ -47,7 +47,7 @@ shared_focus = {# Out numbered and dependent on the Fatherland
 
 shared_focus = {# The failure of Germanifcation
 	id = MCW_The_failure_of_Germanifcation
-	icon = GFX_MCW_Joint_Patrols
+	icon = GFX_MCW_Opportunity_For_Settlers
 	cost = 2
 	prerequisite = {
 		focus = MCW_Out_numbered_and_dependent_on_the_Fatherland
@@ -81,7 +81,7 @@ shared_focus = {# The Fuhrer calls
 
 shared_focus = {# cover it up
 	id = MCW_cover_it_up
-	icon = GFX_MCW_Joint_Patrols
+	icon = GFX_MCW_German_Land_Grants
 	cost = 9
 	prerequisite = {
 		focus = MCW_The_Fuhrer_calls
