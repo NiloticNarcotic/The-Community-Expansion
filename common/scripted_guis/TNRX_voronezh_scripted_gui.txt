@@ -126,7 +126,7 @@ scripted_gui = {
 			VNH_Council_GUI_Soc_Dem_Bribe_Button_click = {		
 				add_to_variable = {
 					var = VNH_Corruption_Value
-					value = 5
+					value = 10
 				}		
 				add_to_variable = {
 					var = VNH_mark_lib_support
@@ -167,7 +167,7 @@ scripted_gui = {
 			VNH_Council_GUI_mark_lib_Praise_Button_click = {		
 				add_to_variable = {
 					var = VNH_mark_lib_support
-					value = 5
+					value = 10
 				}		
 				add_to_variable = {
 					var = VNH_Anger_Value
@@ -224,7 +224,7 @@ scripted_gui = {
 			VNH_Council_GUI_Lib_Dem_Bribe_Button_click = {		
 				add_to_variable = {
 					var = VNH_Corruption_Value
-					value = 5
+					value = 10
 				}		
 				add_to_variable = {
 					var = VNH_Lib_dem_support
@@ -331,7 +331,7 @@ scripted_gui = {
 			VNH_Council_GUI_Con_Dem_Bribe_Button_click = {		
 				add_to_variable = {
 					var = VNH_Corruption_Value
-					value = 5
+					value = 10
 				}		
 				add_to_variable = {
 					var = VNH_Con_dem_support
@@ -372,7 +372,7 @@ scripted_gui = {
 			VNH_Council_GUI_Con_Dem_Praise_Button_click = {		
 				add_to_variable = {
 					var = VNH_Con_dem_support
-					value = 5
+					value = 10
 				}		
 				add_to_variable = {
 					var = VNH_Anger_Value
