@@ -42,25 +42,6 @@ shared_focus = {
 }
 
 shared_focus = { 
-    id = VNH_Grand_opening
-	icon = GFX_cut_the_red_tape_goal
-	cost = 2
-	
-	x = 0
-	y = 3
-	prerequisite = {
-	   focus = VNH_The_epilogue
-	   focus = VNH_Gorby_in_Tokyo
-	   focus = VNH_President_in_dc
-	   focus = VNH_A_pleasant_evening
-	   focus = VNH_A_speech_to_people
-	}
-	completion_reward = {
-		add_stability = 0.3
-	}
-}
-
-shared_focus = { 
     id = VNH_Gorbachev_our_president
 	icon = GFX_VNH_the_reformer
 	cost = 2
@@ -144,6 +125,25 @@ shared_focus = {
 	y = 2
 	prerequisite = {
 	   focus = VNH_Diplomatic_frenzy
+	}
+	completion_reward = {
+		add_stability = 0.3
+	}
+}
+
+shared_focus = { 
+    id = VNH_Grand_opening
+	icon = GFX_cut_the_red_tape_goal
+	cost = 2
+	
+	x = 0
+	y = 3
+	prerequisite = {
+	   focus = VNH_The_epilogue
+	   focus = VNH_Gorby_in_Tokyo
+	   focus = VNH_President_in_dc
+	   focus = VNH_A_pleasant_evening
+	   focus = VNH_A_speech_to_people
 	}
 	completion_reward = {
 		add_stability = 0.3
