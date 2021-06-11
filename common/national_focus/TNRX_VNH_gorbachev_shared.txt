@@ -50,7 +50,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_next_step
-	icon = GFX_VNH_the_reformer
+	icon = GFX_ORE_call_the_council_to_order
 	cost = 2
 	
 	x = 0
@@ -66,7 +66,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_fate_of_the_oligarchs
-	icon = GFX_VNH_the_reformer
+	icon = GFX_GER_end_the_bankers
 	cost = 2
 	
 	x = 6
@@ -84,7 +84,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_awaited_trial
-	icon = GFX_VNH_the_reformer
+	icon = GFX_INS_purge_bureaucracy
 	cost = 2
 	
 	x = 8
@@ -108,7 +108,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_light_hand
-	icon = GFX_VNH_the_reformer
+	icon = GFX_USA_1962_Bill_of_Rights
 	cost = 2
 	
 	x = 4
@@ -132,7 +132,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_A_true_democracy
-	icon = GFX_VNH_the_reformer
+	icon = GFX_generic_socdem
 	cost = 2
 	
 	x = 6
@@ -150,7 +150,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Economic_burdens
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Business
 	cost = 2
 	
 	x = -6
@@ -165,7 +165,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Nationalize_key_industries
-	icon = GFX_VNH_the_reformer
+	icon = GFX_RAJ_The_Public_Sector
 	cost = 2
 	
 	x = -4
@@ -180,7 +180,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Strict_Regulations
-	icon = GFX_USA_the_Enforcment
+	icon = GFX_generic_change_law_labor
 	cost = 2
 	
 	x = -4
@@ -320,7 +320,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Defenders_of_democracy
-	icon = GFX_VNH_the_reformer
+	icon = GFX_generic_victory_parade
 	cost = 2
 	
 	x = 14
