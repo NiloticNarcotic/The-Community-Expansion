@@ -6,7 +6,7 @@ shared_focus = {
 	x = 0
 	y = 0
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.02
 	}
 }
 
@@ -22,7 +22,9 @@ shared_focus = {
 	   focus = VNH_The_epilogue
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.03
+		local_factories = 0.03
+		add_political_power = -100
 	}
 }
 
@@ -37,7 +39,103 @@ shared_focus = {
 	   focus = VNH_Rebuild_damaged_sectors
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.01
+		add_political_power = -40
+		add_war_support = -0.1
+	}
+}
+
+shared_focus = { 
+    id = VNH_Gorbachev_our_president
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = -1
+	y = 1
+	prerequisite = {
+	   focus = VNH_The_epilogue
+	}
+	completion_reward = {
+		add_stability = 0.1
+		add_political_power = 50
+	}
+}
+
+shared_focus = { 
+    id = VNH_A_speech_to_people
+	icon = GFX_VNH_the_people_content
+	cost = 2
+	
+	x = -1
+	y = 2
+	prerequisite = {
+	   focus = VNH_Gorbachev_our_president
+	}
+	completion_reward = {
+		add_stability = 0.05
+	}
+}
+
+shared_focus = { 
+    id = VNH_A_pleasant_evening
+	icon = GFX_Generic_Liberty_Handshake
+	cost = 2
+	
+	x = -2
+	y = 2
+	prerequisite = {
+	   focus = VNH_Gorbachev_our_president
+	}
+	completion_reward = {
+		add_stability = 0.02
+	}
+}
+
+shared_focus = { 
+    id = VNH_Diplomatic_frenzy
+	icon = GFX_TNO_generic_international_diplomacy
+	cost = 2
+	
+	x = 1
+	y = 1
+	prerequisite = {
+	   focus = VNH_The_epilogue
+	}
+	completion_reward = {
+		add_stability = 0.01
+		add_political_power = 100
+	}
+}
+
+shared_focus = { 
+    id = VNH_President_in_dc
+	icon = GFX_focus_MAD_the_OFNs_offer
+	cost = 2
+	
+	x = 1
+	y = 2
+	prerequisite = {
+	   focus = VNH_Diplomatic_frenzy
+	}
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 200
+	}
+}
+
+shared_focus = { 
+    id = VNH_Gorby_in_Tokyo
+	icon = GFX_INS_mission_To_Tokyo
+	cost = 2
+	
+	x = 2
+	y = 2
+	prerequisite = {
+	   focus = VNH_Diplomatic_frenzy
+	}
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 100
 	}
 }
 
@@ -56,96 +154,7 @@ shared_focus = {
 	   focus = VNH_A_speech_to_people
 	}
 	completion_reward = {
-		add_stability = 0.3
-	}
-}
-
-shared_focus = { 
-    id = VNH_Gorbachev_our_president
-	icon = GFX_VNH_the_reformer
-	cost = 2
-	
-	x = -1
-	y = 1
-	prerequisite = {
-	   focus = VNH_The_epilogue
-	}
-	completion_reward = {
-		add_stability = 0.3
-	}
-}
-
-shared_focus = { 
-    id = VNH_A_speech_to_people
-	icon = GFX_VNH_the_people_content
-	cost = 2
-	
-	x = -1
-	y = 2
-	prerequisite = {
-	   focus = VNH_Gorbachev_our_president
-	}
-	completion_reward = {
-		add_stability = 0.3
-	}
-}
-
-shared_focus = { 
-    id = VNH_A_pleasant_evening
-	icon = GFX_Generic_Liberty_Handshake
-	cost = 2
-	
-	x = -2
-	y = 2
-	prerequisite = {
-	   focus = VNH_Gorbachev_our_president
-	}
-	completion_reward = {
-		add_stability = 0.3
-	}
-}
-
-shared_focus = { 
-    id = VNH_Diplomatic_frenzy
-	icon = GFX_TNO_generic_international_diplomacy
-	cost = 2
-	
-	x = 1
-	y = 1
-	prerequisite = {
-	   focus = VNH_The_epilogue
-	}
-	completion_reward = {
-		add_stability = 0.3
-	}
-}
-
-shared_focus = { 
-    id = VNH_President_in_dc
-	icon = GFX_focus_MAD_the_OFNs_offer
-	cost = 2
-	
-	x = 1
-	y = 2
-	prerequisite = {
-	   focus = VNH_Diplomatic_frenzy
-	}
-	completion_reward = {
-		add_stability = 0.3
-	}
-}
-
-shared_focus = { 
-    id = VNH_Gorby_in_Tokyo
-	icon = GFX_INS_mission_To_Tokyo
-	cost = 2
-	
-	x = 2
-	y = 2
-	prerequisite = {
-	   focus = VNH_Diplomatic_frenzy
-	}
-	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.5
+		add_political_power = 300
 	}
 }

@@ -7,7 +7,8 @@ shared_focus = {
 	y = 0
 	
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.03
+		add_war_support = 0.05
 	}
 }
 
@@ -23,7 +24,7 @@ shared_focus = {
 	   focus = VNH_The_final_battle
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_manpower = 10000
 	}
 }
 
@@ -39,7 +40,9 @@ shared_focus = {
 	   focus = VNH_Mass_conscription
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = -0.02
+		add_war_support = 0.03
+		conscription = 0.04
 	}
 }
 
@@ -55,7 +58,8 @@ shared_focus = {
 	   focus = VNH_Suppress_german_settlers
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.01
+		add_war_support = 0.02
 	}
 }
 
@@ -73,7 +77,8 @@ shared_focus = {
 	   focus = VNH_Hold_your_ground
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_war_support = 0.10
+		add_manpower = 1000
 	}
 }
 
@@ -89,7 +94,7 @@ shared_focus = {
 	   focus = VNH_The_final_battle
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_war_support = 0.03
 	}
 }
 
@@ -105,7 +110,9 @@ shared_focus = {
 	   focus = VNH_The_proud_army
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.01
+		add_war_support = 0.02
+		add_manpower = 2000
 	}
 }
 
@@ -137,7 +144,8 @@ shared_focus = {
 	   focus = VNH_The_final_battle
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.04
+		local_factories = 0.3
 	}
 }
 
@@ -153,7 +161,8 @@ shared_focus = {
 	   focus = VNH_Relocate_industries
 	}
 	completion_reward = {
-		add_stability = 0.3
+		add_stability = 0.01
+		local_factories = 0.03
 	}
 }
 
@@ -170,5 +179,8 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_stability = 0.3
+		add_war_support = 0.3
+		add_political_power = 100
+		add_manpower = 40000
 	}
 }

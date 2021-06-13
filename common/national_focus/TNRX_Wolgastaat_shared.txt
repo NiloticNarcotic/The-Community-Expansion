@@ -3,7 +3,7 @@
 
 shared_focus = {# Their Failures
 	id = VLG_Their_Failures
-	icon = GFX_GER_we_come_bearing_gifts
+	icon = GFX_MCW_A_Door_To_The_Russian_Hell
 	cost = 1
 	completion_reward = {
     add_political_power = 35
@@ -17,7 +17,7 @@ shared_focus = {# Our Failures
 	prerequisite = {
 		focus = VLG_Their_Failures
 	}
-	icon = GFX_GER_we_come_bearing_gifts
+	icon = GFX_GER_failure_warrants_punishment
 	cost = 1
 	completion_reward = {
 		add_war_support = -0.10
@@ -32,7 +32,7 @@ shared_focus = {# Total Chaos [Pannwitz, what have you done?!]
 	prerequisite = {
 		focus = VLG_Our_Failures
 	}
-	icon = GFX_GER_we_come_bearing_gifts
+	icon = GFX_BRG_Spread_Anarchy
 	cost = 1
 	completion_reward = {
 		add_war_support = -0.20
@@ -47,7 +47,7 @@ shared_focus = {# Our Victory
 	id = VLG_Our_Victory
 	prerequisite = { focus = VLG_Total_Chaos }
 	mutually_exclusive = { focus = VLG_Our_Retreat }
-	icon = GFX_GER_we_come_bearing_gifts
+	icon = GFX_GER_defeat_in_victory
 	cost = 1
 
 	x = 4
@@ -66,7 +66,7 @@ shared_focus = {# Our Retreat
 	id = VLG_Our_Retreat
 	prerequisite = { focus = VLG_Total_Chaos }
 	mutually_exclusive = { focus = VLG_Our_Victory }
-	icon = GFX_GER_we_come_bearing_gifts
+	icon = GFX_CHI_Stop_Running!
 	cost = 1
 
 	x = 6

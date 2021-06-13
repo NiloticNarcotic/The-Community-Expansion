@@ -463,7 +463,7 @@ shared_focus = {
 
 shared_focus = { #The Reunification wars began
 	id = VNH_question_reunification
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Expansionism
 	cost = 2
 	available = {
 		VNH = { has_war = no }
@@ -480,7 +480,7 @@ shared_focus = { #The Reunification wars began
 
 shared_focus = {
 	id = VNH_the_bulganin_plan
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_TNRX_VNH_bulganin
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -503,7 +503,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_the_yepishev_plan
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_TNRX_VNH_refuse_to_bend_to_bulganin
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -524,7 +524,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_the_tikhonov_plan
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Army_Officers
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -544,7 +544,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_reclaim_the_volga
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_smash_nazi_symbols
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
@@ -664,7 +664,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_fortify_the_south
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_YUN_Fortify_The_Border
 	cancel_if_invalid = yes
 	available_if_capitulated = no
 	cost = 2
