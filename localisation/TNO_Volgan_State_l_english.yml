@@ -88,3 +88,19 @@
  VLG.8.desc:0 "It seems that the bandits that were the Basegi Black Brigades were looking to be much more than just that. After taking the town of Ershow, they armed up and launched an assault on the city of Kosackenstadt. This one, having a much larger German population, put up a fight, with local authorities standing off with the Black Brigades. They were nowhere near capable enough to fend them off, however, and the city soon fell. The intricate organization of the thieves-in-law mafia which clearly collaborate a lot with the Brigades helped in the pacification of the city.\n\nIt is clear that the bandits are looking to take over our country in its entirety. Whether they are Russian liberationists, power hungry despots or some other ideological quagmire matters not. What is important is that we must defend the soil which we have fought and bled for. It is our birthright and no bandit group will be allowed to take it from us. "
  VLG.8.a:0 "To arms, for the Vaterland!"
  VLG.8.b:0 "The time of the Black Brigades is now!"
+
+ ### Focus Trees###
+ VLG_Their_Failures:0 "Their Failures"
+ VLG_Their_Failures_desc:0 "Due to Poor managment and soft leadership, Moskowien has collapsed and we are all thats left."
+
+ VLG_Our_Failures:0 "Our Failures"
+ VLG_Our_Failures_desc:0 "While most of the blame could fall onto the poor managment of Kasche. We too are at fault of Moskowien's collapse for not doing anything during the downfall."
+
+ VLG_Total_Chaos:0 "Total Chaos"
+ VLG_Total_Chaos_desc:0 "Now that Moskowien has collapsed, all that remains is war and bloodshed with no one who can quele it."
+
+ VLG_Our_Victory:0 "Our Victory"
+ VLG_Our_Victory_desc:0 "Not all hope is lost for us civilized Germans who live here. We have been able to take and make use of many German weapons and vehicles to keep us safe from those savage Russians"
+
+ VLG_Our_Retreat:0 "Our Retreat"
+ VLG_Our_Retreat_desc:0 "Most of the German settlers lived all over Moskowiene but now most have retreated here in seek of protection and stability. It would be foolish of us to go and start trouble, so let's just stay here and wait for the Fatherlands help."
