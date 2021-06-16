@@ -1,0 +1,72 @@
+shared_focus = { 
+    id = VNH_Election_Time
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	x = 0
+	y = 0
+	completion_reward = {
+		add_political_power = 35
+	}
+}
+
+shared_focus = { 
+    id = VNH_Encourage_Participation
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	prerequisite = {
+	    focus = VNH_Election_Time
+	}
+	x = -2
+	y = 1
+	completion_reward = {
+		add_political_power = 10
+	}
+}
+
+shared_focus = { 
+    id = VNH_Set_Up_Ballots
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	prerequisite = {
+	    focus = VNH_Election_Time
+	}
+	x = 2
+	y = 1
+	completion_reward = {
+		add_stability = 0.05
+	}
+}
+
+shared_focus = { 
+    id = VNH_Election_Day
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	prerequisite = {
+	    focus = VNH_Set_Up_Ballots
+	    focus = VNH_Encourage_Participation
+	}
+	x = 0
+	y = 2
+	completion_reward = {
+		add_political_power = 20
+	}
+}
+
+shared_focus = { 
+    id = VNH_Gorbachev_elected
+	icon = GFX_VNH_the_reformer
+	cost = 2
+	
+	prerequisite = {
+	 focus = VNH_Election_Day
+	}
+	x = 0
+	y = 2
+	completion_reward = {
+		add_stability = 0.1
+	}
+}
