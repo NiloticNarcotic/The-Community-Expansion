@@ -52,6 +52,10 @@ shared_focus = {
 	x = 0
 	y = 2
 	completion_reward = {
+	 country_event = {
+		    id = VNH.28
+			days = 1
+		}
 		add_political_power = 20
 	}
 }
@@ -68,5 +72,6 @@ shared_focus = {
 	y = 2
 	completion_reward = {
 		add_stability = 0.1
+		load_focus_tree = Voronezh_Tree_Gorbachev
 	}
 }
