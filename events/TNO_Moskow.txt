@@ -1443,6 +1443,25 @@ country_event = { # Moskowien Collapse #4
     		days = 2
 		}
 	}
+	option = {
+		name = MCW.204.b
+		VNH = {
+			add_state_core = 265
+			transfer_state = 265
+			add_state_core = 260
+			transfer_state = 260
+			add_state_core = 240
+			transfer_state = 240
+			inherit_technology = MCW
+			load_oob = "VNH_Collapse"
+			change_tag_from = MCW
+		}
+		
+		country_event = {
+    		id = MCW.205
+    		days = 2
+		}
+	}
 }
 
 country_event = { # Moskowien Collapse #5
