@@ -7,10 +7,6 @@ shared_focus = { # Status of Moskoweine
 	icon = GFX_MCW_A_Door_To_The_Russian_Hell
 	cost = 1
 	completion_reward = {
-		  country_event = {
-		    id = MCW.1
-			days = 1
-		}
 		add_stability = 0.01
 	}
 	x = 5
@@ -31,7 +27,7 @@ shared_focus = {# Legacy of the west Russian war
 	y = 1
 }
 
-shared_focus = {# Out numbered and dependent on the Fatherland
+shared_focus = {# Out numbered 
 	id = MCW_Out_numbered_and_dependent_on_the_Fatherland
 	icon = GFX_SAM_German_Arms
 	cost = 2
@@ -158,7 +154,7 @@ shared_focus = {# The investigation into command
 
 shared_focus = {# The trial of Kasche
 	id = MCW_The_trial_of_Kasche
-	icon = GFX_MCW_A_Door_To_The_Russian_Hell
+	icon = GFX_GER_failure_warrants_punishment
 	cost = 9
 	prerequisite = {
 		focus = MCW_The_investigation_into_command
