@@ -154,19 +154,7 @@ country_event = {
 		ai_chance = { factor = 1 }
 	}
 }
-country_event = {
-	id = VNH_initial.4
-	title = VNH_initial.4.t
-	desc = VNH_initial.4.desc
-	picture = GFX_report_event_russian_fascists_harbin
 
-	is_triggered_only = yes
-
-	option = {
-		name = VNH_initial.4.a
-		ai_chance = { factor = 1 }
-	}
-}
 country_event = {
 	id = VNH_initial.5
 	title = VNH_initial.5.t
@@ -177,20 +165,6 @@ country_event = {
 
 	option = {
 		name = VNH_initial.5.a
-		ai_chance = { factor = 1 }
-		load_focus_tree = Voronezh_Tree_War
-	}
-}
-country_event = {
-	id = VNH_initial.6
-	title = VNH_initial.6.t
-	desc = VNH_initial.6.desc
-	picture = GFX_famine_bros_fire
-
-	is_triggered_only = yes
-
-	option = {
-		name = VNH_initial.6.a
 		ai_chance = { factor = 1 }
 	}
 }
@@ -222,7 +196,6 @@ country_event = {
 	}
 }
 
-### Tree Two ###
 
 country_event = {
 	id = VNH_initial.9
@@ -250,19 +223,7 @@ country_event = {
 		ai_chance = { factor = 1 }
 	}
 }
-country_event = {
-	id = VNH_initial.11
-	title = VNH_initial.11.t
-	desc = VNH_initial.11.desc
-	picture = GFX_report_event_russian_fascists_harbin
 
-	is_triggered_only = yes
-
-	option = {
-		name = VNH_initial.11.a
-		ai_chance = { factor = 1 }
-	}
-}
 country_event = {
 	id = VNH_initial.12
 	title = VNH_initial.12.t
@@ -276,6 +237,7 @@ country_event = {
 		ai_chance = { factor = 1 }
 	}
 }
+
 country_event = {
 	id = VNH_initial.13
 	title = VNH_initial.13.t
@@ -289,19 +251,7 @@ country_event = {
 		ai_chance = { factor = 1 }
 	}
 }
-country_event = {
-	id = VNH_initial.14
-	title = VNH_initial.14.t
-	desc = VNH_initial.14.desc
-	picture = GFX_report_event_russian_fascists_harbin
 
-	is_triggered_only = yes
-
-	option = {
-		name = VNH_initial.14.a
-		ai_chance = { factor = 1 }
-	}
-}
 country_event = {
 	id = VNH_initial.15
 	title = VNH_initial.15.t
