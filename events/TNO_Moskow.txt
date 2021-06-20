@@ -1223,7 +1223,6 @@ country_event = { # quick phonecall
 
 	option = {
 		name = MCW.111.a
-		
 	}
 }
 
