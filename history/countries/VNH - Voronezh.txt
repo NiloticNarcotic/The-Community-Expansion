@@ -163,22 +163,22 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Alexei Yepishev"
-	picture = "Portrait_VNH_Alexander_Yepishev.dds"
+	picture = "Portrait_VNH_Alexey_Yepishev.dds"
 	traits = { politically_connected infantry_officer }
 	skill = 3
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 4
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
 	id = 61210
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Nikolai Bulganin"
 	picture = "Portrait_VNH_Nikolai_Bulganin.dds"
 	traits = { politically_connected infantry_officer }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
@@ -190,28 +190,27 @@ create_corps_commander = {
 	picture = "Portrait_VNH_Yuri_Bezmenov.dds"
 	traits = { politically_connected infantry_officer }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 3
+	planning_skill = 1
 	logistics_skill = 2
 	id = 61212
 }
-
-create_corps_commander = {
-	name = "Mikhail Tikhonov"
-	picture = "Portrait_VNH_Mikhail_Tikhonov.dds"
-	traits = { politically_connected infantry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-	id = 61213
-}
-
+	
 create_corps_commander = {
 	name = "Georgiy Zakharov"
 	picture = "Portrait_VNH_Georgiy_Zakharov.dds"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+	id = 61214
+}	
+create_corps_commander = {
+	name = "Mikhail Tikhonov"
+	picture = "Portrait_VNH_Mikhail_Tikhonov.dds"
 	traits = { politically_connected infantry_officer }
 	skill = 3
 	attack_skill = 3
@@ -222,7 +221,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Leonid Govarov"
+	name = "Leonid Govorov"
 	picture = "Portrait_VNH_Leonid_Govorov.dds"
 	traits = { politically_connected infantry_officer }
 	skill = 3
