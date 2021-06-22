@@ -1,59 +1,56 @@
-Moscowien_reunification_category = {
-	moscowien_total_reunification = {
+ Moscowien_reunification_category = {
+    moscowien_total_reunification = {
 
-		icon = generic_form_nation
+        icon = generic_form_nation
 
-		allowed = {
-			is_muscovite_unifier = yes
-		}
-		available = {
-			is_subject = no
-			has_war = no
-			can_form_muscovite_russia = yes
-		}
-		complete_effect = {
-			if = {
-				limit = {
-					original_tag = BBB
-				}
-				set_cosmetic_tag = BBB_MOS
-				hidden_effect = {
-					every_country  = {
-						news_event = {
-							id = WORLD_TNRX.1
-						}
-					}
-					set_global_flag = BBB_unite_moscowien
-				}
-			}
-			if = {
-				limit = {
-					original_tag = VNH
-				}
-				set_cosmetic_tag = VNH_MOS
-				hidden_effect = {
-					every_country  = {
-						news_event = {
-							id = WORLD_TNRX.2
-						}
-					}
-					set_global_flag = VNH_unite_moscowien
-				}
-			}
-			if = {
-				limit = {
-					original_tag = PSK
-				}
-				set_cosmetic_tag = PSK_MOS
-				hidden_effect = {
-					every_country  = {
-						news_event = {
-							id = WORLD_TNRX.3
-						}
-					}
-					set_global_flag = PSK_unite_moscowien
-				}
-			}
-		}
-	}
+        allowed = {
+            is_muscovite_unifier = yes
+        }
+        available = {
+            is_subject = no
+            has_war = no
+            can_form_muscovite_russia = yes
+        }
+        complete_effect = {
+            if = {
+                limit = {
+                    original_tag = BBB
+                }
+                set_cosmetic_tag = BBB_MOS
+                hidden_effect = {
+                    every_country  = {
+                        news_event = {
+                            id = WORLD_TNRX.1
+                        }
+                    }
+                    set_global_flag = BBB_unite_moscowien
+                }
+            }
+            if = {
+                limit = {
+                    original_tag = VNH
+                }
+                set_cosmetic_tag = VNH_MOS
+                hidden_effect = {
+                      set_global_flag = VNH_muscovite_unification
+                    }
+                    set_global_flag = VNH_unite_moscowien
+                }
+            }
+            if = {
+                limit = {
+                    original_tag = PSK
+                }
+                set_cosmetic_tag = PSK_MOS
+                hidden_effect = {
+                    every_country  = {
+                        news_event = {
+                            id = WORLD_TNRX.3
+                        }
+                    }
+                    set_global_flag = PSK_unite_moscowien
+                }
+            }
+        }
+    }
 }
