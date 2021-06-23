@@ -312,7 +312,10 @@ country_event = {
 	option = {
 		name = VNH_initial.8.a
 
-		load_focus_tree = Voronezh_Tree_Two
+		load_focus_tree = {
+			tree = Voronezh_Tree_Gorbachev
+			keep_completed = yes
+		}
 	}
 }
 country_event = {
@@ -653,7 +656,10 @@ country_event = {
 	option = {
 		name = VNH.26.a
 
-		load_focus_tree = { Voronezh_Tree_Election keep_completed = yes }
+		load_focus_tree = { 
+			tree = Voronezh_Tree_Election 
+			keep_completed = yes 
+		}
 	}
 }
 country_event = {
@@ -694,7 +700,10 @@ country_event = {
 	option = {
 		name = VNH.29.a
 
-		load_focus_tree = { Voronezh_Tree_German_War keep_completed = yes }
+		load_focus_tree = { 
+			tree = Voronezh_Tree_German_War 
+			keep_completed = yes 
+		}
 	}
 }
 
@@ -704,11 +713,7 @@ country_event = {
 	desc = VNH.30.desc
 	picture = GFX_report_event_russian_fascists_harbin
 
-	is_triggered_only = {
-      	if = {
-    		has_war_with = GER
-    	}
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = VNH.30.a
