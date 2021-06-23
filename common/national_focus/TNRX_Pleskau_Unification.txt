@@ -33,7 +33,7 @@ focus_tree = {
 		id = PSK_refining_our_methods
 		icon = GFX_goal_unknown
 		x = 0
-		y = 1
+		y = 2
 		bypass = {
 		}
 		relative_position_id = PSK_scorched_by_the_sun
@@ -50,7 +50,7 @@ focus_tree = {
 		id = PSK_new_officer_corp
 		icon = GFX_goal_unknown
 		x = 0
-		y = 2
+		y = 3
 		bypass = {
 		}
 		relative_position_id = PSK_scorched_by_the_sun
@@ -66,13 +66,12 @@ focus_tree = {
 	focus = {
 		id = PSK_the_black_cats
 		icon = GFX_goal_unknown
-		x = 0
-		y = 3
+		x = -1
+		y = 4
 		bypass = {
 		}
 		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
-		prerequisite = { focus = PSK_refining_our_methods }
 		prerequisite = { focus = PSK_new_officer_corp }
 		completion_reward = {
 			hidden_effect = {		
@@ -84,13 +83,13 @@ focus_tree = {
 	focus = {
 		id = PSK_the_black_skies
 		icon = GFX_goal_unknown
-		x = 0
+		x = 1
 		y = 4
 		bypass = {
 		}
 		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
-		prerequisite = { focus = PSK_the_black_cats }
+		prerequisite = { focus = PSK_new_officer_corp }
 		completion_reward = {
 			hidden_effect = {		
 			}
@@ -108,6 +107,7 @@ focus_tree = {
 		relative_position_id = PSK_scorched_by_the_sun
 		cost = 5
 		prerequisite = { focus = PSK_the_black_skies }
+		prerequisite = { focus = PSK_the_black_cats }
 		completion_reward = {
 			hidden_effect = {		
 			}

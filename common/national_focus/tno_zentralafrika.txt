@@ -7,6 +7,10 @@ focus_tree = {
 			tag = COG
 		}
 	}
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	default = no
 	shared_focus = COG_the_pride_of_afrika
 }
@@ -19,6 +23,10 @@ focus_tree = {
 			add = 10
 			tag = COG
 		}
+	}
+	continuous_focus_position = {
+		x = 1000
+		y = 300
 	}
 	default = no
 	shared_focus = COG_that_was_unexpected

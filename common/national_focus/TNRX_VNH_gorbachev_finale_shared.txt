@@ -1,5 +1,5 @@
 shared_focus = { 
-    id = VNH_The_epilogue
+    id = VNH_the_epilogue
 	icon = GFX_generic_diplomacy_peace
 	cost = 2
 	
@@ -19,11 +19,10 @@ shared_focus = {
 	y = 1
 	
 	prerequisite = {
-	   focus = VNH_The_epilogue
+	   focus = VNH_the_epilogue
 	}
 	completion_reward = {
 		add_stability = 0.03
-		local_factories = 0.03
 		add_political_power = -100
 	}
 }
@@ -53,7 +52,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	prerequisite = {
-	   focus = VNH_The_epilogue
+	   focus = VNH_the_epilogue
 	}
 	completion_reward = {
 		add_stability = 0.1
@@ -99,7 +98,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	prerequisite = {
-	   focus = VNH_The_epilogue
+	   focus = VNH_the_epilogue
 	}
 	completion_reward = {
 		add_stability = 0.01
@@ -147,7 +146,7 @@ shared_focus = {
 	x = 0
 	y = 3
 	prerequisite = {
-	   focus = VNH_The_epilogue
+	   focus = VNH_the_epilogue
 	   focus = VNH_Gorby_in_Tokyo
 	   focus = VNH_President_in_dc
 	   focus = VNH_A_pleasant_evening

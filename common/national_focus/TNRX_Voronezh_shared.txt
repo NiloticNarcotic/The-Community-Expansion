@@ -5,7 +5,7 @@ shared_focus = {
 	id = VNH_the_first_council_meeting
 	icon = GFX_GER_convene_the_parties
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	x = 6
@@ -23,7 +23,7 @@ shared_focus = {
 	id = VNH_a_government_for_stability
 	icon = GFX_TNRX_VNH_a_government_for_stability
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 
 	prerequisite = {
@@ -47,7 +47,7 @@ shared_focus = {
 	id = VNH_bulganins_ideas
 	icon = GFX_TNRX_VNH_bulganin
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 
 	prerequisite = {
@@ -60,7 +60,7 @@ shared_focus = {
 	completion_reward = {
 		add_manpower = 2500
 		country_event = {
-			id = VNH_initial.8
+			id = VNH_initial.13
 			days = 1
 		}
 	}
@@ -70,7 +70,7 @@ shared_focus = {
 	id = VNH_savvinas_altruism
 	icon = GFX_TNRX_VNH_savvinna
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	prerequisite = {
@@ -82,10 +82,6 @@ shared_focus = {
 	
 	completion_reward = {
 		add_political_power = -10
-		country_event = {
-			id = VNH_initial.11
-			days = 1
-		}
 	}
 }
 
@@ -93,7 +89,7 @@ shared_focus = {
 	id = VNH_putins_demands
 	icon = GFX_TNRX_VNH_putin
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	prerequisite = {
@@ -116,7 +112,7 @@ shared_focus = {
 	id = VNH_refuse_to_bend_to_bulganin
 	icon = GFX_TNRX_VNH_refuse_to_bend_to_bulganin
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	prerequisite = {
@@ -142,7 +138,7 @@ shared_focus = {
 	id = VNH_a_need_for_strength
 	icon = GFX_TNRX_VNH_a_need_for_strength
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 
 	prerequisite = {
@@ -168,7 +164,7 @@ shared_focus = {
 	id = VNH_focus_on_light_industry
 	icon = GFX_TNRX_VNH_focus_on_light_industry
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	prerequisite = {
@@ -200,7 +196,7 @@ shared_focus = {
 	id = VNH_a_new_training_programme
 	icon = GFX_TNRX_VNH_a_new_training_programme
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 
 	prerequisite = {
@@ -223,7 +219,7 @@ shared_focus = {
 	id = VNH_turn_to_lukin
 	icon = GFX_TNRX_VNH_lukin
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	mutually_exclusive = {
@@ -246,7 +242,7 @@ shared_focus = {
 	id = VNH_token_promises
 	icon = GFX_TNRX_VNH_Token_Promises
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 
 	prerequisite = {
@@ -269,7 +265,7 @@ shared_focus = {
 	id = VNH_eradicate_this_nonsense
 	icon = GFX_TNRX_VNH_eradicate_this_nonsense
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	prerequisite = {
@@ -288,7 +284,7 @@ shared_focus = {
 	id = VNH_but_not_too_much
 	icon = GFX_Generic_Business
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 
 	prerequisite = {
@@ -300,10 +296,6 @@ shared_focus = {
 
 	completion_reward = {
 		add_stability = 0.05
-		country_event = {
-			id = VNH_initial.6	#An Unfortunate Sacrifice
-			days = 1
-		}
 	}
 }
 
@@ -311,7 +303,7 @@ shared_focus = {
 	id = VNH_revitalise_the_south_eastern_railway
 	icon = GFX_TNRX_VNH_revitalize_the_southwestern_railway
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	prerequisite = {
@@ -325,10 +317,6 @@ shared_focus = {
 	y = 3
 
 	completion_reward = {
-		country_event = {
-			id = VNH_initial.4	#Voronezh-1
-			days = 1
-		}
 		random_owned_state = {
 			add_building_construction = {
 				type = infrastructure
@@ -350,7 +338,7 @@ shared_focus = {
 	id = VNH_compensate_the_oligarchs
 	icon = GFX_TNRX_VNH_compensate_the_oligarchs
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	mutually_exclusive = {
@@ -365,10 +353,6 @@ shared_focus = {
 	
 	completion_reward = {
 		tno_tax_rate_worsen = yes
-		country_event = {
-			id = VNH_initial.13
-			days = 1
-		}
 	}
 }
 
@@ -376,7 +360,7 @@ shared_focus = {
 	id = VNH_stimulate_the_economy
 	icon = GFX_TNRX_VNH_stimulate_the_economy
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 
 	prerequisite = {
@@ -403,7 +387,7 @@ shared_focus = {
 	id = VNH_fade_out_safety_laws
 	icon = GFX_CHI_Digging_deep
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 	
 	prerequisite = {
@@ -416,10 +400,6 @@ shared_focus = {
 	completion_reward = {
 		add_political_power = -15
 		TNO_worsen_industrial_expertise_low = yes
-		country_event = {
-			id = VNH_initial.14
-			days = 1
-		}
 	}
 }
 
@@ -427,7 +407,7 @@ shared_focus = {
 	id = VNH_the_people_content
 	icon = GFX_TNRX_VNH_The_People_Content
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 1
 
 	prerequisite = {
@@ -482,7 +462,7 @@ shared_focus = {
 	id = VNH_the_bulganin_plan
 	icon = GFX_TNRX_VNH_bulganin
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_question_reunification }
@@ -505,7 +485,7 @@ shared_focus = {
 	id = VNH_the_yepishev_plan
 	icon = GFX_TNRX_VNH_refuse_to_bend_to_bulganin
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_question_reunification }
@@ -526,7 +506,7 @@ shared_focus = {
 	id = VNH_the_tikhonov_plan
 	icon = GFX_Generic_Army_Officers
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_question_reunification }
@@ -544,9 +524,9 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_reclaim_the_volga
-	icon = GFX_Generic_smash_nazi_symbols
+	icon = GFX_UPO_David_and_Goliath
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_the_bulganin_plan }
@@ -577,7 +557,7 @@ shared_focus = {
 	id = VNH_save_the_volga_people
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_the_bulganin_plan }
@@ -608,7 +588,7 @@ shared_focus = {
 	id = VNH_autonomy_or_justice
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_reclaim_the_volga }
@@ -637,7 +617,7 @@ shared_focus = {
 	id = VNH_relief_campaigns
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_save_the_volga_people }
@@ -666,7 +646,7 @@ shared_focus = {
 	id = VNH_fortify_the_south
 	icon = GFX_YUN_Fortify_The_Border
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_the_yepishev_plan }
@@ -683,7 +663,7 @@ shared_focus = {
 	id = VNH_fortify_the_north
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_the_yepishev_plan }
@@ -700,7 +680,7 @@ shared_focus = {
 	id = VNH_let_them_come
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_fortify_the_south }
@@ -718,7 +698,7 @@ shared_focus = {
 	id = VNH_move_on_oryol_partisans
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_the_tikhonov_plan }
@@ -746,7 +726,7 @@ shared_focus = {
 	id = VNH_take_out_the_garrison
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_the_tikhonov_plan }
@@ -774,7 +754,7 @@ shared_focus = {
 	id = VNH_forgive_the_moderate_partisans
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_move_on_oryol_partisans }
@@ -803,7 +783,7 @@ shared_focus = {
 	id = VNH_settler_disarmament_decree
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_take_out_the_garrison }
@@ -832,7 +812,7 @@ shared_focus = {
 	id = VNH_north_in_shambles
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 
 	x = 8
@@ -867,7 +847,7 @@ shared_focus = {
 	id = VNH_never_another_bukharin
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_north_in_shambles }
@@ -895,7 +875,7 @@ shared_focus = {
 	id = VNH_reclaim_our_capital
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_north_in_shambles }
@@ -926,7 +906,7 @@ shared_focus = {
 	id = VNH_end_the_madness_of_the_antikhrist
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_north_in_shambles }
@@ -957,7 +937,7 @@ shared_focus = {
 	id = VNH_tackle_remaining_communists
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_never_another_bukharin }
@@ -986,7 +966,7 @@ shared_focus = {
 	id = VNH_moscow_once_again
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_reclaim_our_capital }
@@ -1015,7 +995,7 @@ shared_focus = {
 	id = VNH_justice_for_the_hurt
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_end_the_madness_of_the_antikhrist }
@@ -1044,7 +1024,7 @@ shared_focus = {
 	id = VNH_stab_the_burgundian_serpent
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_tackle_remaining_communists }
@@ -1072,7 +1052,7 @@ shared_focus = {
 	id = VNH_the_red_kleptocrats
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { 
@@ -1104,7 +1084,7 @@ shared_focus = {
 	id = VNH_end_brauchitstadt_authority
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { 
@@ -1137,7 +1117,7 @@ shared_focus = {
 	id = VNH_a_harsher_hand
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_stab_the_burgundian_serpent }
@@ -1166,7 +1146,7 @@ shared_focus = {
 	id = VNH_re_redistribute_the_wealth
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_the_red_kleptocrats }
@@ -1195,7 +1175,7 @@ shared_focus = {
 	id = VNH_hello_world_once_again
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 2
 	
 	prerequisite = { focus = VNH_end_brauchitstadt_authority }
@@ -1224,7 +1204,7 @@ shared_focus = {
 	id = VNH_a_dream_of_muscovite_democracy
 	icon = GFX_PRM_Beneath_The_Hooked_Cross
 	cancel_if_invalid = yes
-	available_if_capitulated = no
+	 
 	cost = 5
 
 	prerequisite = { focus = VNH_a_harsher_hand }
@@ -1242,5 +1222,6 @@ shared_focus = {
 	
 	completion_reward = {
 		add_political_power = 75
+		load_focus_tree = Voronezh_Tree_Election
 	}
 }

@@ -9,7 +9,7 @@
 ################ 
 
 add_namespace = pleskau
-
+## PLESKAU INITIAL TREE ##
 ##Introduction
 country_event = {
 	id = pleskau.1
@@ -231,5 +231,162 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = pleskau.17.a
+	}
+}
+country_event = {
+	id = pleskau.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.18"}
+	title = pleskau.18.title
+	desc = pleskau.18.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.18.a
+		load_focus_tree = pleskau_post_unification
+	}
+}
+## PLESKAU POST UNIFICATION ##
+# Scorched By the Sun
+country_event = {
+	id = pleskau.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.19"}
+	title = pleskau.19.title
+	desc = pleskau.19.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.19.a
+	}
+}
+#Refining our Methods
+country_event = {
+	id = pleskau.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.20"}
+	title = pleskau.20.title
+	desc = pleskau.20.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.20.a
+	}
+}
+#A New Officers Corps.
+country_event = {
+	id = pleskau.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.21"}
+	title = pleskau.21.title
+	desc = pleskau.21.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.21.a
+	}
+}
+#The Black Cats
+country_event = {
+	id = pleskau.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.22"}
+	title = pleskau.22.title
+	desc = pleskau.22.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.22.a
+	}
+}
+#The Black Skies
+country_event = {
+	id = pleskau.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.23"}
+	title = pleskau.23.title
+	desc = pleskau.23.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.23.a
+	}
+}
+#A Question of Purity
+country_event = {
+	id = pleskau.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.24"}
+	title = pleskau.24.title
+	desc = pleskau.24.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.24.a
+	}
+}
+#Speiss Voran
+country_event = {
+	id = pleskau.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.25"}
+	title = pleskau.25.title
+	desc = pleskau.25.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.25.a
+	}
+}
+#Purging the Spectre
+country_event = {
+	id = pleskau.26
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.26"}
+	title = pleskau.26.title
+	desc = pleskau.26.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.26.a
+	}
+}
+#A Step Into the Past
+country_event = {
+	id = pleskau.27
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.27"}
+	title = pleskau.27.title
+	desc = pleskau.27.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.27.a
+	}
+}
+#Purge the Rot
+country_event = {
+	id = pleskau.28
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.28"}
+	title = pleskau.28.title
+	desc = pleskau.28.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.28.a
+	}
+}
+#Put them to Work
+country_event = {
+	id = pleskau.29
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pleskau.29"}
+	title = pleskau.29.title
+	desc = pleskau.29.desc
+	picture = GFX_report_event_blue_mosque
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = pleskau.29.a
 	}
 }

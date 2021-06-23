@@ -12,6 +12,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	shared_focus = VNH_the_first_council_meeting
 }
 
@@ -27,5 +31,85 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	shared_focus = VNH_question_reunification
+}
+
+focus_tree = {
+	id = Voronezh_Tree_Election
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = VNH_election_Time
+}
+
+focus_tree = {
+	id = Voronezh_Tree_Gorbachev
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = VNH_hat_man_victorious
+}
+
+focus_tree = {
+	id = Voronezh_Tree_German_War
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = VNH_the_final_battle
+}
+
+focus_tree = {
+	id = Voronezh_Tree_Gorbachev_Finale
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VNH 
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = VNH_the_epilogue
 }

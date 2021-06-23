@@ -1,0 +1,18 @@
+focus_tree = {
+	id = pleskau_post_unification
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PSK
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 1500 y = 1000 }
+	shared_focus = PSK_triumph_the_will
+	initial_show_position = {
+		focus = PSK_triumph_the_will
+	}
+}

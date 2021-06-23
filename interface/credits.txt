@@ -1,4 +1,94 @@
-﻿#The New Order: Last Days of Europe
+﻿#The New Redux: Eternal
+#    Release Team
+
+#PROJECT LEAD
+ScootyScoot
+
+#DEVELOPERS
+NiloticNarcotics
+StalloneisminoneCountry
+Valkorion
+Badthingsneverhappen
+Vander
+TheLOL
+Faaz Noushad
+PrussianBlue
+
+
+#TEAM LEADS
+NiloticNarcotics
+ScootyScoot
+Valkorion
+StalloneisminoneCountry
+Luftburger
+KoenigLars
+Kingfish Chris
+
+
+#MODERATORS
+LordLothar
+The Man of Sex
+Ale
+Bulgarica[Zhapanka]
+Foxite
+Joshua Graham
+Alpha
+Scott Cawthon
+Kostya
+Krvwlyin
+Theodocius420
+CoolMax05
+
+
+#CONTRIBUTORS
+GWildRideDev
+Céstino
+Kostya
+Pruss
+
+#ARTISTS
+Yuri1962
+Perfect and Elegant Maid
+Alfred
+P R I S M
+yknowwhat
+Jack VanBuren
+Chimney Productions
+Goslya
+Nuttachai
+TheOneWhoDoesStuff
+Luftburger
+kazakh man
+Doomer
+Kommissar Dornan
+
+#WRITERS
+Makrin
+Nigel Abe
+Zhukov Gaming
+TheDoomSlayer
+mont blanc
+Masterdrcool
+Jagerson
+Hideko
+AlexandrinoMaranhão
+
+
+#TESTERS
+LordLothar
+
+#DESIGNERS
+Kingfish Chris
+Director Krennic
+Losnweria
+The Man of Sex
+nebuch
+Daurentius
+Chimney Productions
+
+
+----------------
+#The New Order: Last Days of Europe
 #    The Cutting Room Floor Team   
 
 #PROJECT LEAD

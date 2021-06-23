@@ -5,8 +5,8 @@ add_namespace = MCW_DBG
 #Restore 1962 Moskowien
 country_event = {
 	id = MCW_DBG.1
-	title = "Restore 1962 Moskowien"
-	desc = "Moskowien Debug"
+	title = "MCW_DBG.1.t"
+	desc = "MCW_DBG.1.d"
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -15,7 +15,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_DBG.1"}
 
 	option = {
-		name = "Ok"
+		name = "MCW_DBG.1.a"
 
 		MCW = {
 			set_cosmetic_tag = MCW_GER
@@ -67,8 +67,8 @@ country_event = {
 #3SS - Russian = German Preference
 country_event = {
 	id = MCW_DBG.2
-	title = "3SS - Russian = German Preference"
-	desc = "Moskowien Debug"
+	title = "MCW_DBG.2.t"
+	desc = "MCW_DBG.2.d"
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -77,7 +77,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_DBG.2"}
 
 	option = {
-		name = "Ok"
+		name = "MCW_DBG.2.a"
 		set_global_flag = MCW_3SS
 		VLG = {
 			transfer_state = 217
@@ -181,8 +181,8 @@ country_event = {
 #2SS - Russian > German Preference
 country_event = {
 	id = MCW_DBG.3
-	title = "2SS - Russian > German Preference"
-	desc = "Moskowien Debug"
+	title = "MCW_DBG.3.t"
+	desc = "MCW_DBG.3.d"
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -191,7 +191,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_DBG.3"}
 
 	option = {
-		name = "Ok"
+		name = "MCW_DBG.3.a"
 
 		VLG = {
 			transfer_state = 217
@@ -293,8 +293,8 @@ country_event = {
 #2SS - Russian < German Preference
 country_event = {
 	id = MCW_DBG.4
-	title = "2SS - Russian > German Preference"
-	desc = "Moskowien Debug"
+	title = "MCW_DBG.4.t"
+	desc = "MCW_DBG.4.d"
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -303,7 +303,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_DBG.4"}
 
 	option = {
-		name = "Ok"
+		name = "MCW_DBG.4.a"
 
 		VLG = {
 			country_event = { id = VLG.2 }
@@ -400,8 +400,8 @@ country_event = {
 #Collapse - Russian Pref > 5 || German Pref > 5
 country_event = { 
 	id = MCW_DBG.5
-	title = "Collapse - Russian Pref > 5 || German Pref > 5"
-	desc = "Moskowien Debug"
+	title = "MCW_DBG.5.t"
+	desc = "MCW_DBG.5.d"
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -410,7 +410,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW_DBG.5"}
 
 	option = {
-		name = "Ok"
+		name = "MCW_DBG.5.a"
 		
 		set_global_flag = MCW_collapse
 
@@ -540,7 +540,7 @@ country_event = {
 country_event = { # intro event
 	id = MCW.1
 	title = MCW.1.t
-	desc = MCW.1.desc
+	desc = MCW.1.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -556,7 +556,7 @@ country_event = { # intro event
 country_event = { # Germany demands reintegration into RK Moskowien
 	id = MCW.2
 	title = MCW.2.t
-	desc = MCW.2.desc
+	desc = MCW.2.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -583,7 +583,7 @@ country_event = { # Germany demands reintegration into RK Moskowien
 country_event = { # partisans destroy factory
 	id = MCW.3
 	title = MCW.3.t
-	desc = MCW.3.desc
+	desc = MCW.3.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -606,7 +606,7 @@ country_event = { # partisans destroy factory
 country_event = { #weapon shipment intercepted
 	id = MCW.4
 	title = MCW.4.t
-	desc = MCW.4.desc
+	desc = MCW.4.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -633,7 +633,7 @@ country_event = { #weapon shipment intercepted
 country_event = { # partisans destroy factories
 	id = MCW.5
 	title = MCW.5.t
-	desc = MCW.5.desc
+	desc = MCW.5.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -656,7 +656,7 @@ country_event = { # partisans destroy factories
 country_event = { # modernisation time
 	id = MCW.7
 	title = MCW.7.t
-	desc = MCW.7.desc
+	desc = MCW.7.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -691,7 +691,7 @@ country_event = { # modernisation time
 country_event = { #Partisans ruin factories
 	id = MCW.9
 	title = MCW.9.t
-	desc = MCW.9.desc
+	desc = MCW.9.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -722,7 +722,7 @@ country_event = { #Partisans ruin factories
 country_event = { #Partisans ruin infrastructure
 	id = MCW.10
 	title = MCW.10.t
-	desc = MCW.10.desc
+	desc = MCW.10.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -759,7 +759,7 @@ country_event = { #Partisans ruin infrastructure
 country_event = { # Moskowien at peace
 	id = MCW.11
 	title = MCW.11.t
-	desc = MCW.11.desc
+	desc = MCW.11.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -775,8 +775,8 @@ country_event = { # Moskowien at peace
 
 country_event = { # Ukraine wants us to take in Cossacks
 	id = MCW.13
-	title = MCW.13.a
-	desc = MCW.13.desc
+	title = MCW.13.t
+	desc = MCW.13.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -787,15 +787,18 @@ country_event = { # Ukraine wants us to take in Cossacks
 	option = { # Why would we accept?
 		name = MCW.13.a
 		hidden_effect = {
-			country_event = { id = UKR.21 days = 3 }
+			country_event = { 
+				id = UKR.21 
+				days = 3 
+			}
 		}
 	}
 }
 
 country_event = { # Ukraine wants us to take in Cossacks
 	id = MCW.14
-	title = MCW.14.a
-	desc = MCW.14.desc
+	title = MCW.14.t
+	desc = MCW.14.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -807,7 +810,10 @@ country_event = { # Ukraine wants us to take in Cossacks
 		name = MCW.14.a
 		ai_chance = { factor = 0 }
 		hidden_effect = {
-			country_event = { id = UKR.21 days = 3 }
+			country_event = { 
+				id = UKR.21 
+				days = 3 
+			}
 		}
 	}
 	option = { # when you put it like that
@@ -815,7 +821,10 @@ country_event = { # Ukraine wants us to take in Cossacks
 		ai_chance = { factor = 1 }
 		add_to_variable = { money_reserves = 500 }
 		hidden_effect = {
-			country_event = { id = UKR.22 days = 3 }
+			country_event = { 
+				id = UKR.22 
+				days = 3 
+			}
 		}
 	}
 }
@@ -823,7 +832,7 @@ country_event = { # Ukraine wants us to take in Cossacks
 country_event = { # intro to the council function
 	id = MCW.101
 	title = MCW.101.t
-	desc = MCW.101.desc
+	desc = MCW.101.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -840,7 +849,7 @@ country_event = { # intro to the council function
 country_event = { # intro to warlord burdens
 	id = MCW.102
 	title = MCW.102.t
-	desc = MCW.102.desc
+	desc = MCW.102.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -857,7 +866,7 @@ country_event = { # intro to warlord burdens
 country_event = { # industry end
 	id = MCW.103
 	title = MCW.103.t
-	desc = MCW.103.desc
+	desc = MCW.103.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -874,7 +883,7 @@ country_event = { # industry end
 country_event = { # defense of moskowien
 	id = MCW.104
 	title = MCW.104.t
-	desc = MCW.104.desc
+	desc = MCW.104.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -891,7 +900,7 @@ country_event = { # defense of moskowien
 country_event = { # germany is falling apart, council needs to do something
 	id = MCW.105
 	title = MCW.105.t
-	desc = MCW.105.desc
+	desc = MCW.105.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -917,7 +926,7 @@ country_event = { # germany is falling apart, council needs to do something
 country_event = { # 2SS happens
 	id = MCW.106
 	title = MCW.106.t
-	desc = MCW.106.desc
+	desc = MCW.106.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1122,7 +1131,7 @@ country_event = { # 2SS happens
 country_event = { # russian take over
 	id = MCW.107
 	title = MCW.107.t
-	desc = MCW.107.desc
+	desc = MCW.107.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1148,7 +1157,7 @@ country_event = { # russian take over
 country_event = { # german take over
 	id = MCW.108
 	title = MCW.108.t
-	desc = MCW.108.desc
+	desc = MCW.108.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1174,7 +1183,7 @@ country_event = { # german take over
 country_event = { # war in 2SS
 	id = MCW.109
 	title = MCW.109.t
-	desc = MCW.109.desc
+	desc = MCW.109.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1196,7 +1205,7 @@ country_event = { # war in 2SS
 country_event = { # worries about fatherland
 	id = MCW.110
 	title = MCW.110.t
-	desc = MCW.110.desc
+	desc = MCW.110.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1213,7 +1222,7 @@ country_event = { # worries about fatherland
 country_event = { # quick phonecall
 	id = MCW.111
 	title = MCW.111.t
-	desc = MCW.111.desc
+	desc = MCW.111.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1223,17 +1232,13 @@ country_event = { # quick phonecall
 
 	option = {
 		name = MCW.111.a
-		country_event = {
-    		id = MCW.112
-    		days = 5
-		}
 	}
 }
 
 country_event = { # kasche dips
 	id = MCW.112
 	title = MCW.112.t
-	desc = MCW.112.desc
+	desc = MCW.112.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1282,7 +1287,7 @@ country_event = { # kasche dips
 country_event = { # kasche has a freak out
 	id = MCW.113
 	title = MCW.113.t
-	desc = MCW.113.desc
+	desc = MCW.113.d
 	picture = GFX_report_event_russia_moscow_celebration
 
 	fire_only_once = yes
@@ -1299,7 +1304,7 @@ country_event = { # kasche has a freak out
 country_event = { # two state pops up
 	id = MCW.114
 	title = MCW.114.t
-	desc = MCW.114.desc
+	desc = MCW.114.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1316,7 +1321,7 @@ country_event = { # two state pops up
 country_event = { # Moskowien Collapse #1
 	id = MCW.201
 	title = MCW.201.t
-	desc = MCW.201.desc
+	desc = MCW.201.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1350,7 +1355,7 @@ country_event = { # Moskowien Collapse #1
 country_event = { # Moskowien Collapse #2
 	id = MCW.202
 	title = MCW.202.t
-	desc = MCW.202.desc
+	desc = MCW.202.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1384,7 +1389,7 @@ country_event = { # Moskowien Collapse #2
 country_event = { # Moskowien Collapse #3
 	id = MCW.203
 	title = MCW.203.t
-	desc = MCW.203.desc
+	desc = MCW.203.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1417,7 +1422,7 @@ country_event = { # Moskowien Collapse #3
 country_event = { # Moskowien Collapse #4
 	id = MCW.204
 	title = MCW.204.t
-	desc = MCW.204.desc
+	desc = MCW.204.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1443,12 +1448,30 @@ country_event = { # Moskowien Collapse #4
     		days = 2
 		}
 	}
+	option = {
+		name = MCW.204.b
+		VNH = {
+			add_state_core = 265
+			transfer_state = 265
+			add_state_core = 260
+			transfer_state = 260
+			add_state_core = 240
+			transfer_state = 240
+			inherit_technology = MCW
+			load_oob = "VNH_Collapse"
+		}
+		change_tag_from = MCW
+		country_event = {
+			id = MCW.205
+			days = 2
+		}
+	}
 }
 
 country_event = { # Moskowien Collapse #5
 	id = MCW.205
 	title = MCW.205.t
-	desc = MCW.205.desc
+	desc = MCW.205.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1519,7 +1542,7 @@ country_event = { # Moskowien Collapse #5
 country_event = { # Moskowien Collapse #6
 	id = MCW.206
 	title = MCW.206.t
-	desc = MCW.206.desc
+	desc = MCW.206.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1550,7 +1573,7 @@ country_event = { # Moskowien Collapse #6
 country_event = { # Moskowien Collapse #7
 	id = MCW.207
 	title = MCW.207.t
-	desc = MCW.207.desc
+	desc = MCW.207.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1585,7 +1608,7 @@ country_event = { # Moskowien Collapse #7
 country_event = { # Moskowien Collapse #8
 	id = MCW.208
 	title = MCW.208.t
-	desc = MCW.208.desc
+	desc = MCW.208.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1625,7 +1648,7 @@ country_event = { # Moskowien Collapse #8
 country_event = { # Moskowien Collapse #9
 	id = MCW.209
 	title = MCW.209.t
-	desc = MCW.209.desc
+	desc = MCW.209.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1656,7 +1679,7 @@ country_event = { # Moskowien Collapse #9
 country_event = { # Moskowien Collapse #10
 	id = MCW.210
 	title = MCW.210.t
-	desc = MCW.210.desc
+	desc = MCW.210.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1678,8 +1701,8 @@ country_event = { # Moskowien Collapse #10
 			}
 			
 			country_event = {
-    		id = MCW.211
-    		days = 2
+    			id = MCW.211
+    			days = 2
 			}
 		}
 	}
@@ -1688,7 +1711,7 @@ country_event = { # Moskowien Collapse #10
 country_event = { # Moskowien Collapse #11
 	id = MCW.211
 	title = MCW.211.t
-	desc = MCW.211.desc
+	desc = MCW.211.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1702,7 +1725,7 @@ country_event = { # Moskowien Collapse #11
 			add_state_core = 253
 			transfer_state = 253
 			inherit_technology = MCW
-			load_oob = "BSB_Collapse"
+			load_oob = "BBB_Collapse"
 			
 			declare_war_on = {
     			target = MOS
@@ -1716,7 +1739,7 @@ country_event = { # Moskowien Collapse #11
 country_event = { # 1st tree
 	id = MCW.100
 	title = MCW.100.t
-	desc = MCW.100.desc
+	desc = MCW.100.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1733,7 +1756,7 @@ country_event = { # 1st tree
 country_event = { # 2nd tree
 	id = MCW.200
 	title = MCW.200.t
-	desc = MCW.200.desc
+	desc = MCW.200.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1750,7 +1773,7 @@ country_event = { # 2nd tree
 country_event = { # scary state solution
 	id = MCW.300
 	title = MCW.300.t
-	desc = MCW.300.desc
+	desc = MCW.300.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1809,7 +1832,7 @@ country_event = { # scary state solution
 country_event = { # scary state solution, now with joint
 	id = MCW.400
 	title = MCW.400.t
-	desc = MCW.400.desc
+	desc = MCW.400.d
 	picture = GFX_report_event_MAD_palace
 
 	fire_only_once = yes
@@ -1818,8 +1841,8 @@ country_event = { # scary state solution, now with joint
 	immediate = {log = "[GetDateText]: [Root.GetName]: event GFX_report_event_MAD_palace"}
 
 	option = {
-		set_global_flag = MCW_3SS
 		name = MCW.400.a
+		set_global_flag = MCW_3SS
 		
 		VLG = {
 		add_state_core = 239

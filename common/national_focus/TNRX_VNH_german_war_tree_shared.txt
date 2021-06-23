@@ -1,5 +1,5 @@
 shared_focus = { 
-    id = VNH_The_final_battle
+    id = VNH_the_final_battle
 	icon = GFX_CHI_A_War_Cabinet
 	cost = 2
 	
@@ -9,11 +9,12 @@ shared_focus = {
 	completion_reward = {
 		add_stability = 0.03
 		add_war_support = 0.05
+		add_ideas = VNH_additional_industrialization_1
 	}
 }
 
 shared_focus = { 
-    id = VNH_Mass_conscription
+    id = VNH_mass_conscription
 	icon = GFX_Generic_Authoritarian_conscription
 	cost = 2
 	
@@ -21,15 +22,16 @@ shared_focus = {
 	y = 1
 	
 	prerequisite = {
-	   focus = VNH_The_final_battle
+	   focus = VNH_the_final_battle
 	}
 	completion_reward = {
 		add_manpower = 10000
+		add_ideas = VNH_Mass_conscription_idea
 	}
 }
 
 shared_focus = { 
-    id = VNH_Suppress_german_settlers
+    id = VNH_suppress_german_settlers
 	icon = GFX_UPO_Death_to_All_Nazis
 	cost = 2
 	
@@ -37,17 +39,16 @@ shared_focus = {
 	y = 2
 	
 	prerequisite = {
-	   focus = VNH_Mass_conscription
+	   focus = VNH_mass_conscription
 	}
 	completion_reward = {
 		add_stability = -0.02
 		add_war_support = 0.03
-		conscription = 0.04
 	}
 }
 
 shared_focus = { 
-    id = VNH_Punish_deserters
+    id = VNH_punish_deserters
 	icon = GFX_GER_failure_warrants_punishment
 	cost = 2
 	
@@ -55,7 +56,7 @@ shared_focus = {
 	y = 3
 	
 	prerequisite = {
-	   focus = VNH_Suppress_german_settlers
+	   focus = VNH_suppress_german_settlers
 	}
 	completion_reward = {
 		add_stability = 0.01
@@ -64,7 +65,7 @@ shared_focus = {
 }
 
 shared_focus = { 
-    id = VNH_Freedoms_last_stand
+    id = VNH_freedoms_last_stand
 	icon = GFX_OST_Fight_for_Freedom
 	cost = 2
 	
@@ -72,9 +73,9 @@ shared_focus = {
 	y = 4
 	
 	prerequisite = {
-	   focus = VNH_Suppress_german_settlers
-	   focus = VNH_Everything_to_the_front
-	   focus = VNH_Hold_your_ground
+	   focus = VNH_suppress_german_settlers
+	   focus = VNH_everything_to_the_front
+	   focus = VNH_hold_your_ground
 	}
 	completion_reward = {
 		add_war_support = 0.10
@@ -83,7 +84,7 @@ shared_focus = {
 }
 
 shared_focus = { 
-    id = VNH_The_proud_army
+    id = VNH_the_proud_army
 	icon = GFX_Generic_Army_Officers
 	cost = 2
 	
@@ -91,7 +92,7 @@ shared_focus = {
 	y = 1
 	
 	prerequisite = {
-	   focus = VNH_The_final_battle
+	   focus = VNH_the_final_battle
 	}
 	completion_reward = {
 		add_war_support = 0.03
@@ -99,7 +100,7 @@ shared_focus = {
 }
 
 shared_focus = { 
-    id = VNH_Fight_for_your_freedom
+    id = VNH_fight_for_your_freedom
 	icon = GFX_Generic_Army_Focus_Green
 	cost = 2
 	
@@ -107,7 +108,7 @@ shared_focus = {
 	y = 2
 	
 	prerequisite = {
-	   focus = VNH_The_proud_army
+	   focus = VNH_the_proud_army
 	}
 	completion_reward = {
 		add_stability = 0.01
@@ -117,7 +118,7 @@ shared_focus = {
 }
 
 shared_focus = { 
-    id = VNH_Hold_your_ground
+    id = VNH_hold_your_ground
 	icon = GFX_TNO_generic_defense
 	cost = 2
 	
@@ -125,7 +126,7 @@ shared_focus = {
 	y = 3
 	
 	prerequisite = {
-	   focus = VNH_Fight_for_your_freedom
+	   focus = VNH_fight_for_your_freedom
 	}
 	completion_reward = {
 		add_stability = 0.3
@@ -133,7 +134,7 @@ shared_focus = {
 }
 
 shared_focus = { 
-    id = VNH_Relocate_industries
+    id = VNH_relocate_industries
 	icon = GFX_Generic_Industry
 	cost = 2
 	
@@ -141,16 +142,15 @@ shared_focus = {
 	y = 1
 	
 	prerequisite = {
-	   focus = VNH_The_final_battle
+	   focus = VNH_the_final_battle
 	}
 	completion_reward = {
 		add_stability = 0.04
-		local_factories = 0.3
 	}
 }
 
 shared_focus = { 
-    id = VNH_Women_to_factories
+    id = VNH_women_to_factories
 	icon = GFX_Generic_factories
 	cost = 2
 	
@@ -158,24 +158,27 @@ shared_focus = {
 	y = 2
 	
 	prerequisite = {
-	   focus = VNH_Relocate_industries
+	   focus = VNH_relocate_industries
 	}
 	completion_reward = {
 		add_stability = 0.01
-		local_factories = 0.03
+		swap_ideas = {
+			remove_idea = VNH_additional_industrialization_1
+			add_idea = VNH_additional_industrialization_2
+		}
 	}
 }
 
 shared_focus = { 
-    id = VNH_Everything_to_the_front
+    id = VNH_everything_to_the_front
 	icon = GFX_YUN_Everything_For_The_War
 	cost = 2
 	
 	x = -1
-	y = 1
+	y = 3
 	
 	prerequisite = {
-	   focus = VNH_Everything_to_the_front
+	   focus = VNH_women_to_factories
 	}
 	completion_reward = {
 		add_stability = 0.3

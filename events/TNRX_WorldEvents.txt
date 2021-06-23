@@ -1,4 +1,5 @@
 add_namespace = WORLD_TNRX
+set_global_flag = muscovite_unification
 ###################################################
 #####Moscowien Russia Unification News Events #####
 ###################################################
@@ -7,7 +8,8 @@ news_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.1"}
 
 	hidden = yes
-
+    
+	major = yes
 	is_triggered_only = yes
 	fire_only_once = yes
 
@@ -16,21 +18,20 @@ news_event = {
 	}
 }
 news_event = {
-	id = WORLD_TNRX.2 #Voronezh unites Muscovite Russia
-	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.1"}
+    id = WORLD_TNRX.2 #Voronezh unites Muscovite Russia
+    immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.2"}
 
-	hidden = yes
+    major = yes
+    is_triggered_only = yes
+    fire_only_once = yes
 
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		name = WORLD_TNRX.2.a
-	}
+    option = {
+        name = WORLD_TNRX.2.a
+    }
 }
 news_event = {
 	id = WORLD_TNRX.3 #Pleskau unites Muscovite Russia
-	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.1"}
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.3"}
 
 	hidden = yes
 

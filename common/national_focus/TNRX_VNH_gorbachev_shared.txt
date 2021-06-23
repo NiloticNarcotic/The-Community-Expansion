@@ -1,5 +1,5 @@
 shared_focus = { 
-    id = VNH_Hat_man_victorious
+    id = VNH_hat_man_victorious
 	icon = GFX_VNH_the_reformer
 	cost = 2
 	
@@ -18,14 +18,14 @@ shared_focus = {
 	x = -2
 	y = 1
 	prerequisite = {
-		focus = VNH_Hat_man_victorious
+		focus = VNH_hat_man_victorious
 	}
 	completion_reward = {
 	    country_event = {
 		    id = VNH.34
 			days = 1
 		}
-	political_power = 20
+	add_political_power = 20
 	}
 }
 
@@ -37,14 +37,14 @@ shared_focus = {
 	x = 2
 	y = 1
 	prerequisite = {
-		focus = VNH_Hat_man_victorious
+		focus = VNH_hat_man_victorious
 	}
 	completion_reward = {
 	    country_event = {
 		    id = VNH.35
 			days = 1
 		}
-	political_power = 10
+		add_political_power = 10
 	}
 }
 
@@ -60,7 +60,7 @@ shared_focus = {
 		focus = VNH_The_inaugurating_speech
 	}
 	completion_reward = {
-	 political_power = 25
+		add_political_power = 25
 	}
 }
 
@@ -174,7 +174,7 @@ shared_focus = {
 		focus = VNH_Economic_burdens
 	}
 	completion_reward = {
-		consumer_goods_factor = -0.2
+		#
 	}
 }
 
@@ -314,7 +314,7 @@ shared_focus = {
 		focus = VNH_Prepare_for_war
 	}
 	completion_reward = {
-		production_speed_buildings_factor = 0.15
+		#
 	}
 }
 
@@ -326,7 +326,7 @@ shared_focus = {
 	x = 14
 	y = 0
 	completion_reward = {
-	    war_support_factor = 0.1
+	    add_war_support = 0.1
 	}
 }
 
@@ -372,7 +372,7 @@ shared_focus = {
 		focus = VNH_On_the_land
 	}
 	completion_reward = {
-	 army_defence_factor = 0.03
+		#
 	}
 }
 
@@ -393,7 +393,7 @@ shared_focus = {
 		focus = VNH_Voronezh_Military_Academy
 	}
 	completion_reward = {
-	 army_attack_factor = 0.05
+		#
 	}
 }
 
@@ -408,9 +408,7 @@ shared_focus = {
 		focus = VNH_Bulganins_word
 	}
 	completion_reward = {
-	 army_speed_factor = 0.05
-	 army_attack_factor = 0.05
-	 army_defence_factor = 0.05
+		#
 	}
 }
 
@@ -425,7 +423,7 @@ shared_focus = {
 		focus = VNH_On_the_land
 	}
 	completion_reward = {
-	 army_speed_factor = 0.05
+		#
 	}
 }
 
@@ -440,7 +438,7 @@ shared_focus = {
 		focus = VNH_Defenders_of_democracy
 	}
 	completion_reward = {
-	 air_defence_factor = 0.05
+		#
 	}
 }
 
@@ -455,8 +453,7 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-	 air_attack_factor = 0.07
-	 army_attack_factor = 0.1
+		#
 	}
 }
 
@@ -471,7 +468,7 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-	 experince_gain_air_factor = 0.05
+		#
 	}
 }
 
@@ -486,7 +483,7 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-	  experince_gain_air = 0.01
+		#
 	}
 }
 
@@ -508,7 +505,7 @@ shared_focus = {
 		focus = VNH_New_ages_new_planes
 	}
 	completion_reward = {
-	 ground_attack_factor = 0.05
+		#
 	}
 }
 

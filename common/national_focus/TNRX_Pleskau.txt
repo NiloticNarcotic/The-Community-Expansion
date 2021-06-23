@@ -151,7 +151,6 @@ focus_tree = {
 		prerequisite = { focus = PSK_faith_in_party focus = PSK_faith_in_state }
 		completion_reward = {
 			hidden_effect = {
-				to_the_bitter_end = yes
 				country_event = {
 					id = pleskau.6
 				}

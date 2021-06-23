@@ -373,3 +373,6 @@
  COG_anti_air_weaponry_desc:0 ""
  COG_the_cheapest_labor:0 "The Cheapest Labor"
  COG_the_cheapest_labor_desc:0 ""
+ #Miscellaneous
+ COG_SAF_war:0 "Zentralafrikan South African War Tree"
+ COG_Start:0 "Zentralafrikan Starting Tree"
