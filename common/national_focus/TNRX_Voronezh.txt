@@ -54,7 +54,7 @@ focus_tree = {
 		x = 1000
 		y = 300
 	}
-	shared_focus = VNH_Election_Time
+	shared_focus = VNH_election_Time
 }
 
 focus_tree = {
@@ -73,7 +73,7 @@ focus_tree = {
 		x = 1000
 		y = 300
 	}
-	shared_focus = VNH_Hat_man_victorious
+	shared_focus = VNH_hat_man_victorious
 }
 
 focus_tree = {
@@ -92,7 +92,7 @@ focus_tree = {
 		x = 1000
 		y = 300
 	}
-	shared_focus = VNH_The_final_battle
+	shared_focus = VNH_the_final_battle
 }
 
 focus_tree = {
@@ -111,5 +111,5 @@ focus_tree = {
 		x = 1000
 		y = 300
 	}
-	shared_focus = VNH_The_epilogue
+	shared_focus = VNH_the_epilogue
 }

@@ -1,5 +1,5 @@
 shared_focus = { 
-    id = VNH_Hat_man_victorious
+    id = VNH_hat_man_victorious
 	icon = GFX_VNH_the_reformer
 	cost = 2
 	
@@ -18,7 +18,7 @@ shared_focus = {
 	x = -2
 	y = 1
 	prerequisite = {
-		focus = VNH_Hat_man_victorious
+		focus = VNH_hat_man_victorious
 	}
 	completion_reward = {
 	    country_event = {
@@ -37,7 +37,7 @@ shared_focus = {
 	x = 2
 	y = 1
 	prerequisite = {
-		focus = VNH_Hat_man_victorious
+		focus = VNH_hat_man_victorious
 	}
 	completion_reward = {
 	    country_event = {

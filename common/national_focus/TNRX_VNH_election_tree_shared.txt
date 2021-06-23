@@ -1,5 +1,5 @@
 shared_focus = { 
-    id = VNH_Election_Time
+    id = VNH_election_Time
 	icon = GFX_VNH_the_reformer
 	cost = 2
 	
@@ -16,7 +16,7 @@ shared_focus = {
 	cost = 2
 	
 	prerequisite = {
-	    focus = VNH_Election_Time
+	    focus = VNH_election_Time
 	}
 	x = -2
 	y = 1
@@ -31,7 +31,7 @@ shared_focus = {
 	cost = 2
 	
 	prerequisite = {
-	    focus = VNH_Election_Time
+	    focus = VNH_election_Time
 	}
 	x = 2
 	y = 1
