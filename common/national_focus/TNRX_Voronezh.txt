@@ -12,6 +12,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	shared_focus = VNH_the_first_council_meeting
 }
 
@@ -27,6 +31,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	shared_focus = VNH_question_reunification
 }
 
@@ -42,6 +50,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	shared_focus = VNH_Election_Time
 }
 
@@ -57,6 +69,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	shared_focus = VNH_Hat_man_victorious
 }
 
@@ -72,6 +88,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	shared_focus = VNH_The_final_battle
 }
 
@@ -87,5 +107,9 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
 	shared_focus = VNH_The_epilogue
 }

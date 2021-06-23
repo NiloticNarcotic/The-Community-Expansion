@@ -4,6 +4,8 @@
 
 #This man isn't bright
 
+#addendum: cum goblin
+
 focus_tree = {
 	id = Moskowien_Initial
 	country = {
@@ -15,7 +17,11 @@ focus_tree = {
 		}
 	}
 	default = no
-	shared_focus = MCW_Status_of_Moskoweine
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = MCW_status_of_moskowien
 }
 
 #focus_tree = {

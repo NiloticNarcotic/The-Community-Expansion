@@ -5,7 +5,7 @@ tags={
 	"Gameplay"
 }
 name="The New Redux"
-supported_version="1.10.4"
+supported_version="1.10.*"
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="common/abilities"

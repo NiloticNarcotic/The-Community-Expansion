@@ -2,8 +2,8 @@
 
 #still dont know what that means, im listening to wolf rn, jamba
 
-shared_focus = { # Status of Moskoweine
-	id = MCW_Status_of_Moskoweine
+shared_focus = { # Status of moskowien
+	id = MCW_status_of_moskowien
 	icon = GFX_MCW_A_Door_To_The_Russian_Hell
 	cost = 1
 	completion_reward = {
@@ -14,11 +14,11 @@ shared_focus = { # Status of Moskoweine
 }
 
 shared_focus = {# Legacy of the west Russian war
-	id = MCW_Legacy_of_the_west_Russian_war
+	id = MCW_legacy_of_the_west_russian_war
 	icon = GFX_MCW_Joint_Patrols
 	cost = 2
 	prerequisite = {
-		focus = MCW_Status_of_Moskoweine
+		focus = MCW_status_of_moskowien
 	}
 	completion_reward = {
 		add_stability = 0.10
@@ -28,11 +28,11 @@ shared_focus = {# Legacy of the west Russian war
 }
 
 shared_focus = {# Out numbered 
-	id = MCW_Out_numbered_and_dependent_on_the_Fatherland
+	id = MCW_out_numbered_and_dependent_on_the_fatherland
 	icon = GFX_SAM_German_Arms
 	cost = 2
 	prerequisite = {
-		focus = MCW_Status_of_Moskoweine
+		focus = MCW_status_of_moskowien
 	}
 	completion_reward = {
 		add_stability = -0.02
@@ -42,12 +42,12 @@ shared_focus = {# Out numbered
 }
 
 shared_focus = {# The failure of Germanifcation
-	id = MCW_The_failure_of_Germanifcation
+	id = MCW_the_failure_of_germanifcation
 	icon = GFX_MCW_Opportunity_For_Settlers
 	cost = 2
 	prerequisite = {
-		focus = MCW_Out_numbered_and_dependent_on_the_Fatherland
-		focus = MCW_Legacy_of_the_west_Russian_war
+		focus = MCW_out_numbered_and_dependent_on_the_fatherland
+		focus = MCW_legacy_of_the_west_russian_war
 	}
 	completion_reward = {
 		add_stability = -0.05
@@ -57,12 +57,12 @@ shared_focus = {# The failure of Germanifcation
 }
 
 shared_focus = {# The Fuhrer calls
-	id = MCW_The_Fuhrer_calls
+	id = MCW_the_fuhrer_calls
 	icon = GFX_TNO_generic_germany
 	cost = 1
 	prerequisite = {
-		focus = MCW_Out_numbered_and_dependent_on_the_Fatherland
-		focus = MCW_Legacy_of_the_west_Russian_war
+		focus = MCW_out_numbered_and_dependent_on_the_fatherland
+		focus = MCW_legacy_of_the_west_russian_war
 	}
 	completion_reward = {
 		country_event = {
@@ -80,7 +80,7 @@ shared_focus = {# cover it up
 	icon = GFX_MCW_German_Land_Grants
 	cost = 9
 	prerequisite = {
-		focus = MCW_The_Fuhrer_calls
+		focus = MCW_the_fuhrer_calls
 	}
 	mutually_exclusive ={
 		focus = MCW_admit_our_failure
@@ -93,7 +93,7 @@ shared_focus = {# cover it up
 }
 
 shared_focus = {# Bribe the Gestapo
-	id = MCW_Bribe_the_Gestapo
+	id = MCW_bribe_the_gestapo
 	icon = GFX_MCW_Joint_Patrols
 	cost = 9
 	prerequisite = {
@@ -107,11 +107,11 @@ shared_focus = {# Bribe the Gestapo
 }
 
 shared_focus = {# Rename places
-	id = MCW_Rename_places
+	id = MCW_rename_places
 	icon = GFX_MCW_Joint_Patrols
 	cost = 9
 	prerequisite = {
-		focus = MCW_Bribe_the_Gestapo
+		focus = MCW_bribe_the_gestapo
 	}
 	completion_reward = {
 		add_stability = 0.01
@@ -125,7 +125,7 @@ shared_focus = {# admit our failure
 	icon = GFX_MCW_A_Door_To_The_Russian_Hell
 	cost = 9
 	prerequisite = {
-		focus = MCW_The_Fuhrer_calls
+		focus = MCW_the_fuhrer_calls
 	}
 	mutually_exclusive ={
 		focus = MCW_cover_it_up
@@ -1177,8 +1177,8 @@ shared_focus = {
 				}
 			}
 			country_event = {
-    		id = MCW.106
-    		days = 100
+    			id = MCW.106
+    			days = 100
 			}
 		}
 		if = { ##ger take over
@@ -1190,12 +1190,12 @@ shared_focus = {
 				}
 			}
 			country_event = {
-    		id = MCW.108
-    		days = 100
+    			id = MCW.108
+    			days = 100
 			}
 			country_event = {
-    		id = MCW.201
-    		days = 200
+    			id = MCW.201
+    			days = 200
 			}
 		}
 		if = { ##rus take over
@@ -1207,12 +1207,12 @@ shared_focus = {
 				}
 			}
 			country_event = {
-    		id = MCW.107
-    		days = 100
+    			id = MCW.107
+    			days = 100
 			}
 			country_event = {
-    		id = MCW.201
-    		days = 200
+    			id = MCW.201
+    			days = 200
 			}
 		}
 		country_event = {

@@ -199,91 +199,148 @@
 
  tooltip_decision_pleskau_1:0 "HALT! This is a test!"
  #Events and shite#
-
+ ## INITIAL TREE EVENTS ##
  #Shadows over Pleskau#
- pleskau.1.t:0 "Shadows Over Pleskau"
+ pleskau.1.title:0 "Shadows Over Pleskau"
  pleskau.1.desc:0 "placeholder"
  pleskau.1.a:0 "Our work can finally begin."
 
  #Victory Royale for the SS#
- pleskau.2.t:0 "Victory for the Rightous"
+ pleskau.2.title:0 "Victory for the Rightous"
  pleskau.2.desc:0 "placeholder"
  pleskau.2.a:0 "The best is yet to come."
 
  #Fill the Reserves#
- pleskau.3.t:0 "Filling the Reserves"
+ pleskau.3.title:0 "Filling the Reserves"
  pleskau.3.desc:0 "placeholder"
  pleskau.3.a:0 "One step closer."
 
  #Using the Untermensch#
- pleskau.4.t:0 "Blood and Soil"
+ pleskau.4.title:0 "Blood and Soil"
  pleskau.4.desc:0 "[STRENG GEHEIM] \nTo SS-Führer Odilo Glonotschnigg \n\nFrom SS-Minister [ZENSIERTEN] \n\nMein Fürher, I am pleased to announce the relocation of Untermensch individuals, away from civilian and military positions and towards the agricultural sector is going as planned. Their replacement, by loyal and supe-rior individuals, which contain far greater intelligence and position management, have sworn their al-legiance to their SS, and are actively carrying out their duties. Moreover, this relocation has greatly increased our grain output, and with the process of relocation reaching the lower class, it can be said, with great confidence, that we expect a surplus of agricultural production, and a far more loyal, pure, and powerful Aryan Army. Although, there is an increase of partisan activity within the forests, it is not something the security battalions cannot handle. If we further pursue this aggressive slave agriculture policy, it can be expected that the Aryan Plan will be achieved, and a continuous grain supply will soon follow. \nHEIL GLONOTOSCHNIGG! \nREPORT CONCLUDED"
  pleskau.4.a:0 "Splendid job!"
 
  #Remembering 1923#
- pleskau.5.t:0 "Remembering 1923"
+ pleskau.5.title:0 "Remembering 1923"
  pleskau.5.desc:0 "8th of November. \nThe day the new order celebrates with immense pride and fervor. \nThe city of Pleskau itself, has exploded into lively celebrations with hundreds of Germanophiles and SS supporters flooding the streets, to celebrate the day Hitler heroically attempted to overthrow the corrupt Judeo-Bolshevik kleptocracy, known as the Weimar Republic. Although, his attempt proved to be a complete failure, he would lay out the foundations for the glorious German Reich, and become the savior of Germany, the avenger of Versailles, the 2nd Bismarck. Even Odilo Globočnik and his cabinet, were celebrating that memorable day in his grandeur villa. \n“Gentlemen” Odilo Globočnik began, after he finished his meal. “Today is a day all of you should greatly remember. Adolf Hitler, the defender of the Germanic pride, has subdued the very Untermensch that tried to destroy him and Germany. However, his job is far from over, because… these Untermensch have infiltrated us.” As Odilo continued with his rhetoric, he approached a plain cylinder-vase, and carefully placed it in his arms. “Take a look at this vase.” he demanded, as he presented it towards the cabinet. “This, is a plain vase, right? It’s nothing but a hollow object, used for decorations, with no purpose or obligation to harm us whatsoever.” His eyes slowly drifted away from the vase, and towards the council. “If we compared it to us, it could be a useful collaborator, or even an honorary “Aryan”, right?” Odilo asked. A few murmurs of agreement followed on. \n“…” “WRONG!” Odilo interrupted abruptly, as he threw the vase to the ground, shattering it and spreading bits of glasses everywhere. All the cabinet could do, was look with horror, as he broke into an intense rant. “DON’T YOU UNDERSTAND? THIS IS THE VERY THING THAT THREATENED TO KILL OUR REICH; HELL, THIS IS THE THING THAT CAUSE THIS GODDAMN REICHKOMMISARIAT TO COLLAPSE IN THE FIRST PLACE!” he roared. “OUR IGNORANCE! THE BASTARDLY SLAVS, THE FAKE ARYANS, EVERYONE! WE WERE SO SPOILED WITH THE FRUITS OF OUR OWN LABOUR, THAT WE FORGOT WHAT OUR GOAL IS ON THE FIRST PLACE!” Odilo spurted as he turned red with fury. “ALWAYS SPENDING OUR TIME ON LAVISH STUFF, WHILE THESE PLAGUED RATS INFILTRATE OUR GREAT SOCIETY, YOU HAVE BETRAYED YOUR OWN CAUSE!” Realizing that he has gone out of control, Odilo took a few deep breaths, and calmed down. “We…Need to realize, that not only the petty Russian warlords are to be defeated, but also that honorary Aryans need to repopulate that region, from the start!” he muttered, before flumping himself onto a wooden chair. "
  pleskau.5.a:0 "Hatred is the greatest weapon on any battlefield."
 
  #Quotas#
- pleskau.6.t:0 "Quotas"
+ pleskau.6.title:0 "Quotas"
  pleskau.6.desc:0 "placeholder"
  pleskau.6.a:0 "All else is folly."
 
  #Restarting the Camps
- pleskau.7.t:0 "Restarting the Camps"
+ pleskau.7.title:0 "Restarting the Camps"
  pleskau.7.desc:0 "placeholder"
  pleskau.7.a:0 "They will suffer under the weight of their crimes!"
 
  #Fill the Factories
- pleskau.8.t:0 "Weapons for the Struggle"
+ pleskau.8.title:0 "Weapons for the Struggle"
  pleskau.8.desc:0 "placeholder"
  pleskau.8.a:0 "Our enemies will soon know fear."
 
  #Ashes of the Fallen#
- pleskau.9.t:0 "Ashes of the Fallen"
+ pleskau.9.title:0 "Ashes of the Fallen"
  pleskau.9.desc:0 "[STRENG GEHEIM \nTo; Reichkommandant of “Yamburg” Concentration Camp \n[ZENSIERTEN] \nFrom; Geheimdienstoffizier of “Yamburg” Concentration Camp \n[ZENSIERTEN] \nTHE FOLLOWING REPORT SHOULD NOT BE REDISTRIBUTED TO ANY MEDIA PLAT-FORM. VIOLATION OF SUCH ACT WILL RESUT WITH CHARGES OF HIGH TREASON AND EXECUTION BY FIRING SQUAD MONTHLY QUOTA REPORT; \n1-XX-196X TO 3X-XX-196X Between 1-XX-196X and 3X-XX-196X, the “Yamburg” Concentration Camp has; \n.   Eradicated about 8,000-10,000 traitorous individuals with “Honorary Aryan” status \n.    Forced about 170,000 lesser race individuals in the labour sector \n.    Incinerated a total of 84,000 individuals of Gypsy, Jewish or of any other lesser ancestry \n.    Siezed valuables and other personal equipment worth nearly 25,000,000 Reichmarks \n.    Burnt an estimate of 210,000 passports, birth certificates or any form of civilian documents \nConclusion \nThe “Yamburg” Concentration Camp has successfully met it’s monthly quota, with minimal incidents. However, an import of more efficient Gas Chambers and Furnaces will be needed in the foreseeable future. \nHEIL HITLER! \nHEIL GLOBOTSCHNIGG!"
  pleskau.9.a:0 "Report Concluded" 
 
  #Faith in Party
- pleskau.10.t:0 "Faith in the Party"
+ pleskau.10.title:0 "Faith in the Party"
  pleskau.10.desc:0 "placeholder"
  pleskau.10.a:0 "No room for anything else."
 
  #Faith in State
- pleskau.11.t:0 "Faith in the State"
+ pleskau.11.title:0 "Faith in the State"
  pleskau.11.desc:0 "placeholder"
  pleskau.11.a:0 "Above all else."
 
  #Expanding the Russian Corps
- pleskau.12.t:0 "Expanding our Russian Corps."
+ pleskau.12.title:0 "Expanding our Russian Corps."
  pleskau.12.desc:0 "placeholder"
  pleskau.12.a:0 "placeholder"
 
  #Regimental Training
- pleskau.13.t:0 "Extreme Regimental Training"
+ pleskau.13.title:0 "Extreme Regimental Training"
  pleskau.13.desc:0 "placeholder"
  pleskau.13.a:0 "placeholder"
 
  #Material Construction
- pleskau.14.t:0 "The New Construction Committee"
+ pleskau.14.title:0 "The New Construction Committee"
  pleskau.14.desc:0 "placeholder"
  pleskau.14.a:0 "placeholder"
 
  #Coercive Activities Bureau
- pleskau.15.t:0 "The Coercive Activities Bureau"
+ pleskau.15.title:0 "The Coercive Activities Bureau"
  pleskau.15.desc:0 "placeholder"
  pleskau.15.a:0 "placeholder"
 
  #Civil Procurement
- pleskau.16.t:0 "Ensuring Civil Procurement"
+ pleskau.16.title:0 "Ensuring Civil Procurement"
  pleskau.16.desc:0 "placeholder"
  pleskau.16.a:0 "placeholder"
 
  #Expanding our Reach
- pleskau.17.t:0 "Goals for an Omniscent State"
+ pleskau.17.title:0 "Goals for an Omniscent State"
  pleskau.17.desc:0 "placeholder"
  pleskau.17.a:0 "placeholder"
+ 
+ ## UNIFICATION TREE EVENTS ##
+ #Scorched by the Sun
+ pleskau.19.title:0 "Scorched by the Black Sun"
+ pleskau.19.desc:0 "While Pleskau stands as a vanguard of Aryan purity in Moskowien, one should not expect this means it does not lend itself to divisions like any other nation. Pleskau’s leadership is made up of three factions with their own visions of a purer land.\n There is of course the wing of the Germanic SS led by Herr Globotschnigg, Pleskau's father. A staunch supporter of Burgundy’s black baron, Heinrich Himmler, Globotschnigg seeks to form a similar fiefdom from the ashes of the fallen Reichskommissariat Moskowien, one where the Aryan reigns truly supreme and the lesser people are scorched by the black sun as they toil for the Aryan’s betterment. On the other side of the Germanic SS is Joachim von Ribbentrop, once foreign minister for Hitler then for Himmler, before arriving in Pleskau after he could no longer live in Burgundy, having drawn Himmler’s ire for opposing his war with the French State. Naturally, von Ribbentrop opposes Himmler, but he also opposes enslaving the subhuman races, preferring to instead have them not only scorched but burned by the black sun in the fires of extermination. This leaves Mr. Ivanovich, leader of the Russian SS, a unit comprised of those born in Russia with the ancestry making them worthy of the title of Aryan. The Russian SS is united in being highly Germanophilic, but divided in that some desire the extermination of non-Germanic Russians, while others opt to support the recruiting of the lesser Russian people into the SS.\n Ivanovich must balance these two factions, or risk being scorched by the black sun himself. "
+ pleskau.19.a:0 "Interesting times in an interesting place."
+
+ #Refining our Methods
+ pleskau.20.title:0 "placeholder"
+ pleskau.20.desc:0 "placeholder"
+ pleskau.20.a:0 "placeholder"
+
+ #A New Officers Corps
+ pleskau.21.title:0 "placeholder"
+ pleskau.21.desc:0 "placeholder"
+ pleskau.21.a:0 "placeholder"
+
+ #The Black Cats
+ pleskau.22.title:0 "placeholder"
+ pleskau.22.desc:0 "placeholder"
+ pleskau.22.a:0 "placeholder"
+
+ #The Black Skies
+ pleskau.23.title:0 "placeholder"
+ pleskau.23.desc:0 "placeholder"
+ pleskau.23.a:0 "placeholder"
+
+ #A Question of Purity
+ pleskau.24.title:0 "placeholder"
+ pleskau.24.desc:0 "placeholder"
+ pleskau.24.a:0 "placeholder"
+
+ #Speiss Voran!
+ pleskau.25.title:0 "placeholder"
+ pleskau.25.desc:0 "placeholder"
+ pleskau.25.a:0 "placeholder"
+
+ #Purging the Spectre
+ pleskau.26.title:0 "placeholder"
+ pleskau.26.desc:0 "placeholder"
+ pleskau.26.a:0 "placeholder"
+
+ #A Step into teh Past
+ pleskau.27.title:0 "placeholder"
+ pleskau.27.desc:0 "placeholder"
+ pleskau.27.a:0 "placeholder"
+
+ #Purge the Rot
+ pleskau.28.title:0 "placeholder"
+ pleskau.28.desc:0 "placeholder"
+ pleskau.28.a:0 "placeholder"
+
+ #Put them to Work
+ pleskau.29.title:0 "placeholder"
+ pleskau.29.desc:0 "placeholder"
+ pleskau.29.a:0 "placeholder"
+ 
  
  #Decisions Localization#
  #Political Decisions#

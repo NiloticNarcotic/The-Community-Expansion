@@ -23,7 +23,6 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_stability = 0.03
-		local_factories = 0.03
 		add_political_power = -100
 	}
 }

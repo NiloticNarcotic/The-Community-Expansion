@@ -55,5 +55,52 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.25
 			}
 		}
+		VNH_Mass_conscription_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_ARL_breakneck_industrialization
+			modifier = {
+				conscription = 0.4
+			}
+		}
+		VNH_additional_industrialization_1 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_KIR_Strength_in_Numbers
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				line_change_production_efficiency_factor = 0.1
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+		VNH_additional_industrialization_2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_KIR_Strength_in_Numbers
+			modifier = {
+				consumer_goods_factor = -0.15
+				industrial_capacity_factory = 0.1
+				line_change_production_efficiency_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
 	}
 }

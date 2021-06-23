@@ -20,7 +20,6 @@ country_event = {
 
 	option = {
 		name = VNH_debug.1.a
-		ai_chance = { factor = 1 }
 		custom_effect_tooltip = VNH_debug.1_tt
 		set_country_flag = VNH_Corruption_Mechanic
 		add_dynamic_modifier = { modifier = VNH_Corruption_Modifier }
@@ -28,7 +27,6 @@ country_event = {
 	}
 	option = {
 		name = VNH_debug.1.b
-		ai_chance = { factor = 1 }
 	}
 }
 country_event = {
@@ -41,14 +39,12 @@ country_event = {
 
 	option = {
 		name = VNH_debug.2.a
-		ai_chance = { factor = 1 }
 		custom_effect_tooltip = VNH_debug.2_tt
 		set_variable = {var = VNH_Corruption_Value value = 50 }
 		set_variable = {var = VNH_Anger_Value value = 50 }
 	}
 	option = {
 		name = VNH_debug.2.b
-		ai_chance = { factor = 1 }
 	}
 }
 country_event = {
@@ -61,13 +57,11 @@ country_event = {
 
 	option = {
 		name = VNH_debug.3.a
-		ai_chance = { factor = 1 }
 		custom_effect_tooltip = VNH_debug.3_tt
 		VNH_corruption_anger_idea_variables = yes
 	}
 	option = {
 		name = VNH_debug.3.b
-		ai_chance = { factor = 1 }
 	}
 }
 country_event = {
@@ -80,25 +74,21 @@ country_event = {
 
 	option = {
 		name = VNH_debug.4.a
-		ai_chance = { factor = 1 }
 		VNH_Corruption_Add_Large = yes
 		VNH_corruption_anger_idea_variables = yes
 	}
 	option = {
 		name = VNH_debug.4.b
-		ai_chance = { factor = 1 }
 		VNH_Anger_Add_Large = yes
 		VNH_corruption_anger_idea_variables = yes
 	}
 	option = {
 		name = VNH_debug.4.c
-		ai_chance = { factor = 1 }
 		VNH_Corruption_Lose_Large = yes
 		VNH_corruption_anger_idea_variables = yes
 	}
 	option = {
 		name = VNH_debug.4.d
-		ai_chance = { factor = 1 }
 		VNH_Anger_Lose_Large = yes
 		VNH_corruption_anger_idea_variables = yes
 	}
@@ -117,7 +107,6 @@ country_event = {
 
 	option = {
 		name = VNH_initial.1.a
-		ai_chance = { factor = 1 }
 		custom_effect_tooltip = VNH_initial.1_tt
 		set_country_flag = VNH_Corruption_Mechanic
 		add_dynamic_modifier = { modifier = VNH_Corruption_Modifier }
@@ -138,7 +127,6 @@ country_event = {
 
 	option = {
 		name = VNH_initial.2.a
-		ai_chance = { factor = 1 }
 	}
 }
 country_event = {
@@ -151,7 +139,6 @@ country_event = {
 
 	option = {
 		name = VNH_initial.3.a
-		ai_chance = { factor = 1 }
 	}
 }
 
@@ -165,7 +152,6 @@ country_event = {
 
 	option = {
 		name = VNH_initial.5.a
-		ai_chance = { factor = 1 }
 	}
 }
 country_event = {
@@ -178,7 +164,6 @@ country_event = {
 
 	option = {
 		name = VNH_initial.7.a
-		ai_chance = { factor = 1 }
 	}
 }
 country_event = {
@@ -191,8 +176,10 @@ country_event = {
 
 	option = {
 		name = VNH_initial.8.a
-		ai_chance = { factor = 1 }
-		load_focus_tree = {	tree = Voronezh_Tree_War keep_completed = yes }
+		load_focus_tree = {	
+			tree = Voronezh_Tree_War 
+			keep_completed = yes 
+		}
 	}
 }
 
@@ -207,7 +194,6 @@ country_event = {
 
 	option = {
 		name = VNH_initial.9.a
-		ai_chance = { factor = 1 }
 	}
 }
 country_event = {
@@ -220,7 +206,7 @@ country_event = {
 
 	option = {
 		name = VNH_initial.10.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 
@@ -229,12 +215,11 @@ country_event = {
 	title = VNH_initial.12.t
 	desc = VNH_initial.12.desc
 	picture = GFX_report_event_russian_fascists_harbin
-
 	is_triggered_only = yes
 
 	option = {
 		name = VNH_initial.12.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 
@@ -243,12 +228,11 @@ country_event = {
 	title = VNH_initial.13.t
 	desc = VNH_initial.13.desc
 	picture = GFX_report_event_russian_fascists_harbin
-
 	is_triggered_only = yes
 
 	option = {
 		name = VNH_initial.13.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 
@@ -262,7 +246,7 @@ country_event = {
 
 	option = {
 		name = VNH_initial.15.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -275,7 +259,7 @@ country_event = {
 
 	option = {
 		name = VNH_initial.16.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -288,7 +272,7 @@ country_event = {
 
 	option = {
 		name = VNH_initial.17.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -301,7 +285,7 @@ country_event = {
 
 	option = {
 		name = VNH_initial.18.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -314,7 +298,7 @@ country_event = {
 
 	option = {
 		name = VNH_initial.19.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -327,7 +311,7 @@ country_event = {
 
 	option = {
 		name = VNH_initial.8.a
-		ai_chance = { factor = 1 }
+
 		load_focus_tree = Voronezh_Tree_Two
 	}
 }
@@ -341,7 +325,7 @@ country_event = {
 
 	option = {
 		name = VNH.1.a
-		ai_chance = { factor = 1 }
+
 		set_country_flag = VNH_Corruption_Mechanic
 		custom_effect_tooltip = VNH_A_Host_Of_New_Options
 	}
@@ -356,7 +340,7 @@ country_event = {
 
 	option = {
 		name = VNH.2.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -369,7 +353,7 @@ country_event = {
 
 	option = {
 		name = VNH.3.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -382,7 +366,7 @@ country_event = {
 
 	option = {
 		name = VNH.4.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -395,7 +379,7 @@ country_event = {
 
 	option = {
 		name = VNH.5.a
-		ai_chance = { factor = 1 }
+
 		load_focus_tree = Voronezh_Tree_War
 	}
 }
@@ -409,7 +393,7 @@ country_event = {
 
 	option = {
 		name = VNH.6.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -421,7 +405,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = VNH.7.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -434,7 +418,7 @@ country_event = {
 
 	option = {
 		name = VNH.8.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -447,7 +431,7 @@ country_event = {
 
 	option = {
 		name = VNH.9.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -460,7 +444,7 @@ country_event = {
 
 	option = {
 		name = VNH.10.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -473,7 +457,7 @@ country_event = {
 
 	option = {
 		name = VNH.11.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -486,7 +470,7 @@ country_event = {
 
 	option = {
 		name = VNH.12.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -499,7 +483,7 @@ country_event = {
 
 	option = {
 		name = VNH.13.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -512,7 +496,7 @@ country_event = {
 
 	option = {
 		name = VNH.14.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -525,7 +509,7 @@ country_event = {
 
 	option = {
 		name = VNH.15.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -538,7 +522,7 @@ country_event = {
 
 	option = {
 		name = VNH.16.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -551,7 +535,7 @@ country_event = {
 
 	option = {
 		name = VNH.17.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -564,7 +548,7 @@ country_event = {
 
 	option = {
 		name = VNH.18.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -577,7 +561,7 @@ country_event = {
 
 	option = {
 		name = VNH.19.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -590,7 +574,7 @@ country_event = {
 
 	option = {
 		name = VNH.20.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -603,7 +587,7 @@ country_event = {
 
 	option = {
 		name = VNH.21.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -616,7 +600,7 @@ country_event = {
 
 	option = {
 		name = VNH.22.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -629,7 +613,7 @@ country_event = {
 
 	option = {
 		name = VNH.23.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -642,7 +626,7 @@ country_event = {
 
 	option = {
 		name = VNH.24.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -655,7 +639,7 @@ country_event = {
 
 	option = {
 		name = VNH.25.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -668,7 +652,7 @@ country_event = {
 
 	option = {
 		name = VNH.26.a
-		ai_chance = { factor = 1 }
+
 		load_focus_tree = { Voronezh_Tree_Election keep_completed = yes }
 	}
 }
@@ -682,7 +666,7 @@ country_event = {
 
 	option = {
 		name = VNH.27.a
-		ai_chance = { factor = 1 }
+
 	}
 }
 country_event = {
@@ -695,7 +679,7 @@ country_event = {
 
 	option = {
 		name = VNH.28.a
-		ai_chance = { factor = 1 }
+
 		complete_national_focus = VNH_Gorbachev_elected
 	}
 }
@@ -709,7 +693,7 @@ country_event = {
 
 	option = {
 		name = VNH.29.a
-		ai_chance = { factor = 1 }
+
 		load_focus_tree = { Voronezh_Tree_German_War keep_completed = yes }
 	}
 }
@@ -721,12 +705,13 @@ country_event = {
 	picture = GFX_report_event_russian_fascists_harbin
 
 	is_triggered_only = {
-      if = {
-        has_war_with = GER
-    }
+      	if = {
+    		has_war_with = GER
+    	}
+	}
 	
 	option = {
 		name = VNH.30.a
-		ai_chance = { factor = 1 }
+
 	}
 }
