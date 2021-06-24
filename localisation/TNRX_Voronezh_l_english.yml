@@ -388,6 +388,11 @@
  VNH_Hat_man_victorious_desc:0 "Gorby has secured his position as the president of the Republic."
  VNH_The_inaugurating_speech:0 "The inaugurating speech"
  VNH_The_inaugurating_speech_desc:0 "Now that the votes are counted and the results are announced. The first thing Gorby will do is to hold a speech in front of the masses to inspire them."
+ ### National Spirits ###
+ VNH_Downfall_1:0 "Economic Downfall"
+ VNH_Downfall_1_desc:0 "The government of Voronezh has just been established. After RK Moskowien stopped being a single entity, it left the newly formed warlord states into economic disarray."
+ VNH_Downfall_2:0 "Gorbanomics"
+ VNH_Downfall_2_desc:0 "Thanks to Mr Gorbachevs economic decisions, our economy shows signs of improvement. The warlords around us have to catch up with us if they want to compete."
  ### War Tree ###
  VNH.6.t:0"The Southern Campaign"
  VNH.6.desc:0"We shall liberate the South"

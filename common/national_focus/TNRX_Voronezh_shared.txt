@@ -555,7 +555,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_save_the_volga_people
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Refugees
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -586,7 +586,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_autonomy_or_justice
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Shady_Deal
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -615,7 +615,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_relief_campaigns
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Socialism
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -661,7 +661,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_fortify_the_north
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_YUN_A_Great_Wall_Of_Flesh_And_Blood
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -678,7 +678,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_let_them_come
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_diplomacy_defense
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -696,7 +696,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_move_on_oryol_partisans
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Expansionism
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -724,7 +724,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_take_out_the_garrison
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_pillage
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -752,7 +752,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_forgive_the_moderate_partisans
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_diplomacy_political
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -781,7 +781,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_settler_disarmament_decree
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_TNO_Generic_Combined_Arms
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -810,7 +810,7 @@ shared_focus = {
 
 shared_focus = { 
 	id = VNH_north_in_shambles
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_RAJ_Cant_Ignore_it_forever
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -839,13 +839,13 @@ shared_focus = {
 	}
 
 	completion_reward = {
-
+        add_war_support = 0.05
 	}
 }
 
 shared_focus = {
 	id = VNH_never_another_bukharin
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_smash_communists
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -873,7 +873,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_reclaim_our_capital
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_TNO_generic_attack
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -904,7 +904,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_end_the_madness_of_the_antikhrist
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_GER_A_Gentle_Purge
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -935,7 +935,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_tackle_remaining_communists
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_execute_communists
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -964,7 +964,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_moscow_once_again
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_victory_parade
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -993,7 +993,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_justice_for_the_hurt
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_SAM_Food_For_All
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -1022,7 +1022,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_stab_the_burgundian_serpent
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Handgun
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -1050,7 +1050,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_the_red_kleptocrats
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_smash_Red
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -1082,7 +1082,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_end_brauchitstadt_authority
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Smash_Fasc
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -1115,7 +1115,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_a_harsher_hand
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_generic_smash_nazi_symbols
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -1144,7 +1144,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_re_redistribute_the_wealth
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Gold
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -1173,7 +1173,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_hello_world_once_again
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Global
 	cancel_if_invalid = yes
 	 
 	cost = 2
@@ -1202,7 +1202,7 @@ shared_focus = {
 
 shared_focus = {
 	id = VNH_a_dream_of_muscovite_democracy
-	icon = GFX_PRM_Beneath_The_Hooked_Cross
+	icon = GFX_Generic_Liberty_Handshake
 	cancel_if_invalid = yes
 	 
 	cost = 5
@@ -1222,6 +1222,7 @@ shared_focus = {
 	
 	completion_reward = {
 		add_political_power = 75
+		add_stability = 0.1
 		load_focus_tree = Voronezh_Tree_Election
 	}
 }

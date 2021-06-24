@@ -1604,8 +1604,8 @@ country_event = { # Moskowien Collapse #4
 			transfer_state = 240
 			inherit_technology = MCW
 			load_oob = "VNH_Collapse"
+			change_tag_from = MCW
 		}
-		change_tag_from = MCW
 		country_event = {
 			id = MCW.205
 			days = 2
