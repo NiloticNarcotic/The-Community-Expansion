@@ -74,7 +74,92 @@ ideas = {
 				political_power_gain = -0.5
 			}
 		}
+		MCW_begrudging_rule = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_begrudging_rule"
+				GER = {
+					add_opinion_modifier = {
+						target = MCW
+						modifier = large_decrease
+					}
+				}
+			}
 
+			picture = MCW_Kasches_Apathy
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.075
+				political_power_gain = -0.25
+			}
+		}
+		MCW_depressive_rule = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_depressive_rule"
+				GER = {
+					add_opinion_modifier = {
+						target = MCW
+						modifier = large_decrease
+					}
+				}
+			}
+
+			picture = MCW_Kasches_Apathy
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.75
+			}
+		}
+		MCW_disunified_ostvolk_council = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_disunified_ostvolk_council"}
+
+			picture = MCW_Unified_Ostvolk_Council
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.15
+			}
+		}
+		MCW_semiunified_ostvolk_council = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_semiunified_ostvolk_council"}
+
+			picture = MCW_Unified_Ostvolk_Council
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.5
+				conscription_factor = 0.5
+			}
+		}
 		MCW_unified_ostvolk_council = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
 
@@ -91,6 +176,85 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				conscription_factor = 0.15
+			}
+		}
+
+		MCW_unrepresentative_council = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+
+			picture = MCW_Unified_Ostvolk_Council
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.5
+				industrial_capacity_factory  = -0.15
+				industrial_capacity_dockyard = -0.15
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		MCW_representative_council = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+
+			picture = MCW_Unified_Ostvolk_Council
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.05
+				industrial_capacity_factory  = 0.075
+				industrial_capacity_dockyard = 0.075
+			}
+		}
+
+		MCW_german_power_deficit = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+
+			picture = MCW_Unified_Ostvolk_Council
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 0.25
+				stability_factor = -0.1
+			}
+		}
+
+		MCW_subordinate_council = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+
+			picture = MCW_Unified_Ostvolk_Council
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.25
 			}
 		}
 

@@ -5,7 +5,7 @@ add_namespace = WORLD_TNRX
 news_event = {
 	id = WORLD_TNRX.1 #Basegi unites Muscovite Russia
 	title = WORLD.TNRX.1.t
-	desc = title = WORLD.TNRX.1.d
+	desc = WORLD.TNRX.1.d
 	picture = GFX_report_event_MAD_palace
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.1"}
 
@@ -22,7 +22,7 @@ news_event = {
 news_event = {
     id = WORLD_TNRX.2 #Voronezh unites Muscovite Russia
 	title = WORLD.TNRX.2.t
-	desc = title = WORLD.TNRX.2.d
+	desc = WORLD.TNRX.2.d
 	picture = GFX_report_event_MAD_palace
     immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.2"}
 
@@ -37,7 +37,7 @@ news_event = {
 news_event = {
 	id = WORLD_TNRX.3 #Pleskau unites Muscovite Russia
 	title = WORLD.TNRX.3.t
-	desc = title = WORLD.TNRX.3.d
+	desc = WORLD.TNRX.3.d
 	picture = GFX_report_event_MAD_palace
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD_TNRX.3"}
 

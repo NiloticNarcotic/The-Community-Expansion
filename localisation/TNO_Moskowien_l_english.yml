@@ -72,6 +72,8 @@
  MCW_national_socialism_party_long:0 "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei"
  MCW_ultranational_socialism_party:0 "AOdNSDAP - Globotschnig"
  MCW_ultranational_socialism_party_long:0 "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei" 
+ MCW_burgundian_system_party:0 "AOdNSDAP - Globotschnig"
+ MCW_burgundian_system_party_long:0 "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei" 
 
 
  MCW_ultranational_socialism_schorner_party:0 "Schörner's Clique"
@@ -83,6 +85,32 @@
 
  MCW_apathetic_rule:0 "Kasche's Apathy"
  MCW_apathetic_rule_desc:0 "For Siegfried Kasche, the running of a Reichskommissariat is an uninspiring and monotonous job, and one which he has grown to hate. Kasche's apathy is well known to Germania, with the Reichskommissar putting in the bare minimum of effort, mostly filing paperwork and interfering in the Council when the internal atmosphere deteriorates. Yet despite Germania's disdain with Kasche, his uncaring attitude has led to the native population having greater rights and a larger say in matters of governance."
+
+ MCW_begrudging_rule:0 "Kasche's Begrudgingness"
+ MCW_begrudging_rule_desc:0 ""
+
+ MCW_depressive_rule:0 "Kasche's Malaise"
+ MCW_depressive_rule:0 ""
+
+ MCW_disunified_ostvolk_council:0 "Disunified Ostvolk Council"
+ MCW_disunified_ostvolk_council_desc:0 ""
+
+ MCW_semiunified_ostvolk_council:0 "Rallied Ostvolk Council"
+ MCW_semiunified_ostvolk_council_desc:0 ""
+
+ MCW_unrepresentative_council:0 "Unrepresentative Council"
+ MCW_unrepresentative_council_desc:0 ""
+
+ MCW_representative_council:0 "Representative Council"
+ MCW_representative_council_desc:0 ""
+
+ MCW_russian_partisans:0 "§eUnchecked Partisan Havoc!§!"
+ MCW_russian_partisans_desc:0 ""
+
+ MCW_german_power_deficit:0 "Ostvolk Council: §eUnruly Russian Minority§!"
+ MCW_german_power_deficit_desc:0 ""
+
+ MCW_subordinate_council:0 "Ostvolk Council: §KSubordinate§!"
 
  MCW_unified_ostvolk_council:0 "Unified Ostvolk Council"
  MCW_unified_ostvolk_council_desc:0 "Unlike other Reichskommissariats, Moskowien's unique situation had lead to the establishment of cooperative body. The Ostvolk Council consists of both settlers and natives, working together to maintain the Reichskommissariat. Although the Council is somewhat unified, the body's primary purpose is the skillful and balanced appeasement of both ethnic groups."
@@ -592,3 +620,6 @@
  MCW_flag_ss_commission:0 "The §KOstvolk Council§! has commissioned the §lShutzstaffel§! to entirely handle the partisan issue"
  MCW_flag_industrialists_trusted:0 "The §KOstvolk Council§! has put it's faith in the §ORussian Industrialists§! to advance Moskowien industrialization and profitability"
  MCW_council_convened:0 "The Ostvolk Council of 1962 has been convened"
+ # Custom Effect Tooltips #
+ MCW_initial_effect_tooltip_1:0 "We must continue to ensure that the subjects of the Reich can sleep soundly in their beds, §elest the forces of darkness swallow them whole§!."
+ MCW_warning_effect_tooltip_1:0 "§RThis path is not currently available in the current patch, please wait as we will add it in on a later date!§!"

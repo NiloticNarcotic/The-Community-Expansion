@@ -1788,7 +1788,7 @@ do_yugoslavian_renames = {
 		}	
 		set_state_name = Srijem
 		set_province_name = {
-			id = = 11580
+			id = 11580
 			name = "Ruma"
 		}
 	}
@@ -1806,7 +1806,7 @@ do_yugoslavian_renames = {
 		}	
 		set_state_name = Sabač
 		set_province_name = {
-			id = = 3609
+			id = 3609
 			name = "Sabač"
 		}
 	}
@@ -1817,7 +1817,7 @@ do_yugoslavian_renames = {
 		}	
 		set_state_name = Beograd
 		set_province_name = {
-			id = = 11586
+			id = 11586
 			name = "Beograd"
 		}
 	}
@@ -1828,7 +1828,7 @@ do_yugoslavian_renames = {
 		}	
 		set_state_name = Arandelovac
 		set_province_name = {
-			id = = 11583
+			id = 11583
 			name = "Smederevo"
 		}
 	}
@@ -1839,7 +1839,7 @@ do_yugoslavian_renames = {
 		}	
 		set_state_name = Valjevo
 		set_province_name = {
-			id = = 3984
+			id = 3984
 			name = "Čačak"
 		}
 	}

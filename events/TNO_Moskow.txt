@@ -829,6 +829,144 @@ country_event = { # Ukraine wants us to take in Cossacks
 	}
 }
 
+country_event = { # Convening the Council
+	id = MCW.15
+	title = MCW.15.t
+	desc = MCW.15.d
+	picture = GFX_report_event_MAD_palace
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW.15"}
+
+	option = { # The Negotiations Continue...
+		name = MCW.15.a
+		ai_chance = { factor = 0.8 }
+		hidden_effect = {
+			country_event = { 
+				id = UKR.21 
+				days = 3 
+			}
+		}
+	}
+	option = { # Gorbachev Recieves a Call
+		name = MCW.15.b
+		ai_chance = { factor = 0.2 }
+		hidden_effect = {
+			country_event = { 
+				id = UKR.22 
+				days = 3 
+			}
+		}
+	}
+}
+
+country_event = { # Negotiations Continue
+	id = MCW.16
+	title = MCW.16.t
+	desc = MCW.16.d
+	picture = GFX_report_event_MAD_palace
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW.16"}
+
+	option = { # The Russians Win Successfully
+		name = MCW.16.a
+		ai_chance = { factor = 0.8 }
+		hidden_effect = {
+			country_event = { 
+				id = UKR.21 
+				days = 3 
+			}
+		}
+	}
+}
+
+country_event = { # Mysterious Benefactors
+	id = MCW.17
+	title = MCW.17.t
+	desc = MCW.17.d
+	picture = GFX_report_event_MAD_palace
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW.17"}
+
+	option = { # "This is an offer I must refuse."
+		name = MCW.17.a
+		ai_chance = { factor = 0.8 }
+		hidden_effect = {
+			country_event = { 
+				id = UKR.21 
+				days = 3 
+			}
+		}
+	}
+	option = { # "Agreed."
+		name = MCW.17.b
+		ai_chance = { factor = 0.2 }
+		hidden_effect = {
+			set_country_flag = MCW_flag_partisan_agreement
+		}
+	}
+}
+country_event = { # Sit down with industrialists
+	id = MCW.18
+	title = MCW.18.t
+	desc = MCW.18.d
+	picture = GFX_report_event_MAD_palace
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW.18"}
+
+	option = { # Prioritise a long term solution
+		name = MCW.18.a
+		ai_chance = { factor = 0.5 }
+		242 = {
+			add_building_construction  = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		195 = {
+			add_building_construction  = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+	option = { # Choose a Short term Comprimise
+		name = MCW.18.a
+		ai_chance = { factor = 0.5 }
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1500
+			producer = GER
+		}
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_1
+			amount = 250
+			producer = GER
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_2
+			amount = 325
+			producer = GER
+		}
+	}
+	
+}
+
 country_event = { # intro to the council function
 	id = MCW.101
 	title = MCW.101.t
@@ -1236,7 +1374,7 @@ country_event = { # load german tree
 	option = {
 		name = MCW.111.a
 		hidden_effect = {
-			load_focus_tree =  MCW_german_tree
+			load_focus_tree =  MCW_german_kaminsky_tree
 			load_focus_tree =  MCW_economy_tree_shared			
 		}
 	}

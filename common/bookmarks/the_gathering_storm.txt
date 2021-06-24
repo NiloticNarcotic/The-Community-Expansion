@@ -618,7 +618,7 @@ bookmarks = {
 						ideology = national_socialism
 						ideas = {
 							MCW_apathetic_rule
-							MCW_unified_ostvolk_council
+							MCW_semiunified_ostvolk_council
 							MCW_the_porous_border
 						}
 						focuses = {
