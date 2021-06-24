@@ -1488,6 +1488,7 @@ country_event = { # Moskowien Collapse #1
 			transfer_state = 246
 			inherit_technology = MCW
 			load_oob = "PSK_Collapse"
+			set_country_flag = is_warlord
 		}
 		
 		country_event = {
@@ -1523,6 +1524,7 @@ country_event = { # Moskowien Collapse #2
 			transfer_state = 241
 			inherit_technology = MCW
 			load_oob = "SMO_Collapse"
+			set_country_flag = is_warlord
 		}
 		country_event = {
     		id = MCW.203
@@ -1555,6 +1557,7 @@ country_event = { # Moskowien Collapse #3
 			transfer_state = 222
 			inherit_technology = MCW
 			load_oob = "ORL_Collapse"
+			set_country_flag = is_warlord
 		}
 		
 		country_event = {
@@ -1586,6 +1589,7 @@ country_event = { # Moskowien Collapse #4
 			transfer_state = 240
 			inherit_technology = MCW
 			load_oob = "VNH_Collapse"
+			set_country_flag = is_warlord
 		}
 		
 		country_event = {
@@ -1604,8 +1608,9 @@ country_event = { # Moskowien Collapse #4
 			transfer_state = 240
 			inherit_technology = MCW
 			load_oob = "VNH_Collapse"
+			set_country_flag = is_warlord
+			change_tag_from = MCW
 		}
-		change_tag_from = MCW
 		country_event = {
 			id = MCW.205
 			days = 2
@@ -1671,11 +1676,11 @@ country_event = { # Moskowien Collapse #5
 			transfer_state = 238
 			inherit_technology = MCW
 			load_oob = "VLG_Collapse"
+			change_tag_from = MCW
 			country_event = {
 				id = VLG.6
 				days = 2
 			}
-			change_tag_from = MCW
 		}
 		country_event = {
     		id = MCW.206
@@ -1706,6 +1711,7 @@ country_event = { # Moskowien Collapse #6
 			transfer_state = 257
 			inherit_technology = MCW
 			load_oob = "PEN_Collapse"
+			set_country_flag = is_warlord
 		}
 		
 		country_event = {
@@ -1741,6 +1747,7 @@ country_event = { # Moskowien Collapse #7
 			transfer_state = 247
 			inherit_technology = MCW
 			load_oob = "MOS_Collapse"
+			set_country_flag = is_warlord
 		}
 		
 		country_event = {
@@ -1776,6 +1783,7 @@ country_event = { # Moskowien Collapse #8
 			transfer_state = 244
 			inherit_technology = MCW
 			load_oob = "PET_Collapse"
+			set_country_flag = is_warlord
 			
 			set_politics = {
 				ruling_party = national_socialism
@@ -1839,6 +1847,7 @@ country_event = { # Moskowien Collapse #10
 			transfer_state = 264
 			inherit_technology = MCW
 			load_oob = "RSB_Collapse"
+			set_country_flag = is_warlord
 			
 			declare_war_on = {
     			target = PET
@@ -1871,6 +1880,7 @@ country_event = { # Moskowien Collapse #11
 			transfer_state = 253
 			inherit_technology = MCW
 			load_oob = "BBB_Collapse"
+			set_country_flag = is_warlord
 			
 			declare_war_on = {
     			target = MOS

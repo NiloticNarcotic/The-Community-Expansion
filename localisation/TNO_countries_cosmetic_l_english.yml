@@ -2532,3 +2532,51 @@
  USA_you_really_fucked_up:0 "United States of America"
  USA_you_really_fucked_up_DEF:0 "The United States of America"
  USA_you_really_fucked_up_ADJ:0 "American"
+
+ # MOSKOWIEN #
+
+
+ # Red Star United Army #
+ RSB_MOS:0 "Muscovite Soviet"
+ RSB_MOS_DEF:0 "The Muscovite Soviet"
+ RSB_MOS_ADJ:0 "Muscovite"
+
+ # Pleskau #
+ PSK_MOS:0 "Ordenstaat Moskowien"
+ PSK_MOS_DEF:0 "Das Ordenstaat Moskowien"
+ PSK_MOS_ADJ:0 "Moskauer"
+
+ # Muscovy #
+ MOS_MOS:0 "Muscovite State"
+ MOS_MOS_DEF:0 "The Muscovite State"
+ MOS_MOS_ADJ:0 "Muscovite"
+
+ # Bogi Smerti #
+ BSB_MOS:0 "Bogi Smerti"
+ BSB_MOS_DEF:0 "The Bogi Smerti"
+ BSB_MOS_ADJ:0 "Muscovite"
+
+ # Smolensk #
+ SMO_MOS:0 "Muscovite Soviet"
+ SMO_MOS_DEF:0 "The Muscovite Soviet"
+ SMO_MOS_ADJ:0 "Muscovite"
+
+ # Oryol #
+ ORL_MOS:0 "Union of Moskva"
+ ORL_MOS_DEF:0 "The Union of Moskva"
+ ORL_MOS_ADJ:0 "Muscovite"
+
+ # Voronezh # 
+ VNH_MOS:0 "Republic of Muscovy"
+ VNH_MOS_DEF:0 "The Republic of Muscovy"
+ VNH_MOS_ADJ:0 "Muscovite"
+
+ # Penza # 
+ PEN_MOS:0 "Deutscher Siedlerverband"
+ PEN_MOS_DEF:0 "Das Deutscher Siedlerverband"
+ PEN_MOS_ADJ:0 "Moskauer"
+
+ # Basegi Black Brigades #
+ BBB_MOS:0 "Muscovite Free Zone"
+ BBB_MOS_DEF:0 "The Muscovite Free Zone"
+ BBB_MOS_ADJ:0 "Muscovite"

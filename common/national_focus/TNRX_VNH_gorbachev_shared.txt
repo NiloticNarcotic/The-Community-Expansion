@@ -1,6 +1,6 @@
 shared_focus = { 
     id = VNH_hat_man_victorious
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Liberty_Handshake
 	cost = 2
 	
 	x = 0
@@ -21,10 +21,6 @@ shared_focus = {
 		focus = VNH_hat_man_victorious
 	}
 	completion_reward = {
-	    country_event = {
-		    id = VNH.34
-			days = 1
-		}
 	add_political_power = 20
 	}
 }
@@ -40,10 +36,6 @@ shared_focus = {
 		focus = VNH_hat_man_victorious
 	}
 	completion_reward = {
-	    country_event = {
-		    id = VNH.35
-			days = 1
-		}
 		add_political_power = 10
 	}
 }
@@ -75,10 +67,7 @@ shared_focus = {
 		focus = VNH_The_next_step
 	}
 	completion_reward = {
-	    country_event = {
-		    id = VNH.36
-			days = 1
-		}
+	    add_political_power = -20
 	}
 }
 
@@ -96,10 +85,6 @@ shared_focus = {
 	    focus = VNH_The_light_hand
 	}
 	completion_reward = {
-	    country_event = {
-		    id = VNH.37
-			days = 1
-		}
 	VNH_Corruption_Lose_Large = yes
 	add_stability = 0.05
 	add_political_power = -50
@@ -108,7 +93,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_light_hand
-	icon = GFX_USA_1962_Bill_of_Rights
+	icon = GFX_Generic_Shady_Deal
 	cost = 2
 	
 	x = 4
@@ -120,10 +105,6 @@ shared_focus = {
 	    focus = VNH_The_awaited_trial
 	}
 	completion_reward = {
-	    country_event = {
-		    id = VNH.38
-			days = 1
-		}
 	VNH_Corruption_Lose_Medium = yes 
 	add_stability = 0.02
 	add_political_power = -10
@@ -174,7 +155,14 @@ shared_focus = {
 		focus = VNH_Economic_burdens
 	}
 	completion_reward = {
-		#
+	248 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 3
+		}
 	}
 }
 
@@ -222,6 +210,7 @@ shared_focus = {
 	completion_reward = {
 		add_political_power = 50
 		add_stability = 0.02
+		TNO_improve_academic_base_med = yes
 	}
 }
 
@@ -236,7 +225,15 @@ shared_focus = {
 		focus = VNH_Education_for_all
 	}
 	completion_reward = {
-		add_war_support = 0.05
+	223 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 10
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 10
+		}
+	}
 	}
 }
 
@@ -298,6 +295,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_stability = 0.05
+		TNO_improve_poverty_med = yes
 	}
 }
 
@@ -314,7 +312,8 @@ shared_focus = {
 		focus = VNH_Prepare_for_war
 	}
 	completion_reward = {
-		#
+		TNO_improve_poverty_large = yes
+		TNO_improve_industrial_equipment_med = yes
 	}
 }
 
@@ -554,6 +553,9 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = VNH_Soon_to_be_prosperous
+	}
+	prerequisite = {
+		focus = VNH_A_true_democracy
 	}
 	completion_reward = {
 	 add_stability = 0.2

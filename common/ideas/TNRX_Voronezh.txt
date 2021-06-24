@@ -8,7 +8,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_generic_coins
+			picture = GFX_GER_A_Heavy_Hand
 			modifier = {
 				stability_factor = -0.2
 				political_power_gain = -0.25
@@ -26,7 +26,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_generic_coins
+			picture = GFX_TNRX_VNH_stimulate_the_economy
 			modifier = {
 				stability_factor = -0.1
 				political_power_gain = -0.10

@@ -628,6 +628,12 @@ bookmarks = {
 							MCW_millenium_reich
 						}
 					}
+
+					"ZZZ" = {
+						minor = yes
+						history = ""
+					}
+
 				## PAKT ##
 
 				## RUSSIA ##
@@ -728,10 +734,6 @@ bookmarks = {
 				## RUSSIA ##
 
 				## CPS ##
-					"ZZZ" = {
-						minor = yes
-						history = ""
-					}
 
 					"ZZZ" = {
 						minor = yes
