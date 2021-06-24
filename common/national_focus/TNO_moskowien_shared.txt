@@ -9,7 +9,7 @@ shared_focus = {
 	id = MCW_status_of_moskowien
 	icon = GFX_Moskowien_Plan
 	cost = 3
-	x = 4
+	x = 8
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_status_of_moskowien"
@@ -307,7 +307,7 @@ shared_focus = {
 	x = -4
 	y = 4
 	available = {
-		
+		always = false
 		IF = {
 			has_country_flag = MCW_council_convened
 		}
@@ -441,7 +441,7 @@ shared_focus = {
 	id = MCW_industrial_overtures
 	icon = GFX_TNO_generic_germany
 	cost = 2
-	x = 15
+	x = 17
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_industrial_overtures"
@@ -1022,7 +1022,7 @@ shared_focus = {
 	id = MCW_stufe_eins
 	icon = GFX_TNO_generic_germany
 	cost = 2
-	x = 6
+	x = 8
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_stufe_eins"
@@ -1300,6 +1300,679 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_stufe_funf"
+	}
+
+}
+#### Russian Collab tree ###
+shared_focus = {
+	id = MCW_status_of_the_russian_delegation
+	icon = GFX_Moskowien_Plan
+	cost = 3
+	x = 8
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_status_of_the_russian_delegation"
+	}
+
+}
+shared_focus = {
+	id = MCW_two_sides_of_the_coin
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = MCW_status_of_the_russian_delegation
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_two_sides_of_the_coin"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_pragmatic_collaborator
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = -3
+	y = 2
+	prerequisite = {
+		focus = MCW_two_sides_of_the_coin
+	}
+	mutually_exclusive = {
+		focus = MCW_the_idealistic_subverter
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_pragmatic_collaborator"
+	}
+
+}
+shared_focus = {
+	id = MCW_direct_economic_legislature
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = -5
+	y = 3
+	prerequisite = {
+		focus = MCW_the_pragmatic_collaborator
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_direct_economic_legislature"
+	}
+
+}
+shared_focus = {
+	id = MCW_prioritise_russian_regional_development
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = -5
+	y = 4
+	prerequisite = {
+		focus = MCW_the_pragmatic_collaborator
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_prioritise_russian_regional_development"
+	}
+
+}
+shared_focus = {
+	id = MCW_office_for_cultural_enrichment
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = -5
+	y = 5
+	prerequisite = {
+		focus = MCW_prioritise_russian_regional_development
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_office_for_cultural_enrichment"
+	}
+
+}
+shared_focus = {
+	id = MCW_offer_they_cant_refuse
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = -3
+	y = 6
+	prerequisite = {
+		focus = MCW_office_for_cultural_enrichment
+	}
+	prerequisite = {
+		focus = MCW_stage_incidents_near_moskau_barracks
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_offer_they_cant_refuse"
+	}
+
+}
+shared_focus = {
+	id = MCW_partisan_negotiations
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 0
+	y = 6
+	prerequisite = {
+		focus = MCW_stage_incidents_near_moskau_barracks
+	}
+	prerequisite = {
+		focus = MCW_make_the_rest_disappear
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_partisan_negotiations"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_final_agreement
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 0
+	y = 7
+	prerequisite = {
+		focus = MCW_partisan_negotiations
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_final_agreement"
+	}
+
+}
+shared_focus = {
+	id = MCW_quid_pro_quo_investigations
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = -1
+	y = 3
+	prerequisite = {
+		focus = MCW_the_pragmatic_collaborator
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_quid_pro_quo_investigations"
+	}
+
+}
+shared_focus = {
+	id = MCW_enticing_offers_from_the_shutzstaffel
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = -1
+	y = 4
+	prerequisite = {
+		focus = MCW_quid_pro_quo_investigations
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_enticing_offers_from_the_shutzstaffel"
+	}
+
+}
+shared_focus = {
+	id = MCW_stage_incidents_near_moskau_barracks
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = -1
+	y = 5
+	prerequisite = {
+		focus = MCW_enticing_offers_from_the_shutzstaffel
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_stage_incidents_near_moskau_barracks"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_idealistic_subverter
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 3
+	y = 2
+	prerequisite = {
+		focus = MCW_two_sides_of_the_coin
+	}
+	mutually_exclusive = {
+		focus = MCW_the_pragmatic_collaborator
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_idealistic_subverter"
+	}
+
+}
+shared_focus = {
+	id = MCW_pragmatic_racial_policies
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 5
+	y = 3
+	prerequisite = {
+		focus = MCW_the_idealistic_subverter
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_pragmatic_racial_policies"
+	}
+
+}
+shared_focus = {
+	id = MCW_subvert_german_influence
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 5
+	y = 4
+	prerequisite = {
+		focus = MCW_pragmatic_racial_policies
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_subvert_german_influence"
+	}
+
+}
+shared_focus = {
+	id = MCW_russian_institute_for_common_labour
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 5
+	y = 5
+	prerequisite = {
+		focus = MCW_subvert_german_influence
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_russian_institute_for_common_labour"
+	}
+
+}
+shared_focus = {
+	id = MCW_industrial_buildup
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 1
+	y = 3
+	prerequisite = {
+		focus = MCW_the_idealistic_subverter
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_industrial_buildup"
+	}
+
+}
+shared_focus = {
+	id = MCW_speak_softly
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 1
+	y = 4
+	prerequisite = {
+		focus = MCW_industrial_buildup
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_speak_softly"
+	}
+
+}
+shared_focus = {
+	id = MCW_make_the_rest_disappear
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 1
+	y = 5
+	prerequisite = {
+		focus = MCW_speak_softly
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_make_the_rest_disappear"
+	}
+
+}
+shared_focus = {
+	id = MCW_buy_out_voronezh_regional_business
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_status_of_the_russian_delegation
+	x = 3
+	y = 6
+	prerequisite = {
+		focus = MCW_make_the_rest_disappear
+	}
+	prerequisite = {
+		focus = MCW_russian_institute_for_common_labour
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_buy_out_voronezh_regional_business"
+	}
+
+}
+#### Russian Partisan ###
+shared_focus = {
+	id = MCW_beneath_their_feet
+	icon = GFX_Moskowien_Plan
+	cost = 3
+	x = 8
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_beneath_their_feet"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_outflanked_center
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = MCW_beneath_their_feet
+	}
+	mutually_exclusive = {
+		focus = MCW_the_old_west
+	}
+	mutually_exclusive = {
+		focus = MCW_the_porrous_east
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_outflanked_center"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_boogeymen
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 0
+	y = 2
+	prerequisite = {
+		focus = MCW_the_outflanked_center
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_boogeyman"
+	}
+
+}
+shared_focus = {
+	id = MCW_kill_them_quietly
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 0
+	y = 3
+	prerequisite = {
+		focus = MCW_the_boogeymen
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_boogeyman"
+	}
+
+}
+shared_focus = {
+	id = MCW_whispers_in_the_night
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 0
+	y = 4
+	prerequisite = {
+		focus = MCW_kill_them_quietly
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_whispers_in_the_night"
+	}
+
+}
+shared_focus = {
+	id = MCW_we_are_here_to_stay
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 0
+	y = 5
+	prerequisite = {
+		focus = MCW_whispers_in_the_night
+		focus = MCW_victories_for_the_people
+		focus = MCW_a_few_missing_shipments
+		focus = MCW_preparing_the_plan
+		focus = MCW_the_wheat_from_the_chaff
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_we_are_here_to_stay"
+	}
+
+}
+shared_focus = {
+	id = MCW_escalating_the_tensions
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 0
+	y = 6
+	prerequisite = {
+		focus = MCW_we_are_here_to_stay
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_escalating_the_tensions"
+	}
+
+}
+shared_focus = {
+	id = MCW_stage_the_incident
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 0
+	y = 7
+	prerequisite = {
+		focus = MCW_escalating_the_tensions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_stage_the_incident"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_old_west
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = -2
+	y = 1
+	prerequisite = {
+		focus = MCW_beneath_their_feet
+	}
+	mutually_exclusive = {
+		focus = MCW_the_porrous_east
+	}
+	mutually_exclusive = {
+		focus = MCW_the_outflanked_center
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_old_west"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_last_bastion
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = -2
+	y = 2
+	prerequisite = {
+		focus = MCW_the_old_west
+	}
+	mutually_exclusive = {
+		focus = MCW_the_hidden_council
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_last_bastion"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_hidden_council
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = -4
+	y = 2
+	prerequisite = {
+		focus = MCW_the_old_west
+	}
+	mutually_exclusive = {
+		focus = MCW_the_last_bastion
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_hidden_council"
+	}
+
+}
+shared_focus = {
+	id = MCW_friends_in_high_places
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = -4
+	y = 3
+	prerequisite = {
+		focus = MCW_the_hidden_council
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_friends_in_high_places"
+	}
+
+}
+shared_focus = {
+	id = MCW_a_few_missing_shipments
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = -4
+	y = 4
+	prerequisite = {
+		focus = MCW_friends_in_high_places
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_a_few_missing_shipments"
+	}
+
+}
+shared_focus = {
+	id = MCW_a_shared_zeal
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = -2
+	y = 3
+	prerequisite = {
+		focus = MCW_the_last_bastion
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_a_shared_zeal"
+	}
+
+}
+shared_focus = {
+	id = MCW_victories_for_the_people
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = -2
+	y = 4
+	prerequisite = {
+		focus = MCW_a_shared_zeal
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_victories_for_the_people"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_porrous_east
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = MCW_beneath_their_feet
+	}
+	mutually_exclusive = {
+		focus = MCW_the_old_west
+	}
+	mutually_exclusive = {
+		focus = MCW_the_outflanked_center
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_porrous_east"
+	}
+
+}
+shared_focus = {
+	id = MCW_hidden_in_plain_sight
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = MCW_beneath_their_feet
+	}
+	mutually_exclusive = {
+		focus = MCW_the_black_brigades
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_hidden_in_plain_sight"
+	}
+
+}
+shared_focus = {
+	id = MCW_infiltrating_the_echelons_of_power
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = MCW_hidden_in_plain_sight
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_infiltrating_the_echelons_of_power"
+	}
+
+}
+shared_focus = {
+	id = MCW_preparing_the_plan
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 2
+	y = 4
+	prerequisite = {
+		focus = MCW_infiltrating_the_echelons_of_power
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_preparing_the_plan"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_black_brigades
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = MCW_the_porrous_east
+	}
+	mutually_exclusive = {
+		focus = MCW_hidden_in_plain_sight
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_black_brigades"
+	}
+
+}
+shared_focus = {
+	id = MCW_waging_terror
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 4
+	y = 3
+	prerequisite = {
+		focus = MCW_the_black_brigades
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_waging_terror"
+	}
+
+}
+shared_focus = {
+	id = MCW_the_wheat_from_the_chaff
+	icon = GFX_GER_convene_the_parties
+	cost = 2
+	relative_position_id = MCW_beneath_their_feet
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = MCW_waging_terror
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_wheat_from_the_chaff"
 	}
 
 }

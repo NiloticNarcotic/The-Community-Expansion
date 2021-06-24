@@ -16,6 +16,7 @@ add_ideas = {
 	MCW_apathetic_rule
 	MCW_disunified_ostvolk_council
 	MCW_the_porous_border
+	MCW_russian_partisans_pre
 	##POLITICAL LAWS##
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_atheism

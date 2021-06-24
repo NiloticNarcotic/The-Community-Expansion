@@ -74,3 +74,37 @@ focus_tree = {
 	}
 	shared_focus = MCW_stufe_eins
 }
+focus_tree = {
+	id = MCW_russian_collab_tree
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MCW
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = MCW_status_of_the_russian_delegation
+}
+focus_tree = {
+	id = MCW_russian_partisan_tree
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MCW
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = MCW_beneath_their_feet
+}
