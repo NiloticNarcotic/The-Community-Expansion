@@ -7,7 +7,7 @@
 ########## INITIAL TREE ##########
 shared_focus = {
 	id = MCW_status_of_moskowien
-	icon = GFX_TNO_generic_germany
+	icon = GFX_Moskowien_Plan
 	cost = 3
 	x = 4
 	y = 0
@@ -25,7 +25,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_ostvolk_council
-	icon = GFX_TNO_generic_germany
+	icon = GFX_GER_convene_the_parties
 	cost = 2
 	relative_position_id = MCW_status_of_moskowien
 	x = 0
@@ -41,7 +41,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_not_united
-	icon = GFX_TNO_generic_germany
+	icon = GFX_ORE_call_the_council_to_order
 	cost = 1
 	relative_position_id = MCW_status_of_moskowien
 	x = -2
@@ -59,7 +59,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_not_representative
-	icon = GFX_TNO_generic_germany
+	icon = GFX_GER_burn_the_blacklist
 	cost = 1
 	relative_position_id = MCW_status_of_moskowien
 	x = 0
@@ -77,7 +77,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_not_serving_interests
-	icon = GFX_TNO_generic_germany
+	icon = GFX_speer_retire_the_officers
 	cost = 1
 	relative_position_id = MCW_status_of_moskowien
 	x = 2
@@ -95,7 +95,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_sit_down_with_industrialists
-	icon = GFX_TNO_generic_germany
+	icon = GFX_GER_Forward_Looking_Industry
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = -1
@@ -117,7 +117,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_convening_the_council
-	icon = GFX_TNO_generic_germany
+	icon = GFX_SAM_Moskowien_Contacts
 	cost = 6
 	relative_position_id = MCW_status_of_moskowien
 	x = 0
@@ -136,7 +136,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_root_out_sympathisers
-	icon = GFX_TNO_generic_germany
+	icon = GFX_GER_the_steel_fist
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = 4
@@ -161,7 +161,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_the_next_move
-	icon = GFX_TNO_generic_germany
+	icon = GFX_GER_we_fight_devils
 	cost = 1
 	relative_position_id = MCW_status_of_moskowien
 	x = 3
@@ -176,7 +176,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_forever_more
-	icon = GFX_TNO_generic_germany
+	icon = GFX_GER_war_memorials
 	cost = 2
 	relative_position_id = MCW_status_of_moskowien
 	x = 3
@@ -191,7 +191,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_kasche_rehabilitation
-	icon = GFX_TNO_generic_germany
+	icon = GFX_align_germany
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = 2
@@ -216,7 +216,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_german_interests_maintained
-	icon = GFX_TNO_generic_germany
+	icon = GFX_goal_GER_Reposess_personal_slaves
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = 1
@@ -242,7 +242,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_draft_aktion_z
-	icon = GFX_TNO_generic_germany
+	icon = GFX_HGR_Keep_The_Military_Sated
 	cost = 2
 	relative_position_id = MCW_status_of_moskowien
 	x = 1
@@ -257,7 +257,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_millenium_reich
-	icon = GFX_TNO_generic_germany
+	icon = GFX_HGR_Glory_Days
 	cost = 4
 	relative_position_id = MCW_status_of_moskowien
 	x = 2
@@ -273,7 +273,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_the_blue_book
-	icon = GFX_TNO_generic_germany
+	icon = GFX_CAU_purge_the_officers
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = 1
@@ -301,7 +301,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_dealing_with_partisans
-	icon = GFX_TNO_generic_germany
+	icon = GFX_HGR_In_This_Together
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = -4
@@ -327,7 +327,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_ruthless_extermination
-	icon = GFX_TNO_generic_germany
+	icon = GFX_SPS_Burning_House_Village
 	cost = 1
 	relative_position_id = MCW_status_of_moskowien
 	x = -3
@@ -342,7 +342,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_mouse_in_cat_trap
-	icon = GFX_TNO_generic_germany
+	icon = GFX_HGR_Encourage_Recruitment
 	cost = 2
 	relative_position_id = MCW_status_of_moskowien
 	x = -3
@@ -357,7 +357,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_dealing_with_poor_infrastructure
-	icon = GFX_TNO_generic_germany
+	icon = GFX_GER_soldiers_to_builders
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = -2
@@ -380,7 +380,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_russian_representatives_favored
-	icon = GFX_TNO_generic_germany
+	icon = GFX_GER_Let_The_Money_Flow
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = -1
@@ -407,7 +407,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_an_equal_comprimise
-	icon = GFX_TNO_generic_germany
+	icon = GFX_WAL_german_investors
 	cost = 2
 	relative_position_id = MCW_status_of_moskowien
 	x = -1
@@ -422,7 +422,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_uncertain_development
-	icon = GFX_TNO_generic_germany
+	icon = GFX_HGR_Enemies_Closer
 	cost = 3
 	relative_position_id = MCW_status_of_moskowien
 	x = -2
