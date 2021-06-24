@@ -13,7 +13,6 @@ leader_traits = {
 		modifier = {
 			promote_cost_factor = 0.5
 			supply_consumption_factor = 0.20
-			political_power_gain = -0.05
 		}
 		
 		ai_will_do = {
@@ -164,7 +163,7 @@ leader_traits = {
 ##################################
 	
 ##################################
-# Corps Commander assignabme traits.
+# Corps Commander assignable traits.
 ##################################
 
 ##################################

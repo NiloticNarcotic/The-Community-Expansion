@@ -14,7 +14,7 @@ add_ideas = {
 	MCW_minister_Erich_von_dem_Bach_sec
 	## Starting ideas ##
 	MCW_apathetic_rule
-	MCW_unified_ostvolk_council
+	MCW_disunified_ostvolk_council
 	MCW_the_porous_border
 	##POLITICAL LAWS##
 	tno_political_parties_one_party_state
@@ -218,7 +218,8 @@ set_technology = {
 set_research_slots = 3
 set_convoys = 200
 
-set_stability = 0.74
+set_stability = 0.46
+set_war_support = 0.26
 
 set_politics = {	
 	ruling_party = national_socialism
@@ -229,18 +230,18 @@ set_politics = {
 }
 
 set_popularities = {
-    communist = 10
-    ultranational_socialism = 0
-    national_socialism = 70
-    socialist = 0
+    communist = 6
+    ultranational_socialism = 8
+    national_socialism = 48
+    socialist = 5
     social_democrat = 0
     social_liberal = 0
     market_liberal = 0
     social_conservative = 0
-    authoritarian_democrat = 0
-    despotism = 0
-    fascism = 20
-    burgundian_system = 0
+    authoritarian_democrat = 12
+    despotism = 8
+    fascism = 5
+    burgundian_system = 8
 }
 
 create_country_leader = {
@@ -249,12 +250,63 @@ create_country_leader = {
 	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
 	expire = "1983.4.24"
 	ideology = national_socialism_subtype
-	traits = {
-		
-	}
 }
 
+create_country_leader = {
+	name = "Various Partisans"
+	desc = "POLITICS_VARIOUS_PARTISANS_DESC"
+	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	expire = "1983.4.24"
+	ideology = fascism_subtype
+}
 
+create_country_leader = {
+	name = "Odilo Globotschnigg"
+	desc = "POLITICS_ODILO_GLOBOTSCHNIGG_DESC"
+	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	expire = "1983.4.24"
+	ideology = ultranational_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Odilo Globotschnigg"
+	desc = "POLITICS_ODILO_GLOBOTSCHNIGG_DESC"
+	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	expire = "1983.4.24"
+	ideology = burgundian_system_subtype
+}
+
+create_country_leader = {
+	name = "Industrialist's Bureau"
+	desc = "POLITICS_INDUSTRIALIST_BUREAU_DESC"
+	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	expire = "1983.4.24"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Erich von dem Bach"
+	desc = "POLITICS_ERICH_VON_DEM_BACH_DESC"
+	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	expire = "1983.4.24"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Various Partisans"
+	desc = "POLITICS_VARIOUS_PARTISANS_DESC"
+	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	expire = "1983.4.24"
+	ideology = socialist_subtype
+}
+
+create_country_leader = {
+	name = "Various Partisans"
+	desc = "POLITICS_VARIOUS_PARTISANS_DESC"
+	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	expire = "1983.4.24"
+	ideology = communist_subtype
+}
 
 create_field_marshal = { 
 	name = "Erich von dem Bach"
