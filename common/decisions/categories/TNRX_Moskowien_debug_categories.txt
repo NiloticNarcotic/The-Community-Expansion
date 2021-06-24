@@ -1,0 +1,19 @@
+MCW_debug_load_trees = {
+	icon = GFX_decision_category_generic_propaganda
+	picture = GFX_decision_ENG_decision_gun_smuggling
+
+	allowed = {
+		tag = MCW
+		is_debug = yes
+		is_ai = no
+	}
+	visible = {
+		tag = MCW
+		is_debug = yes
+		is_ai = no
+	}
+	visible_when_empty = yes
+	priority = {
+		base = 15
+	}
+}

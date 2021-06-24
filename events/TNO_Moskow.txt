@@ -1202,7 +1202,7 @@ country_event = { # war in 2SS
 	}
 }
 
-country_event = { # worries about fatherland
+country_event = { # switch focus tree to ss
 	id = MCW.110
 	title = MCW.110.t
 	desc = MCW.110.d
@@ -1215,11 +1215,14 @@ country_event = { # worries about fatherland
 
 	option = {
 		name = MCW.110.a
-		
+		hidden_effect = {
+			load_focus_tree =  MCW_ss_tree
+			load_focus_tree =  MCW_economy_tree_shared			
+		}
 	}
 }
 
-country_event = { # quick phonecall
+country_event = { # load german tree
 	id = MCW.111
 	title = MCW.111.t
 	desc = MCW.111.d
@@ -1232,6 +1235,10 @@ country_event = { # quick phonecall
 
 	option = {
 		name = MCW.111.a
+		hidden_effect = {
+			load_focus_tree =  MCW_german_tree
+			load_focus_tree =  MCW_economy_tree_shared			
+		}
 	}
 }
 

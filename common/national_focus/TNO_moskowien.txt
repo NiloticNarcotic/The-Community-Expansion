@@ -7,7 +7,7 @@
 #addendum: cum goblin
 
 focus_tree = {
-	id = Moskowien_Initial
+	id = MCW_initial_tree
 	country = {
 		factor = 0
 		
@@ -23,29 +23,54 @@ focus_tree = {
 	}
 	shared_focus = MCW_status_of_moskowien
 }
-
-#focus_tree = {
-#	id = MCW_russias_hell
-#	country = {
-#		factor = 0
-#		modifier = {
-#			add = 10
-#			tag = MCW
-#		}
-#	}
-#	default = no
-#	shared_focus = MCW_Russian_Hell
-#}
-
-#focus_tree = {
-#	id = MCW_its_legit_2_focuses_what_the_fuck
-#	country = {
-#		factor = 0
-#		modifier = {
-#			add = 10
-#			tag = MCW
-#		}
-#	}
-#	default = no
-#	shared_focus = MCW_worries_about_the_fatherland
-#}
+focus_tree = {
+	id = MCW_economy_tree_shared
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MCW
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = MCW_industrial_overtures
+}
+focus_tree = {
+	id = MCW_german_kaminsky_tree
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MCW
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = MCW_civilization_on_the_brink
+}
+focus_tree = {
+	id = MCW_ss_tree
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MCW
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1000
+		y = 300
+	}
+	shared_focus = MCW_stufe_eins
+}

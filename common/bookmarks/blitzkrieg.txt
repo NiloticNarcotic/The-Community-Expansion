@@ -622,25 +622,9 @@ bookmarks = {
 							MCW_the_porous_border
 						}
 						focuses = {
-							MCW_The_Fuhrer_calls
-							MCW_Bribe_the_Gestapo
-							MCW_The_investigation_into_command
-						}
-					}
-
-					"MCW"={
-						minor = yes
-						history = "MCW_THENEWORDER_DESC"
-						ideology = national_socialism
-						ideas = {
-							MCW_apathetic_rule
-							MCW_unified_ostvolk_council
-							MCW_the_porous_border
-						}
-						focuses = {
-							MCW_The_Fuhrer_calls
-							MCW_Bribe_the_Gestapo
-							MCW_The_investigation_into_command
+							MCW_convening_the_council
+							MCW_forever_more
+							MCW_millenium_reich
 						}
 					}
 				## PAKT ##
