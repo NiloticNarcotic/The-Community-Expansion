@@ -14,27 +14,104 @@ Moscowien_reunification_category = {
         complete_effect = {
             if = {
                 limit = {
-                    original_tag = BBB
+                    original_tag = RSB
                 }
-                set_cosmetic_tag = BBB_MOS
+                clr_country_flag = is_warlord
+                set_cosmetic_tag = RSB_MOS
                 hidden_effect = {
                     every_country  = {
                         news_event = {
                             id = WORLD_TNRX.1
                         }
                     }
-                    set_global_flag = BBB_unite_moscowien
+                    set_global_flag = RSB_unite_moscowien
+                }
+            }
+            if = {
+                limit = {
+                    original_tag = PSK
+                }
+                clr_country_flag = is_warlord
+                set_cosmetic_tag = PSK_MOS
+                hidden_effect = {
+                    every_country  = {
+                        news_event = {
+                            id = WORLD_TNRX.2
+                        }
+                    }
+                    set_global_flag = PSK_unite_moscowien
+                }
+            }
+            if = {
+                limit = {
+                    original_tag = MOS
+                }
+                clr_country_flag = is_warlord
+                set_cosmetic_tag = MOS_MOS
+                hidden_effect = {
+                    every_country  = {
+                        news_event = {
+                            id = WORLD_TNRX.3
+                        }
+                    }
+                    set_global_flag = MOS_unite_moscowien
+                }
+            }
+            if = {
+                limit = {
+                    original_tag = BSB
+                }
+                clr_country_flag = is_warlord
+                set_cosmetic_tag = BSB_MOS
+                hidden_effect = {
+                    every_country  = {
+                        news_event = {
+                            id = WORLD_TNRX.4
+                        }
+                    }
+                    set_global_flag = BSB_unite_moscowien
+                }
+            }
+            if = {
+                limit = {
+                    original_tag = SMO
+                }
+                clr_country_flag = is_warlord
+                set_cosmetic_tag = SMO_MOS
+                hidden_effect = {
+                    every_country  = {
+                        news_event = {
+                            id = WORLD_TNRX.5
+                        }
+                    }
+                    set_global_flag = SMO_unite_moscowien
+                }
+            }
+            if = {
+                limit = {
+                    original_tag = ORL
+                }
+                clr_country_flag = is_warlord
+                set_cosmetic_tag = ORL_MOS
+                hidden_effect = {
+                    every_country  = {
+                        news_event = {
+                            id = WORLD_TNRX.6
+                        }
+                    }
+                    set_global_flag = ORL_unite_moscowien
                 }
             }
             if = {
                 limit = {
                     original_tag = VNH
                 }
+                clr_country_flag = is_warlord
                 set_cosmetic_tag = VNH_MOS
                 hidden_effect = {
                     every_country  = {
                         news_event = {
-                            id = WORLD_TNRX.2
+                            id = WORLD_TNRX.7
                         }
                     }
                     set_global_flag = VNH_unite_moscowien
@@ -42,16 +119,32 @@ Moscowien_reunification_category = {
             }
             if = {
                 limit = {
-                    original_tag = PSK
+                    original_tag = PEN
                 }
-                set_cosmetic_tag = PSK_MOS
+                clr_country_flag = is_warlord
+                set_cosmetic_tag = PEN_MOS
                 hidden_effect = {
                     every_country  = {
                         news_event = {
-                            id = WORLD_TNRX.3
+                            id = WORLD_TNRX.8
                         }
                     }
-                    set_global_flag = PSK_unite_moscowien
+                    set_global_flag = PEN_unite_moscowien
+                }
+            }
+            if = {
+                limit = {
+                    original_tag = BBB
+                }
+                clr_country_flag = is_warlord
+                set_cosmetic_tag = BBB_MOS
+                hidden_effect = {
+                    every_country  = {
+                        news_event = {
+                            id = WORLD_TNRX.9
+                        }
+                    }
+                    set_global_flag = BBB_unite_moscowien
                 }
             }
         }
