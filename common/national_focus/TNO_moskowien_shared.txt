@@ -36,6 +36,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_ostvolk_council"
 		add_stability = 0.05
+		add_political_power = 25
 	}
 
 }
@@ -128,9 +129,13 @@ shared_focus = {
 	prerequisite = {
 		focus = MCW_the_blue_book
 	}
+	select_effect = {
+		country_event = { id = MCW.15 days = 7 }
+	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_convening_the_council"
 		set_country_flag = MCW_council_convened
+		custom_effect_tooltip = MCW_initial_effect_tooltip_2
 	}
 
 }
@@ -221,11 +226,6 @@ shared_focus = {
 	relative_position_id = MCW_status_of_moskowien
 	x = 1
 	y = 5
-	available = {
-		IF = {
-			has_country_flag = MCW_council_convened
-		}
-	}
 	prerequisite = {
 		focus = MCW_kasche_rehabilitation
 	}
@@ -365,6 +365,7 @@ shared_focus = {
 	available = {
 		IF = {
 			has_country_flag = MCW_council_convened
+			has_country_flag = MCW_flag_industrialists_trusted
 		}
 	}
 	prerequisite = {
@@ -375,6 +376,10 @@ shared_focus = {
 	} 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_dealing_with_poor_infrastructure"
+		swap_ideas = {
+			remove_idea = MCW_poor_railnetworks
+			add_idea = MCW_poor_railnetworks_semifixed
+		}
 	}
 
 }
@@ -385,11 +390,6 @@ shared_focus = {
 	relative_position_id = MCW_status_of_moskowien
 	x = -1
 	y = 5
-	available = {
-		IF = {
-			has_country_flag = MCW_council_convened
-		}
-	}
 	prerequisite = {
 		focus = MCW_dealing_with_poor_infrastructure
 	}
@@ -402,6 +402,14 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_russian_representatives_favored"
 		set_country_flag = MCW_flag_industrialists_trusted
+		swap_ideas = {
+			remove_idea = MCW_unrepresentative_council
+			add_idea = MCW_poor_railnetworks_semifixed
+		}
+		swap_ideas = {
+			remove_idea = MCW_apathetic_rule
+			add_idea = MCW_depressive_rule
+		}
 	}
 
 }
@@ -417,6 +425,12 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_an_equal_comprimise"
+		add_stability = 0.1
+		add_political_power = 50
+		swap_ideas = {
+			remove_idea = MCW_depressive_rule
+			add_idea = MCW_begrudging_rule
+		}
 	}
 
 }
@@ -433,6 +447,15 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_uncertain_development"
+		if = {
+			limit = {
+				has_country_flag = MCW_flag_industrialists_trusted
+			}
+			country_event = {
+				id = MCW.19
+				days = 1
+			}
+		}
 	}
 
 }

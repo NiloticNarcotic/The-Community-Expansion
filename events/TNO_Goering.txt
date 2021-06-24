@@ -9391,7 +9391,11 @@ country_event = { # judge jury and executioner
 		if = {
 			limit = { MCW = { exists = yes }}
 			MCW = {
-				remove_ideas = MCW_russian_partisans
+				remove_ideas =  {
+					MCW_russian_partisans_pre
+					MCW_russian_partisans_mid
+					MCW_russian_partisans_final
+				}
 			}
 		}
 		else = {

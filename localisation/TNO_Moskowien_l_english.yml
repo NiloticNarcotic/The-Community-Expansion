@@ -113,6 +113,12 @@
  MCW_russian_partisans_final:0 "§eUnchecked Partisan Havoc!§!"
  MCW_russian_partisans_final_desc:0 ""
 
+ MCW_poor_railnetworks:0 "Poor Railnetworks"
+ MCW_poor_railnetworks_desc:0 ""
+
+ MCW_poor_railnetworks_semifixed:0 "Improving Railnetworks"
+ MCW_poor_railnetworks_semifixed_desc:0 ""
+
  MCW_german_power_deficit:0 "Ostvolk Council: §eUnruly Russian Minority§!"
  MCW_german_power_deficit_desc:0 ""
 
@@ -646,11 +652,29 @@
  MCW.11.desc:0 "The Reichskommissariat Moskowien has been restored for a while, and everyone has to admit the progress we've made in those days. In the city, people can safely walk on the streets at midnight, without the need to worry about criminals hiding in the darkness. The factories have recovered from the damage made by the flames of war and terrorism, and are now providing reliable products for the Reich's economy and war machine. And in the countryside, all hideouts of the guerilla forces have been rooted out, and the peasants across our land have learned to serve their new German masters once again. The infrastructures are all repaired, with trucks and trains traveling over them and providing goods for anyone who need them.\n\nBeyond the RK's realm, our success in stabilizing and revitalizing the regime has some further influence. For the natives in the east, the RK Moskowien will serve as a model Reichskommissariat for them. They now have understood that the once invincible German Reich has returned with even greater strength and is capable of efficiently maintaining the peace and prosperity in such a distant place. In the future military campaign of the German Reich, they can expect more collaborators and less resistance they're going to face. And in the end, more assistance out of appreciation can be expected from our generous brothers from Germania who will not forget their dear friends.\n\nNow, let's celebrate for what we've accomplished and what we will accomplish in the future. Moskowien will be an unbreakable stronghold in the eastern territory of the German Reich, a sparkling star for anyone who seeks peace and stability in such a land of misery, a forever flourishing key point in the New Order that the Reich is about to restore. Three cheers for all the achievements we've made!"
  MCW.11.a:0 "At last, after everything we've been through..."
 
+ MCW.15.t:0 "Convening the 1962 Ostvolk Council"
+ MCW.15.d:0 ""
+ MCW.15.a:0 "The Negotiations Continue.."
+ MCW.15.b:0 "Gorbachev Recieves a Call."
+
+ MCW.16.t:0 "Negotiations Continue"
+ MCW.16.d:0 ""
+ MCW.16.a:0 "The Council moves to give the Russian Delegation increased powers."
+
+ MCW.17.t:0 "Mysterious Benefactors"
+ MCW.17.d:0 ""
+ MCW.17.a:0 ""This is an offer I must refuse.""
+ MCW.17.b:0 ""Agreed.""
+
  MCW.18.t:0 "Sitting Down with the Industrialists"
  MCW.18.d:0 ""
  MCW.18.a:0 ""We should apply for a more longterm solution, don't you think?""
  MCW.18.b:0 ""The security of our existing infrastructure seems more important, isn't it?""
  
+ MCW.19.t:0 "Shifting Tides"
+ MCW.19.d:0 ""
+ MCW.19.a:0 "We are entering a new era."
+
  MCW.101.t:0 "Trouble In The Council"
  MCW.101.desc:0 ""
  MCW.101.a:0 ""
@@ -756,4 +780,5 @@
  MCW_council_convened:0 "The Ostvolk Council of 1962 has been convened"
  # Custom Effect Tooltips #
  MCW_initial_effect_tooltip_1:0 "We must continue to ensure that the subjects of the Reich can sleep soundly in their beds, §elest the forces of darkness swallow them whole§!."
+ MCW_initial_effect_tooltip_2:0 "The §KOstvolk Council§! will convene in order to decide on how we will deal with the §xcrises§! our administration faces."
  MCW_warning_effect_tooltip_1:0 "§RThis path is not currently available in the current patch, please wait as we will add it in on a later date!§!"

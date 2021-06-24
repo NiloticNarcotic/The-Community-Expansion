@@ -621,6 +621,7 @@ bookmarks = {
 							MCW_semiunified_ostvolk_council
 							MCW_the_porous_border
 							MCW_russian_partisans_pre
+							MCW_poor_railnetworks
 						}
 						focuses = {
 							MCW_convening_the_council

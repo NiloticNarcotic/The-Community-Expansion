@@ -3,7 +3,7 @@ ideas = {
 		MCW_russian_partisans_pre = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_russian_partisans_pre"}
 
-			picture = GFX_idea_JST_Anti_Partisan_Tactics
+			picture = JST_Anti_Partisan_Tactics
 
 			allowed = {
 				always = no
@@ -19,10 +19,54 @@ ideas = {
 				army_org_factor = -0.25
 			}
 		}
+		MCW_poor_railnetworks = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_poor_railnetworks"}
+
+			picture = WEST_AFRICA_idea_obliterated_infrastructures
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				hidden_effect = {
+					industry_free_repair_factor  = -0.1
+					stability_factor = -0.08					
+				}
+				industry_repair_factor = -0.1
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		MCW_poor_railnetworks_semifixed = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_poor_railnetworks_semifixed"}
+
+			picture = ARL_breakneck_industrialization
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				hidden_effect = {
+					industry_free_repair_factor  = -0.05
+					stability_factor = -0.03					
+				}
+				industry_repair_factor = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
 		MCW_russian_partisans_mid = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_russian_partisans_mid"}
 
-			picture = GFX_idea_JST_Anti_Partisan_Tactics
+			picture = JST_Anti_Partisan_Tactics
 
 			allowed = {
 				always = no
@@ -43,7 +87,7 @@ ideas = {
 		MCW_russian_partisans_final = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_russian_partisans_final"}
 
-			picture = GFX_idea_JST_Anti_Partisan_Tactics
+			picture = JST_Anti_Partisan_Tactics
 
 			allowed = {
 				always = no
@@ -64,7 +108,7 @@ ideas = {
 		MCW_the_defense_of_moskowien = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MCW_the_defense_of_moskowien" }
 
-			picture = GFX_idea_KHA_collective_defense_requirements
+			picture = KHA_collective_defense_requirements
 
 			allowed = {
 				always = no
@@ -221,7 +265,7 @@ ideas = {
 		MCW_unrepresentative_council = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unrepresentative_council"}
 
-			picture = GFX_idea_NIK_agents_in_the_west
+			picture = NIK_agents_in_the_west
 
 			allowed = {
 				always = no
@@ -242,7 +286,7 @@ ideas = {
 		MCW_representative_council = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_representative_council"}
 
-			picture = GFX_idea_NIK_agents_in_the_west
+			picture = NIK_agents_in_the_west
 
 			allowed = {
 				always = no
@@ -262,7 +306,7 @@ ideas = {
 		MCW_german_power_deficit = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_german_power_deficit"}
 
-			picture = GFX_idea_NIK_fired_officials
+			picture = NIK_fired_officials
 
 			allowed = {
 				always = no
@@ -281,7 +325,7 @@ ideas = {
 		MCW_subordinate_council = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_subordinate_council"}
 
-			picture = GFX_idea_OST_Prussian_Values
+			picture = OST_Prussian_Values
 
 			allowed = {
 				always = no
@@ -297,7 +341,7 @@ ideas = {
 			}
 		}
 
-		MCW_stagnant_ostvolk_council = {
+			 = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_stagnant_ostvolk_council"}
 
 			picture = MCW_Unified_Ostvolk_Council
