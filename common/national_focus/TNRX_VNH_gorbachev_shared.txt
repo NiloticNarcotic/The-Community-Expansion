@@ -1,6 +1,6 @@
 shared_focus = { 
     id = VNH_hat_man_victorious
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Liberty_Handshake
 	cost = 2
 	
 	x = 0
@@ -93,7 +93,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_The_light_hand
-	icon = GFX_USA_1962_Bill_of_Rights
+	icon = GFX_Generic_Shady_Deal
 	cost = 2
 	
 	x = 4
