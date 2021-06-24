@@ -620,6 +620,7 @@ bookmarks = {
 							MCW_apathetic_rule
 							MCW_semiunified_ostvolk_council
 							MCW_the_porous_border
+							MCW_russian_partisans_pre
 						}
 						focuses = {
 							MCW_convening_the_council

@@ -104,8 +104,14 @@
  MCW_representative_council:0 "Representative Council"
  MCW_representative_council_desc:0 ""
 
- MCW_russian_partisans:0 "§eUnchecked Partisan Havoc!§!"
- MCW_russian_partisans_desc:0 ""
+ MCW_russian_partisans_pre:0 "§wMild Partisan Activity§!"
+ MCW_russian_partisans_pre_desc:0 ""
+
+ MCW_russian_partisans_mid:0 "§OHeavy Partisan Activity§!"
+ MCW_russian_partisans_mid_desc:0 ""
+
+ MCW_russian_partisans_final:0 "§eUnchecked Partisan Havoc!§!"
+ MCW_russian_partisans_final_desc:0 ""
 
  MCW_german_power_deficit:0 "Ostvolk Council: §eUnruly Russian Minority§!"
  MCW_german_power_deficit_desc:0 ""
@@ -382,6 +388,126 @@
  MCW_stufe_funf:0 "Stufe Fünf"
  MCW_stufe_funf_desc:0 ""
 
+ MCW_status_of_the_russian_delegation:0 "Status of the Russian Delegation"
+ MCW_status_of_the_russian_delegation_desc:0 ""
+
+ MCW_two_sides_of_the_coin:0 "Two Sides of the Coin..."
+ MCW_two_sides_of_the_coin_desc:0 ""
+
+ MCW_the_pragmatic_collaborator:0 "The Collaborator"
+ MCW_the_pragmatic_collaborator_desc:0 ""
+
+ MCW_direct_economic_legislature:0 "Direct Economic Legislature"
+ MCW_direct_economic_legislature_desc:0 ""
+
+ MCW_prioritise_russian_regional_development:0 "Prioritise Russian Land Development"
+ MCW_prioritise_russian_regional_development_desc:0 ""
+
+ MCW_office_for_cultural_enrichment:0 "The "Office for Cultural Enrichment""
+ MCW_office_for_cultural_enrichment_desc:0 ""
+
+ MCW_offer_they_cant_refuse:0 "An Offer they can't Refuse"
+ MCW_offer_they_cant_refuse_desc:0 ""
+
+ MCW_partisan_negotiations:0 "Partisan Negotiations"
+ MCW_partisan_negotiations_desc:0 ""
+
+ MCW_the_final_agreement:0 "The Final Agreement"
+ MCW_the_final_agreement_desc:0 ""
+
+ MCW_quid_pro_quo_investigations:0 "Quid Pro Quo Investigations"
+ MCW_quid_pro_quo_investigations_desc:0 ""
+
+ MCW_enticing_offers_from_the_shutzstaffel:0 "Enticing Offers from the Shutzstaffel"
+ MCW_enticing_offers_from_the_shutzstaffel_desc:0 ""
+
+ MCW_the_idealistic_subverter:0 "The Liberator"
+ MCW_the_idealistic_subverter_desc:0 ""
+
+ MCW_pragmatic_racial_policies:0 "Pragmatic Racial Policies"
+ MCW_pragmatic_racial_policies_desc:0 ""
+
+ MCW_subvert_german_influence:0 "Subvert German Influence"
+ MCW_subvert_german_influence_desc:0 ""
+
+ MCW_industrial_buildup:0 "Rural Industrial Buildup"
+ MCW_industrial_buildup_desc:0 ""
+
+ MCW_speak_softly:0 "Speak Softly..."
+ MCW_speak_softly_desc:0 ""
+
+ MCW_make_the_rest_disappear:0 "...Make the Rest Disappear"
+ MCW_make_the_rest_disappear_desc:0 ""
+
+ MCW_buy_out_voronezh_regional_business:0 "Buy out Voronezh Business"
+ MCW_buy_out_voronezh_regional_business:0 ""
+
+ MCW_beneath_their_feet:0 "Beneath their Feet"
+ MCW_beneath_their_feet_desc:0 ""
+
+ MCW_the_outflanked_center:0 "The Outflanked Center"
+ MCW_the_outflanked_center_desc:0 ""
+
+ MCW_the_boogeymen:0 "The Boogeymen"
+ MCW_the_boogeymen_desc:0 ""
+
+ MCW_kill_them_quietly:0 "Kill them Quietly"
+ MCW_kill_them_quietly_desc:0 ""
+
+ MCW_whispers_in_the_night:0 "Whispers in the Night"
+ MCW_whispers_in_the_night_desc:0 ""
+
+ MCW_we_are_here_to_stay:0 "We are Here to Stay!"
+ MCW_we_are_here_to_stay_desc:0 ""
+
+ MCW_escalating_the_tensions:0 "Escalating the Tensions"
+ MCW_escalating_the_tensions_desc:0 ""
+
+ MCW_stage_the_incident:0 "Stage the Incident"
+ MCW_stage_the_incident_desc:0 ""
+
+ MCW_the_old_west:0 "The Old West"
+ MCW_the_old_west_desc:0 ""
+
+ MCW_the_last_bastion:0 "The Last Bastion"
+ MCW_the_last_bastion_desc:0 ""
+
+ MCW_the_hidden_council:0 "The Hidden Council"
+ MCW_the_hidden_council_desc:0 ""
+
+ MCW_friends_in_high_places:0 "Friends in High Places"
+ MCW_friends_in_high_places_desc:0 ""
+
+ MCW_a_few_missing_shipments:0 "A Few Missing Shipments..."
+ MCW_a_few_missing_shipments_desc:0 ""
+
+ MCW_a_shared_zeal:0 "A Shared Zeal"
+ MCW_a_shared_zeal_desc:0 ""
+
+ MCW_victories_for_the_people:0 "Victories for the People"
+ MCW_victories_for_the_people_desc:0 ""
+
+ MCW_the_porrous_east:0 "The Porrous East"
+ MCW_the_porrous_east_desc:0 ""
+
+ MCW_hidden_in_plain_sight:0 "Hidden in Plain Sight"
+ MCW_hidden_in_plain_sight_desc:0 ""
+
+ MCW_infiltrating_the_echelons_of_power:0 "Infiltrating the Echelons of Power"
+ MCW_infiltrating_the_echelons_of_power_desc:0 ""
+
+ MCW_preparing_the_plan:0 "Preparing the Plan"
+ MCW_preparing_the_plan_desc:0 ""
+
+ MCW_the_black_brigades:0 "The Black Brigades"
+ MCW_the_black_brigades_desc:0 ""
+
+ MCW_waging_terror:0 "Waging Terror"
+ MCW_waging_terror_desc:0 ""
+
+ MCW_the_wheat_from_the_chaff:0 "The Wheat from the Chaff"
+ MCW_the_wheat_from_the_chaff_desc:0 ""
+
  MCW_the_councils_in_fighting:0 "The Council's Bickering"
  MCW_the_councils_in_fighting_desc:0 "It is always frustrating to sit in one of these meetings. And it is infuriating to participate in any of them.\n\nThe Germans raised issues, the Russians would shoot these down before raising their own, then those too would be waved away.\n\nKasche has kept everything under the lid, but the pot kept boiling with hatred, selfishness, and ignorance. And very few believed in his ability to help any of them.\n\nLiterally nothing can be done because everything provoked dissent. And Kasche kept his own disgust at this inside of him, reminding himself of the day he would flee to Florida.\n\nAnd on and on, these beasts would continue to try tearing their throats out. He only hoped that would happen when he leaves them on their own. "
 
@@ -519,7 +645,11 @@
  MCW.11.t:0 "All Dust Settles in Moskowien"
  MCW.11.desc:0 "The Reichskommissariat Moskowien has been restored for a while, and everyone has to admit the progress we've made in those days. In the city, people can safely walk on the streets at midnight, without the need to worry about criminals hiding in the darkness. The factories have recovered from the damage made by the flames of war and terrorism, and are now providing reliable products for the Reich's economy and war machine. And in the countryside, all hideouts of the guerilla forces have been rooted out, and the peasants across our land have learned to serve their new German masters once again. The infrastructures are all repaired, with trucks and trains traveling over them and providing goods for anyone who need them.\n\nBeyond the RK's realm, our success in stabilizing and revitalizing the regime has some further influence. For the natives in the east, the RK Moskowien will serve as a model Reichskommissariat for them. They now have understood that the once invincible German Reich has returned with even greater strength and is capable of efficiently maintaining the peace and prosperity in such a distant place. In the future military campaign of the German Reich, they can expect more collaborators and less resistance they're going to face. And in the end, more assistance out of appreciation can be expected from our generous brothers from Germania who will not forget their dear friends.\n\nNow, let's celebrate for what we've accomplished and what we will accomplish in the future. Moskowien will be an unbreakable stronghold in the eastern territory of the German Reich, a sparkling star for anyone who seeks peace and stability in such a land of misery, a forever flourishing key point in the New Order that the Reich is about to restore. Three cheers for all the achievements we've made!"
  MCW.11.a:0 "At last, after everything we've been through..."
- 
+
+ MCW.18.t:0 "Sitting Down with the Industrialists"
+ MCW.18.d:0 ""
+ MCW.18.a:0 ""We should apply for a more longterm solution, don't you think?""
+ MCW.18.b:0 ""The security of our existing infrastructure seems more important, isn't it?""
  
  MCW.101.t:0 "Trouble In The Council"
  MCW.101.desc:0 ""
@@ -564,6 +694,8 @@
  MCW.111.t:0 "The Industrialists Reassured"
  MCW.111.desc:0 ""
  MCW.111.a:0 "We can finally begin our greatest challenge!"
+
+ 
 
  MCW.112.t:0 "The Disappearance Of Siegfried Kasche"
  MCW.112.desc:0 "Just before Kasche's trial. The man has gone missing, people have no idea where he's went and some speculate he's commited suicide."
@@ -616,6 +748,8 @@
  MCW_economy_tree_shared:0 "§GRK. Moskowien Economic Tree§!"
  MCW_ss_tree:0 "§IRK. Moskowien Shutzstaffel Tree§!"
  MCW_initial_tree:0 "§fRK. Moskowien Initial Tree§!"
+ MCW_russian_collab_tree:0 "§LRK. Moskowien Russian Collaborationist Tree§!"
+ MCW_russian_partisan_tree:0 "§VRK. Moskowien Partisan Tree§!"
  # Triggers #
  MCW_flag_ss_commission:0 "The §KOstvolk Council§! has commissioned the §lShutzstaffel§! to entirely handle the partisan issue"
  MCW_flag_industrialists_trusted:0 "The §KOstvolk Council§! has put it's faith in the §ORussian Industrialists§! to advance Moskowien industrialization and profitability"
