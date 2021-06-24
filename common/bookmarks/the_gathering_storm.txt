@@ -627,6 +627,12 @@ bookmarks = {
 							MCW_millenium_reich
 						}
 					}
+
+					"ZZZ" = {
+						minor = yes
+						history = ""
+					}
+					
 				## PAKT ##
 
 				## RUSSIA ##
