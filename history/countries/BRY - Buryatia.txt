@@ -40,7 +40,7 @@ add_ideas = {
 	tno_pollution_few_regulations
 	tno_education_public_education
 	tno_penal_system_incarceration
-	tno_lgbt_rights_lgbt_allowed
+	tno_lgbt_rights_lgbt_outlawed
 	tno_gender_rights_women_in_the_workplace
 	tno_minorities_equal_rights
 	tno_security_police
@@ -267,6 +267,16 @@ create_country_leader = {
 	ideology = socialist_subtype
 	traits = {
 		the_last_sentry
+	}
+}
+
+create_country_leader = {
+	name = "Waldemar Schmädlen"
+	desc = "POLITICS_SCHMADLEN_DESC"
+	picture = "Portrait_Waldermar_Schmädlen.dds"
+	expire = "1999.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
 	}
 }
 
