@@ -5,6 +5,10 @@ tags={
 	"Gameplay"
 }
 name="The New Redux"
+<<<<<<< HEAD
+=======
+supported_version="1.10.*"
+>>>>>>> parent of ef565fdb (png push)
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="common/abilities"
