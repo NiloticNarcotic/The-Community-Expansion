@@ -5,6 +5,7 @@ tags={
 	"Gameplay"
 }
 name="The New Redux"
+picture="tnr.png"
 supported_version="1.10.*"
 replace_path="events"
 replace_path="map/strategicregions"
