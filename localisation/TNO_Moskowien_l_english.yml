@@ -770,11 +770,11 @@
  
 
  MCW.112.t:0 "The Disappearance Of Siegfried Kasche"
- MCW.112.desc:0 "Just before Kasche's trial. The man has gone missing, people have no idea where he's went and some speculate he's commited suicide."
+ MCW.112.d:0 "Just before Kasche's trial. The man has gone missing, people have no idea where he's went and some speculate he's commited suicide."
  MCW.112.a:0 "Well that's one way to get out of doing work."
 
  MCW.113.t:0 "A Day of the Council"
- MCW.113.desc:0 "We must begin the transfer immediately," General Reinhold began, "We must bring our people inward and push the Slavic settlements to the border." Before Reinhold was even finished, the Russian members of the council had begun to interrupt.\n\n"You intend to use our people as bait," Gorbachev said in his chipped German. "The Russians would never accept resettlement. You would have to do it at bayonet point."\n\n"Then I will personally lead the first panzer division to whatever hole your failed race are hiding in and force them out," Reinhold snapped back before looking towards Kasche pleadingly. "With the Russians taking the brunt of bandit attacks, Luftwaffe forces will be free to engage the bandits without fear of collateral damage. We will surely be able to better protect-"\n\n"Wolfgang, you're a fool and a bastard!" shouted Lavrinenko, his nearby comrades forcing him down before he managed to get himself killed by talking back to his betters.\n\n"Enough!" Kasche finally interjected, briefly showing a hint of fury as he stared down Lavrinenko. The former Russian commander held the stare before a hushed word from Gorbachev caused him to look away. With that, the fire seemed to go from Kasche yet again, and he settled back into the normal distant and bored expression he wore at the meetings.\n"There will be no population transfer. The Slavs can not be ruled, they'll fight and bite against anyone who tries to lead them. Just look at how they killed one another during the war, just look at the system of governance they aspire to," he sighed as he glanced at the Russian delegation. The Slavs showed anger, but enough self control to remain silent. To the Germans they were nothing but dogs, but at least they were house broken. "I will not be the one to allow this colony to collapse yet again. Send more arms to the settlements on the frontier. Today's session is over."\n\nWith that, Kasche stood up and walked from the room. The council stood at attention as he did so, showing no expression as the man went back to his quarters, where he would spent the rest of his day in silence. As he did almost every day."
+ MCW.113.d:0 "We must begin the transfer immediately," General Reinhold began, "We must bring our people inward and push the Slavic settlements to the border." Before Reinhold was even finished, the Russian members of the council had begun to interrupt.\n\n"You intend to use our people as bait," Gorbachev said in his chipped German. "The Russians would never accept resettlement. You would have to do it at bayonet point."\n\n"Then I will personally lead the first panzer division to whatever hole your failed race are hiding in and force them out," Reinhold snapped back before looking towards Kasche pleadingly. "With the Russians taking the brunt of bandit attacks, Luftwaffe forces will be free to engage the bandits without fear of collateral damage. We will surely be able to better protect-"\n\n"Wolfgang, you're a fool and a bastard!" shouted Lavrinenko, his nearby comrades forcing him down before he managed to get himself killed by talking back to his betters.\n\n"Enough!" Kasche finally interjected, briefly showing a hint of fury as he stared down Lavrinenko. The former Russian commander held the stare before a hushed word from Gorbachev caused him to look away. With that, the fire seemed to go from Kasche yet again, and he settled back into the normal distant and bored expression he wore at the meetings.\n"There will be no population transfer. The Slavs can not be ruled, they'll fight and bite against anyone who tries to lead them. Just look at how they killed one another during the war, just look at the system of governance they aspire to," he sighed as he glanced at the Russian delegation. The Slavs showed anger, but enough self control to remain silent. To the Germans they were nothing but dogs, but at least they were house broken. "I will not be the one to allow this colony to collapse yet again. Send more arms to the settlements on the frontier. Today's session is over."\n\nWith that, Kasche stood up and walked from the room. The council stood at attention as he did so, showing no expression as the man went back to his quarters, where he would spent the rest of his day in silence. As he did almost every day."
  MCW.113.a:0 "Another day, another argument."
 
  MCW.114.t:0 "Decisions in Secret"
@@ -782,38 +782,38 @@
  MCW.114.a:0 "Nobody could seriously entertain this idea, could they?"
  
  MCW.201.t:0 "The SS Cecedes!"
- MCW.201.desc:0 "Following the civil war in Germany, the long traitorous SS has decided to cut all communication lines and have killed all of our garrison!"
+ MCW.201.d:0 "Following the civil war in Germany, the long traitorous SS has decided to cut all communication lines and have killed all of our garrison!"
  MCW.201.a:0 "Traitorous bastards!"
  MCW.201.b:0 "We are doing our job right this time...."
  
  MCW.202.t:0 "The Reds Rebel!"
- MCW.202.desc:0 "With the Reichkomissariat collapsing, the socialists in Smolensk have overthrown the local garrison and have took full control over their provinces.""
+ MCW.202.d:0 "With the Reichkomissariat collapsing, the socialists in Smolensk have overthrown the local garrison and have took full control over their provinces.""
  MCW.202.a:0 "Those bastards don't give up, don't they?"
 
  MCW.203.t:0 "More Partisans!"
- MCW.203.desc:0 "The red partisans weren't the only one. The splinter group that were exiled by the ones in Smolensk have toppled the German administration in Oryol!"
+ MCW.203.d:0 "The red partisans weren't the only one. The splinter group that were exiled by the ones in Smolensk have toppled the German administration in Oryol!"
  MCW.203.a:0 "Everything is falling apart!"
  
  MCW.204.t:0 "The Russian Ostvolk Council's betrayal"
- MCW.204.desc:0 "Alarming news! Gorbachev and his subordinates have evacuated to Voronezh and its surrounding territories and have proclaimed a new Republic."
+ MCW.204.d:0 "Alarming news! Gorbachev and his subordinates have evacuated to Voronezh and its surrounding territories and have proclaimed a new Republic."
  MCW.204.a:0 "Another bunch escapes the sinking ship!"
  MCW.204.b:0 "I'm with the council!"
  
  MCW.205.t:0 "A New Volga"
- MCW.205.desc:0 "Oh god! Helmuth Pannwitz has sent us a message. He says that in order to preserve national socialism, he separated himself from the collapsing administration and raised his own units."
+ MCW.205.d:0 "Oh god! Helmuth Pannwitz has sent us a message. He says that in order to preserve national socialism, he separated himself from the collapsing administration and raised his own units."
  MCW.205.a:0 "There is nothing we can do"
  MCW.205.b:0 "I'm coming, dear Volga!"
  
  MCW.206.t:0 "Yet Another Rebellion"
- MCW.206.desc:0 "From Penza, we have gotten news that a bunch of former red army partisans have cededed with little effort given the situation."
+ MCW.206.d:0 "From Penza, we have gotten news that a bunch of former red army partisans have cededed with little effort given the situation."
  MCW.206.a:0 "We are doomed"
  
  MCW.207.t:0 "The Ultimate Betrayal"
- MCW.207.desc:0 "Looking at the utter collapse of the reichkommissariat, Kaminski and his former collaborators have seized Moscow and declared their independence from us"
+ MCW.207.d:0 "Looking at the utter collapse of the reichkommissariat, Kaminski and his former collaborators have seized Moscow and declared their independence from us"
  MCW.207.a:0 "Traitors, traitors everywhere!"
  
  MCW.208.t:0 "The End"
- MCW.208.desc:0 "The remaining Wehrmact units capable of defending have taken control over the remaining parts of what now is a warlord hellhole"
+ MCW.208.d:0 "The remaining Wehrmact units capable of defending have taken control over the remaining parts of what now is a warlord hellhole"
  MCW.208.a:0 "For Germany! For Bach! For the victory!"
  # Tree Names #
  MCW_german_kaminsky_tree:0 "§gRK. Moskowien German Tree§!"

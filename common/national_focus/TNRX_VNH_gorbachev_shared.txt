@@ -120,8 +120,6 @@ shared_focus = {
 	y = 5
 	prerequisite = {
 		focus = VNH_The_awaited_trial
-	}
-	prerequisite = {
 		focus = VNH_The_light_hand
 	}
 	completion_reward = {
@@ -548,9 +546,6 @@ shared_focus = {
 	
 	x = 6
 	y = 8
-	prerequisite = {
-		focus = VNH_Army_of_Russia
-	}
 	prerequisite = {
 		focus = VNH_Soon_to_be_prosperous
 	}
