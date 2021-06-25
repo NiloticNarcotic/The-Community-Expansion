@@ -6,13 +6,9 @@ tags={
 }
 name="The New Redux"
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 supported_version="1.10.*"
 >>>>>>> parent of ef565fdb (png push)
-=======
-supported_version="1.10.*"
->>>>>>> parent of 982984d6 (Update descriptor.mod)
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="common/abilities"
@@ -44,3 +40,5 @@ replace_path="history/units"
 replace_path="history/countries"
 replace_path="music"
 replace_path="tests"
+supported_version="1.10.*"
+remote_file_id="2526523910"
