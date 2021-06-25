@@ -769,7 +769,11 @@ country_event = { # Moskowien at peace
 
 	option = {
 		name = MCW.11.a
-		remove_ideas = MCW_russian_partisans
+		remove_ideas = {
+			MCW_russian_partisans_pre
+			MCW_russian_partisans_mid
+			MCW_russian_partisans_final
+		}
 	}
 }
 
@@ -904,7 +908,7 @@ country_event = { # Mysterious Benefactors
 			days = 3
 		}
 	}
-	option = { # "Agreed."
+	option = { # "Agreed"
 		name = MCW.17.b
 		ai_chance = { factor = 0.2 }
 		hidden_effect = {
@@ -977,8 +981,26 @@ country_event = { # Times are Changing
 
 	option = { # The Beginning of the End
 		name = MCW.19.a
-		ai_chance = { factor = 1 }.
+		ai_chance = { factor = 1 }
 		load_focus_tree = MCW_russian_collab_tree
+	}
+}
+
+country_event = { # TEMP FACTION CHOOSER FOR COLLAB TREE EXPAND LATER ON!!!
+	id = MCW.20
+	title = MCW.20.t
+	desc = MCW.20.d
+	picture = GFX_report_event_MAD_palace
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW.19"}
+
+	option = { # Gorbachev and His Industrialists
+		name = MCW.20.a
+		ai_chance = { factor = 1 }
+		set_country_flag = MCW_collab_gorby_favoured
 	}
 }
 country_event = { # intro to the council function

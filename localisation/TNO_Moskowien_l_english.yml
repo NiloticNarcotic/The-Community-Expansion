@@ -124,6 +124,12 @@
 
  MCW_subordinate_council:0 "Ostvolk Council: §KSubordinate§!"
 
+ MCW_subvert_germany_timed:0 "Subvert German Influence"
+ MCW_subvert_germany_timed_desc:0 ""
+
+ MCW_russian_institute_for_common_labor:0 "Russian Institute for Common Labor"
+ MCW_russian_institute_for_common_labor_desc:0 ""
+
  MCW_unified_ostvolk_council:0 "Unified Ostvolk Council"
  MCW_unified_ostvolk_council_desc:0 "Unlike other Reichskommissariats, Moskowien's unique situation had lead to the establishment of cooperative body. The Ostvolk Council consists of both settlers and natives, working together to maintain the Reichskommissariat. Although the Council is somewhat unified, the body's primary purpose is the skillful and balanced appeasement of both ethnic groups."
 
@@ -446,7 +452,7 @@
  MCW_make_the_rest_disappear_desc:0 ""
 
  MCW_buy_out_voronezh_regional_business:0 "Buy out Voronezh Business"
- MCW_buy_out_voronezh_regional_business:0 ""
+ MCW_buy_out_voronezh_regional_business_desc:0 ""
 
  MCW_beneath_their_feet:0 "Beneath their Feet"
  MCW_beneath_their_feet_desc:0 ""
@@ -513,6 +519,12 @@
 
  MCW_the_wheat_from_the_chaff:0 "The Wheat from the Chaff"
  MCW_the_wheat_from_the_chaff_desc:0 ""
+
+ MCW_russian_institute_for_common_labour:0 "The "Russian Institute for Common Labor""
+ MCW_russian_institute_for_common_labour_desc:0 ""
+
+ MCW_stage_incidents_near_moskau_barracks:0 "Stage Incidents Near Moskau Barracks"
+ MCW_stage_incidents_near_moskau_barracks_desc:0 ""
 
  MCW_the_councils_in_fighting:0 "The Council's Bickering"
  MCW_the_councils_in_fighting_desc:0 "It is always frustrating to sit in one of these meetings. And it is infuriating to participate in any of them.\n\nThe Germans raised issues, the Russians would shoot these down before raising their own, then those too would be waved away.\n\nKasche has kept everything under the lid, but the pot kept boiling with hatred, selfishness, and ignorance. And very few believed in his ability to help any of them.\n\nLiterally nothing can be done because everything provoked dissent. And Kasche kept his own disgust at this inside of him, reminding himself of the day he would flee to Florida.\n\nAnd on and on, these beasts would continue to try tearing their throats out. He only hoped that would happen when he leaves them on their own. "
@@ -675,6 +687,10 @@
  MCW.19.d:0 ""
  MCW.19.a:0 "We are entering a new era."
 
+ MCW.20.t:0 "Making a Decision"
+ MCW.20.d:0 ""
+ MCW.20.a:0 ""Gorbachev and his Industrialist friends will get our economy under control.""
+
  MCW.101.t:0 "Trouble In The Council"
  MCW.101.desc:0 ""
  MCW.101.a:0 ""
@@ -778,6 +794,7 @@
  MCW_flag_ss_commission:0 "The §KOstvolk Council§! has commissioned the §lShutzstaffel§! to entirely handle the partisan issue"
  MCW_flag_industrialists_trusted:0 "The §KOstvolk Council§! has put it's faith in the §ORussian Industrialists§! to advance Moskowien industrialization and profitability"
  MCW_council_convened:0 "The Ostvolk Council of 1962 has been convened"
+ MCW_collab_gorby_favoured:0 "Gorbachev and his §ORussian Industrialists§! are favored by Kasche"
  # Custom Effect Tooltips #
  MCW_initial_effect_tooltip_1:0 "We must continue to ensure that the subjects of the Reich can sleep soundly in their beds, §elest the forces of darkness swallow them whole§!."
  MCW_initial_effect_tooltip_2:0 "The §KOstvolk Council§! will convene in order to decide on how we will deal with the §xcrises§! our administration faces."

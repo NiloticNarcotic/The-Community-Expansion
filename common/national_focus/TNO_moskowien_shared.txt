@@ -427,6 +427,10 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_an_equal_comprimise"
 		add_stability = 0.1
 		add_political_power = 50
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.16
+		}
 		swap_ideas = {
 			remove_idea = MCW_depressive_rule
 			add_idea = MCW_begrudging_rule
@@ -1335,12 +1339,21 @@ shared_focus = {
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_status_of_the_russian_delegation"
+		add_war_support = 0.1
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = despotism
+			popularity = 0.04
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_two_sides_of_the_coin
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_align_germany
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 0
@@ -1355,11 +1368,14 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_the_pragmatic_collaborator
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_thousand_year_volk
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = -3
 	y = 2
+	available = {
+		always = false	
+	}
 	prerequisite = {
 		focus = MCW_two_sides_of_the_coin
 	}
@@ -1368,12 +1384,13 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_pragmatic_collaborator"
+		custom_effect_tooltip = MCW_warning_effect_tooltip_1
 	}
 
 }
 shared_focus = {
 	id = MCW_direct_economic_legislature
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_the_new_draft
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = -5
@@ -1388,7 +1405,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_prioritise_russian_regional_development
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_Urban_Reconstruction
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = -5
@@ -1403,7 +1420,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_office_for_cultural_enrichment
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_Were_All_German
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = -5
@@ -1418,7 +1435,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_offer_they_cant_refuse
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_frieden_im_reich
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = -3
@@ -1436,7 +1453,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_partisan_negotiations
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_first_things_first
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 0
@@ -1454,7 +1471,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_the_final_agreement
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_a_moment_of_time
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 0
@@ -1469,7 +1486,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_quid_pro_quo_investigations
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_review_the_wehrmacht
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = -1
@@ -1484,7 +1501,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_enticing_offers_from_the_shutzstaffel
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_little_black_book
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = -1
@@ -1499,7 +1516,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_stage_incidents_near_moskau_barracks
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_Everyone_Calm_Down
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = -1
@@ -1514,11 +1531,14 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_the_idealistic_subverter
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_thousand_year_wirtschaft
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 3
 	y = 2
+	available = {
+		has_country_flag = MCW_collab_gorby_favoured
+	}
 	prerequisite = {
 		focus = MCW_two_sides_of_the_coin
 	}
@@ -1527,12 +1547,17 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_idealistic_subverter"
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.06
+		}
+		add_political_power = 25
 	}
 
 }
 shared_focus = {
 	id = MCW_pragmatic_racial_policies
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_der_volkskampf
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 5
@@ -1542,12 +1567,14 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_pragmatic_racial_policies"
+		add_war_support = 0.095
+		add_manpower = 12500
 	}
 
 }
 shared_focus = {
 	id = MCW_subvert_german_influence
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_Guide_The_Party
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 5
@@ -1557,12 +1584,20 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_subvert_german_influence"
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.06
+		}
+		add_timed_idea = {
+			idea = MCW_subvert_germany_timed
+			days = 45
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_russian_institute_for_common_labour
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_back_to_work
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 5
@@ -1572,12 +1607,15 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_russian_institute_for_common_labour"
+		add_ideas = {
+			MCW_russian_institute_for_common_labor
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_industrial_buildup
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_factories_smoking
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 1
@@ -1587,12 +1625,28 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_industrial_buildup"
+		205 = {
+			add_building_construction  = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		222 = {
+			add_building_construction  = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_speak_softly
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_realpolitik
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 1
@@ -1602,12 +1656,13 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_speak_softly"
+		add_stability = 0.1 
 	}
 
 }
 shared_focus = {
 	id = MCW_make_the_rest_disappear
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_A_Gentle_Purge
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 1
@@ -1617,12 +1672,21 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_make_the_rest_disappear"
+		add_popularity = {
+			ideology = communist
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = socialist
+			popularity = -0.1
+		}
+		add_manpower = -427
 	}
 
 }
 shared_focus = {
 	id = MCW_buy_out_voronezh_regional_business
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_economic_planning
 	cost = 2
 	relative_position_id = MCW_status_of_the_russian_delegation
 	x = 3
@@ -1635,28 +1699,36 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_buy_out_voronezh_regional_business"
+		country_event = {
+			id = mcw.204
+			days = 3
+		}
 	}
 
 }
 #### Russian Partisan ###
 shared_focus = {
 	id = MCW_beneath_their_feet
-	icon = GFX_Moskowien_Plan
+	icon = GFX_CAU_stomp_on_partisans
 	cost = 3
 	x = 8
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_beneath_their_feet"
+		add_manpower = -350
 	}
 
 }
 shared_focus = {
 	id = MCW_the_outflanked_center
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_Burn_It_All
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 0
 	y = 1
+	available = {
+		always = false
+	}
 	prerequisite = {
 		focus = MCW_beneath_their_feet
 	}
@@ -1668,12 +1740,13 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_outflanked_center"
+		custom_effect_tooltip = MCW_warning_effect_tooltip_1
 	}
 
 }
 shared_focus = {
 	id = MCW_the_boogeymen
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_great_famine
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 0
@@ -1688,7 +1761,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_kill_them_quietly
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_Strike_High
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 0
@@ -1703,7 +1776,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_whispers_in_the_night
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_From_the_Shadows
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 0
@@ -1718,7 +1791,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_we_are_here_to_stay
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_ready_the_partisans
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 0
@@ -1732,12 +1805,18 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_we_are_here_to_stay"
+		add_stability = -0.15
+		add_war_support = -0.22
+		swap_ideas = {
+			remove_idea = MCW_russian_partisans_mid
+			add_idea = MCW_russian_partisans_final
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_escalating_the_tensions
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_SPS_Burning_House_Village
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 0
@@ -1747,12 +1826,18 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_escalating_the_tensions"
+		swap_ideas = {
+			remove_idea = MCW_stagnant_ostvolk_council
+			remove_idea = MCW_unified_ostvolk_council
+			remove_idea = MCW_semiunified_ostvolk_council
+			add_idea = MCW_council_in_chaos
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_stage_the_incident
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_none_are_free
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 0
@@ -1762,16 +1847,23 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_stage_the_incident"
+		country_event = {
+			id = mcw.205
+			days = 2
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_the_old_west
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_Death_to_All_Nazis
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = -2
 	y = 1
+	available = {
+		always = false
+	}
 	prerequisite = {
 		focus = MCW_beneath_their_feet
 	}
@@ -1783,12 +1875,13 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_old_west"
+		custom_effect_tooltip = MCW_warning_effect_tooltip_1
 	}
 
 }
 shared_focus = {
 	id = MCW_the_last_bastion
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_Taking_Responsibility
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = -2
@@ -1806,7 +1899,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_the_hidden_council
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_The_Ghetto_Compromise
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = -4
@@ -1824,7 +1917,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_friends_in_high_places
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_Pakt_Wargames
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = -4
@@ -1839,7 +1932,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_a_few_missing_shipments
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_Manchurian_Depots
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = -4
@@ -1854,7 +1947,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_a_shared_zeal
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_And_There_Was_Noone_to_Hear_It
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = -2
@@ -1869,7 +1962,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_victories_for_the_people
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_We_Die_for_Justice
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = -2
@@ -1884,7 +1977,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_the_porrous_east
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_A_Heavy_Hand
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 2
@@ -1900,16 +1993,21 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_porrous_east"
+		add_stability = -0.06
+		add_manpower = -650
 	}
 
 }
 shared_focus = {
 	id = MCW_hidden_in_plain_sight
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_irregulars_to_infanterie
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 2
 	y = 2
+	available = {
+		always = false
+	}
 	prerequisite = {
 		focus = MCW_beneath_their_feet
 	}
@@ -1918,12 +2016,13 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_hidden_in_plain_sight"
+		custom_effect_tooltip = MCW_warning_effect_tooltip_1
 	}
 
 }
 shared_focus = {
 	id = MCW_infiltrating_the_echelons_of_power
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_GER_well_we_tried
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 2
@@ -1938,7 +2037,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_preparing_the_plan
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_Never_Again
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 2
@@ -1953,7 +2052,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = MCW_the_black_brigades
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_rally_the_russians
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 4
@@ -1966,12 +2065,19 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_black_brigades"
+		add_stability = -0.15
+		add_stability = -0.05
+		add_manpower = -1375
+		swap_ideas = {
+			remove_idea = MCW_the_porous_border_2
+			add_idea = MCW_the_porous_border_3
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_waging_terror
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_Secure_the_Bombs
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 4
@@ -1981,12 +2087,17 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_waging_terror"
+		swap_ideas = {
+			remove_idea = MCW_apathetic_rule
+			remove_idea = MCW_begrudging_rule
+			add_idea = MCW_depressive_rule
+		}
 	}
 
 }
 shared_focus = {
 	id = MCW_the_wheat_from_the_chaff
-	icon = GFX_GER_convene_the_parties
+	icon = GFX_UPO_The_New_Plague
 	cost = 2
 	relative_position_id = MCW_beneath_their_feet
 	x = 4
@@ -1996,6 +2107,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MCW_the_wheat_from_the_chaff"
+		swap_ideas = {
+			remove_idea = MCW_russian_partisans_pre
+			add_idea = MCW_russian_partisans_mid
+		}
 	}
 
 }
