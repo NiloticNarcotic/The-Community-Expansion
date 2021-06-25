@@ -498,7 +498,7 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-
+    	add_war_support = 0.03
 	}
 }
 
@@ -518,7 +518,7 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-
+        add_manpower = 1000
 	}
 }
 
@@ -609,7 +609,7 @@ shared_focus = {
 	y = 3
 
 	completion_reward = {
-
+	add_political_power = 25
 	}
 }
 
@@ -638,7 +638,7 @@ shared_focus = {
 	y = 3
 
 	completion_reward = {
-
+		add_stability = .04
 	}
 }
 
@@ -655,7 +655,7 @@ shared_focus = {
 	y = 2
 
 	completion_reward = {
-
+		add_manpower = 2000
 	}
 }
 
@@ -672,7 +672,7 @@ shared_focus = {
 	y = 2
 
 	completion_reward = {
-
+		add_manpower = 2000
 	}
 }
 
@@ -690,7 +690,7 @@ shared_focus = {
 	y = 3
 
 	completion_reward = {
-		
+		add_stability = 0.05
 	}
 }
 
@@ -775,7 +775,7 @@ shared_focus = {
 	y = 3
 
 	completion_reward = {
-
+		add_stability = 0.1
 	}
 }
 
@@ -804,7 +804,7 @@ shared_focus = {
 	y = 3
 
 	completion_reward = {
-
+		add_war_support = 0.05
 	}
 }
 
@@ -957,8 +957,11 @@ shared_focus = {
 	x = 5
 	y = 8
 
-	completion_reward = {
-
+completion_reward = {
+		declare_war_on = {
+			target = SMO
+			type = annex_everything
+		}
 	}
 }
 
@@ -987,7 +990,7 @@ shared_focus = {
 	y = 8
 
 	completion_reward = {
-
+		add_war_support = 0.04
 	}
 }
 
@@ -1016,7 +1019,7 @@ shared_focus = {
 	y = 8
 
 	completion_reward = {
-
+		add_state_core = 0.02
 	}
 }
 
@@ -1138,7 +1141,7 @@ shared_focus = {
 	y = 10
 
 	completion_reward = {
-
+		add_political_power = -40
 	}
 }
 
@@ -1167,7 +1170,8 @@ shared_focus = {
 	y = 10
 
 	completion_reward = {
-
+		add_stability = 0.01
+		add_political_power = -50
 	}
 }
 
@@ -1196,7 +1200,7 @@ shared_focus = {
 	y = 10
 
 	completion_reward = {
-
+		add_stability = 0.10
 	}
 }
 

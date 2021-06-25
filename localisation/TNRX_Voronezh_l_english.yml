@@ -424,6 +424,17 @@
  VNH_A_true_democracy_desc:0 "With the black barons gone, or at least curbed, Russian path to democracy has finally begun."
  VNH_The_future:0 "The coming storm"
  VNH_The_future_desc:0 "Our internal problems are solved, but now we have external problems too. Germany seems poised to retake the territories it once held with an iron fist. If that happens, we will fight side by side for freedom. \n\nFor Gorbachev..."
+ ### Eletion tree ###
+ VNH_election_Time:0 "Election time!"
+ VNH_election_Time_desc:0 "Time for the first Russian election in history!"
+ VNH_Encourage_Participation:0 "Encourage participation"
+ VNH_Encourage_Participation_desc:0 "everyones voice matters!"
+ VNH_Set_Up_Ballots:0 "Set up ballots!"
+ VNH_Set_Up_Ballots_desc:0 "Time is coming!!!!!!!!!!"
+ VNH_Election_Day:0 "ELECTION DAY!!!!!!"
+ VNH_Election_Day_desc:0 "LESSSS GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+ VNH_Gorbachev_elected:0 "Gorbachev elected"
+ VNH_Gorbachev_elected_desc:0 "LONG LIVE GORBACHEV!!!!!!!!!!! HERO OF THE REPUBLIC!!!!"
  ### National Spirits ###
  VNH_Downfall_1:0 "Economic Downfall"
  VNH_Downfall_1_desc:0 "The government of Voronezh has just been established. After RK Moskowien stopped being a single entity, it left the newly formed warlord states into economic disarray."
