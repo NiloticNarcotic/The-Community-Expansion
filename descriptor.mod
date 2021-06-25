@@ -5,7 +5,6 @@ tags={
 	"Gameplay"
 }
 name="The New Redux"
-supported_version="1.10.*"
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="common/abilities"
@@ -37,3 +36,5 @@ replace_path="history/units"
 replace_path="history/countries"
 replace_path="music"
 replace_path="tests"
+supported_version="1.10.*"
+remote_file_id="2526523910"
