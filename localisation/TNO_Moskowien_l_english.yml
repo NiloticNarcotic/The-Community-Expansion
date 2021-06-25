@@ -191,340 +191,340 @@
  
  ## Tree ##
  MCW_status_of_moskowien:0 "Status of Moskowien"
- MCW_status_of_moskowien_desc:0 ""
+ MCW_status_of_moskowien_desc:0 "Welcome to hell!"
 
  MCW_ostvolk_council:0 "The Ostvolk Council"
- MCW_ostvolk_council_desc:0 ""
+ MCW_ostvolk_council_desc:0 "This is the council, lead by Gorbachev, he's pretty cool."
 
  MCW_not_united:0 "...Not United"
- MCW_not_united_desc:0 ""
+ MCW_not_united_desc:0 "and we all hate each other."
 
  MCW_not_representative:0 "...Not Representative"
- MCW_not_representative_desc:0 ""
+ MCW_not_representative_desc:0 "The Council sucks are being Represenating us."
 
  MCW_not_serving_interests:0 "..Not Serving Our Interests"
- MCW_not_serving_interests_desc:0 ""
+ MCW_not_serving_interests_desc:0 "And they are not serving our intreset to Germanify!"
 
  MCW_sit_down_with_industrialists:0 "Sit Down with the Industrialists"
- MCW_sit_down_with_industrialists_desc:0 ""
+ MCW_sit_down_with_industrialists_desc:0 "Let's just talk and come to a compramise"
 
  MCW_convening_the_council:0 "Convene the Council of '62"
- MCW_convening_the_council_desc:0 ""
+ MCW_convening_the_council_desc:0 "Well the council shall be meeting soon."
 
  MCW_root_out_sympathisers:0 "Root out Partisan Sympathisers"
- MCW_root_out_sympathisers_desc:0 ""
+ MCW_root_out_sympathisers_desc:0 "all who resist us shall be removed... Harshly."
 
  MCW_the_next_move:0 "Our Next Move.."
- MCW_the_next_move_desc:0 ""
+ MCW_the_next_move_desc:0 "And now our next move is to make sure this crappy RK doesn't die."
 
  MCW_forever_more:0 "Standing Guard Forevermore"
- MCW_forever_more_desc:0 ""
+ MCW_forever_more_desc:0 "We stand guard for the Fuhere"
 
  MCW_kasche_rehabilitation:0 "Rehabilitating Kasche"
- MCW_kasche_rehabilitation_desc:0 ""
+ MCW_kasche_rehabilitation_desc:0 "Kasche might be a monster, but he atleast isn't Himmler"
 
  MCW_german_interests_maintained:0 "German Interests Guarded"
- MCW_german_interests_maintained_desc:0 ""
+ MCW_german_interests_maintained_desc:0 "Our intrests shall always be to increass the German might!"
 
  MCW_draft_aktion_z:0 "Draft "Aktion Z""
- MCW_draft_aktion_z_desc:0 ""
+ MCW_draft_aktion_z_desc:0 "Let's draft an action"
 
  MCW_millenium_reich:0 "The Millenium Reich"
- MCW_millenium_reich_desc:0 ""
+ MCW_millenium_reich_desc:0 "Like the fuhere said, WE SHALL LAST A MILLENIUM!!!!!!!!!!"
 
  MCW_the_blue_book:0 "The 'Blue Book'"
- MCW_the_blue_book_desc:0 ""
+ MCW_the_blue_book_desc:0 "Hey this kinda sounds familiar"
 
  MCW_dealing_with_partisans:0 "Dealing with the Partisans"
- MCW_dealing_with_partisans_desc:0 ""
+ MCW_dealing_with_partisans_desc:0 "This job sucks."
 
  MCW_ruthless_extermination:0 "Ruthless Extermination"
- MCW_ruthless_extermination_desc:0 ""
+ MCW_ruthless_extermination_desc:0 "If we spread fear then maybe we can survive for 20 more years."
 
  MCW_mouse_in_cat_trap:0 "Laying the Mousetrap"
- MCW_mouse_in_cat_trap_desc:0 ""
+ MCW_mouse_in_cat_trap_desc:0 "lets trap em resistors."
 
  MCW_dealing_with_poor_infrastructure:0 "Dealing with Poor Infrastructure"
- MCW_dealing_with_poor_infrastructure_desc:0 ""
+ MCW_dealing_with_poor_infrastructure_desc:0 "Man this infrastructure sucks, let's fix it."
 
  MCW_russian_representatives_favored:0 "Russian Delegation Favored"
- MCW_russian_representatives_favored_desc:0 ""
+ MCW_russian_representatives_favored_desc:0 "Russian delegation has been favored."
 
  MCW_an_equal_comprimise:0 "An 'Equal' Comprimise"
- MCW_an_equal_comprimise_desc:0 ""
+ MCW_an_equal_comprimise_desc:0 "Give them the illusion it's equal."
 
  MCW_uncertain_development:0 "Uncertain Developments"
- MCW_uncertain_development_desc:0 ""
+ MCW_uncertain_development_desc:0 "Why are we still here? Just to suffer?"
 
  MCW_industrial_overtures:0 "Industrial Overtures"
- MCW_industrial_overtures_desc:0 ""
+ MCW_industrial_overtures_desc:0 "I guess Industry can get better."
 
  MCW_a_balanced_budget:0 "A Balanced Budget"
- MCW_a_balanced_budget_desc:0 ""
+ MCW_a_balanced_budget_desc:0 "Their we go, maybe we won't have to beg the Fatherland for more money every year."
 
  MCW_rejuvinating_lost_heartlands:0 "Rejuvinating the Lost Heartlands"
- MCW_rejuvinating_lost_heartlands_desc:0 ""
+ MCW_rejuvinating_lost_heartlands_desc:0 "Let us Rejuvinate the lost Heartlands."
 
  MCW_clearing_roads_for_use:0 "Clearing the Roads for Use"
- MCW_clearing_roads_for_use_desc:0 ""
+ MCW_clearing_roads_for_use_desc:0 "We need to use the Roads to get around, so make way."
 
  MCW_steady_repair:0 "A Steady Approach"
- MCW_steady_repair_desc:0 ""
+ MCW_steady_repair_desc:0 "keep it steady"
 
  MCW_satisfactory_industrialization:0 "Satisfactory Industrialization"
- MCW_satisfactory_industrialization_desc:0 ""
+ MCW_satisfactory_industrialization_desc:0 "Well things are looking up"
 
  MCW_aggressive_expansion:0 "Aggressive Industrial Expansion"
- MCW_aggressive_expansion_desc:0 ""
+ MCW_aggressive_expansion_desc:0 "We don't even pay the laborors lol."
 
  MCW_acceptable_results:0 "Acceptable Results"
- MCW_acceptable_results_desc:0 ""
+ MCW_acceptable_results_desc:0 "Well atleast it's better then last year."
 
  MCW_new_research_divisions:0 "New R&D Divisions"
- MCW_new_research_divisions_desc:0 ""
+ MCW_new_research_divisions_desc:0 "Welcome noobies."
 
  MCW_joint_air_ground_training_scheme:0 "Joint Air-Ground Training Schemes"
- MCW_joint_air_ground_training_scheme_desc:0 ""
+ MCW_joint_air_ground_training_scheme_desc:0 "Cool more training in case the commies come back."
 
  MCW_ailing_railnetworks:0 "Our Ailing Railnetworks"
- MCW_ailing_railnetworks_desc:0 ""
+ MCW_ailing_railnetworks_desc:0 "Railways are cool"
 
  MCW_trans_moskowien_railway:0 "The Trans-Moskowien Railway"
- MCW_trans_moskowien_railway_desc:0 ""
+ MCW_trans_moskowien_railway_desc:0 "Hey this sounds similar to something."
 
  MCW_annual_budget_report:0 "Annual Budget Report"
- MCW_annual_budget_report_desc:0 ""
+ MCW_annual_budget_report_desc:0 "Hold your breathes!"
 
  MCW_civilization_on_the_brink:0 "Civilization on the Edge"
- MCW_civilization_on_the_brink_desc:0 ""
+ MCW_civilization_on_the_brink_desc:0 "This job really sucks, and civilzation is weird."
 
  MCW_the_reich_guard:0 "The Guards of the Reich"
- MCW_the_reich_guard_desc:0 ""
+ MCW_the_reich_guard_desc:0 "We stand guard and ready for the Russian Menace."
 
  MCW_contacts_in_the_heer:0 "Contacts in the Heer"
- MCW_contacts_in_the_heer_desc:0 ""
+ MCW_contacts_in_the_heer_desc:0 "Cool new contracts"
 
  MCW_the_secret_deployment:0 "The Secret Deployment"
- MCW_the_secret_deployment_desc:0 ""
+ MCW_the_secret_deployment_desc:0 "More troops but in secret"
 
  MCW_lock_down_the_capital:0 "Lock Down the Capital"
- MCW_lock_down_the_capital_desc:0 ""
+ MCW_lock_down_the_capital_desc:0 "Lol we are gonna troll some people."
 
  MCW_accuse_the_bureaucrats:0 "Accuse the Bureaucrats"
- MCW_accuse_the_bureaucrats_desc:0 ""
+ MCW_accuse_the_bureaucrats_desc:0 "They are the reason this place sucks."
 
  MCW_awaiting_ragnarok:0 "Awaiting Ragnarok"
- MCW_awaiting_ragnarok_desc:0 ""
+ MCW_awaiting_ragnarok_desc:0 "I'm waiting!"
 
  MCW_power_to_the_bureaucrats:0 "Power to the Bureaucrats"
- MCW_power_to_the_bureaucrats_desc:0 ""
+ MCW_power_to_the_bureaucrats_desc:0 "Damn more power for fat cats."
 
  MCW_joint_german_commission:0 "The Joint Russian-German Commission"
- MCW_joint_german_commission_desc:0 ""
+ MCW_joint_german_commission_desc:0 "Maybe we can be freinds?"
 
  MCW_the_eastern_wage_council:0 "The "Eastern Wage Council""
- MCW_the_eastern_wage_council_desc:0 ""
+ MCW_the_eastern_wage_council_desc:0 "Maybe we can make people hate us less?"
 
  MCW_terror_bombing_in_brauchitschstadt:0 "§eTerror Bombing in Brauchitschstadt!§!"
- MCW_terror_bombing_in_brauchitschstadt_desc:0 ""
+ MCW_terror_bombing_in_brauchitschstadt_desc:0 "That's not very cash money"
 
  MCW_swift_reprisals_across_countryside:0 "Give Swift Reprisals!"
- MCW_swift_reprisals_across_countryside_desc:0 ""
+ MCW_swift_reprisals_across_countryside_desc:0 "We are quick!"
 
  MCW_a_brokered_comprimise:0 "Broker a Comprimise"
- MCW_a_brokered_comprimise_desc:0 ""
+ MCW_a_brokered_comprimise_desc:0 "Maybe we can make a deal?"
 
  MCW_line_to_germania:0 "Non-Stop Line to Germania"
- MCW_line_to_germania_desc:0 ""
+ MCW_line_to_germania_desc:0 "More resources to the Fatherland means more money for us!"
 
  MCW_assure_our_loyalty:0 "Assure our Loyalty"
- MCW_assure_our_loyalty_desc:0 ""
+ MCW_assure_our_loyalty_desc:0 "We are loyal to the fatherland."
 
  MCW_aktion_wagen_six:0 ""Aktion Wagen Sechs""
- MCW_aktion_wagen_six_desc:0 ""
+ MCW_aktion_wagen_six_desc:0 "C'mon dude."
 
  MCW_seize_the_perpetrators:0 "Seize the Perpetrators"
- MCW_seize_the_perpetrators_desc:0 ""
+ MCW_seize_the_perpetrators_desc:0 "SEIZE THEM!!!!!"
 
  MCW_give_the_order_when_ready:0 "Give the Order When Ready"
- MCW_give_the_order_when_ready_desc:0 ""
+ MCW_give_the_order_when_ready_desc:0 "We shall give the orders when we are ready."
 
  MCW_stufe_eins:0 "Stufe Eins"
- MCW_stufe_eins_desc:0 ""
+ MCW_stufe_eins_desc:0 "Ja?"
 
  MCW_hold_special_conference:0 "The Holmgard Conference"
- MCW_hold_special_conference_desc:0 ""
+ MCW_hold_special_conference_desc:0 "I love confrences"
 
  MCW_hiwi_men_at_every_corner:0 "Hiwi Men in Every City"
- MCW_hiwi_men_at_every_corner_desc:0 ""
+ MCW_hiwi_men_at_every_corner_desc:0 "Men in every city."
 
  MCW_enlist_auxilliaries:0 "Enlist Russian Auxilliaries"
- MCW_enlist_auxilliaries_desc:0 ""
+ MCW_enlist_auxilliaries_desc:0 "Maybe they could come to some use"
 
  MCW_stufe_zwei:0 "Stufe Zwei"
- MCW_stufe_zwei_desc:0 ""
+ MCW_stufe_zwei_desc:0 "huh?"
 
  MCW_aktion_gelb:0 "Aktion "Gelb""
- MCW_aktion_gelb_desc:0 ""
+ MCW_aktion_gelb_desc:0 "Get em"
 
  MCW_clandestine_assasination:0 "Clandestine Assasinations"
- MCW_clandestine_assasination_desc:0 ""
+ MCW_clandestine_assasination_desc:0 "Assasinations now happen everyday"
 
  MCW_sabotage_reich_ministries:0 "Sabotage Reich Ministries"
- MCW_sabotage_reich_ministries_desc:0 ""
+ MCW_sabotage_reich_ministries_desc:0 "Let's make them look bad"
 
  MCW_stufe_drei:0 "Stufe Drei"
- MCW_stufe_drei_desc:0 ""
+ MCW_stufe_drei_desc:0 "Lets go"
 
  MCW_stage_terror_bombing_in_brauchitschstadt:0 "Stage Incident in Brauchitschstadt"
- MCW_stage_terror_bombing_in_brauchitschstadt_desc:0 ""
+ MCW_stage_terror_bombing_in_brauchitschstadt_desc:0 "another incident, oh no!"
 
  MCW_deploy_agents_to_moskau:0 "Deploy Agents to Moskau"
- MCW_deploy_agents_to_moskau_desc:0 ""
+ MCW_deploy_agents_to_moskau_desc:0 "Watching and listening."
 
  MCW_stufe_vier:0 "Stufe Vier"
- MCW_stufe_vier_desc:0 ""
+ MCW_stufe_vier_desc:0 "Stufe that, stufe this!"
 
  MCW_resource_relocation:0 "Resource Relocation"
- MCW_resource_relocation_desc:0 ""
+ MCW_resource_relocation_desc:0 "This is ours! Not theirs!"
 
  MCW_military_requisitions:0 "Military Requisitions"
- MCW_military_requisitions_desc:0 ""
+ MCW_military_requisitions_desc:0 "We need the army"
 
  MCW_industrial_evacuation:0 "Industrial Evacuation"
- MCW_industrial_evacuation_desc:0 ""
+ MCW_industrial_evacuation_desc:0 "guess we must evacuate"
 
  MCW_finish_command_relocation:0 "Finish Command Relocation"
- MCW_finish_command_relocation_desc:0 ""
+ MCW_finish_command_relocation_desc:0 "Ok and there, now we are safer."
 
  MCW_stufe_funf:0 "Stufe Fünf"
- MCW_stufe_funf_desc:0 ""
+ MCW_stufe_funf_desc:0 "stufe something"
 
  MCW_status_of_the_russian_delegation:0 "Status of the Russian Delegation"
- MCW_status_of_the_russian_delegation_desc:0 ""
+ MCW_status_of_the_russian_delegation_desc:0 "How's it going?"
 
  MCW_two_sides_of_the_coin:0 "Two Sides of the Coin..."
- MCW_two_sides_of_the_coin_desc:0 ""
+ MCW_two_sides_of_the_coin_desc:0 "We are either monsters, or sorta nicer Monsters, you decide."
 
  MCW_the_pragmatic_collaborator:0 "The Collaborator"
- MCW_the_pragmatic_collaborator_desc:0 ""
+ MCW_the_pragmatic_collaborator_desc:0 "Collaborate or die"
 
  MCW_direct_economic_legislature:0 "Direct Economic Legislature"
- MCW_direct_economic_legislature_desc:0 ""
+ MCW_direct_economic_legislature_desc:0 "We control the economy"
 
  MCW_prioritise_russian_regional_development:0 "Prioritise Russian Land Development"
- MCW_prioritise_russian_regional_development_desc:0 ""
+ MCW_prioritise_russian_regional_development_desc:0 "Make it better"
 
  MCW_office_for_cultural_enrichment:0 "The "Office for Cultural Enrichment""
- MCW_office_for_cultural_enrichment_desc:0 ""
+ MCW_office_for_cultural_enrichment_desc:0 "Make better culture!"
 
  MCW_offer_they_cant_refuse:0 "An Offer they can't Refuse"
- MCW_offer_they_cant_refuse_desc:0 ""
+ MCW_offer_they_cant_refuse_desc:0 "Or if they do, well they'll just die"
 
  MCW_partisan_negotiations:0 "Partisan Negotiations"
- MCW_partisan_negotiations_desc:0 ""
+ MCW_partisan_negotiations_desc:0 "We can negotiate, and maybe things will get better"
 
  MCW_the_final_agreement:0 "The Final Agreement"
- MCW_the_final_agreement_desc:0 ""
+ MCW_the_final_agreement_desc:0 "Ok maybe life will get better"
 
  MCW_quid_pro_quo_investigations:0 "Quid Pro Quo Investigations"
- MCW_quid_pro_quo_investigations_desc:0 ""
+ MCW_quid_pro_quo_investigations_desc:0 "Investiage this please"
 
  MCW_enticing_offers_from_the_shutzstaffel:0 "Enticing Offers from the Shutzstaffel"
- MCW_enticing_offers_from_the_shutzstaffel_desc:0 ""
+ MCW_enticing_offers_from_the_shutzstaffel_desc:0 "Lets entice them"
 
  MCW_the_idealistic_subverter:0 "The Liberator"
- MCW_the_idealistic_subverter_desc:0 ""
+ MCW_the_idealistic_subverter_desc:0 "Maybe life can be better here?"
 
  MCW_pragmatic_racial_policies:0 "Pragmatic Racial Policies"
- MCW_pragmatic_racial_policies_desc:0 ""
+ MCW_pragmatic_racial_policies_desc:0 "No russians allowed here."
 
  MCW_subvert_german_influence:0 "Subvert German Influence"
- MCW_subvert_german_influence_desc:0 ""
+ MCW_subvert_german_influence_desc:0 "No German influence please"
 
  MCW_industrial_buildup:0 "Rural Industrial Buildup"
- MCW_industrial_buildup_desc:0 ""
+ MCW_industrial_buildup_desc:0 "Let's make rural areas less crappy."
 
  MCW_speak_softly:0 "Speak Softly..."
- MCW_speak_softly_desc:0 ""
+ MCW_speak_softly_desc:0 "and carry something big"
 
  MCW_make_the_rest_disappear:0 "...Make the Rest Disappear"
- MCW_make_the_rest_disappear_desc:0 ""
+ MCW_make_the_rest_disappear_desc:0 "Wanna see a magic trick?"
 
  MCW_buy_out_voronezh_regional_business:0 "Buy out Voronezh Business"
- MCW_buy_out_voronezh_regional_business_desc:0 ""
+ MCW_buy_out_voronezh_regional_business_desc:0 "buy em out"
 
  MCW_beneath_their_feet:0 "Beneath their Feet"
- MCW_beneath_their_feet_desc:0 ""
+ MCW_beneath_their_feet_desc:0 "Beneath em"
 
  MCW_the_outflanked_center:0 "The Outflanked Center"
- MCW_the_outflanked_center_desc:0 ""
+ MCW_the_outflanked_center_desc:0 "Damn we've been outflanked"
 
  MCW_the_boogeymen:0 "The Boogeymen"
- MCW_the_boogeymen_desc:0 ""
+ MCW_the_boogeymen_desc:0 "Boogey woogie!"
 
  MCW_kill_them_quietly:0 "Kill them Quietly"
- MCW_kill_them_quietly_desc:0 ""
+ MCW_kill_them_quietly_desc:0 "quietly"
 
  MCW_whispers_in_the_night:0 "Whispers in the Night"
- MCW_whispers_in_the_night_desc:0 ""
+ MCW_whispers_in_the_night_desc:0 "shh, he's trying to sleep"
 
  MCW_we_are_here_to_stay:0 "We are Here to Stay!"
- MCW_we_are_here_to_stay_desc:0 ""
+ MCW_we_are_here_to_stay_desc:0 "indeed we are!"
 
  MCW_escalating_the_tensions:0 "Escalating the Tensions"
- MCW_escalating_the_tensions_desc:0 ""
+ MCW_escalating_the_tensions_desc:0 "make things worse!"
 
  MCW_stage_the_incident:0 "Stage the Incident"
- MCW_stage_the_incident_desc:0 ""
+ MCW_stage_the_incident_desc:0 "Now let's get them fighting!"
 
  MCW_the_old_west:0 "The Old West"
- MCW_the_old_west_desc:0 ""
+ MCW_the_old_west_desc:0 "man this place is old"
 
  MCW_the_last_bastion:0 "The Last Bastion"
- MCW_the_last_bastion_desc:0 ""
+ MCW_the_last_bastion_desc:0 "The last bastion of something"
 
  MCW_the_hidden_council:0 "The Hidden Council"
- MCW_the_hidden_council_desc:0 ""
+ MCW_the_hidden_council_desc:0 "Hiden council? where?"
 
  MCW_friends_in_high_places:0 "Friends in High Places"
- MCW_friends_in_high_places_desc:0 ""
+ MCW_friends_in_high_places_desc:0 "We got powerful friends"
 
  MCW_a_few_missing_shipments:0 "A Few Missing Shipments..."
- MCW_a_few_missing_shipments_desc:0 ""
+ MCW_a_few_missing_shipments_desc:0 "where did they go?"
 
  MCW_a_shared_zeal:0 "A Shared Zeal"
- MCW_a_shared_zeal_desc:0 ""
+ MCW_a_shared_zeal_desc:0 "Sharing the zeal of approval"
 
  MCW_victories_for_the_people:0 "Victories for the People"
- MCW_victories_for_the_people_desc:0 ""
+ MCW_victories_for_the_people_desc:0 "The people will be free!"
 
  MCW_the_porrous_east:0 "The Porrous East"
- MCW_the_porrous_east_desc:0 ""
+ MCW_the_porrous_east_desc:0 "The east kinda sucks"
 
  MCW_hidden_in_plain_sight:0 "Hidden in Plain Sight"
- MCW_hidden_in_plain_sight_desc:0 ""
+ MCW_hidden_in_plain_sight_desc:0 "Dang that's pretty easy"
 
  MCW_infiltrating_the_echelons_of_power:0 "Infiltrating the Echelons of Power"
- MCW_infiltrating_the_echelons_of_power_desc:0 ""
+ MCW_infiltrating_the_echelons_of_power_desc:0 "They won't know who hit them!"
 
  MCW_preparing_the_plan:0 "Preparing the Plan"
- MCW_preparing_the_plan_desc:0 ""
+ MCW_preparing_the_plan_desc:0 "Prepare boys!"
 
  MCW_the_black_brigades:0 "The Black Brigades"
- MCW_the_black_brigades_desc:0 ""
+ MCW_the_black_brigades_desc:0 "They seem scary bro"
 
  MCW_waging_terror:0 "Waging Terror"
- MCW_waging_terror_desc:0 ""
+ MCW_waging_terror_desc:0 "Terror is fun, and totally effective!"
 
  MCW_the_wheat_from_the_chaff:0 "The Wheat from the Chaff"
- MCW_the_wheat_from_the_chaff_desc:0 ""
+ MCW_the_wheat_from_the_chaff_desc:0 "We need wheat!"
 
  MCW_russian_institute_for_common_labour:0 "The "Russian Institute for Common Labor""
- MCW_russian_institute_for_common_labour_desc:0 ""
+ MCW_russian_institute_for_common_labour_desc:0 "Maybe some minnimum wage isn't bad"
 
  MCW_stage_incidents_near_moskau_barracks:0 "Stage Incidents Near Moskau Barracks"
- MCW_stage_incidents_near_moskau_barracks_desc:0 ""
+ MCW_stage_incidents_near_moskau_barracks_desc:0 "they won't know what will hit them."
 
  MCW_the_councils_in_fighting:0 "The Council's Bickering"
  MCW_the_councils_in_fighting_desc:0 "It is always frustrating to sit in one of these meetings. And it is infuriating to participate in any of them.\n\nThe Germans raised issues, the Russians would shoot these down before raising their own, then those too would be waved away.\n\nKasche has kept everything under the lid, but the pot kept boiling with hatred, selfishness, and ignorance. And very few believed in his ability to help any of them.\n\nLiterally nothing can be done because everything provoked dissent. And Kasche kept his own disgust at this inside of him, reminding himself of the day he would flee to Florida.\n\nAnd on and on, these beasts would continue to try tearing their throats out. He only hoped that would happen when he leaves them on their own. "
