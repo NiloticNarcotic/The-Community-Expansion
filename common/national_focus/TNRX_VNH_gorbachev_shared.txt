@@ -234,7 +234,6 @@ shared_focus = {
 			add_extra_state_shared_building_slots = 10
 		}
 	}
-	}
 }
 
 shared_focus = { 
@@ -371,7 +370,7 @@ shared_focus = {
 		focus = VNH_On_the_land
 	}
 	completion_reward = {
-		#
+		add_manpower = 2000
 	}
 }
 
@@ -392,7 +391,7 @@ shared_focus = {
 		focus = VNH_Voronezh_Military_Academy
 	}
 	completion_reward = {
-		#
+		add_war_support = 0.05
 	}
 }
 
@@ -407,7 +406,7 @@ shared_focus = {
 		focus = VNH_Bulganins_word
 	}
 	completion_reward = {
-		#
+		add_manpower = 4000
 	}
 }
 
@@ -422,7 +421,7 @@ shared_focus = {
 		focus = VNH_On_the_land
 	}
 	completion_reward = {
-		#
+		add_political_power = 100
 	}
 }
 
@@ -437,7 +436,7 @@ shared_focus = {
 		focus = VNH_Defenders_of_democracy
 	}
 	completion_reward = {
-		#
+		add_manpower = 1000
 	}
 }
 
@@ -452,7 +451,7 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-		#
+		add_war_support = 0.07
 	}
 }
 
@@ -467,7 +466,7 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-		#
+		add_mapower = 500
 	}
 }
 
@@ -482,7 +481,7 @@ shared_focus = {
 		focus = VNH_In_the_sky
 	}
 	completion_reward = {
-		#
+		add_manpower = 300
 	}
 }
 
@@ -504,7 +503,8 @@ shared_focus = {
 		focus = VNH_New_ages_new_planes
 	}
 	completion_reward = {
-		#
+		add_war_support = 0.10
+		add_political_power = -200
 	}
 }
 
@@ -559,5 +559,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	 add_stability = 0.2
+	 add_manpower = 2500
+	 add_war_support = 0.15
 	}
 }
