@@ -231,6 +231,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Boris Pugo"
+	desc = "POLITICS_ANDREY_FEDOSYUTKIN_DESC"
+	picture = "Portrait_Oryol_Boris_Pugo.dds"
+	expire = "1983.4.24"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
 ### Generals ###
 create_field_marshal = {
 	name = "Dmitry Lavrinenko"
@@ -290,6 +301,30 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 1
 	id = 15017
+}
+
+create_corps_commander = {
+	name = "Zahar Slyusarenko"
+	picture = "Portrait_Oryol_Zahar_Slyusarenko.dds"
+	traits = { war_hero }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	id = 15018
+}
+
+create_corps_commander = {
+	name = "David Dragunskiy"
+	picture = "Portrait_Oryol_David_Dragunskiy.dds"
+	traits = { war_hero }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	id = 15019
 }
 
 set_popularities = {
