@@ -193,21 +193,20 @@
  MCW_status_of_moskowien:0 "Status of Moskowien"
  MCW_status_of_moskowien_desc:0 "Moskowien is the jewel in the crown for Adolf Hitler's Empire. However it is a jewel with many cracks. One crack is disloyal SS divisions under general Globotshnigg, another is the resistant Russian population, who look to various figures of their own people for hope. There is also the bandits. The never-ending wave of bandits from the eastern anarchy. The Reich's jewel is poised to shatter, and Reichskommissar Kasche only looks on. If serious changes are not made, if decisive actions are not taken, the jewel of the German crown shall cease to be, and may never be again."
 
-
  MCW_ostvolk_council:0 "The Ostvolk Council"
- MCW_ostvolk_council_desc:0 "This is the council, lead by Gorbachev, he's pretty cool."
+ MCW_ostvolk_council_desc:0 "Moskowien is not ran on the will of a single man, unlike other Reichskommissariats. Here we have gathered many influential figures, German and Russian, under a single organization to make the running of our territory be as successful as possible. That is how the council is portrayed, the reality behind closed doors however, is that of constant shouting matches and unlikely alliances, constant gridlocks and endless petty disputes. SS, Heer, Industrialists and Collaborators use the Ostvolk to jockey for power, some directly and some betting on the right horse."
 
  MCW_not_united:0 "...Not United"
- MCW_not_united_desc:0 "and we all hate each other."
+ MCW_not_united_desc:0 "The Ostvolk council was formed to provide a form of stable and pragmatic rule that would ensure German hegemony over her greatest conquest, while making sure that the Russians had just enough representation to align themselves with German interests,and view collaboration as preferable to revolt.  In reality, our colony teeters on collapse.  The Ostvolk council is split right down the middle between Germans and Russians, and even within these groups, there is more division still. The industrialists, Volksdeutsch, closeted Himmlerites, and the NSDAP leadership all have conflicting interests and tensions threaten to boil over beyond repair at any moment."
 
  MCW_not_representative:0 "...Not Representative"
- MCW_not_representative_desc:0 "The Council sucks are being Represenating us."
+ MCW_not_representative_desc:0 "When forming the Ostvolk council, the idea behind it was to form a forum where different factions may input their own ideas on how to rule. But the groups and individuals plucked from the rest that were bestowed the honor to advise were picked from up above, those doing the picking did not much see or care about how deep the roots of those individuals actually ran. Unfortunately for the people of Moskowien, the Ostvolk council breeds cynical and pragmatic politicians who don't even have to pretend to act in the interests of the common man. It is, after all, easier to please ten capitalists than it is a thousand workers."
 
  MCW_not_serving_interests:0 "..Not Serving Our Interests"
- MCW_not_serving_interests_desc:0 "And they are not serving our intreset to Germanify!"
+ MCW_not_serving_interests_desc:0 "When you're in politics for a long time you find out the doors that lock power are not opened by serving the will of the people loyally and faithfully but in serving a select few interest groups who sway the others like sheep. Those hidden behind the doors of the council plot and scheme, some may even think they work for the greater good or grand ambitions but they are far removed from the peasant and colonist and their pains. What is a politician but a man who is willing to break a few for a better tomorrow only he can see?"
 
  MCW_sit_down_with_industrialists:0 "Sit Down with the Industrialists"
- MCW_sit_down_with_industrialists_desc:0 "Let's just talk and come to a compramise"
+ MCW_sit_down_with_industrialists_desc:0 "Both the Reichskommissariat's Army and its Economy are in desperate need of reform and improvement. Mikhail Gorbachev, the young and influential representative of Russian industrialists in Moskowien, has indicated that he is open to negotiations and cooperation on the improvement of our industrial development. We have two routes we could take. Firstly, we could go for a short term solution, increasing arms production to refill our stockpiles.  However, a program of long-term industrial regional development, beginning with the Russian-backed construction of light industry, could greatly improve our economic situation with time.  "
 
  MCW_convening_the_council:0 "Convene the Council of '62"
 
@@ -274,10 +273,10 @@
 
 
  MCW_dealing_with_poor_infrastructure:0 "Dealing with Poor Infrastructure"
- MCW_dealing_with_poor_infrastructure_desc:0 "Man this infrastructure sucks, let's fix it."
+ MCW_dealing_with_poor_infrastructure_desc:0 "The old Soviet infrastructure of the Moskowien area was already poor by German standards. Add on top of that decades of war, partisan activity and lethargic leadership and what you have left are roads and railways broken, unrepaired and dangerous to use. For effective military control and for any potential economic development, we must first address the issues of infrastructure."
 
  MCW_russian_representatives_favored:0 "Russian Delegation Favored"
- MCW_russian_representatives_favored_desc:0 "Russian delegation has been favored."
+ MCW_russian_representatives_favored_desc:0 "The politics of the Ostvolk Council are treacherous, and at least on paper, should heavily empower German control over Moskowien. However, much to the chagrin of the German factions of the Council, the Russian delegation has gained near-complete control over the Council's affairs. Finally unimpeded, they have been able to pass a series of sweeping reforms to improve the economic situation of the Reichskommissariat and the living conditions of the Slavs. The days of Generalplan Ost seemingly drift further and further from memory..."
 
  MCW_an_equal_comprimise:0 "An 'Equal' Comprimise"
  MCW_an_equal_comprimise_desc:0 "Give them the illusion it's equal."
