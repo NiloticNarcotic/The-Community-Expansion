@@ -104,13 +104,31 @@
  MCW_representative_council:0 "Representative Council"
  MCW_representative_council_desc:0 ""
 
- MCW_russian_partisans:0 "§eUnchecked Partisan Havoc!§!"
- MCW_russian_partisans_desc:0 ""
+ MCW_russian_partisans_pre:0 "§wMild Partisan Activity§!"
+ MCW_russian_partisans_pre_desc:0 ""
+
+ MCW_russian_partisans_mid:0 "§OHeavy Partisan Activity§!"
+ MCW_russian_partisans_mid_desc:0 ""
+
+ MCW_russian_partisans_final:0 "§eUnchecked Partisan Havoc!§!"
+ MCW_russian_partisans_final_desc:0 ""
+
+ MCW_poor_railnetworks:0 "Poor Railnetworks"
+ MCW_poor_railnetworks_desc:0 ""
+
+ MCW_poor_railnetworks_semifixed:0 "Improving Railnetworks"
+ MCW_poor_railnetworks_semifixed_desc:0 ""
 
  MCW_german_power_deficit:0 "Ostvolk Council: §eUnruly Russian Minority§!"
  MCW_german_power_deficit_desc:0 ""
 
  MCW_subordinate_council:0 "Ostvolk Council: §KSubordinate§!"
+
+ MCW_subvert_germany_timed:0 "Subvert German Influence"
+ MCW_subvert_germany_timed_desc:0 ""
+
+ MCW_russian_institute_for_common_labor:0 "Russian Institute for Common Labor"
+ MCW_russian_institute_for_common_labor_desc:0 ""
 
  MCW_unified_ostvolk_council:0 "Unified Ostvolk Council"
  MCW_unified_ostvolk_council_desc:0 "Unlike other Reichskommissariats, Moskowien's unique situation had lead to the establishment of cooperative body. The Ostvolk Council consists of both settlers and natives, working together to maintain the Reichskommissariat. Although the Council is somewhat unified, the body's primary purpose is the skillful and balanced appeasement of both ethnic groups."
@@ -173,214 +191,371 @@
  
  ## Tree ##
  MCW_status_of_moskowien:0 "Status of Moskowien"
- MCW_status_of_moskowien_desc:0 ""
+ MCW_status_of_moskowien_desc:0 "Moskowien is the jewel in the crown for Adolf Hitler's Empire. However it is a jewel with many cracks. One crack is disloyal SS divisions under general Globotshnigg, another is the resistant Russian population, who look to various figures of their own people for hope. There is also the bandits. The never-ending wave of bandits from the eastern anarchy. The Reich's jewel is poised to shatter, and Reichskommissar Kasche only looks on. If serious changes are not made, if decisive actions are not taken, the jewel of the German crown shall cease to be, and may never be again."
 
  MCW_ostvolk_council:0 "The Ostvolk Council"
- MCW_ostvolk_council_desc:0 ""
+ MCW_ostvolk_council_desc:0 "Moskowien is not ran on the will of a single man, unlike other Reichskommissariats. Here we have gathered many influential figures, German and Russian, under a single organization to make the running of our territory be as successful as possible. That is how the council is portrayed, the reality behind closed doors however, is that of constant shouting matches and unlikely alliances, constant gridlocks and endless petty disputes. SS, Heer, Industrialists and Collaborators use the Ostvolk to jockey for power, some directly and some betting on the right horse."
 
  MCW_not_united:0 "...Not United"
- MCW_not_united_desc:0 ""
+ MCW_not_united_desc:0 "The Ostvolk council was formed to provide a form of stable and pragmatic rule that would ensure German hegemony over her greatest conquest, while making sure that the Russians had just enough representation to align themselves with German interests,and view collaboration as preferable to revolt.  In reality, our colony teeters on collapse.  The Ostvolk council is split right down the middle between Germans and Russians, and even within these groups, there is more division still. The industrialists, Volksdeutsch, closeted Himmlerites, and the NSDAP leadership all have conflicting interests and tensions threaten to boil over beyond repair at any moment."
 
  MCW_not_representative:0 "...Not Representative"
- MCW_not_representative_desc:0 ""
+ MCW_not_representative_desc:0 "When forming the Ostvolk council, the idea behind it was to form a forum where different factions may input their own ideas on how to rule. But the groups and individuals plucked from the rest that were bestowed the honor to advise were picked from up above, those doing the picking did not much see or care about how deep the roots of those individuals actually ran. Unfortunately for the people of Moskowien, the Ostvolk council breeds cynical and pragmatic politicians who don't even have to pretend to act in the interests of the common man. It is, after all, easier to please ten capitalists than it is a thousand workers."
 
  MCW_not_serving_interests:0 "..Not Serving Our Interests"
- MCW_not_serving_interests_desc:0 ""
+ MCW_not_serving_interests_desc:0 "When you're in politics for a long time you find out the doors that lock power are not opened by serving the will of the people loyally and faithfully but in serving a select few interest groups who sway the others like sheep. Those hidden behind the doors of the council plot and scheme, some may even think they work for the greater good or grand ambitions but they are far removed from the peasant and colonist and their pains. What is a politician but a man who is willing to break a few for a better tomorrow only he can see?"
 
  MCW_sit_down_with_industrialists:0 "Sit Down with the Industrialists"
- MCW_sit_down_with_industrialists_desc:0 ""
+ MCW_sit_down_with_industrialists_desc:0 "Both the Reichskommissariat's Army and its Economy are in desperate need of reform and improvement. Mikhail Gorbachev, the young and influential representative of Russian industrialists in Moskowien, has indicated that he is open to negotiations and cooperation on the improvement of our industrial development. We have two routes we could take. Firstly, we could go for a short term solution, increasing arms production to refill our stockpiles.  However, a program of long-term industrial regional development, beginning with the Russian-backed construction of light industry, could greatly improve our economic situation with time.  "
 
  MCW_convening_the_council:0 "Convene the Council of '62"
- MCW_convening_the_council_desc:0 ""
+
+ MCW_convening_the_council_desc:0 "The Reichskommissariat Moskowien is plagued with many problems, ranging from the few, isolated, really not even worthy of mention partisans to economic woes. These issues cannot be handled by the immediate council alone, so we have elected to convene the Council to bring forth all those loyal to the idea of Moskowien and hear all ideas of how to make Moskowien a shining jewel. It is after all said that two heads are better than one."
+
+ MCW_convening_the_council_desc:0 "Well the council shall be meeting soon."
 
  MCW_root_out_sympathisers:0 "Root out Partisan Sympathisers"
- MCW_root_out_sympathisers_desc:0 ""
+ MCW_root_out_sympathisers_desc:0 "all who resist us shall be removed... Harshly."
 
  MCW_the_next_move:0 "Our Next Move.."
- MCW_the_next_move_desc:0 ""
+
+ MCW_the_next_move_desc:0 "There is not a shadow of a doubt that this resistance is organised. It's typical that the partisans would bundle together in fear. Yes, it is quite obvious that a ringleader is amongst those who we hunt. Total extermination of our foe is pivotal, but we cannot hope to achieve this if we do not attempt to capture and draw information from our disloyal subjects. Whether we must use intimidation, promises of reward, or other means to convince the populace to sell our their "liberators", something must be done in order to find the slimy rat behind this all... question is, what should our next step be...?"
 
  MCW_forever_more:0 "Standing Guard Forevermore"
- MCW_forever_more_desc:0 ""
+ MCW_forever_more_desc:0 "When one dreams of a truly Germanic Europe, we cannot let rot fester beneath the foundations. Ever since the Werhmacht encased what is now Moskowien under it's grasp, resistance has been rife. How shall we protect our righteous interests when even in the most miniscule manners, every native seems to resist their fate? It's more than simple. They will see those who dare stand against us hang from lamp posts, bleeding in rows in the fields of wheat of which they slave for us in, hunted down like wild game by our men, and systematically rooted out, without regret or remorse. Their land belongs to us now. We must remind them of this, and we must not delay any longer. They will be pacified, whether they like it or not."
+
+ MCW_the_next_move_desc:0 "And now our next move is to make sure this crappy RK doesn't die."
+
+ MCW_forever_more:0 "Standing Guard Forevermore"
+ MCW_forever_more_desc:0 "We stand guard for the Fuhere"
 
  MCW_kasche_rehabilitation:0 "Rehabilitating Kasche"
- MCW_kasche_rehabilitation_desc:0 ""
+ MCW_kasche_rehabilitation_desc:0 "Kasche might be a monster, but he atleast isn't Himmler"
 
  MCW_german_interests_maintained:0 "German Interests Guarded"
- MCW_german_interests_maintained_desc:0 ""
+ MCW_german_interests_maintained_desc:0 "Our intrests shall always be to increass the German might!"
 
  MCW_draft_aktion_z:0 "Draft "Aktion Z""
- MCW_draft_aktion_z_desc:0 ""
+
+ MCW_draft_aktion_z_desc:0 "Despite Moskowien's German garrisons being some of the most experienced in the Reich due to their constant state of perpetual partisan warfare from neighbouring warlords and natives, experience alone cannot support an army if they have nothing but sticks and stones to defend against aggression with. Aktion Z plans to siphon small amounts of infantry equipment from across the Reich's stockpile and demobilize small amounts of inactive regional troops to make up for the lack of armaments in the east. Wish this plan, German garrisons across Moskowien will be much more capable of suppressing the subhuman partisans that plague the frontier, and secure the borders of our Realm!"
 
  MCW_millenium_reich:0 "The Millenium Reich"
- MCW_millenium_reich_desc:0 ""
+ MCW_millenium_reich_desc:0 "It was not unexpected we would succeed. The Aryan mans spirit is above all others, and the Aryan spirit, embodied in our grand Reichkommissar Kasche, with his infinite wisdom and flawless leadership, has guided our frontier, with him our new home of the German man has triumphed where others would have failed! Not even the Russians themselves have created something as magnificent as we have. We have brought peace, stability and prosperity for our settlers. This, is a testament to the Thousand Year Reich all this effort is for, without our home, we would be nothing. Without Hitler, we would be nothing, without Kasche, we would be nothing, and without the Reich, there would be no new Germany. Hail to our new home, for a thousand years and beyond!"
 
  MCW_the_blue_book:0 "The 'Blue Book'"
- MCW_the_blue_book_desc:0 ""
+ MCW_the_blue_book_desc:0 "The SS divisions stationed in Moskowien may, like the wretched partisans, have a mind of their own, but it is a mind infused with a similar loathing of these sub-humans that we have. Men of the SS are always more than happy to hunt down the enemies of national socialism. Unleashing Globotshnigg and his men against the partisans could prove a boon to our efforts to stabilize this ailing colony."
 
  MCW_dealing_with_partisans:0 "Dealing with the Partisans"
- MCW_dealing_with_partisans_desc:0 ""
+ MCW_dealing_with_partisans_desc:0 "Before any real work can begin, we must rid ourselves of those who wish to harm. Those who steal precious harvests from hard working men and women of Moscowien. Those who sabotage our railways and our roads. Those of which make us scared to leave the cities and those of us who make crowds threats. Their work has no noble goal, they are locusts who plague our fair land and stop us from enjoying the land's fruits in peace."
 
  MCW_ruthless_extermination:0 "Ruthless Extermination"
- MCW_ruthless_extermination_desc:0 ""
+ MCW_ruthless_extermination_desc:0 "There is only one way to flush out rats, by burning the holes in which they sleep and fester. We can no longer hold back, we've given opportunity after opportunity and our benevolent hands have been bitten one too many times. There are no longer innocents in the countryside, only traitors. We shall flush them out by setting fire to their homes and we shall burn the fields so they have nothing to eat. If they wish to fight like rats, we will offer them a death befitting of rats."
 
  MCW_mouse_in_cat_trap:0 "Laying the Mousetrap"
- MCW_mouse_in_cat_trap_desc:0 ""
+ MCW_mouse_in_cat_trap_desc:0 "Our idea to set fire to the rat's nest was calculated, you see now we know what they will do next; they will attack. For years we have suffered from bites caused by the rabbid infestation that are the partisans, making us weak. That ends today. We will make for the rats a piece of cheese they could never resist. Something for which their bloodthirsty eyes have been seeking for years. And we shall be there to cut them clean when their heads are poked out too far. We shall rid our beautiful land of pests."
+
+ MCW_draft_aktion_z_desc:0 "Let's draft an action"
+
+ MCW_millenium_reich:0 "The Millenium Reich"
+ MCW_millenium_reich_desc:0 "Like the fuhere said, WE SHALL LAST A MILLENIUM!!!!!!!!!!"
+
+ MCW_the_blue_book:0 "The 'Blue Book'"
+ MCW_the_blue_book_desc:0 "Hey this kinda sounds familiar"
+
+ MCW_dealing_with_partisans:0 "Dealing with the Partisans"
+ MCW_dealing_with_partisans_desc:0 "This job sucks."
+
+ MCW_ruthless_extermination:0 "Ruthless Extermination"
+ MCW_ruthless_extermination_desc:0 "If we spread fear then maybe we can survive for 20 more years."
+
+ MCW_mouse_in_cat_trap:0 "Laying the Mousetrap"
+ MCW_mouse_in_cat_trap_desc:0 "lets trap em resistors."
+
 
  MCW_dealing_with_poor_infrastructure:0 "Dealing with Poor Infrastructure"
- MCW_dealing_with_poor_infrastructure_desc:0 ""
+ MCW_dealing_with_poor_infrastructure_desc:0 "The old Soviet infrastructure of the Moskowien area was already poor by German standards. Add on top of that decades of war, partisan activity and lethargic leadership and what you have left are roads and railways broken, unrepaired and dangerous to use. For effective military control and for any potential economic development, we must first address the issues of infrastructure."
 
  MCW_russian_representatives_favored:0 "Russian Delegation Favored"
- MCW_russian_representatives_favored_desc:0 ""
+ MCW_russian_representatives_favored_desc:0 "The politics of the Ostvolk Council are treacherous, and at least on paper, should heavily empower German control over Moskowien. However, much to the chagrin of the German factions of the Council, the Russian delegation has gained near-complete control over the Council's affairs. Finally unimpeded, they have been able to pass a series of sweeping reforms to improve the economic situation of the Reichskommissariat and the living conditions of the Slavs. The days of Generalplan Ost seemingly drift further and further from memory..."
 
  MCW_an_equal_comprimise:0 "An 'Equal' Comprimise"
- MCW_an_equal_comprimise_desc:0 ""
+ MCW_an_equal_comprimise_desc:0 "Give them the illusion it's equal."
 
  MCW_uncertain_development:0 "Uncertain Developments"
- MCW_uncertain_development_desc:0 ""
+
+ MCW_uncertain_development_desc:0 "Moskowien has been lulled into helplessness! We have only begun to start our work yet seemingly everybody around us scream like children that we have gone too far. Our early wage suggestions have been soundly rejected by most industrialists, our demands of early talks of reforms have been shouted down as radical. Everybody in Moskowien has suddenly developed precognition and all see their own impending doom. We've rocked the boat too much and awoken fears, old and new."
+
+ MCW_uncertain_development_desc:0 "Why are we still here? Just to suffer?"
 
  MCW_industrial_overtures:0 "Industrial Overtures"
- MCW_industrial_overtures_desc:0 ""
+ MCW_industrial_overtures_desc:0 "I guess Industry can get better."
 
  MCW_a_balanced_budget:0 "A Balanced Budget"
- MCW_a_balanced_budget_desc:0 ""
+ MCW_a_balanced_budget_desc:0 "Their we go, maybe we won't have to beg the Fatherland for more money every year."
 
  MCW_rejuvinating_lost_heartlands:0 "Rejuvinating the Lost Heartlands"
- MCW_rejuvinating_lost_heartlands_desc:0 ""
+ MCW_rejuvinating_lost_heartlands_desc:0 "Let us Rejuvinate the lost Heartlands."
 
  MCW_clearing_roads_for_use:0 "Clearing the Roads for Use"
- MCW_clearing_roads_for_use_desc:0 ""
+ MCW_clearing_roads_for_use_desc:0 "We need to use the Roads to get around, so make way."
 
  MCW_steady_repair:0 "A Steady Approach"
- MCW_steady_repair_desc:0 ""
+ MCW_steady_repair_desc:0 "keep it steady"
 
  MCW_satisfactory_industrialization:0 "Satisfactory Industrialization"
- MCW_satisfactory_industrialization_desc:0 ""
+ MCW_satisfactory_industrialization_desc:0 "Well things are looking up"
 
  MCW_aggressive_expansion:0 "Aggressive Industrial Expansion"
- MCW_aggressive_expansion_desc:0 ""
+ MCW_aggressive_expansion_desc:0 "We don't even pay the laborors lol."
 
  MCW_acceptable_results:0 "Acceptable Results"
- MCW_acceptable_results_desc:0 ""
+ MCW_acceptable_results_desc:0 "Well atleast it's better then last year."
 
  MCW_new_research_divisions:0 "New R&D Divisions"
- MCW_new_research_divisions_desc:0 ""
+ MCW_new_research_divisions_desc:0 "Welcome noobies."
 
  MCW_joint_air_ground_training_scheme:0 "Joint Air-Ground Training Schemes"
- MCW_joint_air_ground_training_scheme_desc:0 ""
+ MCW_joint_air_ground_training_scheme_desc:0 "Cool more training in case the commies come back."
 
  MCW_ailing_railnetworks:0 "Our Ailing Railnetworks"
- MCW_ailing_railnetworks_desc:0 ""
+ MCW_ailing_railnetworks_desc:0 "Railways are cool"
 
  MCW_trans_moskowien_railway:0 "The Trans-Moskowien Railway"
- MCW_trans_moskowien_railway_desc:0 ""
+ MCW_trans_moskowien_railway_desc:0 "Hey this sounds similar to something."
 
  MCW_annual_budget_report:0 "Annual Budget Report"
- MCW_annual_budget_report_desc:0 ""
+ MCW_annual_budget_report_desc:0 "Hold your breathes!"
 
  MCW_civilization_on_the_brink:0 "Civilization on the Edge"
- MCW_civilization_on_the_brink_desc:0 ""
+ MCW_civilization_on_the_brink_desc:0 "This job really sucks, and civilzation is weird."
 
  MCW_the_reich_guard:0 "The Guards of the Reich"
- MCW_the_reich_guard_desc:0 ""
+ MCW_the_reich_guard_desc:0 "We stand guard and ready for the Russian Menace."
 
  MCW_contacts_in_the_heer:0 "Contacts in the Heer"
- MCW_contacts_in_the_heer_desc:0 ""
+ MCW_contacts_in_the_heer_desc:0 "Cool new contracts"
 
  MCW_the_secret_deployment:0 "The Secret Deployment"
- MCW_the_secret_deployment_desc:0 ""
+ MCW_the_secret_deployment_desc:0 "More troops but in secret"
 
  MCW_lock_down_the_capital:0 "Lock Down the Capital"
- MCW_lock_down_the_capital_desc:0 ""
+ MCW_lock_down_the_capital_desc:0 "Lol we are gonna troll some people."
 
  MCW_accuse_the_bureaucrats:0 "Accuse the Bureaucrats"
- MCW_accuse_the_bureaucrats_desc:0 ""
+ MCW_accuse_the_bureaucrats_desc:0 "They are the reason this place sucks."
 
  MCW_awaiting_ragnarok:0 "Awaiting Ragnarok"
- MCW_awaiting_ragnarok_desc:0 ""
+ MCW_awaiting_ragnarok_desc:0 "I'm waiting!"
 
  MCW_power_to_the_bureaucrats:0 "Power to the Bureaucrats"
- MCW_power_to_the_bureaucrats_desc:0 ""
+ MCW_power_to_the_bureaucrats_desc:0 "Damn more power for fat cats."
 
  MCW_joint_german_commission:0 "The Joint Russian-German Commission"
- MCW_joint_german_commission_desc:0 ""
+ MCW_joint_german_commission_desc:0 "Maybe we can be freinds?"
 
  MCW_the_eastern_wage_council:0 "The "Eastern Wage Council""
- MCW_the_eastern_wage_council_desc:0 ""
+ MCW_the_eastern_wage_council_desc:0 "Maybe we can make people hate us less?"
 
  MCW_terror_bombing_in_brauchitschstadt:0 "§eTerror Bombing in Brauchitschstadt!§!"
- MCW_terror_bombing_in_brauchitschstadt_desc:0 ""
+ MCW_terror_bombing_in_brauchitschstadt_desc:0 "That's not very cash money"
 
  MCW_swift_reprisals_across_countryside:0 "Give Swift Reprisals!"
- MCW_swift_reprisals_across_countryside_desc:0 ""
+ MCW_swift_reprisals_across_countryside_desc:0 "We are quick!"
 
  MCW_a_brokered_comprimise:0 "Broker a Comprimise"
- MCW_a_brokered_comprimise_desc:0 ""
+ MCW_a_brokered_comprimise_desc:0 "Maybe we can make a deal?"
 
  MCW_line_to_germania:0 "Non-Stop Line to Germania"
- MCW_line_to_germania_desc:0 ""
+ MCW_line_to_germania_desc:0 "More resources to the Fatherland means more money for us!"
 
  MCW_assure_our_loyalty:0 "Assure our Loyalty"
- MCW_assure_our_loyalty_desc:0 ""
+ MCW_assure_our_loyalty_desc:0 "We are loyal to the fatherland."
 
  MCW_aktion_wagen_six:0 ""Aktion Wagen Sechs""
- MCW_aktion_wagen_six_desc:0 ""
+ MCW_aktion_wagen_six_desc:0 "C'mon dude."
 
  MCW_seize_the_perpetrators:0 "Seize the Perpetrators"
- MCW_seize_the_perpetrators_desc:0 ""
+ MCW_seize_the_perpetrators_desc:0 "SEIZE THEM!!!!!"
 
  MCW_give_the_order_when_ready:0 "Give the Order When Ready"
- MCW_give_the_order_when_ready_desc:0 ""
+ MCW_give_the_order_when_ready_desc:0 "We shall give the orders when we are ready."
 
  MCW_stufe_eins:0 "Stufe Eins"
- MCW_stufe_eins_desc:0 ""
+ MCW_stufe_eins_desc:0 "Ja?"
 
  MCW_hold_special_conference:0 "The Holmgard Conference"
- MCW_hold_special_conference_desc:0 ""
+ MCW_hold_special_conference_desc:0 "I love confrences"
 
  MCW_hiwi_men_at_every_corner:0 "Hiwi Men in Every City"
- MCW_hiwi_men_at_every_corner_desc:0 ""
+ MCW_hiwi_men_at_every_corner_desc:0 "Men in every city."
 
  MCW_enlist_auxilliaries:0 "Enlist Russian Auxilliaries"
- MCW_enlist_auxilliaries_desc:0 ""
+ MCW_enlist_auxilliaries_desc:0 "Maybe they could come to some use"
 
  MCW_stufe_zwei:0 "Stufe Zwei"
- MCW_stufe_zwei_desc:0 ""
+ MCW_stufe_zwei_desc:0 "huh?"
 
  MCW_aktion_gelb:0 "Aktion "Gelb""
- MCW_aktion_gelb_desc:0 ""
+ MCW_aktion_gelb_desc:0 "Get em"
 
  MCW_clandestine_assasination:0 "Clandestine Assasinations"
- MCW_clandestine_assasination_desc:0 ""
+ MCW_clandestine_assasination_desc:0 "Assasinations now happen everyday"
 
  MCW_sabotage_reich_ministries:0 "Sabotage Reich Ministries"
- MCW_sabotage_reich_ministries_desc:0 ""
+ MCW_sabotage_reich_ministries_desc:0 "Let's make them look bad"
 
  MCW_stufe_drei:0 "Stufe Drei"
- MCW_stufe_drei_desc:0 ""
+ MCW_stufe_drei_desc:0 "Lets go"
 
  MCW_stage_terror_bombing_in_brauchitschstadt:0 "Stage Incident in Brauchitschstadt"
- MCW_stage_terror_bombing_in_brauchitschstadt_desc:0 ""
+ MCW_stage_terror_bombing_in_brauchitschstadt_desc:0 "another incident, oh no!"
 
  MCW_deploy_agents_to_moskau:0 "Deploy Agents to Moskau"
- MCW_deploy_agents_to_moskau_desc:0 ""
+ MCW_deploy_agents_to_moskau_desc:0 "Watching and listening."
 
  MCW_stufe_vier:0 "Stufe Vier"
- MCW_stufe_vier_desc:0 ""
+ MCW_stufe_vier_desc:0 "Stufe that, stufe this!"
 
  MCW_resource_relocation:0 "Resource Relocation"
- MCW_resource_relocation_desc:0 ""
+ MCW_resource_relocation_desc:0 "This is ours! Not theirs!"
 
  MCW_military_requisitions:0 "Military Requisitions"
- MCW_military_requisitions_desc:0 ""
+ MCW_military_requisitions_desc:0 "We need the army"
 
  MCW_industrial_evacuation:0 "Industrial Evacuation"
- MCW_industrial_evacuation_desc:0 ""
+ MCW_industrial_evacuation_desc:0 "guess we must evacuate"
 
  MCW_finish_command_relocation:0 "Finish Command Relocation"
- MCW_finish_command_relocation_desc:0 ""
+ MCW_finish_command_relocation_desc:0 "Ok and there, now we are safer."
 
  MCW_stufe_funf:0 "Stufe Fünf"
- MCW_stufe_funf_desc:0 ""
+ MCW_stufe_funf_desc:0 "stufe something"
+
+ MCW_status_of_the_russian_delegation:0 "Status of the Russian Delegation"
+ MCW_status_of_the_russian_delegation_desc:0 "How's it going?"
+
+ MCW_two_sides_of_the_coin:0 "Two Sides of the Coin..."
+ MCW_two_sides_of_the_coin_desc:0 "We are either monsters, or sorta nicer Monsters, you decide."
+
+ MCW_the_pragmatic_collaborator:0 "The Collaborator"
+ MCW_the_pragmatic_collaborator_desc:0 "Collaborate or die"
+
+ MCW_direct_economic_legislature:0 "Direct Economic Legislature"
+ MCW_direct_economic_legislature_desc:0 "We control the economy"
+
+ MCW_prioritise_russian_regional_development:0 "Prioritise Russian Land Development"
+ MCW_prioritise_russian_regional_development_desc:0 "Make it better"
+
+ MCW_office_for_cultural_enrichment:0 "The "Office for Cultural Enrichment""
+ MCW_office_for_cultural_enrichment_desc:0 "Make better culture!"
+
+ MCW_offer_they_cant_refuse:0 "An Offer they can't Refuse"
+ MCW_offer_they_cant_refuse_desc:0 "Or if they do, well they'll just die"
+
+ MCW_partisan_negotiations:0 "Partisan Negotiations"
+ MCW_partisan_negotiations_desc:0 "We can negotiate, and maybe things will get better"
+
+ MCW_the_final_agreement:0 "The Final Agreement"
+ MCW_the_final_agreement_desc:0 "Ok maybe life will get better"
+
+ MCW_quid_pro_quo_investigations:0 "Quid Pro Quo Investigations"
+ MCW_quid_pro_quo_investigations_desc:0 "Investiage this please"
+
+ MCW_enticing_offers_from_the_shutzstaffel:0 "Enticing Offers from the Shutzstaffel"
+ MCW_enticing_offers_from_the_shutzstaffel_desc:0 "Lets entice them"
+
+ MCW_the_idealistic_subverter:0 "The Liberator"
+ MCW_the_idealistic_subverter_desc:0 "Maybe life can be better here?"
+
+ MCW_pragmatic_racial_policies:0 "Pragmatic Racial Policies"
+ MCW_pragmatic_racial_policies_desc:0 "No russians allowed here."
+
+ MCW_subvert_german_influence:0 "Subvert German Influence"
+ MCW_subvert_german_influence_desc:0 "No German influence please"
+
+ MCW_industrial_buildup:0 "Rural Industrial Buildup"
+ MCW_industrial_buildup_desc:0 "Let's make rural areas less crappy."
+
+ MCW_speak_softly:0 "Speak Softly..."
+ MCW_speak_softly_desc:0 "and carry something big"
+
+ MCW_make_the_rest_disappear:0 "...Make the Rest Disappear"
+ MCW_make_the_rest_disappear_desc:0 "Wanna see a magic trick?"
+
+ MCW_buy_out_voronezh_regional_business:0 "Buy out Voronezh Business"
+ MCW_buy_out_voronezh_regional_business_desc:0 "buy em out"
+
+ MCW_beneath_their_feet:0 "Beneath their Feet"
+ MCW_beneath_their_feet_desc:0 "Beneath em"
+
+ MCW_the_outflanked_center:0 "The Outflanked Center"
+ MCW_the_outflanked_center_desc:0 "Damn we've been outflanked"
+
+ MCW_the_boogeymen:0 "The Boogeymen"
+ MCW_the_boogeymen_desc:0 "Boogey woogie!"
+
+ MCW_kill_them_quietly:0 "Kill them Quietly"
+ MCW_kill_them_quietly_desc:0 "quietly"
+
+ MCW_whispers_in_the_night:0 "Whispers in the Night"
+ MCW_whispers_in_the_night_desc:0 "shh, he's trying to sleep"
+
+ MCW_we_are_here_to_stay:0 "We are Here to Stay!"
+ MCW_we_are_here_to_stay_desc:0 "indeed we are!"
+
+ MCW_escalating_the_tensions:0 "Escalating the Tensions"
+ MCW_escalating_the_tensions_desc:0 "make things worse!"
+
+ MCW_stage_the_incident:0 "Stage the Incident"
+ MCW_stage_the_incident_desc:0 "Now let's get them fighting!"
+
+ MCW_the_old_west:0 "The Old West"
+ MCW_the_old_west_desc:0 "man this place is old"
+
+ MCW_the_last_bastion:0 "The Last Bastion"
+ MCW_the_last_bastion_desc:0 "The last bastion of something"
+
+ MCW_the_hidden_council:0 "The Hidden Council"
+ MCW_the_hidden_council_desc:0 "Hiden council? where?"
+
+ MCW_friends_in_high_places:0 "Friends in High Places"
+ MCW_friends_in_high_places_desc:0 "We got powerful friends"
+
+ MCW_a_few_missing_shipments:0 "A Few Missing Shipments..."
+ MCW_a_few_missing_shipments_desc:0 "where did they go?"
+
+ MCW_a_shared_zeal:0 "A Shared Zeal"
+ MCW_a_shared_zeal_desc:0 "Sharing the zeal of approval"
+
+ MCW_victories_for_the_people:0 "Victories for the People"
+ MCW_victories_for_the_people_desc:0 "The people will be free!"
+
+ MCW_the_porrous_east:0 "The Porrous East"
+ MCW_the_porrous_east_desc:0 "The east kinda sucks"
+
+ MCW_hidden_in_plain_sight:0 "Hidden in Plain Sight"
+ MCW_hidden_in_plain_sight_desc:0 "Dang that's pretty easy"
+
+ MCW_infiltrating_the_echelons_of_power:0 "Infiltrating the Echelons of Power"
+ MCW_infiltrating_the_echelons_of_power_desc:0 "They won't know who hit them!"
+
+ MCW_preparing_the_plan:0 "Preparing the Plan"
+ MCW_preparing_the_plan_desc:0 "Prepare boys!"
+
+ MCW_the_black_brigades:0 "The Black Brigades"
+ MCW_the_black_brigades_desc:0 "They seem scary bro"
+
+ MCW_waging_terror:0 "Waging Terror"
+ MCW_waging_terror_desc:0 "Terror is fun, and totally effective!"
+
+ MCW_the_wheat_from_the_chaff:0 "The Wheat from the Chaff"
+ MCW_the_wheat_from_the_chaff_desc:0 "We need wheat!"
+
+ MCW_russian_institute_for_common_labour:0 "The "Russian Institute for Common Labor""
+ MCW_russian_institute_for_common_labour_desc:0 "Maybe some minnimum wage isn't bad"
+
+ MCW_stage_incidents_near_moskau_barracks:0 "Stage Incidents Near Moskau Barracks"
+ MCW_stage_incidents_near_moskau_barracks_desc:0 "they won't know what will hit them."
 
  MCW_the_councils_in_fighting:0 "The Council's Bickering"
  MCW_the_councils_in_fighting_desc:0 "It is always frustrating to sit in one of these meetings. And it is infuriating to participate in any of them.\n\nThe Germans raised issues, the Russians would shoot these down before raising their own, then those too would be waved away.\n\nKasche has kept everything under the lid, but the pot kept boiling with hatred, selfishness, and ignorance. And very few believed in his ability to help any of them.\n\nLiterally nothing can be done because everything provoked dissent. And Kasche kept his own disgust at this inside of him, reminding himself of the day he would flee to Florida.\n\nAnd on and on, these beasts would continue to try tearing their throats out. He only hoped that would happen when he leaves them on their own. "
@@ -519,8 +694,34 @@
  MCW.11.t:0 "All Dust Settles in Moskowien"
  MCW.11.desc:0 "The Reichskommissariat Moskowien has been restored for a while, and everyone has to admit the progress we've made in those days. In the city, people can safely walk on the streets at midnight, without the need to worry about criminals hiding in the darkness. The factories have recovered from the damage made by the flames of war and terrorism, and are now providing reliable products for the Reich's economy and war machine. And in the countryside, all hideouts of the guerilla forces have been rooted out, and the peasants across our land have learned to serve their new German masters once again. The infrastructures are all repaired, with trucks and trains traveling over them and providing goods for anyone who need them.\n\nBeyond the RK's realm, our success in stabilizing and revitalizing the regime has some further influence. For the natives in the east, the RK Moskowien will serve as a model Reichskommissariat for them. They now have understood that the once invincible German Reich has returned with even greater strength and is capable of efficiently maintaining the peace and prosperity in such a distant place. In the future military campaign of the German Reich, they can expect more collaborators and less resistance they're going to face. And in the end, more assistance out of appreciation can be expected from our generous brothers from Germania who will not forget their dear friends.\n\nNow, let's celebrate for what we've accomplished and what we will accomplish in the future. Moskowien will be an unbreakable stronghold in the eastern territory of the German Reich, a sparkling star for anyone who seeks peace and stability in such a land of misery, a forever flourishing key point in the New Order that the Reich is about to restore. Three cheers for all the achievements we've made!"
  MCW.11.a:0 "At last, after everything we've been through..."
+
+ MCW.15.t:0 "Convening the 1962 Ostvolk Council"
+ MCW.15.d:0 ""
+ MCW.15.a:0 "The Negotiations Continue.."
+ MCW.15.b:0 "Gorbachev Recieves a Call."
+
+ MCW.16.t:0 "Negotiations Continue"
+ MCW.16.d:0 ""
+ MCW.16.a:0 "The Council moves to give the Russian Delegation increased powers."
+
+ MCW.17.t:0 "Mysterious Benefactors"
+ MCW.17.d:0 ""
+ MCW.17.a:0 ""This is an offer I must refuse.""
+ MCW.17.b:0 ""Agreed.""
+
+ MCW.18.t:0 "Sitting Down with the Industrialists"
+ MCW.18.d:0 ""
+ MCW.18.a:0 ""We should apply for a more longterm solution, don't you think?""
+ MCW.18.b:0 ""The security of our existing infrastructure seems more important, isn't it?""
  
- 
+ MCW.19.t:0 "Shifting Tides"
+ MCW.19.d:0 ""
+ MCW.19.a:0 "We are entering a new era."
+
+ MCW.20.t:0 "Making a Decision"
+ MCW.20.d:0 ""
+ MCW.20.a:0 ""Gorbachev and his Industrialist friends will get our economy under control.""
+
  MCW.101.t:0 "Trouble In The Council"
  MCW.101.desc:0 ""
  MCW.101.a:0 ""
@@ -565,12 +766,14 @@
  MCW.111.desc:0 ""
  MCW.111.a:0 "We can finally begin our greatest challenge!"
 
+ 
+
  MCW.112.t:0 "The Disappearance Of Siegfried Kasche"
- MCW.112.desc:0 "Just before Kasche's trial. The man has gone missing, people have no idea where he's went and some speculate he's commited suicide."
+ MCW.112.d:0 "Just before Kasche's trial. The man has gone missing, people have no idea where he's went and some speculate he's commited suicide."
  MCW.112.a:0 "Well that's one way to get out of doing work."
 
  MCW.113.t:0 "A Day of the Council"
- MCW.113.desc:0 "We must begin the transfer immediately," General Reinhold began, "We must bring our people inward and push the Slavic settlements to the border." Before Reinhold was even finished, the Russian members of the council had begun to interrupt.\n\n"You intend to use our people as bait," Gorbachev said in his chipped German. "The Russians would never accept resettlement. You would have to do it at bayonet point."\n\n"Then I will personally lead the first panzer division to whatever hole your failed race are hiding in and force them out," Reinhold snapped back before looking towards Kasche pleadingly. "With the Russians taking the brunt of bandit attacks, Luftwaffe forces will be free to engage the bandits without fear of collateral damage. We will surely be able to better protect-"\n\n"Wolfgang, you're a fool and a bastard!" shouted Lavrinenko, his nearby comrades forcing him down before he managed to get himself killed by talking back to his betters.\n\n"Enough!" Kasche finally interjected, briefly showing a hint of fury as he stared down Lavrinenko. The former Russian commander held the stare before a hushed word from Gorbachev caused him to look away. With that, the fire seemed to go from Kasche yet again, and he settled back into the normal distant and bored expression he wore at the meetings.\n"There will be no population transfer. The Slavs can not be ruled, they'll fight and bite against anyone who tries to lead them. Just look at how they killed one another during the war, just look at the system of governance they aspire to," he sighed as he glanced at the Russian delegation. The Slavs showed anger, but enough self control to remain silent. To the Germans they were nothing but dogs, but at least they were house broken. "I will not be the one to allow this colony to collapse yet again. Send more arms to the settlements on the frontier. Today's session is over."\n\nWith that, Kasche stood up and walked from the room. The council stood at attention as he did so, showing no expression as the man went back to his quarters, where he would spent the rest of his day in silence. As he did almost every day."
+ MCW.113.d:0 "We must begin the transfer immediately," General Reinhold began, "We must bring our people inward and push the Slavic settlements to the border." Before Reinhold was even finished, the Russian members of the council had begun to interrupt.\n\n"You intend to use our people as bait," Gorbachev said in his chipped German. "The Russians would never accept resettlement. You would have to do it at bayonet point."\n\n"Then I will personally lead the first panzer division to whatever hole your failed race are hiding in and force them out," Reinhold snapped back before looking towards Kasche pleadingly. "With the Russians taking the brunt of bandit attacks, Luftwaffe forces will be free to engage the bandits without fear of collateral damage. We will surely be able to better protect-"\n\n"Wolfgang, you're a fool and a bastard!" shouted Lavrinenko, his nearby comrades forcing him down before he managed to get himself killed by talking back to his betters.\n\n"Enough!" Kasche finally interjected, briefly showing a hint of fury as he stared down Lavrinenko. The former Russian commander held the stare before a hushed word from Gorbachev caused him to look away. With that, the fire seemed to go from Kasche yet again, and he settled back into the normal distant and bored expression he wore at the meetings.\n"There will be no population transfer. The Slavs can not be ruled, they'll fight and bite against anyone who tries to lead them. Just look at how they killed one another during the war, just look at the system of governance they aspire to," he sighed as he glanced at the Russian delegation. The Slavs showed anger, but enough self control to remain silent. To the Germans they were nothing but dogs, but at least they were house broken. "I will not be the one to allow this colony to collapse yet again. Send more arms to the settlements on the frontier. Today's session is over."\n\nWith that, Kasche stood up and walked from the room. The council stood at attention as he did so, showing no expression as the man went back to his quarters, where he would spent the rest of his day in silence. As he did almost every day."
  MCW.113.a:0 "Another day, another argument."
 
  MCW.114.t:0 "Decisions in Secret"
@@ -578,48 +781,52 @@
  MCW.114.a:0 "Nobody could seriously entertain this idea, could they?"
  
  MCW.201.t:0 "The SS Cecedes!"
- MCW.201.desc:0 "Following the civil war in Germany, the long traitorous SS has decided to cut all communication lines and have killed all of our garrison!"
+ MCW.201.d:0 "Following the civil war in Germany, the long traitorous SS has decided to cut all communication lines and have killed all of our garrison!"
  MCW.201.a:0 "Traitorous bastards!"
  MCW.201.b:0 "We are doing our job right this time...."
  
  MCW.202.t:0 "The Reds Rebel!"
- MCW.202.desc:0 "With the Reichkomissariat collapsing, the socialists in Smolensk have overthrown the local garrison and have took full control over their provinces.""
+ MCW.202.d:0 "With the Reichkomissariat collapsing, the socialists in Smolensk have overthrown the local garrison and have took full control over their provinces.""
  MCW.202.a:0 "Those bastards don't give up, don't they?"
 
  MCW.203.t:0 "More Partisans!"
- MCW.203.desc:0 "The red partisans weren't the only one. The splinter group that were exiled by the ones in Smolensk have toppled the German administration in Oryol!"
+ MCW.203.d:0 "The red partisans weren't the only one. The splinter group that were exiled by the ones in Smolensk have toppled the German administration in Oryol!"
  MCW.203.a:0 "Everything is falling apart!"
  
  MCW.204.t:0 "The Russian Ostvolk Council's betrayal"
- MCW.204.desc:0 "Alarming news! Gorbachev and his subordinates have evacuated to Voronezh and its surrounding territories and have proclaimed a new Republic."
+ MCW.204.d:0 "Alarming news! Gorbachev and his subordinates have evacuated to Voronezh and its surrounding territories and have proclaimed a new Republic."
  MCW.204.a:0 "Another bunch escapes the sinking ship!"
  MCW.204.b:0 "I'm with the council!"
  
  MCW.205.t:0 "A New Volga"
- MCW.205.desc:0 "Oh god! Helmuth Pannwitz has sent us a message. He says that in order to preserve national socialism, he separated himself from the collapsing administration and raised his own units."
+ MCW.205.d:0 "Oh god! Helmuth Pannwitz has sent us a message. He says that in order to preserve national socialism, he separated himself from the collapsing administration and raised his own units."
  MCW.205.a:0 "There is nothing we can do"
  MCW.205.b:0 "I'm coming, dear Volga!"
  
  MCW.206.t:0 "Yet Another Rebellion"
- MCW.206.desc:0 "From Penza, we have gotten news that a bunch of former red army partisans have cededed with little effort given the situation."
+ MCW.206.d:0 "From Penza, we have gotten news that a bunch of former red army partisans have cededed with little effort given the situation."
  MCW.206.a:0 "We are doomed"
  
  MCW.207.t:0 "The Ultimate Betrayal"
- MCW.207.desc:0 "Looking at the utter collapse of the reichkommissariat, Kaminski and his former collaborators have seized Moscow and declared their independence from us"
+ MCW.207.d:0 "Looking at the utter collapse of the reichkommissariat, Kaminski and his former collaborators have seized Moscow and declared their independence from us"
  MCW.207.a:0 "Traitors, traitors everywhere!"
  
  MCW.208.t:0 "The End"
- MCW.208.desc:0 "The remaining Wehrmact units capable of defending have taken control over the remaining parts of what now is a warlord hellhole"
+ MCW.208.d:0 "The remaining Wehrmact units capable of defending have taken control over the remaining parts of what now is a warlord hellhole"
  MCW.208.a:0 "For Germany! For Bach! For the victory!"
  # Tree Names #
  MCW_german_kaminsky_tree:0 "§gRK. Moskowien German Tree§!"
  MCW_economy_tree_shared:0 "§GRK. Moskowien Economic Tree§!"
  MCW_ss_tree:0 "§IRK. Moskowien Shutzstaffel Tree§!"
  MCW_initial_tree:0 "§fRK. Moskowien Initial Tree§!"
+ MCW_russian_collab_tree:0 "§LRK. Moskowien Russian Collaborationist Tree§!"
+ MCW_russian_partisan_tree:0 "§VRK. Moskowien Partisan Tree§!"
  # Triggers #
  MCW_flag_ss_commission:0 "The §KOstvolk Council§! has commissioned the §lShutzstaffel§! to entirely handle the partisan issue"
  MCW_flag_industrialists_trusted:0 "The §KOstvolk Council§! has put it's faith in the §ORussian Industrialists§! to advance Moskowien industrialization and profitability"
  MCW_council_convened:0 "The Ostvolk Council of 1962 has been convened"
+ MCW_collab_gorby_favoured:0 "Gorbachev and his §ORussian Industrialists§! are favored by Kasche"
  # Custom Effect Tooltips #
  MCW_initial_effect_tooltip_1:0 "We must continue to ensure that the subjects of the Reich can sleep soundly in their beds, §elest the forces of darkness swallow them whole§!."
+ MCW_initial_effect_tooltip_2:0 "The §KOstvolk Council§! will convene in order to decide on how we will deal with the §xcrises§! our administration faces."
  MCW_warning_effect_tooltip_1:0 "§RThis path is not currently available in the current patch, please wait as we will add it in on a later date!§!"
