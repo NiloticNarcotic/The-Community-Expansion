@@ -1,10 +1,89 @@
 ideas = {
 	country = {
+		MCW_russian_partisans_pre = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_russian_partisans_pre"}
 
-		MCW_russian_partisans = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_russian_partisans"}
+			picture = JST_Anti_Partisan_Tactics
 
-			picture = GER_unknown
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				conscription_factor = -0.2
+				army_org_factor = -0.25
+			}
+		}
+		MCW_poor_railnetworks = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_poor_railnetworks"}
+
+			picture = WEST_AFRICA_idea_obliterated_infrastructures
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.08
+				industry_free_repair_factor  = -0.1					
+				industry_repair_factor = -0.1
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		MCW_poor_railnetworks_semifixed = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_poor_railnetworks_semifixed"}
+
+			picture = ARL_breakneck_industrialization
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.03
+				industry_free_repair_factor  = -0.05					
+				industry_repair_factor = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		MCW_russian_partisans_mid = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_russian_partisans_mid"}
+
+			picture = JST_Anti_Partisan_Tactics
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.1
+				production_factory_max_efficiency_factor = -0.15
+				conscription_factor = -0.4
+				army_org_factor = -0.35
+			}
+		}
+		MCW_russian_partisans_final = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_russian_partisans_final"}
+
+			picture = JST_Anti_Partisan_Tactics
 
 			allowed = {
 				always = no
@@ -25,7 +104,7 @@ ideas = {
 		MCW_the_defense_of_moskowien = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MCW_the_defense_of_moskowien" }
 
-			picture = GER_unknown
+			picture = KHA_collective_defense_requirements
 
 			allowed = {
 				always = no
@@ -180,9 +259,9 @@ ideas = {
 		}
 
 		MCW_unrepresentative_council = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unrepresentative_council"}
 
-			picture = MCW_Unified_Ostvolk_Council
+			picture = NIK_agents_in_the_west
 
 			allowed = {
 				always = no
@@ -201,9 +280,9 @@ ideas = {
 		}
 
 		MCW_representative_council = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_representative_council"}
 
-			picture = MCW_Unified_Ostvolk_Council
+			picture = NIK_agents_in_the_west
 
 			allowed = {
 				always = no
@@ -221,9 +300,9 @@ ideas = {
 		}
 
 		MCW_german_power_deficit = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_german_power_deficit"}
 
-			picture = MCW_Unified_Ostvolk_Council
+			picture = NIK_fired_officials
 
 			allowed = {
 				always = no
@@ -240,9 +319,9 @@ ideas = {
 		}
 
 		MCW_subordinate_council = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_subordinate_council"}
 
-			picture = MCW_Unified_Ostvolk_Council
+			picture = OST_Prussian_Values
 
 			allowed = {
 				always = no
@@ -257,11 +336,50 @@ ideas = {
 				political_power_gain = 0.25
 			}
 		}
+		MCW_subvert_germany_timed = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_subvert_germany_timed"}
+
+			picture = OST_Prussian_Values
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				fascism_drift = 0.01
+				despotism_drift = 0.01
+				political_power_gain = -0.25
+			}
+		}
+		MCW_russian_institute_for_common_labor = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_subvert_germany_timed"}
+
+			picture = OST_Prussian_Values
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.15
+				production_oil_factor = 0.25
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.10
+			}
+		}
 
 		MCW_stagnant_ostvolk_council = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_unified_ostvolk_council"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCW_stagnant_ostvolk_council"}
 
-			picture = GER_unknown
+			picture = MCW_Unified_Ostvolk_Council
 
 			allowed = {
 				always = no

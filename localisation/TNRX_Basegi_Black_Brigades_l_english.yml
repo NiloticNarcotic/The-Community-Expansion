@@ -561,152 +561,152 @@
  blackbrigades.1.a:0 "Might is Right"
  
  blackbrigades.2.t:0 "Learn by Experience"
- blackbrigades.2.desc:0 "This is an event for focus: 'Learn by Experience'"
- blackbrigades.2.a:0 "x"
+ blackbrigades.2.desc:0 "We become better as a result of learing from experience."
+ blackbrigades.2.a:0 "Practice makes perfect"
  
  blackbrigades.3.t:0 "On the streets of Pokrovsk"
- blackbrigades.3.desc:0 "This is an event for focus: 'Recruits in Pokrovsk'"
+ blackbrigades.3.desc:0 "Pokrovsk is ripe with the oppurtunity of recruting new men into our ranks."
  blackbrigades.3.a:0 "Pokrovsk, Not Kosakenstadt!"
  
  blackbrigades.4.t:0 "All or Nothing"
- blackbrigades.4.desc:0 "This is an event for focus: 'ALL is ours'"
+ blackbrigades.4.desc:0 "We either go for all or for nothing, all of former Moskowien will be ours."
  blackbrigades.4.a:0 "Freedom fighters to some, Terrorists to many"
  
- blackbrigades.5.t:0 "x"
- blackbrigades.5.desc:0 "This is an event for focus: 'Salt the Wound'"
+ blackbrigades.5.t:0 "Pleasent visit"
+ blackbrigades.5.desc:0 "During our conquest we have to deal with people willing to surrender. Of course keeping prisoners takes up time and resources so who needs these prisoners anyways"
  blackbrigades.5.a:0 ""No Prisoners""
  
- blackbrigades.6.t:0 "x"
- blackbrigades.6.desc:0 "This is an event for focus: 'Show of Strength'"
- blackbrigades.6.a:0 "x"
+ blackbrigades.6.t:0 "Show of Strength"
+ blackbrigades.6.desc:0 "We grow stronger by every passing day and still some belive we are simple bandits... Oh they will see, we are the Blak Brigade!"
+ blackbrigades.6.a:0 "We are powerful, WE ARE THE BLACK BRIGADE!!!!"
  
- blackbrigades.7.t:0 "x"
- blackbrigades.7.desc:0 "This is an event for focus: 'Commence the Black Terror'"
+ blackbrigades.7.t:0 "The Black terror begins"
+ blackbrigades.7.desc:0 "The day has come, soon all of Moskowien shall see the power of the Black terror, and all German filthy shall be rotted out of Russia... Violently."
  blackbrigades.7.a:0 "Our Work Begins."
  
  ### Black Terror Events ###
- blackbrigades.8.t:0 "x"
- blackbrigades.8.desc:0 "This is an event for focus: 'Introduce our Plans'"
- blackbrigades.8.a:0 "x"
+ blackbrigades.8.t:0 "Planning begins"
+ blackbrigades.8.desc:0 "Our plans are soon to be set in motion. The Germans will bleed, the collaberators shall all fall! And the Volga shall burn!"
+ blackbrigades.8.a:0 "We are close to Success"
  
- blackbrigades.9.t:0 "x"
- blackbrigades.9.desc:0 "This is an event for focus: 'The Predators'"
- blackbrigades.9.a:0 "x"
+ blackbrigades.9.t:0 "Predators"
+ blackbrigades.9.desc:0 "Predators are those who seek to hunt and kill prey. We as Russians are no prey."
+ blackbrigades.9.a:0 "All who cross us shall bow down"
  
- blackbrigades.10.t:0 "x"
- blackbrigades.10.desc:0 "This is an event for focus: 'The Prey'"
- blackbrigades.10.a:0 "x"
+ blackbrigades.10.t:0 "Run little German"
+ blackbrigades.10.desc:0 "Run Run Run little German, the Black Brigade shall always win but you can try."
+ blackbrigades.10.a:0 "Germans are out prey."
 
- blackbrigades.11.t:0 "x"
- blackbrigades.11.desc:0 "This is an event for focus: 'Those Left Behind'"
- blackbrigades.11.a:0 "x"
+ blackbrigades.11.t:0 "Those left behind"
+ blackbrigades.11.desc:0 "Those Germans that have been left behind are about to have a bad time!"
+ blackbrigades.11.a:0 "Sans from Undertale refrence?"
  
  blackbrigades.12.t:0 "A Floor of Broken Glass"
- blackbrigades.12.desc:0 "This is an event for focus: 'Dangerous Days'"
+ blackbrigades.12.desc:0 "Now that the Volga Germans are gone, we can't let all of Russia lay open for the Germans, we must expand to survive."
  blackbrigades.12.a:0 "Is this the future?"
  
  ### Expansion Events ###
- blackbrigades.13.t:0 "x"
- blackbrigades.13.desc:0 "This is an event for focus: 'dominate muscovy'"
- blackbrigades.13.a:0 "x"
+ blackbrigades.13.t:0 "Muscovy belongs to us"
+ blackbrigades.13.desc:0 "Muscovy is a german word, and Germans shall forever be banned from Russia. Muscovy is ours!"
+ blackbrigades.13.a:0 "Moscow will be ours."
  
- blackbrigades.14.t:0 "x"
- blackbrigades.14.desc:0 "This is an event for focus: 'no mercy'"
- blackbrigades.14.a:0 "x"
+ blackbrigades.14.t:0 "Mercy is for the weak"
+ blackbrigades.14.desc:0 "Their will be no quarters for the Germans, signs of weakness are fatal."
+ blackbrigades.14.a:0 "swag"
  
- blackbrigades.15.t:0 "x"
- blackbrigades.15.desc:0 "This is an event for focus: 'the german war machine'"
- blackbrigades.15.a:0 "x"
+ blackbrigades.15.t:0 "German war machine"
+ blackbrigades.15.desc:0 "The German war Machine is a joke and fears the Brigade"
+ blackbrigades.15.a:0 "All shall fear the Brigade"
  
- blackbrigades.16.t:0 "x"
- blackbrigades.16.desc:0 "This is an event for focus: 'dismantle oryol'"
- blackbrigades.16.a:0 "x"
+ blackbrigades.16.t:0 "Dismantle Oryol"
+ blackbrigades.16.desc:0 "We shall take Oryol through force and shoot any who don't comply"
+ blackbrigades.16.a:0 "This"
  
- blackbrigades.17.t:0 "x"
- blackbrigades.17.desc:0 "This is an event for focus: 'dismantle smolensk'"
- blackbrigades.17.a:0 "x"
+ blackbrigades.17.t:0 "Dismantle Smolensk"
+ blackbrigades.17.desc:0 "Smolensk shall suffer the same fate as Oryol and must comply with us.... OR DIE!"
+ blackbrigades.17.a:0 "is"
 
- blackbrigades.175.t:0 "x"
- blackbrigades.175.desc:0 "Reformists Congress"
- blackbrigades.175.a:0 "x"
+ blackbrigades.175.t:0 "Reformers"
+ blackbrigades.175.desc:0 "Democracy is dumb and doesn't make Russia strong."
+ blackbrigades.175.a:0 "swag"
  
- blackbrigades.18.t:0 "x"
- blackbrigades.18.desc:0 "This is an event for focus: 'one excuse'"
- blackbrigades.18.a:0 "x"
+ blackbrigades.18.t:0 "Excuses"
+ blackbrigades.18.desc:0 "We don't care for excuses"
+ blackbrigades.18.a:0 "Don't care"
  
- blackbrigades.19.t:0 "x"
- blackbrigades.19.desc:0 "This is an event for focus: 'integrate the bands'"
- blackbrigades.19.a:0 "x"
+ blackbrigades.19.t:0 "New members"
+ blackbrigades.19.desc:0 "As we expand, we will gain more people and with the Band being integrated into our ranks, shall make us stronger."
+ blackbrigades.19.a:0 "One Brigade"
  
- blackbrigades.20.t:0 "x"
- blackbrigades.20.desc:0 "This is an event for focus: 'dismantle muscovy'"
- blackbrigades.20.a:0 "x"
+ blackbrigades.20.t:0 "Take back Moscow"
+ blackbrigades.20.desc:0 "Moscow lies on our doorstep, and the Germans must be shivering by the mere mention of our name."
+ blackbrigades.20.a:0 "This is a no German zone"
  
- blackbrigades.21.t:0 "x"
- blackbrigades.21.desc:0 "This is an event for focus: 'dismantle pleskau'"
- blackbrigades.21.a:0 "x"
+ blackbrigades.21.t:0 "Take out the SS"
+ blackbrigades.21.desc:0 "The SS is the worst of what the horrid German people have to offer, They have tortured and murdered our people. They shall all feal Pain and will beg for death."
+ blackbrigades.21.a:0 "They should just Run."
  
- blackbrigades.22.t:0 "x"
- blackbrigades.22.desc:0 "This is an event for focus: 'dismantle RSUA'"
- blackbrigades.22.a:0 "x"
+ blackbrigades.22.t:0 "Dirty communists"
+ blackbrigades.22.desc:0 "The Red Star United Army fights for a dead Ideology that has only failed Russia. Communism shall be a thing of the past."
+ blackbrigades.22.a:0 "Commie larpers"
  
- blackbrigades.23.t:0 "x"
- blackbrigades.23.desc:0 "This is an event for focus: 'dismantle Oberkommando'"
- blackbrigades.23.a:0 "x"
+ blackbrigades.23.t:0 "St Petersburg"
+ blackbrigades.23.desc:0 "St Petersburg is still under occupation of the German swine. This however is the last of the Germans left Russia."
+ blackbrigades.23.a:0 "Sea Germans won't swim home."
  
- blackbrigades.24.t:0 "x"
- blackbrigades.24.desc:0 "This is an event for focus: 'The Neanderthal is Extinct'"
- blackbrigades.24.a:0 "x"
+ blackbrigades.24.t:0 "Neanderthals"
+ blackbrigades.24.desc:0 "I hate these Neanderhals, get rid of them."
+ blackbrigades.24.a:0 "Cultist deserve death."
 
  ###Showdown Events###
  blackbrigades.50.t:0 "The Elephant in the Room"
- blackbrigades.50.desc:0 "event talks about how the status of the slaves is a question that can no longer be avoided. The reformists want to 'wipe the      slate' and give them freedom while the radicals believe that they let themselves be enslaved and the only way that they can be allowed to be free is through their own strength. The mafia prefers the radicals because they benefit from slavery being allowed."
- blackbrigades.50.a:0 "x"
+ blackbrigades.50.desc:0 "Now that the Brigade owns everything we will have to deal with slavery which, has grown since we have taken Moskowein. Guess we'll have to decide one way or another what to do with them"
+ blackbrigades.50.a:0 "Owning a country is hard"
 
  blackbrigades.51.t:0 "A Night in the Bar"
- blackbrigades.51.desc:0 "event portrays a trip to the bar from the POV of a Black Brigades detatchment. What used to be one squad who have stuck together through thick and thin, has now split into two because of the issue of slavery. This is the first time anything like this has happened."
- blackbrigades.51.a:0 "x"
+ blackbrigades.51.desc:0 "After a long day of hunting down Germans and keeping order, it's always good for us to take a break and drink some traditional Vodka. Beer of Course is a German posion developed to make people stupid unlike Vodka. After a few drinks my fellow comrades Dimitry, and Alexy got into a heated debate over wether we should keep slavery or not. Dimitry said slavery is immoral and Alexy said it's just nature. Soon both go into a fight and the rest of the brigade had to break them up. Uhh Politics and drunk soliders don't go well together."
+ blackbrigades.51.a:0 "I just wanna chill"
 
  blackbrigades.52.t:0 "The Old Guard"
- blackbrigades.52.desc:0 "event is explaining the position that the original members of the Brigades have on the issue of slavery - most side with the radicals however a decent portion sides with the reformists also"
- blackbrigades.52.a:0 "x"
+ blackbrigades.52.desc:0 "Recently protests over Slavery has erupted everywhere with even the old guard who've fought since the beggining are demanding for the end of slavery."
+ blackbrigades.52.a:0 "I think we should listen to our troops"
 
  blackbrigades.53.t:0 "The Inner Circle"
- blackbrigades.53.desc:0 "event is explaining the position of the upper echelons of the Black Brigades - the ones that showed up are all in favour of the radicals but this is obviously because the reformist supporters didn't show up, and there was a large amount of empty seats."
- blackbrigades.53.a:0 "x"
+ blackbrigades.53.desc:0 "Looks like we will take this issue to the higher ups, but it only seems that the ones who want to keep slavery are silencing those who don't"
+ blackbrigades.53.a:0 "Democracy is dumb."
 
  blackbrigades.54.t:0 "The Shotcaller"
- blackbrigades.54.desc:0 "event is explaining Usoyan's view on slavery which is very much in favour of it, but tactically freeing slaves (ones that have families etc) is recommended."
- blackbrigades.54.a:0 "x"
+ blackbrigades.54.desc:0 "Usoyan while at the meeting has showed support for keeping slavery also belives that families should be freed from Slavery."
+ blackbrigades.54.a:0 "Ok then"
 
  blackbrigades.55.t:0 "The choice is ours"
- blackbrigades.55.desc:0 "choice between Ankudinov's reformists who want to ban slavery and create a state and Mordakov's radicals who want pure darwinian societal deevolution"
- blackbrigades.55.a:0 "Slavery is only problems"
+ blackbrigades.55.desc:0 "We now must choose between Ankudinov's reformists who want to ban slavery. Or Mordakov's radicals who want slavery to stay"
+ blackbrigades.55.a:0 "Slavery is problamatic"
  blackbrigades.55.b:0 "Slavery is simply nature"
 
  blackbrigades.56.t:0 "In the Dark"
- blackbrigades.56.desc:0 "event describes how Ankudinov's clique is at the brink of war with Mordakov's loyalists and how the brigades are at each others throats"
- blackbrigades.56.a:0 "x"
+ blackbrigades.56.desc:0 "As politics are heating up, both Ankudinov's loyalist and Mordakov's loyalist have began to arm themselfs and harras one another. War may be immenant"
+ blackbrigades.56.a:0 "Well let's see where this goes."
 
  blackbrigades.57.t:0 "Baring our Teeth"
  blackbrigades.57.desc:0 "event is through the POV of one of the radicals' commanders that attends a meeting with one of the slave factory owners who's been supplying the Brigades Radicals. When they enter his office they find him dead with a note from Ankudinov's men and being strapped to an explosive trap which kills the commander"
  blackbrigades.57.a:0 "Two can play this game"
 
  blackbrigades.58.t:0 "Secret Meeting"
- blackbrigades.58.desc:0 "Ankudinov decides to personally meet with Usoyan to reassure that the mafia will not lose out by not having slaves."
- blackbrigades.58.a:0 "x"
+ blackbrigades.58.desc:0 "Ankudinov has secretly reasureed Usoyan that freeing slaves won't hurt the mafia in anyway."
+ blackbrigades.58.a:0 "Maybe Usoyan will help"
 
- blackbrigades.59.t:0 "x"
- blackbrigades.59.desc:0 "event where a reformist sympathizer's family is threatened in order for him to stay low"
- blackbrigades.59.a:0 "x"
+ blackbrigades.59.t:0 "Stay quiet or get shot"
+ blackbrigades.59.desc:0 "Nicholas was enjoying dinner with his family when then a man knocked at his door. He went to open the door and say Dimitry from the Black Brigade there. "Hey words, going out that the radical fools are killing people who havea brain, so make sure to not tell anyone about your political stance, it could be deadly!" Dimitry told Nicholas. "Umm, I wasn't expecting a comrade to visit me but it has been noted friend, thank you." Nicholas replied"
+ blackbrigades.59.a:0 "Stay safe"
 
  blackbrigades.60.t:0 "Mordakov takes power"
- blackbrigades.60.desc:0 ""
- blackbrigades.60.a:0 ""
+ blackbrigades.60.desc:0 "And Slavery shall stay under Mordakov"
+ blackbrigades.60.a:0 "well guess it's nature"
 
  blackbrigades.61.t:0 "Ankudinov takes power"
- blackbrigades.61.desc:0 ""
- blackbrigades.61.a:0 ""
+ blackbrigades.61.desc:0 "Ankudinov has succeded in freeing the slaves and creating a more free state."
+ blackbrigades.61.a:0 "The Brigade shall change as a result"
 
  ### Radicals Events ###
  blackbrigades.91.t:0 "Lament of the Weak"
@@ -778,7 +778,7 @@
  BBB_Competitive_workforce_idea_desc:0 "In the factories that litter Muscovy, it is important that we facilitate and grow a culture of constant competition between its workers. Brutality and harsh quotas all with the risk of losing their job will force the workers to be more and more efficient, simply to one-up their peers. And those that lack the ability to keep up will be left to fend for themselves elsewhere."
 
  BBB_optimized_railway_system:0 "Optimized Railway System"
- BBB_optimized_railway_system_desc:0 ""
+ BBB_optimized_railway_system_desc:0 "A good railway system means we have a good supply system."
 
  BBB_The_State_Of_The_Brigades_radicals_2:0 "The State of the Brigades"
  BBB_The_State_Of_The_Brigades_radicals_2_desc:0 "Once, we were a highly disciplined force in the Urals. But as time went on, the lifestyle of banditry took a toll on the Black Brigades. Soldiers and even some generals have become reckless, less disciplined and rebellious. Now that Muscovy has been consolidated under our grasp, we can take steps to removing this malaise and creating a real deadly and professional force, just like we once were."
@@ -790,57 +790,57 @@
  BBB_The_State_Of_The_Brigades_radicals_4_desc:0 "Once, we were a highly disciplined force in the Urals. But as time went on, the lifestyle of banditry took a toll on the Black Brigades. Soldiers and even some generals have become reckless, less disciplined and rebellious. Now that Muscovy has been consolidated under our grasp, we can take steps to removing this malaise and creating a real deadly and professional force, just like we once were."
 
  BBB_apex_predators:0 "Apex Predators"
- BBB_apex_predators_desc:0 ""
+ BBB_apex_predators_desc:0 "We are Predators! Germans fear us!"
 
  #Reformists#
 
  BBB_Sobering_Brigades:0 "Sobering Brigades"
- BBB_Sobering_Brigades_desc:0 ""
+ BBB_Sobering_Brigades_desc:0 "C'mon guys look profesional, drinking makes us look bad!"
 
  BBB_People_Reassured:0 "People Assured"
- BBB_People_Reassured_desc:0 ""
+ BBB_People_Reassured_desc:0 "We are liberators! Not occupiers."
 
  BBB_Moscow_In_Ruins:0 "Moscow in Ruins"
- BBB_Moscow_In_Ruins_desc:0 ""
+ BBB_Moscow_In_Ruins_desc:0 "Moscow has been laid to ruins, but like in 1812, it revoered and it shall be strong and mighty once more."
 
  BBB_Repair_The_Destruction:0 "Repair the Destruction"
- BBB_Repair_The_Destruction_desc:0 ""
+ BBB_Repair_The_Destruction_desc:0 "C'mon guys, we got a country to repair."
 
  BBB_Workers_Willpower:0 "Workers Willpower"
- BBB_Workers_Willpower_desc:0 ""
+ BBB_Workers_Willpower_desc:0 "Workers we are strong together"
 
  BBB_Workers_Willpower_2:0 "Workers Willpower"
- BBB_Workers_Willpower_2_desc:0 ""
+ BBB_Workers_Willpower_2_desc:0 "We are mighty and we are proud to be Russians!"
 
  BBB_Weak_Shall_Perish:0 "The Weak Shall Perish"
- BBB_Weak_Shall_Perish_desc:0 ""
+ BBB_Weak_Shall_Perish_desc:0 "Signs of weakness are fatal"
 
  BBB_Strong_Leadership:0 "Strong Leadership"
- BBB_Strong_Leadership_desc:0 ""
+ BBB_Strong_Leadership_desc:0 "A strong Leader shall guide us to Glory!"
 
  BBB_Reconstructing_Moscow:0 "Reconstructing Moscow"
- BBB_Reconstructing_Moscow_desc:0 ""
+ BBB_Reconstructing_Moscow_desc:0 "Germans shall never again touch Moscow under the Black Brigades Protection."
 
  BBB_Reconstructing_Moscow_2:0 "Reconstructing Moscow"
- BBB_Reconstructing_Moscow_2_desc:0 ""
+ BBB_Reconstructing_Moscow_2_desc:0 "The mighty Kremlin shall once more shine over Russia."
 
  BBB_Reconstructing_Moscow_3:0 "Reconstructing Moscow"
- BBB_Reconstructing_Moscow_3_desc:0 ""
+ BBB_Reconstructing_Moscow_3_desc:0 "I love Moscow!"
 
  BBB_Functioning_Economy:0 "Functioning Economy"
- BBB_Functioning_Economy_desc:0 ""
+ BBB_Functioning_Economy_desc:0 "Wow who knew that an economy could work without the mafia?"
 
  BBB_Sobered_Brigades:0 "Sobered Brigades"
- BBB_Sobered_Brigades_desc:0 ""
+ BBB_Sobered_Brigades_desc:0 "Good, now that the troops are sober, maybe they can follow orders"
 
  BBB_The_State_Of_The_Brigades_reform_2:0 "State of the Brigades"
- BBB_The_State_Of_The_Brigades_reform_2_desc:0 ""
+ BBB_The_State_Of_The_Brigades_reform_2_desc:0 "The Brigade was originally made up of drunks and men who either hated Germany or just wanted some action."
 
  BBB_Army_Of_The_Strong:0 "Army of the Strong"
- BBB_Army_Of_The_Strong_desc:0 ""
+ BBB_Army_Of_The_Strong_desc:0 "We are poweful as one"
 
  BBB_The_Mechanized_Horde:0 "The Mechanized Horde"
- BBB_The_Mechanized_Horde_desc:0 ""
+ BBB_The_Mechanized_Horde_desc:0 "As we expand, we will become more modernized and ready."
 
  BBB_The_New_Brigades_idea:0 "The New Brigades"
- BBB_The_New_Brigades_idea_desc:0 ""
+ BBB_The_New_Brigades_idea_desc:0 "The New brigades are now well organized and strong"

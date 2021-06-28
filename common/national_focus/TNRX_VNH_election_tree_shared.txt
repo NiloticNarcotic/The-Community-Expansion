@@ -1,6 +1,6 @@
-shared_focus = { 
+shared_focus = { #election time
     id = VNH_election_Time
-	icon = GFX_VNH_the_reformer
+	icon = GFX_TNRX_VNH_The_People_Content
 	cost = 2
 	
 	x = 0
@@ -10,9 +10,9 @@ shared_focus = {
 	}
 }
 
-shared_focus = { 
+shared_focus = { #Encourage Participation
     id = VNH_Encourage_Participation
-	icon = GFX_VNH_the_reformer
+	icon = GFX_Generic_Social_Liberal
 	cost = 2
 	
 	prerequisite = {
@@ -27,7 +27,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Set_Up_Ballots
-	icon = GFX_VNH_the_reformer
+	icon = GFX_generic_election
 	cost = 2
 	
 	prerequisite = {
@@ -42,7 +42,7 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Election_Day
-	icon = GFX_VNH_the_reformer
+	icon = GFX_generic_election
 	cost = 2
 	
 	prerequisite = {
@@ -62,14 +62,14 @@ shared_focus = {
 
 shared_focus = { 
     id = VNH_Gorbachev_elected
-	icon = GFX_VNH_the_reformer
+	icon = GFX_generic_socdem_constitution
 	cost = 2
 	
 	prerequisite = {
 	 focus = VNH_Election_Day
 	}
 	x = 0
-	y = 2
+	y = 4
 	completion_reward = {
 		add_stability = 0.1
 		load_focus_tree = Voronezh_Tree_Gorbachev

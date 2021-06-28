@@ -25,7 +25,20 @@ country_event = { # 3ss, change tag from PET to MCW
 				set_capital = 195
 				
 				remove_ideas = {
-					MCW_russian_partisans
+					MCW_poor_railnetworks
+					MCW_poor_railnetworks_semifixed
+					MCW_russian_partisans_pre
+					MCW_russian_partisans_mid
+					MCW_russian_partisans_final
+					MCW_apathetic_rule
+					MCW_begrudging_rule
+					MCW_depressive_rule
+					MCW_disunified_ostvolk_council
+					MCW_semiunified_ostvolk_council
+					MCW_unrepresentative_council
+					MCW_representative_council
+					MCW_german_power_deficit
+					MCW_subordinate_council
 					MCW_the_defense_of_moskowien
 					MCW_apathetic_rule
 					MCW_unified_ostvolk_council

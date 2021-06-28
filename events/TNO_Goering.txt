@@ -9391,7 +9391,11 @@ country_event = { # judge jury and executioner
 		if = {
 			limit = { MCW = { exists = yes }}
 			MCW = {
-				remove_ideas = MCW_russian_partisans
+				remove_ideas =  {
+					MCW_russian_partisans_pre
+					MCW_russian_partisans_mid
+					MCW_russian_partisans_final
+				}
 			}
 		}
 		else = {
@@ -20470,7 +20474,7 @@ country_event = { #The fate of Moskowien
 				release_puppet = MCW
 				MCW = {
 					GGR_set_up_RK_ROOT = yes
-					add_ideas = MCW_russian_partisans
+					add_ideas = MCW_russian_partisans_final
 					country_event = { id = MCW.9 days = 40 }
 					create_country_leader = {
 						name = "Werner Mummert"

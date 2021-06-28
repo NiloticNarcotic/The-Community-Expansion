@@ -769,7 +769,11 @@ country_event = { # Moskowien at peace
 
 	option = {
 		name = MCW.11.a
-		remove_ideas = MCW_russian_partisans
+		remove_ideas = {
+			MCW_russian_partisans_pre
+			MCW_russian_partisans_mid
+			MCW_russian_partisans_final
+		}
 	}
 }
 
@@ -845,8 +849,8 @@ country_event = { # Convening the Council
 		ai_chance = { factor = 0.8 }
 		hidden_effect = {
 			country_event = { 
-				id = UKR.21 
-				days = 3 
+				id = MCW.16
+				days = 2 
 			}
 		}
 	}
@@ -855,14 +859,14 @@ country_event = { # Convening the Council
 		ai_chance = { factor = 0.2 }
 		hidden_effect = {
 			country_event = { 
-				id = UKR.22 
-				days = 3 
+				id = MCW.17
+				days = 4
 			}
 		}
 	}
 }
 
-country_event = { # Negotiations Continue
+country_event = { # Negotiations Continue #### TEMPORARILY THE END OF THE NEGOTIATIONS AT RELEASE, WILL ADD IN MORE OPTIONS AS PATHS ARE ADDED!!!
 	id = MCW.16
 	title = MCW.16.t
 	desc = MCW.16.d
@@ -875,13 +879,13 @@ country_event = { # Negotiations Continue
 
 	option = { # The Russians Win Successfully
 		name = MCW.16.a
-		ai_chance = { factor = 0.8 }
-		hidden_effect = {
-			country_event = { 
-				id = UKR.21 
-				days = 3 
-			}
+		ai_chance = { factor = 1 }
+		set_country_flag = MCW_flag_industrialists_trusted
+		swap_ideas = {
+			remove_idea = MCW_disunified_ostvolk_council
+			add_idea = MCW_semiunified_ostvolk_council
 		}
+
 	}
 }
 
@@ -899,18 +903,16 @@ country_event = { # Mysterious Benefactors
 	option = { # "This is an offer I must refuse."
 		name = MCW.17.a
 		ai_chance = { factor = 0.8 }
-		hidden_effect = {
-			country_event = { 
-				id = UKR.21 
-				days = 3 
-			}
+		country_event = {
+			id = MCW.16
+			days = 3
 		}
 	}
-	option = { # "Agreed."
+	option = { # "Agreed"
 		name = MCW.17.b
 		ai_chance = { factor = 0.2 }
 		hidden_effect = {
-			set_country_flag = MCW_flag_partisan_agreement
+			load_focus_tree = MCW_russian_partisan_tree
 		}
 	}
 }
@@ -946,7 +948,7 @@ country_event = { # Sit down with industrialists
 		}
 	}
 	option = { # Choose a Short term Comprimise
-		name = MCW.18.a
+		name = MCW.18.b
 		ai_chance = { factor = 0.5 }
 		add_equipment_to_stockpile = {
 			type = infantry_equipment_1
@@ -966,7 +968,41 @@ country_event = { # Sit down with industrialists
 	}
 	
 }
+country_event = { # Times are Changing
+	id = MCW.19
+	title = MCW.19.t
+	desc = MCW.19.d
+	picture = GFX_report_event_MAD_palace
 
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW.19"}
+
+	option = { # The Beginning of the End
+		name = MCW.19.a
+		ai_chance = { factor = 1 }
+		load_focus_tree = MCW_russian_collab_tree
+	}
+}
+
+country_event = { # TEMP FACTION CHOOSER FOR COLLAB TREE EXPAND LATER ON!!!
+	id = MCW.20
+	title = MCW.20.t
+	desc = MCW.20.d
+	picture = GFX_report_event_MAD_palace
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event MCW.19"}
+
+	option = { # Gorbachev and His Industrialists
+		name = MCW.20.a
+		ai_chance = { factor = 1 }
+		set_country_flag = MCW_collab_gorby_favoured
+	}
+}
 country_event = { # intro to the council function
 	id = MCW.101
 	title = MCW.101.t
@@ -1676,11 +1712,11 @@ country_event = { # Moskowien Collapse #5
 			transfer_state = 238
 			inherit_technology = MCW
 			load_oob = "VLG_Collapse"
+			change_tag_from = MCW
 			country_event = {
 				id = VLG.6
 				days = 2
 			}
-			change_tag_from = MCW
 		}
 		country_event = {
     		id = MCW.206

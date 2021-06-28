@@ -16,6 +16,8 @@ add_ideas = {
 	MCW_apathetic_rule
 	MCW_disunified_ostvolk_council
 	MCW_the_porous_border
+	MCW_russian_partisans_pre
+	MCW_poor_railnetworks
 	##POLITICAL LAWS##
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_atheism
@@ -261,16 +263,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Odilo Globotschnigg"
-	desc = "POLITICS_ODILO_GLOBOTSCHNIGG_DESC"
+	name = "Odilo Globotschnig"
+	desc = "POLITICS_ODILO_GLOBOTSCHNIG_DESC"
 	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
 	expire = "1983.4.24"
 	ideology = ultranational_socialism_subtype
 }
 
 create_country_leader = {
-	name = "Odilo Globotschnigg"
-	desc = "POLITICS_ODILO_GLOBOTSCHNIGG_DESC"
+	name = "Odilo Globotschnig"
+	desc = "POLITICS_ODILO_GLOBOTSCHNIG_DESC"
 	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
 	expire = "1983.4.24"
 	ideology = burgundian_system_subtype
