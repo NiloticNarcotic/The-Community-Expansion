@@ -388,6 +388,15 @@
  VNH_Hat_man_victorious_desc:0 "Gorby has secured his position as the president of the Republic."
  VNH_The_inaugurating_speech:0 "The inaugurating speech"
  VNH_The_inaugurating_speech_desc:0 "Now that the votes are counted and the results are announced. The first thing Gorby will do is to hold a speech in front of the masses to inspire them."
+ ### Putin Tree ###
+ VNH_The_Putin_presidency:0 "The Putin Presidency"
+ VNH_The_Putin_presidency_desc:0 "The Nation has spoken, hail to our new president, Putin!"
+ VNH_a_dream_of_a_united_Russia:0 "A dream of a united Russia"
+ VNH_a_dream_of_a_united_Russia_desc:0 "For too long has Russian been either in a state of anarchy or Occupation, now is the time to unite Russia under the flag of Voronezh and of Russia!"
+ VNH_raise_the_banners:0 "Raise the Banners!"
+ VNH_raise_the_banners_desc:0 "The people have spoken, Russia shall be whole once more!"
+ VNH_Talk_with_our_Generals:0 "Talk with the Generals"
+ VNH_Talk_with_our_Generals_desc:0 "With the Generals and men prepared we shall be ready for our first move."
  ### War Tree ###
  VNH.6.t:0"The Southern Campaign"
  VNH.6.desc:0"We shall liberate the South"

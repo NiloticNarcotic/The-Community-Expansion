@@ -1,0 +1,63 @@
+shared_focus = { 
+    id = VNH_The_Putin_presidency
+	icon = GFX_TNRX_VNH_putin
+	cost = 2
+
+	x = 0
+	y = 0
+
+	}
+	completion_reward = {
+	 add_political_power = 200
+     add_stability = 0.03
+	}
+}
+
+shared_focus = { 
+    id = VNH_a_dream_of_a_united_Russia
+	icon = GFX_Generic_Expansionism
+	cost = 2
+	
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = VNH_The_Putin_presidency
+	}
+	completion_reward = {
+	add_stability = 0.02
+    add_war_support = 0.01
+	}
+}
+
+shared_focus = { 
+    id = VNH_raise_the_banners
+	icon = GFX_Generic_Expansionism
+	cost = 2
+	
+	x = -2
+	y = 2
+	prerequisite = {
+		focus = VNH_a_dream_of_a_united_Russia
+	}
+	completion_reward = {
+	add_manpower = 100000
+    add_war_support = 0.10
+	}
+}
+
+shared_focus = { 
+    id = VNH_Talk_with_our_Generals
+	icon = GFX_TNRX_VNH_bulganin
+	cost = 2
+	
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = VNH_a_dream_of_a_united_Russia
+	}
+	completion_reward = {
+	add_stability = 0.02
+    add_war_support = 0.10
+	}
+}
+
