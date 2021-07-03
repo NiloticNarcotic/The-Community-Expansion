@@ -75,3 +75,20 @@ shared_focus = {
 		load_focus_tree = Voronezh_Tree_Gorbachev
 	}
 }
+
+shared_focus = { 
+    id = VNH_Putin_wins
+	icon = GFX_TNRX_VNH_putin
+	cost = 2
+	
+	prerequisite = {
+	 focus = VNH_Election_Day
+	}
+	x = 0
+	y = 2
+	completion_reward = {
+		add_stability = 0.1
+		load_focus_tree = Voronezh_Tree_Putin
+	}
+}
+

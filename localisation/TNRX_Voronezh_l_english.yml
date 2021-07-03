@@ -397,6 +397,20 @@
  VNH_raise_the_banners_desc:0 "The people have spoken, Russia shall be whole once more!"
  VNH_Talk_with_our_Generals:0 "Talk with the Generals"
  VNH_Talk_with_our_Generals_desc:0 "With the Generals and men prepared we shall be ready for our first move."
+ VNH_Old_collaborators:0 "Old Collaborators"
+ VNH_Old_collaborators_desc:0 "The Russian Liberation Army is nothing more then a group of disillusioned German collaborators who wish to "Liberate Russia." however, they will never see that day..."
+ VNH_The_cowards:0 "The Cowards"
+ VNH_The_cowards_desc:0 "The Volga neutral state is led by a former Soviet General who declared neutrality during the conflict when Germany started winning more battles. Winning against them should be very easy."
+ VNH_The_King:0 "The King"
+ VNH_The_King_desc:0 "King Vladimir is by all acounts, a good king. And to be honest I think is he is worthy of a pardon and will be given access to the Winter Palace after we force him to abdicate."
+ VNH_lmao_Larpers:0 "Lmao larpers"
+ VNH_lmao_Larpers_desc:0 "The Aryan Brotherhood is made up of nothing more then German larpers. If they wish to act like Germans, then we will treat them as such."
+ VNH_Remove_this_horrid_Republic:0 "Remove Komi"
+ VNH_Remove_this_horrid_Republic_desc:0 "Komi is a horrid mess. It must go!"
+ VNH_communism_no_more:0 "Communism no more"
+ VNH_communism_no_more_desc:0 "Communism is a dead ideology that failed for the Russian people and is not worth fighting for."
+
+ 
  ### War Tree ###
  VNH.6.t:0"The Southern Campaign"
  VNH.6.desc:0"We shall liberate the South"
