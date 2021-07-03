@@ -57,7 +57,156 @@ shared_focus = {
 	}
 	completion_reward = {
 	add_stability = 0.02
-    add_war_support = 0.10
+    add_war_support = 0.02
 	}
 }
 
+shared_focus = { 
+    id = VNH_From_Moscow_to_Vladistok
+	icon = GFX_TNRX_VNH_bulganin
+	cost = 2
+	
+	x = 1
+	y = 4
+	prerequisite = {
+		focus = VNH_Talk_with_our_Generals
+		focus = VNH_raise_the_banners
+	}
+	completion_reward = {
+	add_stability = 0.01
+    add_war_support = 0.01
+	}
+}
+
+shared_focus = { 
+    id = VNH_Old_collaborators 
+	icon = GFX_generic_samara
+	cost = 2
+	
+	x = 1
+	y = 6
+	prerequisite = {
+		focus = VNH_From_Moscow_to_Vladistok }
+		bypass = {
+		SAM = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = SAM
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_The_cowards 
+	icon = GFX_WRS_invade_volgda
+	cost = 2
+	
+	x = 2
+	y = 6
+	prerequisite = {
+		focus = VNH_From_Moscow_to_Vladistok }
+		bypass = {
+		VOL = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = VOL
+			type = annex_everything
+		}
+	}
+}
+
+
+shared_focus = { 
+    id = VNH_The_King
+	icon = GFX_generic_vyatka
+	cost = 2
+	
+	x = 3
+	y = 6
+	prerequisite = {
+		focus = VNH_From_Moscow_to_Vladistok }
+		bypass = {
+		KIR = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = KIR
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_lmao_Larpers
+	icon = GFX_generic_smash_nazi_symbols
+	cost = 2
+	
+	x = 4
+	y = 6
+	prerequisite = {
+		focus = VNH_From_Moscow_to_Vladistok }
+		bypass = {
+		PRM = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = PRM
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_Remove_this_horrid_Republic
+	icon = GFX_NIK_attack_komi
+	cost = 2
+	
+	x = 5
+	y = 6
+	prerequisite = {
+		focus = VNH_From_Moscow_to_Vladistok }
+		bypass = {
+		NIK = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = NIK
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_communism_no_more
+	icon = GFX_generic_wrrf
+	cost = 2
+	
+	x = 6
+	y = 6
+	prerequisite = {
+		focus = VNH_From_Moscow_to_Vladistok }
+		bypass = {
+		WRS = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = WRS
+			type = annex_everything
+		}
+	}
+}
