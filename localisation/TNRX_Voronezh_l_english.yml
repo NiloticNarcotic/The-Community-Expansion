@@ -409,7 +409,9 @@
  VNH_Remove_this_horrid_Republic_desc:0 "Komi is a horrid mess. It must go!"
  VNH_communism_no_more:0 "Communism no more"
  VNH_communism_no_more_desc:0 "Communism is a dead ideology that failed for the Russian people and is not worth fighting for."
-
+ VNH_the_tsar_is_cool:0 "The Tsar is ok"
+ VNH_the_tsar_is_cool_desc:0 "The Tsar is a good man and seems to be nice. let's give him ownership of the winter palace for his good deeds."
+ 
  
  ### War Tree ###
  VNH.6.t:0"The Southern Campaign"

@@ -210,3 +210,33 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = { 
+    id = VNH_the_tsar_is_cool
+	icon = GFX_generic_vyatka
+	cost = 2
+	
+	x = 3
+	y = 7
+	prerequisite = {
+		focus = VNH_The_King
+	}
+	completion_reward = {
+		add_stability = 0.03
+	}
+}
+
+shared_focus = { 
+    id = VNH_We_need_a_mental_hospital
+	icon = GFX_generic_smash_nazi_symbols
+	cost = 2
+	
+	x = 4
+	y = 7
+	prerequisite = {
+		focus = VNH_lmao_Larpers
+	}
+	completion_reward = {
+		add_stability = 0.02
+	}
+}
