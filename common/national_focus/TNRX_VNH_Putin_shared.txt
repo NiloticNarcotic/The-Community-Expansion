@@ -240,3 +240,180 @@ shared_focus = {
 		add_stability = 0.02
 	}
 }
+
+shared_focus = { 
+    id = VNH_The_west_secured
+	icon = GFX_generic_russian_eagle
+	cost = 2
+	
+	x = 3
+	y = 9
+	prerequisite = {
+		focus = VNH_We_need_a_mental_hospital
+		foucs = VNH_the_tsar_is_cool
+		focus = VNH_The_cowards 
+		focus = VNH_Old_collaborators 
+		focus = VNH_communism_no_more
+	}
+	completion_reward = {
+		add_war_support = 0.05
+	}
+}
+
+shared_focus = { 
+    id = VNH_Now_too_Siberia
+	icon = GFX_TNO_generic_siberia_waste
+	cost = 2
+	
+	x = 3
+	y = 11
+	prerequisite = {
+		focus = VNH_The_west_secured
+	}
+	completion_reward = {
+		add_war_support = -0.02
+		add_political_power = -50
+	}
+}
+
+shared_focus = { 
+    id = VNH_take_on_the_arms_dealers
+	icon = GFX_generic_zlatoust_war
+	cost = 2
+	
+	x = 1
+	y = 12
+	prerequisite = {
+		focus = VNH_Now_too_Siberia }
+		bypass = {
+		UDM = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = UDM
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_missing_in_action
+	icon = GFX_sverdlovsk_war
+	cost = 2
+	
+	x = 2
+	y = 12
+	prerequisite = {
+		focus = VNH_Now_too_Siberia }
+		bypass = {
+		TOB = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = TOB
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_more_commies
+	icon = GFX_generic_tyumen_war
+	cost = 2
+	
+	x = 3
+	y = 12
+	prerequisite = {
+		focus = VNH_Now_too_Siberia }
+		bypass = {
+		ISH = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = ISH
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_a_state_fueled_by_hatred
+	icon = GFX_OMS_steel_heart_of_omsk
+	cost = 2
+	
+	x = 4
+	y = 12
+	prerequisite = {
+		focus = VNH_Now_too_Siberia }
+		bypass = {
+		OMS = {
+			exists = no
+		}
+	}
+	completion_reward = {
+		declare_war_on = {
+			target = OMS
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_more_patients
+	icon = GFX_generic_change_law_healthcare
+	cost = 2
+	
+	x = 4
+	y = 13
+	prerequisite = {
+		focus = VNH_a_state_fueled_by_hatred
+		}
+	completion_reward = {
+		add_stability = 0.01
+		add_political_power = -20
+	}
+}
+
+shared_focus = { 
+    id = VNH_befriend_Yeltsin
+	icon = GFX_sverdlovsk_war
+	cost = 2
+	
+	x = 2
+	y = 13
+	prerequisite = {
+		focus = VNH_missing_in_action
+		}
+	completion_reward = {
+	add_stability = 0.01
+	add_popularity = {
+		ideology = social_conservative
+		add_popularity = 0.05
+		}
+	}
+}
+
+shared_focus = { 
+    id = VNH_keep_moving
+	icon = GFX_TNO_generic_siberia_waste
+	cost = 2
+	
+	x = 3
+	y = 15
+	prerequisite = {
+		focus = VNH_more_patients
+		focus = VNH_befriend_Yeltsin
+		focus = VNH_more_commies
+		focus = VNH_take_on_the_arms_dealers
+	}
+	completion_reward = {
+		add_war_support = 0.05
+		add_political_power = -50
+	}
+}

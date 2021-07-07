@@ -87,6 +87,10 @@ shared_focus = {
 	x = 0
 	y = 2
 	completion_reward = {
+		set_politics = {
+			ruling_party = social_conservative
+			elections_allowed = no
+		}
 		add_stability = 0.1
 		load_focus_tree = Voronezh_Tree_Putin
 	}
