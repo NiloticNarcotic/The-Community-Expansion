@@ -630,10 +630,10 @@ create_navy_leader = {
 	id = 315
 }
 
-add_namespace = {
-	name = "ger_unit_leader"
-	type = unit_leader
-}
+#add_namespace = {
+#	name = "ger_unit_leader"
+#	type = unit_leader
+#}
 
 #Staring Missiles
 add_equipment_to_stockpile = {

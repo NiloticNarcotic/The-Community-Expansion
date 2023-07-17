@@ -68,3 +68,11 @@ NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 0
 NDefines.NOperatives.AGENCY_OPERATIVE_RECRUITMENT_TIME = 30
 
 NDefines.NGraphics.MAX_NUMBER_OF_TEXTURES = 40000 -- Going where no mod has gone before
+
+NDefines.NGraphics.COUNTRY_FLAG_TEX_MAX_SIZE = 2048 -- Tweak dependly on amount of countries. Must be power of 2. No more then 2048.
+NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_MAX_SIZE = 512 -- Tweak dependly on amount of countries. Must be power of 2. No more then 2048.
+NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_WIDTH = 10
+NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_HEIGHT = 8196
+NDefines.NGraphics.COUNTRY_FLAG_LARGE_STRIPE_MAX_WIDTH = 41
+NDefines.NGraphics.COUNTRY_FLAG_LARGE_STRIPE_MAX_HEIGHT = 24000
+NDefines_Graphics.NGraphics.COUNTRY_FLAG_MEDIUM_TEX_MAX_SIZE = 2048 -- Tweak dependly on amount of countries. Must be power of 2. No more then 2048.

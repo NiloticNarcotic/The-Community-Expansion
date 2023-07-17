@@ -1,34 +1,13 @@
 technologies = {
-	###START TECH###
-	gw_artillery = {
-
-		enable_equipments = {
-			artillery_equipment_1
-		}
-		
-		allow = {
-			always = no
-		}
-		
-		research_cost = 1.5
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	###START OF ARTILLERY BRANCH; FIRST TOWED THEN SELF PROPELLED###
-	artillery4 = { 
+	artillery4 = {
 
 		enable_equipments = {
 			artillery_equipment_2
 		}
-		
+
 		path = {
-			leads_to_tech = artillery_1950 
+			leads_to_tech = artillery_1950
 			research_cost_coeff = 1
 		}
 
@@ -36,64 +15,64 @@ technologies = {
 			leads_to_tech = SPART_1950
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = light_SPART_1950
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
 
 		start_year = 1945
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 0 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
 	artillery_1950 = {
-		
+
 		enable_equipments = {
 			artillery_equipment_3
 		}
-		
+
 		path = {
-			leads_to_tech = artillery_1970 
+			leads_to_tech = artillery_1970
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = artillery_1950_soft_attack 
+			leads_to_tech = artillery_1950_soft_attack
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1950
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -4 y = 2 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	artillery_1950_soft_attack = {
 		artillery_brigade = {
 			soft_attack = 0.05
@@ -106,23 +85,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 4 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1950_soft_attack_2 = {
 		artillery_brigade = {
 			soft_attack = 0.1
@@ -135,23 +114,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 6 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1950_soft_attack_3 = {
 		artillery_brigade = {
 			soft_attack = 0.15
@@ -164,23 +143,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 8 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1960_soft_attack = {
 		artillery_brigade = {
 			soft_attack = 0.05
@@ -193,23 +172,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 12 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1960_soft_attack_2 = {
 		artillery_brigade = {
 			soft_attack = 0.1
@@ -222,23 +201,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 14 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1960_soft_attack_3 = {
 		artillery_brigade = {
 			soft_attack = 0.15
@@ -247,57 +226,57 @@ technologies = {
 			soft_attack = 0.09
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 16 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1970 = {
-		
+
 		enable_equipments = {
 			artillery_equipment_4
 		}
 
 		path = {
-			leads_to_tech = artillery_1990 
+			leads_to_tech = artillery_1990
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = artillery_1970_soft_attack 
+			leads_to_tech = artillery_1970_soft_attack
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1970
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -4 y = 18 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	artillery_1970_soft_attack = {
 		artillery_brigade = {
 			soft_attack = 0.05
@@ -310,23 +289,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 20 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1970_soft_attack_2 = {
 		artillery_brigade = {
 			soft_attack = 0.1
@@ -339,23 +318,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 22 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1970_soft_attack_3 = {
 		artillery_brigade = {
 			soft_attack = 0.15
@@ -368,23 +347,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 24 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1980_soft_attack = {
 		artillery_brigade = {
 			soft_attack = 0.05
@@ -397,23 +376,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 28 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1980_soft_attack_2 = {
 		artillery_brigade = {
 			soft_attack = 0.1
@@ -426,23 +405,23 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 30 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	artillery_1980_soft_attack_3 = {
 		artillery_brigade = {
 			soft_attack = 0.15
@@ -451,52 +430,52 @@ technologies = {
 			soft_attack = 0.09
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 32 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	artillery_1990 = {
-		
+
 		enable_equipments = {
 			artillery_equipment_5
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1990
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -4 y = 34 }
 		}
-		
+
 		categories = {
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
 	light_SPART_1950 = {
 		dependencies = {
 			mechanised_infantry3 = 1
 		}
 		enable_equipments = {
-			APC_artillery_equipment_1
+			IFV_artillery_equipment_1
 		}
 		enable_subunits = {
 			light_sp_artillery_brigade
@@ -514,28 +493,28 @@ technologies = {
 			leads_to_tech = light_SPART_1950_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1950
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 2 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
-	
+
+
 	light_SPART_1950_armor = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.05
@@ -545,25 +524,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 4 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1950_armor_2 = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.1
@@ -573,44 +552,44 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 6 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1950_armor_3 = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 8 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -625,25 +604,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 4 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1950_soft_attack_2 = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.1
@@ -653,49 +632,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 6 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1950_soft_attack_3 = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 8 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	light_SPART_1950_speed = {
 #		
 #		light_sp_artillery_brigade  = {
@@ -722,9 +701,9 @@ technologies = {
 #		
 #	}
 	light_SPART_1960 = {
-		
+
 		enable_equipments = {
-			APC_artillery_equipment_2
+			IFV_artillery_equipment_2
 		}
 
 		path = {
@@ -739,27 +718,27 @@ technologies = {
 			leads_to_tech = light_SPART_1960_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1960
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 10 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	light_SPART_1960_armor = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.05
@@ -769,25 +748,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 12 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1960_armor_2 = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.1
@@ -797,50 +776,50 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 14 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1960_armor_3 = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 16 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	
+
+
 	light_SPART_1960_soft_attack = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.05
@@ -850,25 +829,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 12 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1960_soft_attack_2 = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.1
@@ -878,49 +857,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 14 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1960_soft_attack_3 = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 16 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	light_SPART_1960_speed = {
 #		light_sp_artillery_brigade  = {
 #			maximum_speed = 0.1
@@ -945,9 +924,9 @@ technologies = {
 #		
 #	}
 	light_SPART_1970 = {
-		
+
 		enable_equipments = {
-			APC_artillery_equipment_3
+			IFV_artillery_equipment_3
 		}
 
 		path = {
@@ -962,27 +941,27 @@ technologies = {
 			leads_to_tech = light_SPART_1970_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1970
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 18 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	light_SPART_1970_armor = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.05
@@ -992,25 +971,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 20 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1970_armor_2 = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.1
@@ -1020,49 +999,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 22 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1970_armor_3 = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 24 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1970_soft_attack = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.05
@@ -1072,25 +1051,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 20 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1970_soft_attack_2 = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.1
@@ -1100,49 +1079,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 22 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1970_soft_attack_3 = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 24 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	light_SPART_1970_speed = {
 #		light_sp_artillery_brigade  = {
 #			maximum_speed = 0.1
@@ -1167,9 +1146,9 @@ technologies = {
 #		
 #	}
 	light_SPART_1980 = {
-		
+
 		enable_equipments = {
-			APC_artillery_equipment_4
+			IFV_artillery_equipment_4
 		}
 
 		path = {
@@ -1184,27 +1163,27 @@ technologies = {
 			leads_to_tech = light_SPART_1980_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1980
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 26 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	light_SPART_1980_armor = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.05
@@ -1214,25 +1193,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 28 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1980_armor_2 = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.1
@@ -1242,49 +1221,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 30 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1980_armor_3 = {
 		light_sp_artillery_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 32 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1980_soft_attack = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.05
@@ -1294,25 +1273,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 28 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1980_soft_attack_2 = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.1
@@ -1322,49 +1301,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 30 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPART_1980_soft_attack_3 = {
 		light_sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 32 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	light_SPART_1980_speed = {
 #		light_sp_artillery_brigade  = {
 #			maximum_speed = 0.1
@@ -1389,29 +1368,29 @@ technologies = {
 #		
 #	}
 	light_SPART_1990 = {
-		
+
 		enable_equipments = {
-			APC_artillery_equipment_5
+			IFV_artillery_equipment_5
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1990
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 34 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
 	SPART_1950 = {
 		dependencies = {
@@ -1435,26 +1414,26 @@ technologies = {
 			leads_to_tech = SPART_1950_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1950
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 2 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1950_armor = {
 		sp_artillery_brigade = {
 			armor_value = 0.05
@@ -1464,25 +1443,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 4 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1950_armor_2 = {
 		sp_artillery_brigade = {
 			armor_value = 0.1
@@ -1492,49 +1471,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 6 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1950_armor_3 = {
 		sp_artillery_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 8 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1950_soft_attack = {
 		sp_artillery_brigade = {
 			soft_attack = 0.05
@@ -1544,25 +1523,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 4 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1950_soft_attack_2 = {
 		sp_artillery_brigade = {
 			soft_attack = 0.1
@@ -1572,49 +1551,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 6 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1950_soft_attack_3 = {
 		sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 8 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	SPART_1950_speed = {
 #		
 #		sp_artillery_brigade = {
@@ -1641,7 +1620,7 @@ technologies = {
 #		
 #	}
 	SPART_1960 = {
-		
+
 		enable_equipments = {
 			MBT_artillery_equipment_2
 		}
@@ -1658,26 +1637,26 @@ technologies = {
 			leads_to_tech = SPART_1960_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1960
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 10 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1960_armor = {
 		sp_artillery_brigade = {
 			armor_value = 0.05
@@ -1687,25 +1666,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 12 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1960_armor_2 = {
 		sp_artillery_brigade = {
 			armor_value = 0.1
@@ -1715,49 +1694,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 14 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1960_armor_3 = {
 		sp_artillery_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 16 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1960_soft_attack = {
 		sp_artillery_brigade = {
 			soft_attack = 0.05
@@ -1767,25 +1746,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 12 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1960_soft_attack_2 = {
 		sp_artillery_brigade = {
 			soft_attack = 0.1
@@ -1795,44 +1774,44 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 14 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1960_soft_attack_3 = {
 		sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 16 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1862,7 +1841,7 @@ technologies = {
 #		
 #	}
 	SPART_1970 = {
-		
+
 		enable_equipments = {
 			MBT_artillery_equipment_3
 		}
@@ -1879,26 +1858,26 @@ technologies = {
 			leads_to_tech = SPART_1970_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1970
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 18 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1970_armor = {
 		sp_artillery_brigade = {
 			armor_value = 0.05
@@ -1908,25 +1887,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 20 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1970_armor_2 = {
 		sp_artillery_brigade = {
 			armor_value = 0.1
@@ -1936,49 +1915,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 22 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1970_armor_3 = {
 		sp_artillery_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 24 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1970_soft_attack = {
 		sp_artillery_brigade = {
 			soft_attack = 0.05
@@ -1988,25 +1967,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 20 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1970_soft_attack_2 = {
 		sp_artillery_brigade = {
 			soft_attack = 0.1
@@ -2016,49 +1995,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 22 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1970_soft_attack_3 = {
 		sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 24 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	SPART_1970_speed = {
 #		sp_artillery_brigade = {
 #			maximum_speed = 0.1
@@ -2083,7 +2062,7 @@ technologies = {
 #		
 #	}
 	SPART_1980 = {
-		
+
 		enable_equipments = {
 			MBT_artillery_equipment_4
 		}
@@ -2100,26 +2079,26 @@ technologies = {
 			leads_to_tech = SPART_1980_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1980
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 26 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1980_armor = {
 		sp_artillery_brigade = {
 			armor_value = 0.05
@@ -2129,25 +2108,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 28 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1980_armor_2 = {
 		sp_artillery_brigade = {
 			armor_value = 0.1
@@ -2157,49 +2136,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 30 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1980_armor_3 = {
 		sp_artillery_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 32 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1980_soft_attack = {
 		sp_artillery_brigade = {
 			soft_attack = 0.05
@@ -2209,25 +2188,25 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 28 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1980_soft_attack_2 = {
 		sp_artillery_brigade = {
 			soft_attack = 0.1
@@ -2237,49 +2216,49 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 30 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPART_1980_soft_attack_3 = {
 		sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 32 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_art
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	SPART_1980_speed = {
 #		sp_artillery_brigade = {
 #			maximum_speed = 0.1
@@ -2304,29 +2283,29 @@ technologies = {
 #		
 #	}
 	SPART_1990 = {
-		
+
 		enable_equipments = {
 			MBT_artillery_equipment_5
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1990
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 34 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_art
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
 	###ANTI-AIR SYSTEMS. FIRST TOWED THEN SP###
 	antiair5 = {
@@ -2334,13 +2313,13 @@ technologies = {
 		enable_equipments = {
 			anti_air_equipment_1
 		}
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_anti_air_1
 		}
-		
+
 		path = {
-			leads_to_tech = antiair_1950 
+			leads_to_tech = antiair_1950
 			research_cost_coeff = 1
 		}
 
@@ -2348,69 +2327,69 @@ technologies = {
 			leads_to_tech = SPAA_1950
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = light_SPAA_1950
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
 
 		start_year = 1945
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 0 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 		categories = {
 			artillery
 			anti_air_tech
 		}
 	}
 	antiair_1950 = {
-		
+
 		enable_equipments = {
 			anti_air_equipment_2
 		}
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_anti_air_2
 		}
-		
+
 		path = {
-			leads_to_tech = antiair_1970 
+			leads_to_tech = antiair_1970
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = antiair_1950_air_attack 
+			leads_to_tech = antiair_1950_air_attack
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1950
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -4 y = 2 }
 		}
-		
+
 		categories = {
 			artillery
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	antiair_1950_air_attack = {
 		anti_air_brigade = {
 			air_attack = 0.05
@@ -2423,24 +2402,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 4 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1950_air_attack_2 = {
 		anti_air_brigade = {
 			air_attack = 0.1
@@ -2453,24 +2432,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 6 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1950_air_attack_3 = {
 		anti_air_brigade = {
 			air_attack = 0.15
@@ -2483,24 +2462,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 8 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1960_air_attack = {
 		anti_air_brigade = {
 			air_attack = 0.05
@@ -2513,24 +2492,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 12 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1960_air_attack_2 = {
 		anti_air_brigade = {
 			air_attack = 0.1
@@ -2543,24 +2522,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 14 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1960_air_attack_3 = {
 		anti_air_brigade = {
 			air_attack = 0.15
@@ -2569,60 +2548,60 @@ technologies = {
 			air_attack = 0.09
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 16 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1970 = {
-		
+
 		enable_equipments = {
 			anti_air_equipment_3
 		}
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_anti_air_3
 		}
-		
+
 		path = {
-			leads_to_tech = antiair_1990 
+			leads_to_tech = antiair_1990
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = antiair_1970_air_attack 
+			leads_to_tech = antiair_1970_air_attack
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1970
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -4 y = 18 }
 		}
-		
+
 		categories = {
 			artillery
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-		}		
+		}
 	}
 
 	antiair_1970_air_attack = {
@@ -2637,24 +2616,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 20 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1970_air_attack_2 = {
 		anti_air_brigade = {
 			air_attack = 0.1
@@ -2667,24 +2646,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 22 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1970_air_attack_3 = {
 		anti_air_brigade = {
 			air_attack = 0.15
@@ -2697,24 +2676,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 24 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1980_air_attack = {
 		anti_air_brigade = {
 			air_attack = 0.05
@@ -2727,24 +2706,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 28 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1980_air_attack_2 = {
 		anti_air_brigade = {
 			air_attack = 0.1
@@ -2757,24 +2736,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 30 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1980_air_attack_3 = {
 		anti_air_brigade = {
 			air_attack = 0.15
@@ -2783,59 +2762,59 @@ technologies = {
 			air_attack = 0.09
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 32 }
 		}
-		
+
 		categories = {
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	antiair_1990 = {
-		
+
 		enable_equipments = {
 			anti_air_equipment_4
 		}
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_anti_air_4
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1990
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -4 y = 34 }
 		}
-		
+
 		categories = {
 			artillery
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
 	light_SPAA_1950 = {
 		dependencies = {
 			mechanised_infantry3 = 1
 		}
 		enable_equipments = {
-			APC_aa_equipment_1
+			IFV_aa_equipment_1
 		}
 		enable_equipments = {
 			light_sp_anti_air_brigade
@@ -2853,27 +2832,27 @@ technologies = {
 			leads_to_tech = light_SPAA_1950_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1950
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 2 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_aa
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	light_SPAA_1950_armor = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.05
@@ -2883,26 +2862,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 4 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1950_armor_2 = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.1
@@ -2912,51 +2891,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 6 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1950_armor_3 = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 8 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1950_air_attack = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.05
@@ -2966,26 +2945,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 4 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1950_air_attack_2 = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.1
@@ -2995,46 +2974,46 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 6 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1950_air_attack_3 = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 8 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -3066,9 +3045,9 @@ technologies = {
 #		
 #	}
 	light_SPAA_1960 = {
-		
+
 		enable_equipments = {
-			APC_aa_equipment_2
+			IFV_aa_equipment_2
 		}
 
 		path = {
@@ -3083,28 +3062,28 @@ technologies = {
 			leads_to_tech = light_SPAA_1960_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1960
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 10 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_aa
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	light_SPAA_1960_armor = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.05
@@ -3114,26 +3093,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 12 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1960_armor_2 = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.1
@@ -3143,51 +3122,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 14 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1960_armor_3 = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 16 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1960_air_attack = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.05
@@ -3197,26 +3176,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 12 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1960_air_attack_2 = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.1
@@ -3226,51 +3205,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 14 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1960_air_attack_3 = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 16 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	light_SPAA_1960_speed = {
 #		
 #		light_sp_anti_air_brigade = {
@@ -3298,9 +3277,9 @@ technologies = {
 #		
 #	}
 	light_SPAA_1970 = {
-		
+
 		enable_equipments = {
-			APC_aa_equipment_3
+			IFV_aa_equipment_3
 		}
 
 		path = {
@@ -3315,27 +3294,27 @@ technologies = {
 			leads_to_tech = light_SPAA_1970_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1970
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 18 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_aa
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-		}		
+		}
 	}
-	
+
 	light_SPAA_1970_armor = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.05
@@ -3345,26 +3324,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 20 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1970_armor_2 = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.1
@@ -3374,51 +3353,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 22 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1970_armor_3 = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 24 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1970_air_attack = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.05
@@ -3428,26 +3407,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 20 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1970_air_attack_2 = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.1
@@ -3457,51 +3436,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 22 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1970_air_attack_3 = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 24 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	light_SPAA_1970_speed = {
 #		
 #		light_sp_anti_air_brigade = {
@@ -3529,9 +3508,9 @@ technologies = {
 #		
 #	}
 	light_SPAA_1980 = {
-		
+
 		enable_equipments = {
-			APC_aa_equipment_4
+			IFV_aa_equipment_4
 		}
 
 		path = {
@@ -3546,28 +3525,28 @@ technologies = {
 			leads_to_tech = light_SPAA_1980_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
-		
+
 		start_year = 1980
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 26 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_aa
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	light_SPAA_1980_armor = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.05
@@ -3577,26 +3556,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 28 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1980_armor_2 = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.1
@@ -3606,51 +3585,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 30 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1980_armor_3 = {
 		light_sp_anti_air_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 32 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1980_air_attack = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.05
@@ -3660,26 +3639,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 28 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1980_air_attack_2 = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.1
@@ -3689,51 +3668,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 30 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	light_SPAA_1980_air_attack_3 = {
 		light_sp_anti_air_brigade = {
 			air_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = -1 y = 32 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			APC_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	light_SPAA_1980_speed = {
 #		
 #		light_sp_anti_air_brigade = {
@@ -3761,20 +3740,20 @@ technologies = {
 #		
 #	}
 	light_SPAA_1990 = {
-		
+
 		enable_equipments = {
-			APC_aa_equipment_5
+			IFV_aa_equipment_5
 		}
-		
+
 		research_cost = 2
-		
+
 		start_year = 1990
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 34 }
 		}
-		
+
 		categories = {
 			artillery
 			APC_aa
@@ -3784,7 +3763,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
 	SPAA_1950 = {
 		dependencies = {
@@ -3808,28 +3787,28 @@ technologies = {
 			leads_to_tech = SPAA_1950_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1950
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 2 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_aa
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	SPAA_1950_armor = {
 		sp_anti_air_brigade = {
 			armor_value = 0.05
@@ -3839,26 +3818,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 4 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1950_armor_2 = {
 		sp_anti_air_brigade = {
 			armor_value = 0.1
@@ -3868,51 +3847,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 6 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1950_armor_3 = {
 		sp_anti_air_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 8 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1950_air_attack = {
 		sp_anti_air_brigade = {
 			air_attack = 0.05
@@ -3922,26 +3901,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1953
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 4 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1950_air_attack_2 = {
 		sp_anti_air_brigade = {
 			air_attack = 0.1
@@ -3951,53 +3930,79 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1956
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 6 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1950_air_attack_3 = {
 		sp_anti_air_brigade = {
 			air_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1959
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 8 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-		#	SPAA_1950_speed = {	#			#		sp_anti_air_brigade = {	#			maximum_speed = 0.1	#		}	#				#		research_cost = 1	#			#		start_year = 1950	#			#		folder = {	#			name = artillery_folder	#			position = { x = 3 y = 4 }	#		}	#			#		categories = {	#			artillery	#			MBT_aa	#			anti_air_tech	#		}	#			#		ai_will_do = {	#			factor = 1	#		}	#			#	}
+
+	#	SPAA_1950_speed = {
+	#		
+	#		sp_anti_air_brigade = {
+	#			maximum_speed = 0.1
+	#		}
+	#			
+	#		research_cost = 1
+	#		
+	#		start_year = 1950
+	#		
+	#		folder = {
+	#			name = artillery_folder
+	#			position = { x = 3 y = 4 }
+	#		}
+	#		
+	#		categories = {
+	#			artillery
+	#			MBT_aa
+	#			anti_air_tech
+	#		}
+	#		
+	#		ai_will_do = {
+	#			factor = 1
+	#		}
+	#		
+	#	}
 	SPAA_1960 = {
-		
+
 		enable_equipments = {
 			MBT_aa_equipment_2
 		}
@@ -4014,28 +4019,28 @@ technologies = {
 			leads_to_tech = SPAA_1960_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1960
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 10 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_aa
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	SPAA_1960_armor = {
 		sp_anti_air_brigade = {
 			armor_value = 0.05
@@ -4045,26 +4050,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 12 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1960_armor_2 = {
 		sp_anti_air_brigade = {
 			armor_value = 0.1
@@ -4074,51 +4079,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 14 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1960_armor_3 = {
 		sp_anti_air_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 16 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1960_air_attack = {
 		sp_anti_air_brigade = {
 			air_attack = 0.05
@@ -4128,26 +4133,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1963
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 12 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1960_air_attack_2 = {
 		sp_anti_air_brigade = {
 			air_attack = 0.1
@@ -4157,51 +4162,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1966
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 14 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1960_air_attack_3 = {
 		sp_anti_air_brigade = {
 			air_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1969
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 16 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	SPAA_1960_speed = {
 #		
 #		sp_anti_air_brigade = {
@@ -4229,7 +4234,7 @@ technologies = {
 #		
 #	}
 	SPAA_1970 = {
-		
+
 		enable_equipments = {
 			MBT_aa_equipment_3
 		}
@@ -4246,28 +4251,28 @@ technologies = {
 			leads_to_tech = SPAA_1970_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1
-		
+
 		start_year = 1970
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 18 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_aa
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	SPAA_1970_armor = {
 		sp_anti_air_brigade = {
 			armor_value = 0.05
@@ -4277,26 +4282,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 20 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1970_armor_2 = {
 		sp_anti_air_brigade = {
 			armor_value = 0.1
@@ -4306,51 +4311,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 22 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1970_armor_3 = {
 		sp_anti_air_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 24 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1970_air_attack = {
 		sp_anti_air_brigade = {
 			air_attack = 0.05
@@ -4360,26 +4365,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1973
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 20 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1970_air_attack_2 = {
 		sp_anti_air_brigade = {
 			air_attack = 0.1
@@ -4389,51 +4394,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1976
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 22 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1970_air_attack_3 = {
 		sp_anti_air_brigade = {
 			air_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1979
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 24 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	SPAA_1970_speed = {
 #		
 #		sp_anti_air_brigade = {
@@ -4461,7 +4466,7 @@ technologies = {
 #		
 #	}
 	SPAA_1980 = {
-		
+
 		enable_equipments = {
 			MBT_aa_equipment_4
 		}
@@ -4478,29 +4483,29 @@ technologies = {
 			leads_to_tech = SPAA_1980_armor
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
-		
+
 		start_year = 1980
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 26 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			artillery
 			MBT_aa
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 	}
-	
+
 	SPAA_1980_armor = {
 		sp_anti_air_brigade = {
 			armor_value = 0.05
@@ -4510,26 +4515,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 28 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1980_armor_2 = {
 		sp_anti_air_brigade = {
 			armor_value = 0.1
@@ -4539,51 +4544,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 30 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1980_armor_3 = {
 		sp_anti_air_brigade = {
 			armor_value = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 5 y = 32 }
 		}
-		
+
 		categories = {
 			armor_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1980_air_attack = {
 		sp_anti_air_brigade = {
 			air_attack = 0.05
@@ -4593,26 +4598,26 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1983
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 28 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1980_air_attack_2 = {
 		sp_anti_air_brigade = {
 			air_attack = 0.1
@@ -4622,51 +4627,51 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		
+
 		start_year = 1986
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 30 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	SPAA_1980_air_attack_3 = {
 		sp_anti_air_brigade = {
 			air_attack = 0.15
 		}
 		research_cost = 1
-		
+
 		start_year = 1989
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 32 }
 		}
-		
+
 		categories = {
 			turret_improvements
 			MBT_aa
 			anti_air_tech
 			artillery
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 #	SPAA_1980_speed = {
 #		
 #		sp_anti_air_brigade = {
@@ -4694,26 +4699,26 @@ technologies = {
 #		
 #	}
 	SPAA_1990 = {
-		
+
 		enable_equipments = {
 			MBT_aa_equipment_5
 		}
-		
+
 		research_cost = 2
-		
+
 		start_year = 1990
-		
+
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 34 }
 		}
-		
+
 		categories = {
 			artillery
 			MBT_aa
 			anti_air_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}

@@ -4,7 +4,7 @@ technologies = {
 		enable_equipments = {
 			helicopter_equipment_0
 		}
-	
+
 		path = {
 			leads_to_tech = early_helicopter
 			research_cost_coeff = 1
@@ -16,14 +16,14 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = -1 y = 3 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
@@ -35,7 +35,7 @@ technologies = {
 		enable_equipments = {
 			helicopter_equipment_1
 		}
-	
+
 		path = {
 			leads_to_tech = asw_helicopter_1960
 			research_cost_coeff = 1
@@ -59,14 +59,14 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 3 y = 3 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
@@ -78,7 +78,7 @@ technologies = {
 		enable_equipments = {
 			scout_helicopter_equipment_1
 		}
-	
+
 		path = {
 			leads_to_tech = scout_helicopter_1970
 			research_cost_coeff = 1
@@ -90,27 +90,27 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 7 y = 4 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	scout_helicopter_1970 = {
 
 		enable_equipments = {
 			scout_helicopter_equipment_2
 		}
-	
+
 		path = {
 			leads_to_tech = scout_helicopter_1980
 			research_cost_coeff = 1
@@ -122,27 +122,27 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 11 y = 4 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	scout_helicopter_1980 = {
 
 		enable_equipments = {
 			scout_helicopter_equipment_3
 		}
-	
+
 		path = {
 			leads_to_tech = scout_helicopter_1990
 			research_cost_coeff = 1
@@ -154,41 +154,41 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 15 y = 4 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	scout_helicopter_1990 = {
 
 		enable_equipments = {
 			scout_helicopter_equipment_4
 		}
-	
+
 		research_cost = 2
 		start_year = 1990
 		folder = {
 			name = helicopter_techs_folder
 			position = { x = 19 y = 4 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
@@ -201,7 +201,7 @@ technologies = {
 		enable_equipments = {
 			asw_helicopter_equipment_1
 		}
-	
+
 		path = {
 			leads_to_tech = asw_helicopter_1970
 			research_cost_coeff = 1
@@ -213,28 +213,27 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 7 y = 6 }
 		}
-		
+
 		categories = {
-			helicopter
 			asw_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	asw_helicopter_1970 = {
 
 		enable_equipments = {
 			asw_helicopter_equipment_2
 		}
-	
+
 		path = {
 			leads_to_tech = asw_helicopter_1980
 			research_cost_coeff = 1
@@ -246,28 +245,27 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 11 y = 6 }
 		}
-		
+
 		categories = {
-			helicopter
 			asw_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	asw_helicopter_1980 = {
 
 		enable_equipments = {
 			asw_helicopter_equipment_3
 		}
-	
+
 		path = {
 			leads_to_tech = asw_helicopter_1990
 			research_cost_coeff = 1
@@ -279,43 +277,41 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 15 y = 6 }
 		}
-		
+
 		categories = {
-			helicopter
 			asw_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	asw_helicopter_1990 = {
 
 		enable_equipments = {
 			asw_helicopter_equipment_4
 		}
-	
+
 		research_cost = 2
 		start_year = 1990
 		folder = {
 			name = helicopter_techs_folder
 			position = { x = 19 y = 6 }
 		}
-		
+
 		categories = {
-			helicopter
 			asw_tech
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
@@ -327,7 +323,7 @@ technologies = {
 		enable_equipments = {
 			attack_helicopter_equipment_1
 		}
-	
+
 		path = {
 			leads_to_tech = attack_helicopter_1970
 			research_cost_coeff = 1
@@ -339,27 +335,36 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 7 y = 2 }
 		}
-		
+
+		air_assault = {
+			need = {
+				attack_helicopter_equipment = 30
+			}
+		}
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
+		on_research_complete = {
+			custom_effect_tooltip = AIR_ASSAULT_ATTACK_HELICOPTER_ADDON
+		}
 	}
-	
+
 	attack_helicopter_1970 = {
 
 		enable_equipments = {
 			attack_helicopter_equipment_2
 		}
-	
+
 		path = {
 			leads_to_tech = attack_helicopter_1980
 			research_cost_coeff = 1
@@ -371,27 +376,27 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 11 y = 2 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	attack_helicopter_1980 = {
 
 		enable_equipments = {
 			attack_helicopter_equipment_3
 		}
-	
+
 		path = {
 			leads_to_tech = attack_helicopter_1990
 			research_cost_coeff = 1
@@ -403,41 +408,41 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 15 y = 2 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	attack_helicopter_1990 = {
 
 		enable_equipments = {
 			attack_helicopter_equipment_4
 		}
-	
+
 		research_cost = 2
 		start_year = 1990
 		folder = {
 			name = helicopter_techs_folder
 			position = { x = 19 y = 2 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
@@ -449,7 +454,7 @@ technologies = {
 		enable_equipments = {
 			transport_helicopter_equipment_1
 		}
-	
+
 		path = {
 			leads_to_tech = transport_helicopter_1970
 			research_cost_coeff = 1
@@ -461,27 +466,27 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 7 y = 0 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	transport_helicopter_1970 = {
 
 		enable_equipments = {
 			transport_helicopter_equipment_2
 		}
-	
+
 		path = {
 			leads_to_tech = transport_helicopter_1980
 			research_cost_coeff = 1
@@ -493,27 +498,27 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 11 y = 0 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	transport_helicopter_1980 = {
 
 		enable_equipments = {
 			transport_helicopter_equipment_3
 		}
-	
+
 		path = {
 			leads_to_tech = transport_helicopter_1990
 			research_cost_coeff = 1
@@ -525,41 +530,41 @@ technologies = {
 			name = helicopter_techs_folder
 			position = { x = 15 y = 0 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
 			}
 		}
 	}
-	
+
 	transport_helicopter_1990 = {
 
 		enable_equipments = {
 			transport_helicopter_equipment_4
 		}
-	
+
 		research_cost = 2
 		start_year = 1990
 		folder = {
 			name = helicopter_techs_folder
 			position = { x = 19 y = 0 }
 		}
-		
+
 		categories = {
 			helicopter
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA

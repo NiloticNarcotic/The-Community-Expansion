@@ -1,8 +1,8 @@
 technologies = {
 	###COMBINED OPERATIONS###
-	combined_operations = { 
-		xor = { maneuver_warfare strategic_theorem } 
-		
+	combined_operations = {
+		xor = { maneuver_warfare strategic_theorem }
+
 		air_cas_present_factor = 0.3
 		category_army = {
 			soft_attack = 0.1
@@ -10,33 +10,35 @@ technologies = {
 		}
 		enable_tactic = tactic_preemptive_strike
 
-		 
+
 		path = {
 			leads_to_tech = army_interoperability
 			research_cost_coeff = 1
 		}
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
 		}
-		
+
 		ai_will_do = {
-			factor = 35 
+			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			armor = 4.0
 		}
 	}
-	
+
 	army_interoperability = {
 
 		category_army = {
@@ -44,129 +46,137 @@ technologies = {
 		}
 		land_reinforce_rate = 0.02
 		enable_tactic = tactic_planned_attack
-		
+
 		path = {
 			leads_to_tech = support_companies
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
-			leads_to_tech = artillery_barrage 
+			leads_to_tech = artillery_barrage
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
 
 		categories = {
 			land_doctrine
 			cat_combined_operations
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			armor = 3.0
 		}
 	}
-	
+
 	support_companies  = {
 
 		category_support_battalions = {
-			max_organisation = 15
-			soft_attack = 0.30
+			max_organisation = 10
+			soft_attack = 0.2
 		}
-		
-        path = {
-			leads_to_tech = tactical_support 
+
+		path = {
+			leads_to_tech = tactical_support
 			research_cost_coeff = 1
 		}
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
 
 		categories = {
 			land_doctrine
 			cat_combined_operations
-		}	
-		
+		}
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 4 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			armor = 2.0
 		}
 	}
-	
+
 	artillery_barrage = { #Branch focused on combined army operations.
-		
-		
+
+
 		category_line_artillery = {
 			soft_attack = 0.15
 		}
 		category_tanks = {
 			soft_attack = 0.10
 		}
-		
+
 		enable_tactic = tactic_breakthrough
-		
+
 		path = {
-			leads_to_tech = preemptive_strike 
+			leads_to_tech = preemptive_strike
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 4 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			armor = 2.0
 			defensive = -12.0
 		}
 	}
-	
+
 	tactical_support = { #Branch focused on air assistance.
-	
+
 		air_cas_present_factor = 0.1
 		air_superiority_efficiency = 0.1
-		recon = {
+		category_recon = {
 			recon = 1
 		}
-	
+
 		path = {
-			leads_to_tech = organic_units 
+			leads_to_tech = organic_units
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
@@ -176,28 +186,30 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 6 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			armor = 16.0
 			offensive = -1.0
-			
+
 		}
 	}
-	
+
 	preemptive_strike = {
 
 		air_cas_present_factor = 0.15
 		enable_tactic = tactic_barrage
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
 
 		path = {
-			leads_to_tech = organic_units 
+			leads_to_tech = organic_units
 			research_cost_coeff = 1
 		}
 
@@ -205,16 +217,16 @@ technologies = {
 			land_doctrine
 			cat_combined_operations
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 6 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			armor = 2.5
 			offensive = -2.0
@@ -229,33 +241,35 @@ technologies = {
 		}
 		enable_tactic = tactic_blitz
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
 		}
 
 		path = {
-			leads_to_tech = airland_strikes 
+			leads_to_tech = airland_strikes
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = land_navy_coordination 
+			leads_to_tech = land_navy_coordination
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 8 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -267,9 +281,11 @@ technologies = {
 		air_cas_present_factor = 0.15
 		enable_tactic = tactic_overwhelming_fire
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
@@ -280,19 +296,19 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = vertical_envelopement 
+			leads_to_tech = vertical_envelopement
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 10 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -302,22 +318,24 @@ technologies = {
 	vertical_envelopement = {
 
 		air_assault = {
-			max_organisation = 15
+			max_organisation = 10
 			defense = 0.15
-			default_morale = 0.4
+			default_morale = 0.3
 		}
 		enable_tactic = tactic_vertical_envelopement
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
 		}
 
 		path = {
-			leads_to_tech = air_ground_task_forces 
+			leads_to_tech = air_ground_task_forces
 			research_cost_coeff = 1
 		}
 
@@ -325,11 +343,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 12 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -342,12 +360,14 @@ technologies = {
 
 		air_assault = {
 			soft_attack = 0.15
-			hard_attack = 0.15
+			hard_attack = 0.1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
@@ -357,11 +377,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 14 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -370,7 +390,9 @@ technologies = {
 
 	land_navy_coordination = {
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
 
 		marine = {
@@ -378,30 +400,30 @@ technologies = {
 		}
 
 		enable_tactic = tactic_amphibious_assault
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
 		}
 
 		path = {
-			leads_to_tech = marine_elite 
+			leads_to_tech = marine_elite
 			research_cost_coeff = 1
 		}
 
 		xor = {
 			airland_strikes
-		}	
-		
+		}
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 10 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -416,28 +438,30 @@ technologies = {
 			default_morale = 0.2
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
 		}
 
 		path = {
-			leads_to_tech = commando_landing_operations 
+			leads_to_tech = commando_landing_operations
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 12 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -452,9 +476,11 @@ technologies = {
 			default_morale = 0.1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_combined_operations
@@ -464,58 +490,60 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 14 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
 		}
 	}
- 
+
 	#####MANEUVER WARFARE#####
 	maneuver_warfare = {
 
 		category_all_armor = {
 			breakthrough = 0.1
 		}
-		
+
 		planning_speed = 0.2
 		army_speed_factor = 0.10
 		enable_tactic = tactic_unexpected_thrust
 		org_loss_when_moving = -0.1
 
-		xor = { combined_operations strategic_theorem } 
-		
-			
+		xor = { combined_operations strategic_theorem }
+
+
 		path = {
-			leads_to_tech = schwerpunkt_tactics 
+			leads_to_tech = schwerpunkt_tactics
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = massive_bombardment 
+			leads_to_tech = massive_bombardment
 			research_cost_coeff = 1
-		}	
-		
-		doctrine = yes	
+		}
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			artillery = 4.0
 		}
@@ -530,30 +558,32 @@ technologies = {
 		category_all_armor = {
 			default_morale = 0.1
 		}
-		
+
 
 		path = {
-			leads_to_tech = spearpoints 
+			leads_to_tech = spearpoints
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 2 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -564,38 +594,45 @@ technologies = {
 
 		category_tanks = {
 			max_organisation = 3
-			breakthrough = 0.20
-		}
-
-		motorized = {
-			max_organisation = 2
 			breakthrough = 0.15
 		}
-		
+
+		category_APC = {
+			max_organisation = 3
+			breakthrough = 0.1
+		}
+
+		category_motorized = {
+			max_organisation = 2
+			breakthrough = 0.1
+		}
+
 		enable_tactic = tactic_blitz
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
 
 		path = {
-			leads_to_tech = combined_blitz 
+			leads_to_tech = combined_blitz
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 4 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -605,32 +642,34 @@ technologies = {
 	massive_bombardment = {
 
 		category_line_artillery = {
-			soft_attack = 0.2
+			soft_attack = 0.15
 			hard_attack = 0.1
 		}
-		
+
 		path = {
-			leads_to_tech = overwhelming_strikes 
+			leads_to_tech = overwhelming_strikes
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 2 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -646,29 +685,31 @@ technologies = {
 		category_line_artillery = {
 			default_morale = 0.1
 		}
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
 
 		path = {
-			leads_to_tech = combined_blitz 
+			leads_to_tech = combined_blitz
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 4 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -678,47 +719,49 @@ technologies = {
 	combined_blitz = {
 
 		category_tanks = {
-			max_organisation = 1
+			max_organisation = 2
 		}
 
 		category_all_armor = {
 			default_morale = 0.1
 		}
-		
+
 		enable_tactic = tactic_breakthrough
-		
-		motorized = {
-			max_organisation = 5
+
+		category_motorized = {
+			max_organisation = 3
 		}
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
-		
+
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
 
 		path = {
-			leads_to_tech = adaptive_command_training 
+			leads_to_tech = adaptive_command_training
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = assault_concentration 
+			leads_to_tech = assault_concentration
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 6 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -734,34 +777,36 @@ technologies = {
 			max_organisation = 2
 		}
 		planning_speed = 0.25
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
-		
+
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
 
 		path = {
-			leads_to_tech = mission_type_tactics 
+			leads_to_tech = mission_type_tactics
 			research_cost_coeff = 1
 		}
 
 		xor = {
 			assault_concentration
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 8 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -769,8 +814,10 @@ technologies = {
 	}
 
 	mission_type_tactics = {
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
 
 		category_all_infantry = {
@@ -782,14 +829,14 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.1
 		}
-		
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
-		
+
 		path = {
-			leads_to_tech = military_deception 
+			leads_to_tech = military_deception
 			research_cost_coeff = 1
 		}
 
@@ -797,11 +844,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 10 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -809,41 +856,43 @@ technologies = {
 	}
 
 	military_deception = {
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
 
 		category_army = {
 			default_morale = 0.2
 			defense = 0.1
 		}
-		
+
 		enable_tactic = tactic_guerrilla_tactics
-		
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
-		
+
 		path = {
-			leads_to_tech = shock_and_awe 
+			leads_to_tech = shock_and_awe
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = military_deception 
+			leads_to_tech = military_deception
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 12 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -851,38 +900,40 @@ technologies = {
 	}
 
 	assault_concentration = {
-		
+
 		max_planning = 0.1
 
 		enable_tactic = tactic_overwhelming_fire
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
-		
+
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
 
 		path = {
-			leads_to_tech = strategic_depth_exploitation 
+			leads_to_tech = strategic_depth_exploitation
 			research_cost_coeff = 1
 		}
 
 		xor = {
 			adaptive_command_training
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 8 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -895,12 +946,14 @@ technologies = {
 		land_reinforce_rate = 0.05
 
 		enable_tactic = tactic_elastic_defense
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		path = {
-			leads_to_tech = supply_chain_extension 
+			leads_to_tech = supply_chain_extension
 			research_cost_coeff = 1
 		}
 
@@ -908,16 +961,16 @@ technologies = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 10 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -929,12 +982,14 @@ technologies = {
 		supply_consumption_factor = -0.10
 
 		enable_tactic = tactic_relentless_assault
-		
-		doctrine = yes	
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		path = {
-			leads_to_tech = shock_and_awe 
+			leads_to_tech = shock_and_awe
 			research_cost_coeff = 1
 		}
 
@@ -942,16 +997,16 @@ technologies = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 12 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -960,33 +1015,35 @@ technologies = {
 
 	shock_and_awe = {
 
-		category_all_infantry = { 
-			soft_attack = 0.05 
-			hard_attack = 0.05
-		}
-		category_artillery = { 
+		category_all_infantry = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
-		
-		doctrine = yes	
+		category_artillery = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
-		
+
+
 		categories = {
 			land_doctrine
 			cat_maneuver_warfare
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 14 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -996,80 +1053,84 @@ technologies = {
 	###STRATEGIC WARFARE###
 	strategic_theorem = {
 
-		xor = { combined_operations maneuver_warfare } 
-		
-		max_planning = 0.3
-		planning_speed = 0.25
-		max_dig_in = 10
-		
+		xor = { combined_operations maneuver_warfare }
+
+		max_planning = 0.25
+		planning_speed = 0.2
+		max_dig_in = 7.5
+
 		enable_tactic = tactic_overwhelming_attack
-		
+
 		path = {
-			leads_to_tech = operational_assault  
+			leads_to_tech = operational_assault
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = prepared_defense 
+			leads_to_tech = prepared_defense
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
 		}
 	}
-	
+
 	prepared_defense = {
-		
-		xor = { operational_assault } 
+
+		xor = { operational_assault }
 
 		category_army = {
 			defense = 0.10
 			max_organisation = 5
 		}
 		max_dig_in = 5
-		max_planning = 0.2
+		max_planning = 0.15
 		enable_tactic = tactic_delay
-		
+
 		path = {
-			leads_to_tech = army_reserve_training 
+			leads_to_tech = army_reserve_training
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 2 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1079,35 +1140,37 @@ technologies = {
 	army_reserve_training = {
 
 		conscription_factor = 0.10
-		minimum_training_level = -0.07	
+		minimum_training_level = -0.07
 		category_light_infantry = {
-			max_organisation = 20
-			defense = 0.2
+			max_organisation = 15
+			defense = 0.15
 		}
 
 
 		path = {
-			leads_to_tech = infrastructural_reserve 
+			leads_to_tech = infrastructural_reserve
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 4 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1120,28 +1183,30 @@ technologies = {
 		out_of_supply_factor = -0.10
 		#partisan_effect = 0.2
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
 		}
 
 		path = {
-			leads_to_tech = comprehensive_strategic_analysis 
+			leads_to_tech = comprehensive_strategic_analysis
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 6 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1156,16 +1221,18 @@ technologies = {
 
 		enable_tactic = tactic_blitz
 
-		xor = { prepared_defense } 
+		xor = { prepared_defense }
 
 		path = {
-			leads_to_tech = large_front_operations 
+			leads_to_tech = large_front_operations
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
@@ -1175,11 +1242,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 2 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1192,15 +1259,17 @@ technologies = {
 		supply_consumption_factor = -0.10
 
 		enable_tactic = tactic_relentless_assault
-	
+
 		path = {
-			leads_to_tech = overwhelming_force 
+			leads_to_tech = overwhelming_force
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
@@ -1210,11 +1279,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 4 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1223,24 +1292,26 @@ technologies = {
 	}
 
 	overwhelming_force = {
-		
+
 		category_army = {
-			soft_attack = 0.15
+			soft_attack = 0.1
 			hard_attack = 0.1
 		}
-		planning_speed = 0.25
+		planning_speed = 0.2
 		enable_tactic = tactic_unexpected_thrust
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
 		}
 
 		path = {
-			leads_to_tech = comprehensive_strategic_analysis 
+			leads_to_tech = comprehensive_strategic_analysis
 			research_cost_coeff = 1
 		}
 
@@ -1248,11 +1319,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 6 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1267,13 +1338,15 @@ technologies = {
 		enable_tactic = tactic_planned_attack
 
 		path = {
-			leads_to_tech = large_scale_exercises 
+			leads_to_tech = large_scale_exercises
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
@@ -1283,11 +1356,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 8 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1298,24 +1371,26 @@ technologies = {
 	large_scale_exercises = {
 
 		category_all_infantry = {
-			max_organisation = 10
+			max_organisation = 7.5
 		}
 		category_army = {
-			default_morale = 0.25
+			default_morale = 0.2
 		}
 
 		path = {
-			leads_to_tech = supply_routes  
+			leads_to_tech = supply_routes
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = strategic_cycles  
+			leads_to_tech = strategic_cycles
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
@@ -1325,11 +1400,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 10 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1344,13 +1419,15 @@ technologies = {
 		enable_tactic = tactic_infantry_charge
 
 		path = {
-			leads_to_tech = wartime_industry  
+			leads_to_tech = wartime_industry
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
@@ -1360,11 +1437,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 12 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1374,12 +1451,16 @@ technologies = {
 
 	wartime_industry = {
 
-		production_speed_arms_factory_factor = 0.15
-		conversion_cost_civ_to_mil_factor= -0.3
+		production_speed_barracks_factor = 0.1
+		production_speed_air_base_factor = 0.1
+		production_speed_naval_base_factor = 0.1
+		production_units_to_GDP_ratio_modifier = 0.01
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
@@ -1389,11 +1470,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 14 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1413,9 +1494,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
@@ -1425,11 +1508,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 12 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0
@@ -1439,14 +1522,16 @@ technologies = {
 
 	concurrent_front_assaults = {
 
-		planning_speed = 0.3
+		planning_speed = 0.25
 		max_planning = 0.2
-		org_loss_when_moving = -0.25
+		org_loss_when_moving = -0.2
 		enable_tactic = tactic_breakthrough
 
-		doctrine = yes	
+		doctrine = yes
+		xp_research_type = army
+		xp_unlock_cost = 100
 		research_cost = 1.5
-		
+
 		categories = {
 			land_doctrine
 			cat_strategic_theorem
@@ -1456,11 +1541,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 14 }
 		}
-		
+
 		ai_will_do = {
 			factor = 35
 		}
-		
+
 		ai_research_weights = {
 			infantry_weapons = 1.5
 			motorized_equipment = 1.0

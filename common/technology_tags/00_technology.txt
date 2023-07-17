@@ -12,7 +12,7 @@ technology_categories = {
 	cat_maneuver_warfare
 	cat_strategic_theorem
 	support_tech #All support companies
-	para_tech #Paratroopers tech, now for air assault
+	air_assault_tech
 	engineers_tech
 	recon_tech
 	mountaineers_tech
@@ -98,12 +98,17 @@ technology_categories = {
 	radar_tech
 	construction_tech
 	excavation_tech
+	nuclear_tech
+	energy_tech
 
 	###Misc
 	asw_tech #For ASW Helicopters and Sonar
 	jet_technology #Not for planes, just jet research
 	missile #For the 3 missile types
 	helicopter_support #For heli support companies
+	pony_tech # Project Ferus
+	
+	train_tech
 }
 
 technology_folders = {
@@ -114,9 +119,21 @@ technology_folders = {
 		ledger = army
 	}
 	armour_folder = {
+		available = {
+			NOT = { has_dlc = "No Step Back" }
+		}
 		ledger = army
 	}
 	artillery_folder = {
+		available = {
+			NOT = { has_dlc = "No Step Back" }
+		}
+		ledger = army
+	}
+	nsb_armour_folder = {
+		available = {
+			has_dlc = "No Step Back"
+		}
 		ledger = army
 	}
 	helicopter_techs_folder = {
@@ -158,7 +175,14 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
-	hidden_folder = {	###For holding custom techs
+	horse_folder = {
+		ledger = army
+		available = {
+			original_tag = OMO
+			OMO_2022_aprilfools_gamerule_active = yes
+		}
+	}
+	hidden_folder = { # For holding custom techs
 		available = {
 			always = no
 		}
