@@ -1231,49 +1231,67 @@ on_actions = {
 		}
 	}
 
+	###DEGERMANIZATION###
 	on_state_control_changed = {
 		effect = {
 			if = {
 				limit = {
-					FROM = {
+					ROOT = {
 						OR = {
-							tag = COG
-							COG = {
-							has_cosmetic_tag = COG_USA	
-							}
-							tag = MZB
-							MZB = {
+						tag = MZB
+						AND = {
+						MZB = {
 							OR = {
-							has_cosmetic_tag = MZB_USA
-							has_cosmetic_tag = MZB_CAR
+							has_cosmetic_tag = MZB_GER
+							has_cosmetic_tag = MZB_REICHSTAAT
+							has_cosmetic_tag = MZB_REICHSTAAT_2
+							has_cosmetic_tag = MZB_REICHSTAAT_3
 								}
 							}
-							tag = ANG
-							ANG = {
-							has_cosmetic_tag = ANG_USA	
+						}
+						tag = COG
+						AND = {
+						COG = {
+							has_cosmetic_tag = COG_GER	
 							}
-							tag = SAF
+						}
+						tag = ANG
+						AND = {
+						ANG = {
+							has_cosmetic_tag = ANG_GER	
+							}
+						}
+						tag = NAM
+						AND = {
+						NAM = {
+							has_cosmetic_tag = NAM_GER	
+								}
+							}
 						}
 					}
-					ROOT = {
-						NOT = {
-							OR = {
-							tag = COG
-							COG = {
-							has_cosmetic_tag = COG_USA	
-							}
-							tag = MZB
-							MZB = {
+					FROM = {
+						OR = {
+						tag = SAF
+						tag = MZB
+						AND = {
+						MZB = {
 							OR = {
 							has_cosmetic_tag = MZB_USA
-							has_cosmetic_tag = MZB_CAR
+							has_cosmetic_tag = USA_CAR
 								}
 							}
-							tag = ANG
-							ANG = {
-							has_cosmetic_tag = ANG_USA	
+						}
+						tag = COG
+						AND = {
+						COG = {
+							has_cosmetic_tag = COG_USA	
 							}
-							tag = SAF
+						}
+						tag = ANG
+						AND = {
+						ANG = {
+							has_cosmetic_tag = ANG_USA
+								}
 							}
 						}
 					}
@@ -1391,15 +1409,139 @@ on_actions = {
 				}
 				if = {
 					limit = {
-						FROM.FROM = { state = 1082 }
+						FROM.FROM = { state = 541 }
 					}
-					set_province_name = { id = 12911 name = "Lüderitz" }
+					set_province_name = { id = 5154 name = "Lüderitz" }
 				}
 				if = {
 					limit = {
 						FROM.FROM = { state = 1036 }
 					}
 					set_province_name = { id = 10966 name = "Nova Lisboa" }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1065 }
+					}
+					set_province_name = { id = 13698 name = "Fort Victoria" }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1073 }
+						tag = SAF
+					}
+					1073 = { set_state_name = "Vila Cabral" }
+					set_province_name = { id = 13792 name = "Vila Cabral" }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1073 }
+						NOT = {
+						tag = SAF
+						}
+					}
+					1073 = { set_state_name = "Lichinga" }
+					set_province_name = { id = 13792 name = "Lichinga" }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 748 }
+						tag = SAF
+					}
+					748 = { set_state_name = "Fort Rosebery" }
+					set_province_name = { id = 13828 name = "Fort Rosebery" }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 748 }
+						NOT = {
+						tag = SAF
+						}
+					}
+					748 = { set_state_name = "Mansa" }
+					set_province_name = { id = 13828 name = "Mansa" }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1072 }
+						tag = SAF
+					}
+					1072  = { set_state_name = "Porto Amelia" }
+					set_province_name = { id = 13796 name = "Porto Amelia" }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1072 }
+						NOT = {
+						tag = SAF
+						}
+					}
+					1072  = { set_state_name = "Pemba" }
+					set_province_name = { id = 13796 name = "Pemba" }
+				}
+				###GERMANIZATION/AFRIKAANIZATION###
+				if = {
+					limit = {
+						FROM = {
+						OR = {
+						tag = SAF
+						tag = MZB
+						AND = {
+						MZB = {
+							OR = {
+							has_cosmetic_tag = MZB_USA
+							has_cosmetic_tag = USA_CAR
+								}
+							}
+						}
+						tag = COG
+						AND = {
+						COG = {
+							has_cosmetic_tag = COG_USA	
+							}
+						}
+						tag = ANG
+						AND = {
+						ANG = {
+							has_cosmetic_tag = ANG_USA
+									}
+								}
+							}
+						}
+						ROOT = {
+						OR = {
+						tag = MZB
+						AND = {
+						MZB = {
+							OR = {
+							has_cosmetic_tag = MZB_GER
+							has_cosmetic_tag = MZB_REICHSTAAT
+							has_cosmetic_tag = MZB_REICHSTAAT_2
+							has_cosmetic_tag = MZB_REICHSTAAT_3
+								}
+							}
+						}
+						tag = COG
+						AND = {
+						COG = {
+							has_cosmetic_tag = COG_GER	
+							}
+						}
+						tag = ANG
+						AND = {
+						ANG = {
+							has_cosmetic_tag = ANG_GER	
+							}
+						}
+						tag = NAM
+						AND = {
+						NAM = {
+							has_cosmetic_tag = NAM_GER	
+								}
+							}
+							tag = BOR
+						}
+					}
 				}
 				if = {
 					limit = {
@@ -1479,31 +1621,156 @@ on_actions = {
 				}
 				if = {
 					limit = {
+						FROM.FROM = { state = 1057 }
+					}
+					1057 = { reset_state_name = yes }
+					reset_province_name = { 13816 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1177 }
+					}
+					reset_province_name = { 13384 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1175 }
+					}
+					reset_province_name = { 13378 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1088 }
+					}
+					reset_province_name = { 13383 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 548 }
+					}
+					reset_province_name = { 12989 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1182 }
+					}
+					reset_province_name = { 3165 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 545 }
+					}
+					545 = { reset_state_name = yes }
+					reset_province_name = { 13666 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1178 }
+					}
+					reset_province_name = { 6027 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1061 }
+					}
+					reset_province_name = { 13730 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1066 }
+					}
+					reset_province_name = { 13765 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1054 }
+					}
+					reset_province_name = { 13735 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1063 }
+					}
+					reset_province_name = { 13207 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1118 }
+					}
+					reset_province_name = { 13879 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 778 }
+					}
+					778 = { reset_state_name = yes }
+					reset_province_name = { 4879 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1213 }
+					}
+					reset_province_name = { 13622 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1031 }
+					}
+					reset_province_name = { 13716 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1035 }
+					}
+					reset_province_name = { 14414 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1033 }
+					}
+					reset_province_name = { 12985 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1082 }
+					}
+					reset_province_name = { 12911 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1036 }
+					}
+					reset_province_name = { 10966 }
+				}
+				if = {
+					limit = {
 						FROM.FROM = { state = 1065 }
 					}
-					set_province_name = { id = 13698 name = "Fort Victoria" }
+					reset_province_name = { 13698 }
 				}
 				if = {
 					limit = {
 						FROM.FROM = { state = 1073 }
-						tag = SAF
 					}
-					1073 = { set_state_name = "Vila Cabral" }
-					set_province_name = { id = 13792 name = "Vila Cabral" }
+					1073 = { reset_state_name = yes }
+					reset_province_name = { 13792 }
 				}
 				if = {
 					limit = {
-						FROM.FROM = { state = 1073 }
-						NOT = {
-						tag = SAF
-						}
+						FROM.FROM = { state = 748 }
 					}
-					1073 = { set_state_name = "Lichinga" }
-					set_province_name = { id = 13792 name = "Lichinga" }
+					748 = { reset_state_name = yes }
+					reset_province_name = { 13828 }
+				}
+				if = {
+					limit = {
+						FROM.FROM = { state = 1072 }
+					}
+					1072 = { reset_state_name = yes }
+					reset_province_name = { 13796 }
+					}
 				}
 			}
 		}
 	}
-}
-
-
+}	

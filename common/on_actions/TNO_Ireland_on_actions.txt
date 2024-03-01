@@ -23,16 +23,16 @@ on_actions = {
 					UVF_Anger = 1
 				}
 				set_variable = {
-					RIRA_Anger = 2
+					ICG_Anger = 2
 				}
 				set_variable = {
-					SE_Anger = 1 
+					IRA_Anger = 1 
 				}
 				set_variable = {
-					RIRA_Power = 40 
+					ICG_Power = 40 
 				}
 				set_variable = {
-					SE_Power = 60 
+					IRA_Power = 60 
 				}
 				set_variable = {
 					UVF_Power = 70

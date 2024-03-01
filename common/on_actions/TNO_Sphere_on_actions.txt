@@ -91,20 +91,21 @@ on_actions =  {
 				country_event = { id = jap.131 days = 217 } #Japan-Korea Tunnel
 				country_event = { id = jap.100 days = 217 } #Showa birthday
 				country_event = { id = japflavor.36 days = 211 } #meiji
+				#country_event = { id = jap_newflavor }
 				country_event =  { id = men.22 days = 240 random = 480 } #Japan can full intervene into Mongolian Civil War
 				country_event = { id = jap.120 days = 277 random = 720 }
 				country_event = { id = jap.116 days = 340 random = 250 }
 				country_event = { id = japleadup.1 days = 166 } #INVESTIONGATION START
 				country_event = { id = jap.102 days = 365 random = 720 }
 				country_event = { id = japflavor.47 days = 120 random = 150 } #japanese-russian boat encounter
-				country_event = { id = japflavor.48 days = 120 random = 150 } #vietnam gang shit
-				country_event = { id = japflavor.49 days = 120 random = 150 } #revisionism :)
-				#country_event = { id = japflavor.50 days = 120 random = 150 } #funni mouse
+				country_event = { id = japflavor.48 days = 180 random = 180 } #vietnam gang shit
+				country_event = { id = japflavor.49 days = 300 random = 210 } #revisionism :)
+				#country_event = { id = japflavor.50 days = 420 random = 240 } #funni mouse
 				country_event = { id = japflavor.38 days = 465 random = 28 } #trot rise up
 				country_event = { id = japflavor.51 days = 493 random = 30 }
-				country_event = { id = japflavor.52 days = 503 random = 30 } 
-				country_event = { id = japflavor.53 days = 513 random = 30 }  
-				country_event = { id = japflavor.35 days = 562 } #extreme aleutian tourism
+				country_event = { id = japflavor.52 days = 611 random = 50 } 
+				country_event = { id = japflavor.53 days = 734 random = 70 }  
+				country_event = { id = japflavor.35 days = 562 random = 400 } #extreme aleutian tourism
 				country_event = { id = jap.106 days = 646 random = 720 }
 				country_event = { id = jap.107 days = 762 random = 1440 }
 				country_event = { id = japflavor.37 days = 816  } #alaska earthquake
@@ -115,6 +116,11 @@ on_actions =  {
 				#Misc Flavour VVVVV
 				country_event = { id = jap_newflavour.41 days = 60 random = 300 }
 				country_event = { id = jap_newflavour.42 days = 60 random = 300 }
+				#Guarded Pearl exercises
+				country_event = { id = jap_newflavour.43 days = 720 random = 30 }
+				country_event = { id = jap_newflavour.44 days = 2880 random = 30 }
+				country_event = { id = jap_newflavour.45 days = 2910 random = 30 }
+				country_event = { id = jap_newflavour.46 days = 2940 random = 30 }
 			}
 
 			YUN = {

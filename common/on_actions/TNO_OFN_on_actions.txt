@@ -4,219 +4,211 @@ on_actions = {
 	######## SAF CAPTURE EVENTS
 
 	on_state_control_changed = {
-	        effect = {
+	    effect = {
+			if = { # Cape Town capture event
+				limit = {
+					OR = {
+						AND = {
+							ROOT = { tag = BOR }
+							FROM = { tag = SAF }
+							FROM.FROM = { state = 681 }
+						}
+						AND = {
+							ROOT = { tag = ANG }
+							FROM = { tag = SAF }
+							FROM.FROM = { state = 681 }
+						}
+					}
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.17 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.17 days = 1 } }
+				ANG = { country_event =  { id = USA.saf.war.missions.17 days = 1 } }
+				BOR = { country_event =  { id = USA.saf.war.missions.17 days = 1 } }
+			}
 
-					if = { # Cape Town capture event
-							limit = {
+			if = { # East London capture event
+				limit = {
+					OR = {
+						AND = {
+							ROOT = { tag = BOR }
+							FROM = { tag = SAF }
+							FROM.FROM = { state = 934 }
+						}
+						AND = {
+							ROOT = { tag = MZB }
+							FROM = { tag = SAF }
+							FROM.FROM = { state = 934 }
+						}
+					}
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.15 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.15 days = 1 } }
+				MZB = { country_event =  { id = USA.saf.war.missions.15 days = 1 } }
+				BOR = { country_event =  { id = USA.saf.war.missions.15 days = 1 } }
+			}
 
-							OR = {
-								AND = {
-									ROOT = { tag = BOR }
-									FROM = { tag = SAF }
-									FROM.FROM = { state = 681 }
-										}
+			if = { # Salisbury Capture event
+				limit = {
+					ROOT = { tag = SAF }
+					FROM = { tag = MZB }
+					FROM.FROM = { state = 1061 }
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.13 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.13 days = 1 } }
+				MZB = { country_event =  { id = USA.saf.war.missions.13 days = 1 } }
+			}
 
-								AND = {
-									ROOT = { tag = ANG }
-									FROM = { tag = SAF }
-									FROM.FROM = { state = 681 }
-										}
-								}
-							}
-							USA = { country_event =  { id = USA.saf.war.missions.17 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.17 days = 1 } }
-							ANG = { country_event =  { id = USA.saf.war.missions.17 days = 1 } }
-							BOR = { country_event =  { id = USA.saf.war.missions.17 days = 1 } }
-							}
+			if = { # Salisbury recapture event
+				limit = {
+					ROOT = { tag = MZB }
+					FROM = { tag = SAF }
+					FROM.FROM = { state = 1061 }
+					has_global_flag = SAF_WAR_Salisbury_captured_Captured
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.14 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.14 days = 1 } }
+				MZB = { country_event =  { id = USA.saf.war.missions.14 days = 1 } }
+				}
 
-					if = { # East London capture event
-							limit = {
-							OR = {
-								AND = {
-									ROOT = { tag = BOR }
-									FROM = { tag = SAF }
-									FROM.FROM = { state = 934 }
-										}
+			if = { # Quelilmane Capture event
+				limit = {
+					ROOT = { tag = SAF }
+					FROM = { tag = MZB }
+					FROM.FROM = { state = 544 }
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.11 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.11 days = 1 } }
+				MZB = { country_event =  { id = USA.saf.war.missions.11 days = 1 } }
+			}
 
+			if = { # Quelilmane recapture event
+				limit = {
+					ROOT = { tag = MZB }
+					FROM = { tag = SAF }
+					FROM.FROM = { state = 544 }
+					has_global_flag = SAF_WAR_Quelilmane_Captured
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.12 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.12 days = 1 } }
+				MZB = { country_event =  { id = USA.saf.war.missions.12 days = 1 } }
+			}
 
-								AND = {
-									ROOT = { tag = MZB }
-									FROM = { tag = SAF }
-									FROM.FROM = { state = 934 }
-										}
-								}
-							}
-							USA = { country_event =  { id = USA.saf.war.missions.15 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.15 days = 1 } }
-							MZB = { country_event =  { id = USA.saf.war.missions.15 days = 1 } }
-							BOR = { country_event =  { id = USA.saf.war.missions.15 days = 1 } }
-							}
+			if = { # Leopold Capture event
+				limit = {
+					ROOT = { tag = SAF }
+					FROM = { tag = COG }
+					FROM.FROM = { state = 295 }
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.9 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.9 days = 1 } }
+				COG = { country_event =  { id = USA.saf.war.missions.9 days = 1 } }
+			}
 
-					if = { # Salisbury Capture event
-							limit = {
-								ROOT = { tag = SAF }
-								FROM = { tag = MZB }
-								FROM.FROM = { state = 1061 }
-									}
-							USA = { country_event =  { id = USA.saf.war.missions.13 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.13 days = 1 } }
-							MZB = { country_event =  { id = USA.saf.war.missions.13 days = 1 } }
-							}
+			if = { # Leopold recapture event
+				limit = {
+					ROOT = { tag = COG }
+					FROM = { tag = SAF }
+					FROM.FROM = { state = 295 }
+					has_global_flag = SAF_WAR_Leopoldville_Captured
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.10 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.10 days = 1 } }
+				COG = { country_event =  { id = USA.saf.war.missions.10 days = 1 } }
+			}
 
-							if = { # Salisbury recapture event
-									limit = {
-										ROOT = { tag = MZB }
-										FROM = { tag = SAF }
-										FROM.FROM = { state = 1061 }
-										has_global_flag = SAF_WAR_Salisbury_captured_Captured
-										}
-									USA = { country_event =  { id = USA.saf.war.missions.14 days = 1 } }
-									SAF = { country_event =  { id = USA.saf.war.missions.14 days = 1 } }
-									MZB = { country_event =  { id = USA.saf.war.missions.14 days = 1 } }
-									}
+			if = { # Libreville Capture event
+				limit = {
+					ROOT = { tag = SAF }
+					FROM = { tag = COG }
+					FROM.FROM = { state = 529 }
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.7 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.7 days = 1 } }
+				COG = { country_event =  { id = USA.saf.war.missions.7 days = 1 } }
+			}
 
-					if = { # Quelilmane Capture event
-							limit = {
-								ROOT = { tag = SAF }
-								FROM = { tag = MZB }
-								FROM.FROM = { state = 544 }
-									}
-							USA = { country_event =  { id = USA.saf.war.missions.11 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.11 days = 1 } }
-							MZB = { country_event =  { id = USA.saf.war.missions.11 days = 1 } }
-							}
+			if = { # Libreville recapture event
+				limit = {
+					ROOT = { tag = COG }
+					FROM = { tag = SAF }
+					FROM.FROM = { state = 529 }
+					has_global_flag = SAF_WAR_Libre_Captured
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.8 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.8 days = 1 } }
+				COG = { country_event =  { id = USA.saf.war.missions.8 days = 1 } }
+			}
 
-							if = { # Quelilmane recapture event
-									limit = {
-										ROOT = { tag = MZB }
-										FROM = { tag = SAF }
-										FROM.FROM = { state = 544 }
-										has_global_flag = SAF_WAR_Quelilmane_Captured
-										}
-									USA = { country_event =  { id = USA.saf.war.missions.12 days = 1 } }
-									SAF = { country_event =  { id = USA.saf.war.missions.12 days = 1 } }
-									MZB = { country_event =  { id = USA.saf.war.missions.12 days = 1 } }
-									}
+			if = { # Johanas capture event
+				limit = {
+					ROOT = { tag = SAF }
+					FROM = { tag = BOR }
+					FROM.FROM = { state = 940 }
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.5 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.5 days = 1 } }
+				BOR = { country_event =  { id = USA.saf.war.missions.5 days = 1 } }
+			}
 
-					if = { # Leopold Capture event
-							limit = {
-								ROOT = { tag = SAF }
-								FROM = { tag = COG }
-								FROM.FROM = { state = 295 }
-									}
-							USA = { country_event =  { id = USA.saf.war.missions.9 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.9 days = 1 } }
-							COG = { country_event =  { id = USA.saf.war.missions.9 days = 1 } }
-							}
+			if = { # Johanas recapture event
+				limit = {
+					ROOT = { tag = BOR }
+					FROM = { tag = SAF }
+					FROM.FROM = { state = 275 }
+					has_global_flag = SAF_WAR_Johans_Captured
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.6 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.6 days = 1 } }
+				BOR = { country_event =  { id = USA.saf.war.missions.6 days = 1 } }
+			}
 
-							if = { # Leopold recapture event
-									limit = {
-										ROOT = { tag = COG }
-										FROM = { tag = SAF }
-										FROM.FROM = { state = 295 }
-										has_global_flag = SAF_WAR_Leopoldville_Captured
-										}
-									USA = { country_event =  { id = USA.saf.war.missions.10 days = 1 } }
-									SAF = { country_event =  { id = USA.saf.war.missions.10 days = 1 } }
-									COG = { country_event =  { id = USA.saf.war.missions.10 days = 1 } }
-									}
+			if = { # Bloem Capture
+				limit = {
+					ROOT = { tag = SAF }
+					FROM = { tag = BOR }
+					FROM.FROM = { state = 275 }
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.3 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.3 days = 1 } }
+				BOR = { country_event =  { id = USA.saf.war.missions.3 days = 1 } }
+			}
 
-					if = { # Libreville Capture event
-					limit = {
-						ROOT = { tag = SAF }
-						FROM = { tag = COG }
-						FROM.FROM = { state = 529 }
-							}
-							USA = { country_event =  { id = USA.saf.war.missions.7 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.7 days = 1 } }
-							COG = { country_event =  { id = USA.saf.war.missions.7 days = 1 } }
-							}
+			if = { # Bloem recapture
+				limit = {
+					ROOT = { tag = BOR }
+					FROM = { tag = SAF }
+					FROM.FROM = { state = 275 }
+					has_global_flag = SAF_WAR_Bloem_Captured
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.4 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.4 days = 1 } }
+				BOR = { country_event =  { id = USA.saf.war.missions.4 days = 1 } }
+			}
 
-							if = { # Libreville recapture event
-								limit = {
-									ROOT = { tag = COG }
-									FROM = { tag = SAF }
-									FROM.FROM = { state = 529 }
-									has_global_flag = SAF_WAR_Libre_Captured
-									}
-									USA = { country_event =  { id = USA.saf.war.missions.8 days = 1 } }
-									SAF = { country_event =  { id = USA.saf.war.missions.8 days = 1 } }
-									COG = { country_event =  { id = USA.saf.war.missions.8 days = 1 } }
-									}
+			if = { # Windhoek recapture
+				limit = {
+					ROOT = { tag = ANG }
+					FROM = { tag = SAF }
+					FROM.FROM = { state = 778 }
+					has_global_flag = SAF_WAR_Windhoek_Captured
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.2 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.2 days = 1 } }
+				ANG = { country_event =  { id = USA.saf.war.missions.2 days = 1 } }
+			}
 
-					if = { # Johanas capture event
-						limit = {
-							ROOT = { tag = SAF }
-							FROM = { tag = BOR }
-							FROM.FROM = { state = 940 }
-								}
-							USA = { country_event =  { id = USA.saf.war.missions.5 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.5 days = 1 } }
-							BOR = { country_event =  { id = USA.saf.war.missions.5 days = 1 } }
-							}
-
-							if = { # Johanas recapture event
-								limit = {
-									ROOT = { tag = BOR }
-									FROM = { tag = SAF }
-									FROM.FROM = { state = 275 }
-									has_global_flag = SAF_WAR_Johans_Captured
-									}
-									USA = { country_event =  { id = USA.saf.war.missions.6 days = 1 } }
-									SAF = { country_event =  { id = USA.saf.war.missions.6 days = 1 } }
-									BOR = { country_event =  { id = USA.saf.war.missions.6 days = 1 } }
-									}
-
-					if = { # Bloem Capture
-						limit = {
-							ROOT = { tag = SAF }
-							FROM = { tag = BOR }
-							FROM.FROM = { state = 275 }
-								}
-							USA = { country_event =  { id = USA.saf.war.missions.3 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.3 days = 1 } }
-							BOR = { country_event =  { id = USA.saf.war.missions.3 days = 1 } }
-							}
-
-							if = { # Bloem recapture
-								limit = {
-									ROOT = { tag = BOR }
-									FROM = { tag = SAF }
-									FROM.FROM = { state = 275 }
-									has_global_flag = SAF_WAR_Bloem_Captured
-									}
-									USA = { country_event =  { id = USA.saf.war.missions.4 days = 1 } }
-									SAF = { country_event =  { id = USA.saf.war.missions.4 days = 1 } }
-									BOR = { country_event =  { id = USA.saf.war.missions.4 days = 1 } }
-									}
-
-					if = { # Windhoek recapture
-							limit = {
-								ROOT = { tag = ANG }
-								FROM = { tag = SAF }
-								FROM.FROM = { state = 778 }
-								has_global_flag = SAF_WAR_Windhoek_Captured
-							}
-							USA = { country_event =  { id = USA.saf.war.missions.2 days = 1 } }
-							SAF = { country_event =  { id = USA.saf.war.missions.2 days = 1 } }
-							ANG = { country_event =  { id = USA.saf.war.missions.2 days = 1 } }
-							}
-
-	            if = { # Windhoek capture
-	                limit = {
-    								ROOT = { tag = SAF }
-    								FROM = { tag = ANG }
-    								FROM.FROM = { state = 778 }
-											}
-									USA = { country_event =  { id = USA.saf.war.missions.1 days = 1 } }
-									SAF = { country_event =  { id = USA.saf.war.missions.1 days = 1 } }
-									ANG = { country_event =  { id = USA.saf.war.missions.1 days = 1 } }
-	                }
-
-	            }
-
-
+	        if = { # Windhoek capture
+	            limit = {
+    				ROOT = { tag = SAF }
+    				FROM = { tag = ANG }
+    				FROM.FROM = { state = 778 }
+				}
+				USA = { country_event =  { id = USA.saf.war.missions.1 days = 1 } }
+				SAF = { country_event =  { id = USA.saf.war.missions.1 days = 1 } }
+				ANG = { country_event =  { id = USA.saf.war.missions.1 days = 1 } }
 	        }
+	    }
+	}
 
 	#EVENTS
 	on_startup = {
@@ -419,6 +411,7 @@ on_actions = {
 				country_event = { id = USA.flavor.14 days = 910 }
 				country_event = { id = USA.flavor.15 days = 2735 }
 				country_event = { id = USA.flavor.16 days = 36 }
+				country_event = { id = USA.flavor.22 days = 1673 } #Malcom X flavor intro
 
 
 
@@ -426,6 +419,10 @@ on_actions = {
 				set_variable = { USA_campaigning_efficiency_reset_point = 1 } #Alter this is you want campaigning efficiency to reset to a different value post election
 
 				country_event = { id = USA_CIA.10000 }
+
+				#Copy pasted from below
+				country_event = { id = us_elections.1 }
+				country_event = { id = USA.300 days = 2400 } #MLK death (or not)
 			}
 
 			HAI = {
@@ -449,38 +446,26 @@ on_actions = {
 				}
 			}
 
+			MEX = {
+				random_list = {
+					33 = { ### Luis
+						country_event = { id = Mexico_Dummy.1 days = 916 }
+					}
 
-		MEX = {
-			random_list = {
-				33 = { ### Luis
-					country_event = { id = Mexico_Dummy.1 days = 916 }
+					33 = { ### Lozano
+						country_event = { id = Mexico_Dummy.2 days = 916 }
+					}
+
+					34 = { ### Ordaz
+						country_event = { id = Mexico_Dummy.3 days = 916 }
+					}
+
 				}
-
-				33 = { ### Lozano
-					country_event = { id = Mexico_Dummy.2 days = 916 }
-				}
-
-				34 = { ### Ordaz
-					country_event = { id = Mexico_Dummy.3 days = 916 }
-				}
-
-			}
-		}
-
-			USA = {
-				country_event = {
-					id = us_elections.1
-				}
-			}
-
-			USA = {
-			country_event = { id = USA.300 days = 2400 }
 			}
 
 			GUY = {
 				country_event = { id = GUY.1 days = 90 random = 720 }
             }
-
 		}
 	}
 
@@ -494,6 +479,8 @@ on_actions = {
 	on_startup = {
 		effect = {
 			USA = {
+				set_country_flag = USA_60_R_RD
+
 				set_country_flag = USA_initial_tree_flag
 				load_focus_tree = USA_initial_tree
 				set_variable = { USA_unity = 10 }

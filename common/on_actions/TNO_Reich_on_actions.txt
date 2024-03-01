@@ -1578,6 +1578,12 @@ on_actions = {
 					clear_variable = BOR_MinimumInvestment
 					set_variable = { BOR_econ_button_drager_X = 135 }
 				}
+
+				# GDP Growth limiter
+				if = {
+					limit = { check_variable = { gdp_growth > 0.09 } }
+					add_to_variable = { gdp_growth = -0.005 }
+				}
 			}
 
 			# RND/HVA monthly investment
@@ -1787,6 +1793,18 @@ on_actions = {
 		}
 	}
 
+	on_weekly_GER = { # Bormann SIG AI, braindead edition
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = german_civil_war_bormannvic
+					has_country_flag = BOR_InfluenceMechanic_Active
+				}
+				BOR_SIG_AI_WeeklyCheck = yes
+			}
+		}
+	}
+
 	#ROOT is new controller, FROM is old controller, FROM.FROM is state ID.
 	on_state_control_changed = { # GCW Capture events
 		effect = {
@@ -1804,7 +1822,7 @@ on_actions = {
 				### BGR Cities
 				if = { # Leipzig
 					limit = { FROM.FROM = { state = 65 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = BGR } }
 						FROM = { country_event = { id = gcwcapture.1 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.1 days = 1 } }
@@ -1817,7 +1835,7 @@ on_actions = {
 				}
 				else_if = { # Nuremberg
 					limit = { FROM.FROM = { state = 54 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = BGR } }
 						FROM = { country_event = { id = gcwcapture.2 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.2 days = 1 } }
@@ -1830,7 +1848,7 @@ on_actions = {
 				}
 				else_if = { # Stuttgart
 					limit = { FROM.FROM = { state = 50 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = BGR } }
 						FROM = { country_event = { id = gcwcapture.3 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.3 days = 1 } }
@@ -1843,7 +1861,7 @@ on_actions = {
 				}
 				else_if = { # München
 					limit = { FROM.FROM = { state = 52 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = BGR } }
 						FROM = { country_event = { id = gcwcapture.4 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.4 days = 1 } }
@@ -1857,7 +1875,7 @@ on_actions = {
 				### SGR Cities
 				else_if = { # Frankfurt
 					limit = { FROM.FROM = { state = 55 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = SGR } }
 						FROM = { country_event = { id = gcwcapture.9 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.9 days = 1 } }
@@ -1870,7 +1888,7 @@ on_actions = {
 				}
 				else_if = { # Hannover
 					limit = { FROM.FROM = { state = 59 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = SGR } }
 						FROM = { country_event = { id = gcwcapture.10 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.10 days = 1 } }
@@ -1883,7 +1901,7 @@ on_actions = {
 				}
 				else_if = { # Essen
 					limit = { FROM.FROM = { state = 57 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = SGR } }
 						FROM = { country_event = { id = gcwcapture.11 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.11 days = 1 } }
@@ -1897,7 +1915,7 @@ on_actions = {
 				### GGR Cities
 				else_if = { # Kiel
 					limit = { FROM.FROM = { state = 58 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = GGR } }
 						FROM = { country_event = { id = gcwcapture.15 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.15 days = 1 } }
@@ -1910,7 +1928,7 @@ on_actions = {
 				}
 				else_if = { # Rostock
 					limit = { FROM.FROM = { state = 61 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = GGR } }
 						FROM = { country_event = { id = gcwcapture.16 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.16 days = 1 } }
@@ -1923,7 +1941,7 @@ on_actions = {
 				}
 				else_if = { # Posen
 					limit = { FROM.FROM = { state = 86 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = GGR } }
 						FROM = { country_event = { id = gcwcapture.17 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.17 days = 1 } }
@@ -1936,7 +1954,7 @@ on_actions = {
 				}
 				else_if = { # Kattowitz
 					limit = { FROM.FROM = { state = 67 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = GGR } }
 						FROM = { country_event = { id = gcwcapture.18 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.18 days = 1 } }
@@ -1950,7 +1968,7 @@ on_actions = {
 				### HGR Cities
 				else_if = { # Königsberg
 					limit = { FROM.FROM = { state = 5 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = HGR } }
 						FROM = { country_event = { id = gcwcapture.23 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.23 days = 1 } }
@@ -1963,7 +1981,7 @@ on_actions = {
 				}
 				else_if = { # Strasburg
 					limit = { FROM.FROM = { state = 28 } }
-					if = { # Caputred
+					if = { # Captured
 						limit = { FROM = { tag = HGR } }
 						FROM = { country_event = { id = gcwcapture.24 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.24 days = 1 } }
