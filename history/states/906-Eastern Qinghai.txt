@@ -5,8 +5,8 @@ state={
 		1882 2053 4313 4536 4888 5076 7270 10490 10750 10817 11448 12327 12596 12797 12815 12846 13146
 	}
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = QIN
+		add_core_of = QIN
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2

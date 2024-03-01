@@ -6,7 +6,7 @@ state={
 	
 	state_category = town
 	history={
-		owner = RAJ
+		owner = IND
 		victory_points = { 9975 20 }
 		victory_points = {
 			4187 10 #Surat#
@@ -18,8 +18,8 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = BEN
-		add_core_of = RAJ
+		add_core_of = AZH
+		add_core_of = IND
 	}
 
 	provinces={

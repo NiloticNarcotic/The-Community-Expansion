@@ -5,9 +5,9 @@ state={
 		1949 2036 2092 7080 10807 10816 
 	}
 	history={
-		owner = RAJ
-		add_core_of = BEN
-		add_core_of = RAJ
+		owner = IND
+		add_core_of = AZH
+		add_core_of = IND
 	}
 	manpower=3350400
 	buildings_max_level_factor=1.000

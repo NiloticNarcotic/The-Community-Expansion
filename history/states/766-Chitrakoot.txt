@@ -5,9 +5,9 @@ state={
 		4045 4410 5040 5096 7938 10332 
 	}
 	history={
-		owner = RAJ
-		add_core_of = BEN
-		add_core_of = RAJ
+		owner = IND
+		add_core_of = AZH
+		add_core_of = IND
 		buildings = {
 			infrastructure = 4
 		}

@@ -15,7 +15,7 @@ state={
 	}
 
 	history={
-		owner = SYO
+		owner = MLY
 		victory_points = { 12299 20 }
 		buildings = {
 			infrastructure = 2
@@ -28,7 +28,7 @@ state={
 				coastal_bunker = 3
 			}
 		}
-		add_core_of = SYO
+		add_core_of = MLY
 	}
 	buildings_max_level_factor=1.000
 }

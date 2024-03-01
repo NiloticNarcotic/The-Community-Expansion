@@ -18,7 +18,7 @@ history={
 		add_core_of = SAF
 
 	}
-	manpower=1378804.
+	manpower=1378804
 	buildings_max_level_factor=1.000
 	state_category=town
 }

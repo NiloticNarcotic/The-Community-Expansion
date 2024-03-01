@@ -8,7 +8,7 @@ state={
 		oil = 2
 	}
 	history={
-		owner = NIK
+		owner = KOM
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 		}
 		victory_points = { 99 10 }
 		victory_points = { 11203 3 }
-		add_core_of = NIK
+		add_core_of = KOM
 
 	}
 

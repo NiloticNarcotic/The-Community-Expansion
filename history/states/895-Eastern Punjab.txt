@@ -8,9 +8,9 @@ state={
 	state_category = rural
 	
 	history={
-		owner = RAJ
-		add_core_of = BEN
-		add_core_of = RAJ
+		owner = IND
+		add_core_of = AZH
+		add_core_of = IND
 		buildings = {
 			arms_factory = 1
 		}

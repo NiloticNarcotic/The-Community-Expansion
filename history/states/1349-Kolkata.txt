@@ -5,14 +5,14 @@ state={
 		4245 
 	}
 	history={
-		owner = BEN
+		owner = AZH
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
 			air_base = 2
 		}
-		add_core_of = BEN
-		add_core_of = RAJ
+		add_core_of = AZH
+		add_core_of = IND
 		victory_points = { 4245 50 }
 	}
 	manpower=3163379

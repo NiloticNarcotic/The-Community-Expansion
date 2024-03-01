@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = HUI
-		add_core_of = HUI
+		owner = GAN
+		add_core_of = GAN
 		victory_points = { 7911 25 }
 		buildings = {
 			infrastructure = 3

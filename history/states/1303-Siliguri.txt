@@ -4,10 +4,10 @@ state={
 	name="STATE_1303"
 
 	history={
-		owner = BEN
+		owner = AZH
 		victory_points = { 12338 10 }
-		add_core_of = BEN
-		add_core_of = RAJ
+		add_core_of = AZH
+		add_core_of = IND
 	}
 
 	provinces={

@@ -34,6 +34,10 @@ RUS = { #RUSSIA
 	global_event_target = RUS_total_unifier
 }
 
+SOV = { #keeping this here to clear possible vanilla-related errors
+	global_event_target = RUS_total_unifier
+}
+
 PLD = { #Poland
 	targets = { GGN POL }
 
@@ -44,4 +48,37 @@ OSL = { #Ostland
 	targets = { OST DST MST JST UPO BLR }
 
 	#fallback = OST
+}
+
+FRA = { #France
+	targets = { FRS FRD FRM FRV FMM FGR FIT }
+
+	#fallback = FRS
+}
+
+#FRA = { # France
+#	country_score = {
+#		base = 1
+#		modifier = {
+#			add = 1
+#			AND = {
+#				tag = FRS
+#				exists = yes
+#			}
+#		}
+#		modifier = {
+#			add = 100
+#			AND = {
+#				has_cosmetic_tag = FRA_postCW
+#				exists = yes
+#			}
+#		}
+#	}
+#}
+
+# note: MOS not existing was adding errors to the log
+MOS = { #Moskowien
+	targets = { MCW PSK TVR SNP ORL }
+
+	#fallback = MCW
 }

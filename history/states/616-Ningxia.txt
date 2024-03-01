@@ -4,8 +4,8 @@ state={
 	name="STATE_616"
 
 	history={
-		owner = HUI
-		add_core_of = HUI
+		owner = GAN
+		add_core_of = GAN
 		
 		buildings = {
 			infrastructure = 2

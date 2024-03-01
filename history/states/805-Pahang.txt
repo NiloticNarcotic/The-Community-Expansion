@@ -8,8 +8,8 @@ state={
 		aluminium = 3
 	}
 	history={
-		owner = SYO
-		add_core_of = SYO
+		owner = MLY
+		add_core_of = MLY
 		victory_points = { 7399 2 }
 	}
 	provinces={

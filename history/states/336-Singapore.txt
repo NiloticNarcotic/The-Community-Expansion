@@ -14,7 +14,7 @@ state={
 	}
 
 	history={
-		owner = SYO
+		owner = MLY
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -23,7 +23,7 @@ state={
 		victory_points = { 4384 5 }
 		victory_points = { 1376 5 }
 		victory_points = { 10297 10 }
-		add_core_of = SYO
+		add_core_of = MLY
 	}
 	provinces={
 		1376 4384 10297 

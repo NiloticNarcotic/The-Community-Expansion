@@ -5,9 +5,9 @@ state={
 		1116 12322 
 	}
 	history={
-		owner = BEN
-		add_core_of = BEN
-		add_core_of = RAJ
+		owner = AZH
+		add_core_of = AZH
+		add_core_of = IND
 	}
 	manpower=252750
 	buildings_max_level_factor=1.000

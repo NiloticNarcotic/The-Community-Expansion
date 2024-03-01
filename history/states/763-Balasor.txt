@@ -4,9 +4,9 @@ state={
 	name="STATE_763"
 
 	history={
-		owner = BEN
-		add_core_of = BEN
-		add_core_of = RAJ
+		owner = AZH
+		add_core_of = AZH
+		add_core_of = IND
 		buildings = {
 			infrastructure = 3
 			dockyard = 1

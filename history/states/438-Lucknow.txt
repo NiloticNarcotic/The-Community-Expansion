@@ -3,7 +3,7 @@ state={
 	name="STATE_438"
 
 	history={
-		owner = RAJ
+		owner = IND
 		victory_points = { 10794 15 }
 		victory_points = { 12137 25 }
 		victory_points = { 10149 10 }
@@ -11,8 +11,8 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 		}
-		add_core_of = RAJ
-		add_core_of = BEN
+		add_core_of = IND
+		add_core_of = AZH
 	}
 
 	provinces={

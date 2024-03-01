@@ -6,7 +6,7 @@ state={
 	history={
 		victory_points = { 10772 25 }
 		victory_points = { 9084 15 }
-		owner = RAJ
+		owner = IND
 		buildings = {
 			infrastructure = 5
 

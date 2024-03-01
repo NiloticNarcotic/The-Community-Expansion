@@ -9,11 +9,11 @@ state={
 		oil = 8
 	}
 	history={
-		owner = KHA
+		owner = SBA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = KHA
+		add_core_of = SBA
 	}
 	state_category="wasteland"
 	manpower=63000

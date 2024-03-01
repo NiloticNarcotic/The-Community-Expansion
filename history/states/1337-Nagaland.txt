@@ -5,13 +5,13 @@ state={
 		1525 1553 
 	}
 	history={
-		owner = BEN
+		owner = AZH
 		victory_points = { 1553 5 }
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = BEN
-		add_core_of = RAJ
+		add_core_of = AZH
+		add_core_of = IND
 	}
 	manpower=673281
 	buildings_max_level_factor=1.000

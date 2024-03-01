@@ -1,5 +1,5 @@
 name="The New Order: Last Days of Europe (Dev Copy)"
-supported_version="1.12.*"
+supported_version="1.13.*"
 
 tags={
 	"Gameplay"
@@ -7,7 +7,7 @@ tags={
 	"Alternative History"
 }
 picture="thumbnail.png"
-path="C:/Users/zombi/Documents/Paradox Interactive/Hearts of Iron IV/mod/The-Community-Expansion" 
+path="C:/Users/zombi/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/The-Community-Expansion" 
 
 replace_path="events"
 replace_path="common/abilities"
