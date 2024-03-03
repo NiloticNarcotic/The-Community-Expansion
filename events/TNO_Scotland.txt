@@ -10569,17 +10569,23 @@ country_event = { #Capital
 
 	option = {
 		name = UOB.1.a #london
-		set_capital = 1300
+		set_capital = {
+			state = 1300
+		} 
 
 	}
 	option = {
 		name = UOB.1.b
-		set_capital = 121
+		set_capital = {
+			state = 121
+		} 
 
 	}
 	option = {
 		name = UOB.1.c
-		set_capital = 130
+		set_capital = {
+			state = 130
+		} 
 
 	}
 
@@ -11387,7 +11393,9 @@ country_event = { #OMG a new UK? cool bro
 					ideology = despotism
 					popularity = 0.3
 				}
-				set_capital = 1300
+				set_capital = {
+					state = 1300
+				} 
 			}
 			remove_all_ministers = yes
 			add_ideas = SCO_David_Eyton_Jones

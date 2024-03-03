@@ -1140,7 +1140,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus OMS_war_plan_tugarin"
 		declare_war_on = {
 			target = ISH
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }
@@ -1292,7 +1292,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus OMS_war_plan_bogatyr"
 		declare_war_on = {
 			target = TOB
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }
@@ -1626,7 +1626,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus OMS_war_plan_solovey"
 		declare_war_on = {
 			target = KOM
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }
@@ -1718,7 +1718,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus OMS_war_plan_sadko"
 		declare_war_on = {
 			target = UDM
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }
@@ -1824,7 +1824,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus OMS_war_plan_koschei"
 		declare_war_on = {
 			target = VOR
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }

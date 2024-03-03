@@ -969,7 +969,7 @@ USA_increase_RK_debuff = {
 			add_idea = usa_Wervolf_3
 		}
 	}
-	else  {
+	else = {
 		add_ideas = usa_Wervolf_2
 	}
 }
@@ -7655,7 +7655,12 @@ USA_LEMAY_LEGACY_OF_WALLACE_SEGREGATION = {
 
 USA_HAR_fatigue_pulse = {
 	clamp_variable = {
-		var = USA_HAR_enthusiasm = USA_HAR_fatigue
+		var = USA_HAR_fatigue
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = USA_HAR_enthusiasm
 		min = 0
 		max = 100
 	}

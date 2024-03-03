@@ -621,7 +621,7 @@ country_event = { #So you have chosen death (player only)
 		}
 		declare_war_on = {
 			target = UDM
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 		hidden_effect = {
 			set_country_flag = TOB_zlatoust_war
@@ -801,7 +801,7 @@ country_event = { #FAV declines annexation (player only)
 		ai_chance = { factor = 1 }
 		declare_war_on = {
 			target = FAV
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }

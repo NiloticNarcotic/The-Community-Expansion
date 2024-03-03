@@ -11,7 +11,7 @@ state={
 		add_core_of = SAF
 		buildings = {
 			infrastructure = 3
-			8214 {
+			8214 = {
 				bunker = 3
 			}
 		}

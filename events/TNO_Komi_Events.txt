@@ -9387,7 +9387,9 @@ country_event = { #Move the capital?
 	}
 	option = { #Make it Vyatka
 		name = NIK.366.b
-		set_capital = 400
+		set_capital = {
+			state = 400
+		} 
 		hidden_effect = {
 			country_event = { id = komi.28 days = 12 random = 380 }
 		}
@@ -9409,7 +9411,9 @@ country_event = { #Move the capital - communist
 	}
 	option = { #Make it Vyatka
 		name = NIK.367.b
-		set_capital = 400
+		set_capital = {
+			state = 400
+		} 
 	}
 }
 
@@ -9428,7 +9432,9 @@ country_event = { #Move the capital - fascist
 	}
 	option = { #Make it Vyatka
 		name = NIK.3670.b
-		set_capital = 400
+		set_capital = {
+			state = 400
+		} 
 	}
 }
 

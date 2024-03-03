@@ -13980,7 +13980,9 @@ country_event = { ## 2 State Solution, Free Israel
 			transfer_state = 1365
 			add_state_core = 1365
 			1365 = { set_state_name = "Galil" }
-			set_capital = 454
+			set_capital = {
+				state = 454
+			} 
 			set_popularities = {
 				communist = 0
 				ultranational_socialism = 0
@@ -14193,7 +14195,9 @@ country_event = { ## Palestine
 			transfer_state = 1366
 			add_state_core = 1368
 			transfer_state = 1368
-			set_capital = 1304
+			set_capital = {
+				state = 1304
+			} 
 			add_opinion_modifier = { target = ITA modifier = ITA_post_colonial_relation }
 			remove_all_ministers = yes
 			add_ideas = {
@@ -14569,7 +14573,9 @@ country_event = { ## Levant Kingdom
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367
@@ -14620,7 +14626,9 @@ country_event = { ## Levant Kingdom
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367
@@ -14669,7 +14677,9 @@ country_event = { ## Levant Kingdom
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367
@@ -14830,7 +14840,9 @@ country_event = { ## Commie palestine
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367
@@ -14881,7 +14893,9 @@ country_event = { ## Commie palestine
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367
@@ -14930,7 +14944,9 @@ country_event = { ## Commie palestine
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367
@@ -15029,7 +15045,9 @@ country_event = { ## UltNat palestine
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367
@@ -15080,7 +15098,9 @@ country_event = { ## UltNat palestine
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367
@@ -15129,7 +15149,9 @@ country_event = { ## UltNat palestine
 					}
 				}
 				PAL = {
-					set_capital = 1306
+					set_capital = {
+						state = 1306
+					} 
 					add_state_core = 1365
 					transfer_state = 1365
 					add_state_core = 1367

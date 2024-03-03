@@ -1203,7 +1203,7 @@
 1202;5;207;10;land;false;plains;6
 1203;5;207;55;land;false;hills;6
 1204;5;207;160;land;true;desert;5
-1205;5;210;20;land;true;hills;1
+1205;5;210;20;land;false;hills;1
 1206;5;210;75;land;false;desert;5
 1207;5;210;225;land;false;mountain;5
 1208;6;0;95;land;true;jungle;6
@@ -3972,7 +3972,7 @@
 3971;46;189;218;land;false;mountain;1
 3972;46;192;33;land;false;plains;2
 3973;46;192;138;land;true;plains;1
-3974;46;192;183;land;false;hills;3
+3974;46;192;183;land;true;hills;3
 3975;46;195;98;land;false;mountain;2
 3976;46;195;148;land;false;mountain;1
 3977;46;198;63;land;false;hills;6
@@ -10267,7 +10267,7 @@
 10266;132;144;19;land;false;jungle;6
 10267;132;144;169;land;true;marsh;6
 10268;132;144;224;land;false;desert;6
-10269;132;147;84;land;false;mountain;6
+10269;132;147;84;land;true;mountain;6
 10270;132;147;134;land;false;hills;6
 10271;132;147;189;land;true;forest;2
 10272;132;150;49;land;true;jungle;6
@@ -10829,7 +10829,7 @@
 10828;135;111;69;land;false;mountain;7
 10829;135;111;174;land;false;plains;5
 10830;135;114;34;land;false;mountain;2
-10831;135;114;89;land;false;jungle;5
+10831;135;114;89;land;true;jungle;5
 10832;135;114;139;land;false;plains;2
 10833;135;117;54;land;true;mountain;5
 10834;135;117;99;land;false;desert;6
@@ -14012,7 +14012,7 @@
 14011;177;167;236;land;false;forest;5
 14012;204;200;0;land;false;forest;5
 14013;213;236;225;land;false;hills;5
-14014;16;62;255;land;false;jungle;5
+14014;16;62;255;land;true;jungle;5
 14015;225;248;213;land;false;jungle;5
 14016;140;93;0;land;false;forest;5
 14017;151;204;78;land;false;hills;5
@@ -14426,7 +14426,7 @@
 14425;130;7;89;land;false;jungle;5
 14426;173;148;183;land;false;forest;5
 14427;17;64;252;land;false;forest;5
-14428;9;19;160;land;false;forest;5
+14428;9;19;160;land;true;forest;5
 14429;173;157;178;land;false;plains;5
 14430;91;33;158;land;false;plains;5
 14431;89;17;30;land;false;desert;5
@@ -14477,3 +14477,4 @@
 14476;130;147;100;land;true;urban;1
 14477;46;179;50;land;false;mountain;1
 14478;186;182;37;land;false;urban;1
+14479;40;37;241;lake;false;lakes;1

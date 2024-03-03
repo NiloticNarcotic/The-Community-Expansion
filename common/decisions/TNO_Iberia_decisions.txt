@@ -5757,7 +5757,7 @@ IBR_ofn_diplomacy_category = {
 
 		visible = {
 			has_country_flag = IBR_OFN_import_designs
-			USA = {has_tech = infantry_weapons_improvements_13}
+			USA = {has_tech = infantry_weapons_improvements_ammo_3}
 			date > 1970.01.01
 			date < 1980.01.01
 		}

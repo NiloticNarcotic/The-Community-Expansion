@@ -30,8 +30,8 @@ compliance_40 = {
 	threshold = 40
 	margin = 2
 	state_modifier = {
-		local_factories = 0.1
 		local_resources = 0.1
+		local_building_slots_factor = 0.1
 	}
 }
 compliance_60 = {
@@ -41,7 +41,7 @@ compliance_60 = {
 	threshold = 60
 	margin = 2
 	state_modifier = {
-		recruitable_population_factor = 0.2
+		conscription_factor = 0.2
 	}
 }
 compliance_80 = {
@@ -50,7 +50,7 @@ compliance_80 = {
 	small_icon = "GFX_occupation_compliance_modifier_small_strip:5"
 	threshold = 80
 	margin = 2
-	
+
 	visible = {
 		has_dlc = "La Resistance"
 	}
@@ -60,7 +60,7 @@ compliance_80 = {
 	}
 	state_modifier = {
 	}
-	
+
 	on_enable = {
 		#country_event = occupied_countries.1
 	}

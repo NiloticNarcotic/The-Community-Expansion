@@ -25,36 +25,6 @@
 #	alert_text = loc
 #}
 
-sabotage_arms_factory = {
-	available = {
-		non_damaged_building_level = {
-			building = arms_factory
-			level > 0
-		}
-	}
-
-	weight = {
-		base = 1
-		modifier = {
-			has_variable = targeted_sabotage_industry
-			add = var:targeted_sabotage_industry
-		}
-		modifier = {
-			occupation_law = harsh_quotas_occupation
-			add = -0.25
-		}
-	}
-
-	effect = {
-		damage_building = {
-			type = arms_factory
-			damage = 0.25
-		}
-	}
-
-	alert_text = building_is_sabotaged
-}
-
 sabotage_infrastructure = {
 	available = {
 		non_damaged_building_level = {
@@ -75,36 +45,6 @@ sabotage_infrastructure = {
 		damage_building = {
 			type = infrastructure
 			damage = 0.5
-		}
-	}
-
-	alert_text = building_is_sabotaged
-}
-
-sabotage_industrial_complex = {
-	available = {
-		non_damaged_building_level = {
-			building = industrial_complex
-			level > 0
-		}
-	}
-
-	weight = {
-		base = 1
-		modifier = {
-			has_variable = targeted_sabotage_industry
-			add = var:targeted_sabotage_industry
-		}
-		modifier = {
-			occupation_law = harsh_quotas_occupation
-			add = -0.25
-		}
-	}
-
-	effect = {
-		damage_building = {
-			type = industrial_complex
-			damage = 0.25
 		}
 	}
 
@@ -270,7 +210,32 @@ sabotage_radar_station = {
 	alert_text = building_is_sabotaged
 }
 
-#sabotage_rocket_site = {#	available = {#		non_damaged_building_level = {#			building = rocket_site#			level > 0#		}#	}##	weight = {#		base = 1#		modifier = {#			has_variable = targeted_sabotage_infrastructure#			add = var:targeted_sabotage_infrastructure#		}#	}##	effect = {#		damage_building = {#			type = rocket_site#			damage = 0.25#		}#	}#	#	alert_text = building_is_sabotaged#}#
+#sabotage_rocket_site = {
+#	available = {
+#		non_damaged_building_level = {
+#			building = rocket_site
+#			level > 0
+#		}
+#	}
+#
+#	weight = {
+#		base = 1
+#		modifier = {
+#			has_variable = targeted_sabotage_infrastructure
+#			add = var:targeted_sabotage_infrastructure
+#		}
+#	}
+#
+#	effect = {
+#		damage_building = {
+#			type = rocket_site
+#			damage = 0.25
+#		}
+#	}
+#	
+#	alert_text = building_is_sabotaged
+#}
+#
 sabotage_nuclear_reactor = {
 	available = {
 		non_damaged_building_level = {
@@ -293,7 +258,7 @@ sabotage_nuclear_reactor = {
 			damage = 0.15
 		}
 	}
-	
+
 	alert_text = building_is_sabotaged
 }
 

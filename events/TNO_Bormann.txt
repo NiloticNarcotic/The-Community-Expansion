@@ -4771,7 +4771,9 @@ country_event = { #Really cool event DO NOT TRIGGER OR ELSE HE WILL APPEAR IN YO
 				add_state_core = 784
 				add_war_support = 3
 				add_stability = 2
-				set_capital = 2
+				set_capital = {
+					state = 2
+				}
 		}
 		
 		2 = {
@@ -8999,7 +9001,11 @@ country_event = { # Bormann's decision to abolish the autonomy sends the Wolgast
 		name = bormann.1121.a
 		BOR_SIG_AL_0_1_2 = yes
 		hidden_effect = {
-			MCW = { set_capital = 195 }
+			MCW = { 
+				set_capital = {
+					state = 195
+				} 
+			}
 			country_event = { id = bormann.1131 days = 2 }
 			VLG = {
 				transfer_state = 236
@@ -9008,7 +9014,9 @@ country_event = { # Bormann's decision to abolish the autonomy sends the Wolgast
 				transfer_state = 217
 				transfer_state = 401
 				transfer_state = 239
-				set_capital = 217
+				set_capital = {
+					state = 217
+				} 
 				every_owned_state = { add_core_of = VLG }
 				set_popularities = {
 					social_democrat = 25
@@ -9215,7 +9223,9 @@ country_event = { # Reconstruction is done, what to do with Moskowien now?
 				transfer_state = 238
 				transfer_state = 239
 				transfer_state = 401
-				set_capital = 217
+				set_capital = {
+					state = 217
+				} 
 				every_owned_state = { add_core_of = VLG }
 				save_party_popularities = yes
 				GER = {
@@ -9262,7 +9272,9 @@ country_event = { # Reconstruction is done, what to do with Moskowien now?
 				transfer_state = 257
 				transfer_state = 265
 				transfer_state = 245
-				set_capital = 219
+				set_capital = {
+					state = 219
+				} 
 				every_owned_state = { add_core_of = MOS }
 				save_party_popularities = yes
 				GER = {
@@ -9290,7 +9302,9 @@ country_event = { # Reconstruction is done, what to do with Moskowien now?
 				}
 			}
 			MCW = {
-				set_capital = 1314
+				set_capital = {
+					state = 1314
+				} 
 				set_cosmetic_tag = MCW_GER
 				create_country_leader = {
 					name = "Albert Hoffman"

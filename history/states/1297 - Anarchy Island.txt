@@ -1,8 +1,8 @@
-state={
-	id=1297
-	name=""
+state = {
+	id = 1297
+	name = ""
 
-	history={
+	history = {
 		owner = ZZZ
 		victory_points = { 14444 5 }
 		buildings = {
@@ -10,11 +10,11 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = {
 		14444
 	}
-	manpower=14
-	buildings_max_level_factor= 2.000
-	state_category=tiny_island
+	manpower = 16
+	buildings_max_level_factor = 2.000
+	state_category = tiny_island
 }
  

@@ -2377,7 +2377,9 @@ MZB_REICHSTAAT_revolt_angola = {
 
 		ANG = {
 			retire_country_leader = yes
-			set_capital = 1035
+			set_capital = {
+				state = 1035
+			}
 			drop_cosmetic_tag = yes
 			
 			set_politics = {	

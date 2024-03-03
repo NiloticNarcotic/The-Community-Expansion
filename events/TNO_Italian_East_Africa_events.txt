@@ -499,7 +499,9 @@ country_event = { #Black Lions Movement
 				add_state_core = 1104
 				transfer_state = 1103
 				add_state_core = 1103
-				set_capital = 271
+				set_capital = {
+					state = 271
+				} 
 				load_oob = ETB_breakaway
 				country_event = { id = IEA.123 days = 7 }
 			}

@@ -662,13 +662,15 @@ ORS_Raiding = {
 		}
 
 		highlight_states = {
-			OR = {
-				state = FROM.defender_state_vs_@ROOT
-				AND = {
-					is_owned_and_controlled_by = FROM
-					any_neighbor_state = {
-						has_ROOT_at_least_1_div_in_current_state_scope = yes
-						is_fully_controlled_by = ROOT
+			highlight_states_trigger = {
+				OR = {
+					state = FROM.defender_state_vs_@ROOT
+					AND = {
+						is_owned_and_controlled_by = FROM
+						any_neighbor_state = {
+							has_ROOT_at_least_1_div_in_current_state_scope = yes
+							is_fully_controlled_by = ROOT
+						}
 					}
 				}
 			}
@@ -1058,13 +1060,15 @@ ORS_We_Will_Ride = {
 		}
 
 		highlight_states = {
-			OR = {
-				state = FROM.defender_state_vs_@ROOT
-				AND = {
-					is_owned_and_controlled_by = FROM
-					any_neighbor_state = {
-						has_ROOT_at_least_1_div_in_current_state_scope = yes
-						is_fully_controlled_by = ROOT
+			highlight_states_trigger = {
+				OR = {
+					state = FROM.defender_state_vs_@ROOT
+					AND = {
+						is_owned_and_controlled_by = FROM
+						any_neighbor_state = {
+							has_ROOT_at_least_1_div_in_current_state_scope = yes
+							is_fully_controlled_by = ROOT
+						}
 					}
 				}
 			}
@@ -1112,7 +1116,7 @@ ORS_We_Will_Ride = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove ORS_invade_russian_warlord target: [From.GetName]"
 			declare_war_on = {
 				target = FROM
-				type = russian_reclaimation
+				type = russian_reclamation
 			}
 		}
 	}

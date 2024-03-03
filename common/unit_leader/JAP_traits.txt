@@ -1,6 +1,6 @@
 leader_traits = {
 
-	
+
 ##################################
 # Common Traits
 ##################################
@@ -16,9 +16,9 @@ leader_traits = {
 			}
 		}
 		modifier = {
-			
+
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -36,9 +36,9 @@ leader_traits = {
 		allowed = {
 		}
 		modifier = {
-			
+
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -46,17 +46,17 @@ leader_traits = {
 			factor = 0
 		}
 	}
-	
 
-	
+
+
 ##################################
 # Field Marshal traits.
 ##################################
-	
+
 ##################################
 # Corps Commander traits.
 ##################################
-	
+
 ##################################
 # Corps Commander assignabme traits.
 ##################################

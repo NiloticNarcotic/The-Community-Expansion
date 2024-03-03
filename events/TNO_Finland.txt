@@ -822,9 +822,9 @@ country_event = {
 #
 #	option = {
 #		name = FIN.47.a
-#		load_OOB = FIN_SWE_volunteers
-#		load_OOB = FIN_tanks
-#		load_OOB = FIN_reserves
+#		load_oob = FIN_SWE_volunteers
+#		load_oob = FIN_tanks
+#		load_oob = FIN_reserves
 #	}
 #}
 #

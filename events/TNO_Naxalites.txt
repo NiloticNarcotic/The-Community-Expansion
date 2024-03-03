@@ -20,7 +20,9 @@ country_event = {
 
 	option = { #ok
 		name = naxalite.1.a
-		set_capital = 431
+		set_capital = {
+			state = 431
+		}
 		hidden_effect = {
 			BEN = { change_tag_from = NAX }
 			set_province_name = {

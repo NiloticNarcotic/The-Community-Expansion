@@ -22,7 +22,9 @@ country_event = { # 3ss, change tag from PET to MCW
 				}
 				load_oob = "PET_3SS"
 
-				set_capital = 195
+				set_capital = {
+					state = 195
+				} 
 				
 				remove_ideas = {
 					MCW_russian_partisans

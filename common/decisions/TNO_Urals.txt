@@ -856,7 +856,9 @@ URL_counter_raids = {
 		allowed = {
 			original_tag = URL
 		}
-		targets = { ORS BAS }
+		targets = { 
+			ORS BAS 
+		}
 		target_trigger = {
 			FROM = {
 				OR = {
@@ -867,13 +869,15 @@ URL_counter_raids = {
 		}
 
 		highlight_states = {
-			OR = {
-				state = FROM.defender_state_vs_@ROOT
-				AND = {
-					is_owned_and_controlled_by = FROM
-					any_neighbor_state = {
-						has_ROOT_at_least_1_div_in_current_state_scope = yes
-						is_fully_controlled_by = ROOT
+			highlight_states_trigger = {
+				OR = {
+					state = FROM.defender_state_vs_@ROOT
+					AND = {
+						is_owned_and_controlled_by = FROM
+						any_neighbor_state = {
+							has_ROOT_at_least_1_div_in_current_state_scope = yes
+							is_fully_controlled_by = ROOT
+						}
 					}
 				}
 			}

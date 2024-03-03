@@ -2220,7 +2220,9 @@ focus_tree = {
 			custom_effect_tooltip = KHA_regional_liberty_all_encompassing_and_eternal_tt
 			set_country_flag = KHA_POLITICS_DONE
 			RUS_decrease_administrative_strain = yes
-			set_capital = 570
+			set_capital = {
+				state = 570
+			}
 			if = {
 				limit = {
 					has_idea = KHA_anarchist_refuge_2

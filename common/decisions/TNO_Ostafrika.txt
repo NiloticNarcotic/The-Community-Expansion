@@ -48,7 +48,7 @@ RK_difficulty_category = {
 					}
 					add_manpower = 200000
 					add_ideas = RK_AI_hardmode
-					load_OOB = SAF_hard
+					load_oob = SAF_hard
 				}
 			}
 		}

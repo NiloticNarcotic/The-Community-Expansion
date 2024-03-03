@@ -1373,7 +1373,7 @@ GER_debug_category = {
 					transfer_troops = no
 				}
 				add_ideas = POL_Hardened_Defense
-				load_OOB = POL_uprising
+				load_oob = POL_uprising
 			}
 			
 			initialize_heydrich_himmler_influence_vars = yes
@@ -2511,7 +2511,9 @@ GER_GCW_mechanic_category = {
 			}
 		}
 
-		highlight_provinces = { 6488 }
+		highlight_states = {
+			highlight_provinces = { 6488 }
+		}
 
 		cost = 0
 		fire_only_once = yes
@@ -2535,7 +2537,9 @@ GER_GCW_mechanic_category = {
 			controls_province = 6488
 		}
 
-		highlight_provinces = { 6488 }
+		highlight_states = {
+			highlight_provinces = { 6488 }
+		}
 
 		cancel_if_not_visible = yes
 		is_good = no
@@ -2572,7 +2576,9 @@ GER_GCW_mechanic_category = {
 			}
 		}
 
-		highlight_provinces = { 3326 }
+		highlight_states = {
+			highlight_provinces = { 3326 }
+		}
 
 		cost = 0
 		fire_only_once = yes
@@ -2596,7 +2602,10 @@ GER_GCW_mechanic_category = {
 			controls_province = 3326
 		}
 
-		highlight_provinces = { 3326 }
+
+		highlight_states = {
+			highlight_provinces = { 3326 }
+		}
 
 		cancel_if_not_visible = yes
 		is_good = no
@@ -2633,7 +2642,10 @@ GER_GCW_mechanic_category = {
 			}
 		}
 
-		highlight_provinces = { 362 }
+
+		highlight_states = {
+			highlight_provinces = { 362 }
+		}
 
 		cost = 0
 		fire_only_once = yes
@@ -2657,7 +2669,9 @@ GER_GCW_mechanic_category = {
 			controls_province = 362
 		}
 
-		highlight_provinces = { 362 }
+		highlight_states = {
+			highlight_provinces = { 362 }
+		}
 
 		cancel_if_not_visible = yes
 		is_good = no
@@ -2694,7 +2708,9 @@ GER_GCW_mechanic_category = {
 			}
 		}
 
-		highlight_provinces = { 6389 }
+		highlight_states = {
+			highlight_provinces = { 6389 }
+		}
 
 		cost = 0
 		fire_only_once = yes
@@ -2718,7 +2734,9 @@ GER_GCW_mechanic_category = {
 			controls_province = 6389
 		}
 
-		highlight_provinces = { 6389 }
+		highlight_states = {
+			highlight_provinces = { 6389 }
+		}
 
 		cancel_if_not_visible = yes
 		is_good = no
@@ -2755,7 +2773,9 @@ GER_GCW_mechanic_category = {
 			}
 		}
 
-		highlight_provinces = { 692 }
+		highlight_states = {
+			highlight_provinces = { 692 }
+		}
 
 		cost = 0
 		fire_only_once = yes
@@ -2779,7 +2799,9 @@ GER_GCW_mechanic_category = {
 			controls_province = 692
 		}
 
-		highlight_provinces = { 692 }
+		highlight_states = {
+			highlight_provinces = { 692 }
+		}
 
 		cancel_if_not_visible = yes
 		is_good = no
@@ -2816,7 +2838,9 @@ GER_GCW_mechanic_category = {
 			}
 		}
 
-		highlight_provinces = { 11666 }
+		highlight_states = {
+			highlight_provinces = { 11666 }
+		}
 
 		cost = 0
 		fire_only_once = yes
@@ -2840,7 +2864,9 @@ GER_GCW_mechanic_category = {
 			controls_province = 11666
 		}
 
-		highlight_provinces = { 11666 }
+		highlight_states = {
+			highlight_provinces = { 11666 }
+		}
 
 		cancel_if_not_visible = yes
 		is_good = no
@@ -2877,7 +2903,9 @@ GER_GCW_mechanic_category = {
 			}
 		}
 
-		highlight_provinces = { 3535 }
+		highlight_states = {
+			highlight_provinces = { 3535 }
+		}
 
 		cost = 0
 		fire_only_once = yes
@@ -2901,7 +2929,9 @@ GER_GCW_mechanic_category = {
 			controls_province = 3535
 		}
 
-		highlight_provinces = { 3535 }
+		highlight_states = {
+			highlight_provinces = { 3535 }
+		}
 
 		cancel_if_not_visible = yes
 		is_good = no
@@ -2938,7 +2968,9 @@ GER_GCW_mechanic_category = {
 			}
 		}
 
-		highlight_provinces = { 9347 }
+		highlight_states = {
+			highlight_provinces = { 9347 }
+		}
 
 		cost = 0
 		fire_only_once = yes
@@ -2962,7 +2994,9 @@ GER_GCW_mechanic_category = {
 			controls_province = 9347
 		}
 
-		highlight_provinces = { 9347 }
+		highlight_states = {
+			highlight_provinces = { 9347 }
+		}
 
 		cancel_if_not_visible = yes
 		is_good = no

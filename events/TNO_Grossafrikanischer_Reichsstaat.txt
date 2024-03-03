@@ -4346,7 +4346,9 @@ country_event = { # Control of Mozambik lost
 
  	option = {
 		name = MZB_REICHSTAAT.803.a
-		set_capital = 295
+		set_capital = {
+			state = 295
+		} 
  	}
 }
 

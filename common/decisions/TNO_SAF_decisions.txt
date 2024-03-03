@@ -48,7 +48,7 @@ SAF_difficulty_category = {
 					}
 					add_manpower = 150000
 					add_ideas = RK_SAF_war_AI_hardmode
-					load_OOB = ANG_hard
+					load_oob = ANG_hard
 				}
 				MZB = {
 					add_equipment_to_stockpile = {
@@ -73,7 +73,7 @@ SAF_difficulty_category = {
 					}
 					add_manpower = 150000
 					add_ideas = RK_SAF_war_AI_hardmode
-					load_OOB = MZB_hard
+					load_oob = MZB_hard
 				}
 				COG = {
 					add_equipment_to_stockpile = {
@@ -98,7 +98,7 @@ SAF_difficulty_category = {
 					}
 					add_manpower = 150000
 					add_ideas = RK_SAF_war_AI_hardmode
-					load_OOB = COG_hard
+					load_oob = COG_hard
 				}
 			}
 		}
@@ -435,8 +435,8 @@ SAF_monarchy_referendum_category = {
 			}
 		}
 
-		highlight_state_targets = {
-			state = 275
+		highlight_states = {
+			highlight_state_targets = { state = 275 }
 		}
 
 		visible = {
@@ -483,8 +483,8 @@ SAF_monarchy_referendum_category = {
 			}
 		}
 
-		highlight_state_targets = {
-			state = 940
+		highlight_states = {
+			highlight_state_targets = { state = 940 }
 		}
 
 		visible = {
@@ -612,7 +612,7 @@ SAF_SOG_category = {
 
 		remove_effect = {
 			SAF = {
-				load_OOB = SAF_Recces
+				load_oob = SAF_Recces
 				add_to_variable = { SOG_Agents = 1 }
 			}
 		}

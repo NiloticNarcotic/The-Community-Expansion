@@ -2667,7 +2667,9 @@ country_event = {#How to partition China now
 							#
 					}
 				}
-				set_capital = 608
+				set_capital = {
+					state = 608
+				} 
 				load_focus_tree = { tree = china_gongbo keep_completed = yes }
 			}
 			YUN = {
@@ -3170,7 +3172,9 @@ country_event = {#How to partition China now
 							#
 					}
 				}
-				set_capital = 608
+				set_capital = {
+					state = 608
+				} 
 				load_focus_tree = { tree = china_gongbo keep_completed = yes }
 			}
 			YUN = {
@@ -3815,7 +3819,9 @@ country_event = {#How to partition China now
 							#
 					}
 				}
-				set_capital = 608
+				set_capital = {
+					state = 608
+				} 
 				load_focus_tree = { tree = china_gongbo keep_completed = yes}
 			}
 			if = {

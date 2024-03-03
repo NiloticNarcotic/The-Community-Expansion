@@ -11,10 +11,6 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = CHK
-		buildings = {
-			infrastructure = 1
-
-		}
 		victory_points = { 10540 1 }
 	}
 

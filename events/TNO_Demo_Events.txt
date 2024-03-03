@@ -2439,7 +2439,9 @@ country_event = { #DSR Wins GCW
 		name = DEMOEVENT.51.a
 		DSR = {
 		    annex_country = { target = GER transfer_troops = no }
-			set_capital = 64
+			set_capital = {
+				state = 64
+			} 
 		}
 		clr_global_flag = german_civil_war
 		every_country = {
@@ -2467,7 +2469,9 @@ country_event = { #RNW Wins GCW
 		name = DEMOEVENT.52.a
 		RNW = {
 		    annex_country = { target = GER transfer_troops = no }
-			set_capital = 64
+			set_capital = {
+				state = 64
+			} 
 		}
 		clr_global_flag = german_civil_war
 		every_country = {

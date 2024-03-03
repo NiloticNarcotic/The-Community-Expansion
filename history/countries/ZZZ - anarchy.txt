@@ -19,8 +19,6 @@ create_country_leader = {
 	picture = "Portrait_ZZZ_Anarchy.dds"
 	expire = "3000.1.1"
 	ideology = socialist_subtype
-	traits = {
-	}
 }
 
 add_ideas = {

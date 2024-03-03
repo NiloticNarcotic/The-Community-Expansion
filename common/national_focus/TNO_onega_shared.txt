@@ -1150,7 +1150,9 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus VTY_thevictory"
-		set_capital = 214
+		set_capital = {
+			state = 214
+		}
 		add_ideas = VTY_red_unrest
 		remove_ideas = VTY_mines
 		hidden_effect = {

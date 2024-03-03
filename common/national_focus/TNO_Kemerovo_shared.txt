@@ -807,7 +807,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus KEM_reunion_in_krasnoyarsk"
 		declare_war_on = {
 			target = SAH
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }
@@ -1002,7 +1002,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus KEM_end_the_revolt"
 		declare_war_on = {
 			target = KHA
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }
@@ -1133,7 +1133,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus "
 		declare_war_on = {
 			target = SVO
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }
@@ -1298,7 +1298,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus KEM_return_of_the_king"
 		declare_war_on = {
 			target = ERS
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }
@@ -1392,7 +1392,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus KEM_silence_the_hawks"
 		declare_war_on = {
 			target = PAV
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 	}
 }

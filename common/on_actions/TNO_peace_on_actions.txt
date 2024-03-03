@@ -3666,7 +3666,9 @@ on_actions = {
 									transfer_state = 217
 									transfer_state = 401
 									transfer_state = 239
-									set_capital = 217
+									set_capital = {
+										state = 217
+									}
 									every_owned_state = { add_core_of = VLG }
 								}
 								if = {
@@ -4495,7 +4497,9 @@ on_actions = {
 							transfer_troops = no
 						}
 						country_event = { id = men.1 }
-						set_capital = 330
+						set_capital = {
+							state = 330
+						}
 					}
 					SVO = { country_event = SVO.36 }
 					set_global_flag = Tsagaan_defeated

@@ -1,7 +1,6 @@
 ###MISC###
 RMN = "countries/Hispania.txt"
 ZOM = "countries/Zombies.txt"
-ZZZ = "countries/anarchy.txt"
 PKT = "countries/Zollverein.txt"
 
 ###EUROPE###
@@ -596,3 +595,5 @@ SSF = "countries/SS-Kampfgruppe Fegelein.txt"
 APF = "countries/Aryan People's Front.txt"
 OER = "countries/Militarists.txt"
 FHH = "countries/Speerite-Bormanite Alliance.txt"
+
+ZZZ = "countries/anarchy.txt"

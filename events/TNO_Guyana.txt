@@ -145,7 +145,7 @@ country_event = { #Burnham coups Jagan
  	option = { #WTF
  		name = GUY.5.a
  		#replace leaders (again)
- 		load_OOB = GUY_Revolt
+ 		load_oob = GUY_Revolt
  		leave_faction = yes
  		USA = {
  			end_puppet = GUY

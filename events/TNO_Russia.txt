@@ -10883,7 +10883,9 @@ country_event = { #
 				transfer_state = 588
 				transfer_state = 590
 				set_cosmetic_tag = KAZ_DON
-				set_capital = 589
+				set_capital = {
+					state = 589
+				} 
 				add_popularity = {
 					ideology = social_democrat
 					popularity = 0.40

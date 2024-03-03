@@ -4902,7 +4902,7 @@ RAJ_India_Qualified_Navytwo  = {
 	ships_at_battle_start = 0.15
 	naval_coordination = 0.1
 	experience_gain_navy_factor = 0.1
-	navy_refit_speed = 0.1
+	refit_speed = 0.1
 	}
 }
 RAJ_India_buy_some_spare_ships_you_cunt  = {

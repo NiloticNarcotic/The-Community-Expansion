@@ -2,11 +2,6 @@
 
 oob = "CAO_1962"
 
-add_namespace = {
-	name = "cao_unit_leader"
-	type = unit_leader
-}
-
 add_ideas = {
 	WEST_AFRICA_idea_terror_bombing
 	CAO_idea_pan_african_vanguard

@@ -71,10 +71,10 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = pleskau.4.c
-        hidden_effect {
-            using_the_undesirables = yes
-        }
+		name = pleskau.4.a
+		hidden_effect = {
+			using_the_undesirables = yes
+		}
         custom_effect_tooltip = tooltip_event_pleskau_4
 	}
 }

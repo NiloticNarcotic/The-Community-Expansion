@@ -1,4 +1,99 @@
 soundeffect = {
+	name = "distance_airplane_jet_idle"
+	sounds = {
+		sound = distance_airplane_jet_idle
+	}
+	volume = 0
+}
+
+soundeffect = {
+	name = "distance_airplane_crash"
+	sounds = {
+		sound = distance_airplane_crash
+	}
+	volume = 0
+}
+
+soundeffect = {
+	name = "distance_mechanized_units_mg_fire"
+	sounds = {
+		sound = distance_mechanized_units_mg_fire
+	}
+	volume = 0
+}
+
+soundeffect = {
+	name = "distance_airplane_light_fire"
+	sounds = {
+		sound = distance_airplane_light_fire
+	}
+	volume = 0
+}
+
+soundeffect = {
+	name = "distance_airplane_ger_jet_fire"
+	sounds = {
+		sound = distance_airplane_ger_jet_fire
+	}
+	volume = 0
+}
+
+soundeffect = {
+	name = "distance_airplane_medium_idle_01"
+	sounds = {
+		sound = distance_airplane_medium_idle_01
+	}
+	volume = 0
+}
+
+soundeffect = {
+	name = "distance_airplane_idle"
+	sounds = {
+		sound = distance_airplane_idle
+	}
+	volume = 0
+}
+
+soundeffect = {
+	name = "distance_airplane_heavy_idle_01"
+	sounds = {
+		sound = distance_airplane_heavy_idle_01
+	}
+	volume = 0
+}
+
+soundeffect = {
+	name = ui_research_tab_helicopter
+	sounds = {
+		sound = ui_research_tab_helicopter
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = ui_research_tab_horse
+	sounds = {
+		sound = ui_research_tab_horse
+	}
+	volume = 1
+}
+
+
+soundeffect = {
+	name = "tno_a_grand_tomorrow"
+	sounds = {
+		sound = tno_a_grand_tomorrow
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "tno_gunfire"
+	sounds = { sound = tno_gunfire }
+	volume = 1
+}
+
+soundeffect = {
 	name = tno_se_german_civil_war
 	sounds = {
 		sound = tno_se_german_civil_war

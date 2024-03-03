@@ -505,11 +505,13 @@ GER_Espionage_category = {
 		fire_only_once = yes
 
 		highlight_states = {
-			OR = {
-				is_owned_and_controlled_by = WSR
-				is_owned_and_controlled_by = WSB
+			highlight_states_trigger = {
+				OR = {
+					is_owned_and_controlled_by = CSB
+					is_owned_and_controlled_by = FST
+				}
+				is_capital = yes
 			}
-			is_capital = yes
 		}
 
 		fixed_random_seed = no
@@ -599,11 +601,13 @@ GER_Espionage_category = {
 		fire_only_once = yes
 
 		highlight_states = {
-			OR = {
-				is_owned_and_controlled_by = CSB
-				is_owned_and_controlled_by = FST
+			highlight_states_trigger = {
+				OR = {
+					is_owned_and_controlled_by = CSB
+					is_owned_and_controlled_by = FST
+				}
+				is_capital = yes
 			}
-			is_capital = yes
 		}
 
 		fixed_random_seed = no
@@ -693,11 +697,13 @@ GER_Espionage_category = {
 		fire_only_once = yes
 
 		highlight_states = {
-			OR = {
-				is_owned_and_controlled_by = RWS
-				is_owned_and_controlled_by = SIB
+			highlight_states_trigger = {
+				OR = {
+					is_owned_and_controlled_by = RWS
+					is_owned_and_controlled_by = SIB
+				}
+				is_capital = yes
 			}
-			is_capital = yes
 		}
 
 		fixed_random_seed = no
@@ -1915,11 +1921,13 @@ GER_Espionage_category = {
 		days_re_enable = 90
 
 		highlight_states = {
-			OR = {
-				is_owned_and_controlled_by = SPS
-				is_owned_and_controlled_by = FZL
+			highlight_states_trigger = {
+				OR = {
+					is_owned_and_controlled_by = SPS
+					is_owned_and_controlled_by = FZL
+				}
+				is_capital = yes
 			}
-			is_capital = yes
 		}
 
 		remove_effect = {
@@ -2446,18 +2454,20 @@ GER_Espionage_category = {
 		fire_only_once = yes
 
 		highlight_states = {
-			OR = {
-				AND = {
-					is_owned_and_controlled_by = OMS
-					is_capital = yes
-				}
-				AND = {
-					is_owned_and_controlled_by = AMR
-					is_capital = yes
-				}
-				AND = {
-					is_owned_and_controlled_by = PRM
-					is_capital = yes
+			highlight_states_trigger = {
+				OR = {
+					AND = {
+						is_owned_and_controlled_by = OMS
+						is_capital = yes
+					}
+					AND = {
+						is_owned_and_controlled_by = AMR
+						is_capital = yes
+					}
+					AND = {
+						is_owned_and_controlled_by = PRM
+						is_capital = yes
+					}
 				}
 			}
 		}

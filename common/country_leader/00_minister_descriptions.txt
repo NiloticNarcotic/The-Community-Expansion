@@ -46,6 +46,18 @@ leader_traits = {
 		WCH_Nikolay_Ukhtomsky_for_desc = {}
 		WCH_Anatoly_Sobchak_hog_desc = {}
 
+		### Omsk ###
+		#Start
+		OMS_Dmitry_Yazov_hog_desc = {}
+		OMS_Viktor_Abakumov_for_desc = {}
+		OMS_Alexander_Kharkhardin_eco_desc = {}
+		OMS_Konstantin_Valukhin_sec_desc = {}
+		#Yazov
+		OMS_Evgeny_Savintsev_hog_desc = {}
+		OMS_Aleksandr_Sakharovsky_for_desc = {}
+		OMS_Evgeny_Pitovranov_eco_desc = {}
+		OMS_Yuriy_Drozdov_sec_desc = {}
+
 		### WRRF ###
 		#Start
 		WRS_Andrey_Grechko_for_desc = {}
@@ -64,7 +76,6 @@ leader_traits = {
 		GGR_Kurt_Schmucker_eco_desc = {}
 		GGR_Ferdinand_Schorner_sec_desc = {}
 		GGR_Wilhelm_Stuckart_hog_desc = {}
-		GGR_Paul_Korner_eco_desc = {}
 		### Speer ###
 		GER_Helmut_Schmidt_desc = {}
 		GER_Kurt_Georg_Kiesinger_desc = {}
@@ -93,6 +104,7 @@ leader_traits = {
 		### Nixon ###
 		USA_John_F_Kennedy_dep_desc = {}
 		USA_John_McCormack_dep_desc = {}
+		USA_Carl_Hayden_dep_desc = {}
 		USA_William_P_Rogers_pol_desc = {}
 		USA_Robert_McNamara_eco_desc = {}
 		USA_Melvin_Laird_mil_desc = {}
@@ -105,13 +117,17 @@ leader_traits = {
 		USA_Edmund_Muskie_dep_desc = {}
 		USA_Henry_Fowler_eco_desc = {}
 		USA_Robert_McNamara_mil_desc = {}
+		USA_Dean_Rusk_pol_desc = {}
 		### RFK ###
 		USA_Hubert_Humphrey_dep_desc = {}
 		USA_Claude_Pepper_pol_desc = {}
 		USA_Maurine_Neuberger_eco_desc = {}
 		USA_Henry_Mucci_mil_desc = {}
 		### Thurmond ###
+		USA_Spiro_Agnew_pol_desc = {}
 		USA_Maxwell_Taylor_dep_desc = {}
+		USA_Russell_Long_eco_desc = {}
+		USA_Mendel_Rivers_mil_desc = {}
 		### Wallace ###
 		USA_Curtis_LeMay_dep_desc = {}
 		USA_J_William_Fulbright_pol_desc = {}
@@ -119,6 +135,7 @@ leader_traits = {
 		USA_Robert_Byrd_mil_desc = {}
 		### Goldwater ###
 		USA_Nelson_Rockefeller_dep_desc = {}
+		USA_Carl_Curtis_pol_desc = {}
 		USA_Donald_Regan_eco_desc = {}
 		USA_Robert_McNamara_mil_gold_desc = {}
 		### Glenn ###
@@ -128,10 +145,12 @@ leader_traits = {
 		USA_Cyrus_Vance_mil_desc = {}
 		### Harrington ###
 		USA_Irving_Howe_dep_desc = {}
+		USA_Douglas_Fraser_eco_desc = {}
 		USA_William_Winter_mil_desc = {}
 		### MCS ###
 		USA_Spiro_Agnew_dep_desc = {}
 		USA_Jeane_Kirkpatrick_pol_desc = {}
+		USA_Russell_Long_eco_desc = {}
 		USA_John_Stennis_mil_desc = {}
 		USA_Maxwell_Taylor_mil_desc = {}
 		### McNamara ###
@@ -143,6 +162,7 @@ leader_traits = {
 		### McGovern ###
 		USA_Bob_Dole_dep_desc = {}
 		USA_Henry_Cabot_Lodge_Jr_pol_desc = {}
+		USA_Elliot_Richardson_eco_desc = {}
 		USA_Zbigniew_Brzezinski_mil_desc = {}
 		### Scoop ###
 		USA_Sid_McMath_dep_desc = {}
@@ -152,6 +172,8 @@ leader_traits = {
 		### Kirkpatrick ###
 		USA_Sam_Yorty_dep_desc = {}
 		USA_Walt_Rostow_pol_desc = {}
+		USA_Caspar_Weinberger_eco_desc = {}
+		USA_John_McCain_Jr_mil_desc = {}
 		### Hall ###
 		USA_Jarvis_Tyner_dep_desc = {}
 		USA_Paul_Robeson_dep_desc = {}

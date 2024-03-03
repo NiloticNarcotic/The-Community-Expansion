@@ -1081,7 +1081,7 @@ shared_focus = {
 			add_to_variable = { national_debt = 500 }
 		}
 		custom_effect_tooltip = econ_increase_debt
-		add_to_variable = { GDP_growth = 0.0001 }
+		add_to_variable = { GDP_growth = 0.001 }
 		custom_effect_tooltip = econ_increase_GDP_growth_small
 		custom_effect_tooltip = GER_BOR_lost_generation_tooltip
 		bormann_lost_generation_heavy = yes
@@ -1225,7 +1225,7 @@ shared_focus = {
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus BOR_let_the_money_flow"
-		add_to_variable = { GDP_growth = 0.0003 }
+		add_to_variable = { GDP_growth = 0.003 }
 		custom_effect_tooltip = econ_increase_GDP_growth
 		custom_effect_tooltip = GER_BOR_lost_generation_tooltip
 		bormann_lost_generation_medium = yes
@@ -3166,7 +3166,9 @@ shared_focus = { # We'll split the German-majority areas of Ukraine into their o
 				add_state_core = 200
 				transfer_state = 196
 				transfer_state = 200
-				set_capital = 196
+				set_capital = {
+					state = 196
+				}
 				inherit_technology = GER
 				load_oob = GOT
 				add_manpower = 5000
@@ -3799,7 +3801,9 @@ shared_focus = { # Both the Russians and the Wolga Germans rejoined without prob
 				MCW = {
 					apply_party_popularities = yes
 					set_cosmetic_tag = MCW_GER
-					set_capital = 1314
+					set_capital = {
+						state = 1314
+					}
 					add_ideas = {
 						Pakt_Protektorat
 					}
@@ -3809,7 +3813,9 @@ shared_focus = { # Both the Russians and the Wolga Germans rejoined without prob
 					set_politics = { ruling_party = fascism }
 					set_cosmetic_tag = MOS_BOR
 					transfer_state = 219
-					set_capital = 219
+					set_capital = {
+						state = 219
+					}
 					add_ideas = {
 						Pakt_Integrated_Reichskommissariat
 					}

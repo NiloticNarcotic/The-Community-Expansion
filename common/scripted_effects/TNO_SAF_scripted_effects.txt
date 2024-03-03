@@ -144,7 +144,7 @@ SAF_increase_RK_debuff = {
 			add_idea = usa_Wervolf_3
 		}
 	}
-	else  {
+	else =  {
 		add_ideas = usa_Wervolf_2
 	}
 }

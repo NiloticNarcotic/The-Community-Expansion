@@ -10812,7 +10812,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 				747 = { set_state_name = "Normandie-Occidentale" }
 				788 = { set_variable = { nationality = 123 } }
 				set_province_name = { id = 6949 name = "Meaux" }
-				set_capital = 16
+				set_capital = {
+					state = 16
+				}
 			}
 			ITA = {
 				set_politics = {
@@ -10918,7 +10920,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 					transfer_troops = yes
 				}
 				USA = { add_to_faction = MST }
-				set_capital = 12
+				set_capital = {
+					state = 12
+				}
 				every_owned_state = {
 					limit = { is_core_of = OST }
 					remove_core_of = OST
@@ -10939,7 +10943,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 					transfer_troops = yes
 				}
 				USA = { add_to_faction = FUK }
-				set_capital = 525
+				set_capital = {
+					state = 525
+				}
 				every_owned_state = {
 					limit = { is_core_of = UKR }
 					remove_core_of = UKR
@@ -11053,7 +11059,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 					transfer_troops = yes
 				}
 				USA = { add_to_faction = FRI }
-				set_capital = 795
+				set_capital = {
+					state = 795
+				}
 				every_owned_state = {
 					limit = { is_core_of = INS }
 					remove_core_of = INS
@@ -11134,7 +11142,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 					transfer_troops = yes
 				}
 				USA = { add_to_faction = IRL }
-				set_capital = 266
+				set_capital = {
+					state = 266
+				}
 				every_owned_state = {
 					limit = { is_core_of = PER }
 					remove_core_of = PER
@@ -11162,7 +11172,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 				127 = { set_demilitarized_zone = no }
 				338 = { set_demilitarized_zone = no }
 				USA = { add_to_faction = FEN }
-				set_capital = 1300
+				set_capital = {
+					state = 1300
+				}
 				every_owned_state = {
 					limit = { is_core_of = ENG }
 					remove_core_of = ENG
@@ -11238,7 +11250,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 					add_core_of = SEM
 				}
 				set_cosmetic_tag = SEM_regional_unifier
-				set_capital = 589
+				set_capital = {
+					state = 589
+				}
 			}
 			ERS = {
 				annex_country = {
@@ -11562,7 +11576,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 				set_province_name = { id = 11523 name = "Engels" }
 				1314 = { set_state_name = "North Moscow" }
 				set_province_name = { id = 14457 name = "North Moscow" }
-				set_capital = 219
+				set_capital = {
+					state = 219
+				}
 			}
 			ISR = {
 				annex_country = {
@@ -11862,7 +11878,9 @@ country_event = { #Reserved for the most FREEDOM event possible; by uncountably
 			}
 			ANG = {
 				retire_country_leader = yes
-				set_capital = 1035
+				set_capital = {
+					state = 1035
+				}
 				set_politics = {
 					ruling_party = authoritarian_democrat
 					last_election = "1933.3.5"

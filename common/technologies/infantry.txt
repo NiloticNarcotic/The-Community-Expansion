@@ -82,9 +82,6 @@ technologies = {
 		motorized = {
 			soft_attack = 0.025
 		}
-		mechanized = {
-			soft_attack = 0.025
-		}	
 		path = {
 			leads_to_tech = infantry_weapons_improvements_2
 			research_cost_coeff = 1
@@ -114,11 +111,7 @@ technologies = {
 		motorized = {
 			soft_attack = 0.025
 			defense = 0.025
-		}
-		mechanized = {
-			soft_attack = 0.025
-			defense = 0.025
-		}		
+		}	
 		path = {
 			leads_to_tech = infantry_weapons_improvements_3
 			research_cost_coeff = 1
@@ -148,11 +141,7 @@ technologies = {
 		motorized = {
 			soft_attack = 0.025
 			breakthrough = 0.025
-		}
-		mechanized = {
-			soft_attack = 0.025
-			breakthrough = 0.025
-		}			
+		}		
 		path = {
 			leads_to_tech = infantry_weapons_improvements_4
 			research_cost_coeff = 1
@@ -181,9 +170,6 @@ technologies = {
 		motorized = {
 			soft_attack = 0.1
 		}
-		mechanized = {
-			soft_attack = 0.1
-		}	
 		path = {
 			leads_to_tech = infantry_weapons_3
 			research_cost_coeff = 1
@@ -237,10 +223,7 @@ technologies = {
 		}
 		motorized = {
 			soft_attack = 0.025
-		}
-		mechanized = {
-			soft_attack = 0.025
-		}		
+		}	
 		path = {
 			leads_to_tech = infantry_weapons_improvements_6
 			research_cost_coeff = 1
@@ -270,11 +253,7 @@ technologies = {
 		motorized = {
 			soft_attack = 0.025
 			defense = 0.025
-		}
-		mechanized = {
-			soft_attack = 0.025
-			defense = 0.025
-		}		
+		}	
 		path = {
 			leads_to_tech = infantry_weapons_improvements_7
 			research_cost_coeff = 1
@@ -305,10 +284,6 @@ technologies = {
 			soft_attack = 0.025
 			breakthrough = 0.025
 		}
-		mechanized = {
-			soft_attack = 0.025
-			breakthrough = 0.025
-		}		
 		path = {
 			leads_to_tech = infantry_weapons_improvements_8
 			research_cost_coeff = 1
@@ -337,9 +312,6 @@ technologies = {
 		motorized = {
 			soft_attack = 0.1
 		}
-		mechanized = {
-			soft_attack = 0.1
-		}		
 		path = {
 			leads_to_tech = infantry_weapons_4
 			research_cost_coeff = 1
@@ -394,9 +366,6 @@ technologies = {
 		motorized = {
 			soft_attack = 0.025
 		}
-		mechanized = {
-			soft_attack = 0.025
-		}		
 		path = {
 			leads_to_tech = infantry_weapons_improvements_10
 			research_cost_coeff = 1
@@ -427,10 +396,6 @@ technologies = {
 			soft_attack = 0.025
 			defense = 0.025
 		}
-		mechanized = {
-			soft_attack = 0.025
-			defense = 0.025
-		}			
 		path = {
 			leads_to_tech = infantry_weapons_improvements_11
 			research_cost_coeff = 1
@@ -461,10 +426,6 @@ technologies = {
 			soft_attack = 0.025
 			breakthrough = 0.025
 		}
-		mechanized = {
-			soft_attack = 0.025
-			breakthrough = 0.025
-		}			
 		path = {
 			leads_to_tech = infantry_weapons_improvements_12
 			research_cost_coeff = 1
@@ -493,9 +454,6 @@ technologies = {
 		motorized = {
 			soft_attack = 0.1
 		}
-		mechanized = {
-			soft_attack = 0.1
-		}		
 		path = {
 			leads_to_tech = infantry_weapons_5
 			research_cost_coeff = 1
@@ -550,9 +508,6 @@ technologies = {
 		motorized = {
 			soft_attack = 0.025
 		}
-		mechanized = {
-			soft_attack = 0.025
-		}		
 		path = {
 			leads_to_tech = infantry_weapons_improvements_14
 			research_cost_coeff = 1
@@ -583,10 +538,6 @@ technologies = {
 			soft_attack = 0.025
 			defense = 0.025
 		}
-		mechanized = {
-			soft_attack = 0.025
-			defense = 0.025
-		}		
 		path = {
 			leads_to_tech = infantry_weapons_improvements_15
 			research_cost_coeff = 1
@@ -617,10 +568,6 @@ technologies = {
 			soft_attack = 0.025
 			breakthrough = 0.025
 		}
-		mechanized = {
-			soft_attack = 0.025
-			breakthrough = 0.025
-		}			
 		path = {
 			leads_to_tech = infantry_weapons_improvements_16
 			research_cost_coeff = 1
@@ -649,9 +596,6 @@ technologies = {
 		motorized = {
 			soft_attack = 0.1
 		}
-		mechanized = {
-			soft_attack = 0.1
-		}		
 		path = {
 			leads_to_tech = infantry_weapons_6
 			research_cost_coeff = 1

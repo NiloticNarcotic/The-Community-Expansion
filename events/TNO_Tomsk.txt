@@ -1194,7 +1194,7 @@ country_event = { #TOMSK - Oyrotia refuses!
 		ai_chance = { factor = 1 }
 		declare_war_on = {
 			target = ALT
-			type = russian_reclaimation
+			type = russian_reclamation
 		}
 		set_country_flag = ERS_war_with_oyrotia
 	}

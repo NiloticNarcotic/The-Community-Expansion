@@ -172,7 +172,9 @@ country_event = { #Fate of Mongolia
 					id = men.5
 					days = 45
 				}
-				set_capital = 330
+				set_capital = {
+					state = 330
+				} 
 				set_variable = {interest_rates = 0.02}
 			}
 		}

@@ -1819,7 +1819,9 @@ country_event = { # The Quelimane Conference - Independance Day
 					set_state_controller = 1118
 					add_state_core = 1118
 
-					set_capital = 1078
+					set_capital = {
+						state = 1078
+					}
 				}
 			}
 
@@ -2297,7 +2299,9 @@ country_event = { # The Luanda Conference - Independance Day
 
 			ANG = {
 				retire_country_leader = yes
-				set_capital = 1035
+				set_capital = {
+					state = 1035
+				}
 				drop_cosmetic_tag = yes
 				
 				if = {

@@ -1180,7 +1180,9 @@ divide_ostland = {
 		load_focus_tree = OST_empty
 	}		
 	BLR = {
-		set_capital = 96
+		set_capital = {
+			state = 96
+		}
 		set_politics = {	
 			ruling_party = authoritarian_democrat
 			last_election = "1933.3.5"
@@ -1482,7 +1484,9 @@ divide_ostland2 = {
 	}
 	
 	BLR = {
-		set_capital = 96
+		set_capital = {
+			state = 96
+		}
 		set_politics = {	
 			ruling_party = fascism
 			last_election = "1933.3.5"

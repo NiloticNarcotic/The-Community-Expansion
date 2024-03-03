@@ -108,7 +108,9 @@ country_event = { # Congolese Civil War
 	option = {
 		name = A_SPRING.4.a
 		CFS = {
-			set_capital = 1168
+			set_capital = {
+				state = 1168
+			}
 
 			declare_war_on = {
 			    target = CPR

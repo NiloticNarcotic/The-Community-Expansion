@@ -1661,7 +1661,7 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = OMS
-				type = russian_reclaimation
+				type = russian_reclamation
 			}
 		}
 	}
@@ -1757,7 +1757,7 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = TOB
-				type = russian_reclaimation
+				type = russian_reclamation
 			}
 		}
 	}
@@ -2003,7 +2003,7 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = KOM
-				type = russian_reclaimation
+				type = russian_reclamation
 			}
 		}
 	}
@@ -2381,7 +2381,7 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = UDM
-				type = russian_reclaimation
+				type = russian_reclamation
 			}
 		}
 	}
@@ -2405,7 +2405,7 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = VOR
-				type = russian_reclaimation
+				type = russian_reclamation
 			}
 		}
 	}

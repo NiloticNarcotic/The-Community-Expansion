@@ -1,4 +1,3 @@
-#reload countrycolors
 IRI = {
     color = rgb { 0 74 0 }
 	color_ui = rgb { 0 74 0 }

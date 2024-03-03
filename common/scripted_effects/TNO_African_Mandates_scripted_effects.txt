@@ -349,7 +349,9 @@ USA_AFRICA_setup_african_crisis = {
 			add_state_core = 1051
 
 			retire_country_leader = yes
-			set_capital = 1035
+			set_capital = {
+				state = 1035
+			}
 			drop_cosmetic_tag = yes
 			
 			set_politics = {	
@@ -1309,7 +1311,9 @@ USA_AFRICA_liberate_africa = {
 			add_state_core = 1051
 
 			retire_country_leader = yes
-			set_capital = 1035
+			set_capital = {
+				state = 1035
+			}
 			drop_cosmetic_tag = yes
 		}
 		ZAM = {

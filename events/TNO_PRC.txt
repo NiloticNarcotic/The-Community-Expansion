@@ -1307,17 +1307,23 @@ country_event = { #new capital
 	option = { #Novosibirsk
 		name = SVO.62.a
 		ai_chance = { factor = 1 }
-		set_capital = 570
+		set_capital = {
+			state = 570
+		} 
 	}
 	option = { #Krasnoyarsk
 		name = SVO.62.b
 		ai_chance = { factor = 1 }
-		set_capital = 757
+		set_capital = {
+			state = 757
+		} 
 	}
 	option = { #Kemerovo
 		name = SVO.62.c
 		ai_chance = { factor = 1 }
-		set_capital = 569
+		set_capital = {
+			state = 569
+		} 
 	}
 }
 

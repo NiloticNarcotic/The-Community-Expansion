@@ -1186,7 +1186,9 @@ country_event = {
 				}
 				ANG = {
 					retire_country_leader = yes
-					set_capital = 1035
+					set_capital = {
+						state = 1035
+					} 
 					add_ideas = OFN_Mandate
 					set_politics = {
 						ruling_party = authoritarian_democrat
@@ -2271,7 +2273,9 @@ country_event = {
 			}
 		}
 		ANG = {
-			set_capital = 1035
+			set_capital = {
+				state = 1035
+			} 
 		}
 		if = {
 			limit = {
@@ -2300,7 +2304,9 @@ country_event = {
 			}
 				ANG = {
 					retire_country_leader = yes
-					set_capital = 1035
+					set_capital = {
+						state = 1035
+					} 
 					set_politics = {
 						ruling_party = authoritarian_democrat
 						last_election = "1933.3.5"

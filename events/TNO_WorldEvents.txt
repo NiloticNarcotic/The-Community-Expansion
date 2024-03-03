@@ -20383,11 +20383,15 @@ news_event = { #Emperor Bao Dai Abdicates; Communist Party Swept Into Power - Ho
 			set_politics = { ruling_party = socialist }
 			add_popularity = { ideology = socialist popularity = .55 }
 			leave_faction = yes
-			set_capital = 4401
+			
+			set_capital = {
+				state = 878
+			}
+			
 			878 = { set_state_name = "Thành phố Ho Chí Minh" }
 			set_province_name = {
 				id = 4401
-					name = "Thành phố Ho Chí Minh"
+				name = "Thành phố Ho Chí Minh"
 			}
 		}
 	}

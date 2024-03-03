@@ -2656,7 +2656,7 @@ RUS_polls_effect = {
 	if = {
 		limit = { tag = TOB }
 		random_list = {
-			= {
+			33 = {
 				country_event = {
 					id = russian_democracy_helpers.14
 					days = 4

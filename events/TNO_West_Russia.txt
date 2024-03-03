@@ -4696,11 +4696,15 @@ country_event = {
 	}
 	option = { #Syktyvkar
 		name = zhukov.27.b
-		set_capital = 397
+		set_capital = {
+			state = 397
+		} 
 	}
 	option = { #Kirov
 		name = zhukov.27.c
-		set_capital = 400
+		set_capital = {
+			state = 400
+		} 
 	}
 }
 
